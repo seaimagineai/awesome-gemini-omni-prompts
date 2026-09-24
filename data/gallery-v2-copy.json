@@ -1,6 +1,6 @@
 {
   "en": {
-    "intro": "76 complete prompts in 9 categories, 6 original starting-frame examples, and published results paired with their authors’ public prompts.",
+    "intro": "76 complete prompts in 9 categories, 9 original starting-frame examples, and published results paired with their authors’ public prompts.",
     "category_titles": [
       "Cinema and storytelling",
       "Commerce and social media",
@@ -18,7 +18,10 @@
       "Below the mangrove waterline",
       "The fox delivers the last letter",
       "Amber glass pear / star-core cut",
-      "An observatory inside a suitcase"
+      "An observatory inside a suitcase",
+      "Bookshop window: winter outside only",
+      "Meteorite gallery: a parallax orbit",
+      "Underwater ruins: the robot returns a light seed"
     ],
     "result_titles": [
       "Bubble sculpture",
@@ -45,7 +48,7 @@
       "Once the composition works, change one detail at a time before increasing the resolution."
     ],
     "new_sources": "Creative sources for the new categories",
-    "preview_note": "Category images illustrate their themes. The six example images are reference starting frames. Neither represents a generated video result.",
+    "preview_note": "Category images illustrate their themes. The nine example images are reference starting frames. Neither represents a generated video result.",
     "count_label": "prompts",
     "input_video": "Input video required",
     "text_to_video": "Text to video",
@@ -54,7 +57,7 @@
     "brand_bridge": "No suitable starting image? Prepare your own scene with AI image generation; if you already have an image, go straight to image-to-video. Pick a subject from this library and adapt it while keeping the timeline and the details that must stay unchanged."
   },
   "cn": {
-    "intro": "76 条完整提示词，分为 9 类；附 6 个原创首帧案例，以及配有作者公开提示词的效果展示。",
+    "intro": "76 条完整提示词，分为 9 类；附 9 个原创首帧案例，以及配有作者公开提示词的效果展示。",
     "category_titles": [
       "电影与叙事",
       "商业广告与社交媒体",
@@ -72,7 +75,10 @@
       "红树林：潜入荧光水域",
       "纸艺狐邮差：夜雨末班车",
       "琥珀玻璃梨：切开星形晶核",
-      "蓝色旅行箱：云海天文台"
+      "蓝色旅行箱：云海天文台",
+      "书店雨窗：只让窗外入冬",
+      "陨石展厅：一镜环绕的视差",
+      "水下遗迹：机器人归还光种"
     ],
     "result_titles": [
       "气泡雕塑",
@@ -99,7 +105,7 @@
       "构图满意后，每次只调整一个细节，再提高分辨率。"
     ],
     "new_sources": "新增分类的创作灵感来源",
-    "preview_note": "分类图用于展示题材；六个案例的配图为参考首帧。两者均不代表已生成的视频效果。",
+    "preview_note": "分类图用于展示题材；九个案例的配图为参考首帧。两者均不代表已生成的视频效果。",
     "count_label": "条提示词",
     "input_video": "需输入视频",
     "text_to_video": "文生视频",
@@ -108,7 +114,7 @@
     "brand_bridge": "没有合适的首帧时，可先用 AI 图片生成准备自己的场景；已有图片则直接做图生视频。选取本库题材，保留动作时间线和需要保持不变的细节，即可开始改写。"
   },
   "tw": {
-    "intro": "76 則完整提示詞，分為 9 類；附 6 個原創首幀案例，以及搭配作者公開提示詞的效果展示。",
+    "intro": "76 則完整提示詞，分為 9 類；附 9 個原創首幀案例，以及搭配作者公開提示詞的效果展示。",
     "category_titles": [
       "電影與敘事",
       "商業廣告與社群媒體",
@@ -126,7 +132,10 @@
       "紅樹林：潛入螢光水域",
       "紙藝狐郵差：夜雨末班車",
       "琥珀玻璃梨：切開星形晶核",
-      "藍色旅行箱：雲海天文台"
+      "藍色旅行箱：雲海天文台",
+      "書店雨窗：只讓窗外入冬",
+      "隕石展廳：一鏡環繞的視差",
+      "水下遺跡：機器人歸還光種"
     ],
     "result_titles": [
       "氣泡雕塑",
@@ -153,7 +162,7 @@
       "構圖滿意後，每次只調整一個細節，再提高解析度。"
     ],
     "new_sources": "新增分類的創作靈感來源",
-    "preview_note": "分類圖用於展示題材；六個案例的配圖為參考首幀。兩者皆不代表已生成的影片效果。",
+    "preview_note": "分類圖用於展示題材；九個案例的配圖為參考首幀。兩者皆不代表已生成的影片效果。",
     "count_label": "則提示詞",
     "input_video": "需輸入影片",
     "text_to_video": "文字轉影片",
@@ -162,7 +171,7 @@
     "brand_bridge": "沒有合適的首幀時，可先用 AI 圖片生成準備自己的場景；已有圖片則直接做圖片轉影片。選取本庫題材，保留動作時間線和需要維持不變的細節，即可開始改寫。"
   },
   "ja": {
-    "intro": "9 カテゴリ・76 本の完全版プロンプト、6 つのオリジナル開始フレーム例、作者が公開したプロンプト付きの生成結果を収録。",
+    "intro": "9 カテゴリ・76 本の完全版プロンプト、9 つのオリジナル開始フレーム例、作者が公開したプロンプト付きの生成結果を収録。",
     "category_titles": [
       "映画・ストーリー",
       "広告・SNS",
@@ -180,7 +189,10 @@
       "マングローブの水面下へ",
       "折り紙のキツネと最終列車",
       "琥珀ガラスの洋梨と星形の芯",
-      "スーツケースの中の天文台"
+      "スーツケースの中の天文台",
+      "書店の窓：窓の外だけが冬になる",
+      "隕石の展示室：回り込むカメラと視差",
+      "水中遺跡：ロボットが光の種を返す"
     ],
     "result_titles": [
       "泡の彫刻",
@@ -207,7 +219,7 @@
       "構図が決まったら一度に一つだけ調整し、その後で解像度を上げます。"
     ],
     "new_sources": "新カテゴリの着想元",
-    "preview_note": "カテゴリ画像は題材のイメージです。6 つの作例画像は開始フレーム用の参照画像です。いずれも生成動画の結果ではありません。",
+    "preview_note": "カテゴリ画像は題材のイメージです。9 つの作例画像は開始フレーム用の参照画像です。いずれも生成動画の結果ではありません。",
     "count_label": "本のプロンプト",
     "input_video": "入力動画が必要",
     "text_to_video": "テキストから動画",
@@ -216,7 +228,7 @@
     "brand_bridge": "適した開始画像がなければ、AI 画像生成で自分のシーンを用意します。画像があれば、そのまま画像から動画へ進めます。このライブラリから題材を選び、動作の時間配分と変えたくない特徴を保ちながら書き換えてみてください。"
   },
   "ko": {
-    "intro": "9개 분류의 완성형 프롬프트 76개, 독창적인 시작 프레임 사례 6개, 작성자가 공개한 프롬프트와 연결된 결과를 담았습니다.",
+    "intro": "9개 분류의 완성형 프롬프트 76개, 독창적인 시작 프레임 사례 9개, 작성자가 공개한 프롬프트와 연결된 결과를 담았습니다.",
     "category_titles": [
       "영화와 스토리텔링",
       "광고와 소셜 미디어",
@@ -234,7 +246,10 @@
       "맹그로브 수면 아래로",
       "종이 여우 우체부의 마지막 열차",
       "호박색 유리 배 속 별 모양 결정",
-      "여행 가방 속 천문대"
+      "여행 가방 속 천문대",
+      "서점의 창: 창밖만 겨울로",
+      "운석 전시실: 한 번의 회전 촬영으로 드러나는 시차",
+      "수중 유적: 빛의 씨앗을 돌려주는 로봇"
     ],
     "result_titles": [
       "비눗방울 조각",
@@ -261,7 +276,7 @@
       "구도가 마음에 들면 한 번에 세부 사항 하나씩 조정한 후 해상도를 높이세요."
     ],
     "new_sources": "새 분류의 창작 참고 출처",
-    "preview_note": "분류 이미지는 주제를 보여 주는 예시이며, 여섯 사례 이미지는 시작 프레임용 참조입니다. 둘 다 생성된 영상 결과가 아닙니다.",
+    "preview_note": "분류 이미지는 주제를 보여 주는 예시이며, 아홉 사례 이미지는 시작 프레임용 참조입니다. 둘 다 생성된 영상 결과가 아닙니다.",
     "count_label": "개 프롬프트",
     "input_video": "입력 영상 필요",
     "text_to_video": "텍스트로 영상 만들기",
@@ -270,7 +285,7 @@
     "brand_bridge": "적절한 시작 이미지가 없다면 AI 이미지 생성으로 장면을 준비하세요. 이미지가 있다면 바로 이미지로 영상 만들기를 시작할 수 있습니다. 이 라이브러리에서 소재를 골라 동작 시간표와 유지할 특징은 남겨 두고 내용을 바꿔 보세요."
   },
   "es": {
-    "intro": "76 prompts completos en 9 categorías, 6 ejemplos con fotogramas iniciales originales y resultados acompañados de los prompts públicos de sus autores.",
+    "intro": "76 prompts completos en 9 categorías, 9 ejemplos con fotogramas iniciales originales y resultados acompañados de los prompts públicos de sus autores.",
     "category_titles": [
       "Cine y narrativa",
       "Publicidad y redes sociales",
@@ -288,7 +303,10 @@
       "Bajo el agua del manglar",
       "El zorro entrega la última carta",
       "Pera de cristal ámbar con núcleo estrellado",
-      "Un observatorio dentro de una maleta"
+      "Un observatorio dentro de una maleta",
+      "Ventana de librería: invierno solo afuera",
+      "Sala de meteoritos: una órbita con paralaje",
+      "Ruinas submarinas: el robot devuelve una semilla de luz"
     ],
     "result_titles": [
       "Escultura de burbujas",
@@ -315,7 +333,7 @@
       "Cuando te guste la composición, modifica un detalle cada vez antes de aumentar la resolución."
     ],
     "new_sources": "Fuentes de inspiración para las nuevas categorías",
-    "preview_note": "Las imágenes de las categorías ilustran sus temas. Las seis imágenes de ejemplo son fotogramas iniciales de referencia. Ninguna representa un resultado de vídeo generado.",
+    "preview_note": "Las imágenes de las categorías ilustran sus temas. Las nueve imágenes de ejemplo son fotogramas iniciales de referencia. Ninguna representa un resultado de vídeo generado.",
     "count_label": "prompts",
     "input_video": "Requiere vídeo de entrada",
     "text_to_video": "Texto a vídeo",
@@ -324,7 +342,7 @@
     "brand_bridge": "Si no tienes una imagen inicial adecuada, prepara tu escena con generación de imágenes por IA. Si ya tienes una, pasa a imagen a vídeo. Elige un tema de esta biblioteca y adáptalo conservando la secuencia temporal y los detalles que deben permanecer iguales."
   },
   "fr": {
-    "intro": "76 prompts complets répartis en 9 catégories, 6 exemples avec images de départ originales et des résultats associés aux prompts publiés par leurs auteurs.",
+    "intro": "76 prompts complets répartis en 9 catégories, 9 exemples avec images de départ originales et des résultats associés aux prompts publiés par leurs auteurs.",
     "category_titles": [
       "Cinéma et narration",
       "Publicité et réseaux sociaux",
@@ -342,7 +360,10 @@
       "Sous la surface de la mangrove",
       "Le renard livre la dernière lettre",
       "Poire en verre ambré au cœur étoilé",
-      "Un observatoire dans une valise"
+      "Un observatoire dans une valise",
+      "Vitrine de librairie : l’hiver seulement dehors",
+      "Salle des météorites : un mouvement orbital en parallaxe",
+      "Ruines sous-marines : le robot rend une graine de lumière"
     ],
     "result_titles": [
       "Sculpture de bulles",
@@ -369,7 +390,7 @@
       "Une fois la composition satisfaisante, modifiez un détail à la fois avant d’augmenter la résolution."
     ],
     "new_sources": "Sources d’inspiration des nouvelles catégories",
-    "preview_note": "Les images des catégories illustrent leurs thèmes. Les six images d’exemple sont des références pour le premier plan. Aucune ne représente un résultat vidéo généré.",
+    "preview_note": "Les images des catégories illustrent leurs thèmes. Les neuf images d’exemple sont des références pour le premier plan. Aucune ne représente un résultat vidéo généré.",
     "count_label": "prompts",
     "input_video": "Vidéo d’entrée requise",
     "text_to_video": "Texte vers vidéo",
@@ -378,7 +399,7 @@
     "brand_bridge": "Pas d’image de départ adaptée ? Préparez votre scène avec la génération d’images par IA. Si vous avez déjà une image, passez directement à l’outil image vers vidéo. Choisissez un thème de cette bibliothèque et adaptez-le en conservant la chronologie et les détails à maintenir."
   },
   "de": {
-    "intro": "76 vollständige Prompts in 9 Kategorien, 6 Beispiele mit eigenen Startbildern und veröffentlichte Ergebnisse samt öffentlichen Prompts der Urheber.",
+    "intro": "76 vollständige Prompts in 9 Kategorien, 9 Beispiele mit eigenen Startbildern und veröffentlichte Ergebnisse samt öffentlichen Prompts der Urheber.",
     "category_titles": [
       "Film und Erzählung",
       "Werbung und soziale Medien",
@@ -396,7 +417,10 @@
       "Unter der Wasserlinie der Mangroven",
       "Der Fuchs bringt den letzten Brief",
       "Bernsteinglasbirne mit Stern im Kern",
-      "Eine Sternwarte im Koffer"
+      "Eine Sternwarte im Koffer",
+      "Buchladenfenster: Winter nur draußen",
+      "Meteoritensaal: eine Kamerafahrt mit Parallaxe",
+      "Unterwasserruinen: Der Roboter bringt einen Lichtsamen zurück"
     ],
     "result_titles": [
       "Skulptur aus Seifenblasen",
@@ -423,7 +447,7 @@
       "Wenn die Komposition passt, jeweils ein Detail ändern und erst danach die Auflösung erhöhen."
     ],
     "new_sources": "Ideenquellen für die neuen Kategorien",
-    "preview_note": "Kategoriebilder veranschaulichen die Themen. Die sechs Beispielbilder dienen als Referenz für den ersten Frame. Keines davon zeigt ein erzeugtes Videoergebnis.",
+    "preview_note": "Kategoriebilder veranschaulichen die Themen. Die neun Beispielbilder dienen als Referenz für den ersten Frame. Keines davon zeigt ein erzeugtes Videoergebnis.",
     "count_label": "Prompts",
     "input_video": "Eingabevideo erforderlich",
     "text_to_video": "Text zu Video",
@@ -432,7 +456,7 @@
     "brand_bridge": "Kein passendes Startbild? Bereite deine Szene mit KI-Bildgenerierung vor. Mit einem vorhandenen Bild kannst du direkt zu Bild-zu-Video wechseln. Wähle ein Thema aus dieser Sammlung und passe es an; behalte dabei den zeitlichen Ablauf und die unveränderlichen Details bei."
   },
   "pt": {
-    "intro": "76 prompts completos em 9 categorias, 6 exemplos com quadros iniciais originais e resultados acompanhados dos prompts públicos dos autores.",
+    "intro": "76 prompts completos em 9 categorias, 9 exemplos com quadros iniciais originais e resultados acompanhados dos prompts públicos dos autores.",
     "category_titles": [
       "Cinema e narrativa",
       "Publicidade e redes sociais",
@@ -450,7 +474,10 @@
       "Sob a água do manguezal",
       "A raposa entrega a última carta",
       "Pera de vidro âmbar com núcleo estrelado",
-      "Um observatório dentro de uma mala"
+      "Um observatório dentro de uma mala",
+      "Janela da livraria: inverno só lá fora",
+      "Galeria de meteoritos: uma órbita com paralaxe",
+      "Ruínas subaquáticas: o robô devolve uma semente de luz"
     ],
     "result_titles": [
       "Escultura de bolhas",
@@ -477,7 +504,7 @@
       "Quando gostar da composição, mude um detalhe por vez antes de aumentar a resolução."
     ],
     "new_sources": "Fontes de inspiração das novas categorias",
-    "preview_note": "As imagens das categorias ilustram seus temas. As seis imagens de exemplo são quadros iniciais de referência. Nenhuma representa um resultado de vídeo gerado.",
+    "preview_note": "As imagens das categorias ilustram seus temas. As nove imagens de exemplo são quadros iniciais de referência. Nenhuma representa um resultado de vídeo gerado.",
     "count_label": "prompts",
     "input_video": "Requer vídeo de entrada",
     "text_to_video": "Texto para vídeo",
@@ -486,7 +513,7 @@
     "brand_bridge": "Sem uma imagem inicial adequada? Prepare sua cena com geração de imagens por IA. Se já tiver uma imagem, vá direto para imagem para vídeo. Escolha um tema desta biblioteca e adapte-o mantendo a sequência temporal e os detalhes que devem permanecer iguais."
   },
   "it": {
-    "intro": "76 prompt completi in 9 categorie, 6 esempi con fotogrammi iniziali originali e risultati accompagnati dai prompt pubblicati dagli autori.",
+    "intro": "76 prompt completi in 9 categorie, 9 esempi con fotogrammi iniziali originali e risultati accompagnati dai prompt pubblicati dagli autori.",
     "category_titles": [
       "Cinema e narrazione",
       "Pubblicità e social media",
@@ -504,7 +531,10 @@
       "Sotto l’acqua delle mangrovie",
       "La volpe consegna l’ultima lettera",
       "Pera di vetro ambrato con cuore stellato",
-      "Un osservatorio dentro una valigia"
+      "Un osservatorio dentro una valigia",
+      "Finestra di libreria: inverno solo fuori",
+      "Sala dei meteoriti: un’orbita con parallasse",
+      "Rovine sommerse: il robot restituisce un seme di luce"
     ],
     "result_titles": [
       "Scultura di bolle",
@@ -531,7 +561,7 @@
       "Quando la composizione ti soddisfa, cambia un dettaglio alla volta e poi aumenta la risoluzione."
     ],
     "new_sources": "Fonti di ispirazione per le nuove categorie",
-    "preview_note": "Le immagini delle categorie ne illustrano i temi. Le sei immagini di esempio sono fotogrammi iniziali di riferimento. Nessuna rappresenta un risultato video generato.",
+    "preview_note": "Le immagini delle categorie ne illustrano i temi. Le nove immagini di esempio sono fotogrammi iniziali di riferimento. Nessuna rappresenta un risultato video generato.",
     "count_label": "prompt",
     "input_video": "Video in ingresso richiesto",
     "text_to_video": "Da testo a video",
@@ -540,7 +570,7 @@
     "brand_bridge": "Non hai un’immagine iniziale adatta? Prepara la tua scena con la generazione di immagini IA. Se hai già un’immagine, passa direttamente da immagine a video. Scegli un tema della raccolta e adattalo mantenendo la sequenza temporale e i dettagli che non devono cambiare."
   },
   "ru": {
-    "intro": "76 полных промптов в 9 категориях, 6 примеров с оригинальными стартовыми кадрами и опубликованные результаты со ссылками на промпты авторов.",
+    "intro": "76 полных промптов в 9 категориях, 9 примеров с оригинальными стартовыми кадрами и опубликованные результаты со ссылками на промпты авторов.",
     "category_titles": [
       "Кино и повествование",
       "Реклама и соцсети",
@@ -558,7 +588,10 @@
       "Под водой мангрового леса",
       "Лис доставляет последнее письмо",
       "Стеклянная груша со звёздным ядром",
-      "Обсерватория в чемодане"
+      "Обсерватория в чемодане",
+      "Окно книжного магазина: зима только снаружи",
+      "Зал метеоритов: облёт с параллаксом",
+      "Подводные руины: робот возвращает семя света"
     ],
     "result_titles": [
       "Скульптура из пузырей",
@@ -585,7 +618,7 @@
       "Когда композиция устроит, меняйте по одной детали, затем повышайте разрешение."
     ],
     "new_sources": "Источники идей для новых категорий",
-    "preview_note": "Изображения категорий иллюстрируют темы. Шесть изображений примеров служат референсами для стартового кадра. Ни те ни другие не показывают результаты генерации видео.",
+    "preview_note": "Изображения категорий иллюстрируют темы. Девять изображений примеров служат референсами для стартового кадра. Ни те ни другие не показывают результаты генерации видео.",
     "count_label": "промптов",
     "input_video": "Нужно входное видео",
     "text_to_video": "Видео из текста",
@@ -594,7 +627,7 @@
     "brand_bridge": "Нет подходящего стартового изображения? Подготовьте сцену с помощью генерации изображений ИИ. Если изображение уже есть, переходите к созданию видео из него. Выберите тему из библиотеки и переработайте её, сохраняя временную последовательность и детали, которые не должны меняться."
   },
   "id": {
-    "intro": "76 prompt lengkap dalam 9 kategori, 6 contoh dengan bingkai awal orisinal, serta hasil dengan tautan prompt yang dipublikasikan pembuatnya.",
+    "intro": "76 prompt lengkap dalam 9 kategori, 9 contoh dengan bingkai awal orisinal, serta hasil dengan tautan prompt yang dipublikasikan pembuatnya.",
     "category_titles": [
       "Film dan cerita",
       "Iklan dan media sosial",
@@ -612,7 +645,10 @@
       "Di bawah air hutan bakau",
       "Rubah mengantar surat terakhir",
       "Pir kaca ambar dengan inti bintang",
-      "Observatorium di dalam koper"
+      "Observatorium di dalam koper",
+      "Jendela toko buku: musim dingin hanya di luar",
+      "Galeri meteorit: gerakan mengorbit dengan paralaks",
+      "Reruntuhan bawah air: robot mengembalikan benih cahaya"
     ],
     "result_titles": [
       "Patung gelembung",
@@ -639,7 +675,7 @@
       "Setelah komposisinya sesuai, ubah satu detail setiap kali sebelum menaikkan resolusi."
     ],
     "new_sources": "Sumber inspirasi kategori baru",
-    "preview_note": "Gambar kategori menggambarkan temanya. Keenam gambar contoh adalah referensi bingkai awal. Keduanya bukan hasil video yang telah dibuat.",
+    "preview_note": "Gambar kategori menggambarkan temanya. Kesembilan gambar contoh adalah referensi bingkai awal. Keduanya bukan hasil video yang telah dibuat.",
     "count_label": "prompt",
     "input_video": "Memerlukan video masukan",
     "text_to_video": "Teks ke video",
@@ -648,7 +684,7 @@
     "brand_bridge": "Belum punya gambar awal yang cocok? Siapkan adegan dengan pembuatan gambar AI. Jika sudah punya gambar, langsung gunakan gambar ke video. Pilih tema dari pustaka ini lalu ubah sesuai ide Anda, sambil mempertahankan urutan waktu dan detail yang harus tetap sama."
   },
   "th": {
-    "intro": "พรอมป์ฉบับเต็ม 76 รายการใน 9 หมวด พร้อมตัวอย่างเฟรมเริ่มต้นที่สร้างขึ้นใหม่ 6 แบบ และผลงานที่มีลิงก์พรอมป์ซึ่งผู้สร้างเผยแพร่ไว้",
+    "intro": "พรอมป์ฉบับเต็ม 76 รายการใน 9 หมวด พร้อมตัวอย่างเฟรมเริ่มต้นที่สร้างขึ้นใหม่ 9 แบบ และผลงานที่มีลิงก์พรอมป์ซึ่งผู้สร้างเผยแพร่ไว้",
     "category_titles": [
       "ภาพยนตร์และการเล่าเรื่อง",
       "โฆษณาและโซเชียลมีเดีย",
@@ -666,7 +702,10 @@
       "ใต้ผิวน้ำป่าชายเลน",
       "จิ้งจอกส่งจดหมายฉบับสุดท้าย",
       "ลูกแพร์แก้วสีอำพันกับแกนรูปดาว",
-      "หอดูดาวในกระเป๋าเดินทาง"
+      "หอดูดาวในกระเป๋าเดินทาง",
+      "หน้าต่างร้านหนังสือ: ฤดูหนาวเฉพาะด้านนอก",
+      "ห้องจัดแสดงอุกกาบาต: กล้องโคจรเผยพารัลแลกซ์",
+      "ซากโบราณใต้น้ำ: หุ่นยนต์คืนเมล็ดแห่งแสง"
     ],
     "result_titles": [
       "ประติมากรรมฟองสบู่",
@@ -693,7 +732,7 @@
       "เมื่อพอใจกับองค์ประกอบภาพ ให้ปรับทีละรายละเอียดก่อนเพิ่มความละเอียด"
     ],
     "new_sources": "แหล่งแรงบันดาลใจของหมวดใหม่",
-    "preview_note": "ภาพหมวดหมู่ใช้สื่อถึงหัวข้อ ส่วนภาพตัวอย่างทั้งหกเป็นภาพอ้างอิงสำหรับเฟรมเริ่มต้น ทั้งสองประเภทไม่ใช่ผลลัพธ์วิดีโอที่สร้างแล้ว",
+    "preview_note": "ภาพหมวดหมู่ใช้สื่อถึงหัวข้อ ส่วนภาพตัวอย่างทั้งเก้าเป็นภาพอ้างอิงสำหรับเฟรมเริ่มต้น ทั้งสองประเภทไม่ใช่ผลลัพธ์วิดีโอที่สร้างแล้ว",
     "count_label": "พรอมป์",
     "input_video": "ต้องมีวิดีโอต้นทาง",
     "text_to_video": "ข้อความเป็นวิดีโอ",
@@ -702,7 +741,7 @@
     "brand_bridge": "ถ้ายังไม่มีภาพเริ่มต้นที่เหมาะสม ให้สร้างฉากของคุณด้วย AI สร้างภาพก่อน หากมีภาพแล้ว ให้ใช้ภาพเป็นวิดีโอได้เลย เลือกหัวข้อจากคลังนี้แล้วปรับเนื้อหา โดยคงลำดับเวลาและรายละเอียดที่ต้องไม่เปลี่ยนไว้"
   },
   "vi": {
-    "intro": "76 prompt đầy đủ trong 9 nhóm, 6 ví dụ có khung hình đầu tự sáng tạo và kết quả kèm prompt do tác giả công khai.",
+    "intro": "76 prompt đầy đủ trong 9 nhóm, 9 ví dụ có khung hình đầu tự sáng tạo và kết quả kèm prompt do tác giả công khai.",
     "category_titles": [
       "Điện ảnh và kể chuyện",
       "Quảng cáo và mạng xã hội",
@@ -720,7 +759,10 @@
       "Dưới mặt nước rừng ngập mặn",
       "Cáo giao lá thư cuối cùng",
       "Quả lê thủy tinh hổ phách với lõi hình sao",
-      "Đài thiên văn trong vali"
+      "Đài thiên văn trong vali",
+      "Cửa sổ hiệu sách: mùa đông chỉ ở bên ngoài",
+      "Phòng trưng bày thiên thạch: máy quay vòng quanh tạo thị sai",
+      "Tàn tích dưới nước: robot trả lại hạt giống ánh sáng"
     ],
     "result_titles": [
       "Tượng bong bóng",
@@ -747,7 +789,7 @@
       "Khi đã hài lòng với bố cục, sửa từng chi tiết rồi mới tăng độ phân giải."
     ],
     "new_sources": "Nguồn cảm hứng cho các nhóm mới",
-    "preview_note": "Ảnh phân loại minh họa chủ đề. Sáu ảnh ví dụ là ảnh tham chiếu cho khung hình đầu. Cả hai đều không phải kết quả video đã tạo.",
+    "preview_note": "Ảnh phân loại minh họa chủ đề. Chín ảnh ví dụ là ảnh tham chiếu cho khung hình đầu. Cả hai đều không phải kết quả video đã tạo.",
     "count_label": "prompt",
     "input_video": "Cần video đầu vào",
     "text_to_video": "Văn bản thành video",
@@ -756,7 +798,7 @@
     "brand_bridge": "Chưa có ảnh đầu phù hợp? Hãy tạo cảnh riêng bằng công cụ tạo ảnh AI. Nếu đã có ảnh, chuyển thẳng sang ảnh thành video. Chọn chủ đề trong thư viện rồi viết lại, giữ nguyên trình tự thời gian và những chi tiết không được thay đổi."
   },
   "ar": {
-    "intro": "76 وصفًا نصيًا كاملًا ضمن 9 فئات، و6 أمثلة بإطارات بداية أصلية، ونتائج مرفقة بالأوصاف التي نشرها أصحابها.",
+    "intro": "76 وصفًا نصيًا كاملًا ضمن 9 فئات، و9 أمثلة بإطارات بداية أصلية، ونتائج مرفقة بالأوصاف التي نشرها أصحابها.",
     "category_titles": [
       "السينما والسرد",
       "الإعلانات ووسائل التواصل",
@@ -774,7 +816,10 @@
       "تحت مياه المانغروف",
       "الثعلب يسلّم الرسالة الأخيرة",
       "كمثرى زجاجية كهرمانية بقلب نجمي",
-      "مرصد داخل حقيبة سفر"
+      "مرصد داخل حقيبة سفر",
+      "نافذة المكتبة: الشتاء في الخارج فقط",
+      "قاعة النيازك: حركة كاميرا مدارية تُظهر اختلاف المنظر",
+      "أطلال تحت الماء: الروبوت يعيد بذرة ضوء"
     ],
     "result_titles": [
       "منحوتة من الفقاعات",
@@ -801,7 +846,7 @@
       "بعد أن يعجبك التكوين، عدّل تفصيلًا واحدًا في كل مرة قبل رفع الدقة."
     ],
     "new_sources": "مصادر الإلهام للفئات الجديدة",
-    "preview_note": "صور الفئات توضح موضوعاتها، وصور الأمثلة الستة مراجع لإطار البداية. لا يمثل أي منها نتيجة فيديو مولّدة.",
+    "preview_note": "صور الفئات توضح موضوعاتها، وصور الأمثلة التسعة مراجع لإطار البداية. لا يمثل أي منها نتيجة فيديو مولّدة.",
     "count_label": "وصفًا نصيًا",
     "input_video": "يتطلب فيديو إدخال",
     "text_to_video": "من نص إلى فيديو",

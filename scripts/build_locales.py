@@ -13,6 +13,10 @@ PATHS = [x['id'] for x in CATEGORY_DATA]
 NAV = ' · '.join(f'[{label}](README.md)' if code=='en' else f'[{label}](README_{suffix}.md)' for code,suffix,label in LOCALES)
 
 
+def featured_examples():
+    return read('showcase-v2.json') + read('showcase-v3-additions.json')
+
+
 def neutral(text, code):
     e=read('editorial-copy.json')[code]
     for original, localized in e.get('neutral_replacements',{}).items():
@@ -63,10 +67,11 @@ def build(code,suffix):
         path=f'prompts/{category["id"]}.md'
         cells.append(f'<td width="33%" align="center" valign="top"><strong><a href="{path}">{escape(labels[i])}</a></strong><br><br><a href="{path}"><img src="{category["image"]}" alt="{escape(labels[i])}" width="100%"></a><br>{counts[category["id"]]} {escape(v["count_label"])}<br><a href="{path}#case-index">{escape(c["open"])}</a></td>')
     parts += ['<table width="100%">\n'+'\n'.join('<tr>\n'+'\n'.join(cells[i:i+3])+'\n</tr>' for i in range(0,9,3))+'\n</table>',v['preview_note'],f'[{index_label}](docs/prompt-index.md) · [{c["download_all"]}](prompts/copy/all-prompts.txt) · [{v["new_sources"]}](docs/public-prompt-sources.md#category-inspiration)',v['language_note'],'<a id="source-examples"></a>',f'## {c["gallery"]}',c['input_note']]
-    examples=read('showcase-v2.json');titles=v['showcase_titles']
+    examples=featured_examples();titles=v['showcase_titles']
+    assert len(examples)==len(titles)==9
     parts += [' · '.join(f'[{i+1:02} · {title}](#example-{i+1:02})' for i,title in enumerate(titles))]
     for i,(ex,title) in enumerate(zip(examples,titles)):
-        file=f'prompts/copy/showcase-v2-{i+1:02}.txt';category_i=PATHS.index(ex['category'])
+        file=f'prompts/copy/{Path(ex["image"]).stem}.txt';category_i=PATHS.index(ex['category'])
         parts += [f'<a id="example-{i+1:02}"></a>',f'### {i+1:02} · {title}',f'[![{title}]({ex["image"]})]({ex["image"]})',f'[{labels[category_i]}](prompts/{ex["category"]}.md) · [{c["reference"]}]({ex["image"]}) · [{c["copy"]}]({file})',f'```text\n{ex["prompt"]}\n```']
     parts += [results(code),f'## {c["guides"]}',v['tutorial_intro'],'\n'.join(f'{i}. {step}' for i,step in enumerate(v['tutorial_steps'],1)),v['tutorial_example_label'],'```text\nChange only the camera movement to a locked-off shot.\nKeep the subject, material, action timing, lighting and audio unchanged.\nDo not add objects, cuts or text.\n```',f'[{c["guides"]}](docs/guides/README_{suffix}.md)',f'[{d["prompting"]}](docs/prompting-guide.md) · [{d["multilingual"]}](docs/multilingual-guide.md) · [{d["reference"]}](docs/reference-videos.md)','<a id="brand-tools"></a>',f'## {c["brand"]}']
     base='https://seaimagine.com'+('' if code=='en' else '/'+code)
@@ -79,8 +84,8 @@ def generate():
     update_workflow()
     (ROOT/'docs/guides').mkdir(exist_ok=True)
     (ROOT/'prompts/copy').mkdir(exist_ok=True)
-    for i,ex in enumerate(read('showcase-v2.json')):
-        (ROOT/f'prompts/copy/showcase-v2-{i+1:02}.txt').write_text(ex['prompt']+'\n')
+    for ex in featured_examples():
+        (ROOT/f'prompts/copy/{Path(ex["image"]).stem}.txt').write_text(ex['prompt']+'\n')
     for i,ex in enumerate(read('showcase-examples.json')+read('brand-examples.json')):
         (ROOT/f'prompts/copy/showcase-{i+1:02}.txt').write_text(ex['prompt']+'\n')
         if 'prompt_en' in ex:(ROOT/f'prompts/copy/showcase-{i+1:02}-en.txt').write_text(ex['prompt_en']+'\n')

@@ -1,0 +1,48 @@
+{
+  "date": "2026-09-24",
+  "status": "AI-generated reference first frames, not Omni outputs",
+  "images": [
+    {
+      "path": "assets/showcase-v3-07.png",
+      "prompt": "Use case: stylized-concept. Original reference FIRST FRAME for image-to-video prompt exercise, horizontal 16:9 single cinematic image. Rich detailed full-width composition, no collage, no words, labels, logos or watermark. Inside a warm empty old bookshop looking through one large closed arched window onto a narrow rainy cobbled lane. A dark wooden reading table dominates the foreground with ONE closed dark-green unlettered book and ONE brass reading lamp, ivory shade on, warm pool of light. Tall bookcases with blank unlettered spines frame the sides. Rain beads on exterior glass. Cool wet lane outside with modest stone buildings and one dim distant streetlamp, NO snow, NO frost, NO winter residue anywhere. Indoor floor and table perfectly dry. Eye-level fixed camera perspective, physical intact glass boundary very clear, believable windows and warm/cool contrast, quiet contemplative photographic realism. The later action turns rain to snow only outdoors; show only the rainy beginning.",
+      "tool": "image_gen.imagegen",
+      "is_omni_output": false,
+      "visually_reviewed": true,
+      "review": "Inspected full image: distinct subject, correct opening state and matching video brief. Original reference input, no video generation tested.",
+      "sha256": "ab7dad58e03ae0a96dd2195966580fedc81a19c76c0911e3d099065ee3fb47a3",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generation_id": "0a7830a6-971c-4ecc-b37e-806b8293dbe7"
+    },
+    {
+      "path": "assets/showcase-v3-08.png",
+      "prompt": "Use case: stylized-concept. Original reference FIRST FRAME for image-to-video prompt exercise, horizontal 16:9 single cinematic image. Rich detailed full-width composition, no collage, no words, labels, logos or watermark. An empty monumental museum gallery with tall rectangular limestone columns at foreground edge and in background, one large irregular deeply pitted DARK METEORITE resting solidly on a LOW BRASS CRADLE on top of a circular pale-stone pedestal at center. Full pedestal base visible. No glass case. A narrow overhead beam of daylight from skylight shows dust particles and surface texture. Camera at normal eye level viewing exhibit three-quarter, 50mm architectural photograph, nearer column at left edge and distant wall create strong depth for a future 30-degree orbit. Columns do NOT hide the exhibit. Exactly one rock, one pedestal, physically grounded, tactile iron meteorite and brass supports. Muted cream and charcoal, warm daylight, no people, signs, cosmic magic, floating objects or additional exhibits.",
+      "tool": "image_gen.imagegen",
+      "is_omni_output": false,
+      "visually_reviewed": true,
+      "review": "Inspected full image: distinct subject, correct opening state and matching video brief. Original reference input, no video generation tested.",
+      "sha256": "3e6beb2dbe11d66dfc86732dff01b43d9beec944d501435773a126dc0b77ff9f",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generation_id": "642eb390-e54f-4d50-a58c-ed180068bdcd"
+    },
+    {
+      "path": "assets/showcase-v3-09.png",
+      "prompt": "Use case: stylized-concept. Original reference FIRST FRAME for image-to-video prompt exercise, horizontal 16:9 single cinematic image. Rich detailed full-width composition, no collage, no words, labels, logos or watermark. One compact original yellow underwater exploration robot hovers LEFT facing RIGHT toward a waist-high circular ancient stone pedestal with ONE EMPTY DARK central socket. Robot has one large round front optical lens, two articulated arms with two grippers gently holding ONE translucent amber seed-shaped capsule between them at chest height. Capsule is visibly still in its hands, far from empty socket, NOT inserted. Robot body mechanical rounded and original, not a known character, two small downward thrusters. Complete robot, both grippers, capsule and pedestal all clearly visible. Ruined stone arches, sandy floor and sparse suspended particles under blue-green underwater light establish one coherent ancient submerged hall. Pedestal has carved radial channels but absolutely NO glowing channels yet. Gentle sun shafts, amber capsule subtle warm glow, textured stone and scratched yellow enamel, richly atmospheric and narrative, medium wide eye-level view. No humans, fish, plants sprouting, extra robots, second capsule, letters or magic explosion.",
+      "tool": "image_gen.imagegen",
+      "is_omni_output": false,
+      "visually_reviewed": true,
+      "review": "Inspected full image: distinct subject, correct opening state and matching video brief. Original reference input, no video generation tested.",
+      "sha256": "d225a5242fd0056ca66d84a35aa1880914df5ca4862085b3915bc211961974b3",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generation_id": "a6e1357b-192b-4cbd-9116-3d86a49641fa"
+    }
+  ]
+}

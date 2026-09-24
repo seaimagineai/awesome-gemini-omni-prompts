@@ -4,13 +4,13 @@
 
 # Gemini Omni 提示詞庫
 
-**76 則完整提示詞，分為 9 類；附 6 個原創首幀案例，以及搭配作者公開提示詞的效果展示。**
+**76 則完整提示詞，分為 9 類；附 9 個原創首幀案例，以及搭配作者公開提示詞的效果展示。**
 
 [English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md)
 
 [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
 
-[依分類瀏覽](#prompt-collections) · [六個可直接複製的案例](#source-examples) · [官方與社群效果展示](#video-studies) · [全部 76 則提示詞索引](docs/prompt-index.md) · [下載全部提示詞文字檔](prompts/copy/all-prompts.txt)
+[依分類瀏覽](#prompt-collections) · [九個可直接複製的案例](#source-examples) · [官方與社群效果展示](#video-studies) · [全部 76 則提示詞索引](docs/prompt-index.md) · [下載全部提示詞文字檔](prompts/copy/all-prompts.txt)
 
 </div>
 
@@ -20,23 +20,23 @@
 
 <table width="100%">
 <tr>
-<td width="33%" align="center" valign="top"><strong><a href="prompts/cinematic-storytelling.md">電影與敘事</a></strong><br><br><a href="prompts/cinematic-storytelling.md"><img src="assets/showcase-v2-01.png" alt="電影與敘事" width="100%"></a><br>8 則提示詞<br><a href="prompts/cinematic-storytelling.md#case-index">查看</a></td>
-<td width="33%" align="center" valign="top"><strong><a href="prompts/commerce-social.md">商業廣告與社群媒體</a></strong><br><br><a href="prompts/commerce-social.md"><img src="assets/showcase-v2-02.png" alt="商業廣告與社群媒體" width="100%"></a><br>8 則提示詞<br><a href="prompts/commerce-social.md#case-index">查看</a></td>
-<td width="33%" align="center" valign="top"><strong><a href="prompts/documentary-education.md">紀錄片、旅行與教育</a></strong><br><br><a href="prompts/documentary-education.md"><img src="assets/showcase-v2-03.png" alt="紀錄片、旅行與教育" width="100%"></a><br>8 則提示詞<br><a href="prompts/documentary-education.md#case-index">查看</a></td>
+<td width="33%" align="center" valign="top"><strong><a href="prompts/cinematic-storytelling.md">電影與敘事</a></strong><br><br><a href="prompts/cinematic-storytelling.md"><img src="assets/category-cinema-v3.png" alt="電影與敘事" width="100%"></a><br>8 則提示詞<br><a href="prompts/cinematic-storytelling.md#case-index">查看</a></td>
+<td width="33%" align="center" valign="top"><strong><a href="prompts/commerce-social.md">商業廣告與社群媒體</a></strong><br><br><a href="prompts/commerce-social.md"><img src="assets/category-commerce-v3.png" alt="商業廣告與社群媒體" width="100%"></a><br>8 則提示詞<br><a href="prompts/commerce-social.md#case-index">查看</a></td>
+<td width="33%" align="center" valign="top"><strong><a href="prompts/documentary-education.md">紀錄片、旅行與教育</a></strong><br><br><a href="prompts/documentary-education.md"><img src="assets/category-documentary-v3.png" alt="紀錄片、旅行與教育" width="100%"></a><br>8 則提示詞<br><a href="prompts/documentary-education.md#case-index">查看</a></td>
 </tr>
 <tr>
-<td width="33%" align="center" valign="top"><strong><a href="prompts/stylized-entertainment.md">動畫、音樂與娛樂</a></strong><br><br><a href="prompts/stylized-entertainment.md"><img src="assets/showcase-v2-04.png" alt="動畫、音樂與娛樂" width="100%"></a><br>8 則提示詞<br><a href="prompts/stylized-entertainment.md#case-index">查看</a></td>
+<td width="33%" align="center" valign="top"><strong><a href="prompts/stylized-entertainment.md">動畫、音樂與娛樂</a></strong><br><br><a href="prompts/stylized-entertainment.md"><img src="assets/category-animation-v3.png" alt="動畫、音樂與娛樂" width="100%"></a><br>8 則提示詞<br><a href="prompts/stylized-entertainment.md#case-index">查看</a></td>
 <td width="33%" align="center" valign="top"><strong><a href="prompts/control-editing-extension.md">多模態控制、編輯與延伸</a></strong><br><br><a href="prompts/control-editing-extension.md"><img src="assets/category-control-v2.png" alt="多模態控制、編輯與延伸" width="100%"></a><br>10 則提示詞<br><a href="prompts/control-editing-extension.md#case-index">查看</a></td>
 <td width="33%" align="center" valign="top"><strong><a href="prompts/advanced-editing-camera.md">進階編輯、鏡頭與視覺變換</a></strong><br><br><a href="prompts/advanced-editing-camera.md"><img src="assets/category-camera-v2.png" alt="進階編輯、鏡頭與視覺變換" width="100%"></a><br>9 則提示詞<br><a href="prompts/advanced-editing-camera.md#case-index">查看</a></td>
 </tr>
 <tr>
 <td width="33%" align="center" valign="top"><strong><a href="prompts/storyboard-text-evaluation.md">分鏡、文字與評測</a></strong><br><br><a href="prompts/storyboard-text-evaluation.md"><img src="assets/category-storyboard-v2.png" alt="分鏡、文字與評測" width="100%"></a><br>9 則提示詞<br><a href="prompts/storyboard-text-evaluation.md#case-index">查看</a></td>
-<td width="33%" align="center" valign="top"><strong><a href="prompts/tactile-asmr.md">觸感與 ASMR（細微聲音）</a></strong><br><br><a href="prompts/tactile-asmr.md"><img src="assets/showcase-v2-05.png" alt="觸感與 ASMR（細微聲音）" width="100%"></a><br>8 則提示詞<br><a href="prompts/tactile-asmr.md#case-index">查看</a></td>
-<td width="33%" align="center" valign="top"><strong><a href="prompts/miniature-worlds.md">微縮與幻想世界</a></strong><br><br><a href="prompts/miniature-worlds.md"><img src="assets/showcase-v2-06.png" alt="微縮與幻想世界" width="100%"></a><br>8 則提示詞<br><a href="prompts/miniature-worlds.md#case-index">查看</a></td>
+<td width="33%" align="center" valign="top"><strong><a href="prompts/tactile-asmr.md">觸感與 ASMR（細微聲音）</a></strong><br><br><a href="prompts/tactile-asmr.md"><img src="assets/category-asmr-v3.png" alt="觸感與 ASMR（細微聲音）" width="100%"></a><br>8 則提示詞<br><a href="prompts/tactile-asmr.md#case-index">查看</a></td>
+<td width="33%" align="center" valign="top"><strong><a href="prompts/miniature-worlds.md">微縮與幻想世界</a></strong><br><br><a href="prompts/miniature-worlds.md"><img src="assets/category-miniature-v3.png" alt="微縮與幻想世界" width="100%"></a><br>8 則提示詞<br><a href="prompts/miniature-worlds.md#case-index">查看</a></td>
 </tr>
 </table>
 
-分類圖用於展示題材；六個案例的配圖為參考首幀。兩者皆不代表已生成的影片效果。
+分類圖用於展示題材；九個案例的配圖為參考首幀。兩者皆不代表已生成的影片效果。
 
 [全部 76 則提示詞索引](docs/prompt-index.md) · [下載全部提示詞文字檔](prompts/copy/all-prompts.txt) · [新增分類的創作靈感來源](docs/public-prompt-sources.md#category-inspiration)
 
@@ -44,11 +44,11 @@
 
 <a id="source-examples"></a>
 
-## 六個可直接複製的案例
+## 九個可直接複製的案例
 
 參考圖是輸入素材，不是生成結果。
 
-[01 · 雨夜洗衣房：重力失約](#example-01) · [02 · 琥珀香水：機械柑橘日蝕](#example-02) · [03 · 紅樹林：潛入螢光水域](#example-03) · [04 · 紙藝狐郵差：夜雨末班車](#example-04) · [05 · 琥珀玻璃梨：切開星形晶核](#example-05) · [06 · 藍色旅行箱：雲海天文台](#example-06)
+[01 · 雨夜洗衣房：重力失約](#example-01) · [02 · 琥珀香水：機械柑橘日蝕](#example-02) · [03 · 紅樹林：潛入螢光水域](#example-03) · [04 · 紙藝狐郵差：夜雨末班車](#example-04) · [05 · 琥珀玻璃梨：切開星形晶核](#example-05) · [06 · 藍色旅行箱：雲海天文台](#example-06) · [07 · 書店雨窗：只讓窗外入冬](#example-07) · [08 · 隕石展廳：一鏡環繞的視差](#example-08) · [09 · 水下遺跡：機器人歸還光種](#example-09)
 
 <a id="example-01"></a>
 
@@ -156,6 +156,60 @@ Animate Image1 into a continuous 10-second, 16:9 miniature-diorama film. Inside 
 [6-10s] The observatory dome rotates a small distance and its slit opens to reveal a short telescope aimed at one fixed star in the existing night sky. Clouds drift around the mountain base without spilling over the suitcase rim. Let the train continue behind the mountain, partially occluded rather than disappearing. Stop the camera with the glowing observatory above the cloud line.
 
 Audio: close copper-knob click, miniature rail rhythm, soft gear movement and a restrained airy room ambience. No full-size train horn, narration or music. Preserve scale and object counts. No extra hands, flying rails, expanding suitcase, text, logos, time-lapse sky or cuts.
+```
+
+<a id="example-07"></a>
+
+### 07 · 書店雨窗：只讓窗外入冬
+
+[![書店雨窗：只讓窗外入冬](assets/showcase-v3-07.png)](assets/showcase-v3-07.png)
+
+[多模態控制、編輯與延伸](prompts/control-editing-extension.md) · [首影格參考圖](assets/showcase-v3-07.png) · [純文字](prompts/copy/showcase-v3-07.txt)
+
+```text
+Use Image1 as the exact first frame of a 10-second, 16:9 image-to-video scene. The camera looks from a warm empty bookshop through one large arched window onto a rainy cobbled lane. A reading table, a closed dark-green book and a brass lamp occupy the foreground. Only the exterior weather changes. No source video or additional reference is required.
+
+[0-3s] Lock the camera at its starting position. Rain beads move down the outside of the glass while warm lamplight remains steady on the book and table. Establish the fixed border of the window: every weather change must remain beyond this border. Preserve the shelves, arch, table edges and lamp silhouette exactly.
+[3-7s] Gradually replace the falling rain outside with sparse snowflakes. The existing lit streetlamps remain visible through the snowfall, with their positions and brightness unchanged. Thin snow collects first along the outer window ledge, then on the roof edges across the lane. Existing raindrops continue sliding down the glass rather than instantly vanishing. Keep the same lane, doorways and perspective throughout; no new buildings appear.
+[7-10s] Let the snowfall settle into a gentle, continuous pattern. A narrow snow line remains on the exterior ledge. The indoor book, table and floor stay dry and warm, with no snow or frost crossing the glass. End on the same composition and furniture positions as the opening.
+
+Audio: rain tapping the outer pane gradually gives way to muffled winter wind; the indoor room tone stays constant. No music, speech or page turning. No camera motion, time jump, interior relighting, additional objects, readable writing, people, cuts or full-frame seasonal dissolve.
+```
+
+<a id="example-08"></a>
+
+### 08 · 隕石展廳：一鏡環繞的視差
+
+[![隕石展廳：一鏡環繞的視差](assets/showcase-v3-08.png)](assets/showcase-v3-08.png)
+
+[進階編輯、鏡頭與視覺變換](prompts/advanced-editing-camera.md) · [首影格參考圖](assets/showcase-v3-08.png) · [純文字](prompts/copy/showcase-v3-08.txt)
+
+```text
+Use Image1 as the exact opening of a 10-second, 16:9 architectural camera study. A single dark, deeply pitted meteorite rests on a low brass cradle atop a circular pale-stone pedestal. Tall rectangular stone columns surround the empty museum gallery. A narrow overhead shaft of daylight reveals dust in the air. There is no glass case and no moving exhibit.
+
+[0-3s] Begin a slow clockwise orbit around the pedestal (clockwise in plan view, not an overhead shot), keeping the meteorite near frame centre. Maintain the initial camera height, lens focal length and distance from the pedestal. The foreground column shifts faster than the distant wall, establishing natural parallax. Do not rotate the meteorite to simulate camera movement.
+[3-7s] Continue the same orbit through a total arc of approximately thirty degrees. Reveal the meteorite's previously hidden side while preserving its existing front contour and distinctive pits. The brass supports stay fixed beneath it. One nearer column briefly approaches the frame edge but never hides the central exhibit. Shadows and highlights change only as the viewpoint changes; the overhead light source remains stationary.
+[7-10s] Ease the camera smoothly to a stop. Keep the full pedestal base in view and settle on a new three-quarter angle with a clear gap between the meteorite and the rear column. The background must finish at a visibly different perspective from the opening.
+
+Audio: quiet ventilation and a distant low room resonance, with no footsteps, machinery or score. No cuts, zooms, focus pulsing, floating rock, rotating pedestal, extra exhibits, new surface markings, visitors, signs or captions. The entire effect comes from one controlled camera move around a motionless subject.
+```
+
+<a id="example-09"></a>
+
+### 09 · 水下遺跡：機器人歸還光種
+
+[![水下遺跡：機器人歸還光種](assets/showcase-v3-09.png)](assets/showcase-v3-09.png)
+
+[分鏡、文字與評測](prompts/storyboard-text-evaluation.md) · [首影格參考圖](assets/showcase-v3-09.png) · [純文字](prompts/copy/showcase-v3-09.txt)
+
+```text
+Use Image1 as the exact first frame of a 10-second, 16:9 continuous underwater story. One compact yellow exploration robot hovers on the left, facing a waist-high circular stone socket on the right. Its two small articulated grippers already hold one translucent amber seed-shaped capsule. The socket is empty and dark. Broken stone arches, sand and suspended particles establish a quiet submerged ruin.
+
+[0-3s] Follow the robot in a slow lateral tracking move as it approaches the socket. Its two downward thrusters lift a small cloud of sand that trails behind, never obscuring the capsule. Keep the robot's single round front lens, yellow housing, two arms and capsule shape consistent. The socket remains anchored to its original pedestal.
+[3-7s] The robot stops, extends both arms together and lowers the capsule into the centre of the socket. Show contact before either gripper releases. The capsule settles upright; the grippers open and withdraw without passing through the stone. Only after the capsule is seated does a narrow amber glow begin spreading through existing carved channels in the pedestal.
+[7-10s] The robot backs away a short distance and tilts its front lens toward the now-lit channels. Let the glow stop at the pedestal's outer rim rather than lighting the entire ruin. Fine sediment settles around its base. End with robot, capsule and complete pedestal visible in the same uninterrupted shot.
+
+Audio: muted thruster vibration, a soft stone contact, then a restrained low resonant tone synchronized to the first glow. No voice, score or sonar ping. No extra robots, hands, duplicated capsules, instant-growing plants, collapsing ruins, text, cuts or unexplained flashes.
 ```
 
 <a id="video-studies"></a>

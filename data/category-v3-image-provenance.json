@@ -1,0 +1,95 @@
+{
+  "purpose": "Six distinct category illustrations replacing reused featured first frames.",
+  "assets": [
+    {
+      "id": "cinema",
+      "path": "assets/category-cinema-v3.png",
+      "prompt": "Use case: stylized-concept. Asset: original category illustration for an advanced video-prompt repository, NOT a model output. One landscape 16:9 full-bleed beautifully finished frame, immediately readable at thumbnail size. No text, logos, watermarks, UI, lettering or collage. Historically grounded cinematic view inside an early eighteenth-century southern Chinese riverside porcelain workshop. One kiln master and three apprentices in natural indigo and linen period clothing carefully stand around an open old brick kiln, orange heat illuminating blue-and-white ceramic bowls on a wooden rack. Cool dawn light through a timber window contrasts with warm fire, soot, worn beams, fine drifting ash. Strong human silhouettes and one clear focal point, tactile observational historical cinema, believable protective long tools and distance from heat. No modern objects, no fantasy glow.",
+      "tool": "built-in image_gen",
+      "status": "original_category_concept_not_model_output",
+      "related_recipe": "prompts/cinematic-storytelling.md#case-03",
+      "review": "Visually inspected: distinct category subject, readable thumbnail composition and no visible text. Editorial concept, not a recipe input frame or model result.",
+      "sha256": "6b0733f8fac8142f1719ef02556d9e1bb13bc799cbf57165760ca7f67e17b13d",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generation_id": "a552974e-4d42-4877-9534-1bfb89810849"
+    },
+    {
+      "id": "commerce",
+      "path": "assets/category-commerce-v3.png",
+      "prompt": "Use case: stylized-concept. Asset: original category illustration for an advanced video-prompt repository, NOT a model output. One landscape 16:9 full-bleed beautifully finished frame, immediately readable at thumbnail size. No text, logos, watermarks, UI, lettering or collage. High-end editorial fashion campaign on a warm ivory seamless studio background. ONE adult East Asian woman model with a short sleek dark bob wearing a dramatically structured terracotta-red tailored coat over cream trousers, striding confidently across a sunlit cyc. Two beautiful minimalist clothing rails behind her hold a cobalt-blue tailored jacket and a flowing ivory outfit as alternate styling directions. Restrained elegant composition, large readable human subject, fabric grain and tailoring emphasized, long architectural shadow, aspirational authentic fashion photography. No bottles, perfume, jewelry closeup or product plinth.",
+      "tool": "built-in image_gen",
+      "status": "original_category_concept_not_model_output",
+      "related_recipe": "prompts/commerce-social.md#case-04",
+      "review": "Visually inspected: distinct category subject, readable thumbnail composition and no visible text. Editorial concept, not a recipe input frame or model result.",
+      "sha256": "7f0ec63c779d03122db585f674e8db8a94315efa94df6403de2aad4ad0414007",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generation_id": "1283e7c2-16cb-403c-8b0d-3d30db5648e6"
+    },
+    {
+      "id": "documentary",
+      "path": "assets/category-documentary-v3.png",
+      "prompt": "Use case: stylized-concept. Asset: original category illustration for an advanced video-prompt repository, NOT a model output. One landscape 16:9 full-bleed beautifully finished frame, immediately readable at thumbnail size. No text, logos, watermarks, UI, lettering or collage. Exceptional natural-history underwater macro photograph inside a temperate coastal tide pool: one small hermit crab in a textured spiral shell in foreground, green anemone tentacles on a rock to the left, one empty larger shell to the right. Shallow clear water, precise sunlight caustics, naturally scattered pebbles and little kelp, plausible crab anatomy, gentle suspended particles. Observational real wildlife feel, emerald, sand and coral-brown palette, crisp focal detail with shallow background. No tropical corals, fish, mangroves, humans or aquarium glass.",
+      "tool": "built-in image_gen",
+      "status": "original_category_concept_not_model_output",
+      "related_recipe": "prompts/documentary-education.md#case-03",
+      "review": "Visually inspected: distinct category subject, readable thumbnail composition and no visible text. Editorial concept, not a recipe input frame or model result.",
+      "sha256": "2d611d0d416e5e91a1d2ca871ec31a919d4fdbb800ff24efe7cc445c7df5c46b",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generation_id": "7fa2db61-c916-41be-9128-90dcf1fa971c"
+    },
+    {
+      "id": "animation",
+      "path": "assets/category-animation-v3.png",
+      "prompt": "Use case: stylized-concept. Asset: original category illustration for an advanced video-prompt repository, NOT a model output. One landscape 16:9 full-bleed beautifully finished frame, immediately readable at thumbnail size. No text, logos, watermarks, UI, lettering or collage. Delightful original handmade clay stop-motion comedy miniature kitchen. One tiny round clay cook with a tall folded white paper chef hat, teal apron and exactly two arms, looking up in astonishment at ONE blueberry pancake stuck to the low kitchen ceiling. Cook holds a small pan, empty plate on counter below, copper cookware and mint green cupboards, visible thumbprint clay textures, warm practical miniature lights, humorous readable silhouette. Camera wide enough for chef and ceiling pancake. No foxes, trains, origami animals or photoreal people.",
+      "tool": "built-in image_gen",
+      "status": "original_category_concept_not_model_output",
+      "related_recipe": "prompts/stylized-entertainment.md#case-03",
+      "review": "Visually inspected: distinct category subject, readable thumbnail composition and no visible text. Editorial concept, not a recipe input frame or model result.",
+      "sha256": "a91ccce630f966d9ac03beac36c6955215ea30d6e7620088d688b6bb7eb25092",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generation_id": "e3ff8fbd-4db4-4133-994c-e48e599ec7e1"
+    },
+    {
+      "id": "asmr",
+      "path": "assets/category-asmr-v3.png",
+      "prompt": "Use case: stylized-concept. Asset: original category illustration for an advanced video-prompt repository, NOT a model output. One landscape 16:9 full-bleed beautifully finished frame, immediately readable at thumbnail size. No text, logos, watermarks, UI, lettering or collage. Tactile overhead macro editorial photograph of fine terracotta kinetic sand in a shallow square tray. ONE small engraved brass cylindrical roller midway along ONE continuous sharply defined fishbone-chevron track pressed into the sand. Unpressed sand perfectly smooth on both sides, satisfying rhythmic relief, tiny visible grains, warm grazing side light revealing the depth, brass axle and physically plausible tool. Tight graphic composition, ochre copper terracotta palette, very legible at small size. No glass, fruit, blades, hands or other tools.",
+      "tool": "built-in image_gen",
+      "status": "original_category_concept_not_model_output",
+      "related_recipe": "prompts/tactile-asmr.md#case-03",
+      "review": "Visually inspected: distinct category subject, readable thumbnail composition and no visible text. Editorial concept, not a recipe input frame or model result.",
+      "sha256": "b74a9144f2d742a451666631e2631110571ce5de47ee64a7e45698194663f825",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generation_id": "56648403-cca8-4c26-8a9b-fc5a4754262d"
+    },
+    {
+      "id": "miniature",
+      "path": "assets/category-miniature-v3.png",
+      "prompt": "Use case: stylized-concept. Asset: original category illustration for an advanced video-prompt repository, NOT a model output. One landscape 16:9 full-bleed beautifully finished frame, immediately readable at thumbnail size. No text, logos, watermarks, UI, lettering or collage. Richly detailed miniature night food market on a black mechanical keyboard with completely blank full-size keycaps. Exactly ONE tiny folded-metal food kiosk opened on the spacebar, telescoping roof posts and hinged side counters, two glowing amber lanterns, three tiny steamed buns on one tray and delicate rising steam. Low camera at keycap height, black keys establish amusing tiny scale, deep navy background with restrained warm amber light, tactile metal hinges and textured buns. No people, lettering, suitcase, mountain, observatory, train or other kiosks.",
+      "tool": "built-in image_gen",
+      "status": "original_category_concept_not_model_output",
+      "related_recipe": "prompts/miniature-worlds.md#case-08",
+      "review": "Visually inspected: distinct category subject, readable thumbnail composition and no visible text. Editorial concept, not a recipe input frame or model result.",
+      "sha256": "689a1f91640454bf7808c4d7e2960ea43d77bc8ebe696eb88b35e3d7134e9ae6",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generation_id": "98a1ab23-0731-425d-be09-bc9a5539889c"
+    }
+  ]
+}

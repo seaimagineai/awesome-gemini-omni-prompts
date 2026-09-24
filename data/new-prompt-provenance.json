@@ -3,7 +3,7 @@
   "notes": [
     "These original briefs are not quoted from X or official model demonstrations.",
     "No generation, quality, or timing claim is implied. Durations, aspect ratios and audio must match the selected interface.",
-    "The six showcase images are reference first frames, not claimed generated video results.",
+    "The nine showcase images are reference first frames, not claimed generated video results.",
     "ASMR and miniature-world themes may be linked to public trend references separately; such references do not establish popularity rankings or Gemini Omni performance."
   ],
   "showcase_source": "data/showcase-v2.json",
@@ -73,5 +73,6 @@
       "category": "miniature-worlds",
       "case": "01"
     }
-  ]
+  ],
+  "additional_featured_source": "data/showcase-v3-additions.json"
 }

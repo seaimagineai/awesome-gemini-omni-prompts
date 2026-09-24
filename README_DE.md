@@ -4,13 +4,13 @@
 
 # Gemini Omni Prompt-Sammlung
 
-**76 vollständige Prompts in 9 Kategorien, 6 Beispiele mit eigenen Startbildern und veröffentlichte Ergebnisse samt öffentlichen Prompts der Urheber.**
+**76 vollständige Prompts in 9 Kategorien, 9 Beispiele mit eigenen Startbildern und veröffentlichte Ergebnisse samt öffentlichen Prompts der Urheber.**
 
 [English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md)
 
 [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
 
-[Nach Kategorie durchsuchen](#prompt-collections) · [Sechs Beispiele zum direkten Kopieren](#source-examples) · [Offizielle Ergebnisse und Community-Beispiele](#video-studies) · [Verzeichnis aller 76 Prompts](docs/prompt-index.md) · [Alle Prompts als Text herunterladen](prompts/copy/all-prompts.txt)
+[Nach Kategorie durchsuchen](#prompt-collections) · [Neun Beispiele zum direkten Kopieren](#source-examples) · [Offizielle Ergebnisse und Community-Beispiele](#video-studies) · [Verzeichnis aller 76 Prompts](docs/prompt-index.md) · [Alle Prompts als Text herunterladen](prompts/copy/all-prompts.txt)
 
 </div>
 
@@ -20,23 +20,23 @@
 
 <table width="100%">
 <tr>
-<td width="33%" align="center" valign="top"><strong><a href="prompts/cinematic-storytelling.md">Film und Erzählung</a></strong><br><br><a href="prompts/cinematic-storytelling.md"><img src="assets/showcase-v2-01.png" alt="Film und Erzählung" width="100%"></a><br>8 Prompts<br><a href="prompts/cinematic-storytelling.md#case-index">Ansehen</a></td>
-<td width="33%" align="center" valign="top"><strong><a href="prompts/commerce-social.md">Werbung und soziale Medien</a></strong><br><br><a href="prompts/commerce-social.md"><img src="assets/showcase-v2-02.png" alt="Werbung und soziale Medien" width="100%"></a><br>8 Prompts<br><a href="prompts/commerce-social.md#case-index">Ansehen</a></td>
-<td width="33%" align="center" valign="top"><strong><a href="prompts/documentary-education.md">Dokumentation, Reisen und Bildung</a></strong><br><br><a href="prompts/documentary-education.md"><img src="assets/showcase-v2-03.png" alt="Dokumentation, Reisen und Bildung" width="100%"></a><br>8 Prompts<br><a href="prompts/documentary-education.md#case-index">Ansehen</a></td>
+<td width="33%" align="center" valign="top"><strong><a href="prompts/cinematic-storytelling.md">Film und Erzählung</a></strong><br><br><a href="prompts/cinematic-storytelling.md"><img src="assets/category-cinema-v3.png" alt="Film und Erzählung" width="100%"></a><br>8 Prompts<br><a href="prompts/cinematic-storytelling.md#case-index">Ansehen</a></td>
+<td width="33%" align="center" valign="top"><strong><a href="prompts/commerce-social.md">Werbung und soziale Medien</a></strong><br><br><a href="prompts/commerce-social.md"><img src="assets/category-commerce-v3.png" alt="Werbung und soziale Medien" width="100%"></a><br>8 Prompts<br><a href="prompts/commerce-social.md#case-index">Ansehen</a></td>
+<td width="33%" align="center" valign="top"><strong><a href="prompts/documentary-education.md">Dokumentation, Reisen und Bildung</a></strong><br><br><a href="prompts/documentary-education.md"><img src="assets/category-documentary-v3.png" alt="Dokumentation, Reisen und Bildung" width="100%"></a><br>8 Prompts<br><a href="prompts/documentary-education.md#case-index">Ansehen</a></td>
 </tr>
 <tr>
-<td width="33%" align="center" valign="top"><strong><a href="prompts/stylized-entertainment.md">Animation, Musik und Unterhaltung</a></strong><br><br><a href="prompts/stylized-entertainment.md"><img src="assets/showcase-v2-04.png" alt="Animation, Musik und Unterhaltung" width="100%"></a><br>8 Prompts<br><a href="prompts/stylized-entertainment.md#case-index">Ansehen</a></td>
+<td width="33%" align="center" valign="top"><strong><a href="prompts/stylized-entertainment.md">Animation, Musik und Unterhaltung</a></strong><br><br><a href="prompts/stylized-entertainment.md"><img src="assets/category-animation-v3.png" alt="Animation, Musik und Unterhaltung" width="100%"></a><br>8 Prompts<br><a href="prompts/stylized-entertainment.md#case-index">Ansehen</a></td>
 <td width="33%" align="center" valign="top"><strong><a href="prompts/control-editing-extension.md">Multimodale Steuerung, Schnitt und Verlängerung</a></strong><br><br><a href="prompts/control-editing-extension.md"><img src="assets/category-control-v2.png" alt="Multimodale Steuerung, Schnitt und Verlängerung" width="100%"></a><br>10 Prompts<br><a href="prompts/control-editing-extension.md#case-index">Ansehen</a></td>
 <td width="33%" align="center" valign="top"><strong><a href="prompts/advanced-editing-camera.md">Erweiterte Bearbeitung, Kamera und Bildwandel</a></strong><br><br><a href="prompts/advanced-editing-camera.md"><img src="assets/category-camera-v2.png" alt="Erweiterte Bearbeitung, Kamera und Bildwandel" width="100%"></a><br>9 Prompts<br><a href="prompts/advanced-editing-camera.md#case-index">Ansehen</a></td>
 </tr>
 <tr>
 <td width="33%" align="center" valign="top"><strong><a href="prompts/storyboard-text-evaluation.md">Storyboards, Text und Bewertung</a></strong><br><br><a href="prompts/storyboard-text-evaluation.md"><img src="assets/category-storyboard-v2.png" alt="Storyboards, Text und Bewertung" width="100%"></a><br>9 Prompts<br><a href="prompts/storyboard-text-evaluation.md#case-index">Ansehen</a></td>
-<td width="33%" align="center" valign="top"><strong><a href="prompts/tactile-asmr.md">Materialgefühl und ASMR</a></strong><br><br><a href="prompts/tactile-asmr.md"><img src="assets/showcase-v2-05.png" alt="Materialgefühl und ASMR" width="100%"></a><br>8 Prompts<br><a href="prompts/tactile-asmr.md#case-index">Ansehen</a></td>
-<td width="33%" align="center" valign="top"><strong><a href="prompts/miniature-worlds.md">Miniatur- und Fantasiewelten</a></strong><br><br><a href="prompts/miniature-worlds.md"><img src="assets/showcase-v2-06.png" alt="Miniatur- und Fantasiewelten" width="100%"></a><br>8 Prompts<br><a href="prompts/miniature-worlds.md#case-index">Ansehen</a></td>
+<td width="33%" align="center" valign="top"><strong><a href="prompts/tactile-asmr.md">Materialgefühl und ASMR</a></strong><br><br><a href="prompts/tactile-asmr.md"><img src="assets/category-asmr-v3.png" alt="Materialgefühl und ASMR" width="100%"></a><br>8 Prompts<br><a href="prompts/tactile-asmr.md#case-index">Ansehen</a></td>
+<td width="33%" align="center" valign="top"><strong><a href="prompts/miniature-worlds.md">Miniatur- und Fantasiewelten</a></strong><br><br><a href="prompts/miniature-worlds.md"><img src="assets/category-miniature-v3.png" alt="Miniatur- und Fantasiewelten" width="100%"></a><br>8 Prompts<br><a href="prompts/miniature-worlds.md#case-index">Ansehen</a></td>
 </tr>
 </table>
 
-Kategoriebilder veranschaulichen die Themen. Die sechs Beispielbilder dienen als Referenz für den ersten Frame. Keines davon zeigt ein erzeugtes Videoergebnis.
+Kategoriebilder veranschaulichen die Themen. Die neun Beispielbilder dienen als Referenz für den ersten Frame. Keines davon zeigt ein erzeugtes Videoergebnis.
 
 [Verzeichnis aller 76 Prompts](docs/prompt-index.md) · [Alle Prompts als Text herunterladen](prompts/copy/all-prompts.txt) · [Ideenquellen für die neuen Kategorien](docs/public-prompt-sources.md#category-inspiration)
 
@@ -44,11 +44,11 @@ Die Kategoriebeschreibungen sind derzeit auf Chinesisch und Englisch; alle volls
 
 <a id="source-examples"></a>
 
-## Sechs Beispiele zum direkten Kopieren
+## Neun Beispiele zum direkten Kopieren
 
 Die Referenzbilder sind Eingabematerial, keine generierten Ergebnisse.
 
-[01 · Der Waschsalon vergisst die Schwerkraft](#example-01) · [02 · Bernsteinparfüm und mechanische Finsternis](#example-02) · [03 · Unter der Wasserlinie der Mangroven](#example-03) · [04 · Der Fuchs bringt den letzten Brief](#example-04) · [05 · Bernsteinglasbirne mit Stern im Kern](#example-05) · [06 · Eine Sternwarte im Koffer](#example-06)
+[01 · Der Waschsalon vergisst die Schwerkraft](#example-01) · [02 · Bernsteinparfüm und mechanische Finsternis](#example-02) · [03 · Unter der Wasserlinie der Mangroven](#example-03) · [04 · Der Fuchs bringt den letzten Brief](#example-04) · [05 · Bernsteinglasbirne mit Stern im Kern](#example-05) · [06 · Eine Sternwarte im Koffer](#example-06) · [07 · Buchladenfenster: Winter nur draußen](#example-07) · [08 · Meteoritensaal: eine Kamerafahrt mit Parallaxe](#example-08) · [09 · Unterwasserruinen: Der Roboter bringt einen Lichtsamen zurück](#example-09)
 
 <a id="example-01"></a>
 
@@ -156,6 +156,60 @@ Animate Image1 into a continuous 10-second, 16:9 miniature-diorama film. Inside 
 [6-10s] The observatory dome rotates a small distance and its slit opens to reveal a short telescope aimed at one fixed star in the existing night sky. Clouds drift around the mountain base without spilling over the suitcase rim. Let the train continue behind the mountain, partially occluded rather than disappearing. Stop the camera with the glowing observatory above the cloud line.
 
 Audio: close copper-knob click, miniature rail rhythm, soft gear movement and a restrained airy room ambience. No full-size train horn, narration or music. Preserve scale and object counts. No extra hands, flying rails, expanding suitcase, text, logos, time-lapse sky or cuts.
+```
+
+<a id="example-07"></a>
+
+### 07 · Buchladenfenster: Winter nur draußen
+
+[![Buchladenfenster: Winter nur draußen](assets/showcase-v3-07.png)](assets/showcase-v3-07.png)
+
+[Multimodale Steuerung, Schnitt und Verlängerung](prompts/control-editing-extension.md) · [Referenz für das erste Bild](assets/showcase-v3-07.png) · [Klartext](prompts/copy/showcase-v3-07.txt)
+
+```text
+Use Image1 as the exact first frame of a 10-second, 16:9 image-to-video scene. The camera looks from a warm empty bookshop through one large arched window onto a rainy cobbled lane. A reading table, a closed dark-green book and a brass lamp occupy the foreground. Only the exterior weather changes. No source video or additional reference is required.
+
+[0-3s] Lock the camera at its starting position. Rain beads move down the outside of the glass while warm lamplight remains steady on the book and table. Establish the fixed border of the window: every weather change must remain beyond this border. Preserve the shelves, arch, table edges and lamp silhouette exactly.
+[3-7s] Gradually replace the falling rain outside with sparse snowflakes. The existing lit streetlamps remain visible through the snowfall, with their positions and brightness unchanged. Thin snow collects first along the outer window ledge, then on the roof edges across the lane. Existing raindrops continue sliding down the glass rather than instantly vanishing. Keep the same lane, doorways and perspective throughout; no new buildings appear.
+[7-10s] Let the snowfall settle into a gentle, continuous pattern. A narrow snow line remains on the exterior ledge. The indoor book, table and floor stay dry and warm, with no snow or frost crossing the glass. End on the same composition and furniture positions as the opening.
+
+Audio: rain tapping the outer pane gradually gives way to muffled winter wind; the indoor room tone stays constant. No music, speech or page turning. No camera motion, time jump, interior relighting, additional objects, readable writing, people, cuts or full-frame seasonal dissolve.
+```
+
+<a id="example-08"></a>
+
+### 08 · Meteoritensaal: eine Kamerafahrt mit Parallaxe
+
+[![Meteoritensaal: eine Kamerafahrt mit Parallaxe](assets/showcase-v3-08.png)](assets/showcase-v3-08.png)
+
+[Erweiterte Bearbeitung, Kamera und Bildwandel](prompts/advanced-editing-camera.md) · [Referenz für das erste Bild](assets/showcase-v3-08.png) · [Klartext](prompts/copy/showcase-v3-08.txt)
+
+```text
+Use Image1 as the exact opening of a 10-second, 16:9 architectural camera study. A single dark, deeply pitted meteorite rests on a low brass cradle atop a circular pale-stone pedestal. Tall rectangular stone columns surround the empty museum gallery. A narrow overhead shaft of daylight reveals dust in the air. There is no glass case and no moving exhibit.
+
+[0-3s] Begin a slow clockwise orbit around the pedestal (clockwise in plan view, not an overhead shot), keeping the meteorite near frame centre. Maintain the initial camera height, lens focal length and distance from the pedestal. The foreground column shifts faster than the distant wall, establishing natural parallax. Do not rotate the meteorite to simulate camera movement.
+[3-7s] Continue the same orbit through a total arc of approximately thirty degrees. Reveal the meteorite's previously hidden side while preserving its existing front contour and distinctive pits. The brass supports stay fixed beneath it. One nearer column briefly approaches the frame edge but never hides the central exhibit. Shadows and highlights change only as the viewpoint changes; the overhead light source remains stationary.
+[7-10s] Ease the camera smoothly to a stop. Keep the full pedestal base in view and settle on a new three-quarter angle with a clear gap between the meteorite and the rear column. The background must finish at a visibly different perspective from the opening.
+
+Audio: quiet ventilation and a distant low room resonance, with no footsteps, machinery or score. No cuts, zooms, focus pulsing, floating rock, rotating pedestal, extra exhibits, new surface markings, visitors, signs or captions. The entire effect comes from one controlled camera move around a motionless subject.
+```
+
+<a id="example-09"></a>
+
+### 09 · Unterwasserruinen: Der Roboter bringt einen Lichtsamen zurück
+
+[![Unterwasserruinen: Der Roboter bringt einen Lichtsamen zurück](assets/showcase-v3-09.png)](assets/showcase-v3-09.png)
+
+[Storyboards, Text und Bewertung](prompts/storyboard-text-evaluation.md) · [Referenz für das erste Bild](assets/showcase-v3-09.png) · [Klartext](prompts/copy/showcase-v3-09.txt)
+
+```text
+Use Image1 as the exact first frame of a 10-second, 16:9 continuous underwater story. One compact yellow exploration robot hovers on the left, facing a waist-high circular stone socket on the right. Its two small articulated grippers already hold one translucent amber seed-shaped capsule. The socket is empty and dark. Broken stone arches, sand and suspended particles establish a quiet submerged ruin.
+
+[0-3s] Follow the robot in a slow lateral tracking move as it approaches the socket. Its two downward thrusters lift a small cloud of sand that trails behind, never obscuring the capsule. Keep the robot's single round front lens, yellow housing, two arms and capsule shape consistent. The socket remains anchored to its original pedestal.
+[3-7s] The robot stops, extends both arms together and lowers the capsule into the centre of the socket. Show contact before either gripper releases. The capsule settles upright; the grippers open and withdraw without passing through the stone. Only after the capsule is seated does a narrow amber glow begin spreading through existing carved channels in the pedestal.
+[7-10s] The robot backs away a short distance and tilts its front lens toward the now-lit channels. Let the glow stop at the pedestal's outer rim rather than lighting the entire ruin. Fine sediment settles around its base. End with robot, capsule and complete pedestal visible in the same uninterrupted shot.
+
+Audio: muted thruster vibration, a soft stone contact, then a restrained low resonant tone synchronized to the first glow. No voice, score or sonar ping. No extra robots, hands, duplicated capsules, instant-growing plants, collapsing ruins, text, cuts or unexplained flashes.
 ```
 
 <a id="video-studies"></a>

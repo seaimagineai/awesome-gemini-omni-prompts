@@ -44,7 +44,18 @@ public_results=read('public-prompt-results.json')['cases']
 check(len(public_results)==6,'Expected six public-prompt results')
 for case in public_results:
     check(case.get('prompt_status')=='public_original' and case.get('prompt_url') and case.get('video_url') and case.get('mode') in ('input_video','text_to_video'),f'Incomplete public prompt evidence: {case.get("id")}')
-from build_locales import LOCALES, build
+from build_locales import LOCALES, build, featured_examples
+featured=featured_examples()
+category_images={x['image'] for x in read('category-grid.json')}
+featured_images={x['image'] for x in featured}
+check(len(featured)==9 and len(featured_images)==9,'Expected nine unique featured examples')
+check(category_images.isdisjoint(featured_images),'Category/featured image paths overlap')
+category_hashes={hashlib.sha256((R/p).read_bytes()).hexdigest() for p in category_images}
+featured_hashes={hashlib.sha256((R/p).read_bytes()).hexdigest() for p in featured_images}
+check(category_hashes.isdisjoint(featured_hashes),'Category/featured image contents overlap')
+for case in featured:
+    export=R/'prompts/copy'/f'{Path(case["image"]).stem}.txt'
+    check(export.exists() and export.read_text().strip()==case['prompt'].strip(),f'Missing featured export: {case["id"]}')
 for code,suffix,_ in LOCALES:
     p=R/('README.md' if code=='en' else f'README_{suffix}.md');t=p.read_text()
     guide=(R/f'docs/guides/README_{suffix}.md').read_text()
@@ -55,11 +66,11 @@ for code,suffix,_ in LOCALES:
     tables=re.findall(r'<table width="100%">(.*?)</table>',t,re.S)
     check(len(tables)==2 and tables[0].count('<tr>')==3 and tables[0].count('<td ')==9 and tables[1].count('<td ')==6,f'Invalid gallery matrices: {code}')
     check('width="420"' not in t,f'Homepage reference images should span the page: {code}')
-    check(len(re.findall(r'^```text$',t,re.M))==7,f'Expected six examples and one short edit template: {code}')
+    check(len(re.findall(r'^```text$',t,re.M))==10,f'Expected nine examples and one short edit template: {code}')
     for case in read('public-prompt-results.json')['cases']:
         check(case['source_url'] in t and case['prompt_url'] in t,f'Missing public prompt source: {code}: {case["id"]}')
         check(case['prompt_status']=='public_original' and case['prompt_excerpt'],f'Unverified public prompt: {case["id"]}')
-    for case in read('showcase-v2.json'):
+    for case in featured_examples():
         prompt=case['prompt']
         check(prompt in t,f'Missing complete example: {code}: {case["image"]}')
     for key,size in [('brand_titles',3),('brand_lessons',3),('brand_actions',3),('study_titles',4),('study_lessons',4),('study_practice',4)]:
@@ -70,10 +81,10 @@ for code,suffix,_ in LOCALES:
 for rec in read('brand-asset-provenance.json'):
     p=R/rec['filename']
     check(p.exists() and hashlib.sha256(p.read_bytes()).hexdigest()==rec['image_sha256'],f'New image provenance mismatch: {p.name}')
-for rec in read('category-image-provenance.json')['assets']:
+for rec in read('category-image-provenance.json')['assets']+read('category-v3-image-provenance.json')['assets']:
     p=R/rec['path']
     check(p.exists() and hashlib.sha256(p.read_bytes()).hexdigest()==rec['sha256'],f'Category image provenance mismatch: {p.name}')
-for rec in read('showcase-v2-image-provenance.json')['images']:
+for rec in read('showcase-v2-image-provenance.json')['images']+read('showcase-v3-image-provenance.json')['images']:
     p=R/rec['path']
     check(p.exists() and hashlib.sha256(p.read_bytes()).hexdigest()==rec['sha256'],f'Featured image provenance mismatch: {p.name}')
 for rec in read('creative-world-provenance.json')['assets']:
@@ -95,4 +106,4 @@ for case in catalog['cases']:
     for block in re.findall(r'```text\n(.*?)```',section,re.S):
         check(block.strip() in download,f'Incomplete text export: {case["id"]}')
 if errors:print('\n'.join(errors));sys.exit(1)
-print(f'PASS: {total} source recipes preserved; 15 locale entries; 6 redesigned examples; 9 category images; 6 public-prompt cases; 76 case downloads in 9 categories; 6 public-prompt result references; {checks} relative links.')
+print(f'PASS: {total} source recipes preserved; 15 locale entries; 9 full-width examples; 9 category images; 6 public-prompt cases; 76 case downloads in 9 categories; 6 public-prompt result references; {checks} relative links.')

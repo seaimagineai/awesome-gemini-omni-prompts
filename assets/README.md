@@ -80,3 +80,9 @@ The three `category-*-v2.png` files are editorial concepts for control, camera a
 ## SeaImagine creation section
 
 `seaimagine-logo.png` is the original 64-pixel transparent logo from the official website. `seaimagine-creative-world.png` is an original brand illustration generated with the built-in image tool: a violet river connects the glass pear, paper fox, perfume mechanism and suitcase observatory. It is editorial art, not a model result or a reference frame for the six individual prompts. See the [full generation prompt](SEAIMAGINE_CREATIVE_WORLD_PROMPT.md) and [source records](../data/creative-world-provenance.json).
+
+## Distinct category artwork and nine featured examples
+
+The six `category-*-v3.png` illustrations show additional catalogue topics instead of repeating the featured first frames. See [category generation prompts and source recipes](../data/category-v3-image-provenance.json). These are thematic illustrations, not exact opening frames or model outputs.
+
+`showcase-v3-07.png` through `showcase-v3-09.png` add three independent reference first frames for editing, camera control and narrative continuity. See [their generation prompts](../data/showcase-v3-image-provenance.json) and [complete video prompts](../data/showcase-v3-additions.json). All nine featured examples remain untested editorial prompts; the images are inputs, not demonstrated video results.
