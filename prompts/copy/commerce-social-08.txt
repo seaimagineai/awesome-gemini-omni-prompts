@@ -1,0 +1,27 @@
+冬日围巾：多语言电商变体
+
+=== 1/4: Part 1 ===
+
+Create a 9:16, 10-second winter product story for a fictional handwoven cobalt-blue scarf.
+
+[0-4s] In a quiet tram shelter at dawn, wind lifts the scarf's loose end around an adult commuter's charcoal coat. Close handheld framing shows the woven fibers and natural breath in cold air.
+[4-7s] The commuter wraps the scarf once, then looks up as the tram's warm light arrives across their face.
+[7-10s] Cut to the scarf folded on a simple wooden bench. Exact on-screen English text: "WARMTH, ON THE WAY". Hold readable for two seconds.
+
+Audio: winter wind, wool movement, distant tram bell, restrained original piano chord. No dialogue.
+Preserve the scarf's cobalt color, weave and fringe. No brand, price, sale badge, extra text, logo or watermark.
+
+
+=== 2/4: Part 2 ===
+
+Change only the final on-screen text to Simplified Chinese: "温暖，在路上". Preserve exact punctuation and keep everything else the same.
+
+
+=== 3/4: Part 3 ===
+
+Change only the final on-screen text to Japanese: "ぬくもりを、連れて。" Preserve the Japanese characters and keep everything else the same.
+
+
+=== 4/4: Part 4 ===
+
+Change only the final on-screen text to Spanish: "CALIDEZ EN CAMINO". Preserve spelling and keep everything else the same.

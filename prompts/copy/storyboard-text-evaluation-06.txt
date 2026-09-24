@@ -1,0 +1,16 @@
+Create a 9:16, 10-second kinetic-type video on a deep navy background. Use one bold geometric sans-serif typeface, cream letters, and a single coral accent. Keep all text inside a 10% mobile safe area.
+
+An adult narrator speaks this exact English sentence once: "Small steps make distant places reachable."
+
+Reveal exactly one word per beat, synchronized to the spoken word:
+[0.5s] "SMALL"
+[1.7s] "STEPS"
+[3.0s] "MAKE"
+[4.0s] "DISTANT"
+[5.6s] "PLACES"
+[7.0s] "REACHABLE"
+
+Each word enters through a simple physical motion related to meaning: SMALL scales from 90% to 100%; STEPS moves in two short increments; DISTANT begins farther back; REACHABLE joins the full sentence. From 8-10s, hold the exact complete sentence in title case: "Small steps make distant places reachable."
+
+Audio: clear neutral English voice, one soft original percussive beat per word, no music bed.
+No misspelling, repeated word, extra punctuation, subtitle track, icon, logo, or watermark.

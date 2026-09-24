@@ -1,0 +1,7 @@
+[# Sources <FIRST_FRAME>@Image1 <LAST_FRAME>@Image1]
+Use Image1 as both the exact first and final frame. Create a seamless 8-10 second product loop.
+
+A narrow band of light travels once from left to right across the product. As it passes, three nearby material samples lift by two centimeters and rotate exactly 360 degrees, then settle into their original positions. The camera remains locked. All shadows, reflections and objects return precisely to the starting state before the final frame.
+
+Audio: one soft spatial sweep that loops without a click. No music, voice or extra effects.
+Preserve every product detail. No morphing, new text, logo, watermark or camera movement.

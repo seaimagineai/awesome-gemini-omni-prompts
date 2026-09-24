@@ -6,7 +6,28 @@
 
 Omni 的世界知识适合帮助建立可信场景，但提示词不能代替事实核查。涉及历史、科学、医疗或公共安全时，应由领域专家复核画面和解说。
 
+<a id="case-index"></a>
+
+<!-- catalog:toc:start -->
+**本页案例 / Cases** · [全部 60 例 / All 60 cases](../docs/prompt-index.md)
+
+- [01 · 火山脊骑行纪录片](#case-01) · [TXT](copy/documentary-education-01.txt)
+- [02 · 玄武岩柱是怎样形成的](#case-02) · [TXT](copy/documentary-education-02.txt)
+- [03 · 潮池的十秒微型世界](#case-03) · [TXT](copy/documentary-education-03.txt)
+- [04 · 古代港口的证据式重建](#case-04) · [TXT](copy/documentary-education-04.txt)
+- [05 · 光合作用：从光子到糖](#case-05) · [TXT](copy/documentary-education-05.txt)
+- [06 · 博物馆器物的三层观察](#case-06) · [TXT](copy/documentary-education-06.txt)
+- [07 · 四语发音：同一概念，不同节奏](#case-07) · [TXT](copy/documentary-education-07.txt)
+- [08 · 被动式住宅：建筑微纪录片](#case-08) · [TXT](copy/documentary-education-08.txt)
+<!-- catalog:toc:end -->
+
+<a id="case-01"></a>
+
 ## 01｜火山脊骑行纪录片
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/documentary-education-01.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **模式：** 首帧图生视频 · **素材：** [源库参考首帧](../assets/travel-cyclist.png) · **画幅：** 16:9
 
@@ -20,7 +41,13 @@ Sound design: close tire crunch and chain movement, strong ridge wind with natur
 No cuts, no drone rise, no extra cyclists, no landmark text, no logo, no watermark.
 ```
 
+<a id="case-02"></a>
+
 ## 02｜玄武岩柱是怎样形成的
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/documentary-education-02.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **模式：** 文生科普视频 · **画幅：** 16:9 · **重点：** 地质过程、时间压缩、标签
 
@@ -36,7 +63,13 @@ Audio: low lava movement, subtle cooling ticks, neutral original pulse. Calm Eng
 No inaccurate eruption, no people, no extra labels, no logo or watermark.
 ```
 
+<a id="case-03"></a>
+
 ## 03｜潮池的十秒微型世界
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/documentary-education-03.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **模式：** 文生自然纪录片 · **画幅：** 16:9 · **重点：** 微距生态、自然环境声
 
@@ -52,7 +85,13 @@ Look: field-documentary realism, true-to-life scale and color, no studio aquariu
 No tropical species, no impossible animal behavior, no plastic, no text, logo or watermark.
 ```
 
+<a id="case-04"></a>
+
 ## 04｜古代港口的证据式重建
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/documentary-education-04.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **模式：** 文生历史重建 · **画幅：** 16:9 · **重点：** 将确定与推测分开
 
@@ -67,7 +106,13 @@ Audio: harbor water, rope tension, wood, distant workers with indistinct speech.
 No famous monument, no empire flags, no modern cranes, no anachronistic weapons, no other text, logo or watermark.
 ```
 
+<a id="case-05"></a>
+
 ## 05｜光合作用：从光子到糖
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/documentary-education-05.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **模式：** 文生科学可视化 · **画幅：** 16:9 · **重点：** 抽象过程、可读标签
 
@@ -83,7 +128,13 @@ Audio: light electronic pulses matched to each stage. English narration: "Plants
 No extra equations, no talking plant, no DNA helix, no inaccurate organelles, no logo or watermark.
 ```
 
+<a id="case-06"></a>
+
 ## 06｜博物馆器物的三层观察
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/documentary-education-06.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **模式：** 图片参考 · **画幅：** 9:16 · **输入：** Image1 为已获授权的器物照片
 
@@ -99,7 +150,13 @@ Audio: quiet gallery room tone, soft turntable motor, one restrained tonal bed. 
 Preserve the artifact's geometry, color, damage and patina. No hands, fantasy restoration, invented provenance, logo or watermark.
 ```
 
+<a id="case-07"></a>
+
 ## 07｜四语发音：同一概念，不同节奏
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/documentary-education-07.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **模式：** 文生语言教学 · **画幅：** 16:9 · **重点：** 多语言、文字与音频同步
 
@@ -115,7 +172,13 @@ The walking dot changes pace subtly to match each phrase but never stops. Use th
 Preserve accents, punctuation and Japanese/Chinese characters exactly. Do not translate aloud, overlap voices, add flags, phonetics, subtitles, logo or watermark.
 ```
 
+<a id="case-08"></a>
+
 ## 08｜被动式住宅：建筑微纪录片
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/documentary-education-08.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **模式：** 文生建筑解释 · **画幅：** 16:9 · **重点：** 空间连贯、信息叠加
 

@@ -8,6 +8,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - run: python scripts/build_catalog.py
       - run: python scripts/build_locales.py
       - run: python scripts/build_community.py
       - run: python scripts/validate.py

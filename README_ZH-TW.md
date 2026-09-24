@@ -4,72 +4,49 @@
 
 # Gemini Omni 提示詞庫
 
-**本庫收錄原始資料庫的 60 組完整提示詞，分為 7 類。透過範例學習如何描述場景、安排動作時間、控制鏡頭與聲音，再改成自己的創意。**
+**60 則提示詞，分為 7 類，附 6 張輸入參考圖；參考圖並非經實測驗證的生成效果。**
 
 [English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md)
 
 [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
 
-
-
-[全部 60 則提示詞](#prompt-collections) · [三個可複製的範例](#source-examples) · [官方與社群案例](#video-studies) · [多語言指南](docs/multilingual-guide.md)
+[依分類瀏覽](#prompt-collections) · [六個可直接複製的案例](#source-examples) · [官方與社群效果展示](#video-studies) · [全部 60 則提示詞索引](docs/prompt-index.md) · [下載全部提示詞文字檔](prompts/copy/all-prompts.txt)
 
 </div>
 
-## 專案內容
-
-以下是提示詞可規劃的內容，不代表所選工具的每個模型都提供這些功能。輸入素材、編輯、續寫、聲音與解析度請以所選模型及目前介面為準。先用介面提供的預覽設定檢查構圖、對白與文字，再製作成片。Google API（程式呼叫介面）的規格不等於所選工具的網頁功能。
-
-- 文字轉影片、圖片轉影片、首尾幀、角色/商品參考與短影片參考。
-- 將環境聲、擬音、原創音樂、靜默與對白時間一起設計。
-- 15 種語言的對白、螢幕文字、RTL、斷行與母語審核規則。
-- 使用 `<FIRST_FRAME>`、`<LAST_FRAME>`、`<IMAGE_REF_N>`、`<VIDEO_REF_N>` 的完整範例。
-
-## 指定中文對白
-
-可保留英文鏡頭指令，以中文逐字指定對白與畫面文字。生成後檢查發音、字形及出現時間。
-
-```text
-Spoken language: Mandarin Chinese.
-On-screen script: Traditional Chinese used in Taiwan.
-Exact dialogue at 6s, spoken once: "今天，繞遠一點回家吧。"
-Do not translate, paraphrase, repeat or subtitle it.
-
-Exact on-screen title: "小小旅程"
-Do not convert any character to Simplified Chinese. No other text.
-```
-
 <a id="prompt-collections"></a>
 
-## 全部 60 則提示詞
+## 依分類瀏覽
+
+| 分類 | 提示詞數 | 連結 |
+|---|---:|---|
+| [電影與敘事](prompts/cinematic-storytelling.md) | 8 | [查看](prompts/cinematic-storytelling.md#case-01) |
+| [商業廣告與社群媒體](prompts/commerce-social.md) | 8 | [查看](prompts/commerce-social.md#case-01) |
+| [紀錄片、旅行與教育](prompts/documentary-education.md) | 8 | [查看](prompts/documentary-education.md#case-01) |
+| [動畫、音樂與娛樂](prompts/stylized-entertainment.md) | 8 | [查看](prompts/stylized-entertainment.md#case-01) |
+| [多模態控制、編輯與續寫](prompts/control-editing-extension.md) | 10 | [查看](prompts/control-editing-extension.md#case-01) |
+| [進階編輯、鏡頭與視覺變換](prompts/advanced-editing-camera.md) | 9 | [查看](prompts/advanced-editing-camera.md#case-01) |
+| [故事板、分割畫面、文字與評測](prompts/storyboard-text-evaluation.md) | 9 | [查看](prompts/storyboard-text-evaluation.md#case-01) |
+
+[全部 60 則提示詞索引](docs/prompt-index.md) · [下載全部提示詞文字檔](prompts/copy/all-prompts.txt)
 
 前 5 個分類的說明為簡體中文，後 2 個為英文；可複製的控制提示詞皆為英文。分類內文尚未完整翻譯成各入口語言。
 
-- [電影與敘事：8 條](prompts/cinematic-storytelling.md)
-- [商業廣告與社群媒體：8 條](prompts/commerce-social.md)
-- [紀錄片、旅行與教育：8 條](prompts/documentary-education.md)
-- [動畫、音樂與娛樂：8 條](prompts/stylized-entertainment.md)
-- [多模態控制、編輯與續寫：10 條](prompts/control-editing-extension.md)
-- [進階編輯、鏡頭與視覺變換：9 條](prompts/advanced-editing-camera.md)
-- [故事板、分割畫面、文字與評測：9 條](prompts/storyboard-text-evaluation.md)
-
-
-
-## 開始第一次嘗試
-
-1. 選擇接近你想做的場景的完整範例，複製全部提示詞。
-2. 下載範例對應的參考圖；若使用的工具支援首幀，請將圖片設為首幀。
-3. 依工具可用的片長與解析度調整時間段，先生成草稿，檢查主體、文字與聲音，每次只改一項。
-
 <a id="source-examples"></a>
 
-## 三個可複製的範例
+## 六個可直接複製的案例
 
-圖片沿用原始儲存庫的參考首幀，並非實際影片生成結果。請將對應圖片上傳為 Image1。10 秒及音效是目標要求，請依實際可用設定調整。
+參考圖是輸入素材，不是生成結果。
+
+[01 · 商品音箱：水滴節拍](#example-01) · [02 · 山稜單車：旅行紀錄片開場](#example-02) · [03 · 鐘錶匠與紙鳥：手繪動畫故事](#example-03) · [04 · 青綠色陶瓷杯：清晨商品短片](#example-04) · [05 · 紙藝海港：點亮燈塔與窗光](#example-05) · [06 · 亞麻收納袋：多語言直式片尾](#example-06)
+
+<a id="example-01"></a>
 
 ### 01 · 商品音箱：水滴節拍
 
-![商品音箱：水滴節拍](assets/product-speaker.png)
+<a href="assets/product-speaker.png"><img src="assets/product-speaker.png" alt="商品音箱：水滴節拍" width="420"></a>
+
+[商業廣告與社群媒體](prompts/commerce-social.md) · [首影格參考圖](assets/product-speaker.png) · [純文字](prompts/copy/showcase-01.txt)
 
 ```text
 Create a 10-second premium product film from Image1. Use Image1 as the exact starting frame.
@@ -82,9 +59,13 @@ Audio: original minimal electronic rhythm at 96 BPM, water-drop percussion, dist
 No product morphing, added controls, text, logo, watermark, hands, duplicate product or camera shake.
 ```
 
+<a id="example-02"></a>
+
 ### 02 · 山稜單車：旅行紀錄片開場
 
-![山稜單車：旅行紀錄片開場](assets/travel-cyclist.png)
+<a href="assets/travel-cyclist.png"><img src="assets/travel-cyclist.png" alt="山稜單車：旅行紀錄片開場" width="420"></a>
+
+[紀錄片、旅行與教育](prompts/documentary-education.md) · [首影格參考圖](assets/travel-cyclist.png) · [純文字](prompts/copy/showcase-02.txt)
 
 ```text
 Animate Image1 as a single continuous 10-second documentary tracking shot. Use it as the exact first frame.
@@ -95,9 +76,13 @@ Audio: close tire crunch and chain movement, strong ridge wind, one distant bird
 No cuts, drone rise, extra cyclists, landmark text, logo or watermark.
 ```
 
+<a id="example-03"></a>
+
 ### 03 · 鐘錶匠與紙鳥：手繪動畫故事
 
-![鐘錶匠與紙鳥：手繪動畫故事](assets/clockmaker-story.png)
+<a href="assets/clockmaker-story.png"><img src="assets/clockmaker-story.png" alt="鐘錶匠與紙鳥：手繪動畫故事" width="420"></a>
+
+[動畫、音樂與娛樂](prompts/stylized-entertainment.md) · [首影格參考圖](assets/clockmaker-story.png) · [純文字](prompts/copy/showcase-03.txt)
 
 ```text
 Bring this illustration to life in one coherent 10-second animated shot. Use Image1 as the first frame and preserve its watercolor-and-ink direction.
@@ -110,88 +95,13 @@ Audio: layered clock ticks, delicate paper folds, wooden gear creaks, then an or
 Keep the clockmaker's face, clothes and goggles consistent. No photorealism, subtitles, logo or watermark.
 ```
 
+<a id="example-04"></a>
 
+### 04 · 青綠色陶瓷杯：清晨商品短片
 
-<a id="video-studies"></a>
+<a href="assets/seaimagine-ceramic-cup.png"><img src="assets/seaimagine-ceramic-cup.png" alt="青綠色陶瓷杯：清晨商品短片" width="420"></a>
 
-## 從官方與社群案例學什麼
-
-Google 影片是 Omni 1.1 Flash 官方展示。社群貼文發布於 2026 年 5 月，屬於早期 Omni / Flash 案例，未確認為 1.1 實測。社群證據來自 FxTwitter 鏡像的文字與媒體中繼資料，未驗證 X 原生播放。這些是獨立來源的案例，不代表你使用的平台所生成的結果；實際功能請查看所用工具。
-
-### Google：首尾幀轉場
-
-[查看原始案例](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
-
-分別指定起始畫面、結束畫面，以及兩者之間連續的運動。
-
-為同一物件準備兩張角度相容的照片；若支援首尾幀，以一個簡單動作連接兩張圖。
-
-### Google：延長鏡頭
-
-[查看原始案例](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
-
-描述下一段鏡頭運動，同時維持主體與運動方向一致。
-
-使用自己的短片；若支援延長，只接續一段動作，檢查接點的運動與光線是否突然改變。
-
-### CHRIS FIRST：人物變成紅鶴
-
-<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST：人物變成紅鶴" width="300"></a>
-
-[查看原始案例](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
-
-替換主體時明確保留服裝和動作，並檢查肢體接觸的位置。
-
-使用自己的影片；若支援影片編輯，只替換一個主體，比較前後的服裝、姿勢與觸地位置。
-
-### Justine Moore：每次拍手換一頂帽子
-
-<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore：每次拍手換一頂帽子" width="300"></a>
-
-[查看原始案例](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
-
-以可見動作決定變化時機，同時維持臉孔、服裝和鏡頭一致。
-
-固定攝影機，拍攝兩次清楚的拍手；若支援影片編輯，要求每次拍手換帽，逐格檢查時間點。
-
-[官方與社群案例](docs/community-examples.md)
-
-## 延伸閱讀
-
-- [官方與社群案例](docs/community-examples.md)
-- [多語言指南](docs/multilingual-guide.md)
-- [提示詞設計](docs/prompting-guide.md)
-- [參考素材與授權](docs/reference-videos.md)
-
-<a id="brand-tools"></a>
-
-## 從 SeaImagine 開始
-
-本庫保留 Flaq AI 的 60 條原始配方，並新增三組附原創參考圖的 SeaImagine 練習。本頁可直接閱讀新練習、來源庫範例，以及官方與社群案例的學習說明。
-
-[Gemini Omni](https://seaimagine.com/tw/model/gemini-omni/) · [Gemini Omni 1.1 Flash](https://seaimagine.com/tw/model/gemini-omni-1-1-flash/)
-
-1. 開啟模型頁，確認目前是否可用、價格及可調整的設定。
-2. 需要保留商品或人物外觀時，選擇圖片轉影片，上傳一張參考圖並貼上對應提示詞；從零構思場景時，可先試文字轉影片。
-3. 在介面選擇片長及畫面比例，先試一個鏡頭。檢查外觀、動作與聲音，每次只調整一項指令。
-
-這裡是提示詞設計範例，並非已驗證的 SeaImagine 生成結果。片長、聲音、編輯、延長及參考素材支援取決於所選模型與目前介面。Google API 功能不代表 SeaImagine 已提供相同功能。
-
-<a id="sea-practice"></a>
-
-## 三個 SeaImagine 原創參考圖練習
-
-以下參考圖由 AI 生成，用於首幀練習，並非 Gemini 影片實測結果。請以 SeaImagine 介面實際提供的功能為準。
-
-### SEA-01 · 青綠色陶瓷杯：清晨商品短片
-
-[![青綠色陶瓷杯：清晨商品短片](assets/seaimagine-ceramic-cup.png)](assets/seaimagine-ceramic-cup.png)
-
-鏡頭緩慢推近，保持杯把、杯口和液面高度不變，結尾預留字幕空間。
-
-上傳杯子參考圖製作圖生影片。先只嘗試緩慢推近，檢查杯把和液面，再加入字幕。
-
-[圖片轉影片](https://seaimagine.com/tw/image-to-video/) · [AI 圖片生成](https://seaimagine.com/tw/ai-image-generator/)
+[商業廣告與社群媒體](prompts/commerce-social.md) · [首影格參考圖](assets/seaimagine-ceramic-cup.png) · [純文字](prompts/copy/showcase-04.txt)
 
 ```text
 Use the uploaded ceramic-cup image as the exact first frame. Create a 10-second, 16:9 product shot.
@@ -203,15 +113,13 @@ Audio, if supported: quiet room ambience and one distant bird. No speech or musi
 No pouring, added cup, new handle, object morphing, generated text, logo or watermark.
 ```
 
-### SEA-02 · 紙藝海港：點亮燈塔與窗光
+<a id="example-05"></a>
 
-[![紙藝海港：點亮燈塔與窗光](assets/seaimagine-paper-harbor.png)](assets/seaimagine-paper-harbor.png)
+### 05 · 紙藝海港：點亮燈塔與窗光
 
-以單一鏡頭讓燈塔亮起，再讓三棟房屋的窗光依序增強，保持紙張質感與幾何結構。
+<a href="assets/seaimagine-paper-harbor.png"><img src="assets/seaimagine-paper-harbor.png" alt="紙藝海港：點亮燈塔與窗光" width="420"></a>
 
-上傳海港參考圖製作圖生影片。要求燈塔亮起、窗光依序增強，比較片頭和片尾的建築形狀。
-
-[圖片轉影片](https://seaimagine.com/tw/image-to-video/) · [AI 圖片生成](https://seaimagine.com/tw/ai-image-generator/)
+[動畫、音樂與娛樂](prompts/stylized-entertainment.md) · [首影格參考圖](assets/seaimagine-paper-harbor.png) · [純文字](prompts/copy/showcase-05.txt)
 
 ```text
 Use the uploaded paper-harbor image as the exact first frame. Animate a single 10-second, 16:9 shot while retaining the handcrafted paper texture, folds and miniature scale.
@@ -223,15 +131,13 @@ Audio, if supported: a quiet original celesta phrase, no voices.
 No ocean waves, added buildings, extra boats, rotating tower, camera cut, text, logo or watermark.
 ```
 
-### SEA-03 · 亞麻收納袋：多語言直式片尾
+<a id="example-06"></a>
 
-<a href="assets/seaimagine-linen-pouch.png"><img src="assets/seaimagine-linen-pouch.png" alt="亞麻收納袋：多語言直式片尾" width="360"></a>
+### 06 · 亞麻收納袋：多語言直式片尾
 
-先製作不含文字的乾淨直式商品影片，再以一般影片編輯器加入在地語言字幕。
+<a href="assets/seaimagine-linen-pouch.png"><img src="assets/seaimagine-linen-pouch.png" alt="亞麻收納袋：多語言直式片尾" width="420"></a>
 
-上傳收納袋參考圖製作直式短片，再加入翻譯好的字幕；僅在介面支援影片編輯時使用簡短編輯指令。
-
-[圖片轉影片](https://seaimagine.com/tw/image-to-video/) · [AI 圖片生成](https://seaimagine.com/tw/ai-image-generator/)
+[商業廣告與社群媒體](prompts/commerce-social.md) · [首影格參考圖](assets/seaimagine-linen-pouch.png) · [純文字](prompts/copy/showcase-06.txt)
 
 ```text
 Use the uploaded linen-pouch photograph as the exact first frame. Create a 10-second, 9:16 vertical ecommerce product shot.
@@ -243,21 +149,48 @@ Audio, if supported: soft room tone. No speech or music.
 Do not generate any lettering, subtitles, symbols, price, logo, watermark, extra bag or moving string.
 ```
 
-> 讓日常更從容
+讓日常更從容
 
-[SeaImagine 使用流程](docs/seaimagine-workflow.md)
+<a id="video-studies"></a>
 
-## SeaImagine 其他創作入口
+## 官方與社群效果展示
+
+官方案例使用 Gemini Omni 1.1 Flash；社群案例來自 2026 年 5 月，使用早期 Omni 版本。連結指向原始貼文，本儲存庫並未宣稱重現這些效果。 社群證據來自 FxTwitter，未驗證 X 原生播放。
+
+| Google · Omni 1.1 Flash | 連結 |
+|---|---|
+| 電影感鏡頭延長 | [觀看影片](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) |
+| 首尾影格轉場 | [觀看影片](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) |
+| 360p 海洋矽藻草稿 | [觀看影片](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/kw_omni-flash__capability-video__draft-360p__16x9__v1_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) |
+| 參考影片驅動舞蹈 | [觀看影片](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__video-reference__16x9.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) |
+
+| X · Omni / Flash · 2026-05 | X · Omni / Flash · 2026-05 |
+|---|---|
+| **人物變成紅鶴**<br><a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="人物變成紅鶴" width="240"></a><br>CHRIS FIRST<br>[來源](https://x.com/chrisfirst/status/2056797606509158681) · [觀看影片](https://video.twimg.com/amplify_video/2056797343085969408/vid/avc1/1080x1440/UYr_7RKomiginRgq.mp4?tag=27) | **拍手換帽**<br><a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="拍手換帽" width="240"></a><br>Justine Moore<br>[來源](https://x.com/venturetwins/status/2056793856843366789) · [觀看影片](https://video.twimg.com/amplify_video/2056793760273686528/vid/avc1/720x1280/Q73liRfIjPtGSveL.mp4?tag=27) |
+| **光合作用示範**<br><a href="https://x.com/mrfanduu/status/2056692235174097398"><img src="https://pbs.twimg.com/amplify_video_thumb/2056691792175833088/img/W0_pZkQwRicpRjjG.jpg" alt="光合作用示範" width="240"></a><br>Fandu<br>[來源](https://x.com/mrfanduu/status/2056692235174097398) · [觀看影片](https://video.twimg.com/amplify_video/2056691792175833088/vid/avc1/1280x720/Ws-92fvVr5e-FkYZ.mp4?tag=14) | **倫敦眼手持變焦**<br><a href="https://x.com/fofrAI/status/2056789242274259242"><img src="https://pbs.twimg.com/amplify_video_thumb/2056503814874861569/img/mQnHwThYDypoS1H6.jpg" alt="倫敦眼手持變焦" width="240"></a><br>fofr<br>[來源](https://x.com/fofrAI/status/2056789242274259242) · [觀看影片](https://video.twimg.com/amplify_video/2056503814874861569/vid/avc1/1280x720/Lc2C4YtTflfGA8qe.mp4?tag=27) |
+| **原片與編輯結果對比**<br><a href="https://x.com/Mho_23/status/2057151867927601413"><img src="https://pbs.twimg.com/amplify_video_thumb/2057151701904146432/img/yhVQfdBM34BQJjV3.jpg" alt="原片與編輯結果對比" width="240"></a><br>Miko<br>[來源](https://x.com/Mho_23/status/2057151867927601413) · [觀看影片](https://video.twimg.com/amplify_video/2057151701904146432/vid/avc1/1080x1920/JfeFoDd5udd_FRR7.mp4?tag=27) | **觸碰水壺切換材質**<br><a href="https://x.com/alexanderchen/status/2057176690519089166"><img src="https://pbs.twimg.com/amplify_video_thumb/2057176000459612161/img/wTZ0HcgL_8PHxwbY.jpg" alt="觸碰水壺切換材質" width="240"></a><br>Alexander Chen<br>[來源](https://x.com/alexanderchen/status/2057176690519089166) · [觀看影片](https://video.twimg.com/amplify_video/2057176000459612161/vid/avc1/1280x720/LRzM8IueMomPMa7J.mp4?tag=27) · [完整提示詞](https://x.com/alexanderchen/status/2057176691903279524) |
+[來源 / FxTwitter](docs/community-examples.md)
+
+## 進階文件
+
+教學已移至獨立頁面。 [查看](docs/guides/README_ZH-TW.md)
+
+[提示詞設計](docs/prompting-guide.md) · [多語言指南](docs/multilingual-guide.md) · [參考素材與授權](docs/reference-videos.md)
+
+<a id="brand-tools"></a>
+
+## SeaImagine 創作入口
+
+[Gemini Omni](https://seaimagine.com/tw/model/gemini-omni/) · [Gemini Omni 1.1 Flash](https://seaimagine.com/tw/model/gemini-omni-1-1-flash/)
+
+[圖片轉影片](https://seaimagine.com/tw/image-to-video/) · [文字轉影片](https://seaimagine.com/tw/text-to-video/) · [AI 圖片生成](https://seaimagine.com/tw/ai-image-generator/)
 
 可將這些頁面作為其他創作入口。模型、使用條款及價格以各頁面目前顯示為準，本儲存庫不保證服務持續可用。
 
-- [開始創作](https://seaimagine.com/tw/create/)
-- [圖片轉影片](https://seaimagine.com/tw/image-to-video/)
-- [文字轉影片](https://seaimagine.com/tw/text-to-video/)
-- [AI 圖片生成](https://seaimagine.com/tw/ai-image-generator/)
+[SeaImagine 使用流程](docs/seaimagine-workflow.md)
 
 ## 來源與授權條款
 
 本儲存庫改編自 Flaq AI 專案，沿用提示詞集合與 3 張參考圖，並非全部由 SeaImagine 原創。本專案是獨立指南，不是 Google 官方產品。
 
-[Flaq AI · awesome-gemini-omni-flash](https://github.com/flaqai/awesome-gemini-omni-flash) · [MIT](LICENSE)
+[Flaq AI · awesome-gemini-omni-flash](https://github.com/flaqai/awesome-gemini-omni-flash) · [MIT](LICENSE) · [Contributing](CONTRIBUTING.md)

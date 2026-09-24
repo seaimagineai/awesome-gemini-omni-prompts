@@ -1,0 +1,15 @@
+Controlled A/B/C prompt evaluation
+
+=== 1/2: Part 1 ===
+
+Benchmark scene, 10 seconds, 16:9. One adult craftsperson wearing a plain olive apron places exactly three blue ceramic tiles onto a pale worktable from left to right, then aligns them with a wooden ruler and removes both hands from frame. Fixed camera at chest height, medium shot, soft daylight from frame left, plain gray wall.
+
+Audio: three distinct ceramic contacts, ruler sliding on wood, quiet room tone. No speech or music.
+Preserve one person, two hands, three tiles, tile color, action order, camera, table, lighting, and duration. No cuts, extra objects, text, brands, logo, or watermark.
+
+
+=== 2/2: Part 2 ===
+
+Variant A — Camera: completely locked tripod shot.
+Variant B — Camera: 15-centimeter slow push-in from 2s to 8s.
+Variant C — Camera: 20-degree slow arc from front-left to front-right from 2s to 8s.

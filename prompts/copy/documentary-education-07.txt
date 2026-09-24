@@ -1,0 +1,9 @@
+Create a 10-second minimalist language-learning video for the idea "Take your time." Use four equal visual beats on a warm off-white background, with a simple animated walking dot. Only one language appears and is spoken at a time.
+
+[0-2.5s] Exact text: "Take your time." Natural English voice speaks it once.
+[2.5-5s] Exact text: "慢慢来。" Natural Mandarin Chinese voice speaks it once: "慢慢来。"
+[5-7.5s] Exact text: "ゆっくりでいいよ。" Natural Japanese voice speaks it once.
+[7.5-10s] Exact text: "Tómate tu tiempo." Natural Spanish voice speaks it once.
+
+The walking dot changes pace subtly to match each phrase but never stops. Use the same type size and placement for all languages. Insert a clean half-second silence between voices. No background music.
+Preserve accents, punctuation and Japanese/Chinese characters exactly. Do not translate aloud, overlap voices, add flags, phonetics, subtitles, logo or watermark.

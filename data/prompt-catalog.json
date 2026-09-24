@@ -1,0 +1,655 @@
+{
+  "categories": [
+    {
+      "id": "cinematic-storytelling",
+      "title": "电影与叙事",
+      "title_en": "Cinematic storytelling",
+      "path": "prompts/cinematic-storytelling.md",
+      "count": 8
+    },
+    {
+      "id": "commerce-social",
+      "title": "商业广告与社交媒体",
+      "title_en": "Commerce and social",
+      "path": "prompts/commerce-social.md",
+      "count": 8
+    },
+    {
+      "id": "documentary-education",
+      "title": "纪录片与教育",
+      "title_en": "Documentary and education",
+      "path": "prompts/documentary-education.md",
+      "count": 8
+    },
+    {
+      "id": "stylized-entertainment",
+      "title": "风格化与娱乐",
+      "title_en": "Stylized entertainment",
+      "path": "prompts/stylized-entertainment.md",
+      "count": 8
+    },
+    {
+      "id": "control-editing-extension",
+      "title": "多模态控制、编辑与续写",
+      "title_en": "Multimodal control, editing and extension",
+      "path": "prompts/control-editing-extension.md",
+      "count": 10
+    },
+    {
+      "id": "advanced-editing-camera",
+      "title": "进阶编辑与镜头",
+      "title_en": "Advanced editing and camera",
+      "path": "prompts/advanced-editing-camera.md",
+      "count": 9
+    },
+    {
+      "id": "storyboard-text-evaluation",
+      "title": "分镜、文字与评测",
+      "title_en": "Storyboards, text and evaluation",
+      "path": "prompts/storyboard-text-evaluation.md",
+      "count": 9
+    }
+  ],
+  "cases": [
+    {
+      "metadata": "**模式：** 文生视频 · **画幅：** 16:9 · **重点：** 双人表演、中文对白、雨声层次",
+      "id": "cinematic-storytelling-01",
+      "category": "cinematic-storytelling",
+      "title": "末班站台的重逢",
+      "path": "prompts/cinematic-storytelling.md",
+      "anchor": "case-01",
+      "copy_path": "prompts/copy/cinematic-storytelling-01.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**模式：** 文生视频 · **画幅：** 9:16 · **重点：** 连续镜头、物理运动、竖屏动作",
+      "id": "cinematic-storytelling-02",
+      "category": "cinematic-storytelling",
+      "title": "屋顶快递：一镜到底追逐",
+      "path": "prompts/cinematic-storytelling.md",
+      "anchor": "case-02",
+      "copy_path": "prompts/copy/cinematic-storytelling-02.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**模式：** 文生视频 · **画幅：** 16:9 · **重点：** 世界知识、历史质感、群体反应",
+      "id": "cinematic-storytelling-03",
+      "category": "cinematic-storytelling",
+      "title": "瓷窑开炉：历史工艺瞬间",
+      "path": "prompts/cinematic-storytelling.md",
+      "anchor": "case-03",
+      "copy_path": "prompts/copy/cinematic-storytelling-03.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**模式：** 文生视频 · **画幅：** 16:9 · **重点：** 心理惊悚、有限揭示、声音反转",
+      "id": "cinematic-storytelling-04",
+      "category": "cinematic-storytelling",
+      "title": "门下的第二道影子",
+      "path": "prompts/cinematic-storytelling.md",
+      "anchor": "case-04",
+      "copy_path": "prompts/copy/cinematic-storytelling-04.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**模式：** 首帧 + 尾帧 · **画幅：** 与输入一致 · **重点：** 连续转场",
+      "id": "cinematic-storytelling-05",
+      "category": "cinematic-storytelling",
+      "title": "夏到冬：首尾帧季节插值",
+      "path": "prompts/cinematic-storytelling.md",
+      "anchor": "case-05",
+      "copy_path": "prompts/copy/cinematic-storytelling-05.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**模式：** 文生视频 · **画幅：** 16:9 · **重点：** 倒序动作、可读文字",
+      "id": "cinematic-storytelling-06",
+      "category": "cinematic-storytelling",
+      "title": "倒放的线索：黑色电影谜案",
+      "path": "prompts/cinematic-storytelling.md",
+      "anchor": "case-06",
+      "copy_path": "prompts/copy/cinematic-storytelling-06.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**模式：** 文生视频 · **画幅：** 9:16 · **重点：** 固定机位、表演节奏、无对白",
+      "id": "cinematic-storytelling-07",
+      "category": "cinematic-storytelling",
+      "title": "电梯里的沉默喜剧",
+      "path": "prompts/cinematic-storytelling.md",
+      "anchor": "case-07",
+      "copy_path": "prompts/copy/cinematic-storytelling-07.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**模式：** 文生视频 · **画幅：** 16:9 · **重点：** 科幻物理、节奏升级、原生声音",
+      "id": "cinematic-storytelling-08",
+      "category": "cinematic-storytelling",
+      "title": "零重力温室告警",
+      "path": "prompts/cinematic-storytelling.md",
+      "anchor": "case-08",
+      "copy_path": "prompts/copy/cinematic-storytelling-08.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**模式：** 首帧图生视频 · **素材：** [源库参考首帧](../assets/product-speaker.png) · **画幅：** 16:9",
+      "id": "commerce-social-01",
+      "category": "commerce-social",
+      "title": "户外音箱水滴节拍广告",
+      "path": "prompts/commerce-social.md",
+      "anchor": "case-01",
+      "copy_path": "prompts/copy/commerce-social-01.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**模式：** 文生视频 · **画幅：** 9:16 · **重点：** 包装文字、液体物理、移动端广告",
+      "id": "commerce-social-02",
+      "category": "commerce-social",
+      "title": "护肤精华：微距质感而非夸张特效",
+      "path": "prompts/commerce-social.md",
+      "anchor": "case-02",
+      "copy_path": "prompts/copy/commerce-social-02.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**模式：** 文生视频 · **画幅：** 9:16 · **重点：** 自然口播、手持镜头、真实小店",
+      "id": "commerce-social-03",
+      "category": "commerce-social",
+      "title": "巷口咖啡店：中文 UGC 探店",
+      "path": "prompts/commerce-social.md",
+      "anchor": "case-03",
+      "copy_path": "prompts/copy/commerce-social-03.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**模式：** 多参考图 · **画幅：** 9:16 · **输入：** Image1 角色、Image2/3/4 三套服装",
+      "id": "commerce-social-04",
+      "category": "commerce-social",
+      "title": "三套造型：多参考图时尚切换",
+      "path": "prompts/commerce-social.md",
+      "anchor": "case-04",
+      "copy_path": "prompts/copy/commerce-social-04.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**模式：** 文生视频 · **画幅：** 9:16 · **重点：** 声音、食物物理、近景",
+      "id": "commerce-social-05",
+      "category": "commerce-social",
+      "title": "辣椒面馆：食物 ASMR",
+      "path": "prompts/commerce-social.md",
+      "anchor": "case-05",
+      "copy_path": "prompts/copy/commerce-social-05.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**模式：** 首帧 + 尾帧 · **画幅：** 16:9 · **输入：** Image1 空房，Image2 同机位软装完成",
+      "id": "commerce-social-06",
+      "category": "commerce-social",
+      "title": "空房到生活空间：房产转场",
+      "path": "prompts/commerce-social.md",
+      "anchor": "case-06",
+      "copy_path": "prompts/copy/commerce-social-06.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**模式：** 文生视频 · **画幅：** 9:16 · **重点：** 动态字效、界面克制、SEO/社媒钩子",
+      "id": "commerce-social-07",
+      "category": "commerce-social",
+      "title": "效率 App：清晰文字驱动的发布短片",
+      "path": "prompts/commerce-social.md",
+      "anchor": "case-07",
+      "copy_path": "prompts/copy/commerce-social-07.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**模式：** 文生视频 + 对话式文字编辑 · **画幅：** 9:16 · **重点：** 一支母版、多语言本地化",
+      "id": "commerce-social-08",
+      "category": "commerce-social",
+      "title": "冬日围巾：多语言电商变体",
+      "path": "prompts/commerce-social.md",
+      "anchor": "case-08",
+      "copy_path": "prompts/copy/commerce-social-08.txt",
+      "block_count": 4
+    },
+    {
+      "metadata": "**模式：** 首帧图生视频 · **素材：** [源库参考首帧](../assets/travel-cyclist.png) · **画幅：** 16:9",
+      "id": "documentary-education-01",
+      "category": "documentary-education",
+      "title": "火山脊骑行纪录片",
+      "path": "prompts/documentary-education.md",
+      "anchor": "case-01",
+      "copy_path": "prompts/copy/documentary-education-01.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**模式：** 文生科普视频 · **画幅：** 16:9 · **重点：** 地质过程、时间压缩、标签",
+      "id": "documentary-education-02",
+      "category": "documentary-education",
+      "title": "玄武岩柱是怎样形成的",
+      "path": "prompts/documentary-education.md",
+      "anchor": "case-02",
+      "copy_path": "prompts/copy/documentary-education-02.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**模式：** 文生自然纪录片 · **画幅：** 16:9 · **重点：** 微距生态、自然环境声",
+      "id": "documentary-education-03",
+      "category": "documentary-education",
+      "title": "潮池的十秒微型世界",
+      "path": "prompts/documentary-education.md",
+      "anchor": "case-03",
+      "copy_path": "prompts/copy/documentary-education-03.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**模式：** 文生历史重建 · **画幅：** 16:9 · **重点：** 将确定与推测分开",
+      "id": "documentary-education-04",
+      "category": "documentary-education",
+      "title": "古代港口的证据式重建",
+      "path": "prompts/documentary-education.md",
+      "anchor": "case-04",
+      "copy_path": "prompts/copy/documentary-education-04.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**模式：** 文生科学可视化 · **画幅：** 16:9 · **重点：** 抽象过程、可读标签",
+      "id": "documentary-education-05",
+      "category": "documentary-education",
+      "title": "光合作用：从光子到糖",
+      "path": "prompts/documentary-education.md",
+      "anchor": "case-05",
+      "copy_path": "prompts/copy/documentary-education-05.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**模式：** 图片参考 · **画幅：** 9:16 · **输入：** Image1 为已获授权的器物照片",
+      "id": "documentary-education-06",
+      "category": "documentary-education",
+      "title": "博物馆器物的三层观察",
+      "path": "prompts/documentary-education.md",
+      "anchor": "case-06",
+      "copy_path": "prompts/copy/documentary-education-06.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**模式：** 文生语言教学 · **画幅：** 16:9 · **重点：** 多语言、文字与音频同步",
+      "id": "documentary-education-07",
+      "category": "documentary-education",
+      "title": "四语发音：同一概念，不同节奏",
+      "path": "prompts/documentary-education.md",
+      "anchor": "case-07",
+      "copy_path": "prompts/copy/documentary-education-07.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**模式：** 文生建筑解释 · **画幅：** 16:9 · **重点：** 空间连贯、信息叠加",
+      "id": "documentary-education-08",
+      "category": "documentary-education",
+      "title": "被动式住宅：建筑微纪录片",
+      "path": "prompts/documentary-education.md",
+      "anchor": "case-08",
+      "copy_path": "prompts/copy/documentary-education-08.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**模式：** 首帧图生视频 · **素材：** [源库参考首帧](../assets/clockmaker-story.png) · **画幅：** 16:9",
+      "id": "stylized-entertainment-01",
+      "category": "stylized-entertainment",
+      "title": "钟楼纸鸟",
+      "path": "prompts/stylized-entertainment.md",
+      "anchor": "case-01",
+      "copy_path": "prompts/copy/stylized-entertainment-01.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**模式：** 文生动画 · **画幅：** 16:9 · **重点：** 动作连贯、原创动画方向",
+      "id": "stylized-entertainment-02",
+      "category": "stylized-entertainment",
+      "title": "霓虹鱼市的包裹追逐",
+      "path": "prompts/stylized-entertainment.md",
+      "anchor": "case-02",
+      "copy_path": "prompts/copy/stylized-entertainment-02.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**模式：** 文生定格动画 · **画幅：** 4:3 构图输出于 16:9 · **重点：** 材料感、喜剧节拍",
+      "id": "stylized-entertainment-03",
+      "category": "stylized-entertainment",
+      "title": "黏土小厨师的煎饼事故",
+      "path": "prompts/stylized-entertainment.md",
+      "anchor": "case-03",
+      "copy_path": "prompts/copy/stylized-entertainment-03.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**模式：** 文生喜剧短视频 · **画幅：** 9:16 · **重点：** Meme 节奏、可读字幕卡而非挪用模板",
+      "id": "stylized-entertainment-04",
+      "category": "stylized-entertainment",
+      "title": "办公室里的“周五模式”",
+      "path": "prompts/stylized-entertainment.md",
+      "anchor": "case-04",
+      "copy_path": "prompts/copy/stylized-entertainment-04.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**模式：** 文生音乐现场 · **画幅：** 16:9 · **重点：** 原创音乐、乐器同步、城市环境声",
+      "id": "stylized-entertainment-05",
+      "category": "stylized-entertainment",
+      "title": "屋顶爵士三重奏",
+      "path": "prompts/stylized-entertainment.md",
+      "anchor": "case-05",
+      "copy_path": "prompts/copy/stylized-entertainment-05.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**模式：** 文生舞蹈 · **画幅：** 9:16 · **重点：** 全身构图、镜像一致性、单镜头",
+      "id": "stylized-entertainment-06",
+      "category": "stylized-entertainment",
+      "title": "镜面舞室：固定机位双人舞",
+      "path": "prompts/stylized-entertainment.md",
+      "anchor": "case-06",
+      "copy_path": "prompts/copy/stylized-entertainment-06.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**模式：** 文生民间媒介风格 · **画幅：** 16:9 · **重点：** 材料描述、文化克制",
+      "id": "stylized-entertainment-07",
+      "category": "stylized-entertainment",
+      "title": "剪纸月兔的影子戏",
+      "path": "prompts/stylized-entertainment.md",
+      "anchor": "case-07",
+      "copy_path": "prompts/copy/stylized-entertainment-07.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**模式：** 同一图片作为首尾帧 · **画幅：** 16:9 · **重点：** 可循环动作、首尾完全一致",
+      "id": "stylized-entertainment-08",
+      "category": "stylized-entertainment",
+      "title": "玻璃花房的无缝循环",
+      "path": "prompts/stylized-entertainment.md",
+      "anchor": "case-08",
+      "copy_path": "prompts/copy/stylized-entertainment-08.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "",
+      "id": "control-editing-extension-01",
+      "category": "control-editing-extension",
+      "title": "角色 + 道具：职责分离",
+      "path": "prompts/control-editing-extension.md",
+      "anchor": "case-01",
+      "copy_path": "prompts/copy/control-editing-extension-01.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "",
+      "id": "control-editing-extension-02",
+      "category": "control-editing-extension",
+      "title": "首尾帧：纸模型变成真实建筑",
+      "path": "prompts/control-editing-extension.md",
+      "anchor": "case-02",
+      "copy_path": "prompts/copy/control-editing-extension-02.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "",
+      "id": "control-editing-extension-03",
+      "category": "control-editing-extension",
+      "title": "同图首尾帧：可复用商品循环",
+      "path": "prompts/control-editing-extension.md",
+      "anchor": "case-03",
+      "copy_path": "prompts/copy/control-editing-extension-03.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "",
+      "id": "control-editing-extension-04",
+      "category": "control-editing-extension",
+      "title": "动作视频参考 + 独立角色参考",
+      "path": "prompts/control-editing-extension.md",
+      "anchor": "case-04",
+      "copy_path": "prompts/copy/control-editing-extension-04.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "",
+      "id": "control-editing-extension-05",
+      "category": "control-editing-extension",
+      "title": "局部编辑：只添加一个对象",
+      "path": "prompts/control-editing-extension.md",
+      "anchor": "case-05",
+      "copy_path": "prompts/copy/control-editing-extension-05.txt",
+      "block_count": 2
+    },
+    {
+      "metadata": "",
+      "id": "control-editing-extension-06",
+      "category": "control-editing-extension",
+      "title": "局部编辑：移除对象并保持物理合理",
+      "path": "prompts/control-editing-extension.md",
+      "anchor": "case-06",
+      "copy_path": "prompts/copy/control-editing-extension-06.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "",
+      "id": "control-editing-extension-07",
+      "category": "control-editing-extension",
+      "title": "屏幕文字本地化",
+      "path": "prompts/control-editing-extension.md",
+      "anchor": "case-07",
+      "copy_path": "prompts/copy/control-editing-extension-07.txt",
+      "block_count": 3
+    },
+    {
+      "metadata": "",
+      "id": "control-editing-extension-08",
+      "category": "control-editing-extension",
+      "title": "换时间与光线，不换内容",
+      "path": "prompts/control-editing-extension.md",
+      "anchor": "case-08",
+      "copy_path": "prompts/copy/control-editing-extension-08.txt",
+      "block_count": 2
+    },
+    {
+      "metadata": "",
+      "id": "control-editing-extension-09",
+      "category": "control-editing-extension",
+      "title": "一次自然续写",
+      "path": "prompts/control-editing-extension.md",
+      "anchor": "case-09",
+      "copy_path": "prompts/copy/control-editing-extension-09.txt",
+      "block_count": 2
+    },
+    {
+      "metadata": "",
+      "id": "control-editing-extension-10",
+      "category": "control-editing-extension",
+      "title": "四段式 40 秒叙事链",
+      "path": "prompts/control-editing-extension.md",
+      "anchor": "case-10",
+      "copy_path": "prompts/copy/control-editing-extension-10.txt",
+      "block_count": 4
+    },
+    {
+      "metadata": "**Mode:** Edit · **Input:** An authorized clip containing one plain paper kite · **Goal:** Object replacement with contact continuity",
+      "id": "advanced-editing-camera-01",
+      "category": "advanced-editing-camera",
+      "title": "Replace one prop without changing the performance",
+      "path": "prompts/advanced-editing-camera.md",
+      "anchor": "case-01",
+      "copy_path": "prompts/copy/advanced-editing-camera-01.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**Mode:** Edit · **Input:** A source clip with an unwanted freestanding sign · **Goal:** Removal and natural reconstruction",
+      "id": "advanced-editing-camera-02",
+      "category": "advanced-editing-camera",
+      "title": "Remove a foreground obstruction and reconstruct the scene",
+      "path": "prompts/advanced-editing-camera.md",
+      "anchor": "case-02",
+      "copy_path": "prompts/copy/advanced-editing-camera-02.txt",
+      "block_count": 2
+    },
+    {
+      "metadata": "**Mode:** Stateful edit + image reference · **Inputs:** Previous video and an owned environment image · **Goal:** World replacement without identity drift",
+      "id": "advanced-editing-camera-03",
+      "category": "advanced-editing-camera",
+      "title": "Move an existing scene into a reference environment",
+      "path": "prompts/advanced-editing-camera.md",
+      "anchor": "case-03",
+      "copy_path": "prompts/copy/advanced-editing-camera-03.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**Mode:** Edit · **Goal:** Selective style transformation",
+      "id": "advanced-editing-camera-04",
+      "category": "advanced-editing-camera",
+      "title": "Isolate the subject while the world becomes animated line art",
+      "path": "prompts/advanced-editing-camera.md",
+      "anchor": "case-04",
+      "copy_path": "prompts/copy/advanced-editing-camera-04.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**Mode:** Edit / camera reinterpretation · **Input:** One source clip, 10 seconds or shorter · **Goal:** New viewpoint with the same event",
+      "id": "advanced-editing-camera-05",
+      "category": "advanced-editing-camera",
+      "title": "Re-camera as an over-the-shoulder shot",
+      "path": "prompts/advanced-editing-camera.md",
+      "anchor": "case-05",
+      "copy_path": "prompts/copy/advanced-editing-camera-05.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**Mode:** Text-to-video or image-to-video · **Goal:** Multi-stage camera direction",
+      "id": "advanced-editing-camera-06",
+      "category": "advanced-editing-camera",
+      "title": "Close-up, tilt, and reveal in one controlled move",
+      "path": "prompts/advanced-editing-camera.md",
+      "anchor": "case-06",
+      "copy_path": "prompts/copy/advanced-editing-camera-06.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**Mode:** Image-to-video · **Input:** An original poster or illustration · **Goal:** Continuous omnizoom-style transition",
+      "id": "advanced-editing-camera-07",
+      "category": "advanced-editing-camera",
+      "title": "Dive through an original poster into its world",
+      "path": "prompts/advanced-editing-camera.md",
+      "anchor": "case-07",
+      "copy_path": "prompts/copy/advanced-editing-camera-07.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**Mode:** Edit · **Goal:** Screen graphics anchored to moving machinery",
+      "id": "advanced-editing-camera-08",
+      "category": "advanced-editing-camera",
+      "title": "Add a readable fictional AR maintenance overlay",
+      "path": "prompts/advanced-editing-camera.md",
+      "anchor": "case-08",
+      "copy_path": "prompts/copy/advanced-editing-camera-08.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**Mode:** Edit · **Input:** An authorized roller-skating clip · **Goal:** Controlled motion effect",
+      "id": "advanced-editing-camera-09",
+      "category": "advanced-editing-camera",
+      "title": "Add motion-reactive light trails without changing physics",
+      "path": "prompts/advanced-editing-camera.md",
+      "anchor": "case-09",
+      "copy_path": "prompts/copy/advanced-editing-camera-09.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**Mode:** Image reference to video · **Input:** One original 3×3 storyboard sheet · **Goal:** Preserve panel order and narrative logic",
+      "id": "storyboard-text-evaluation-01",
+      "category": "storyboard-text-evaluation",
+      "title": "Convert a 3×3 storyboard into one ordered micro-story",
+      "path": "prompts/storyboard-text-evaluation.md",
+      "anchor": "case-01",
+      "copy_path": "prompts/copy/storyboard-text-evaluation-01.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**Mode:** Text-to-video · **Goal:** Stable 3×3 layout and simultaneous motion",
+      "id": "storyboard-text-evaluation-02",
+      "category": "storyboard-text-evaluation",
+      "title": "Nine-window split screen with synchronized detail actions",
+      "path": "prompts/storyboard-text-evaluation.md",
+      "anchor": "case-02",
+      "copy_path": "prompts/copy/storyboard-text-evaluation-02.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**Mode:** Edit / reinterpret source event · **Input:** One authorized action clip · **Goal:** Creative replay, not forensic reconstruction",
+      "id": "storyboard-text-evaluation-03",
+      "category": "storyboard-text-evaluation",
+      "title": "Single-source action replay from two generated viewpoints",
+      "path": "prompts/storyboard-text-evaluation.md",
+      "anchor": "case-03",
+      "copy_path": "prompts/copy/storyboard-text-evaluation-03.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**Mode:** Image reference to video · **Input:** An original, rights-cleared diagram · **Goal:** Animate structure without inventing facts",
+      "id": "storyboard-text-evaluation-04",
+      "category": "storyboard-text-evaluation",
+      "title": "Turn a static process diagram into motion",
+      "path": "prompts/storyboard-text-evaluation.md",
+      "anchor": "case-04",
+      "copy_path": "prompts/copy/storyboard-text-evaluation-04.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**Mode:** Multiple image references · **Inputs:** Image1 = original four-step action board, Image2 = original robot reference · **Goal:** Separate action and identity roles",
+      "id": "storyboard-text-evaluation-05",
+      "category": "storyboard-text-evaluation",
+      "title": "Use one image as an instruction board and another as identity",
+      "path": "prompts/storyboard-text-evaluation.md",
+      "anchor": "case-05",
+      "copy_path": "prompts/copy/storyboard-text-evaluation-05.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**Mode:** Text-to-video · **Goal:** Exact short text and speech timing",
+      "id": "storyboard-text-evaluation-06",
+      "category": "storyboard-text-evaluation",
+      "title": "Word-by-word kinetic typography synchronized to speech",
+      "path": "prompts/storyboard-text-evaluation.md",
+      "anchor": "case-06",
+      "copy_path": "prompts/copy/storyboard-text-evaluation-06.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**Mode:** Text-to-video master + one edit per locale · **Goal:** Multilingual exact-copy workflow",
+      "id": "storyboard-text-evaluation-07",
+      "category": "storyboard-text-evaluation",
+      "title": "One title sequence, four language-safe variants",
+      "path": "prompts/storyboard-text-evaluation.md",
+      "anchor": "case-07",
+      "copy_path": "prompts/copy/storyboard-text-evaluation-07.txt",
+      "block_count": 5
+    },
+    {
+      "metadata": "**Mode:** Text-to-video · **Goal:** Material science explainer with an accuracy boundary",
+      "id": "storyboard-text-evaluation-08",
+      "category": "storyboard-text-evaluation",
+      "title": "Clay-table explainer: why tectonic plates move",
+      "path": "prompts/storyboard-text-evaluation.md",
+      "anchor": "case-08",
+      "copy_path": "prompts/copy/storyboard-text-evaluation-08.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "**Mode:** Text-to-video benchmark · **Goal:** Compare prompt variables fairly",
+      "id": "storyboard-text-evaluation-09",
+      "category": "storyboard-text-evaluation",
+      "title": "Controlled A/B/C prompt evaluation",
+      "path": "prompts/storyboard-text-evaluation.md",
+      "anchor": "case-09",
+      "copy_path": "prompts/copy/storyboard-text-evaluation-09.txt",
+      "block_count": 2
+    }
+  ]
+}

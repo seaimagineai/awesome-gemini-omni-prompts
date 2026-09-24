@@ -1,0 +1,10 @@
+[# References <IMAGE_REF_0>@Image1 <IMAGE_REF_1>@Image2 <IMAGE_REF_2>@Image3 <IMAGE_REF_3>@Image4]
+Create a 9:16, 10-second studio fashion sequence. Use Image1 only for the model's identity; use Images2-4 only for the three outfits. Do not use any reference as a literal first frame.
+
+[0-3s] The model from <IMAGE_REF_0> walks toward camera wearing outfit <IMAGE_REF_1>. Warm white cyc wall, slow 85mm dolly back.
+[3-6s] As the model passes behind a narrow black panel, reveal the same person in outfit <IMAGE_REF_2>. Camera direction and walking cadence continue seamlessly.
+[6-9s] A controlled flash creates the final change into outfit <IMAGE_REF_3>. The person turns once and stops on the same floor mark.
+[9-10s] Hold a clean full-body hero frame.
+
+Audio: heel steps remain continuous through all transitions, fabric movement, three low original bass notes aligned to reveals. No dialogue.
+Preserve identity, body proportions and hair; preserve each outfit's construction and color. No blended garments, extra accessories, text, logos, audience or watermark.

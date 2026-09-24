@@ -1,0 +1,7 @@
+[# Sources <FIRST_FRAME>@Image1 <LAST_FRAME>@Image1]
+Create a perfectly looping 10-second video. Use Image1 as both the exact first and final frame.
+
+One small breeze cycle travels through the greenhouse: starting at the left window, it lifts a hanging fern, moves a chain of leaf reactions across the room, spins one paper pinwheel exactly one full rotation, ripples the shallow watering tray, then reaches the right vent. Sun shadows from the window lattice travel subtly forward and return. A white moth completes one oval flight path and lands at its precise starting position by 10s. Camera remains completely locked.
+
+Audio must loop cleanly: soft glass-room ambience, one breeze swell, leaf movement, two water drops, no music and no dialogue. The final audio sample should connect naturally to the first.
+Do not change any plant, pot, window or light fixture. No cuts, people, new objects, text, logo or watermark. End exactly on Image1.

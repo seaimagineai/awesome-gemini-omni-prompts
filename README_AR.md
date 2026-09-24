@@ -4,72 +4,49 @@
 
 # مكتبة أوامر Gemini Omni
 
-**استكشف 60 وصفة كاملة من المكتبة الأصلية، موزعة على سبع فئات. تعلّم وصف المشهد وتوقيت الأفعال وتوجيه الكاميرا والصوت، ثم عدّل أحد الأمثلة ليناسب فكرتك.**
+**60 موجّهًا في 7 فئات، مع 6 صور مرجعية تُستخدم كمدخلات وليست نتائج توليد جرى التحقق منها.**
 
 [English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md)
 
 [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
 
-
-
-[المطالبات الستون كاملة](#prompt-collections) · [ثلاث مطالبات للنسخ](#source-examples) · [أمثلة رسمية ومن المجتمع](#video-studies) · [دليل اللغات](docs/multilingual-guide.md)
+[تصفّح حسب الفئة](#prompt-collections) · [ستة أمثلة جاهزة للنسخ](#source-examples) · [نتائج رسمية ومن المجتمع](#video-studies) · [فهرس الموجّهات الستين](docs/prompt-index.md) · [تنزيل جميع الموجّهات كنص](prompts/copy/all-prompts.txt)
 
 </div>
 
-## ما الذي يتضمنه المشروع؟
-
-تصف القائمة ما يمكن تخطيطه بالمطالبات، ولا تضمن توفر كل ميزة. تحقّق من المدخلات والتحرير والتمديد والصوت والدقة المتاحة للنموذج المحدد في أداتك. اختبر التكوين والحوار والنص بإعداد المعاينة المتاح أولًا. واجهة Google البرمجية وواجهة أداتك خدمتان مختلفتان.
-
-- تحويل النص أو الصورة إلى فيديو، واستخدام الإطار الأول/الأخير، ومراجع الشخصيات والمنتجات.
-- تخطيط الصورة والأجواء والمؤثرات الصوتية والموسيقى الأصلية والصمت والحوار معًا.
-- قواعد للحوار والنص واتجاه الكتابة والمراجعة البشرية في 15 لغة.
-
-## الحوار بالعربية
-
-يمكن إبقاء تعليمات المشهد بالإنجليزية وتحديد الحوار والنص الظاهر بالعربية حرفيًا. تحقق من النطق والإملاء والتوقيت.
-
-```text
-Spoken language: Modern Standard Arabic.
-Exact dialogue at 6s, spoken once with natural pacing: "لنعد إلى المنزل اليوم عبر الطريق الأطول."
-Do not translate, paraphrase, repeat or subtitle it.
-
-On-screen language: Modern Standard Arabic.
-Text direction: right-to-left.
-Exact title: "رحلات صغيرة"
-Keep the full phrase connected and right-aligned. No other text.
-```
-
 <a id="prompt-collections"></a>
 
-## المطالبات الستون كاملة
+## تصفّح حسب الفئة
+
+| الفئة | عدد الموجّهات | الروابط |
+|---|---:|---|
+| [السينما والسرد](prompts/cinematic-storytelling.md) | 8 | [عرض](prompts/cinematic-storytelling.md#case-01) |
+| [الإعلانات ووسائل التواصل](prompts/commerce-social.md) | 8 | [عرض](prompts/commerce-social.md#case-01) |
+| [الوثائقي والسفر والتعليم](prompts/documentary-education.md) | 8 | [عرض](prompts/documentary-education.md#case-01) |
+| [الرسوم المتحركة والموسيقى والترفيه](prompts/stylized-entertainment.md) | 8 | [عرض](prompts/stylized-entertainment.md#case-01) |
+| [التحكم والتحرير والتمديد](prompts/control-editing-extension.md) | 10 | [عرض](prompts/control-editing-extension.md#case-01) |
+| [التحرير المتقدم والكاميرا والتحويل البصري](prompts/advanced-editing-camera.md) | 9 | [عرض](prompts/advanced-editing-camera.md#case-01) |
+| [لوحات القصة وتقسيم الشاشة والنص والتقييم](prompts/storyboard-text-evaluation.md) | 9 | [عرض](prompts/storyboard-text-evaluation.md#case-01) |
+
+[فهرس الموجّهات الستين](docs/prompt-index.md) · [تنزيل جميع الموجّهات كنص](prompts/copy/all-prompts.txt)
 
 شروح المجموعات الخمس الأولى بالصينية، وشروح المجموعتين الأخيرتين بالإنجليزية. جميع مطالبات التحكم القابلة للنسخ بالإنجليزية. لم تُترجم نصوص المجموعات بالكامل.
 
-- [السينما والسرد: 8 مطالبات](prompts/cinematic-storytelling.md)
-- [الإعلانات ووسائل التواصل: 8 مطالبات](prompts/commerce-social.md)
-- [الوثائقي والسفر والتعليم: 8 مطالبات](prompts/documentary-education.md)
-- [الرسوم المتحركة والموسيقى والترفيه: 8 مطالبات](prompts/stylized-entertainment.md)
-- [التحكم والتحرير والتمديد: 10 وصفات](prompts/control-editing-extension.md)
-- [التحرير المتقدم والكاميرا والتحويل البصري: 9 مطالبات](prompts/advanced-editing-camera.md)
-- [لوحات القصة وتقسيم الشاشة والنص والتقييم: 9 مطالبات](prompts/storyboard-text-evaluation.md)
-
-
-
-## جرّب أمرك الأول
-
-1. اختر مثالًا كاملًا قريبًا من المشهد الذي تريد إنشاءه وانسخ نص الأمر بالكامل.
-2. نزّل الصورة المرجعية المطابقة وحددها بوصفها الإطار الأول إذا كانت أداتك تدعم ذلك.
-3. عدّل توقيت الأفعال وفق المدة والدقة المتاحتين. أنشئ مسودة، وراجع العنصر الرئيسي والنص والصوت، ثم غيّر عنصرًا واحدًا في كل مرة.
-
 <a id="source-examples"></a>
 
-## ثلاث مطالبات للنسخ
+## ستة أمثلة جاهزة للنسخ
 
-الصور إطارات أولى مرجعية مأخوذة من المستودع الأصلي، وليست نتائج فيديو مولّدة. ارفع الصورة المناسبة باسم Image1. مدة عشر ثوانٍ وتعليمات الصوت تصف النتيجة المطلوبة؛ عدّلها حسب الإعدادات المتاحة.
+الصور المرجعية مواد إدخال وليست نتائج مولّدة.
+
+[01 · مكبر صوت: إيقاع قطرات الماء](#example-01) · [02 · دراجة على حافة جبل: افتتاحية وثائقية](#example-02) · [03 · صانع الساعات والطيور الورقية: قصة مرسومة](#example-03) · [04 · كوب خزفي فيروزي في ضوء الصباح](#example-04) · [05 · أضواء تتعاقب في ميناء ورقي](#example-05) · [06 · كيس كتاني لفيديو متجر متعدد اللغات](#example-06)
+
+<a id="example-01"></a>
 
 ### 01 · مكبر صوت: إيقاع قطرات الماء
 
-![مكبر صوت: إيقاع قطرات الماء](assets/product-speaker.png)
+<a href="assets/product-speaker.png"><img src="assets/product-speaker.png" alt="مكبر صوت: إيقاع قطرات الماء" width="420"></a>
+
+[الإعلانات ووسائل التواصل](prompts/commerce-social.md) · [إطار أول مرجعي](assets/product-speaker.png) · [نص عادي](prompts/copy/showcase-01.txt)
 
 ```text
 Create a 10-second premium product film from Image1. Use Image1 as the exact starting frame.
@@ -82,9 +59,13 @@ Audio: original minimal electronic rhythm at 96 BPM, water-drop percussion, dist
 No product morphing, added controls, text, logo, watermark, hands, duplicate product or camera shake.
 ```
 
+<a id="example-02"></a>
+
 ### 02 · دراجة على حافة جبل: افتتاحية وثائقية
 
-![دراجة على حافة جبل: افتتاحية وثائقية](assets/travel-cyclist.png)
+<a href="assets/travel-cyclist.png"><img src="assets/travel-cyclist.png" alt="دراجة على حافة جبل: افتتاحية وثائقية" width="420"></a>
+
+[الوثائقي والسفر والتعليم](prompts/documentary-education.md) · [إطار أول مرجعي](assets/travel-cyclist.png) · [نص عادي](prompts/copy/showcase-02.txt)
 
 ```text
 Animate Image1 as a single continuous 10-second documentary tracking shot. Use it as the exact first frame.
@@ -95,9 +76,13 @@ Audio: close tire crunch and chain movement, strong ridge wind, one distant bird
 No cuts, drone rise, extra cyclists, landmark text, logo or watermark.
 ```
 
+<a id="example-03"></a>
+
 ### 03 · صانع الساعات والطيور الورقية: قصة مرسومة
 
-![صانع الساعات والطيور الورقية: قصة مرسومة](assets/clockmaker-story.png)
+<a href="assets/clockmaker-story.png"><img src="assets/clockmaker-story.png" alt="صانع الساعات والطيور الورقية: قصة مرسومة" width="420"></a>
+
+[الرسوم المتحركة والموسيقى والترفيه](prompts/stylized-entertainment.md) · [إطار أول مرجعي](assets/clockmaker-story.png) · [نص عادي](prompts/copy/showcase-03.txt)
 
 ```text
 Bring this illustration to life in one coherent 10-second animated shot. Use Image1 as the first frame and preserve its watercolor-and-ink direction.
@@ -110,88 +95,13 @@ Audio: layered clock ticks, delicate paper folds, wooden gear creaks, then an or
 Keep the clockmaker's face, clothes and goggles consistent. No photorealism, subtitles, logo or watermark.
 ```
 
+<a id="example-04"></a>
 
+### 04 · كوب خزفي فيروزي في ضوء الصباح
 
-<a id="video-studies"></a>
+<a href="assets/seaimagine-ceramic-cup.png"><img src="assets/seaimagine-ceramic-cup.png" alt="كوب خزفي فيروزي في ضوء الصباح" width="420"></a>
 
-## ما الذي نتعلمه من الأمثلة الرسمية وأمثلة المجتمع؟
-
-تعرض فيديوهات Google الرسمية نموذج Omni 1.1 Flash. أما منشورات المجتمع فتعود إلى مايو 2026 وتتعلق بالإصدار الأول من Omni / Flash، ولم يُتحقق من كونها اختبارات للإصدار 1.1. تستند أدلة المجتمع إلى النصوص وبيانات الوسائط الوصفية في نسخة FxTwitter، ولم يُتحقق من التشغيل المباشر على X. هذه أمثلة من مصادر خارجية وليست نتائج المنصة التي تستخدمها. راجع الوظائف المتاحة في أداتك.
-
-### Google: الانتقال بين الإطار الأول والأخير
-
-[شاهد المثال الأصلي](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
-
-حدّد صورة البداية وصورة النهاية والحركة المتصلة بينهما كلًا على حدة.
-
-التقط صورتين للغرض نفسه من زاويتين مناسبتين للوصل. إذا توفرت وظيفة الإطار الأول والأخير، اربطهما بحركة بسيطة.
-
-### Google: تمديد اللقطة
-
-[شاهد المثال الأصلي](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
-
-صِف حركة الكاميرا التالية مع الحفاظ على العنصر الرئيسي واتجاه الحركة.
-
-استخدم مقطعًا قصيرًا من تصويرك. إذا توفر التمديد، أضف جزءًا متصلًا واحدًا وافحص نقطة الوصل بحثًا عن قفزات في الحركة أو الإضاءة.
-
-### CHRIS FIRST: استبدال الأشخاص بطيور النحام
-
-<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST: استبدال الأشخاص بطيور النحام" width="300"></a>
-
-[شاهد المثال الأصلي](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
-
-غيّر الشخصية مع طلب الإبقاء على الملابس والحركة، وافحص مواضع تلامس الأطراف.
-
-إذا توفر تعديل الفيديو، استبدل شخصية واحدة في مقطع من تصويرك. قارن الملابس والوضعية والتلامس مع الأرض قبل التعديل وبعده.
-
-### Justine Moore: تبديل القبعة مع كل تصفيقة
-
-<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore: تبديل القبعة مع كل تصفيقة" width="300"></a>
-
-[شاهد المثال الأصلي](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
-
-استخدم إيماءة واضحة لتوقيت كل تغيير، مع الحفاظ على الوجه والملابس والكاميرا.
-
-ثبّت الكاميرا وصوّر تصفيقتين واضحتين. إذا توفر تعديل الفيديو، اطلب تغيير القبعة عند كل تصفيقة وافحص التوقيت إطارًا بإطار.
-
-[أمثلة رسمية ومن المجتمع](docs/community-examples.md)
-
-## للمزيد
-
-- [أمثلة رسمية ومن المجتمع](docs/community-examples.md)
-- [دليل اللغات](docs/multilingual-guide.md)
-- [تصميم المطالبات](docs/prompting-guide.md)
-- [المواد المرجعية والأذونات](docs/reference-videos.md)
-
-<a id="brand-tools"></a>
-
-## ابدأ مع SeaImagine
-
-تحتفظ هذه المكتبة بوصفات Flaq AI الأصلية الستين، وتضيف ثلاثة تمارين SeaImagine بصور مرجعية خاصة. تضم هذه الصفحة التمارين الجديدة وأمثلة المستودع الأصلي ودروسًا من الأمثلة الرسمية وأعمال المجتمع.
-
-[Gemini Omni](https://seaimagine.com/ar/model/gemini-omni/) · [Gemini Omni 1.1 Flash](https://seaimagine.com/ar/model/gemini-omni-1-1-flash/)
-
-1. افتح صفحة النموذج وتحقق من إمكانية الوصول والسعر والإعدادات المتاحة حاليًا.
-2. للحفاظ على مظهر منتج أو شخصية، اختر تحويل صورة إلى فيديو، وارفع صورة واحدة ثم الصق المطالبة المناسبة. لإنشاء مشهد جديد، جرّب تحويل نص إلى فيديو.
-3. اختر المدة والأبعاد من الواجهة. اختبر لقطة واحدة وراجع المظهر والحركة والصوت، ثم غيّر تعليمة واحدة في كل مرة.
-
-هذه تصاميم مطالبات وليست نتائج توليد جرى التحقق منها على SeaImagine. تعتمد المدة والصوت والتحرير والتمديد والمراجع على النموذج والواجهة الحالية. قدرات واجهة Google البرمجية لا تعني توفرها تلقائيًا في SeaImagine.
-
-<a id="sea-practice"></a>
-
-## ثلاثة تمارين في SeaImagine بصور مرجعية أصلية
-
-هذه الصور المرجعية مولّدة بالذكاء الاصطناعي لتكون إطارات أولى للتدريب، وليست نتائج فيديو جرى اختبارها باستخدام Gemini. استخدم فقط الوظائف المتاحة في واجهة SeaImagine.
-
-### SEA-01 · كوب خزفي فيروزي في ضوء الصباح
-
-[![كوب خزفي فيروزي في ضوء الصباح](assets/seaimagine-ceramic-cup.png)](assets/seaimagine-ceramic-cup.png)
-
-قرّب الكاميرا ببطء مع الحفاظ على المقبض وحافة الكوب ومستوى السائل. اترك مساحة للنص في النهاية.
-
-ارفع صورة الكوب لتحويلها إلى فيديو. جرّب تقرّبًا بطيئًا فقط، وافحص المقبض ومستوى السائل قبل إضافة النص.
-
-[صورة إلى فيديو](https://seaimagine.com/ar/image-to-video/) · [مولّد صور بالذكاء الاصطناعي](https://seaimagine.com/ar/ai-image-generator/)
+[الإعلانات ووسائل التواصل](prompts/commerce-social.md) · [إطار أول مرجعي](assets/seaimagine-ceramic-cup.png) · [نص عادي](prompts/copy/showcase-04.txt)
 
 ```text
 Use the uploaded ceramic-cup image as the exact first frame. Create a 10-second, 16:9 product shot.
@@ -203,15 +113,13 @@ Audio, if supported: quiet room ambience and one distant bird. No speech or musi
 No pouring, added cup, new handle, object morphing, generated text, logo or watermark.
 ```
 
-### SEA-02 · أضواء تتعاقب في ميناء ورقي
+<a id="example-05"></a>
 
-[![أضواء تتعاقب في ميناء ورقي](assets/seaimagine-paper-harbor.png)](assets/seaimagine-paper-harbor.png)
+### 05 · أضواء تتعاقب في ميناء ورقي
 
-في لقطة واحدة، أشعل ضوء المنارة ثم زِد سطوع نوافذ المنازل الثلاثة بالتتابع. حافظ على ملمس الورق والأشكال الهندسية.
+<a href="assets/seaimagine-paper-harbor.png"><img src="assets/seaimagine-paper-harbor.png" alt="أضواء تتعاقب في ميناء ورقي" width="420"></a>
 
-ارفع صورة الميناء واطلب إضاءة المنارة ثم زيادة سطوع النوافذ بالتتابع. قارن أشكال المباني في البداية والنهاية.
-
-[صورة إلى فيديو](https://seaimagine.com/ar/image-to-video/) · [مولّد صور بالذكاء الاصطناعي](https://seaimagine.com/ar/ai-image-generator/)
+[الرسوم المتحركة والموسيقى والترفيه](prompts/stylized-entertainment.md) · [إطار أول مرجعي](assets/seaimagine-paper-harbor.png) · [نص عادي](prompts/copy/showcase-05.txt)
 
 ```text
 Use the uploaded paper-harbor image as the exact first frame. Animate a single 10-second, 16:9 shot while retaining the handcrafted paper texture, folds and miniature scale.
@@ -223,15 +131,13 @@ Audio, if supported: a quiet original celesta phrase, no voices.
 No ocean waves, added buildings, extra boats, rotating tower, camera cut, text, logo or watermark.
 ```
 
-### SEA-03 · كيس كتاني لفيديو متجر متعدد اللغات
+<a id="example-06"></a>
 
-<a href="assets/seaimagine-linen-pouch.png"><img src="assets/seaimagine-linen-pouch.png" alt="كيس كتاني لفيديو متجر متعدد اللغات" width="360"></a>
+### 06 · كيس كتاني لفيديو متجر متعدد اللغات
 
-أنشئ فيديو رأسيًا نظيفًا للمنتج بلا كتابة، ثم أضف النصوص المترجمة ببرنامج تحرير فيديو عادي.
+<a href="assets/seaimagine-linen-pouch.png"><img src="assets/seaimagine-linen-pouch.png" alt="كيس كتاني لفيديو متجر متعدد اللغات" width="420"></a>
 
-أنشئ فيديو رأسيًا من صورة الكيس، ثم أضف الترجمات لاحقًا. استخدم أمر تعديل فيديو قصيرًا فقط إذا كانت هذه الوظيفة متاحة.
-
-[صورة إلى فيديو](https://seaimagine.com/ar/image-to-video/) · [مولّد صور بالذكاء الاصطناعي](https://seaimagine.com/ar/ai-image-generator/)
+[الإعلانات ووسائل التواصل](prompts/commerce-social.md) · [إطار أول مرجعي](assets/seaimagine-linen-pouch.png) · [نص عادي](prompts/copy/showcase-06.txt)
 
 ```text
 Use the uploaded linen-pouch photograph as the exact first frame. Create a 10-second, 9:16 vertical ecommerce product shot.
@@ -243,21 +149,48 @@ Audio, if supported: soft room tone. No speech or music.
 Do not generate any lettering, subtitles, symbols, price, logo, watermark, extra bag or moving string.
 ```
 
-> لحياة يومية أبسط
+لحياة يومية أبسط
 
-[خطوات العمل في SeaImagine](docs/seaimagine-workflow.md)
+<a id="video-studies"></a>
 
-## أدوات SeaImagine الأخرى
+## نتائج رسمية ومن المجتمع
+
+تستخدم الأمثلة الرسمية Gemini Omni 1.1 Flash، أما أمثلة المجتمع فمن مايو 2026 وتستخدم إصدارات مبكرة من Omni. تقود الروابط إلى المنشورات الأصلية؛ ولا يدّعي هذا المستودع أنه أعاد إنتاج هذه النتائج. أدلة المجتمع مستمدة من FxTwitter؛ ولم يُتحقق من تشغيل الفيديو داخل X.
+
+| Google · Omni 1.1 Flash | الروابط |
+|---|---|
+| تمديد مشهد سينمائي | [شاهد الفيديو](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) |
+| انتقال بين الإطار الأول والأخير | [شاهد الفيديو](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) |
+| مسودة لطحالب الدياتوم البحرية بدقة 360p | [شاهد الفيديو](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/kw_omni-flash__capability-video__draft-360p__16x9__v1_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) |
+| رقص موجّه بفيديو مرجعي | [شاهد الفيديو](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__video-reference__16x9.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) |
+
+| X · Omni / Flash · 2026-05 | X · Omni / Flash · 2026-05 |
+|---|---|
+| **تحويل الأشخاص إلى طيور فلامنغو**<br><a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="تحويل الأشخاص إلى طيور فلامنغو" width="240"></a><br>CHRIS FIRST<br>[المصدر](https://x.com/chrisfirst/status/2056797606509158681) · [شاهد الفيديو](https://video.twimg.com/amplify_video/2056797343085969408/vid/avc1/1080x1440/UYr_7RKomiginRgq.mp4?tag=27) | **قبعة جديدة مع كل تصفيقة**<br><a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="قبعة جديدة مع كل تصفيقة" width="240"></a><br>Justine Moore<br>[المصدر](https://x.com/venturetwins/status/2056793856843366789) · [شاهد الفيديو](https://video.twimg.com/amplify_video/2056793760273686528/vid/avc1/720x1280/Q73liRfIjPtGSveL.mp4?tag=27) |
+| **شرح البناء الضوئي**<br><a href="https://x.com/mrfanduu/status/2056692235174097398"><img src="https://pbs.twimg.com/amplify_video_thumb/2056691792175833088/img/W0_pZkQwRicpRjjG.jpg" alt="شرح البناء الضوئي" width="240"></a><br>Fandu<br>[المصدر](https://x.com/mrfanduu/status/2056692235174097398) · [شاهد الفيديو](https://video.twimg.com/amplify_video/2056691792175833088/vid/avc1/1280x720/Ws-92fvVr5e-FkYZ.mp4?tag=14) | **تقريب يدوي نحو عين لندن**<br><a href="https://x.com/fofrAI/status/2056789242274259242"><img src="https://pbs.twimg.com/amplify_video_thumb/2056503814874861569/img/mQnHwThYDypoS1H6.jpg" alt="تقريب يدوي نحو عين لندن" width="240"></a><br>fofr<br>[المصدر](https://x.com/fofrAI/status/2056789242274259242) · [شاهد الفيديو](https://video.twimg.com/amplify_video/2056503814874861569/vid/avc1/1280x720/Lc2C4YtTflfGA8qe.mp4?tag=27) |
+| **مقارنة المقطع الأصلي والمعدّل**<br><a href="https://x.com/Mho_23/status/2057151867927601413"><img src="https://pbs.twimg.com/amplify_video_thumb/2057151701904146432/img/yhVQfdBM34BQJjV3.jpg" alt="مقارنة المقطع الأصلي والمعدّل" width="240"></a><br>Miko<br>[المصدر](https://x.com/Mho_23/status/2057151867927601413) · [شاهد الفيديو](https://video.twimg.com/amplify_video/2057151701904146432/vid/avc1/1080x1920/JfeFoDd5udd_FRR7.mp4?tag=27) | **تغيّر مادة الإبريق عند لمسه**<br><a href="https://x.com/alexanderchen/status/2057176690519089166"><img src="https://pbs.twimg.com/amplify_video_thumb/2057176000459612161/img/wTZ0HcgL_8PHxwbY.jpg" alt="تغيّر مادة الإبريق عند لمسه" width="240"></a><br>Alexander Chen<br>[المصدر](https://x.com/alexanderchen/status/2057176690519089166) · [شاهد الفيديو](https://video.twimg.com/amplify_video/2057176000459612161/vid/avc1/1280x720/LRzM8IueMomPMa7J.mp4?tag=27) · [الموجّه الكامل](https://x.com/alexanderchen/status/2057176691903279524) |
+[المصدر / FxTwitter](docs/community-examples.md)
+
+## وثائق متقدمة
+
+الشروحات متاحة في صفحات منفصلة. [عرض](docs/guides/README_AR.md)
+
+[تصميم المطالبات](docs/prompting-guide.md) · [دليل اللغات](docs/multilingual-guide.md) · [المواد المرجعية والأذونات](docs/reference-videos.md)
+
+<a id="brand-tools"></a>
+
+## أنشئ باستخدام SeaImagine
+
+[Gemini Omni](https://seaimagine.com/ar/model/gemini-omni/) · [Gemini Omni 1.1 Flash](https://seaimagine.com/ar/model/gemini-omni-1-1-flash/)
+
+[صورة إلى فيديو](https://seaimagine.com/ar/image-to-video/) · [نص إلى فيديو](https://seaimagine.com/ar/text-to-video/) · [مولّد صور بالذكاء الاصطناعي](https://seaimagine.com/ar/ai-image-generator/)
 
 يمكن استخدام هذه الصفحات كنقاط بداية بديلة. راجع كل صفحة لمعرفة النماذج والشروط والأسعار الحالية. لا يضمن هذا المستودع توفر الخدمة دون انقطاع.
 
-- [إنشاء](https://seaimagine.com/ar/create/)
-- [صورة إلى فيديو](https://seaimagine.com/ar/image-to-video/)
-- [نص إلى فيديو](https://seaimagine.com/ar/text-to-video/)
-- [مولّد صور بالذكاء الاصطناعي](https://seaimagine.com/ar/ai-image-generator/)
+[خطوات العمل في SeaImagine](docs/seaimagine-workflow.md)
 
 ## المصدر والترخيص
 
 مقتبس من مستودع Flaq AI، بما فيه مجموعات المطالبات وثلاث صور مرجعية. ليست جميع المواد من إنتاج SeaImagine الأصلي. هذا دليل مستقل وليس منتجًا رسميًا من Google.
 
-[Flaq AI · awesome-gemini-omni-flash](https://github.com/flaqai/awesome-gemini-omni-flash) · [MIT](LICENSE)
+[Flaq AI · awesome-gemini-omni-flash](https://github.com/flaqai/awesome-gemini-omni-flash) · [MIT](LICENSE) · [Contributing](CONTRIBUTING.md)

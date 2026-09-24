@@ -6,7 +6,29 @@
 
 These recipes focus on controlled changes to an existing generation or an uploaded, authorized clip. For an edit, make the requested change measurable and name the elements that must remain invariant. Camera-angle changes generate a new interpretation of the scene; they do not recover hidden pixels or establish forensic truth.
 
+<a id="case-index"></a>
+
+<!-- catalog:toc:start -->
+**本页案例 / Cases** · [全部 60 例 / All 60 cases](../docs/prompt-index.md)
+
+- [01 · Replace one prop without changing the performance](#case-01) · [TXT](copy/advanced-editing-camera-01.txt)
+- [02 · Remove a foreground obstruction and reconstruct the scene](#case-02) · [TXT](copy/advanced-editing-camera-02.txt)
+- [03 · Move an existing scene into a reference environment](#case-03) · [TXT](copy/advanced-editing-camera-03.txt)
+- [04 · Isolate the subject while the world becomes animated line art](#case-04) · [TXT](copy/advanced-editing-camera-04.txt)
+- [05 · Re-camera as an over-the-shoulder shot](#case-05) · [TXT](copy/advanced-editing-camera-05.txt)
+- [06 · Close-up, tilt, and reveal in one controlled move](#case-06) · [TXT](copy/advanced-editing-camera-06.txt)
+- [07 · Dive through an original poster into its world](#case-07) · [TXT](copy/advanced-editing-camera-07.txt)
+- [08 · Add a readable fictional AR maintenance overlay](#case-08) · [TXT](copy/advanced-editing-camera-08.txt)
+- [09 · Add motion-reactive light trails without changing physics](#case-09) · [TXT](copy/advanced-editing-camera-09.txt)
+<!-- catalog:toc:end -->
+
+<a id="case-01"></a>
+
 ## 01 | Replace one prop without changing the performance
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/advanced-editing-camera-01.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **Mode:** Edit · **Input:** An authorized clip containing one plain paper kite · **Goal:** Object replacement with contact continuity
 
@@ -22,7 +44,13 @@ No extra prop, glowing parts, text, logo, watermark, or changes to anything else
 
 **Acceptance check:** Compare the hand position, string path, and background landmarks before checking material detail. If the performance drifts, shorten the instruction to the replacement sentence plus the preserve sentence.
 
+<a id="case-02"></a>
+
 ## 02 | Remove a foreground obstruction and reconstruct the scene
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/advanced-editing-camera-02.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **Mode:** Edit · **Input:** A source clip with an unwanted freestanding sign · **Goal:** Removal and natural reconstruction
 
@@ -38,7 +66,13 @@ Preserve every person, vehicle, walking path, reflection outside the removed are
 Repair only the former sign area so the pavement texture and moving reflections continue naturally through it. Keep everything else the same.
 ```
 
+<a id="case-03"></a>
+
 ## 03 | Move an existing scene into a reference environment
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/advanced-editing-camera-03.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **Mode:** Stateful edit + image reference · **Inputs:** Previous video and an owned environment image · **Goal:** World replacement without identity drift
 
@@ -53,7 +87,13 @@ Do not import people, signs, furniture, text, brands, or audio from Image1. No d
 
 **Tip:** Use an environment image with a camera height and perspective close to the source clip. Large perspective conflicts are more likely to change the performance.
 
+<a id="case-04"></a>
+
 ## 04 | Isolate the subject while the world becomes animated line art
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/advanced-editing-camera-04.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **Mode:** Edit · **Goal:** Selective style transformation
 
@@ -67,7 +107,13 @@ No color in the line-art environment except the existing photorealistic subject.
 
 **Acceptance check:** Inspect subject edges frame by frame around spokes, hair, and hands. A good result preserves occlusion rather than drawing the background over the subject.
 
+<a id="case-05"></a>
+
 ## 05 | Re-camera as an over-the-shoulder shot
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/advanced-editing-camera-05.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **Mode:** Edit / camera reinterpretation · **Input:** One source clip, 10 seconds or shorter · **Goal:** New viewpoint with the same event
 
@@ -81,7 +127,13 @@ Do not invent objects that were not supported by the source scene. No cutaways, 
 
 > This is a generated alternate view, not a recovered recording of an unseen camera. Use it for creative continuity, not evidence, measurement, or incident reconstruction.
 
+<a id="case-06"></a>
+
 ## 06 | Close-up, tilt, and reveal in one controlled move
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/advanced-editing-camera-06.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **Mode:** Text-to-video or image-to-video · **Goal:** Multi-stage camera direction
 
@@ -96,7 +148,13 @@ Audio: lace friction, damp sole contact, distant city hum, one restrained origin
 Preserve shoe construction, clothing, body proportions, track geometry, and left/right orientation. No cuts, speed ramp, brand marks, text, crowd, duplicate limbs, or watermark.
 ```
 
+<a id="case-07"></a>
+
 ## 07 | Dive through an original poster into its world
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/advanced-editing-camera-07.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **Mode:** Image-to-video · **Input:** An original poster or illustration · **Goal:** Continuous omnizoom-style transition
 
@@ -112,7 +170,13 @@ Audio begins as close paper texture and pencil movement, then opens into glass-r
 No tunnel warp, sudden scene cut, copied franchise imagery, new text, logo, or watermark.
 ```
 
+<a id="case-08"></a>
+
 ## 08 | Add a readable fictional AR maintenance overlay
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/advanced-editing-camera-08.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **Mode:** Edit · **Goal:** Screen graphics anchored to moving machinery
 
@@ -131,7 +195,13 @@ No brand interface, warning alarm, changing numbers, extra diagram, face trackin
 
 **Localization variant:** Replace only the three quoted strings in a separate edit turn. Keep line lengths short and approve each language independently.
 
+<a id="case-09"></a>
+
 ## 09 | Add motion-reactive light trails without changing physics
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/advanced-editing-camera-09.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **Mode:** Edit · **Input:** An authorized roller-skating clip · **Goal:** Controlled motion effect
 

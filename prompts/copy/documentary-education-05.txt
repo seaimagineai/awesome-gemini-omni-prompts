@@ -1,0 +1,9 @@
+Create a clear 10-second classroom animation explaining the high-level flow of photosynthesis without implying literal molecular scale or exact reaction geometry.
+
+[0-3s] A leaf cross-section appears on a clean dark-green field. Sunlight particles enter the chloroplast. Exact labels: "LIGHT" and "CHLOROPLAST".
+[3-7s] Camera moves into a stylized chloroplast. Water and carbon dioxide inputs travel along separate paths into a simplified energy-conversion hub. Exact labels: "H₂O" and "CO₂". Oxygen exits visibly as "O₂".
+[7-10s] Pull back to the whole plant as a glowing path indicates stored chemical energy. Final exact text: "LIGHT ENERGY → CHEMICAL ENERGY".
+
+Style: elegant 2.5D scientific motion graphics, consistent visual grammar, high contrast, readable labels.
+Audio: light electronic pulses matched to each stage. English narration: "Plants use light to store energy, releasing oxygen along the way." Speak once.
+No extra equations, no talking plant, no DNA helix, no inaccurate organelles, no logo or watermark.

@@ -1,0 +1,10 @@
+[# References <IMAGE_REF_0>@Image1]
+Create a 10-second classroom motion graphic from Image1. Use Image1 as the exact information hierarchy, color key, and layout reference; do not treat it as a literal first frame. Topic: how rainwater moves through a simple urban bioswale.
+
+[0-3s] Build the clean cross-section in layers: road, curb opening, planted soil, gravel, drain. Keep all component positions aligned to Image1.
+[3-7s] Animate blue rainwater entering through the curb, slowing among plant stems, filtering downward, and reaching the underdrain. Flow direction must follow the diagram's arrows.
+[7-10s] Hold the complete cross-section and reveal only these exact labels: "RUNOFF", "FILTER SOIL", "UNDERDRAIN".
+
+Style: clear 2.5D educational graphic, restrained palette, large readable type, no decorative data.
+Audio: rainfall, soft granular filtering texture, neutral original pulse. English narration spoken once: "A bioswale slows runoff and filters water through planted soil."
+Do not add claims, percentages, extra labels, people, brand, logo, or watermark.

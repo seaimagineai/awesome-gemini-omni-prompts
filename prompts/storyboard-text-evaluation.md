@@ -6,7 +6,29 @@
 
 This collection turns planning boards, diagrams, source clips, and exact copy into structured video. It also includes a repeatable evaluation recipe. A storyboard is a shot plan, not nine independent first frames; exact text should be short, quoted, timed, and tested at draft resolution before delivery.
 
+<a id="case-index"></a>
+
+<!-- catalog:toc:start -->
+**本页案例 / Cases** · [全部 60 例 / All 60 cases](../docs/prompt-index.md)
+
+- [01 · Convert a 3×3 storyboard into one ordered micro-story](#case-01) · [TXT](copy/storyboard-text-evaluation-01.txt)
+- [02 · Nine-window split screen with synchronized detail actions](#case-02) · [TXT](copy/storyboard-text-evaluation-02.txt)
+- [03 · Single-source action replay from two generated viewpoints](#case-03) · [TXT](copy/storyboard-text-evaluation-03.txt)
+- [04 · Turn a static process diagram into motion](#case-04) · [TXT](copy/storyboard-text-evaluation-04.txt)
+- [05 · Use one image as an instruction board and another as identity](#case-05) · [TXT](copy/storyboard-text-evaluation-05.txt)
+- [06 · Word-by-word kinetic typography synchronized to speech](#case-06) · [TXT](copy/storyboard-text-evaluation-06.txt)
+- [07 · One title sequence, four language-safe variants](#case-07) · [TXT](copy/storyboard-text-evaluation-07.txt)
+- [08 · Clay-table explainer: why tectonic plates move](#case-08) · [TXT](copy/storyboard-text-evaluation-08.txt)
+- [09 · Controlled A/B/C prompt evaluation](#case-09) · [TXT](copy/storyboard-text-evaluation-09.txt)
+<!-- catalog:toc:end -->
+
+<a id="case-01"></a>
+
 ## 01 | Convert a 3×3 storyboard into one ordered micro-story
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/storyboard-text-evaluation-01.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **Mode:** Image reference to video · **Input:** One original 3×3 storyboard sheet · **Goal:** Preserve panel order and narrative logic
 
@@ -27,7 +49,13 @@ No extra character, rescue montage, printed notes, brand, text, logo, or waterma
 
 **Board preparation:** Number panels outside the artwork, keep one dominant action per panel, and use the same identity anchors in all nine drawings.
 
+<a id="case-02"></a>
+
 ## 02 | Nine-window split screen with synchronized detail actions
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/storyboard-text-evaluation-02.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **Mode:** Text-to-video · **Goal:** Stable 3×3 layout and simultaneous motion
 
@@ -47,7 +75,13 @@ Audio: one coherent bakery soundscape mixed across the grid—soft dough contact
 Maintain nine windows only, consistent warm palette, plausible hands, and unique content per window. No merged cells, moving dividers, labels, brands, logos, subtitles, or watermark.
 ```
 
+<a id="case-03"></a>
+
 ## 03 | Single-source action replay from two generated viewpoints
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/storyboard-text-evaluation-03.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **Mode:** Edit / reinterpret source event · **Input:** One authorized action clip · **Goal:** Creative replay, not forensic reconstruction
 
@@ -65,7 +99,13 @@ No impossible rotation, duplicate skater, crowd reaction, score graphics, brand 
 
 > Alternate views are model-generated interpretations. Label them as reenactment or visualization if viewers might mistake them for recorded evidence.
 
+<a id="case-04"></a>
+
 ## 04 | Turn a static process diagram into motion
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/storyboard-text-evaluation-04.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **Mode:** Image reference to video · **Input:** An original, rights-cleared diagram · **Goal:** Animate structure without inventing facts
 
@@ -84,7 +124,13 @@ Do not add claims, percentages, extra labels, people, brand, logo, or watermark.
 
 **Fact check:** Review domain-specific labels and causal claims with a qualified source before publishing.
 
+<a id="case-05"></a>
+
 ## 05 | Use one image as an instruction board and another as identity
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/storyboard-text-evaluation-05.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **Mode:** Multiple image references · **Inputs:** Image1 = original four-step action board, Image2 = original robot reference · **Goal:** Separate action and identity roles
 
@@ -98,7 +144,13 @@ Audio: tiny motor movement, two distinct screwdriver bursts, wood creak, one qui
 Preserve the robot from Image2 and the order from Image1. Do not copy notes, arrows, background, people, or text from either reference. No new tool, extra arm, brand, logo, or watermark.
 ```
 
+<a id="case-06"></a>
+
 ## 06 | Word-by-word kinetic typography synchronized to speech
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/storyboard-text-evaluation-06.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **Mode:** Text-to-video · **Goal:** Exact short text and speech timing
 
@@ -121,7 +173,13 @@ Audio: clear neutral English voice, one soft original percussive beat per word, 
 No misspelling, repeated word, extra punctuation, subtitle track, icon, logo, or watermark.
 ```
 
+<a id="case-07"></a>
+
 ## 07 | One title sequence, four language-safe variants
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/storyboard-text-evaluation-07.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **Mode:** Text-to-video master + one edit per locale · **Goal:** Multilingual exact-copy workflow
 
@@ -153,7 +211,13 @@ Add only this exact Arabic title from 5s to 10s, right-to-left: "نوافذ بع
 
 **Review:** Approve spelling, glyph joining, safe area, reading time, and unintended background text with a native reader.
 
+<a id="case-08"></a>
+
 ## 08 | Clay-table explainer: why tectonic plates move
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/storyboard-text-evaluation-08.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **Mode:** Text-to-video · **Goal:** Material science explainer with an accuracy boundary
 
@@ -169,7 +233,13 @@ Audio: clay contact, low granular movement, original two-note educational cue. C
 No fast catastrophic collision, city destruction, inaccurate hollow Earth, extra labels, logo, or watermark.
 ```
 
+<a id="case-09"></a>
+
 ## 09 | Controlled A/B/C prompt evaluation
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/storyboard-text-evaluation-09.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **Mode:** Text-to-video benchmark · **Goal:** Compare prompt variables fairly
 

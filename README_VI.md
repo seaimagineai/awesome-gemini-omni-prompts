@@ -4,70 +4,49 @@
 
 # Thư viện prompt Gemini Omni
 
-**Khám phá 60 công thức đầy đủ từ thư viện gốc, chia thành bảy nhóm. Học cách mô tả cảnh, sắp xếp thời điểm hành động, điều khiển máy quay và âm thanh, rồi chỉnh ví dụ theo ý tưởng của bạn.**
+**60 câu lệnh thuộc 7 danh mục, kèm 6 ảnh tham chiếu dùng làm đầu vào, không phải kết quả tạo đã được kiểm chứng.**
 
 [English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md)
 
 [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
 
-
-
-[Toàn bộ 60 prompt](#prompt-collections) · [Ba prompt để sao chép](#source-examples) · [Ví dụ chính thức và cộng đồng](#video-studies) · [Hướng dẫn đa ngôn ngữ](docs/multilingual-guide.md)
+[Duyệt theo danh mục](#prompt-collections) · [Sáu ví dụ có thể sao chép ngay](#source-examples) · [Kết quả từ nguồn chính thức và cộng đồng](#video-studies) · [Mục lục đầy đủ 60 câu lệnh](docs/prompt-index.md) · [Tải toàn bộ câu lệnh dạng văn bản](prompts/copy/all-prompts.txt)
 
 </div>
 
-## Nội dung
-
-Danh sách này mô tả nội dung có thể lên kế hoạch trong prompt, không bảo đảm tính năng. Hãy kiểm tra đầu vào, chỉnh sửa, kéo dài, âm thanh và độ phân giải mà mô hình đang chọn hỗ trợ trong công cụ của bạn. Trước tiên, kiểm tra bố cục, lời nói và chữ bằng chế độ xem trước hiện có. API Google (giao diện lập trình) và giao diện công cụ của bạn là hai dịch vụ riêng.
-
-- Văn bản thành video, hình ảnh thành video, khung đầu/cuối và tham chiếu nhân vật hoặc sản phẩm.
-- Thiết kế đồng thời hình ảnh, âm thanh môi trường, foley, nhạc nguyên bản, khoảng lặng và lời thoại.
-- Quy tắc lời thoại, chữ trên màn hình, xuống dòng và duyệt bởi người bản ngữ cho 15 ngôn ngữ.
-
-## Lời thoại tiếng Việt
-
-Có thể giữ chỉ dẫn cảnh bằng tiếng Anh và ghi chính xác lời thoại, chữ trên màn hình bằng tiếng Việt. Kiểm tra phát âm, chính tả và thời điểm xuất hiện.
-
-```text
-Spoken language: Vietnamese.
-Exact dialogue at 6s, spoken once with natural conversational pacing: "Hôm nay mình đi đường vòng về nhà nhé."
-Do not translate, paraphrase, repeat or subtitle it.
-
-Exact on-screen Vietnamese title: "NHỮNG CHUYẾN ĐI NHỎ"
-Preserve every Vietnamese tone mark exactly. No other text.
-```
-
 <a id="prompt-collections"></a>
 
-## Toàn bộ 60 prompt
+## Duyệt theo danh mục
+
+| Danh mục | Số câu lệnh | Liên kết |
+|---|---:|---|
+| [Điện ảnh và kể chuyện](prompts/cinematic-storytelling.md) | 8 | [Xem](prompts/cinematic-storytelling.md#case-01) |
+| [Quảng cáo và mạng xã hội](prompts/commerce-social.md) | 8 | [Xem](prompts/commerce-social.md#case-01) |
+| [Tài liệu, du lịch và giáo dục](prompts/documentary-education.md) | 8 | [Xem](prompts/documentary-education.md#case-01) |
+| [Hoạt hình, âm nhạc và giải trí](prompts/stylized-entertainment.md) | 8 | [Xem](prompts/stylized-entertainment.md#case-01) |
+| [Điều khiển, chỉnh sửa và mở rộng](prompts/control-editing-extension.md) | 10 | [Xem](prompts/control-editing-extension.md#case-01) |
+| [Chỉnh sửa nâng cao, máy quay và biến đổi hình ảnh](prompts/advanced-editing-camera.md) | 9 | [Xem](prompts/advanced-editing-camera.md#case-01) |
+| [Storyboard, chia màn hình, chữ và đánh giá](prompts/storyboard-text-evaluation.md) | 9 | [Xem](prompts/storyboard-text-evaluation.md#case-01) |
+
+[Mục lục đầy đủ 60 câu lệnh](docs/prompt-index.md) · [Tải toàn bộ câu lệnh dạng văn bản](prompts/copy/all-prompts.txt)
 
 Năm nhóm đầu có phần giải thích bằng tiếng Trung, hai nhóm cuối bằng tiếng Anh. Tất cả prompt điều khiển đều bằng tiếng Anh. Nội dung các nhóm chưa được dịch đầy đủ.
 
-- [Điện ảnh và kể chuyện: 8 prompt](prompts/cinematic-storytelling.md)
-- [Quảng cáo và mạng xã hội: 8 prompt](prompts/commerce-social.md)
-- [Tài liệu, du lịch và giáo dục: 8 prompt](prompts/documentary-education.md)
-- [Hoạt hình, âm nhạc và giải trí: 8 prompt](prompts/stylized-entertainment.md)
-- [Điều khiển, chỉnh sửa và mở rộng: 10 công thức](prompts/control-editing-extension.md)
-- [Chỉnh sửa nâng cao, máy quay và biến đổi hình ảnh: 9 prompt](prompts/advanced-editing-camera.md)
-- [Storyboard, chia màn hình, chữ và đánh giá: 9 prompt](prompts/storyboard-text-evaluation.md)
-
-
-
-## Thử prompt đầu tiên
-
-1. Chọn một ví dụ đầy đủ gần với cảnh bạn muốn tạo và sao chép toàn bộ prompt.
-2. Tải ảnh tham chiếu tương ứng và đặt làm khung hình đầu tiên nếu công cụ bạn dùng hỗ trợ.
-3. Điều chỉnh các mốc thời gian theo thời lượng và độ phân giải có sẵn. Tạo bản nháp, kiểm tra chủ thể, chữ và âm thanh, rồi chỉ sửa một yếu tố mỗi lần.
-
 <a id="source-examples"></a>
 
-## Ba prompt để sao chép
+## Sáu ví dụ có thể sao chép ngay
 
-Ảnh được dùng lại từ kho nguồn làm khung hình đầu tham chiếu, không phải kết quả video. Tải ảnh tương ứng lên dưới tên Image1. Yêu cầu 10 giây và âm thanh là mục tiêu; hãy điều chỉnh theo thiết lập hiện có.
+Ảnh tham chiếu là tư liệu đầu vào, không phải kết quả tạo.
+
+[01 · Loa sản phẩm: nhịp giọt nước](#example-01) · [02 · Đạp xe trên sống núi: mở đầu phim tài liệu](#example-02) · [03 · Thợ đồng hồ và chim giấy: câu chuyện minh họa](#example-03) · [04 · Cốc gốm xanh ngọc trong ánh sáng ban mai](#example-04) · [05 · Bến cảng giấy lần lượt lên đèn](#example-05) · [06 · Túi vải lanh cho video bán hàng đa ngôn ngữ](#example-06)
+
+<a id="example-01"></a>
 
 ### 01 · Loa sản phẩm: nhịp giọt nước
 
-![Loa sản phẩm: nhịp giọt nước](assets/product-speaker.png)
+<a href="assets/product-speaker.png"><img src="assets/product-speaker.png" alt="Loa sản phẩm: nhịp giọt nước" width="420"></a>
+
+[Quảng cáo và mạng xã hội](prompts/commerce-social.md) · [Khung hình đầu tham chiếu](assets/product-speaker.png) · [Văn bản thuần](prompts/copy/showcase-01.txt)
 
 ```text
 Create a 10-second premium product film from Image1. Use Image1 as the exact starting frame.
@@ -80,9 +59,13 @@ Audio: original minimal electronic rhythm at 96 BPM, water-drop percussion, dist
 No product morphing, added controls, text, logo, watermark, hands, duplicate product or camera shake.
 ```
 
+<a id="example-02"></a>
+
 ### 02 · Đạp xe trên sống núi: mở đầu phim tài liệu
 
-![Đạp xe trên sống núi: mở đầu phim tài liệu](assets/travel-cyclist.png)
+<a href="assets/travel-cyclist.png"><img src="assets/travel-cyclist.png" alt="Đạp xe trên sống núi: mở đầu phim tài liệu" width="420"></a>
+
+[Tài liệu, du lịch và giáo dục](prompts/documentary-education.md) · [Khung hình đầu tham chiếu](assets/travel-cyclist.png) · [Văn bản thuần](prompts/copy/showcase-02.txt)
 
 ```text
 Animate Image1 as a single continuous 10-second documentary tracking shot. Use it as the exact first frame.
@@ -93,9 +76,13 @@ Audio: close tire crunch and chain movement, strong ridge wind, one distant bird
 No cuts, drone rise, extra cyclists, landmark text, logo or watermark.
 ```
 
+<a id="example-03"></a>
+
 ### 03 · Thợ đồng hồ và chim giấy: câu chuyện minh họa
 
-![Thợ đồng hồ và chim giấy: câu chuyện minh họa](assets/clockmaker-story.png)
+<a href="assets/clockmaker-story.png"><img src="assets/clockmaker-story.png" alt="Thợ đồng hồ và chim giấy: câu chuyện minh họa" width="420"></a>
+
+[Hoạt hình, âm nhạc và giải trí](prompts/stylized-entertainment.md) · [Khung hình đầu tham chiếu](assets/clockmaker-story.png) · [Văn bản thuần](prompts/copy/showcase-03.txt)
 
 ```text
 Bring this illustration to life in one coherent 10-second animated shot. Use Image1 as the first frame and preserve its watercolor-and-ink direction.
@@ -108,88 +95,13 @@ Audio: layered clock ticks, delicate paper folds, wooden gear creaks, then an or
 Keep the clockmaker's face, clothes and goggles consistent. No photorealism, subtitles, logo or watermark.
 ```
 
+<a id="example-04"></a>
 
+### 04 · Cốc gốm xanh ngọc trong ánh sáng ban mai
 
-<a id="video-studies"></a>
+<a href="assets/seaimagine-ceramic-cup.png"><img src="assets/seaimagine-ceramic-cup.png" alt="Cốc gốm xanh ngọc trong ánh sáng ban mai" width="420"></a>
 
-## Học gì từ ví dụ chính thức và cộng đồng
-
-Video chính thức của Google trình diễn Omni 1.1 Flash. Các bài đăng cộng đồng có từ tháng 5 năm 2026 và nói về Omni / Flash đời đầu; chưa được xác nhận là thử nghiệm bản 1.1. Bằng chứng cộng đồng lấy từ văn bản và siêu dữ liệu của tệp phương tiện trên bản sao FxTwitter; chưa xác minh việc phát video trực tiếp trên X. Đây là ví dụ từ nguồn bên ngoài, không phải kết quả của nền tảng bạn sử dụng. Hãy kiểm tra tính năng có trong công cụ của mình.
-
-### Google: chuyển từ khung hình đầu đến cuối
-
-[Xem ví dụ gốc](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
-
-Xác định riêng ảnh đầu, ảnh cuối và chuyển động liên tục nối hai ảnh.
-
-Chụp cùng một vật từ hai góc có thể nối với nhau. Nếu hỗ trợ khung hình đầu và cuối, hãy nối bằng một chuyển động đơn giản.
-
-### Google: kéo dài cảnh quay
-
-[Xem ví dụ gốc](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
-
-Mô tả chuyển động máy quay tiếp theo, đồng thời giữ nguyên chủ thể và hướng chuyển động.
-
-Dùng clip ngắn của bạn. Nếu có tính năng kéo dài, chỉ thêm một đoạn tiếp nối và kiểm tra xem chuyển động hoặc ánh sáng có bị nhảy ở điểm nối không.
-
-### CHRIS FIRST: thay người bằng hồng hạc
-
-<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST: thay người bằng hồng hạc" width="300"></a>
-
-[Xem ví dụ gốc](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
-
-Thay chủ thể nhưng yêu cầu giữ trang phục và hành động; kiểm tra các điểm tiếp xúc của tay chân.
-
-Nếu có chỉnh sửa video, chỉ thay một chủ thể trong clip của bạn. So sánh trang phục, tư thế và tiếp xúc với mặt đất trước và sau.
-
-### Justine Moore: đổi mũ sau mỗi tiếng vỗ tay
-
-<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore: đổi mũ sau mỗi tiếng vỗ tay" width="300"></a>
-
-[Xem ví dụ gốc](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
-
-Dùng một cử chỉ rõ ràng để xác định thời điểm đổi, đồng thời giữ nguyên khuôn mặt, trang phục và máy quay.
-
-Cố định máy quay và quay hai lần vỗ tay rõ ràng. Nếu có chỉnh sửa video, yêu cầu đổi mũ mỗi lần vỗ tay rồi kiểm tra thời điểm theo từng khung hình.
-
-[Ví dụ chính thức và cộng đồng](docs/community-examples.md)
-
-## Đọc thêm
-
-- [Ví dụ chính thức và cộng đồng](docs/community-examples.md)
-- [Hướng dẫn đa ngôn ngữ](docs/multilingual-guide.md)
-- [Thiết kế prompt](docs/prompting-guide.md)
-- [Tư liệu tham chiếu và quyền sử dụng](docs/reference-videos.md)
-
-<a id="brand-tools"></a>
-
-## Bắt đầu với SeaImagine
-
-Thư viện giữ nguyên 60 công thức gốc của Flaq AI và bổ sung ba bài tập SeaImagine với ảnh tham chiếu riêng. Trang này có các bài tập mới, ví dụ từ kho gốc và phần hướng dẫn học từ ví dụ chính thức cùng cộng đồng.
-
-[Gemini Omni](https://seaimagine.com/vi/model/gemini-omni/) · [Gemini Omni 1.1 Flash](https://seaimagine.com/vi/model/gemini-omni-1-1-flash/)
-
-1. Mở trang mô hình và kiểm tra quyền truy cập, giá cùng các thiết lập hiện có.
-2. Để giữ ngoại hình sản phẩm hoặc nhân vật, chọn tạo video từ ảnh, tải lên một ảnh và dán prompt tương ứng. Với cảnh mới, hãy thử tạo video từ văn bản.
-3. Chọn thời lượng và tỷ lệ khung hình trong giao diện. Thử một cảnh, kiểm tra ngoại hình, chuyển động và âm thanh, rồi sửa từng chỉ dẫn một.
-
-Đây là các bản thiết kế prompt, chưa phải kết quả tạo video được kiểm chứng trên SeaImagine. Thời lượng, âm thanh, chỉnh sửa, kéo dài và ảnh tham chiếu phụ thuộc vào mô hình cùng giao diện hiện tại. Tính năng API Google không đồng nghĩa SeaImagine đã hỗ trợ.
-
-<a id="sea-practice"></a>
-
-## Ba bài tập SeaImagine với ảnh tham chiếu riêng
-
-Các ảnh tham chiếu này được tạo bằng AI để làm khung hình đầu cho bài tập, không phải kết quả video Gemini đã được thử nghiệm. Hãy dùng các tính năng thực sự có trong giao diện SeaImagine.
-
-### SEA-01 · Cốc gốm xanh ngọc trong ánh sáng ban mai
-
-[![Cốc gốm xanh ngọc trong ánh sáng ban mai](assets/seaimagine-ceramic-cup.png)](assets/seaimagine-ceramic-cup.png)
-
-Đưa máy quay lại gần từ từ, giữ nguyên quai, miệng cốc và mực chất lỏng. Chừa chỗ cho chữ ở cuối video.
-
-Tải ảnh cốc lên để tạo video. Trước hết chỉ thử chuyển động tiến lại gần chậm, kiểm tra quai và mực chất lỏng rồi mới thêm chữ.
-
-[Ảnh thành video](https://seaimagine.com/vi/image-to-video/) · [Tạo ảnh bằng AI](https://seaimagine.com/vi/ai-image-generator/)
+[Quảng cáo và mạng xã hội](prompts/commerce-social.md) · [Khung hình đầu tham chiếu](assets/seaimagine-ceramic-cup.png) · [Văn bản thuần](prompts/copy/showcase-04.txt)
 
 ```text
 Use the uploaded ceramic-cup image as the exact first frame. Create a 10-second, 16:9 product shot.
@@ -201,15 +113,13 @@ Audio, if supported: quiet room ambience and one distant bird. No speech or musi
 No pouring, added cup, new handle, object morphing, generated text, logo or watermark.
 ```
 
-### SEA-02 · Bến cảng giấy lần lượt lên đèn
+<a id="example-05"></a>
 
-[![Bến cảng giấy lần lượt lên đèn](assets/seaimagine-paper-harbor.png)](assets/seaimagine-paper-harbor.png)
+### 05 · Bến cảng giấy lần lượt lên đèn
 
-Trong một cảnh quay, bật đèn hải đăng rồi lần lượt tăng độ sáng ở cửa sổ ba ngôi nhà. Giữ nguyên chất liệu giấy và hình khối.
+<a href="assets/seaimagine-paper-harbor.png"><img src="assets/seaimagine-paper-harbor.png" alt="Bến cảng giấy lần lượt lên đèn" width="420"></a>
 
-Tải ảnh bến cảng lên, yêu cầu bật đèn hải đăng rồi tăng độ sáng các cửa sổ theo thứ tự. So sánh hình dạng công trình ở đầu và cuối video.
-
-[Ảnh thành video](https://seaimagine.com/vi/image-to-video/) · [Tạo ảnh bằng AI](https://seaimagine.com/vi/ai-image-generator/)
+[Hoạt hình, âm nhạc và giải trí](prompts/stylized-entertainment.md) · [Khung hình đầu tham chiếu](assets/seaimagine-paper-harbor.png) · [Văn bản thuần](prompts/copy/showcase-05.txt)
 
 ```text
 Use the uploaded paper-harbor image as the exact first frame. Animate a single 10-second, 16:9 shot while retaining the handcrafted paper texture, folds and miniature scale.
@@ -221,15 +131,13 @@ Audio, if supported: a quiet original celesta phrase, no voices.
 No ocean waves, added buildings, extra boats, rotating tower, camera cut, text, logo or watermark.
 ```
 
-### SEA-03 · Túi vải lanh cho video bán hàng đa ngôn ngữ
+<a id="example-06"></a>
 
-<a href="assets/seaimagine-linen-pouch.png"><img src="assets/seaimagine-linen-pouch.png" alt="Túi vải lanh cho video bán hàng đa ngôn ngữ" width="360"></a>
+### 06 · Túi vải lanh cho video bán hàng đa ngôn ngữ
 
-Tạo video sản phẩm dọc không có chữ trước, rồi thêm phụ đề từng ngôn ngữ bằng phần mềm dựng video thông thường.
+<a href="assets/seaimagine-linen-pouch.png"><img src="assets/seaimagine-linen-pouch.png" alt="Túi vải lanh cho video bán hàng đa ngôn ngữ" width="420"></a>
 
-Tạo video dọc từ ảnh túi rồi thêm bản dịch sau. Chỉ dùng lệnh chỉnh sửa video ngắn khi giao diện có tính năng này.
-
-[Ảnh thành video](https://seaimagine.com/vi/image-to-video/) · [Tạo ảnh bằng AI](https://seaimagine.com/vi/ai-image-generator/)
+[Quảng cáo và mạng xã hội](prompts/commerce-social.md) · [Khung hình đầu tham chiếu](assets/seaimagine-linen-pouch.png) · [Văn bản thuần](prompts/copy/showcase-06.txt)
 
 ```text
 Use the uploaded linen-pouch photograph as the exact first frame. Create a 10-second, 9:16 vertical ecommerce product shot.
@@ -241,21 +149,48 @@ Audio, if supported: soft room tone. No speech or music.
 Do not generate any lettering, subtitles, symbols, price, logo, watermark, extra bag or moving string.
 ```
 
-> Mỗi ngày thêm nhẹ nhàng
+Mỗi ngày thêm nhẹ nhàng
 
-[Quy trình SeaImagine](docs/seaimagine-workflow.md)
+<a id="video-studies"></a>
 
-## Công cụ SeaImagine khác
+## Kết quả từ nguồn chính thức và cộng đồng
+
+Ví dụ chính thức sử dụng Gemini Omni 1.1 Flash; ví dụ cộng đồng được đăng vào tháng 5 năm 2026 và sử dụng các phiên bản Omni trước đó. Liên kết dẫn đến bài đăng gốc; kho này không tuyên bố đã tái tạo các kết quả đó. Bằng chứng cộng đồng lấy từ FxTwitter; chưa kiểm chứng việc phát video trực tiếp trên X.
+
+| Google · Omni 1.1 Flash | Liên kết |
+|---|---|
+| Kéo dài cảnh đậm chất điện ảnh | [Xem video](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) |
+| Chuyển tiếp giữa khung hình đầu và cuối | [Xem video](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) |
+| Bản nháp tảo cát biển 360p | [Xem video](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/kw_omni-flash__capability-video__draft-360p__16x9__v1_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) |
+| Vũ đạo theo video tham chiếu | [Xem video](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__video-reference__16x9.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) |
+
+| X · Omni / Flash · 2026-05 | X · Omni / Flash · 2026-05 |
+|---|---|
+| **Biến người thành hồng hạc**<br><a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="Biến người thành hồng hạc" width="240"></a><br>CHRIS FIRST<br>[Nguồn](https://x.com/chrisfirst/status/2056797606509158681) · [Xem video](https://video.twimg.com/amplify_video/2056797343085969408/vid/avc1/1080x1440/UYr_7RKomiginRgq.mp4?tag=27) | **Đổi mũ theo từng tiếng vỗ tay**<br><a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Đổi mũ theo từng tiếng vỗ tay" width="240"></a><br>Justine Moore<br>[Nguồn](https://x.com/venturetwins/status/2056793856843366789) · [Xem video](https://video.twimg.com/amplify_video/2056793760273686528/vid/avc1/720x1280/Q73liRfIjPtGSveL.mp4?tag=27) |
+| **Minh họa quá trình quang hợp**<br><a href="https://x.com/mrfanduu/status/2056692235174097398"><img src="https://pbs.twimg.com/amplify_video_thumb/2056691792175833088/img/W0_pZkQwRicpRjjG.jpg" alt="Minh họa quá trình quang hợp" width="240"></a><br>Fandu<br>[Nguồn](https://x.com/mrfanduu/status/2056692235174097398) · [Xem video](https://video.twimg.com/amplify_video/2056691792175833088/vid/avc1/1280x720/Ws-92fvVr5e-FkYZ.mp4?tag=14) | **Zoom cầm tay vào London Eye**<br><a href="https://x.com/fofrAI/status/2056789242274259242"><img src="https://pbs.twimg.com/amplify_video_thumb/2056503814874861569/img/mQnHwThYDypoS1H6.jpg" alt="Zoom cầm tay vào London Eye" width="240"></a><br>fofr<br>[Nguồn](https://x.com/fofrAI/status/2056789242274259242) · [Xem video](https://video.twimg.com/amplify_video/2056503814874861569/vid/avc1/1280x720/Lc2C4YtTflfGA8qe.mp4?tag=27) |
+| **So sánh video gốc và bản chỉnh sửa**<br><a href="https://x.com/Mho_23/status/2057151867927601413"><img src="https://pbs.twimg.com/amplify_video_thumb/2057151701904146432/img/yhVQfdBM34BQJjV3.jpg" alt="So sánh video gốc và bản chỉnh sửa" width="240"></a><br>Miko<br>[Nguồn](https://x.com/Mho_23/status/2057151867927601413) · [Xem video](https://video.twimg.com/amplify_video/2057151701904146432/vid/avc1/1080x1920/JfeFoDd5udd_FRR7.mp4?tag=27) | **Bình nước đổi chất liệu khi chạm**<br><a href="https://x.com/alexanderchen/status/2057176690519089166"><img src="https://pbs.twimg.com/amplify_video_thumb/2057176000459612161/img/wTZ0HcgL_8PHxwbY.jpg" alt="Bình nước đổi chất liệu khi chạm" width="240"></a><br>Alexander Chen<br>[Nguồn](https://x.com/alexanderchen/status/2057176690519089166) · [Xem video](https://video.twimg.com/amplify_video/2057176000459612161/vid/avc1/1280x720/LRzM8IueMomPMa7J.mp4?tag=27) · [Câu lệnh đầy đủ](https://x.com/alexanderchen/status/2057176691903279524) |
+[Nguồn / FxTwitter](docs/community-examples.md)
+
+## Tài liệu nâng cao
+
+Các bài hướng dẫn nằm ở trang riêng. [Xem](docs/guides/README_VI.md)
+
+[Thiết kế prompt](docs/prompting-guide.md) · [Hướng dẫn đa ngôn ngữ](docs/multilingual-guide.md) · [Tư liệu tham chiếu và quyền sử dụng](docs/reference-videos.md)
+
+<a id="brand-tools"></a>
+
+## Sáng tạo với SeaImagine
+
+[Gemini Omni](https://seaimagine.com/vi/model/gemini-omni/) · [Gemini Omni 1.1 Flash](https://seaimagine.com/vi/model/gemini-omni-1-1-flash/)
+
+[Ảnh thành video](https://seaimagine.com/vi/image-to-video/) · [Văn bản thành video](https://seaimagine.com/vi/text-to-video/) · [Tạo ảnh bằng AI](https://seaimagine.com/vi/ai-image-generator/)
 
 Các trang này là những lựa chọn khởi đầu khác. Xem mô hình, điều khoản và giá hiện tại trên từng trang. Kho này không bảo đảm dịch vụ luôn sẵn có.
 
-- [Tạo nội dung](https://seaimagine.com/vi/create/)
-- [Ảnh thành video](https://seaimagine.com/vi/image-to-video/)
-- [Văn bản thành video](https://seaimagine.com/vi/text-to-video/)
-- [Tạo ảnh bằng AI](https://seaimagine.com/vi/ai-image-generator/)
+[Quy trình SeaImagine](docs/seaimagine-workflow.md)
 
 ## Nguồn và giấy phép
 
 Chuyển thể từ kho Flaq AI, gồm bộ prompt và ba ảnh tham chiếu. Không phải mọi nội dung đều do SeaImagine tự sáng tạo. Đây là hướng dẫn độc lập, không phải sản phẩm chính thức của Google.
 
-[Flaq AI · awesome-gemini-omni-flash](https://github.com/flaqai/awesome-gemini-omni-flash) · [MIT](LICENSE)
+[Flaq AI · awesome-gemini-omni-flash](https://github.com/flaqai/awesome-gemini-omni-flash) · [MIT](LICENSE) · [Contributing](CONTRIBUTING.md)

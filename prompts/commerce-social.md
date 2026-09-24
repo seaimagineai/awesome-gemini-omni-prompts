@@ -6,7 +6,28 @@
 
 商业场景最重要的是产品几何、材质、文字和品牌安全。本页所有产品与店铺均为虚构，不依赖现有品牌资产。
 
+<a id="case-index"></a>
+
+<!-- catalog:toc:start -->
+**本页案例 / Cases** · [全部 60 例 / All 60 cases](../docs/prompt-index.md)
+
+- [01 · 户外音箱水滴节拍广告](#case-01) · [TXT](copy/commerce-social-01.txt)
+- [02 · 护肤精华：微距质感而非夸张特效](#case-02) · [TXT](copy/commerce-social-02.txt)
+- [03 · 巷口咖啡店：中文 UGC 探店](#case-03) · [TXT](copy/commerce-social-03.txt)
+- [04 · 三套造型：多参考图时尚切换](#case-04) · [TXT](copy/commerce-social-04.txt)
+- [05 · 辣椒面馆：食物 ASMR](#case-05) · [TXT](copy/commerce-social-05.txt)
+- [06 · 空房到生活空间：房产转场](#case-06) · [TXT](copy/commerce-social-06.txt)
+- [07 · 效率 App：清晰文字驱动的发布短片](#case-07) · [TXT](copy/commerce-social-07.txt)
+- [08 · 冬日围巾：多语言电商变体](#case-08) · [TXT](copy/commerce-social-08.txt)
+<!-- catalog:toc:end -->
+
+<a id="case-01"></a>
+
 ## 01｜户外音箱水滴节拍广告
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/commerce-social-01.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **模式：** 首帧图生视频 · **素材：** [源库参考首帧](../assets/product-speaker.png) · **画幅：** 16:9
 
@@ -24,7 +45,13 @@ Constraints: preserve the exact product identity from Image1; no morphing; no ad
 Do not include: text, logo, watermark, hands, duplicate product, camera shake.
 ```
 
+<a id="case-02"></a>
+
 ## 02｜护肤精华：微距质感而非夸张特效
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/commerce-social-02.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **模式：** 文生视频 · **画幅：** 9:16 · **重点：** 包装文字、液体物理、移动端广告
 
@@ -41,7 +68,13 @@ Look: honest skin-care photography, neutral whites, realistic viscosity, subtle 
 Do not include: skin transformation claims, faces, extra bottles, flowers, glitter, illegible text, logos, watermark.
 ```
 
+<a id="case-03"></a>
+
 ## 03｜巷口咖啡店：中文 UGC 探店
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/commerce-social-03.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **模式：** 文生视频 · **画幅：** 9:16 · **重点：** 自然口播、手持镜头、真实小店
 
@@ -59,7 +92,13 @@ Audio: door bell, low café room tone, ice, citrus spray, clear close voice. No 
 Avoid influencer beauty filters, exaggerated reaction, other speech, brand marks, price text, watermark, face drift.
 ```
 
+<a id="case-04"></a>
+
 ## 04｜三套造型：多参考图时尚切换
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/commerce-social-04.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **模式：** 多参考图 · **画幅：** 9:16 · **输入：** Image1 角色、Image2/3/4 三套服装
 
@@ -76,7 +115,13 @@ Audio: heel steps remain continuous through all transitions, fabric movement, th
 Preserve identity, body proportions and hair; preserve each outfit's construction and color. No blended garments, extra accessories, text, logos, audience or watermark.
 ```
 
+<a id="case-05"></a>
+
 ## 05｜辣椒面馆：食物 ASMR
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/commerce-social-05.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **模式：** 文生视频 · **画幅：** 9:16 · **重点：** 声音、食物物理、近景
 
@@ -91,7 +136,13 @@ Lighting: warm side light with natural highlights, appetizing but not oversatura
 No face, no text, no brand, no extra hands, no ingredient teleportation, no impossible liquid, no watermark.
 ```
 
+<a id="case-06"></a>
+
 ## 06｜空房到生活空间：房产转场
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/commerce-social-06.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **模式：** 首帧 + 尾帧 · **画幅：** 16:9 · **输入：** Image1 空房，Image2 同机位软装完成
 
@@ -105,7 +156,13 @@ Audio: soft room reverb, rug roll, wood contact, curtain rings, one warm non-mel
 No construction workers, no floating objects, no wall changes, no extra decor, no text, logo or watermark. End exactly on Image2.
 ```
 
+<a id="case-07"></a>
+
 ## 07｜效率 App：清晰文字驱动的发布短片
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/commerce-social-07.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **模式：** 文生视频 · **画幅：** 9:16 · **重点：** 动态字效、界面克制、SEO/社媒钩子
 
@@ -122,7 +179,13 @@ Audio: dry tick, three soft card swishes, a single warm completion tone. No voic
 Only the three quoted text strings may appear. Preserve spelling and punctuation. No logo, phone hardware, watermark or extra icons.
 ```
 
+<a id="case-08"></a>
+
 ## 08｜冬日围巾：多语言电商变体
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/commerce-social-08.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **模式：** 文生视频 + 对话式文字编辑 · **画幅：** 9:16 · **重点：** 一支母版、多语言本地化
 

@@ -1,0 +1,13 @@
+Create a restrained 10-second cinematic drama with native audio.
+
+Scene: the final platform of a small mountain railway station at night. Cold rain falls beyond the canopy; a single warm vending-machine light reflects on wet concrete. No other passengers.
+Characters: a woman in a charcoal wool coat holding a repaired red umbrella; a man in a faded navy work jacket carrying a small overnight bag. Both are in their early thirties. Keep their faces, clothes and relative height consistent.
+
+[0-3s] Wide locked shot. The man steps off the last train as its doors close behind him. He notices the red umbrella. Only rain, train brakes and a quiet electrical hum.
+[3-7s] Slow lateral push into a two-shot. The woman raises her eyes but does not approach. He exhales and grips the bag strap once.
+[7-10s] Close two-shot without a cut. She says softly in Mandarin Chinese: "伞修好了。" After a one-second pause, he answers: "我也是。" The train departs and warm window reflections travel across their faces.
+
+Performance: micro-expressions, incomplete smiles, no melodramatic crying.
+Camera: 50mm lens, shallow but believable focus, subtle dolly, natural motion blur.
+Audio: precise rain perspective, receding train, fabric movement; no music and no subtitles.
+Do not include: extra people, station names, logos, text, watermark, face changes, lip movement before dialogue.

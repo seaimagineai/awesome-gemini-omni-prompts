@@ -1,0 +1,7 @@
+[# References <IMAGE_REF_0>@Image1 <VIDEO_REF_0>@Video1]
+Create a 10-second rehearsal video. Use Image1 for the dancer's identity and outfit. Use Video1 only as the movement and timing reference; do not edit or reproduce its setting.
+
+The dancer from <IMAGE_REF_0> performs the movement rhythm demonstrated in <VIDEO_REF_0> inside a sunlit empty gym, then continues with one original recovery step and returns to a neutral stance. Keep full body and floor contact visible. Fixed camera, 16:9, no cuts.
+
+Audio: original dry percussion matching the movement timing, shoe contact and room reverb. Ignore all audio from Video1. No dialogue.
+Do not copy the reference background, other people, branding or audio. No identity drift, text, logo or watermark.

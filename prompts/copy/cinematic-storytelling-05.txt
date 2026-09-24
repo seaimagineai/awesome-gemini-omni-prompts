@@ -1,0 +1,7 @@
+[# Sources <FIRST_FRAME>@Image1 <LAST_FRAME>@Image2]
+Create a smooth 10-second seasonal transition from Image1 to Image2. Use the images as the exact first and final frames.
+
+The camera advances slowly along the same central path without changing lens height. The season changes through continuous physical cues rather than a dissolve: green leaves yellow and detach in the wind; fallen leaves collect, become rimed with frost, and receive the first snow; warm afternoon sunlight lowers into cold blue twilight. Tree trunks, path geometry and fence posts stay locked to their original positions. A small wooden basket remains beside the third tree throughout and gradually gathers snow.
+
+Audio evolves continuously from summer insects and leaves to autumn wind and finally the soft absorption of snowfall. One restrained musical drone changes from warm strings to glass harmonics. No dialogue.
+No jump cut, no camera teleport, no new buildings, no people, no text, no logo, no watermark.

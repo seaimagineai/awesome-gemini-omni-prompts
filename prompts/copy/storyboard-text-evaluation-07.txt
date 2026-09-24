@@ -1,0 +1,27 @@
+One title sequence, four language-safe variants
+
+=== 1/5: Part 1 ===
+
+Create a 10-second 16:9 opening title background for a calm night-train travel series. View through a carriage window as soft rain trails diagonally across the glass and distant town lights pass from right to left. Keep the center-left area dark, stable, and uncluttered from 5s to 10s for later typography.
+
+Audio: train rhythm, soft rain, one original warm synth chord. No speech, melody, text, signage, brand, logo, or watermark.
+
+
+=== 2/5: Part 2 ===
+
+Add only this exact English title from 5s to 10s: "WINDOWS AFTER MIDNIGHT". Center it in the reserved area, large, cream, fully readable. Keep everything else the same.
+
+
+=== 3/5: Part 3 ===
+
+Add only this exact Simplified Chinese title from 5s to 10s: "午夜之后的车窗". Preserve every character exactly. Center it in the reserved area, large, cream, fully readable. Keep everything else the same.
+
+
+=== 4/5: Part 4 ===
+
+Add only this exact Japanese title from 5s to 10s: "真夜中の車窓". Preserve every character exactly. Center it in the reserved area, large, cream, fully readable. Keep everything else the same.
+
+
+=== 5/5: Part 5 ===
+
+Add only this exact Arabic title from 5s to 10s, right-to-left: "نوافذ بعد منتصف الليل". Preserve joining, order, and punctuation exactly. Center it in the reserved area, large, cream, fully readable. Keep everything else the same.

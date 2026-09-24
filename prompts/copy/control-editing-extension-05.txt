@@ -1,0 +1,10 @@
+局部编辑：只添加一个对象
+
+=== 1/2: Part 1 ===
+
+Add one small black cat that enters from frame right, jumps onto the empty chair, and settles there. Keep everything else the same, including people, timing, camera, lighting and audio.
+
+
+=== 2/2: Part 2 ===
+
+Restore the original person's exact pose and movement. Keep the cat on the chair and keep everything else the same.

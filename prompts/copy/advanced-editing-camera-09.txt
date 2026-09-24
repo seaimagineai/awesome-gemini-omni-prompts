@@ -1,0 +1,5 @@
+Add one narrow amber light trail behind each roller skate for the entire clip. Each trail must originate at the rear wheel axle, follow the actual wheel path with a 0.35-second decay, respect floor perspective and occlusion, and become brighter only during faster movement.
+
+Preserve the skater's identity, clothing, body motion, wheel contact, speed, floor reflections, camera movement, timing, and original audio exactly. The effect is emissive light only: it must not push the skater, change the trajectory, create sparks, illuminate the face, or leave permanent marks on the floor.
+
+No trails from hands or body, no particles, flame, smoke, brand marks, text, logo, watermark, or changes to anything else.

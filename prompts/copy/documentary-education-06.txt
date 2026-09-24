@@ -1,0 +1,9 @@
+[# References <IMAGE_REF_0>@Image1]
+Create a 9:16, 10-second museum interpretation video using Image1 only as the exact artifact reference. Place the artifact in a neutral conservation studio; do not invent inscriptions or missing parts.
+
+[0-3s] Slow 40-degree orbit around the artifact with a small scale bar visible but no numeric claim. Raking light reveals surface wear.
+[3-6s] Freeze the orbit and use a subtle transparent highlight to indicate three manufacturing marks. Exact heading: "HOW IT WAS MADE". No other labels.
+[6-10s] Return to the unaltered object. Light shifts to reveal repaired areas without changing them. Exact final question: "WHAT CAN WE KNOW?"
+
+Audio: quiet gallery room tone, soft turntable motor, one restrained tonal bed. Calm narration in Japanese: "痕跡は、作り方と使われ方を伝えます。" Speak once, no subtitles.
+Preserve the artifact's geometry, color, damage and patina. No hands, fantasy restoration, invented provenance, logo or watermark.

@@ -1,0 +1,7 @@
+[# Sources <FIRST_FRAME>@Image1 <LAST_FRAME>@Image2]
+Transition from the paper architectural model in Image1 to the completed real building in Image2 over 10 seconds. Keep camera position and silhouette aligned.
+
+Paper walls gain thickness and material grain; cut-paper trees become real young trees through continuous unfolding; the tabletop expands into the site ground while the background grows from studio gray into overcast sky. Construction is shown as a material transformation, not workers building at impossible speed. The final two seconds settle exactly into Image2.
+
+Audio evolves from paper scoring and tabletop contact to outdoor wind and distant city ambience. No narration or music.
+No dissolve, explosion, cranes, people, text, logo or watermark. End exactly on Image2.

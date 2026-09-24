@@ -1,0 +1,7 @@
+[# Sources <FIRST_FRAME>@Image1 <LAST_FRAME>@Image2]
+Interpolate from the empty room in Image1 to the furnished room in Image2 over 10 seconds. Lock the camera, lens, walls, windows, floor and architectural geometry exactly.
+
+Furniture enters through believable coordinated motion rather than appearing: a rug unrolls from foreground, the sofa slides gently from frame left, the table assembles from aligned components, curtains descend and catch a light breeze, then two plants settle into their final positions. Natural daylight warms gradually as the room becomes complete. Every object must arrive at the exact placement and design shown in Image2.
+
+Audio: soft room reverb, rug roll, wood contact, curtain rings, one warm non-melodic tonal swell. No dialogue.
+No construction workers, no floating objects, no wall changes, no extra decor, no text, logo or watermark. End exactly on Image2.

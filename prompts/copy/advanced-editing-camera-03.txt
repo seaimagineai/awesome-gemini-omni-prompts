@@ -1,0 +1,6 @@
+[# References <IMAGE_REF_0>@Image1]
+Change only the environment of the existing video to the glass-roofed winter garden shown in Image1. Use Image1 for architecture, materials, plant density, daylight direction, and color palette; do not use it as a literal first frame.
+
+Keep the original adult subject, face, hair, clothing, body proportions, walking performance, screen position, timing, lens, camera path, and audio unchanged. Rebuild floor contact, occlusion, reflections, shadows, and room reverberation so the subject belongs naturally in the winter garden. Preserve the source clip's duration and edit rhythm.
+
+Do not import people, signs, furniture, text, brands, or audio from Image1. No doorway morphing, floating feet, extra plants crossing the face, logo, or watermark.

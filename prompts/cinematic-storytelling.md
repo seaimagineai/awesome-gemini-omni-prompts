@@ -6,7 +6,28 @@
 
 这些案例适合剧情短片、电影概念、类型片测试和带对白的社交视频。建议先以 360p 检查节奏、角色与空间连续性，再生成交付分辨率。
 
+<a id="case-index"></a>
+
+<!-- catalog:toc:start -->
+**本页案例 / Cases** · [全部 60 例 / All 60 cases](../docs/prompt-index.md)
+
+- [01 · 末班站台的重逢](#case-01) · [TXT](copy/cinematic-storytelling-01.txt)
+- [02 · 屋顶快递：一镜到底追逐](#case-02) · [TXT](copy/cinematic-storytelling-02.txt)
+- [03 · 瓷窑开炉：历史工艺瞬间](#case-03) · [TXT](copy/cinematic-storytelling-03.txt)
+- [04 · 门下的第二道影子](#case-04) · [TXT](copy/cinematic-storytelling-04.txt)
+- [05 · 夏到冬：首尾帧季节插值](#case-05) · [TXT](copy/cinematic-storytelling-05.txt)
+- [06 · 倒放的线索：黑色电影谜案](#case-06) · [TXT](copy/cinematic-storytelling-06.txt)
+- [07 · 电梯里的沉默喜剧](#case-07) · [TXT](copy/cinematic-storytelling-07.txt)
+- [08 · 零重力温室告警](#case-08) · [TXT](copy/cinematic-storytelling-08.txt)
+<!-- catalog:toc:end -->
+
+<a id="case-01"></a>
+
 ## 01｜末班站台的重逢
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/cinematic-storytelling-01.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **模式：** 文生视频 · **画幅：** 16:9 · **重点：** 双人表演、中文对白、雨声层次
 
@@ -28,7 +49,13 @@ Do not include: extra people, station names, logos, text, watermark, face change
 
 **改造方向：** 把两句对白替换成任意语言；只改变台词，不要同时更换地点和镜头。
 
+<a id="case-02"></a>
+
 ## 02｜屋顶快递：一镜到底追逐
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/cinematic-storytelling-02.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **模式：** 文生视频 · **画幅：** 9:16 · **重点：** 连续镜头、物理运动、竖屏动作
 
@@ -44,7 +71,13 @@ Lighting: cool sky, warm window squares, wet reflections, realistic exposure cha
 Keep the courier, parcel and jacket unchanged. No teleporting, no impossible jumps, no drone view, no slow motion, no text, no logos, no watermark.
 ```
 
+<a id="case-03"></a>
+
 ## 03｜瓷窑开炉：历史工艺瞬间
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/cinematic-storytelling-03.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **模式：** 文生视频 · **画幅：** 16:9 · **重点：** 世界知识、历史质感、群体反应
 
@@ -60,7 +93,13 @@ Audio: kiln roar, brick scrape, tool ring, cloth movement, quiet dawn birds. No 
 Accuracy constraints: plausible tools, clothing, kiln behavior and handling; no modern objects, no printed labels, no palace setting, no magical glow, no text or watermark.
 ```
 
+<a id="case-04"></a>
+
 ## 04｜门下的第二道影子
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/cinematic-storytelling-04.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **模式：** 文生视频 · **画幅：** 16:9 · **重点：** 心理惊悚、有限揭示、声音反转
 
@@ -78,7 +117,13 @@ Audio must carry the tension: room tone, paper, fan motor, two distinct spatial 
 Do not show a creature, face, blood, subtitles, logos, extra doors or watermark.
 ```
 
+<a id="case-05"></a>
+
 ## 05｜夏到冬：首尾帧季节插值
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/cinematic-storytelling-05.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **模式：** 首帧 + 尾帧 · **画幅：** 与输入一致 · **重点：** 连续转场
 
@@ -94,7 +139,13 @@ Audio evolves continuously from summer insects and leaves to autumn wind and fin
 No jump cut, no camera teleport, no new buildings, no people, no text, no logo, no watermark.
 ```
 
+<a id="case-06"></a>
+
 ## 06｜倒放的线索：黑色电影谜案
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/cinematic-storytelling-06.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **模式：** 文生视频 · **画幅：** 16:9 · **重点：** 倒序动作、可读文字
 
@@ -109,7 +160,13 @@ Look: high-contrast black-and-white film, wet highlights, fine grain, controlled
 No dialogue, no face reveal, no extra text, no misspelled key tag, no supernatural body distortion, no logos, no watermark.
 ```
 
+<a id="case-07"></a>
+
 ## 07｜电梯里的沉默喜剧
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/cinematic-storytelling-07.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **模式：** 文生视频 · **画幅：** 9:16 · **重点：** 固定机位、表演节奏、无对白
 
@@ -123,7 +180,13 @@ Audio: elevator motor, soft jolt, clothing rustle, one polite arrival chime, pot
 Preserve all four people and plant sizes; no duplicate limbs, no text, no logos, no watermark.
 ```
 
+<a id="case-08"></a>
+
 ## 08｜零重力温室告警
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/cinematic-storytelling-08.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **模式：** 文生视频 · **画幅：** 16:9 · **重点：** 科幻物理、节奏升级、原生声音
 

@@ -1,0 +1,7 @@
+Use the uploaded paper-harbor image as the exact first frame. Animate a single 10-second, 16:9 shot while retaining the handcrafted paper texture, folds and miniature scale.
+Keep the ivory lighthouse with its red roof, the three small houses on the left and the single paper boat in exactly the same positions.
+[0-3s] The lighthouse window slowly glows warm amber. The camera begins a small, straight forward move.
+[3-7s] The already warm house windows brighten gently one house at a time, from nearest to farthest. No building moves or changes shape.
+[7-10s] The camera stops. Hold the warm windows against the blue-hour paper harbor. Keep the boat and miniature water surface still.
+Audio, if supported: a quiet original celesta phrase, no voices.
+No ocean waves, added buildings, extra boats, rotating tower, camera cut, text, logo or watermark.

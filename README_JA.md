@@ -4,96 +4,49 @@
 
 # Gemini Omni プロンプト集
 
-**元のライブラリの完全なレシピ60件を、7つのカテゴリで紹介します。場面、動作のタイミング、カメラ、音の指定方法を学び、自分のアイデアに合わせて書き換えてみましょう。**
+**7 カテゴリ・60 件のプロンプトと、入力用の参考画像 6 枚を収録。参考画像は実測済みの生成結果ではありません。**
 
 [English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md)
 
 [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
 
-
-
-[60 本のプロンプト一覧](#prompt-collections) · [コピーして試す 3 例](#source-examples) · [公式・コミュニティ事例](#video-studies) · [多言語ガイド](docs/multilingual-guide.md)
+[カテゴリから探す](#prompt-collections) · [そのままコピーできる 6 つの例](#source-examples) · [公式・コミュニティの生成例](#video-studies) · [全 60 件のプロンプト一覧](docs/prompt-index.md) · [全プロンプトをテキストでダウンロード](prompts/copy/all-prompts.txt)
 
 </div>
 
-## 特長
-
-以下はプロンプトで設計する内容です。利用できる入力、編集、延長、音声、解像度は、使用するツールで選択中のモデルと画面を確認してください。まず利用可能なプレビュー設定で構図・台詞・文字を確認し、その後に仕上げます。Google の API（プログラム用インターフェース）の仕様と、使用するツールの画面上の機能は別です。
-
-- テキスト、開始フレーム、終了フレーム、人物・商品画像、短い動画参照に対応。
-- 映像だけでなく、環境音、効果音、オリジナル音楽、台詞、無音区間まで設計。
-- 日本語を含む15言語の台詞、画面テキスト、RTL、改行、母語話者レビューの方法。
-- `<FIRST_FRAME>`、`<LAST_FRAME>`、`<IMAGE_REF_N>`、`<VIDEO_REF_N>` の具体例。
-
-## 日本語の台詞を指定する
-
-必要に応じて演出指示を英語にし、台詞と画面文字は日本語で正確に指定します。結果の発音、表記、タイミングを確認してください。
-
-```text
-Spoken language: Japanese.
-Exact dialogue at 6s, spoken once with natural conversational pacing: "今日は、遠回りして帰ろう。"
-Do not translate, paraphrase, repeat or subtitle the dialogue.
-
-Exact on-screen Japanese text, centered from 7s to 10s: "小さな旅"
-Preserve the characters exactly. No other text anywhere in the video.
-```
-
-## 画面文字だけを変更する
-
-選択中のモデルが動画編集に対応している場合、完成した母版には変更点だけを短く指示します。これは字幕ファイルの編集ではなく、映像内の文字を変更する練習です。
-
-```text
-Change only the final on-screen text to Japanese: "ぬくもりを、連れて。" Preserve the exact characters, position, size and timing. Keep everything else the same.
-```
-
 <a id="prompt-collections"></a>
 
-## 60 本のプロンプト一覧
+## カテゴリから探す
+
+| カテゴリ | プロンプト数 | リンク |
+|---|---:|---|
+| [映画・ストーリーテリング](prompts/cinematic-storytelling.md) | 8 | [表示](prompts/cinematic-storytelling.md#case-01) |
+| [広告・SNS](prompts/commerce-social.md) | 8 | [表示](prompts/commerce-social.md#case-01) |
+| [ドキュメンタリー・旅行・教育](prompts/documentary-education.md) | 8 | [表示](prompts/documentary-education.md#case-01) |
+| [アニメーション・音楽・エンタメ](prompts/stylized-entertainment.md) | 8 | [表示](prompts/stylized-entertainment.md#case-01) |
+| [マルチモーダル制御・編集・延長](prompts/control-editing-extension.md) | 10 | [表示](prompts/control-editing-extension.md#case-01) |
+| [高度な編集・カメラ・視覚変換](prompts/advanced-editing-camera.md) | 9 | [表示](prompts/advanced-editing-camera.md#case-01) |
+| [ストーリーボード・分割画面・文字・評価](prompts/storyboard-text-evaluation.md) | 9 | [表示](prompts/storyboard-text-evaluation.md#case-01) |
+
+[全 60 件のプロンプト一覧](docs/prompt-index.md) · [全プロンプトをテキストでダウンロード](prompts/copy/all-prompts.txt)
 
 最初の 5 分類の説明は中国語、最後の 2 分類は英語です。コピー用の制御プロンプトはすべて英語で、各分類ページの全文翻訳ではありません。
 
-- [映画・ストーリーテリング：8 例](prompts/cinematic-storytelling.md)
-- [広告・SNS：8 例](prompts/commerce-social.md)
-- [ドキュメンタリー・旅行・教育：8 例](prompts/documentary-education.md)
-- [アニメーション・音楽・エンタメ：8 例](prompts/stylized-entertainment.md)
-- [マルチモーダル制御・編集・延長：10 例](prompts/control-editing-extension.md)
-- [高度な編集・カメラ・視覚変換：9 例](prompts/advanced-editing-camera.md)
-- [ストーリーボード・分割画面・文字・評価：9 例](prompts/storyboard-text-evaluation.md)
-
-## 10 秒用テンプレート
-
-```text
-Format: 9:16 vertical, 10 seconds.
-Goal: [audience and intended response]
-Scene: [place, time, weather, layout]
-Subject: [3-5 stable identity anchors]
-Subject motion: [ordered action]
-Camera motion: [height, path, focus]
-Environment motion: [wind, light, water, particles]
-[0-3s] [hook]
-[3-7s] [core action]
-[7-10s] [payoff and final hold]
-Audio: [foley, ambience, music, silence]
-Exact dialogue in Japanese, spoken once: "[台詞]"
-Preserve: [identity, object, layout, audio]
-Do not include: [short concrete list]
-```
-
-## 最初のプロンプトを試す
-
-1. 作りたい場面に近い作例を選び、プロンプト全文をコピーします。
-2. 対応する参考画像をダウンロードします。使うツールに開始フレームの指定があれば、その画像を設定します。
-3. 利用できる動画の長さと解像度に合わせて時間指定を調整します。まず試作し、被写体、文字、音を確認してから、一度に一つずつ修正します。
-
 <a id="source-examples"></a>
 
-## コピーして試す 3 例
+## そのままコピーできる 6 つの例
 
-画像は元リポジトリから引き継いだ開始フレームの参考画像で、動画の生成結果ではありません。対応する画像を Image1 としてアップロードしてください。10 秒や音声の指定は目標であり、実際の設定に合わせて調整してください。
+参考画像は入力素材であり、生成結果ではありません。
+
+[01 · 商品スピーカー：水滴のリズム](#example-01) · [02 · 稜線を走る自転車：ドキュメンタリーの導入](#example-02) · [03 · 時計職人と紙の鳥：手描きの物語](#example-03) · [04 · 青緑の陶器カップで朝の商品動画](#example-04) · [05 · ペーパークラフトの港に灯りをともす](#example-05) · [06 · リネンのポーチで多言語の縦型動画](#example-06)
+
+<a id="example-01"></a>
 
 ### 01 · 商品スピーカー：水滴のリズム
 
-![商品スピーカー：水滴のリズム](assets/product-speaker.png)
+<a href="assets/product-speaker.png"><img src="assets/product-speaker.png" alt="商品スピーカー：水滴のリズム" width="420"></a>
+
+[広告・SNS](prompts/commerce-social.md) · [開始フレーム用の参考画像](assets/product-speaker.png) · [プレーンテキスト](prompts/copy/showcase-01.txt)
 
 ```text
 Create a 10-second premium product film from Image1. Use Image1 as the exact starting frame.
@@ -106,9 +59,13 @@ Audio: original minimal electronic rhythm at 96 BPM, water-drop percussion, dist
 No product morphing, added controls, text, logo, watermark, hands, duplicate product or camera shake.
 ```
 
+<a id="example-02"></a>
+
 ### 02 · 稜線を走る自転車：ドキュメンタリーの導入
 
-![稜線を走る自転車：ドキュメンタリーの導入](assets/travel-cyclist.png)
+<a href="assets/travel-cyclist.png"><img src="assets/travel-cyclist.png" alt="稜線を走る自転車：ドキュメンタリーの導入" width="420"></a>
+
+[ドキュメンタリー・旅行・教育](prompts/documentary-education.md) · [開始フレーム用の参考画像](assets/travel-cyclist.png) · [プレーンテキスト](prompts/copy/showcase-02.txt)
 
 ```text
 Animate Image1 as a single continuous 10-second documentary tracking shot. Use it as the exact first frame.
@@ -119,9 +76,13 @@ Audio: close tire crunch and chain movement, strong ridge wind, one distant bird
 No cuts, drone rise, extra cyclists, landmark text, logo or watermark.
 ```
 
+<a id="example-03"></a>
+
 ### 03 · 時計職人と紙の鳥：手描きの物語
 
-![時計職人と紙の鳥：手描きの物語](assets/clockmaker-story.png)
+<a href="assets/clockmaker-story.png"><img src="assets/clockmaker-story.png" alt="時計職人と紙の鳥：手描きの物語" width="420"></a>
+
+[アニメーション・音楽・エンタメ](prompts/stylized-entertainment.md) · [開始フレーム用の参考画像](assets/clockmaker-story.png) · [プレーンテキスト](prompts/copy/showcase-03.txt)
 
 ```text
 Bring this illustration to life in one coherent 10-second animated shot. Use Image1 as the first frame and preserve its watercolor-and-ink direction.
@@ -134,88 +95,13 @@ Audio: layered clock ticks, delicate paper folds, wooden gear creaks, then an or
 Keep the clockmaker's face, clothes and goggles consistent. No photorealism, subtitles, logo or watermark.
 ```
 
+<a id="example-04"></a>
 
+### 04 · 青緑の陶器カップで朝の商品動画
 
-<a id="video-studies"></a>
+<a href="assets/seaimagine-ceramic-cup.png"><img src="assets/seaimagine-ceramic-cup.png" alt="青緑の陶器カップで朝の商品動画" width="420"></a>
 
-## 公式・コミュニティ事例から学ぶ
-
-Google の公式動画は Omni 1.1 Flash の紹介です。コミュニティの投稿は2026年5月の初期 Omni / Flash の作例で、1.1の実測とは確認できていません。根拠は FxTwitter ミラーの本文とメディア情報で、X 上での直接再生は未確認です。いずれも外部の作例であり、利用するサービスでの生成結果ではありません。使える機能は各ツールで確認してください。
-
-### Google：開始・終了フレームをつなぐ
-
-[元の事例を見る](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
-
-開始画像、終了画像、その間の連続した動きを別々に決めます。
-
-同じ物を自然につながる角度で2枚撮影します。開始・終了フレームが使えれば、単純な動きでつなぎます。
-
-### Google：ショットを延長する
-
-[元の事例を見る](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
-
-被写体と動く方向を保ちながら、続くカメラの動きを指定します。
-
-自分の短い動画を使います。延長機能があれば、一続きの動作を追加し、つなぎ目の動きと光を確認します。
-
-### CHRIS FIRST：人物をフラミンゴに
-
-<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST：人物をフラミンゴに" width="300"></a>
-
-[元の事例を見る](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
-
-被写体だけを変え、服と動作は残すよう指定します。手足の接触部分も確認します。
-
-自分の動画を使い、動画編集が可能なら被写体を一つだけ置き換えます。服、姿勢、地面との接触を前後で比較します。
-
-### Justine Moore：手拍子ごとに帽子を変える
-
-<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore：手拍子ごとに帽子を変える" width="300"></a>
-
-[元の事例を見る](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
-
-目に見える動作を変化の合図にし、顔、服、カメラを維持します。
-
-カメラを固定して2回の明確な手拍子を撮影します。動画編集が可能なら手拍子ごとの帽子変更を指示し、タイミングをコマごとに確認します。
-
-[公式・コミュニティ事例](docs/community-examples.md)
-
-## 関連ガイド
-
-- [公式・コミュニティ事例](docs/community-examples.md)
-- [多言語ガイド](docs/multilingual-guide.md)
-- [プロンプト設計](docs/prompting-guide.md)
-- [参照素材と利用許諾](docs/reference-videos.md)
-
-<a id="brand-tools"></a>
-
-## SeaImagine で始める
-
-Flaq AI の元のレシピ60件を残し、独自の参考画像を使った SeaImagine の練習を3つ追加しました。このページで新しい練習、元の作例、公式・コミュニティ事例の学習ポイントを読めます。
-
-[Gemini Omni](https://seaimagine.com/ja/model/gemini-omni/) · [Gemini Omni 1.1 Flash](https://seaimagine.com/ja/model/gemini-omni-1-1-flash/)
-
-1. モデルページを開き、現在の利用条件、料金、設定項目を確認します。
-2. 商品や人物の見た目を保つなら画像から動画を選び、参照画像を 1 枚アップロードして対応するプロンプトを貼り付けます。新しい場面はテキストから動画で試します。
-3. 画面上で長さと形式を選び、まず 1 カットを試します。外見、動き、音を確認し、指示を 1 つずつ調整します。
-
-掲載内容はプロンプトの設計例で、SeaImagine での生成結果を検証したものではありません。長さ、音声、編集、延長、参照素材への対応は選択モデルと現在の画面によります。Google API の機能が SeaImagine でも使えるとは限りません。
-
-<a id="sea-practice"></a>
-
-## SeaImagine 独自の参考画像で試す3つの練習
-
-参考画像は AI で生成した練習用の開始フレームです。Gemini による動画の実測結果ではありません。SeaImagine の画面で利用できる機能に合わせて試してください。
-
-### SEA-01 · 青緑の陶器カップで朝の商品動画
-
-[![青緑の陶器カップで朝の商品動画](assets/seaimagine-ceramic-cup.png)](assets/seaimagine-ceramic-cup.png)
-
-ゆっくり寄るカメラに合わせ、取っ手、飲み口、液面を保ちます。最後に字幕用の余白を残します。
-
-カップの画像をアップロードして動画化します。まずはゆっくり寄る動きだけを試し、取っ手と液面を確認してから字幕を加えます。
-
-[画像から動画](https://seaimagine.com/ja/image-to-video/) · [AI 画像生成](https://seaimagine.com/ja/ai-image-generator/)
+[広告・SNS](prompts/commerce-social.md) · [開始フレーム用の参考画像](assets/seaimagine-ceramic-cup.png) · [プレーンテキスト](prompts/copy/showcase-04.txt)
 
 ```text
 Use the uploaded ceramic-cup image as the exact first frame. Create a 10-second, 16:9 product shot.
@@ -227,15 +113,13 @@ Audio, if supported: quiet room ambience and one distant bird. No speech or musi
 No pouring, added cup, new handle, object morphing, generated text, logo or watermark.
 ```
 
-### SEA-02 · ペーパークラフトの港に灯りをともす
+<a id="example-05"></a>
 
-[![ペーパークラフトの港に灯りをともす](assets/seaimagine-paper-harbor.png)](assets/seaimagine-paper-harbor.png)
+### 05 · ペーパークラフトの港に灯りをともす
 
-一つのショットで灯台を点灯させ、3軒の家の窓明かりを順に強めます。紙の質感と形を維持します。
+<a href="assets/seaimagine-paper-harbor.png"><img src="assets/seaimagine-paper-harbor.png" alt="ペーパークラフトの港に灯りをともす" width="420"></a>
 
-港の画像をアップロードし、灯台の点灯と窓明かりの段階的な変化を指定します。最初と最後で建物の形を比べます。
-
-[画像から動画](https://seaimagine.com/ja/image-to-video/) · [AI 画像生成](https://seaimagine.com/ja/ai-image-generator/)
+[アニメーション・音楽・エンタメ](prompts/stylized-entertainment.md) · [開始フレーム用の参考画像](assets/seaimagine-paper-harbor.png) · [プレーンテキスト](prompts/copy/showcase-05.txt)
 
 ```text
 Use the uploaded paper-harbor image as the exact first frame. Animate a single 10-second, 16:9 shot while retaining the handcrafted paper texture, folds and miniature scale.
@@ -247,15 +131,13 @@ Audio, if supported: a quiet original celesta phrase, no voices.
 No ocean waves, added buildings, extra boats, rotating tower, camera cut, text, logo or watermark.
 ```
 
-### SEA-03 · リネンのポーチで多言語の縦型動画
+<a id="example-06"></a>
 
-<a href="assets/seaimagine-linen-pouch.png"><img src="assets/seaimagine-linen-pouch.png" alt="リネンのポーチで多言語の縦型動画" width="360"></a>
+### 06 · リネンのポーチで多言語の縦型動画
 
-文字のない縦型の商品動画を作り、通常の動画編集ソフトで各言語の字幕を加えます。
+<a href="assets/seaimagine-linen-pouch.png"><img src="assets/seaimagine-linen-pouch.png" alt="リネンのポーチで多言語の縦型動画" width="420"></a>
 
-ポーチの画像から縦型動画を作り、翻訳した字幕を後から加えます。短い動画編集指示は、その機能が使える場合に限ります。
-
-[画像から動画](https://seaimagine.com/ja/image-to-video/) · [AI 画像生成](https://seaimagine.com/ja/ai-image-generator/)
+[広告・SNS](prompts/commerce-social.md) · [開始フレーム用の参考画像](assets/seaimagine-linen-pouch.png) · [プレーンテキスト](prompts/copy/showcase-06.txt)
 
 ```text
 Use the uploaded linen-pouch photograph as the exact first frame. Create a 10-second, 9:16 vertical ecommerce product shot.
@@ -267,21 +149,48 @@ Audio, if supported: soft room tone. No speech or music.
 Do not generate any lettering, subtitles, symbols, price, logo, watermark, extra bag or moving string.
 ```
 
-> 毎日を、もっと心地よく
+毎日を、もっと心地よく
 
-[SeaImagine の手順](docs/seaimagine-workflow.md)
+<a id="video-studies"></a>
 
-## SeaImagine の関連ツール
+## 公式・コミュニティの生成例
+
+公式の例は Gemini Omni 1.1 Flash、コミュニティの例は 2026 年 5 月の初期 Omni バージョンによるものです。リンク先は元の投稿です。本リポジトリでの再現結果ではありません。 コミュニティの情報は FxTwitter 経由で確認しており、X 上での再生は未確認です。
+
+| Google · Omni 1.1 Flash | リンク |
+|---|---|
+| 映画風ショットの延長 | [動画を見る](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) |
+| 開始・終了フレーム間の遷移 | [動画を見る](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) |
+| 海洋珪藻の 360p プレビュー | [動画を見る](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/kw_omni-flash__capability-video__draft-360p__16x9__v1_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) |
+| 参照動画に沿ったダンス | [動画を見る](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__video-reference__16x9.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) |
+
+| X · Omni / Flash · 2026-05 | X · Omni / Flash · 2026-05 |
+|---|---|
+| **人物をフラミンゴに変更**<br><a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="人物をフラミンゴに変更" width="240"></a><br>CHRIS FIRST<br>[出典](https://x.com/chrisfirst/status/2056797606509158681) · [動画を見る](https://video.twimg.com/amplify_video/2056797343085969408/vid/avc1/1080x1440/UYr_7RKomiginRgq.mp4?tag=27) | **手拍子で帽子を変更**<br><a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="手拍子で帽子を変更" width="240"></a><br>Justine Moore<br>[出典](https://x.com/venturetwins/status/2056793856843366789) · [動画を見る](https://video.twimg.com/amplify_video/2056793760273686528/vid/avc1/720x1280/Q73liRfIjPtGSveL.mp4?tag=27) |
+| **光合成の解説**<br><a href="https://x.com/mrfanduu/status/2056692235174097398"><img src="https://pbs.twimg.com/amplify_video_thumb/2056691792175833088/img/W0_pZkQwRicpRjjG.jpg" alt="光合成の解説" width="240"></a><br>Fandu<br>[出典](https://x.com/mrfanduu/status/2056692235174097398) · [動画を見る](https://video.twimg.com/amplify_video/2056691792175833088/vid/avc1/1280x720/Ws-92fvVr5e-FkYZ.mp4?tag=14) | **ロンドン・アイの手持ちズーム**<br><a href="https://x.com/fofrAI/status/2056789242274259242"><img src="https://pbs.twimg.com/amplify_video_thumb/2056503814874861569/img/mQnHwThYDypoS1H6.jpg" alt="ロンドン・アイの手持ちズーム" width="240"></a><br>fofr<br>[出典](https://x.com/fofrAI/status/2056789242274259242) · [動画を見る](https://video.twimg.com/amplify_video/2056503814874861569/vid/avc1/1280x720/Lc2C4YtTflfGA8qe.mp4?tag=27) |
+| **元動画と編集後の比較**<br><a href="https://x.com/Mho_23/status/2057151867927601413"><img src="https://pbs.twimg.com/amplify_video_thumb/2057151701904146432/img/yhVQfdBM34BQJjV3.jpg" alt="元動画と編集後の比較" width="240"></a><br>Miko<br>[出典](https://x.com/Mho_23/status/2057151867927601413) · [動画を見る](https://video.twimg.com/amplify_video/2057151701904146432/vid/avc1/1080x1920/JfeFoDd5udd_FRR7.mp4?tag=27) | **触れると水差しの素材が変化**<br><a href="https://x.com/alexanderchen/status/2057176690519089166"><img src="https://pbs.twimg.com/amplify_video_thumb/2057176000459612161/img/wTZ0HcgL_8PHxwbY.jpg" alt="触れると水差しの素材が変化" width="240"></a><br>Alexander Chen<br>[出典](https://x.com/alexanderchen/status/2057176690519089166) · [動画を見る](https://video.twimg.com/amplify_video/2057176000459612161/vid/avc1/1280x720/LRzM8IueMomPMa7J.mp4?tag=27) · [プロンプト全文](https://x.com/alexanderchen/status/2057176691903279524) |
+[出典 / FxTwitter](docs/community-examples.md)
+
+## 詳しいドキュメント
+
+チュートリアルは別ページにまとめています。 [表示](docs/guides/README_JA.md)
+
+[プロンプト設計](docs/prompting-guide.md) · [多言語ガイド](docs/multilingual-guide.md) · [参照素材と利用許諾](docs/reference-videos.md)
+
+<a id="brand-tools"></a>
+
+## SeaImagine で作成
+
+[Gemini Omni](https://seaimagine.com/ja/model/gemini-omni/) · [Gemini Omni 1.1 Flash](https://seaimagine.com/ja/model/gemini-omni-1-1-flash/)
+
+[画像から動画](https://seaimagine.com/ja/image-to-video/) · [テキストから動画](https://seaimagine.com/ja/text-to-video/) · [AI 画像生成](https://seaimagine.com/ja/ai-image-generator/)
 
 別の制作入口として利用できます。現在のモデル、利用条件、料金は各ページで確認してください。本リポジトリは継続的な提供を保証しません。
 
-- [作成する](https://seaimagine.com/ja/create/)
-- [画像から動画](https://seaimagine.com/ja/image-to-video/)
-- [テキストから動画](https://seaimagine.com/ja/text-to-video/)
-- [AI 画像生成](https://seaimagine.com/ja/ai-image-generator/)
+[SeaImagine の手順](docs/seaimagine-workflow.md)
 
 ## 出典とライセンス
 
 Flaq AI のリポジトリを改編し、プロンプト集と 3 枚の参照画像を引き継いでいます。すべてが SeaImagine のオリジナルではありません。Google の公式製品ではない独立したガイドです。
 
-[Flaq AI · awesome-gemini-omni-flash](https://github.com/flaqai/awesome-gemini-omni-flash) · [MIT](LICENSE)
+[Flaq AI · awesome-gemini-omni-flash](https://github.com/flaqai/awesome-gemini-omni-flash) · [MIT](LICENSE) · [Contributing](CONTRIBUTING.md)

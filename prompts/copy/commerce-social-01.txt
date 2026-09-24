@@ -1,0 +1,11 @@
+[# Sources <FIRST_FRAME>@Image1]
+Create a 10-second premium product film from Image1. Use Image1 as the exact starting frame.
+
+[0-3s] The camera makes a slow 20-degree clockwise orbit. The suspended droplets begin traveling around the speaker in clean concentric paths, each orbit landing on a deep electronic kick. Keep the speaker perfectly rigid and preserve its coral color, grille weave and proportions.
+[3-7s] The sunrise reflection sweeps across the copper end cap. On the snare, droplets strike the wet stone and rebound as fine mist. The camera lowers slightly without changing lens perspective.
+[7-10s] All droplets collapse into one crisp splash behind the product, then settle. End on a steady three-quarter hero angle with clear negative space on the right.
+
+Audio: original minimal electronic rhythm at 96 BPM, deep clean kick, water-drop percussion, distant ocean ambience. No vocals.
+Look: photorealistic commercial cinematography, physically correct water, restrained contrast.
+Constraints: preserve the exact product identity from Image1; no morphing; no added buttons or labels.
+Do not include: text, logo, watermark, hands, duplicate product, camera shake.

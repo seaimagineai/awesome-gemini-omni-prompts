@@ -1,0 +1,953 @@
+CATEGORY: 电影与叙事 / Cinematic storytelling
+
+========================================================================
+
+CASE 01: 末班站台的重逢
+**模式：** 文生视频 · **画幅：** 16:9 · **重点：** 双人表演、中文对白、雨声层次
+
+Create a restrained 10-second cinematic drama with native audio.
+
+Scene: the final platform of a small mountain railway station at night. Cold rain falls beyond the canopy; a single warm vending-machine light reflects on wet concrete. No other passengers.
+Characters: a woman in a charcoal wool coat holding a repaired red umbrella; a man in a faded navy work jacket carrying a small overnight bag. Both are in their early thirties. Keep their faces, clothes and relative height consistent.
+
+[0-3s] Wide locked shot. The man steps off the last train as its doors close behind him. He notices the red umbrella. Only rain, train brakes and a quiet electrical hum.
+[3-7s] Slow lateral push into a two-shot. The woman raises her eyes but does not approach. He exhales and grips the bag strap once.
+[7-10s] Close two-shot without a cut. She says softly in Mandarin Chinese: "伞修好了。" After a one-second pause, he answers: "我也是。" The train departs and warm window reflections travel across their faces.
+
+Performance: micro-expressions, incomplete smiles, no melodramatic crying.
+Camera: 50mm lens, shallow but believable focus, subtle dolly, natural motion blur.
+Audio: precise rain perspective, receding train, fabric movement; no music and no subtitles.
+Do not include: extra people, station names, logos, text, watermark, face changes, lip movement before dialogue.
+
+========================================================================
+
+CASE 02: 屋顶快递：一镜到底追逐
+**模式：** 文生视频 · **画幅：** 9:16 · **重点：** 连续镜头、物理运动、竖屏动作
+
+Format: 9:16 vertical, 10 seconds. One continuous unbroken shot, no cuts.
+
+At blue hour in a dense hillside town, an agile bicycle courier wearing a mustard jacket races on foot across connected tiled rooftops while protecting a small paper parcel. A flock of pigeons becomes the moving foreground, not an obstacle.
+
+Begin half a meter behind the courier at shoulder height. The camera follows as they vault one low gap, duck under a clothesline, slide two meters down wet tiles, catch a copper gutter, then swing onto a flat roof. Every landing transfers weight naturally; tiles shift only where touched. At 7s the parcel almost slips, the courier catches it with one hand, and the camera arcs to the front for the final breathless look.
+
+Audio: shoes on ceramic tile, jacket fabric, close breathing, pigeons taking flight, distant evening market. A tight original percussion pulse follows the running cadence but never covers the effects. No dialogue.
+Lighting: cool sky, warm window squares, wet reflections, realistic exposure changes.
+Keep the courier, parcel and jacket unchanged. No teleporting, no impossible jumps, no drone view, no slow motion, no text, no logos, no watermark.
+
+========================================================================
+
+CASE 03: 瓷窑开炉：历史工艺瞬间
+**模式：** 文生视频 · **画幅：** 16:9 · **重点：** 世界知识、历史质感、群体反应
+
+Create a historically grounded 10-second scene in a riverside porcelain workshop in southern China during the early eighteenth century. Treat it as observational historical cinema, not fantasy.
+
+[0-4s] A kiln master and three apprentices pull open the brick kiln mouth with long iron tools. Orange heat blooms into the cool predawn workshop; fine ash drifts upward. Camera at waist height makes a slow, cautious push forward.
+[4-7s] Using period-appropriate wooden racks and padded grips, they reveal a row of blue-and-white bowls. One apprentice shields their face from the heat; another checks a glaze surface without touching it.
+[7-10s] The master rotates one bowl toward window light and gives a small satisfied nod. End on the crackle pattern becoming visible as the bowl cools.
+
+Look: natural linen, soot, worn timber, brick dust, restrained color, no modern factory cleanliness.
+Audio: kiln roar, brick scrape, tool ring, cloth movement, quiet dawn birds. No score, no narration, no dialogue.
+Accuracy constraints: plausible tools, clothing, kiln behavior and handling; no modern objects, no printed labels, no palace setting, no magical glow, no text or watermark.
+
+========================================================================
+
+CASE 04: 门下的第二道影子
+**模式：** 文生视频 · **画幅：** 16:9 · **重点：** 心理惊悚、有限揭示、声音反转
+
+Create a 10-second psychological suspense scene with no gore and no monster reveal.
+
+Scene: a night security desk in an empty municipal archive. Fluorescent lights turn off in rows toward a closed records-room door. An analog desk fan continues turning.
+[0-3s] Fixed medium shot from behind the guard. A knock sounds once from the closed door. The guard stops writing. Under the door, one human shadow is visible.
+[3-6s] The guard slowly stands and takes one step closer. The first shadow remains still while a second, much narrower shadow crosses behind it from left to right. The fan squeak stops abruptly.
+[6-9s] Very slow push toward the gap beneath the door. The guard whispers in English, "The building is closed." From the other side, the same voice answers at exactly the same volume: "I know."
+[9-10s] The desk phone rings behind camera. Hard cut to black on the first ring.
+
+Lighting: sickly practical fluorescence, deep but readable shadows, no colored horror lighting.
+Audio must carry the tension: room tone, paper, fan motor, two distinct spatial voice positions, one phone ring. No music.
+Do not show a creature, face, blood, subtitles, logos, extra doors or watermark.
+
+========================================================================
+
+CASE 05: 夏到冬：首尾帧季节插值
+**模式：** 首帧 + 尾帧 · **画幅：** 与输入一致 · **重点：** 连续转场
+
+[# Sources <FIRST_FRAME>@Image1 <LAST_FRAME>@Image2]
+Create a smooth 10-second seasonal transition from Image1 to Image2. Use the images as the exact first and final frames.
+
+The camera advances slowly along the same central path without changing lens height. The season changes through continuous physical cues rather than a dissolve: green leaves yellow and detach in the wind; fallen leaves collect, become rimed with frost, and receive the first snow; warm afternoon sunlight lowers into cold blue twilight. Tree trunks, path geometry and fence posts stay locked to their original positions. A small wooden basket remains beside the third tree throughout and gradually gathers snow.
+
+Audio evolves continuously from summer insects and leaves to autumn wind and finally the soft absorption of snowfall. One restrained musical drone changes from warm strings to glass harmonics. No dialogue.
+No jump cut, no camera teleport, no new buildings, no people, no text, no logo, no watermark.
+
+========================================================================
+
+CASE 06: 倒放的线索：黑色电影谜案
+**模式：** 文生视频 · **画幅：** 16:9 · **重点：** 倒序动作、可读文字
+
+Create a 10-second monochrome neo-noir clue reveal in a single hotel corridor.
+
+[0-3s] Start on a brass room key lying in spilled water. Water droplets move backward into a fallen glass while the camera tracks low beside them. Footsteps are heard in reverse, subtle and unsettling.
+[3-7s] The key slides backward across carpet into a gloved hand. The camera rises with the hand, revealing only the lower half of a cream trench coat in a mirror. The corridor clock hands rotate backward.
+[7-10s] Normal time resumes with a clean audio snap. The gloved person turns the key tag toward camera. Exact readable engraved text: "ROOM 307". Hold it readable for two seconds while an elevator bell rings off screen.
+
+Look: high-contrast black-and-white film, wet highlights, fine grain, controlled halation.
+No dialogue, no face reveal, no extra text, no misspelled key tag, no supernatural body distortion, no logos, no watermark.
+
+========================================================================
+
+CASE 07: 电梯里的沉默喜剧
+**模式：** 文生视频 · **画幅：** 9:16 · **重点：** 固定机位、表演节奏、无对白
+
+Format: 9:16, 10 seconds, fixed security-camera-like framing from the upper front corner of a small office elevator. One shot, no cuts.
+
+Three coworkers stand in formal clothes, each secretly carrying the same tiny cactus as a farewell gift. At 2s the elevator jolts gently and all three reveal their plants at once to steady them. They notice the coincidence. At 5s the doors open to reveal a fourth coworker outside holding an enormous cactus in a wheeled pot. Everyone silently looks at the tiny plants, then the enormous one. At 9s the fourth coworker slowly backs away as the doors close.
+
+Performance: restrained deadpan timing, small eye movements, natural balance correction; nobody looks into the camera.
+Audio: elevator motor, soft jolt, clothing rustle, one polite arrival chime, pot wheel squeak. No music, no dialogue, no laugh track.
+Preserve all four people and plant sizes; no duplicate limbs, no text, no logos, no watermark.
+
+========================================================================
+
+CASE 08: 零重力温室告警
+**模式：** 文生视频 · **画幅：** 16:9 · **重点：** 科幻物理、节奏升级、原生声音
+
+Create a grounded 10-second science-fiction emergency inside a rotating orbital greenhouse. The design is functional and near-future, not military.
+
+[0-3s] Wide interior view along the curved greenhouse aisle. Artificial gravity weakens: loose soil grains and irrigation droplets begin lifting from planters. A botanist in a pale utility suit clips one boot to a floor rail.
+[3-7s] The camera performs a slow roll matching the station rotation. A transparent water sphere grows around a seedling; the botanist pushes off once, catches the plant tray and anchors it. Motion follows inertia with no sudden direction changes.
+[7-10s] Red emergency light shifts to steady green as gravity returns gradually. Droplets fall back into the tray. The botanist says in Spanish, out of breath: "Sigue viva." A soft system tone confirms stabilization.
+
+Audio: ventilation, alarm pulses, floating objects tapping surfaces, one short Spanish line. No music, no subtitles.
+Keep suit, face, tray and greenhouse layout consistent. No flames, weapons, aliens, exterior cutaway, logos, other text or watermark.
+
+========================================================================
+
+CATEGORY: 商业广告与社交媒体 / Commerce and social
+
+========================================================================
+
+CASE 01: 户外音箱水滴节拍广告
+**模式：** 首帧图生视频 · **素材：** [源库参考首帧](../assets/product-speaker.png) · **画幅：** 16:9
+
+[# Sources <FIRST_FRAME>@Image1]
+Create a 10-second premium product film from Image1. Use Image1 as the exact starting frame.
+
+[0-3s] The camera makes a slow 20-degree clockwise orbit. The suspended droplets begin traveling around the speaker in clean concentric paths, each orbit landing on a deep electronic kick. Keep the speaker perfectly rigid and preserve its coral color, grille weave and proportions.
+[3-7s] The sunrise reflection sweeps across the copper end cap. On the snare, droplets strike the wet stone and rebound as fine mist. The camera lowers slightly without changing lens perspective.
+[7-10s] All droplets collapse into one crisp splash behind the product, then settle. End on a steady three-quarter hero angle with clear negative space on the right.
+
+Audio: original minimal electronic rhythm at 96 BPM, deep clean kick, water-drop percussion, distant ocean ambience. No vocals.
+Look: photorealistic commercial cinematography, physically correct water, restrained contrast.
+Constraints: preserve the exact product identity from Image1; no morphing; no added buttons or labels.
+Do not include: text, logo, watermark, hands, duplicate product, camera shake.
+
+========================================================================
+
+CASE 02: 护肤精华：微距质感而非夸张特效
+**模式：** 文生视频 · **画幅：** 9:16 · **重点：** 包装文字、液体物理、移动端广告
+
+Format: 9:16 vertical beauty ad, 10 seconds.
+Product: a fictional clear glass serum bottle with a matte ivory cap and one exact label line: "MORNING DEW". No other label text.
+
+[0-3s] Extreme macro of one transparent serum drop descending inside the pipette. Soft window caustics move across the glass; the camera slides left by only five centimeters.
+[3-7s] Cut to the bottle standing on pale limestone beside a fresh green leaf. A single droplet rolls down the exterior and magnifies the label without distorting the spelling.
+[7-10s] Gentle pullback reveals early morning light and a shallow water tray. Exact on-screen text appears once in the upper third: "LIGHT, NOT LOUD". Hold fully readable for two seconds.
+
+Audio: glass touch, one water drop, airy room tone, three soft original marimba notes. No voiceover.
+Look: honest skin-care photography, neutral whites, realistic viscosity, subtle texture.
+Do not include: skin transformation claims, faces, extra bottles, flowers, glitter, illegible text, logos, watermark.
+
+========================================================================
+
+CASE 03: 巷口咖啡店：中文 UGC 探店
+**模式：** 文生视频 · **画幅：** 9:16 · **重点：** 自然口播、手持镜头、真实小店
+
+Create a 9:16 vertical 10-second creator-style café discovery video that feels spontaneous but visually coherent.
+
+Character: one adult creator in a denim overshirt, natural appearance, speaking directly to a handheld phone camera. Keep face, hairstyle and clothing unchanged.
+Location: a tiny independent corner café with unbranded cups, late-afternoon window light, two customers softly out of focus.
+
+[0-3s] The creator pushes open the door and turns the camera from the hand-painted menu wall to their face. Mandarin Chinese dialogue, spoken once: "这家店，藏在巷子最里面。"
+[3-7s] Match cut to a close view of citrus peel being expressed over iced coffee; the creator's hand enters frame and rotates the glass once.
+[7-10s] Back to the creator taking one sip and giving a surprised, restrained smile. Exact Mandarin dialogue: "先是橙香，最后才是咖啡。"
+
+Audio: door bell, low café room tone, ice, citrus spray, clear close voice. No background music and no subtitles.
+Avoid influencer beauty filters, exaggerated reaction, other speech, brand marks, price text, watermark, face drift.
+
+========================================================================
+
+CASE 04: 三套造型：多参考图时尚切换
+**模式：** 多参考图 · **画幅：** 9:16 · **输入：** Image1 角色、Image2/3/4 三套服装
+
+[# References <IMAGE_REF_0>@Image1 <IMAGE_REF_1>@Image2 <IMAGE_REF_2>@Image3 <IMAGE_REF_3>@Image4]
+Create a 9:16, 10-second studio fashion sequence. Use Image1 only for the model's identity; use Images2-4 only for the three outfits. Do not use any reference as a literal first frame.
+
+[0-3s] The model from <IMAGE_REF_0> walks toward camera wearing outfit <IMAGE_REF_1>. Warm white cyc wall, slow 85mm dolly back.
+[3-6s] As the model passes behind a narrow black panel, reveal the same person in outfit <IMAGE_REF_2>. Camera direction and walking cadence continue seamlessly.
+[6-9s] A controlled flash creates the final change into outfit <IMAGE_REF_3>. The person turns once and stops on the same floor mark.
+[9-10s] Hold a clean full-body hero frame.
+
+Audio: heel steps remain continuous through all transitions, fabric movement, three low original bass notes aligned to reveals. No dialogue.
+Preserve identity, body proportions and hair; preserve each outfit's construction and color. No blended garments, extra accessories, text, logos, audience or watermark.
+
+========================================================================
+
+CASE 05: 辣椒面馆：食物 ASMR
+**模式：** 文生视频 · **画幅：** 9:16 · **重点：** 声音、食物物理、近景
+
+Create a 10-second vertical food film in one continuous tabletop shot.
+
+A wide ceramic bowl of hand-pulled noodles sits on a worn walnut counter. Begin close on clear broth trembling as noodles drop into the bowl. A cook's hands add exactly three toppings in order: green scallions, one spoon of toasted chili flakes, then hot sesame oil poured from a small brass ladle. The oil blooms across the surface in realistic red-gold patterns. At 8s, chopsticks lift one clean bundle; steam passes the lens without obscuring it.
+
+Camera: 70mm macro look, very slow push-in, no cuts, stable horizon.
+Audio is the hero: broth pour, noodle slap, dry chili texture, strong oil sizzle, wood counter creak. No music, no speech, no eating sounds.
+Lighting: warm side light with natural highlights, appetizing but not oversaturated.
+No face, no text, no brand, no extra hands, no ingredient teleportation, no impossible liquid, no watermark.
+
+========================================================================
+
+CASE 06: 空房到生活空间：房产转场
+**模式：** 首帧 + 尾帧 · **画幅：** 16:9 · **输入：** Image1 空房，Image2 同机位软装完成
+
+[# Sources <FIRST_FRAME>@Image1 <LAST_FRAME>@Image2]
+Interpolate from the empty room in Image1 to the furnished room in Image2 over 10 seconds. Lock the camera, lens, walls, windows, floor and architectural geometry exactly.
+
+Furniture enters through believable coordinated motion rather than appearing: a rug unrolls from foreground, the sofa slides gently from frame left, the table assembles from aligned components, curtains descend and catch a light breeze, then two plants settle into their final positions. Natural daylight warms gradually as the room becomes complete. Every object must arrive at the exact placement and design shown in Image2.
+
+Audio: soft room reverb, rug roll, wood contact, curtain rings, one warm non-melodic tonal swell. No dialogue.
+No construction workers, no floating objects, no wall changes, no extra decor, no text, logo or watermark. End exactly on Image2.
+
+========================================================================
+
+CASE 07: 效率 App：清晰文字驱动的发布短片
+**模式：** 文生视频 · **画幅：** 9:16 · **重点：** 动态字效、界面克制、SEO/社媒钩子
+
+Create a clean 9:16 launch teaser for a fictional focus timer, 10 seconds. Use abstract interface motion rather than a realistic phone brand.
+
+[0-2s] On a deep navy background, one exact word appears centered in large ivory type: "DISTRACTED?" The question mark draws on last.
+[2-5s] The word collapses into a simple circular 25-minute timer. A small amber dot travels smoothly around one quarter of the ring. Soft ticking begins.
+[5-8s] Three cluttered notification cards slide away from the timer and dissolve. Exact centered text replaces them: "ONE THING."
+[8-10s] The timer locks into a calm completed ring. Final exact text below it: "START SMALL". Hold both lines readable until the end.
+
+Motion: precise editorial easing, no fake operating-system chrome, no tiny unreadable copy.
+Audio: dry tick, three soft card swishes, a single warm completion tone. No voiceover, no music.
+Only the three quoted text strings may appear. Preserve spelling and punctuation. No logo, phone hardware, watermark or extra icons.
+
+========================================================================
+
+CASE 08: 冬日围巾：多语言电商变体
+**模式：** 文生视频 + 对话式文字编辑 · **画幅：** 9:16 · **重点：** 一支母版、多语言本地化
+
+冬日围巾：多语言电商变体
+
+=== 1/4: Part 1 ===
+
+Create a 9:16, 10-second winter product story for a fictional handwoven cobalt-blue scarf.
+
+[0-4s] In a quiet tram shelter at dawn, wind lifts the scarf's loose end around an adult commuter's charcoal coat. Close handheld framing shows the woven fibers and natural breath in cold air.
+[4-7s] The commuter wraps the scarf once, then looks up as the tram's warm light arrives across their face.
+[7-10s] Cut to the scarf folded on a simple wooden bench. Exact on-screen English text: "WARMTH, ON THE WAY". Hold readable for two seconds.
+
+Audio: winter wind, wool movement, distant tram bell, restrained original piano chord. No dialogue.
+Preserve the scarf's cobalt color, weave and fringe. No brand, price, sale badge, extra text, logo or watermark.
+
+
+=== 2/4: Part 2 ===
+
+Change only the final on-screen text to Simplified Chinese: "温暖，在路上". Preserve exact punctuation and keep everything else the same.
+
+
+=== 3/4: Part 3 ===
+
+Change only the final on-screen text to Japanese: "ぬくもりを、連れて。" Preserve the Japanese characters and keep everything else the same.
+
+
+=== 4/4: Part 4 ===
+
+Change only the final on-screen text to Spanish: "CALIDEZ EN CAMINO". Preserve spelling and keep everything else the same.
+
+========================================================================
+
+CATEGORY: 纪录片与教育 / Documentary and education
+
+========================================================================
+
+CASE 01: 火山脊骑行纪录片
+**模式：** 首帧图生视频 · **素材：** [源库参考首帧](../assets/travel-cyclist.png) · **画幅：** 16:9
+
+[# Sources <FIRST_FRAME>@Image1]
+Animate Image1 as a single continuous 10-second documentary tracking shot. Use it as the exact first frame.
+
+The cyclist pedals steadily toward the distant observatory while the camera follows from the same height, drifting forward only slightly. Silver grass bends in two distinct wind gusts, loose gravel reacts under the rear tire, and clouds move slowly below the ridge. At 6s, the first warm sunlight reaches the cyclist's jacket and the observatory dome. Preserve the geography and realistic bicycle motion.
+
+Sound design: close tire crunch and chain movement, strong ridge wind with natural stereo width, one distant bird at 7s. No music, no narration.
+No cuts, no drone rise, no extra cyclists, no landmark text, no logo, no watermark.
+
+========================================================================
+
+CASE 02: 玄武岩柱是怎样形成的
+**模式：** 文生科普视频 · **画幅：** 16:9 · **重点：** 地质过程、时间压缩、标签
+
+Create a 10-second museum-quality geological explainer showing how columnar basalt forms. Use a clean cutaway of one cooling lava flow; visually distinguish the hot interior, cooling surface and contraction joints.
+
+[0-3s] Side cutaway: dark crust forms on a glowing basaltic lava body. A small exact label appears with a thin leader line: "COOLING SURFACE".
+[3-7s] Time compresses. Heat fades from orange to dark red; polygonal cracks begin at the surface and propagate inward perpendicular to it. The camera slowly moves closer to the crack front.
+[7-10s] Pull back to reveal organized stone columns after cooling. Replace the first label with exact text: "CONTRACTION JOINTS". Keep it readable.
+
+Style: physically grounded scientific visualization, realistic rock texture, restrained color scale, no fantasy crystals.
+Audio: low lava movement, subtle cooling ticks, neutral original pulse. Calm English narration: "As lava cools and contracts, fractures organize into columns." Speak once; no subtitles.
+No inaccurate eruption, no people, no extra labels, no logo or watermark.
+
+========================================================================
+
+CASE 03: 潮池的十秒微型世界
+**模式：** 文生自然纪录片 · **画幅：** 16:9 · **重点：** 微距生态、自然环境声
+
+Create a natural-history macro sequence inside a temperate coastal tide pool at low tide, 10 seconds.
+
+[0-4s] One continuous underwater macro push past swaying green anemone tentacles toward a small hermit crab. Suspended particles move with a gentle surge; sunlight caustics match the water surface.
+[4-7s] The crab tests a larger empty shell with both claws, rotates it, then transfers into it with anatomically plausible movement. Do not anthropomorphize.
+[7-10s] A wave refills the pool, briefly lifting kelp and sand; the crab anchors behind a rock. Camera stays submerged and stable.
+
+Audio: muffled wave energy, pebble movement, water surge; no music, no narration.
+Look: field-documentary realism, true-to-life scale and color, no studio aquarium glass.
+No tropical species, no impossible animal behavior, no plastic, no text, logo or watermark.
+
+========================================================================
+
+CASE 04: 古代港口的证据式重建
+**模式：** 文生历史重建 · **画幅：** 16:9 · **重点：** 将确定与推测分开
+
+Create a 10-second educational reconstruction of a fictional first-century Mediterranean trading quay. Present it as a careful visualization, not a claim about one exact archaeological site.
+
+[0-4s] Ground-level view follows workers rolling amphorae on a simple wooden dolly beside a stone quay. A square-sailed merchant vessel is moored with plausible ropes; clothing and tools are functional and worn.
+[4-7s] Camera rises to show warehouse doors, weighing scales and cargo categories. Small neutral overlay in the lower corner reads exactly: "EVIDENCE-BASED RECONSTRUCTION".
+[7-10s] Transition half the frame into a restrained line-drawing layer that reveals which structures are reconstructed beyond surviving foundations. Exact legend: "SURVIVING" and "INFERRED" with two simple swatches.
+
+Audio: harbor water, rope tension, wood, distant workers with indistinct speech. No modern score, no clear dialogue.
+No famous monument, no empire flags, no modern cranes, no anachronistic weapons, no other text, logo or watermark.
+
+========================================================================
+
+CASE 05: 光合作用：从光子到糖
+**模式：** 文生科学可视化 · **画幅：** 16:9 · **重点：** 抽象过程、可读标签
+
+Create a clear 10-second classroom animation explaining the high-level flow of photosynthesis without implying literal molecular scale or exact reaction geometry.
+
+[0-3s] A leaf cross-section appears on a clean dark-green field. Sunlight particles enter the chloroplast. Exact labels: "LIGHT" and "CHLOROPLAST".
+[3-7s] Camera moves into a stylized chloroplast. Water and carbon dioxide inputs travel along separate paths into a simplified energy-conversion hub. Exact labels: "H₂O" and "CO₂". Oxygen exits visibly as "O₂".
+[7-10s] Pull back to the whole plant as a glowing path indicates stored chemical energy. Final exact text: "LIGHT ENERGY → CHEMICAL ENERGY".
+
+Style: elegant 2.5D scientific motion graphics, consistent visual grammar, high contrast, readable labels.
+Audio: light electronic pulses matched to each stage. English narration: "Plants use light to store energy, releasing oxygen along the way." Speak once.
+No extra equations, no talking plant, no DNA helix, no inaccurate organelles, no logo or watermark.
+
+========================================================================
+
+CASE 06: 博物馆器物的三层观察
+**模式：** 图片参考 · **画幅：** 9:16 · **输入：** Image1 为已获授权的器物照片
+
+[# References <IMAGE_REF_0>@Image1]
+Create a 9:16, 10-second museum interpretation video using Image1 only as the exact artifact reference. Place the artifact in a neutral conservation studio; do not invent inscriptions or missing parts.
+
+[0-3s] Slow 40-degree orbit around the artifact with a small scale bar visible but no numeric claim. Raking light reveals surface wear.
+[3-6s] Freeze the orbit and use a subtle transparent highlight to indicate three manufacturing marks. Exact heading: "HOW IT WAS MADE". No other labels.
+[6-10s] Return to the unaltered object. Light shifts to reveal repaired areas without changing them. Exact final question: "WHAT CAN WE KNOW?"
+
+Audio: quiet gallery room tone, soft turntable motor, one restrained tonal bed. Calm narration in Japanese: "痕跡は、作り方と使われ方を伝えます。" Speak once, no subtitles.
+Preserve the artifact's geometry, color, damage and patina. No hands, fantasy restoration, invented provenance, logo or watermark.
+
+========================================================================
+
+CASE 07: 四语发音：同一概念，不同节奏
+**模式：** 文生语言教学 · **画幅：** 16:9 · **重点：** 多语言、文字与音频同步
+
+Create a 10-second minimalist language-learning video for the idea "Take your time." Use four equal visual beats on a warm off-white background, with a simple animated walking dot. Only one language appears and is spoken at a time.
+
+[0-2.5s] Exact text: "Take your time." Natural English voice speaks it once.
+[2.5-5s] Exact text: "慢慢来。" Natural Mandarin Chinese voice speaks it once: "慢慢来。"
+[5-7.5s] Exact text: "ゆっくりでいいよ。" Natural Japanese voice speaks it once.
+[7.5-10s] Exact text: "Tómate tu tiempo." Natural Spanish voice speaks it once.
+
+The walking dot changes pace subtly to match each phrase but never stops. Use the same type size and placement for all languages. Insert a clean half-second silence between voices. No background music.
+Preserve accents, punctuation and Japanese/Chinese characters exactly. Do not translate aloud, overlap voices, add flags, phonetics, subtitles, logo or watermark.
+
+========================================================================
+
+CASE 08: 被动式住宅：建筑微纪录片
+**模式：** 文生建筑解释 · **画幅：** 16:9 · **重点：** 空间连贯、信息叠加
+
+Create a 10-second architectural mini-documentary of a fictional compact passive house in a cold climate.
+
+[0-3s] Winter exterior at sunrise. Camera approaches the simple timber facade while snow remains undisturbed around it. Exact small heading: "KEEP HEAT IN".
+[3-7s] Seamless sectional transition through the wall reveals thick insulation, triple glazing and an airtight layer as three visually distinct bands. Warm interior air stays inside; cold airflow moves around the exterior. Do not show heat as flames.
+[7-10s] Continue into the occupied living space: one adult reads near the window comfortably while snow falls outside. Exact final text: "LESS ENERGY. STEADY COMFORT."
+
+Audio: winter wind outside crossfades to quiet interior room tone and a low ventilation system. Calm English narration: "Good envelopes reduce heat loss before technology adds heat." No subtitles.
+No brand systems, no impossible transparent walls after the section ends, no luxury excess, no logo or watermark.
+
+========================================================================
+
+CATEGORY: 风格化与娱乐 / Stylized entertainment
+
+========================================================================
+
+CASE 01: 钟楼纸鸟
+**模式：** 首帧图生视频 · **素材：** [源库参考首帧](../assets/clockmaker-story.png) · **画幅：** 16:9
+
+[# Sources <FIRST_FRAME>@Image1]
+Bring this original illustration to life in one coherent 10-second animated shot. Use Image1 as the first frame and preserve its watercolor-and-ink art direction.
+
+[0-3s] The small brass door clicks open; warm light grows inside it. The clockmaker leans back in surprise, goggles catching one brief reflection. Nearby gears rotate at different believable speeds.
+[3-7s] Paper birds unfold one by one, then spiral past the camera with visible paper flex and inked edges. The camera tilts upward to follow them through the clock opening.
+[7-10s] The flock crosses the moon and forms a loose ring before dispersing over the rooftops. End with one tiny paper bird landing on the clock hand.
+
+Audio: layered clock ticks, delicate paper folds, wooden gear creaks, then a small celesta motif. No dialogue.
+Keep the clockmaker's face, clothes and goggles consistent. No photorealism, no subtitles, no logo, no watermark.
+
+========================================================================
+
+CASE 02: 霓虹鱼市的包裹追逐
+**模式：** 文生动画 · **画幅：** 16:9 · **重点：** 动作连贯、原创动画方向
+
+Create a 10-second original animated chase in a floating night market built from boats. Hand-painted 2D backgrounds, graphic shadow shapes, visible dry-brush accents, fluid character animation on twos with faster effects on ones.
+
+A teenage messenger with a teal rain cape protects a glowing square parcel while crossing three linked boats. Begin with a low side-tracking shot. The messenger leaps over a fish crate, uses a hanging lantern rope to swing across a widening gap, and lands in a produce boat. A small mechanical gull pursues from above, clipping lantern strings but never touching people. At 8s the parcel's glow switches off; the gull overshoots into fog, and the messenger smiles briefly.
+
+Audio: wooden hull knocks, rope strain, market voices as indistinct texture, hand percussion accelerating with footfalls, one comic metal flutter when the gull misses. No dialogue.
+Keep cape, parcel, gull scale and boat layout consistent. No slideshow, no still-image pans, no recognizable franchise design, no text, logo or watermark.
+
+========================================================================
+
+CASE 03: 黏土小厨师的煎饼事故
+**模式：** 文生定格动画 · **画幅：** 4:3 构图输出于 16:9 · **重点：** 材料感、喜剧节拍
+
+Create a 10-second handcrafted clay stop-motion comedy, framed as a 4:3 miniature kitchen within a 16:9 canvas.
+
+A thumb-sized clay cook in a tall paper hat flips one blueberry pancake. At 2s the pancake sticks to the low ceiling. The cook looks up, waits, places the plate carefully beneath it, and counts silently with three finger taps. At 7s the pancake drops, bounces once on the plate, and lands perfectly. One blueberry rolls off; the cook catches it in the hat at 9s.
+
+Animation: intentional stop-motion cadence, tiny fingerprint texture, slight practical set vibration, consistent scale. The character uses two hands only.
+Audio: miniature pan sizzle, paper hat rustle, three ceramic taps, soft pancake thump, one plucked-string comic note. No speech and no laugh track.
+No realistic human hands, no melting character, no extra food, no text, brand, logo or watermark.
+
+========================================================================
+
+CASE 04: 办公室里的“周五模式”
+**模式：** 文生喜剧短视频 · **画幅：** 9:16 · **重点：** Meme 节奏、可读字幕卡而非挪用模板
+
+Create an original 9:16 workplace comedy, 10 seconds, with no reference to existing meme templates.
+
+[0-3s] A serious office worker types rapidly in a quiet open-plan office. Exact small clock text in the corner: "4:59 PM". Camera slowly pushes toward the monitor, but its contents remain abstract and unreadable.
+[3-6s] The clock changes exactly to "5:00 PM". Every desk lamp switches from white to warm amber in sequence. The worker removes one formal jacket sleeve; underneath is a glittery dance sleeve.
+[6-10s] Without changing expression, the worker rolls away in the chair while two potted plants rotate like tiny stage lights. Exact final text: "WEEKEND MODE". Hold readable.
+
+Audio: keyboard rhythm transforms into an original disco beat at 5s, chair wheels, one restrained office printer chirp. No dialogue, no laugh track.
+Keep the same worker and office; only the quoted text may appear. No brand UI, no copyrighted song, no extra limbs, no logo or watermark.
+
+========================================================================
+
+CASE 05: 屋顶爵士三重奏
+**模式：** 文生音乐现场 · **画幅：** 16:9 · **重点：** 原创音乐、乐器同步、城市环境声
+
+Create a 10-second live rooftop jazz performance at sunset with an original composition. Trio: upright bass, brushed snare, muted trumpet. One continuous semicircular camera move, no cuts.
+
+Begin close to the bass player's left hand performing a plausible walking line. Arc past the drummer, whose brushes match the audible rhythm, then settle on the trumpeter as they play one short four-note motif. At 7s a gust lifts sheet-music corners; the drummer catches the page edge with one brush hand without breaking pulse. End on the three musicians exchanging a small smile while the final muted note decays.
+
+Audio: intimate original jazz at approximately 88 BPM, precise instrument-to-hand synchronization, soft rooftop wind and distant traffic. No vocals, no recognizable melody, no crowd applause.
+Natural sunset exposure, documentary lensing, same musicians and instruments throughout. No impossible fingering, duplicate instruments, text, logos or watermark.
+
+========================================================================
+
+CASE 06: 镜面舞室：固定机位双人舞
+**模式：** 文生舞蹈 · **画幅：** 9:16 · **重点：** 全身构图、镜像一致性、单镜头
+
+Format: 9:16, 10 seconds, fixed full-body camera at waist height, one continuous shot.
+
+Two adult dancers in a plain rehearsal studio perform an original mirrored movement phrase: two slow side steps, arms trace opposite semicircles, both pivot inward, pause back-to-back, then separate into the exact opening marks. The wall mirror must reflect the correct dancers and timing with no extra figures. Clothing is simple: one rust-red top, one slate-blue top, both with black trousers and bare feet.
+
+Music: original minimal hand-drum and bass pulse, 100 BPM, with a clear eight-count. Foot contacts and breath remain audible.
+Lighting: soft north-window daylight, realistic floor reflections, no stage effects.
+Preserve faces, clothing colors, body proportions and left/right positions. No cuts, close-ups, camera shake, impossible joints, text, logo or watermark.
+
+========================================================================
+
+CASE 07: 剪纸月兔的影子戏
+**模式：** 文生民间媒介风格 · **画幅：** 16:9 · **重点：** 材料描述、文化克制
+
+Create a 10-second original paper-cut shadow-theatre scene inspired by the physical craft of layered cut paper, without copying any named artist or existing character.
+
+Against a warm rice-paper screen, a small rabbit silhouette carries a round paper lantern across layered blue mountains. Each layer moves at a different parallax speed. At 4s the lantern's cutout pattern projects tiny star shapes; at 7s the rabbit discovers that its shadow has become a long bridge and crosses it. End as the lantern rises into the moon position, completing a balanced circular composition.
+
+Material: visible scissor-cut edges, paper fibers, brass-pin joints, limited indigo/cinnabar/cream palette, practical backlight flicker.
+Audio: paper movement, small woodblock pulse, bamboo flute playing an original three-note phrase, night insects. No dialogue.
+No written calligraphy, cultural symbols used as decoration, photorealistic fur, extra characters, logo or watermark.
+
+========================================================================
+
+CASE 08: 玻璃花房的无缝循环
+**模式：** 同一图片作为首尾帧 · **画幅：** 16:9 · **重点：** 可循环动作、首尾完全一致
+
+[# Sources <FIRST_FRAME>@Image1 <LAST_FRAME>@Image1]
+Create a perfectly looping 10-second video. Use Image1 as both the exact first and final frame.
+
+One small breeze cycle travels through the greenhouse: starting at the left window, it lifts a hanging fern, moves a chain of leaf reactions across the room, spins one paper pinwheel exactly one full rotation, ripples the shallow watering tray, then reaches the right vent. Sun shadows from the window lattice travel subtly forward and return. A white moth completes one oval flight path and lands at its precise starting position by 10s. Camera remains completely locked.
+
+Audio must loop cleanly: soft glass-room ambience, one breeze swell, leaf movement, two water drops, no music and no dialogue. The final audio sample should connect naturally to the first.
+Do not change any plant, pot, window or light fixture. No cuts, people, new objects, text, logo or watermark. End exactly on Image1.
+
+========================================================================
+
+CATEGORY: 多模态控制、编辑与续写 / Multimodal control, editing and extension
+
+========================================================================
+
+CASE 01: 角色 + 道具：职责分离
+
+
+[# References <IMAGE_REF_0>@Image1 <IMAGE_REF_1>@Image2]
+Create a 10-second dusk hiking scene. Use Image1 only as the hiker's identity and clothing reference. Use Image2 only as the exact lantern reference. Do not use either image as a literal first frame.
+
+The hiker from <IMAGE_REF_0> walks through waist-high grass holding the lantern from <IMAGE_REF_1>. Camera tracks beside them at chest height. At 5s the lantern changes from low warm light to brighter warm light, illuminating seed heads and the hiker's unchanged face. At 8s they place it on a stone and look toward distant rain.
+
+Audio: grass, footsteps, distant thunder, lantern switch click. No dialogue or music.
+Preserve identity, clothes, lantern geometry and color. No extra people, product text, logo or watermark.
+
+========================================================================
+
+CASE 02: 首尾帧：纸模型变成真实建筑
+
+
+[# Sources <FIRST_FRAME>@Image1 <LAST_FRAME>@Image2]
+Transition from the paper architectural model in Image1 to the completed real building in Image2 over 10 seconds. Keep camera position and silhouette aligned.
+
+Paper walls gain thickness and material grain; cut-paper trees become real young trees through continuous unfolding; the tabletop expands into the site ground while the background grows from studio gray into overcast sky. Construction is shown as a material transformation, not workers building at impossible speed. The final two seconds settle exactly into Image2.
+
+Audio evolves from paper scoring and tabletop contact to outdoor wind and distant city ambience. No narration or music.
+No dissolve, explosion, cranes, people, text, logo or watermark. End exactly on Image2.
+
+========================================================================
+
+CASE 03: 同图首尾帧：可复用商品循环
+
+
+[# Sources <FIRST_FRAME>@Image1 <LAST_FRAME>@Image1]
+Use Image1 as both the exact first and final frame. Create a seamless 8-10 second product loop.
+
+A narrow band of light travels once from left to right across the product. As it passes, three nearby material samples lift by two centimeters and rotate exactly 360 degrees, then settle into their original positions. The camera remains locked. All shadows, reflections and objects return precisely to the starting state before the final frame.
+
+Audio: one soft spatial sweep that loops without a click. No music, voice or extra effects.
+Preserve every product detail. No morphing, new text, logo, watermark or camera movement.
+
+========================================================================
+
+CASE 04: 动作视频参考 + 独立角色参考
+
+
+[# References <IMAGE_REF_0>@Image1 <VIDEO_REF_0>@Video1]
+Create a 10-second rehearsal video. Use Image1 for the dancer's identity and outfit. Use Video1 only as the movement and timing reference; do not edit or reproduce its setting.
+
+The dancer from <IMAGE_REF_0> performs the movement rhythm demonstrated in <VIDEO_REF_0> inside a sunlit empty gym, then continues with one original recovery step and returns to a neutral stance. Keep full body and floor contact visible. Fixed camera, 16:9, no cuts.
+
+Audio: original dry percussion matching the movement timing, shoe contact and room reverb. Ignore all audio from Video1. No dialogue.
+Do not copy the reference background, other people, branding or audio. No identity drift, text, logo or watermark.
+
+========================================================================
+
+CASE 05: 局部编辑：只添加一个对象
+
+
+局部编辑：只添加一个对象
+
+=== 1/2: Part 1 ===
+
+Add one small black cat that enters from frame right, jumps onto the empty chair, and settles there. Keep everything else the same, including people, timing, camera, lighting and audio.
+
+
+=== 2/2: Part 2 ===
+
+Restore the original person's exact pose and movement. Keep the cat on the chair and keep everything else the same.
+
+========================================================================
+
+CASE 06: 局部编辑：移除对象并保持物理合理
+
+
+Remove the red suitcase beside the doorway. Reconstruct the floor and its existing shadow naturally. Keep everything else exactly the same, including the person's hands, walking path, camera motion, lighting and audio.
+
+========================================================================
+
+CASE 07: 屏幕文字本地化
+
+
+屏幕文字本地化
+
+=== 1/3: Part 1 ===
+
+Change only the final sign text from "OPEN LATE" to Simplified Chinese: "营业至深夜". Keep its original position, size, material, lighting and display time. No other text. Keep everything else the same.
+
+
+=== 2/3: Part 2 ===
+
+Change only the final sign text from "OPEN LATE" to Japanese: "深夜まで営業". Preserve the characters exactly. Keep everything else the same.
+
+
+=== 3/3: Part 3 ===
+
+Change only the final sign text from "OPEN LATE" to Spanish: "ABIERTO HASTA TARDE". Preserve spelling exactly. Keep everything else the same.
+
+========================================================================
+
+CASE 08: 换时间与光线，不换内容
+
+
+换时间与光线，不换内容
+
+=== 1/2: Part 1 ===
+
+Change only the time of day from overcast noon to blue hour just after sunset. Turn on the existing practical lamps and add physically consistent reflections. Preserve all people, faces, actions, objects, camera motion, timing and audio. Keep everything else the same.
+
+
+=== 2/2: Part 2 ===
+
+Add light rain outside the windows only. Keep the interior dry and keep everything else the same.
+
+========================================================================
+
+CASE 09: 一次自然续写
+
+
+一次自然续写
+
+=== 1/2: Part 1 ===
+
+Extend the scene by 8 seconds. Continue the same camera movement and show the same character opening the workshop door, stepping into the quiet street, and pausing as the first snow begins. The existing piano motif continues with one new higher note; interior room tone crossfades naturally to outdoor wind. Keep the same face, clothing, object in hand, color grade and lens. No dialogue, no scene cut, no text or new characters.
+
+
+=== 2/2: Part 2 ===
+
+Extend by 8 seconds with a clean scene cut at the start of the extension. Show the same character the next morning in the same clothing, arriving at the river ferry. Continue the musical theme in a lighter arrangement.
+
+========================================================================
+
+CASE 10: 四段式 40 秒叙事链
+
+
+四段式 40 秒叙事链
+
+=== 1/4: 第 1 段：发现 ===
+
+10-second opening. A night-shift radio technician in a coastal weather station detects a repeating signal hidden under storm static. Slow push from rain-covered window to the analog receiver. At 8s the signal resolves into three clear notes. She writes the time on paper. Grounded 1980s equipment, practical amber light, ocean storm audio, no dialogue, no text visible to camera.
+
+
+=== 2/4: 第 2 段：确认 ===
+
+Extend by 10 seconds. Continue without a cut. She retunes the same receiver and taps the three-note rhythm on the desk; the signal immediately answers with the same rhythm. Camera arcs to reveal the empty operator chair beside her. Storm and receiver audio remain continuous. Keep her identity, clothes, room layout, equipment and color grade unchanged.
+
+
+=== 3/4: 第 3 段：来源 ===
+
+Extend by 10 seconds. At the start of this extension, cut to the same character climbing the exterior stairs toward the station antenna in heavy wind. The three-note signal now comes through her handheld radio. Lightning briefly reveals an unlit research buoy offshore. No impossible lightning strike, no new character, same storm and music motif.
+
+
+=== 4/4: 第 4 段：收束 ===
+
+Extend by 10 seconds. Continue from the exterior stairs. The weather clears enough to reveal dawn. The buoy flashes the same three-note rhythm, then a nearby lighthouse answers with three warm light pulses. She realizes it is an old automated safety test and laughs once with relief. The storm texture fades into gulls and calm surf; the three notes resolve as an original soft chord. End on a wide steady shot. No explanatory text or narration.
+
+========================================================================
+
+CATEGORY: 进阶编辑与镜头 / Advanced editing and camera
+
+========================================================================
+
+CASE 01: Replace one prop without changing the performance
+**Mode:** Edit · **Input:** An authorized clip containing one plain paper kite · **Goal:** Object replacement with contact continuity
+
+Replace only the white paper kite with a small mechanical manta-shaped glider made from matte blue fabric, thin bamboo ribs, and one brass tail weight.
+
+The new glider must occupy the kite's original position and scale in every frame. Preserve the existing string attachment, the child's two-hand grip, string tension, wind response, shadows, camera path, timing, background, clothing, face, dialogue, ambience, and music exactly. The glider may flex in the same wind but must not flap like an animal.
+
+No extra prop, glowing parts, text, logo, watermark, or changes to anything else.
+
+========================================================================
+
+CASE 02: Remove a foreground obstruction and reconstruct the scene
+**Mode:** Edit · **Input:** A source clip with an unwanted freestanding sign · **Goal:** Removal and natural reconstruction
+
+Remove a foreground obstruction and reconstruct the scene
+
+=== 1/2: Part 1 ===
+
+Remove only the freestanding yellow sign in the lower-left foreground for the entire clip. Reconstruct the previously hidden pavement, curb edge, rain reflections, and passing shadows so they remain spatially and temporally consistent with the surrounding scene.
+
+Preserve every person, vehicle, walking path, reflection outside the removed area, camera movement, focus pull, exposure, timing, dialogue, foley, ambience, and music exactly. Do not crop, reframe, blur, cover, or replace the sign with another object. Keep everything else the same.
+
+
+=== 2/2: Part 2 ===
+
+Repair only the former sign area so the pavement texture and moving reflections continue naturally through it. Keep everything else the same.
+
+========================================================================
+
+CASE 03: Move an existing scene into a reference environment
+**Mode:** Stateful edit + image reference · **Inputs:** Previous video and an owned environment image · **Goal:** World replacement without identity drift
+
+[# References <IMAGE_REF_0>@Image1]
+Change only the environment of the existing video to the glass-roofed winter garden shown in Image1. Use Image1 for architecture, materials, plant density, daylight direction, and color palette; do not use it as a literal first frame.
+
+Keep the original adult subject, face, hair, clothing, body proportions, walking performance, screen position, timing, lens, camera path, and audio unchanged. Rebuild floor contact, occlusion, reflections, shadows, and room reverberation so the subject belongs naturally in the winter garden. Preserve the source clip's duration and edit rhythm.
+
+Do not import people, signs, furniture, text, brands, or audio from Image1. No doorway morphing, floating feet, extra plants crossing the face, logo, or watermark.
+
+========================================================================
+
+CASE 04: Isolate the subject while the world becomes animated line art
+**Mode:** Edit · **Goal:** Selective style transformation
+
+Transform only the environment into hand-drawn charcoal line animation on warm off-white paper. Keep the cyclist and bicycle fully photorealistic and unchanged.
+
+The line-art road, buildings, trees, shadows, and clouds must retain the original geometry, perspective, motion, occlusion order, and camera parallax. Use confident charcoal contours, sparse cross-hatching, and subtle paper grain; animated lines may breathe slightly but must not crawl across the cyclist. Preserve the original rider identity, clothing, bicycle construction, pedaling, wheel contact, camera path, timing, and all source audio.
+
+No color in the line-art environment except the existing photorealistic subject. No sketch labels, page borders, added objects, text, logo, or watermark. Keep everything else the same.
+
+========================================================================
+
+CASE 05: Re-camera as an over-the-shoulder shot
+**Mode:** Edit / camera reinterpretation · **Input:** One source clip, 10 seconds or shorter · **Goal:** New viewpoint with the same event
+
+Recreate the same event as one continuous over-the-shoulder shot from behind the ceramic artist's right shoulder, at seated eye level, using a natural 50 mm lens perspective.
+
+Keep the same adult artist, blue apron, clay bowl, wheel speed, exact hand sequence, studio layout, daylight, duration, dialogue, wheel sound, and room tone. The near shoulder may softly frame the lower-right edge but must never block the hands or bowl. Begin on both hands centering the clay, make a slow 20-centimeter push forward, and finish with the bowl centered and the artist's profile visible.
+
+Do not invent objects that were not supported by the source scene. No cutaways, reverse shot, camera shake, altered action order, extra hands, text, logo, or watermark.
+
+========================================================================
+
+CASE 06: Close-up, tilt, and reveal in one controlled move
+**Mode:** Text-to-video or image-to-video · **Goal:** Multi-stage camera direction
+
+Create a 10-second, 9:16 footwear film in one unbroken shot. An adult runner stands at the edge of an empty rain-darkened track before sunrise, wearing original unbranded slate-gray trail shoes and a saffron windbreaker.
+
+[0-3s] Begin 20 centimeters above the ground in a tight three-quarter close-up of the left shoe. The runner tightens the laces once; droplets roll from the textured upper.
+[3-7s] Tilt upward at a constant slow speed from shoe to knee to a waist-up profile while the runner rises. Keep vertical lines stable and maintain focus through the move.
+[7-10s] Widen smoothly to a medium-full shot as the runner takes exactly two warm-up steps toward lane one, then stops in a ready stance.
+
+Audio: lace friction, damp sole contact, distant city hum, one restrained original pulse beginning at 6s. No dialogue.
+Preserve shoe construction, clothing, body proportions, track geometry, and left/right orientation. No cuts, speed ramp, brand marks, text, crowd, duplicate limbs, or watermark.
+
+========================================================================
+
+CASE 07: Dive through an original poster into its world
+**Mode:** Image-to-video · **Input:** An original poster or illustration · **Goal:** Continuous omnizoom-style transition
+
+[# Sources <FIRST_FRAME>@Image1]
+Use Image1 as the exact first frame. Create a 10-second continuous forward camera journey into the original illustrated poster, with no cuts or dissolves.
+
+[0-2s] Hold long enough to read the composition, then push toward the tiny painted greenhouse window near the poster center.
+[2-6s] Pass through that window as flat ink and paper fibers gain depth continuously: brush marks become garden paths, painted leaves become dimensional foliage, and the printed moon becomes a real moonlit sky. Preserve the poster's teal, cream, and copper palette.
+[6-10s] Continue along the same axis into the greenhouse, skim above wet leaves, and settle on a small glass terrarium containing one newly sprouted seed.
+
+Audio begins as close paper texture and pencil movement, then opens into glass-room rain, leaves, and a soft original three-note motif. No dialogue.
+No tunnel warp, sudden scene cut, copied franchise imagery, new text, logo, or watermark.
+
+========================================================================
+
+CASE 08: Add a readable fictional AR maintenance overlay
+**Mode:** Edit · **Goal:** Screen graphics anchored to moving machinery
+
+Add one fictional augmented-reality maintenance overlay around the existing water pump only. Use thin cyan vector lines with three stable callouts anchored to the correct moving parts.
+
+Exact on-screen text, and no other text:
+"FLOW 18 L/MIN"
+"TEMP 42°C"
+"STATUS STABLE"
+
+The labels appear at 2s, remain fully readable inside the 10% safe area, track the pump without jitter, and fade out at 9s. The overlay must pass behind the technician's hands when they cross in front of the pump. Preserve the source pump, technician, tools, actions, camera, timing, lighting, dialogue, machinery sound, and room tone exactly.
+
+No brand interface, warning alarm, changing numbers, extra diagram, face tracking, subtitles, logo, or watermark. Keep everything else the same.
+
+========================================================================
+
+CASE 09: Add motion-reactive light trails without changing physics
+**Mode:** Edit · **Input:** An authorized roller-skating clip · **Goal:** Controlled motion effect
+
+Add one narrow amber light trail behind each roller skate for the entire clip. Each trail must originate at the rear wheel axle, follow the actual wheel path with a 0.35-second decay, respect floor perspective and occlusion, and become brighter only during faster movement.
+
+Preserve the skater's identity, clothing, body motion, wheel contact, speed, floor reflections, camera movement, timing, and original audio exactly. The effect is emissive light only: it must not push the skater, change the trajectory, create sparks, illuminate the face, or leave permanent marks on the floor.
+
+No trails from hands or body, no particles, flame, smoke, brand marks, text, logo, watermark, or changes to anything else.
+
+========================================================================
+
+CATEGORY: 分镜、文字与评测 / Storyboards, text and evaluation
+
+========================================================================
+
+CASE 01: Convert a 3×3 storyboard into one ordered micro-story
+**Mode:** Image reference to video · **Input:** One original 3×3 storyboard sheet · **Goal:** Preserve panel order and narrative logic
+
+[# References <IMAGE_REF_0>@Image1]
+Use Image1 only as a nine-panel storyboard and art-direction reference. Read panels left to right, top to bottom. Create a coherent 10-second animated short based on that exact order; do not show the grid, panel borders, arrows, notes, or captions in the final video.
+
+Story: a tiny solar-powered delivery rover notices a fallen seedling, stops, extends one padded tool, returns the seedling upright, presses soil around it, then resumes its route as the seedling's leaves turn toward the sun.
+
+[0-3s] Combine panels 1-3 into the setup and discovery.
+[3-7s] Combine panels 4-7 into one continuous repair action with clear tool-to-soil contact.
+[7-10s] Use panels 8-9 for the payoff and a steady final composition.
+
+Preserve the rover design, seedling pot, left-to-right geography, warm miniature-set lighting, and scale across every shot. Use motivated cuts only where the board changes shot size.
+Audio: small electric motor, soft soil contact, leaves, one original hopeful three-note cue. No dialogue.
+No extra character, rescue montage, printed notes, brand, text, logo, or watermark.
+
+========================================================================
+
+CASE 02: Nine-window split screen with synchronized detail actions
+**Mode:** Text-to-video · **Goal:** Stable 3×3 layout and simultaneous motion
+
+Create a 10-second 16:9 video divided into an exact 3×3 grid with nine equal windows and thin warm-gray dividers. The grid remains locked for the entire clip.
+
+Each window shows a different close detail from the same fictional neighborhood bakery at 5:30 a.m.:
+top row: flour landing on a table; dough folded once; an oven thermometer rising.
+middle row: a whisk turning; steam leaving a kettle; a hand opening plain paper bags.
+bottom row: a bicycle wheel stopping outside; a lamp switching on; one round loaf placed on a cooling rack.
+
+[0-6s] All nine actions unfold at natural, different speeds.
+[6-8s] Actions settle one by one from top-left to bottom-right.
+[8-10s] Every window holds a calm finished state.
+
+Audio: one coherent bakery soundscape mixed across the grid—soft dough contact, whisk, kettle, oven tick, bicycle freewheel—with an original low marimba pulse. No dialogue.
+Maintain nine windows only, consistent warm palette, plausible hands, and unique content per window. No merged cells, moving dividers, labels, brands, logos, subtitles, or watermark.
+
+========================================================================
+
+CASE 03: Single-source action replay from two generated viewpoints
+**Mode:** Edit / reinterpret source event · **Input:** One authorized action clip · **Goal:** Creative replay, not forensic reconstruction
+
+Re-edit the same single-source event as a 10-second action replay with exactly three shots. Preserve the same adult skateboarder, plain clothing, board design, trick order, landing direction, location, weather, and original ambient sound.
+
+[0-3s] Use the source viewpoint at normal speed to establish the approach.
+[3-7s] Generate a low side view of the same jump at 50% speed, keeping board-to-foot contact and believable gravity.
+[7-10s] Generate a high rear three-quarter view at normal speed for the landing and roll-away.
+
+Use two clean cuts at exactly 3s and 7s. Match the skater's position and motion phase across each cut. Carry wheel sound continuously; lower it naturally during slow motion and add no new music.
+
+No impossible rotation, duplicate skater, crowd reaction, score graphics, brand marks, text, logo, or watermark.
+
+========================================================================
+
+CASE 04: Turn a static process diagram into motion
+**Mode:** Image reference to video · **Input:** An original, rights-cleared diagram · **Goal:** Animate structure without inventing facts
+
+[# References <IMAGE_REF_0>@Image1]
+Create a 10-second classroom motion graphic from Image1. Use Image1 as the exact information hierarchy, color key, and layout reference; do not treat it as a literal first frame. Topic: how rainwater moves through a simple urban bioswale.
+
+[0-3s] Build the clean cross-section in layers: road, curb opening, planted soil, gravel, drain. Keep all component positions aligned to Image1.
+[3-7s] Animate blue rainwater entering through the curb, slowing among plant stems, filtering downward, and reaching the underdrain. Flow direction must follow the diagram's arrows.
+[7-10s] Hold the complete cross-section and reveal only these exact labels: "RUNOFF", "FILTER SOIL", "UNDERDRAIN".
+
+Style: clear 2.5D educational graphic, restrained palette, large readable type, no decorative data.
+Audio: rainfall, soft granular filtering texture, neutral original pulse. English narration spoken once: "A bioswale slows runoff and filters water through planted soil."
+Do not add claims, percentages, extra labels, people, brand, logo, or watermark.
+
+========================================================================
+
+CASE 05: Use one image as an instruction board and another as identity
+**Mode:** Multiple image references · **Inputs:** Image1 = original four-step action board, Image2 = original robot reference · **Goal:** Separate action and identity roles
+
+[# References <IMAGE_REF_0>@Image1 <IMAGE_REF_1>@Image2]
+Create a 10-second workshop demonstration. Use Image1 only for the four-step action order. Use Image2 only for the small repair robot's exact identity, materials, proportions, and tool-arm design. Neither image is a literal first frame.
+
+The robot performs the four actions from Image1 in order: inspect a loose wooden drawer handle, stabilize the drawer, tighten exactly two screws, then test the handle once. Show continuous tool contact and believable resistance. One fixed waist-height camera with a gentle 10-degree arc; keep the whole drawer and both tool arms visible.
+
+Audio: tiny motor movement, two distinct screwdriver bursts, wood creak, one quiet confirmation chime. No dialogue or music.
+Preserve the robot from Image2 and the order from Image1. Do not copy notes, arrows, background, people, or text from either reference. No new tool, extra arm, brand, logo, or watermark.
+
+========================================================================
+
+CASE 06: Word-by-word kinetic typography synchronized to speech
+**Mode:** Text-to-video · **Goal:** Exact short text and speech timing
+
+Create a 9:16, 10-second kinetic-type video on a deep navy background. Use one bold geometric sans-serif typeface, cream letters, and a single coral accent. Keep all text inside a 10% mobile safe area.
+
+An adult narrator speaks this exact English sentence once: "Small steps make distant places reachable."
+
+Reveal exactly one word per beat, synchronized to the spoken word:
+[0.5s] "SMALL"
+[1.7s] "STEPS"
+[3.0s] "MAKE"
+[4.0s] "DISTANT"
+[5.6s] "PLACES"
+[7.0s] "REACHABLE"
+
+Each word enters through a simple physical motion related to meaning: SMALL scales from 90% to 100%; STEPS moves in two short increments; DISTANT begins farther back; REACHABLE joins the full sentence. From 8-10s, hold the exact complete sentence in title case: "Small steps make distant places reachable."
+
+Audio: clear neutral English voice, one soft original percussive beat per word, no music bed.
+No misspelling, repeated word, extra punctuation, subtitle track, icon, logo, or watermark.
+
+========================================================================
+
+CASE 07: One title sequence, four language-safe variants
+**Mode:** Text-to-video master + one edit per locale · **Goal:** Multilingual exact-copy workflow
+
+One title sequence, four language-safe variants
+
+=== 1/5: Part 1 ===
+
+Create a 10-second 16:9 opening title background for a calm night-train travel series. View through a carriage window as soft rain trails diagonally across the glass and distant town lights pass from right to left. Keep the center-left area dark, stable, and uncluttered from 5s to 10s for later typography.
+
+Audio: train rhythm, soft rain, one original warm synth chord. No speech, melody, text, signage, brand, logo, or watermark.
+
+
+=== 2/5: Part 2 ===
+
+Add only this exact English title from 5s to 10s: "WINDOWS AFTER MIDNIGHT". Center it in the reserved area, large, cream, fully readable. Keep everything else the same.
+
+
+=== 3/5: Part 3 ===
+
+Add only this exact Simplified Chinese title from 5s to 10s: "午夜之后的车窗". Preserve every character exactly. Center it in the reserved area, large, cream, fully readable. Keep everything else the same.
+
+
+=== 4/5: Part 4 ===
+
+Add only this exact Japanese title from 5s to 10s: "真夜中の車窓". Preserve every character exactly. Center it in the reserved area, large, cream, fully readable. Keep everything else the same.
+
+
+=== 5/5: Part 5 ===
+
+Add only this exact Arabic title from 5s to 10s, right-to-left: "نوافذ بعد منتصف الليل". Preserve joining, order, and punctuation exactly. Center it in the reserved area, large, cream, fully readable. Keep everything else the same.
+
+========================================================================
+
+CASE 08: Clay-table explainer: why tectonic plates move
+**Mode:** Text-to-video · **Goal:** Material science explainer with an accuracy boundary
+
+Create a 10-second handcrafted clay-table explainer showing a simplified cross-section of two tectonic plates above the upper mantle. Clearly present it as a conceptual model, not literal scale, speed, or material.
+
+[0-3s] A cutaway globe segment opens onto two differently colored rigid clay plates. Exact small label: "TECTONIC PLATES".
+[3-7s] Slow arrows in the softer layer below indicate broad mantle circulation while the plates move a few millimeters in the model. One plate meets the other and begins to descend at a subduction boundary. Exact label replaces the first: "SUBDUCTION ZONE".
+[7-10s] Pull back to show a raised volcanic arc above the descending plate. Final exact note: "SIMPLIFIED MODEL — NOT TO SCALE".
+
+Style: tactile stop motion, visible fingerprints, restrained earth colors, consistent cross-section geometry.
+Audio: clay contact, low granular movement, original two-note educational cue. Calm narration spoken once: "Earth's rigid plates move slowly above a warmer, deformable mantle."
+No fast catastrophic collision, city destruction, inaccurate hollow Earth, extra labels, logo, or watermark.
+
+========================================================================
+
+CASE 09: Controlled A/B/C prompt evaluation
+**Mode:** Text-to-video benchmark · **Goal:** Compare prompt variables fairly
+
+Controlled A/B/C prompt evaluation
+
+=== 1/2: Part 1 ===
+
+Benchmark scene, 10 seconds, 16:9. One adult craftsperson wearing a plain olive apron places exactly three blue ceramic tiles onto a pale worktable from left to right, then aligns them with a wooden ruler and removes both hands from frame. Fixed camera at chest height, medium shot, soft daylight from frame left, plain gray wall.
+
+Audio: three distinct ceramic contacts, ruler sliding on wood, quiet room tone. No speech or music.
+Preserve one person, two hands, three tiles, tile color, action order, camera, table, lighting, and duration. No cuts, extra objects, text, brands, logo, or watermark.
+
+
+=== 2/2: Part 2 ===
+
+Variant A — Camera: completely locked tripod shot.
+Variant B — Camera: 15-centimeter slow push-in from 2s to 8s.
+Variant C — Camera: 20-degree slow arc from front-left to front-right from 2s to 8s.

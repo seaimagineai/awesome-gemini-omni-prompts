@@ -1,0 +1,9 @@
+Create a 10-second museum-quality geological explainer showing how columnar basalt forms. Use a clean cutaway of one cooling lava flow; visually distinguish the hot interior, cooling surface and contraction joints.
+
+[0-3s] Side cutaway: dark crust forms on a glowing basaltic lava body. A small exact label appears with a thin leader line: "COOLING SURFACE".
+[3-7s] Time compresses. Heat fades from orange to dark red; polygonal cracks begin at the surface and propagate inward perpendicular to it. The camera slowly moves closer to the crack front.
+[7-10s] Pull back to reveal organized stone columns after cooling. Replace the first label with exact text: "CONTRACTION JOINTS". Keep it readable.
+
+Style: physically grounded scientific visualization, realistic rock texture, restrained color scale, no fantasy crystals.
+Audio: low lava movement, subtle cooling ticks, neutral original pulse. Calm English narration: "As lava cools and contracts, fractures organize into columns." Speak once; no subtitles.
+No inaccurate eruption, no people, no extra labels, no logo or watermark.

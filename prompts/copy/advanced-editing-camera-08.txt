@@ -1,0 +1,10 @@
+Add one fictional augmented-reality maintenance overlay around the existing water pump only. Use thin cyan vector lines with three stable callouts anchored to the correct moving parts.
+
+Exact on-screen text, and no other text:
+"FLOW 18 L/MIN"
+"TEMP 42°C"
+"STATUS STABLE"
+
+The labels appear at 2s, remain fully readable inside the 10% safe area, track the pump without jitter, and fade out at 9s. The overlay must pass behind the technician's hands when they cross in front of the pump. Preserve the source pump, technician, tools, actions, camera, timing, lighting, dialogue, machinery sound, and room tone exactly.
+
+No brand interface, warning alarm, changing numbers, extra diagram, face tracking, subtitles, logo, or watermark. Keep everything else the same.

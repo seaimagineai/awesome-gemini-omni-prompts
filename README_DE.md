@@ -4,70 +4,49 @@
 
 # Gemini Omni Prompt-Sammlung
 
-**Entdecke die 60 vollständigen Vorlagen der ursprünglichen Sammlung in sieben Kategorien. Lerne, Szenen zu beschreiben, Aktionen zeitlich zu planen sowie Kamera und Ton zu steuern. Passe anschließend ein Beispiel an deine Idee an.**
+**60 Prompts in 7 Kategorien mit 6 Referenzbildern als Eingabematerial – keine überprüften generierten Ergebnisse.**
 
 [English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md)
 
 [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
 
-
-
-[Alle 60 Prompts](#prompt-collections) · [Drei Prompts zum Kopieren](#source-examples) · [Offizielle und Community-Beispiele](#video-studies) · [Mehrsprachiger Leitfaden](docs/multilingual-guide.md)
+[Nach Kategorie durchsuchen](#prompt-collections) · [Sechs Beispiele zum direkten Kopieren](#source-examples) · [Offizielle Ergebnisse und Community-Beispiele](#video-studies) · [Verzeichnis aller 60 Prompts](docs/prompt-index.md) · [Alle Prompts als Text herunterladen](prompts/copy/all-prompts.txt)
 
 </div>
 
-## Enthalten
-
-Die Liste beschreibt Themen für die Prompt-Planung, keine zugesicherten Funktionen. Prüfe beim gewählten Modell in deinem Werkzeug, welche Eingaben, Bearbeitungsfunktionen, Verlängerungen, Tonoptionen und Auflösungen verfügbar sind. Prüfe zuerst Bildaufbau, Sprache und Text mit einer verfügbaren Vorschau. Googles Programmierschnittstelle (API) und die Oberfläche deines Werkzeugs sind getrennte Angebote.
-
-- Text-zu-Video, Bild-zu-Video, erstes/letztes Bild sowie Personen- und Produktreferenzen.
-- Gemeinsame Planung von Bild, Atmosphäre, Foley, Originalmusik, Stille und Dialog.
-- Dialog-, Bildschirmtext- und Prüfregeln für 15 Sprachen.
-
-## Deutsche Dialoge
-
-Bei Bedarf bleiben Szenenanweisungen englisch; Dialog und sichtbarer Text werden auf Deutsch wortgetreu festgelegt. Prüfe Aussprache, Schreibweise und Timing.
-
-```text
-Spoken language: German.
-Exact dialogue at 6s, spoken once with natural conversational pacing: "Lass uns heute den längeren Weg nach Hause nehmen."
-Do not translate, paraphrase, repeat or subtitle it.
-
-Exact on-screen German title: "KLEINE REISEN"
-Allow enough width for German compound words. No other text.
-```
-
 <a id="prompt-collections"></a>
 
-## Alle 60 Prompts
+## Nach Kategorie durchsuchen
+
+| Kategorie | Prompts | Links |
+|---|---:|---|
+| [Film und Storytelling](prompts/cinematic-storytelling.md) | 8 | [Ansehen](prompts/cinematic-storytelling.md#case-01) |
+| [Werbung und Social Media](prompts/commerce-social.md) | 8 | [Ansehen](prompts/commerce-social.md#case-01) |
+| [Dokumentation, Reise und Bildung](prompts/documentary-education.md) | 8 | [Ansehen](prompts/documentary-education.md#case-01) |
+| [Animation, Musik und Unterhaltung](prompts/stylized-entertainment.md) | 8 | [Ansehen](prompts/stylized-entertainment.md#case-01) |
+| [Steuerung, Bearbeitung und Erweiterung](prompts/control-editing-extension.md) | 10 | [Ansehen](prompts/control-editing-extension.md#case-01) |
+| [Fortgeschrittene Bearbeitung, Kamera und visuelle Transformation](prompts/advanced-editing-camera.md) | 9 | [Ansehen](prompts/advanced-editing-camera.md#case-01) |
+| [Storyboards, Split-Screens, Text und Evaluierung](prompts/storyboard-text-evaluation.md) | 9 | [Ansehen](prompts/storyboard-text-evaluation.md#case-01) |
+
+[Verzeichnis aller 60 Prompts](docs/prompt-index.md) · [Alle Prompts als Text herunterladen](prompts/copy/all-prompts.txt)
 
 Die ersten fünf Sammlungen haben chinesische Erläuterungen, die letzten zwei englische. Alle kopierbaren Steuerprompts sind englisch. Die Sammlungen sind nicht vollständig übersetzt.
 
-- [Film und Storytelling: 8 Prompts](prompts/cinematic-storytelling.md)
-- [Werbung und Social Media: 8 Prompts](prompts/commerce-social.md)
-- [Dokumentation, Reise und Bildung: 8 Prompts](prompts/documentary-education.md)
-- [Animation, Musik und Unterhaltung: 8 Prompts](prompts/stylized-entertainment.md)
-- [Steuerung, Bearbeitung und Erweiterung: 10 Rezepte](prompts/control-editing-extension.md)
-- [Fortgeschrittene Bearbeitung, Kamera und visuelle Transformation: 9 Prompts](prompts/advanced-editing-camera.md)
-- [Storyboards, Split-Screens, Text und Evaluierung: 9 Prompts](prompts/storyboard-text-evaluation.md)
-
-
-
-## Den ersten Prompt ausprobieren
-
-1. Wähle ein vollständiges Beispiel für eine ähnliche Szene und kopiere den gesamten Prompt.
-2. Lade das passende Referenzbild herunter und lege es als Startbild fest, sofern dein Werkzeug diese Funktion anbietet.
-3. Passe die Zeitangaben an die verfügbare Dauer und Auflösung an. Erstelle einen Entwurf, prüfe Motiv, Text und Ton und ändere danach jeweils nur einen Punkt.
-
 <a id="source-examples"></a>
 
-## Drei Prompts zum Kopieren
+## Sechs Beispiele zum direkten Kopieren
 
-Die Bilder sind übernommene Referenz-Startbilder aus dem Quellrepository, keine erzeugten Videoergebnisse. Lade das passende Bild als Image1 hoch. Zehn Sekunden und Ton sind Zielvorgaben; passe sie an die verfügbaren Einstellungen an.
+Die Referenzbilder sind Eingabematerial, keine generierten Ergebnisse.
+
+[01 · Lautsprecher: Wassertropfen im Takt](#example-01) · [02 · Radfahrt auf dem Grat: Dokumentarfilmauftakt](#example-02) · [03 · Uhrmacher und Papiervögel: illustrierte Geschichte](#example-03) · [04 · Eine türkisgrüne Keramiktasse im Morgenlicht](#example-04) · [05 · Ein Papierhafen wird beleuchtet](#example-05) · [06 · Ein Leinenbeutel für mehrsprachige Produktvideos](#example-06)
+
+<a id="example-01"></a>
 
 ### 01 · Lautsprecher: Wassertropfen im Takt
 
-![Lautsprecher: Wassertropfen im Takt](assets/product-speaker.png)
+<a href="assets/product-speaker.png"><img src="assets/product-speaker.png" alt="Lautsprecher: Wassertropfen im Takt" width="420"></a>
+
+[Werbung und Social Media](prompts/commerce-social.md) · [Referenz für das erste Bild](assets/product-speaker.png) · [Klartext](prompts/copy/showcase-01.txt)
 
 ```text
 Create a 10-second premium product film from Image1. Use Image1 as the exact starting frame.
@@ -80,9 +59,13 @@ Audio: original minimal electronic rhythm at 96 BPM, water-drop percussion, dist
 No product morphing, added controls, text, logo, watermark, hands, duplicate product or camera shake.
 ```
 
+<a id="example-02"></a>
+
 ### 02 · Radfahrt auf dem Grat: Dokumentarfilmauftakt
 
-![Radfahrt auf dem Grat: Dokumentarfilmauftakt](assets/travel-cyclist.png)
+<a href="assets/travel-cyclist.png"><img src="assets/travel-cyclist.png" alt="Radfahrt auf dem Grat: Dokumentarfilmauftakt" width="420"></a>
+
+[Dokumentation, Reise und Bildung](prompts/documentary-education.md) · [Referenz für das erste Bild](assets/travel-cyclist.png) · [Klartext](prompts/copy/showcase-02.txt)
 
 ```text
 Animate Image1 as a single continuous 10-second documentary tracking shot. Use it as the exact first frame.
@@ -93,9 +76,13 @@ Audio: close tire crunch and chain movement, strong ridge wind, one distant bird
 No cuts, drone rise, extra cyclists, landmark text, logo or watermark.
 ```
 
+<a id="example-03"></a>
+
 ### 03 · Uhrmacher und Papiervögel: illustrierte Geschichte
 
-![Uhrmacher und Papiervögel: illustrierte Geschichte](assets/clockmaker-story.png)
+<a href="assets/clockmaker-story.png"><img src="assets/clockmaker-story.png" alt="Uhrmacher und Papiervögel: illustrierte Geschichte" width="420"></a>
+
+[Animation, Musik und Unterhaltung](prompts/stylized-entertainment.md) · [Referenz für das erste Bild](assets/clockmaker-story.png) · [Klartext](prompts/copy/showcase-03.txt)
 
 ```text
 Bring this illustration to life in one coherent 10-second animated shot. Use Image1 as the first frame and preserve its watercolor-and-ink direction.
@@ -108,88 +95,13 @@ Audio: layered clock ticks, delicate paper folds, wooden gear creaks, then an or
 Keep the clockmaker's face, clothes and goggles consistent. No photorealism, subtitles, logo or watermark.
 ```
 
+<a id="example-04"></a>
 
+### 04 · Eine türkisgrüne Keramiktasse im Morgenlicht
 
-<a id="video-studies"></a>
+<a href="assets/seaimagine-ceramic-cup.png"><img src="assets/seaimagine-ceramic-cup.png" alt="Eine türkisgrüne Keramiktasse im Morgenlicht" width="420"></a>
 
-## Was du aus offiziellen und Community-Beispielen lernen kannst
-
-Die offiziellen Google-Videos zeigen Omni 1.1 Flash. Die Community-Beiträge stammen vom Mai 2026 und beziehen sich auf das ursprüngliche Omni / Flash; sie sind nicht als Tests von 1.1 bestätigt. Als Belege dienen Text und Medienmetadaten des FxTwitter-Spiegels; die direkte Wiedergabe auf X wurde nicht geprüft. Es sind externe Beispiele, keine Ergebnisse der von dir genutzten Plattform. Prüfe die verfügbaren Funktionen in deinem Werkzeug.
-
-### Google: Übergang zwischen Start- und Endbild
-
-[Originalbeispiel ansehen](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
-
-Lege Startbild, Endbild und die durchgehende Bewegung dazwischen getrennt fest.
-
-Fotografiere dasselbe Objekt aus zwei passenden Winkeln. Sind Start- und Endbilder möglich, verbinde sie mit einer einfachen Bewegung.
-
-### Google: eine Einstellung verlängern
-
-[Originalbeispiel ansehen](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
-
-Beschreibe die nächste Kamerabewegung und behalte Motiv und Bewegungsrichtung bei.
-
-Verwende einen eigenen Clip. Falls Verlängern möglich ist, ergänze eine einzige Fortsetzung und prüfe den Übergang auf Sprünge bei Bewegung oder Licht.
-
-### CHRIS FIRST: Menschen durch Flamingos ersetzen
-
-<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST: Menschen durch Flamingos ersetzen" width="300"></a>
-
-[Originalbeispiel ansehen](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
-
-Ersetze das Motiv, lasse aber Kleidung und Handlung erhalten. Prüfe die Berührungspunkte von Armen und Beinen.
-
-Ersetze bei verfügbarer Videobearbeitung nur ein Motiv in deinem eigenen Clip. Vergleiche Kleidung, Haltung und Bodenkontakt.
-
-### Justine Moore: bei jedem Klatschen den Hut wechseln
-
-<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore: bei jedem Klatschen den Hut wechseln" width="300"></a>
-
-[Originalbeispiel ansehen](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
-
-Eine sichtbare Geste bestimmt den Zeitpunkt des Wechsels; Gesicht, Kleidung und Kamera bleiben gleich.
-
-Filme zweimal deutliches Klatschen mit feststehender Kamera. Falls Videobearbeitung möglich ist, fordere bei jedem Klatschen einen Hutwechsel an und prüfe den Zeitpunkt Bild für Bild.
-
-[Offizielle und Community-Beispiele](docs/community-examples.md)
-
-## Weiterlesen
-
-- [Offizielle und Community-Beispiele](docs/community-examples.md)
-- [Mehrsprachiger Leitfaden](docs/multilingual-guide.md)
-- [Prompts entwerfen](docs/prompting-guide.md)
-- [Referenzmaterial und Rechte](docs/reference-videos.md)
-
-<a id="brand-tools"></a>
-
-## Mit SeaImagine beginnen
-
-Diese Sammlung bewahrt die 60 ursprünglichen Rezepte von Flaq AI und ergänzt drei SeaImagine-Übungen mit eigenen Referenzbildern. Auf dieser Seite findest du die neuen Übungen, Beispiele aus der Vorlage und Lernhinweise zu offiziellen und Community-Beispielen.
-
-[Gemini Omni](https://seaimagine.com/de/model/gemini-omni/) · [Gemini Omni 1.1 Flash](https://seaimagine.com/de/model/gemini-omni-1-1-flash/)
-
-1. Öffne die Modellseite und prüfe Zugang, Preis und verfügbare Einstellungen.
-2. Soll ein Produkt oder eine Figur wiedererkennbar bleiben, wähle Bild zu Video, lade ein Bild hoch und füge den passenden Prompt ein. Für neue Szenen eignet sich Text zu Video als Einstieg.
-3. Wähle Dauer und Format in der Oberfläche. Teste eine Einstellung, prüfe Aussehen, Bewegung und Ton und ändere jeweils nur eine Anweisung.
-
-Dies sind Promptentwürfe, keine auf SeaImagine geprüften Videoergebnisse. Dauer, Ton, Bearbeitung, Verlängerung und Referenzen hängen vom Modell und der aktuellen Oberfläche ab. Funktionen der Google-API sind nicht automatisch in SeaImagine verfügbar.
-
-<a id="sea-practice"></a>
-
-## Drei SeaImagine-Übungen mit eigenen Referenzbildern
-
-Diese KI-generierten Referenzbilder dienen als Startbilder zum Üben. Sie sind keine getesteten Gemini-Videoergebnisse. Verwende nur Funktionen, die deine SeaImagine-Oberfläche anbietet.
-
-### SEA-01 · Eine türkisgrüne Keramiktasse im Morgenlicht
-
-[![Eine türkisgrüne Keramiktasse im Morgenlicht](assets/seaimagine-ceramic-cup.png)](assets/seaimagine-ceramic-cup.png)
-
-Fahre langsam mit der Kamera näher heran. Henkel, Rand und Flüssigkeitsstand bleiben gleich; am Ende bleibt Platz für Text.
-
-Lade das Tassenbild für die Videoerstellung hoch. Teste zuerst nur eine langsame Annäherung und prüfe Henkel und Flüssigkeitsstand vor dem Beschriften.
-
-[Bild zu Video](https://seaimagine.com/de/image-to-video/) · [KI-Bildgenerator](https://seaimagine.com/de/ai-image-generator/)
+[Werbung und Social Media](prompts/commerce-social.md) · [Referenz für das erste Bild](assets/seaimagine-ceramic-cup.png) · [Klartext](prompts/copy/showcase-04.txt)
 
 ```text
 Use the uploaded ceramic-cup image as the exact first frame. Create a 10-second, 16:9 product shot.
@@ -201,15 +113,13 @@ Audio, if supported: quiet room ambience and one distant bird. No speech or musi
 No pouring, added cup, new handle, object morphing, generated text, logo or watermark.
 ```
 
-### SEA-02 · Ein Papierhafen wird beleuchtet
+<a id="example-05"></a>
 
-[![Ein Papierhafen wird beleuchtet](assets/seaimagine-paper-harbor.png)](assets/seaimagine-paper-harbor.png)
+### 05 · Ein Papierhafen wird beleuchtet
 
-Lass in einer Einstellung das Leuchtturmlicht angehen und die Fenster der drei Häuser nacheinander heller werden. Papierstruktur und Formen bleiben erhalten.
+<a href="assets/seaimagine-paper-harbor.png"><img src="assets/seaimagine-paper-harbor.png" alt="Ein Papierhafen wird beleuchtet" width="420"></a>
 
-Lade das Hafenbild hoch. Lass das Leuchtturmlicht angehen und die Fenster nacheinander heller werden. Vergleiche die Gebäudeformen am Anfang und Ende.
-
-[Bild zu Video](https://seaimagine.com/de/image-to-video/) · [KI-Bildgenerator](https://seaimagine.com/de/ai-image-generator/)
+[Animation, Musik und Unterhaltung](prompts/stylized-entertainment.md) · [Referenz für das erste Bild](assets/seaimagine-paper-harbor.png) · [Klartext](prompts/copy/showcase-05.txt)
 
 ```text
 Use the uploaded paper-harbor image as the exact first frame. Animate a single 10-second, 16:9 shot while retaining the handcrafted paper texture, folds and miniature scale.
@@ -221,15 +131,13 @@ Audio, if supported: a quiet original celesta phrase, no voices.
 No ocean waves, added buildings, extra boats, rotating tower, camera cut, text, logo or watermark.
 ```
 
-### SEA-03 · Ein Leinenbeutel für mehrsprachige Produktvideos
+<a id="example-06"></a>
 
-<a href="assets/seaimagine-linen-pouch.png"><img src="assets/seaimagine-linen-pouch.png" alt="Ein Leinenbeutel für mehrsprachige Produktvideos" width="360"></a>
+### 06 · Ein Leinenbeutel für mehrsprachige Produktvideos
 
-Erstelle ein sauberes Hochformatvideo ohne Schrift und ergänze die übersetzten Untertitel anschließend in einem gewöhnlichen Videoschnittprogramm.
+<a href="assets/seaimagine-linen-pouch.png"><img src="assets/seaimagine-linen-pouch.png" alt="Ein Leinenbeutel für mehrsprachige Produktvideos" width="420"></a>
 
-Erstelle aus dem Beutelbild ein Hochformatvideo und ergänze später die Übersetzungen. Nutze kurze Anweisungen zur Videobearbeitung nur, wenn diese Funktion verfügbar ist.
-
-[Bild zu Video](https://seaimagine.com/de/image-to-video/) · [KI-Bildgenerator](https://seaimagine.com/de/ai-image-generator/)
+[Werbung und Social Media](prompts/commerce-social.md) · [Referenz für das erste Bild](assets/seaimagine-linen-pouch.png) · [Klartext](prompts/copy/showcase-06.txt)
 
 ```text
 Use the uploaded linen-pouch photograph as the exact first frame. Create a 10-second, 9:16 vertical ecommerce product shot.
@@ -241,21 +149,48 @@ Audio, if supported: soft room tone. No speech or music.
 Do not generate any lettering, subtitles, symbols, price, logo, watermark, extra bag or moving string.
 ```
 
-> Den Alltag leichter machen
+Den Alltag leichter machen
 
-[SeaImagine-Arbeitsablauf](docs/seaimagine-workflow.md)
+<a id="video-studies"></a>
 
-## Weitere SeaImagine-Werkzeuge
+## Offizielle Ergebnisse und Community-Beispiele
+
+Die offiziellen Beispiele verwenden Gemini Omni 1.1 Flash. Die Community-Beispiele stammen aus Mai 2026 und verwenden frühere Omni-Versionen. Die Links führen zu den Originalbeiträgen; dieses Repository beansprucht nicht, diese Ergebnisse reproduziert zu haben. Die Community-Belege stammen von FxTwitter; die Wiedergabe auf X wurde nicht geprüft.
+
+| Google · Omni 1.1 Flash | Links |
+|---|---|
+| Filmische Szenenverlängerung | [Video ansehen](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) |
+| Übergang vom ersten zum letzten Bild | [Video ansehen](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) |
+| 360p-Entwurf mit Meereskieselalgen | [Video ansehen](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/kw_omni-flash__capability-video__draft-360p__16x9__v1_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) |
+| Tanz nach Videoreferenz | [Video ansehen](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__video-reference__16x9.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) |
+
+| X · Omni / Flash · 2026-05 | X · Omni / Flash · 2026-05 |
+|---|---|
+| **Menschen werden zu Flamingos**<br><a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="Menschen werden zu Flamingos" width="240"></a><br>CHRIS FIRST<br>[Quelle](https://x.com/chrisfirst/status/2056797606509158681) · [Video ansehen](https://video.twimg.com/amplify_video/2056797343085969408/vid/avc1/1080x1440/UYr_7RKomiginRgq.mp4?tag=27) | **Neuer Hut bei jedem Klatschen**<br><a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Neuer Hut bei jedem Klatschen" width="240"></a><br>Justine Moore<br>[Quelle](https://x.com/venturetwins/status/2056793856843366789) · [Video ansehen](https://video.twimg.com/amplify_video/2056793760273686528/vid/avc1/720x1280/Q73liRfIjPtGSveL.mp4?tag=27) |
+| **Fotosynthese erklärt**<br><a href="https://x.com/mrfanduu/status/2056692235174097398"><img src="https://pbs.twimg.com/amplify_video_thumb/2056691792175833088/img/W0_pZkQwRicpRjjG.jpg" alt="Fotosynthese erklärt" width="240"></a><br>Fandu<br>[Quelle](https://x.com/mrfanduu/status/2056692235174097398) · [Video ansehen](https://video.twimg.com/amplify_video/2056691792175833088/vid/avc1/1280x720/Ws-92fvVr5e-FkYZ.mp4?tag=14) | **Handgeführter Zoom auf das London Eye**<br><a href="https://x.com/fofrAI/status/2056789242274259242"><img src="https://pbs.twimg.com/amplify_video_thumb/2056503814874861569/img/mQnHwThYDypoS1H6.jpg" alt="Handgeführter Zoom auf das London Eye" width="240"></a><br>fofr<br>[Quelle](https://x.com/fofrAI/status/2056789242274259242) · [Video ansehen](https://video.twimg.com/amplify_video/2056503814874861569/vid/avc1/1280x720/Lc2C4YtTflfGA8qe.mp4?tag=27) |
+| **Original und bearbeiteter Clip**<br><a href="https://x.com/Mho_23/status/2057151867927601413"><img src="https://pbs.twimg.com/amplify_video_thumb/2057151701904146432/img/yhVQfdBM34BQJjV3.jpg" alt="Original und bearbeiteter Clip" width="240"></a><br>Miko<br>[Quelle](https://x.com/Mho_23/status/2057151867927601413) · [Video ansehen](https://video.twimg.com/amplify_video/2057151701904146432/vid/avc1/1080x1920/JfeFoDd5udd_FRR7.mp4?tag=27) | **Krug wechselt Material bei Berührung**<br><a href="https://x.com/alexanderchen/status/2057176690519089166"><img src="https://pbs.twimg.com/amplify_video_thumb/2057176000459612161/img/wTZ0HcgL_8PHxwbY.jpg" alt="Krug wechselt Material bei Berührung" width="240"></a><br>Alexander Chen<br>[Quelle](https://x.com/alexanderchen/status/2057176690519089166) · [Video ansehen](https://video.twimg.com/amplify_video/2057176000459612161/vid/avc1/1280x720/LRzM8IueMomPMa7J.mp4?tag=27) · [Vollständiger Prompt](https://x.com/alexanderchen/status/2057176691903279524) |
+[Quelle / FxTwitter](docs/community-examples.md)
+
+## Weiterführende Dokumentation
+
+Die Anleitungen stehen auf separaten Seiten. [Ansehen](docs/guides/README_DE.md)
+
+[Prompts entwerfen](docs/prompting-guide.md) · [Mehrsprachiger Leitfaden](docs/multilingual-guide.md) · [Referenzmaterial und Rechte](docs/reference-videos.md)
+
+<a id="brand-tools"></a>
+
+## Mit SeaImagine erstellen
+
+[Gemini Omni](https://seaimagine.com/de/model/gemini-omni/) · [Gemini Omni 1.1 Flash](https://seaimagine.com/de/model/gemini-omni-1-1-flash/)
+
+[Bild zu Video](https://seaimagine.com/de/image-to-video/) · [Text zu Video](https://seaimagine.com/de/text-to-video/) · [KI-Bildgenerator](https://seaimagine.com/de/ai-image-generator/)
 
 Diese Seiten bieten weitere Einstiegsmöglichkeiten. Aktuelle Modelle, Bedingungen und Preise stehen auf der jeweiligen Seite. Dieses Repository garantiert keine ununterbrochene Verfügbarkeit.
 
-- [Erstellen](https://seaimagine.com/de/create/)
-- [Bild zu Video](https://seaimagine.com/de/image-to-video/)
-- [Text zu Video](https://seaimagine.com/de/text-to-video/)
-- [KI-Bildgenerator](https://seaimagine.com/de/ai-image-generator/)
+[SeaImagine-Arbeitsablauf](docs/seaimagine-workflow.md)
 
 ## Quelle und Lizenz
 
 Bearbeitung des Flaq-AI-Repositories einschließlich der Promptsammlungen und drei Referenzbilder. Nicht alle Inhalte wurden von SeaImagine neu erstellt. Unabhängiger Leitfaden, kein offizielles Google-Produkt.
 
-[Flaq AI · awesome-gemini-omni-flash](https://github.com/flaqai/awesome-gemini-omni-flash) · [MIT](LICENSE)
+[Flaq AI · awesome-gemini-omni-flash](https://github.com/flaqai/awesome-gemini-omni-flash) · [MIT](LICENSE) · [Contributing](CONTRIBUTING.md)

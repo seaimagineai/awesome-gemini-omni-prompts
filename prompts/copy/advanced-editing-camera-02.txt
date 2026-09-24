@@ -1,0 +1,12 @@
+Remove a foreground obstruction and reconstruct the scene
+
+=== 1/2: Part 1 ===
+
+Remove only the freestanding yellow sign in the lower-left foreground for the entire clip. Reconstruct the previously hidden pavement, curb edge, rain reflections, and passing shadows so they remain spatially and temporally consistent with the surrounding scene.
+
+Preserve every person, vehicle, walking path, reflection outside the removed area, camera movement, focus pull, exposure, timing, dialogue, foley, ambience, and music exactly. Do not crop, reframe, blur, cover, or replace the sign with another object. Keep everything else the same.
+
+
+=== 2/2: Part 2 ===
+
+Repair only the former sign area so the pavement texture and moving reflections continue naturally through it. Keep everything else the same.

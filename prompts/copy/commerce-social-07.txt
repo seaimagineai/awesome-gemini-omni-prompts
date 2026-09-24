@@ -1,0 +1,10 @@
+Create a clean 9:16 launch teaser for a fictional focus timer, 10 seconds. Use abstract interface motion rather than a realistic phone brand.
+
+[0-2s] On a deep navy background, one exact word appears centered in large ivory type: "DISTRACTED?" The question mark draws on last.
+[2-5s] The word collapses into a simple circular 25-minute timer. A small amber dot travels smoothly around one quarter of the ring. Soft ticking begins.
+[5-8s] Three cluttered notification cards slide away from the timer and dissolve. Exact centered text replaces them: "ONE THING."
+[8-10s] The timer locks into a calm completed ring. Final exact text below it: "START SMALL". Hold both lines readable until the end.
+
+Motion: precise editorial easing, no fake operating-system chrome, no tiny unreadable copy.
+Audio: dry tick, three soft card swishes, a single warm completion tone. No voiceover, no music.
+Only the three quoted text strings may appear. Preserve spelling and punctuation. No logo, phone hardware, watermark or extra icons.

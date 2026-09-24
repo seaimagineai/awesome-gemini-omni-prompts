@@ -4,70 +4,49 @@
 
 # คลังพรอมป์ต์ Gemini Omni
 
-**รวมพรอมป์ต์ฉบับเต็ม 60 สูตรจากคลังต้นฉบับ แบ่งเป็น 7 หมวด เรียนรู้วิธีบรรยายฉาก กำหนดเวลาของแต่ละการกระทำ ควบคุมกล้องและเสียง แล้วปรับตัวอย่างให้เข้ากับไอเดียของคุณ**
+**พรอมป์ต์ 60 รายการใน 7 หมวดหมู่ พร้อมภาพอ้างอิง 6 ภาพสำหรับใช้เป็นอินพุต ไม่ใช่ผลลัพธ์การสร้างที่ผ่านการทดสอบแล้ว**
 
 [English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md)
 
 [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
 
-
-
-[พรอมป์ทั้งหมด 60 รายการ](#prompt-collections) · [พรอมป์ 3 ชุดสำหรับคัดลอก](#source-examples) · [ตัวอย่างทางการและจากชุมชน](#video-studies) · [คู่มือหลายภาษา](docs/multilingual-guide.md)
+[เลือกตามหมวดหมู่](#prompt-collections) · [6 ตัวอย่างพร้อมคัดลอก](#source-examples) · [ผลงานจากทางการและชุมชน](#video-studies) · [ดัชนีพรอมป์ต์ทั้ง 60 รายการ](docs/prompt-index.md) · [ดาวน์โหลดพรอมป์ต์ทั้งหมดเป็นข้อความ](prompts/copy/all-prompts.txt)
 
 </div>
 
-## เนื้อหา
-
-รายการนี้เป็นสิ่งที่วางแผนในพรอมป์ได้ ไม่ใช่การรับรองว่ามีทุกฟังก์ชัน โปรดตรวจสอบว่าโมเดลที่เลือกในเครื่องมือของคุณรองรับข้อมูลนำเข้า การแก้ไข การต่อวิดีโอ เสียง และความละเอียดใดบ้าง เริ่มตรวจองค์ประกอบ คำพูด และข้อความด้วยการตั้งค่าตัวอย่างที่มีให้ API ของ Google (ช่องทางเรียกใช้ด้วยโปรแกรม) เป็นคนละบริการกับหน้าเว็บของเครื่องมือที่คุณใช้
-
-- ข้อความเป็นวิดีโอ ภาพเป็นวิดีโอ เฟรมแรก/สุดท้าย และภาพอ้างอิงตัวละครหรือสินค้า
-- การออกแบบภาพ เสียงบรรยากาศ โฟลีย์ ดนตรีต้นฉบับ ความเงียบ และบทพูดร่วมกัน
-- แนวทางบทพูด ข้อความบนจอ การตัดบรรทัด และการตรวจโดยเจ้าของภาษา 15 ภาษา
-
-## บทพูดภาษาไทย
-
-อาจคงคำสั่งฉากเป็นภาษาอังกฤษ และระบุบทพูดกับข้อความบนจอเป็นภาษาไทยให้ตรงตามต้องการ ตรวจสอบการออกเสียง การสะกด และจังหวะเวลา
-
-```text
-Spoken language: Thai.
-Exact dialogue at 6s, spoken once with natural conversational pacing: "วันนี้กลับบ้านทางอ้อมกันเถอะ"
-Do not translate, paraphrase, repeat or subtitle it.
-
-Exact on-screen Thai title: "การเดินทางเล็ก ๆ"
-Keep it on one line with large readable Thai text. No other text.
-```
-
 <a id="prompt-collections"></a>
 
-## พรอมป์ทั้งหมด 60 รายการ
+## เลือกตามหมวดหมู่
+
+| หมวดหมู่ | จำนวนพรอมป์ต์ | ลิงก์ |
+|---|---:|---|
+| [ภาพยนตร์และการเล่าเรื่อง](prompts/cinematic-storytelling.md) | 8 | [ดู](prompts/cinematic-storytelling.md#case-01) |
+| [โฆษณาและโซเชียลมีเดีย](prompts/commerce-social.md) | 8 | [ดู](prompts/commerce-social.md#case-01) |
+| [สารคดี ท่องเที่ยว และการศึกษา](prompts/documentary-education.md) | 8 | [ดู](prompts/documentary-education.md#case-01) |
+| [แอนิเมชัน ดนตรี และความบันเทิง](prompts/stylized-entertainment.md) | 8 | [ดู](prompts/stylized-entertainment.md#case-01) |
+| [การควบคุม การแก้ไข และการต่อวิดีโอ](prompts/control-editing-extension.md) | 10 | [ดู](prompts/control-editing-extension.md#case-01) |
+| [การแก้ไขขั้นสูง กล้อง และการแปลงภาพ](prompts/advanced-editing-camera.md) | 9 | [ดู](prompts/advanced-editing-camera.md#case-01) |
+| [สตอรีบอร์ด แบ่งหน้าจอ ข้อความ และการประเมิน](prompts/storyboard-text-evaluation.md) | 9 | [ดู](prompts/storyboard-text-evaluation.md#case-01) |
+
+[ดัชนีพรอมป์ต์ทั้ง 60 รายการ](docs/prompt-index.md) · [ดาวน์โหลดพรอมป์ต์ทั้งหมดเป็นข้อความ](prompts/copy/all-prompts.txt)
 
 คำอธิบายของ 5 หมวดแรกเป็นภาษาจีน และ 2 หมวดสุดท้ายเป็นภาษาอังกฤษ พรอมป์ควบคุมที่คัดลอกได้ทั้งหมดเป็นภาษาอังกฤษ เนื้อหาแต่ละหมวดยังไม่ได้แปลครบทุกภาษา
 
-- [ภาพยนตร์และการเล่าเรื่อง: 8 รายการ](prompts/cinematic-storytelling.md)
-- [โฆษณาและโซเชียลมีเดีย: 8 รายการ](prompts/commerce-social.md)
-- [สารคดี ท่องเที่ยว และการศึกษา: 8 รายการ](prompts/documentary-education.md)
-- [แอนิเมชัน ดนตรี และความบันเทิง: 8 รายการ](prompts/stylized-entertainment.md)
-- [การควบคุม การแก้ไข และการต่อวิดีโอ: 10 รายการ](prompts/control-editing-extension.md)
-- [การแก้ไขขั้นสูง กล้อง และการแปลงภาพ: 9 รายการ](prompts/advanced-editing-camera.md)
-- [สตอรีบอร์ด แบ่งหน้าจอ ข้อความ และการประเมิน: 9 รายการ](prompts/storyboard-text-evaluation.md)
-
-
-
-## ลองใช้พรอมป์ต์แรก
-
-1. เลือกตัวอย่างฉบับเต็มที่ใกล้เคียงกับฉากที่อยากสร้าง แล้วคัดลอกพรอมป์ต์ทั้งหมด
-2. ดาวน์โหลดภาพอ้างอิงที่ตรงกับตัวอย่าง แล้วตั้งเป็นเฟรมแรก หากเครื่องมือที่ใช้รองรับ
-3. ปรับช่วงเวลาให้ตรงกับความยาวและความละเอียดที่เครื่องมือมีให้ สร้างฉบับร่างก่อน ตรวจสอบตัวแบบ ข้อความ และเสียง แล้วแก้ทีละอย่าง
-
 <a id="source-examples"></a>
 
-## พรอมป์ 3 ชุดสำหรับคัดลอก
+## 6 ตัวอย่างพร้อมคัดลอก
 
-ภาพเหล่านี้นำมาจากคลังต้นฉบับเพื่อใช้เป็นเฟรมแรกอ้างอิง ไม่ใช่ผลลัพธ์วิดีโอ ให้อัปโหลดภาพที่ตรงกันเป็น Image1 ความยาว 10 วินาทีและเสียงเป็นเป้าหมายที่ต้องปรับตามการตั้งค่าที่มี
+ภาพอ้างอิงเป็นข้อมูลอินพุต ไม่ใช่ผลลัพธ์ที่สร้างขึ้น
+
+[01 · ลำโพงสินค้า: จังหวะหยดน้ำ](#example-01) · [02 · ปั่นจักรยานบนสันเขา: เปิดสารคดี](#example-02) · [03 · ช่างนาฬิกากับนกกระดาษ: เรื่องเล่าภาพวาด](#example-03) · [04 · แก้วเซรามิกสีเขียวอมฟ้าในแสงยามเช้า](#example-04) · [05 · ท่าเรือกระดาษที่ค่อย ๆ เปิดไฟ](#example-05) · [06 · ถุงผ้าลินินสำหรับวิดีโอขายสินค้าหลายภาษา](#example-06)
+
+<a id="example-01"></a>
 
 ### 01 · ลำโพงสินค้า: จังหวะหยดน้ำ
 
-![ลำโพงสินค้า: จังหวะหยดน้ำ](assets/product-speaker.png)
+<a href="assets/product-speaker.png"><img src="assets/product-speaker.png" alt="ลำโพงสินค้า: จังหวะหยดน้ำ" width="420"></a>
+
+[โฆษณาและโซเชียลมีเดีย](prompts/commerce-social.md) · [ภาพอ้างอิงเฟรมแรก](assets/product-speaker.png) · [ข้อความล้วน](prompts/copy/showcase-01.txt)
 
 ```text
 Create a 10-second premium product film from Image1. Use Image1 as the exact starting frame.
@@ -80,9 +59,13 @@ Audio: original minimal electronic rhythm at 96 BPM, water-drop percussion, dist
 No product morphing, added controls, text, logo, watermark, hands, duplicate product or camera shake.
 ```
 
+<a id="example-02"></a>
+
 ### 02 · ปั่นจักรยานบนสันเขา: เปิดสารคดี
 
-![ปั่นจักรยานบนสันเขา: เปิดสารคดี](assets/travel-cyclist.png)
+<a href="assets/travel-cyclist.png"><img src="assets/travel-cyclist.png" alt="ปั่นจักรยานบนสันเขา: เปิดสารคดี" width="420"></a>
+
+[สารคดี ท่องเที่ยว และการศึกษา](prompts/documentary-education.md) · [ภาพอ้างอิงเฟรมแรก](assets/travel-cyclist.png) · [ข้อความล้วน](prompts/copy/showcase-02.txt)
 
 ```text
 Animate Image1 as a single continuous 10-second documentary tracking shot. Use it as the exact first frame.
@@ -93,9 +76,13 @@ Audio: close tire crunch and chain movement, strong ridge wind, one distant bird
 No cuts, drone rise, extra cyclists, landmark text, logo or watermark.
 ```
 
+<a id="example-03"></a>
+
 ### 03 · ช่างนาฬิกากับนกกระดาษ: เรื่องเล่าภาพวาด
 
-![ช่างนาฬิกากับนกกระดาษ: เรื่องเล่าภาพวาด](assets/clockmaker-story.png)
+<a href="assets/clockmaker-story.png"><img src="assets/clockmaker-story.png" alt="ช่างนาฬิกากับนกกระดาษ: เรื่องเล่าภาพวาด" width="420"></a>
+
+[แอนิเมชัน ดนตรี และความบันเทิง](prompts/stylized-entertainment.md) · [ภาพอ้างอิงเฟรมแรก](assets/clockmaker-story.png) · [ข้อความล้วน](prompts/copy/showcase-03.txt)
 
 ```text
 Bring this illustration to life in one coherent 10-second animated shot. Use Image1 as the first frame and preserve its watercolor-and-ink direction.
@@ -108,88 +95,13 @@ Audio: layered clock ticks, delicate paper folds, wooden gear creaks, then an or
 Keep the clockmaker's face, clothes and goggles consistent. No photorealism, subtitles, logo or watermark.
 ```
 
+<a id="example-04"></a>
 
+### 04 · แก้วเซรามิกสีเขียวอมฟ้าในแสงยามเช้า
 
-<a id="video-studies"></a>
+<a href="assets/seaimagine-ceramic-cup.png"><img src="assets/seaimagine-ceramic-cup.png" alt="แก้วเซรามิกสีเขียวอมฟ้าในแสงยามเช้า" width="420"></a>
 
-## เรียนรู้อะไรจากตัวอย่างทางการและชุมชน
-
-วิดีโออย่างเป็นทางการของ Google สาธิต Omni 1.1 Flash ส่วนโพสต์จากชุมชนเผยแพร่ในเดือนพฤษภาคม 2026 และเป็นตัวอย่างของ Omni / Flash รุ่นแรก ยังไม่ได้ยืนยันว่าเป็นการทดสอบรุ่น 1.1 หลักฐานของชุมชนมาจากข้อความและข้อมูลกำกับสื่อบนเว็บไซต์สำเนา FxTwitter โดยยังไม่ได้ตรวจสอบการเล่นวิดีโอต้นฉบับบน X ตัวอย่างเหล่านี้มาจากแหล่งภายนอก ไม่ใช่ผลลัพธ์จากแพลตฟอร์มที่คุณใช้ โปรดตรวจสอบฟังก์ชันที่มีในเครื่องมือของคุณ
-
-### Google: เชื่อมเฟรมแรกกับเฟรมสุดท้าย
-
-[ดูตัวอย่างต้นฉบับ](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
-
-กำหนดภาพเริ่มต้น ภาพสุดท้าย และการเคลื่อนไหวต่อเนื่องระหว่างสองภาพแยกกัน
-
-ถ่ายวัตถุชิ้นเดียวกันสองภาพจากมุมที่เชื่อมกันได้ หากมีฟังก์ชันเฟรมแรกและเฟรมสุดท้าย ให้เชื่อมด้วยการเคลื่อนไหวง่าย ๆ
-
-### Google: ต่อความยาวของช็อต
-
-[ดูตัวอย่างต้นฉบับ](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
-
-อธิบายการเคลื่อนกล้องถัดไปโดยคงตัวแบบและทิศทางการเคลื่อนไหว
-
-ใช้คลิปสั้นของคุณเอง หากต่อความยาวได้ ให้เพิ่มเพียงช่วงเดียว แล้วตรวจรอยต่อว่าการเคลื่อนไหวหรือแสงกระโดดหรือไม่
-
-### CHRIS FIRST: เปลี่ยนคนเป็นนกฟลามิงโก
-
-<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST: เปลี่ยนคนเป็นนกฟลามิงโก" width="300"></a>
-
-[ดูตัวอย่างต้นฉบับ](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
-
-เปลี่ยนตัวแบบแต่ระบุให้คงเสื้อผ้าและท่าทางไว้ ตรวจจุดสัมผัสของแขนขาด้วย
-
-หากแก้ไขวิดีโอได้ ให้เปลี่ยนตัวแบบเพียงตัวเดียวในคลิปของคุณ เปรียบเทียบเสื้อผ้า ท่าทาง และจุดสัมผัสพื้นก่อนกับหลัง
-
-### Justine Moore: เปลี่ยนหมวกทุกครั้งที่ปรบมือ
-
-<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore: เปลี่ยนหมวกทุกครั้งที่ปรบมือ" width="300"></a>
-
-[ดูตัวอย่างต้นฉบับ](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
-
-ใช้ท่าทางที่มองเห็นชัดเป็นจังหวะเปลี่ยน โดยคงใบหน้า เสื้อผ้า และกล้องไว้
-
-ตั้งกล้องนิ่งและถ่ายการปรบมือชัด ๆ สองครั้ง หากแก้ไขวิดีโอได้ ให้เปลี่ยนหมวกทุกครั้งที่ปรบมือ แล้วตรวจจังหวะทีละเฟรม
-
-[ตัวอย่างทางการและจากชุมชน](docs/community-examples.md)
-
-## อ่านเพิ่มเติม
-
-- [ตัวอย่างทางการและจากชุมชน](docs/community-examples.md)
-- [คู่มือหลายภาษา](docs/multilingual-guide.md)
-- [การออกแบบพรอมป์](docs/prompting-guide.md)
-- [สื่ออ้างอิงและสิทธิ์ใช้งาน](docs/reference-videos.md)
-
-<a id="brand-tools"></a>
-
-## เริ่มใช้ SeaImagine
-
-คลังนี้เก็บสูตรต้นฉบับทั้ง 60 รายการของ Flaq AI ไว้ และเพิ่มแบบฝึกหัด SeaImagine อีก 3 แบบพร้อมภาพอ้างอิงที่สร้างขึ้นใหม่ หน้านี้รวมแบบฝึกหัดใหม่ ตัวอย่างจากคลังต้นฉบับ และสิ่งที่เรียนรู้ได้จากตัวอย่างทางการกับชุมชน
-
-[Gemini Omni](https://seaimagine.com/th/model/gemini-omni/) · [Gemini Omni 1.1 Flash](https://seaimagine.com/th/model/gemini-omni-1-1-flash/)
-
-1. เปิดหน้ารุ่นโมเดลเพื่อตรวจสอบการเข้าใช้งาน ราคา และการตั้งค่าที่มีในขณะนี้
-2. หากต้องการรักษารูปลักษณ์สินค้าหรือตัวละคร ให้เลือกสร้างวิดีโอจากภาพ อัปโหลดภาพหนึ่งภาพ แล้ววางพรอมป์ที่ตรงกัน หากต้องการฉากใหม่ ให้ลองสร้างวิดีโอจากข้อความ
-3. เลือกความยาวและสัดส่วนภาพในหน้าจอ ทดลองหนึ่งช็อต ตรวจสอบรูปลักษณ์ การเคลื่อนไหว และเสียง แล้วปรับคำสั่งทีละข้อ
-
-เนื้อหานี้เป็นแนวทางเขียนพรอมป์ ไม่ใช่ผลลัพธ์ที่ทดสอบแล้วบน SeaImagine ความยาว เสียง การแก้ไข การต่อวิดีโอ และสื่ออ้างอิงขึ้นอยู่กับโมเดลและหน้าจอปัจจุบัน ฟีเจอร์ใน Google API ไม่ได้หมายความว่า SeaImagine รองรับด้วย
-
-<a id="sea-practice"></a>
-
-## แบบฝึกหัด SeaImagine 3 แบบพร้อมภาพอ้างอิงที่สร้างขึ้นใหม่
-
-ภาพอ้างอิงเหล่านี้สร้างด้วย AI เพื่อใช้เป็นเฟรมแรกสำหรับฝึก ไม่ใช่ผลวิดีโอ Gemini ที่ผ่านการทดสอบ ให้ใช้เฉพาะฟังก์ชันที่มีในหน้า SeaImagine ของคุณ
-
-### SEA-01 · แก้วเซรามิกสีเขียวอมฟ้าในแสงยามเช้า
-
-[![แก้วเซรามิกสีเขียวอมฟ้าในแสงยามเช้า](assets/seaimagine-ceramic-cup.png)](assets/seaimagine-ceramic-cup.png)
-
-เคลื่อนกล้องเข้าใกล้ช้า ๆ โดยคงหูจับ ขอบแก้ว และระดับของเหลวไว้ พร้อมเว้นพื้นที่ท้ายคลิปสำหรับข้อความ
-
-อัปโหลดภาพแก้วเพื่อสร้างวิดีโอ เริ่มจากการเคลื่อนกล้องเข้าใกล้เพียงอย่างเดียว ตรวจหูจับและระดับของเหลวก่อนใส่ข้อความ
-
-[ภาพเป็นวิดีโอ](https://seaimagine.com/th/image-to-video/) · [สร้างภาพด้วย AI](https://seaimagine.com/th/ai-image-generator/)
+[โฆษณาและโซเชียลมีเดีย](prompts/commerce-social.md) · [ภาพอ้างอิงเฟรมแรก](assets/seaimagine-ceramic-cup.png) · [ข้อความล้วน](prompts/copy/showcase-04.txt)
 
 ```text
 Use the uploaded ceramic-cup image as the exact first frame. Create a 10-second, 16:9 product shot.
@@ -201,15 +113,13 @@ Audio, if supported: quiet room ambience and one distant bird. No speech or musi
 No pouring, added cup, new handle, object morphing, generated text, logo or watermark.
 ```
 
-### SEA-02 · ท่าเรือกระดาษที่ค่อย ๆ เปิดไฟ
+<a id="example-05"></a>
 
-[![ท่าเรือกระดาษที่ค่อย ๆ เปิดไฟ](assets/seaimagine-paper-harbor.png)](assets/seaimagine-paper-harbor.png)
+### 05 · ท่าเรือกระดาษที่ค่อย ๆ เปิดไฟ
 
-ในช็อตเดียว ให้ประภาคารเปิดไฟ แล้วเพิ่มความสว่างที่หน้าต่างบ้านทั้งสามหลังทีละหลัง โดยคงพื้นผิวกระดาษและรูปทรงเดิม
+<a href="assets/seaimagine-paper-harbor.png"><img src="assets/seaimagine-paper-harbor.png" alt="ท่าเรือกระดาษที่ค่อย ๆ เปิดไฟ" width="420"></a>
 
-อัปโหลดภาพท่าเรือ ขอให้ประภาคารเปิดไฟแล้วเพิ่มความสว่างของหน้าต่างตามลำดับ เปรียบเทียบรูปทรงอาคารตอนต้นกับตอนท้าย
-
-[ภาพเป็นวิดีโอ](https://seaimagine.com/th/image-to-video/) · [สร้างภาพด้วย AI](https://seaimagine.com/th/ai-image-generator/)
+[แอนิเมชัน ดนตรี และความบันเทิง](prompts/stylized-entertainment.md) · [ภาพอ้างอิงเฟรมแรก](assets/seaimagine-paper-harbor.png) · [ข้อความล้วน](prompts/copy/showcase-05.txt)
 
 ```text
 Use the uploaded paper-harbor image as the exact first frame. Animate a single 10-second, 16:9 shot while retaining the handcrafted paper texture, folds and miniature scale.
@@ -221,15 +131,13 @@ Audio, if supported: a quiet original celesta phrase, no voices.
 No ocean waves, added buildings, extra boats, rotating tower, camera cut, text, logo or watermark.
 ```
 
-### SEA-03 · ถุงผ้าลินินสำหรับวิดีโอขายสินค้าหลายภาษา
+<a id="example-06"></a>
 
-<a href="assets/seaimagine-linen-pouch.png"><img src="assets/seaimagine-linen-pouch.png" alt="ถุงผ้าลินินสำหรับวิดีโอขายสินค้าหลายภาษา" width="360"></a>
+### 06 · ถุงผ้าลินินสำหรับวิดีโอขายสินค้าหลายภาษา
 
-สร้างวิดีโอสินค้าแนวตั้งที่ไม่มีตัวอักษรก่อน แล้วใส่ข้อความแต่ละภาษาด้วยโปรแกรมตัดต่อทั่วไป
+<a href="assets/seaimagine-linen-pouch.png"><img src="assets/seaimagine-linen-pouch.png" alt="ถุงผ้าลินินสำหรับวิดีโอขายสินค้าหลายภาษา" width="420"></a>
 
-ใช้ภาพถุงผ้าสร้างวิดีโอแนวตั้ง แล้วใส่ข้อความที่แปลไว้ภายหลัง ใช้คำสั่งแก้ไขวิดีโอแบบสั้นเฉพาะเมื่อมีฟังก์ชันนี้
-
-[ภาพเป็นวิดีโอ](https://seaimagine.com/th/image-to-video/) · [สร้างภาพด้วย AI](https://seaimagine.com/th/ai-image-generator/)
+[โฆษณาและโซเชียลมีเดีย](prompts/commerce-social.md) · [ภาพอ้างอิงเฟรมแรก](assets/seaimagine-linen-pouch.png) · [ข้อความล้วน](prompts/copy/showcase-06.txt)
 
 ```text
 Use the uploaded linen-pouch photograph as the exact first frame. Create a 10-second, 9:16 vertical ecommerce product shot.
@@ -241,21 +149,48 @@ Audio, if supported: soft room tone. No speech or music.
 Do not generate any lettering, subtitles, symbols, price, logo, watermark, extra bag or moving string.
 ```
 
-> ให้ทุกวันเรียบง่ายขึ้น
+ให้ทุกวันเรียบง่ายขึ้น
 
-[ขั้นตอนใช้งาน SeaImagine](docs/seaimagine-workflow.md)
+<a id="video-studies"></a>
 
-## เครื่องมืออื่นของ SeaImagine
+## ผลงานจากทางการและชุมชน
+
+ตัวอย่างจากทางการใช้ Gemini Omni 1.1 Flash ส่วนตัวอย่างจากชุมชนมาจากเดือนพฤษภาคม 2026 และใช้ Omni รุ่นแรก ๆ ลิงก์จะนำไปยังโพสต์ต้นฉบับ คลังนี้ไม่ได้อ้างว่าได้สร้างผลลัพธ์เหล่านี้ซ้ำ หลักฐานจากชุมชนมาจาก FxTwitter และยังไม่ได้ตรวจสอบการเล่นวิดีโอบน X โดยตรง
+
+| Google · Omni 1.1 Flash | ลิงก์ |
+|---|---|
+| ต่อฉากแบบภาพยนตร์ | [ชมวิดีโอ](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) |
+| เปลี่ยนผ่านจากเฟรมแรกถึงเฟรมสุดท้าย | [ชมวิดีโอ](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) |
+| ฉบับร่างไดอะตอมทะเล 360p | [ชมวิดีโอ](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/kw_omni-flash__capability-video__draft-360p__16x9__v1_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) |
+| การเต้นตามวิดีโออ้างอิง | [ชมวิดีโอ](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__video-reference__16x9.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) |
+
+| X · Omni / Flash · 2026-05 | X · Omni / Flash · 2026-05 |
+|---|---|
+| **เปลี่ยนคนเป็นฟลามิงโก**<br><a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="เปลี่ยนคนเป็นฟลามิงโก" width="240"></a><br>CHRIS FIRST<br>[แหล่งที่มา](https://x.com/chrisfirst/status/2056797606509158681) · [ชมวิดีโอ](https://video.twimg.com/amplify_video/2056797343085969408/vid/avc1/1080x1440/UYr_7RKomiginRgq.mp4?tag=27) | **เปลี่ยนหมวกทุกครั้งที่ปรบมือ**<br><a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="เปลี่ยนหมวกทุกครั้งที่ปรบมือ" width="240"></a><br>Justine Moore<br>[แหล่งที่มา](https://x.com/venturetwins/status/2056793856843366789) · [ชมวิดีโอ](https://video.twimg.com/amplify_video/2056793760273686528/vid/avc1/720x1280/Q73liRfIjPtGSveL.mp4?tag=27) |
+| **อธิบายการสังเคราะห์ด้วยแสง**<br><a href="https://x.com/mrfanduu/status/2056692235174097398"><img src="https://pbs.twimg.com/amplify_video_thumb/2056691792175833088/img/W0_pZkQwRicpRjjG.jpg" alt="อธิบายการสังเคราะห์ด้วยแสง" width="240"></a><br>Fandu<br>[แหล่งที่มา](https://x.com/mrfanduu/status/2056692235174097398) · [ชมวิดีโอ](https://video.twimg.com/amplify_video/2056691792175833088/vid/avc1/1280x720/Ws-92fvVr5e-FkYZ.mp4?tag=14) | **ซูมลอนดอนอายแบบถือกล้อง**<br><a href="https://x.com/fofrAI/status/2056789242274259242"><img src="https://pbs.twimg.com/amplify_video_thumb/2056503814874861569/img/mQnHwThYDypoS1H6.jpg" alt="ซูมลอนดอนอายแบบถือกล้อง" width="240"></a><br>fofr<br>[แหล่งที่มา](https://x.com/fofrAI/status/2056789242274259242) · [ชมวิดีโอ](https://video.twimg.com/amplify_video/2056503814874861569/vid/avc1/1280x720/Lc2C4YtTflfGA8qe.mp4?tag=27) |
+| **เปรียบเทียบคลิปต้นฉบับกับคลิปที่แก้ไข**<br><a href="https://x.com/Mho_23/status/2057151867927601413"><img src="https://pbs.twimg.com/amplify_video_thumb/2057151701904146432/img/yhVQfdBM34BQJjV3.jpg" alt="เปรียบเทียบคลิปต้นฉบับกับคลิปที่แก้ไข" width="240"></a><br>Miko<br>[แหล่งที่มา](https://x.com/Mho_23/status/2057151867927601413) · [ชมวิดีโอ](https://video.twimg.com/amplify_video/2057151701904146432/vid/avc1/1080x1920/JfeFoDd5udd_FRR7.mp4?tag=27) | **เหยือกเปลี่ยนวัสดุเมื่อสัมผัส**<br><a href="https://x.com/alexanderchen/status/2057176690519089166"><img src="https://pbs.twimg.com/amplify_video_thumb/2057176000459612161/img/wTZ0HcgL_8PHxwbY.jpg" alt="เหยือกเปลี่ยนวัสดุเมื่อสัมผัส" width="240"></a><br>Alexander Chen<br>[แหล่งที่มา](https://x.com/alexanderchen/status/2057176690519089166) · [ชมวิดีโอ](https://video.twimg.com/amplify_video/2057176000459612161/vid/avc1/1280x720/LRzM8IueMomPMa7J.mp4?tag=27) · [พรอมป์ต์ฉบับเต็ม](https://x.com/alexanderchen/status/2057176691903279524) |
+[แหล่งที่มา / FxTwitter](docs/community-examples.md)
+
+## เอกสารเพิ่มเติม
+
+บทสอนอยู่ในหน้าแยก [ดู](docs/guides/README_TH.md)
+
+[การออกแบบพรอมป์](docs/prompting-guide.md) · [คู่มือหลายภาษา](docs/multilingual-guide.md) · [สื่ออ้างอิงและสิทธิ์ใช้งาน](docs/reference-videos.md)
+
+<a id="brand-tools"></a>
+
+## สร้างด้วย SeaImagine
+
+[Gemini Omni](https://seaimagine.com/th/model/gemini-omni/) · [Gemini Omni 1.1 Flash](https://seaimagine.com/th/model/gemini-omni-1-1-flash/)
+
+[ภาพเป็นวิดีโอ](https://seaimagine.com/th/image-to-video/) · [ข้อความเป็นวิดีโอ](https://seaimagine.com/th/text-to-video/) · [สร้างภาพด้วย AI](https://seaimagine.com/th/ai-image-generator/)
 
 ใช้หน้าเหล่านี้เป็นทางเลือกเริ่มต้นอื่นได้ ตรวจสอบโมเดล เงื่อนไข และราคาปัจจุบันในแต่ละหน้า คลังนี้ไม่รับประกันว่าบริการจะพร้อมใช้ตลอดเวลา
 
-- [เริ่มสร้าง](https://seaimagine.com/th/create/)
-- [ภาพเป็นวิดีโอ](https://seaimagine.com/th/image-to-video/)
-- [ข้อความเป็นวิดีโอ](https://seaimagine.com/th/text-to-video/)
-- [สร้างภาพด้วย AI](https://seaimagine.com/th/ai-image-generator/)
+[ขั้นตอนใช้งาน SeaImagine](docs/seaimagine-workflow.md)
 
 ## แหล่งที่มาและสัญญาอนุญาต
 
 ดัดแปลงจากคลัง Flaq AI รวมถึงชุดพรอมป์และภาพอ้างอิง 3 ภาพ เนื้อหาจึงไม่ได้สร้างขึ้นใหม่โดย SeaImagine ทั้งหมด คู่มือนี้เป็นโครงการอิสระ ไม่ใช่ผลิตภัณฑ์ทางการของ Google
 
-[Flaq AI · awesome-gemini-omni-flash](https://github.com/flaqai/awesome-gemini-omni-flash) · [MIT](LICENSE)
+[Flaq AI · awesome-gemini-omni-flash](https://github.com/flaqai/awesome-gemini-omni-flash) · [MIT](LICENSE) · [Contributing](CONTRIBUTING.md)

@@ -6,7 +6,28 @@
 
 风格化不等于模仿具体艺术家。本页用媒介、材料、线条、色彩、帧感和制作工艺描述原创美术方向。
 
+<a id="case-index"></a>
+
+<!-- catalog:toc:start -->
+**本页案例 / Cases** · [全部 60 例 / All 60 cases](../docs/prompt-index.md)
+
+- [01 · 钟楼纸鸟](#case-01) · [TXT](copy/stylized-entertainment-01.txt)
+- [02 · 霓虹鱼市的包裹追逐](#case-02) · [TXT](copy/stylized-entertainment-02.txt)
+- [03 · 黏土小厨师的煎饼事故](#case-03) · [TXT](copy/stylized-entertainment-03.txt)
+- [04 · 办公室里的“周五模式”](#case-04) · [TXT](copy/stylized-entertainment-04.txt)
+- [05 · 屋顶爵士三重奏](#case-05) · [TXT](copy/stylized-entertainment-05.txt)
+- [06 · 镜面舞室：固定机位双人舞](#case-06) · [TXT](copy/stylized-entertainment-06.txt)
+- [07 · 剪纸月兔的影子戏](#case-07) · [TXT](copy/stylized-entertainment-07.txt)
+- [08 · 玻璃花房的无缝循环](#case-08) · [TXT](copy/stylized-entertainment-08.txt)
+<!-- catalog:toc:end -->
+
+<a id="case-01"></a>
+
 ## 01｜钟楼纸鸟
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/stylized-entertainment-01.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **模式：** 首帧图生视频 · **素材：** [源库参考首帧](../assets/clockmaker-story.png) · **画幅：** 16:9
 
@@ -22,7 +43,13 @@ Audio: layered clock ticks, delicate paper folds, wooden gear creaks, then a sma
 Keep the clockmaker's face, clothes and goggles consistent. No photorealism, no subtitles, no logo, no watermark.
 ```
 
+<a id="case-02"></a>
+
 ## 02｜霓虹鱼市的包裹追逐
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/stylized-entertainment-02.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **模式：** 文生动画 · **画幅：** 16:9 · **重点：** 动作连贯、原创动画方向
 
@@ -35,7 +62,13 @@ Audio: wooden hull knocks, rope strain, market voices as indistinct texture, han
 Keep cape, parcel, gull scale and boat layout consistent. No slideshow, no still-image pans, no recognizable franchise design, no text, logo or watermark.
 ```
 
+<a id="case-03"></a>
+
 ## 03｜黏土小厨师的煎饼事故
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/stylized-entertainment-03.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **模式：** 文生定格动画 · **画幅：** 4:3 构图输出于 16:9 · **重点：** 材料感、喜剧节拍
 
@@ -49,7 +82,13 @@ Audio: miniature pan sizzle, paper hat rustle, three ceramic taps, soft pancake 
 No realistic human hands, no melting character, no extra food, no text, brand, logo or watermark.
 ```
 
+<a id="case-04"></a>
+
 ## 04｜办公室里的“周五模式”
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/stylized-entertainment-04.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **模式：** 文生喜剧短视频 · **画幅：** 9:16 · **重点：** Meme 节奏、可读字幕卡而非挪用模板
 
@@ -64,7 +103,13 @@ Audio: keyboard rhythm transforms into an original disco beat at 5s, chair wheel
 Keep the same worker and office; only the quoted text may appear. No brand UI, no copyrighted song, no extra limbs, no logo or watermark.
 ```
 
+<a id="case-05"></a>
+
 ## 05｜屋顶爵士三重奏
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/stylized-entertainment-05.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **模式：** 文生音乐现场 · **画幅：** 16:9 · **重点：** 原创音乐、乐器同步、城市环境声
 
@@ -77,7 +122,13 @@ Audio: intimate original jazz at approximately 88 BPM, precise instrument-to-han
 Natural sunset exposure, documentary lensing, same musicians and instruments throughout. No impossible fingering, duplicate instruments, text, logos or watermark.
 ```
 
+<a id="case-06"></a>
+
 ## 06｜镜面舞室：固定机位双人舞
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/stylized-entertainment-06.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **模式：** 文生舞蹈 · **画幅：** 9:16 · **重点：** 全身构图、镜像一致性、单镜头
 
@@ -91,7 +142,13 @@ Lighting: soft north-window daylight, realistic floor reflections, no stage effe
 Preserve faces, clothing colors, body proportions and left/right positions. No cuts, close-ups, camera shake, impossible joints, text, logo or watermark.
 ```
 
+<a id="case-07"></a>
+
 ## 07｜剪纸月兔的影子戏
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/stylized-entertainment-07.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **模式：** 文生民间媒介风格 · **画幅：** 16:9 · **重点：** 材料描述、文化克制
 
@@ -105,7 +162,13 @@ Audio: paper movement, small woodblock pulse, bamboo flute playing an original t
 No written calligraphy, cultural symbols used as decoration, photorealistic fur, extra characters, logo or watermark.
 ```
 
+<a id="case-08"></a>
+
 ## 08｜玻璃花房的无缝循环
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/stylized-entertainment-08.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **模式：** 同一图片作为首尾帧 · **画幅：** 16:9 · **重点：** 可循环动作、首尾完全一致
 

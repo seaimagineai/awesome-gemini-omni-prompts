@@ -1,0 +1,11 @@
+Create a 10-second psychological suspense scene with no gore and no monster reveal.
+
+Scene: a night security desk in an empty municipal archive. Fluorescent lights turn off in rows toward a closed records-room door. An analog desk fan continues turning.
+[0-3s] Fixed medium shot from behind the guard. A knock sounds once from the closed door. The guard stops writing. Under the door, one human shadow is visible.
+[3-6s] The guard slowly stands and takes one step closer. The first shadow remains still while a second, much narrower shadow crosses behind it from left to right. The fan squeak stops abruptly.
+[6-9s] Very slow push toward the gap beneath the door. The guard whispers in English, "The building is closed." From the other side, the same voice answers at exactly the same volume: "I know."
+[9-10s] The desk phone rings behind camera. Hard cut to black on the first ring.
+
+Lighting: sickly practical fluorescence, deep but readable shadows, no colored horror lighting.
+Audio must carry the tension: room tone, paper, fan motor, two distinct spatial voice positions, one phone ring. No music.
+Do not show a creature, face, blood, subtitles, logos, extra doors or watermark.

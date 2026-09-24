@@ -6,7 +6,30 @@
 
 本页重点不是题材，而是把 Gemini Omni 1.1 Flash 的输入角色、短编辑指令和多轮续写用对。尖括号标签按上传顺序编号，从 0 开始。
 
+<a id="case-index"></a>
+
+<!-- catalog:toc:start -->
+**本页案例 / Cases** · [全部 60 例 / All 60 cases](../docs/prompt-index.md)
+
+- [01 · 角色 + 道具：职责分离](#case-01) · [TXT](copy/control-editing-extension-01.txt)
+- [02 · 首尾帧：纸模型变成真实建筑](#case-02) · [TXT](copy/control-editing-extension-02.txt)
+- [03 · 同图首尾帧：可复用商品循环](#case-03) · [TXT](copy/control-editing-extension-03.txt)
+- [04 · 动作视频参考 + 独立角色参考](#case-04) · [TXT](copy/control-editing-extension-04.txt)
+- [05 · 局部编辑：只添加一个对象](#case-05) · [TXT](copy/control-editing-extension-05.txt)
+- [06 · 局部编辑：移除对象并保持物理合理](#case-06) · [TXT](copy/control-editing-extension-06.txt)
+- [07 · 屏幕文字本地化](#case-07) · [TXT](copy/control-editing-extension-07.txt)
+- [08 · 换时间与光线，不换内容](#case-08) · [TXT](copy/control-editing-extension-08.txt)
+- [09 · 一次自然续写](#case-09) · [TXT](copy/control-editing-extension-09.txt)
+- [10 · 四段式 40 秒叙事链](#case-10) · [TXT](copy/control-editing-extension-10.txt)
+<!-- catalog:toc:end -->
+
+<a id="case-01"></a>
+
 ## 01｜角色 + 道具：职责分离
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/control-editing-extension-01.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **输入：** Image1 角色正面全身，Image2 虚构手提灯产品图。
 
@@ -20,7 +43,13 @@ Audio: grass, footsteps, distant thunder, lantern switch click. No dialogue or m
 Preserve identity, clothes, lantern geometry and color. No extra people, product text, logo or watermark.
 ```
 
+<a id="case-02"></a>
+
 ## 02｜首尾帧：纸模型变成真实建筑
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/control-editing-extension-02.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **输入：** Image1 纸模型，Image2 同构图建成后的建筑。
 
@@ -34,7 +63,13 @@ Audio evolves from paper scoring and tabletop contact to outdoor wind and distan
 No dissolve, explosion, cranes, people, text, logo or watermark. End exactly on Image2.
 ```
 
+<a id="case-03"></a>
+
 ## 03｜同图首尾帧：可复用商品循环
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/control-editing-extension-03.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 ```text
 [# Sources <FIRST_FRAME>@Image1 <LAST_FRAME>@Image1]
@@ -46,7 +81,13 @@ Audio: one soft spatial sweep that loops without a click. No music, voice or ext
 Preserve every product detail. No morphing, new text, logo, watermark or camera movement.
 ```
 
+<a id="case-04"></a>
+
 ## 04｜动作视频参考 + 独立角色参考
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/control-editing-extension-04.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 **输入：** Video1 为已授权的 3 秒舞步参考，Image1 为原创角色。
 
@@ -60,7 +101,13 @@ Audio: original dry percussion matching the movement timing, shoe contact and ro
 Do not copy the reference background, other people, branding or audio. No identity drift, text, logo or watermark.
 ```
 
+<a id="case-05"></a>
+
 ## 05｜局部编辑：只添加一个对象
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/control-editing-extension-05.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 在生成视频的下一轮发送：
 
@@ -74,7 +121,13 @@ Add one small black cat that enters from frame right, jumps onto the empty chair
 Restore the original person's exact pose and movement. Keep the cat on the chair and keep everything else the same.
 ```
 
+<a id="case-06"></a>
+
 ## 06｜局部编辑：移除对象并保持物理合理
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/control-editing-extension-06.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 ```text
 Remove the red suitcase beside the doorway. Reconstruct the floor and its existing shadow naturally. Keep everything else exactly the same, including the person's hands, walking path, camera motion, lighting and audio.
@@ -82,7 +135,13 @@ Remove the red suitcase beside the doorway. Reconstruct the floor and its existi
 
 原则：编辑提示词不要重新描述整段原视频；重述越多，意外变化越多。
 
+<a id="case-07"></a>
+
 ## 07｜屏幕文字本地化
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/control-editing-extension-07.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 原片末尾文字为 `OPEN LATE`，分别制作本地化版本：
 
@@ -98,7 +157,13 @@ Change only the final sign text from "OPEN LATE" to Japanese: "深夜まで営�
 Change only the final sign text from "OPEN LATE" to Spanish: "ABIERTO HASTA TARDE". Preserve spelling exactly. Keep everything else the same.
 ```
 
+<a id="case-08"></a>
+
 ## 08｜换时间与光线，不换内容
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/control-editing-extension-08.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 ```text
 Change only the time of day from overcast noon to blue hour just after sunset. Turn on the existing practical lamps and add physically consistent reflections. Preserve all people, faces, actions, objects, camera motion, timing and audio. Keep everything else the same.
@@ -110,7 +175,13 @@ Change only the time of day from overcast noon to blue hour just after sunset. T
 Add light rain outside the windows only. Keep the interior dry and keep everything else the same.
 ```
 
+<a id="case-09"></a>
+
 ## 09｜一次自然续写
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/control-editing-extension-09.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 在已生成视频后，通过 `previous_interaction_id` 发送：
 
@@ -124,7 +195,13 @@ Extend the scene by 8 seconds. Continue the same camera movement and show the sa
 Extend by 8 seconds with a clean scene cut at the start of the extension. Show the same character the next morning in the same clothing, arriving at the river ferry. Continue the musical theme in a lighter arrangement.
 ```
 
+<a id="case-10"></a>
+
 ## 10｜四段式 40 秒叙事链
+
+<!-- catalog:copy:start -->
+[复制全文 / Download TXT](copy/control-editing-extension-10.txt) · [本页索引 / Case index](#case-index)
+<!-- catalog:copy:end -->
 
 每轮只描述新增长的 10 秒，并通过上一轮的 interaction ID 续写。
 

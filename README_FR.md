@@ -4,70 +4,49 @@
 
 # Bibliothèque de prompts Gemini Omni
 
-**Retrouvez les 60 recettes complètes de la bibliothèque d’origine, réparties en sept catégories. Apprenez à décrire une scène, à rythmer les actions et à diriger la caméra et le son, puis adaptez un exemple à votre idée.**
+**60 prompts répartis en 7 catégories, avec 6 images de référence à utiliser en entrée, et non des résultats générés et vérifiés.**
 
 [English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md)
 
 [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
 
-
-
-[Les 60 prompts](#prompt-collections) · [Trois prompts à copier](#source-examples) · [Exemples officiels et communautaires](#video-studies) · [Guide multilingue](docs/multilingual-guide.md)
+[Parcourir par catégorie](#prompt-collections) · [Six exemples prêts à copier](#source-examples) · [Résultats officiels et de la communauté](#video-studies) · [Index des 60 prompts](docs/prompt-index.md) · [Télécharger tous les prompts au format texte](prompts/copy/all-prompts.txt)
 
 </div>
 
-## Contenu
-
-Cette liste décrit des éléments à prévoir dans les prompts, sans garantir leur disponibilité. Vérifiez les entrées, le montage, la prolongation, le son et la résolution disponibles pour le modèle sélectionné dans votre outil. Testez d’abord la composition, les paroles et le texte avec un aperçu disponible. L’API de Google (interface de programmation) et l’interface de votre outil sont distinctes.
-
-- Texte-vers-vidéo, image-vers-vidéo, première/dernière image et références de sujets.
-- Conception conjointe de l’image, des ambiances, du bruitage, de la musique originale, du silence et du dialogue.
-- Règles de dialogue et de texte à l’écran pour 15 langues.
-
-## Dialogues en français
-
-Vous pouvez conserver les consignes de mise en scène en anglais et préciser mot pour mot le dialogue et le texte visible en français. Vérifiez prononciation, orthographe et synchronisation.
-
-```text
-Spoken language: French.
-Exact dialogue at 6s, spoken once with natural conversational pacing: "Aujourd'hui, prenons le chemin le plus long pour rentrer."
-Do not translate, paraphrase, repeat or subtitle it.
-
-Exact on-screen French title: "PETITS VOYAGES"
-Preserve accents, apostrophes and spelling exactly. No other text.
-```
-
 <a id="prompt-collections"></a>
 
-## Les 60 prompts
+## Parcourir par catégorie
+
+| Catégorie | Prompts | Liens |
+|---|---:|---|
+| [Cinéma et narration ](prompts/cinematic-storytelling.md) | 8 | [Voir](prompts/cinematic-storytelling.md#case-01) |
+| [Commerce et réseaux sociaux ](prompts/commerce-social.md) | 8 | [Voir](prompts/commerce-social.md#case-01) |
+| [Documentaire, voyage et éducation ](prompts/documentary-education.md) | 8 | [Voir](prompts/documentary-education.md#case-01) |
+| [Animation, musique et divertissement ](prompts/stylized-entertainment.md) | 8 | [Voir](prompts/stylized-entertainment.md#case-01) |
+| [Contrôle, édition et extension ](prompts/control-editing-extension.md) | 10 | [Voir](prompts/control-editing-extension.md#case-01) |
+| [Montage avancé, caméra et transformation visuelle ](prompts/advanced-editing-camera.md) | 9 | [Voir](prompts/advanced-editing-camera.md#case-01) |
+| [Storyboards, écrans partagés, texte et évaluation ](prompts/storyboard-text-evaluation.md) | 9 | [Voir](prompts/storyboard-text-evaluation.md#case-01) |
+
+[Index des 60 prompts](docs/prompt-index.md) · [Télécharger tous les prompts au format texte](prompts/copy/all-prompts.txt)
 
 Les cinq premières collections sont expliquées en chinois et les deux dernières en anglais. Tous les prompts à copier sont en anglais. Les collections ne sont pas intégralement traduites.
 
-- [Cinéma et narration : 8 prompts](prompts/cinematic-storytelling.md)
-- [Commerce et réseaux sociaux : 8 prompts](prompts/commerce-social.md)
-- [Documentaire, voyage et éducation : 8 prompts](prompts/documentary-education.md)
-- [Animation, musique et divertissement : 8 prompts](prompts/stylized-entertainment.md)
-- [Contrôle, édition et extension : 10 recettes](prompts/control-editing-extension.md)
-- [Montage avancé, caméra et transformation visuelle : 9 prompts](prompts/advanced-editing-camera.md)
-- [Storyboards, écrans partagés, texte et évaluation : 9 prompts](prompts/storyboard-text-evaluation.md)
-
-
-
-## Essayez votre premier prompt
-
-1. Choisissez un exemple complet proche de la scène souhaitée et copiez tout le prompt.
-2. Téléchargez l’image de référence correspondante et utilisez-la comme première image si votre outil propose cette option.
-3. Adaptez les repères temporels à la durée et à la résolution disponibles. Générez un brouillon, vérifiez le sujet, le texte et le son, puis modifiez un seul élément à la fois.
-
 <a id="source-examples"></a>
 
-## Trois prompts à copier
+## Six exemples prêts à copier
 
-Ces images sont des premières images de référence reprises du dépôt source, pas des résultats vidéo. Importez l’image correspondante comme Image1. Les 10 secondes et le son indiquent le résultat souhaité ; adaptez-les aux réglages disponibles.
+Les images de référence servent de ressources d’entrée ; ce ne sont pas des résultats générés.
+
+[01 · Enceinte : rythme des gouttes](#example-01) · [02 · Cyclisme sur une crête : ouverture documentaire](#example-02) · [03 · Horloger et oiseaux de papier : récit illustré](#example-03) · [04 · Une tasse en céramique bleu-vert au petit matin](#example-04) · [05 · Un port en papier qui s’illumine](#example-05) · [06 · Une pochette en lin pour une boutique multilingue](#example-06)
+
+<a id="example-01"></a>
 
 ### 01 · Enceinte : rythme des gouttes
 
-![Enceinte : rythme des gouttes](assets/product-speaker.png)
+<a href="assets/product-speaker.png"><img src="assets/product-speaker.png" alt="Enceinte : rythme des gouttes" width="420"></a>
+
+[Commerce et réseaux sociaux ](prompts/commerce-social.md) · [Image initiale de référence](assets/product-speaker.png) · [Texte brut](prompts/copy/showcase-01.txt)
 
 ```text
 Create a 10-second premium product film from Image1. Use Image1 as the exact starting frame.
@@ -80,9 +59,13 @@ Audio: original minimal electronic rhythm at 96 BPM, water-drop percussion, dist
 No product morphing, added controls, text, logo, watermark, hands, duplicate product or camera shake.
 ```
 
+<a id="example-02"></a>
+
 ### 02 · Cyclisme sur une crête : ouverture documentaire
 
-![Cyclisme sur une crête : ouverture documentaire](assets/travel-cyclist.png)
+<a href="assets/travel-cyclist.png"><img src="assets/travel-cyclist.png" alt="Cyclisme sur une crête : ouverture documentaire" width="420"></a>
+
+[Documentaire, voyage et éducation ](prompts/documentary-education.md) · [Image initiale de référence](assets/travel-cyclist.png) · [Texte brut](prompts/copy/showcase-02.txt)
 
 ```text
 Animate Image1 as a single continuous 10-second documentary tracking shot. Use it as the exact first frame.
@@ -93,9 +76,13 @@ Audio: close tire crunch and chain movement, strong ridge wind, one distant bird
 No cuts, drone rise, extra cyclists, landmark text, logo or watermark.
 ```
 
+<a id="example-03"></a>
+
 ### 03 · Horloger et oiseaux de papier : récit illustré
 
-![Horloger et oiseaux de papier : récit illustré](assets/clockmaker-story.png)
+<a href="assets/clockmaker-story.png"><img src="assets/clockmaker-story.png" alt="Horloger et oiseaux de papier : récit illustré" width="420"></a>
+
+[Animation, musique et divertissement ](prompts/stylized-entertainment.md) · [Image initiale de référence](assets/clockmaker-story.png) · [Texte brut](prompts/copy/showcase-03.txt)
 
 ```text
 Bring this illustration to life in one coherent 10-second animated shot. Use Image1 as the first frame and preserve its watercolor-and-ink direction.
@@ -108,88 +95,13 @@ Audio: layered clock ticks, delicate paper folds, wooden gear creaks, then an or
 Keep the clockmaker's face, clothes and goggles consistent. No photorealism, subtitles, logo or watermark.
 ```
 
+<a id="example-04"></a>
 
+### 04 · Une tasse en céramique bleu-vert au petit matin
 
-<a id="video-studies"></a>
+<a href="assets/seaimagine-ceramic-cup.png"><img src="assets/seaimagine-ceramic-cup.png" alt="Une tasse en céramique bleu-vert au petit matin" width="420"></a>
 
-## Ce qu’enseignent les exemples officiels et communautaires
-
-Les vidéos officielles de Google présentent Omni 1.1 Flash. Les publications de la communauté datent de mai 2026 et concernent les premiers Omni / Flash ; elles ne sont pas confirmées comme des essais de la version 1.1. Les éléments disponibles proviennent du texte et des métadonnées du miroir FxTwitter ; la lecture directe sur X n’a pas été vérifiée. Ce sont des exemples externes, pas des résultats de la plateforme que vous utilisez. Vérifiez les fonctions proposées par votre outil.
-
-### Google : transition entre deux images clés
-
-[Voir l’exemple original](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
-
-Définissez séparément l’image de départ, celle d’arrivée et le mouvement continu qui les relie.
-
-Prenez deux photos du même objet sous des angles compatibles. Si les images de début et de fin sont acceptées, reliez-les par un mouvement simple.
-
-### Google : prolonger un plan
-
-[Voir l’exemple original](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
-
-Décrivez le mouvement de caméra suivant tout en conservant le sujet et sa direction.
-
-Utilisez votre propre clip. Si la prolongation est disponible, ajoutez une seule suite et recherchez les ruptures de mouvement ou d’éclairage au raccord.
-
-### CHRIS FIRST : transformer les personnes en flamants roses
-
-<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST : transformer les personnes en flamants roses" width="300"></a>
-
-[Voir l’exemple original](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
-
-Remplacez le sujet en demandant de conserver ses vêtements et son action ; vérifiez les points de contact des membres.
-
-Si la retouche vidéo est disponible, remplacez un seul sujet dans votre clip. Comparez les vêtements, la posture et le contact avec le sol.
-
-### Justine Moore : changer de chapeau à chaque claquement de mains
-
-<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore : changer de chapeau à chaque claquement de mains" width="300"></a>
-
-[Voir l’exemple original](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
-
-Utilisez un geste visible pour déclencher chaque changement, sans modifier le visage, la tenue ni la caméra.
-
-Filmez deux claquements de mains nets avec une caméra fixe. Si la retouche vidéo est disponible, demandez un changement de chapeau à chaque geste et vérifiez le moment image par image.
-
-[Exemples officiels et communautaires](docs/community-examples.md)
-
-## Pour aller plus loin
-
-- [Exemples officiels et communautaires](docs/community-examples.md)
-- [Guide multilingue](docs/multilingual-guide.md)
-- [Conception des prompts](docs/prompting-guide.md)
-- [Références et autorisations](docs/reference-videos.md)
-
-<a id="brand-tools"></a>
-
-## Premiers pas avec SeaImagine
-
-Cette bibliothèque conserve les 60 recettes de Flaq AI et ajoute trois exercices SeaImagine avec des images originales. Retrouvez ici ces exercices, les exemples du dépôt source et les enseignements des cas officiels et communautaires.
-
-[Gemini Omni](https://seaimagine.com/fr/model/gemini-omni/) · [Gemini Omni 1.1 Flash](https://seaimagine.com/fr/model/gemini-omni-1-1-flash/)
-
-1. Ouvrez la page du modèle et vérifiez l’accès, le prix et les réglages disponibles.
-2. Pour conserver l’apparence d’un produit ou d’un personnage, choisissez image vers vidéo, importez une image et collez le prompt associé. Pour inventer une scène, essayez texte vers vidéo.
-3. Réglez la durée et le format dans l’interface. Testez un plan, vérifiez l’apparence, le mouvement et le son, puis modifiez une seule consigne à la fois.
-
-Ce sont des propositions de prompts, pas des résultats de génération vérifiés sur SeaImagine. Durée, son, montage, prolongement et références dépendent du modèle et de l’interface actuelle. Les fonctions de l’API Google ne sont pas automatiquement disponibles sur SeaImagine.
-
-<a id="sea-practice"></a>
-
-## Trois exercices SeaImagine avec des images originales
-
-Ces images de référence ont été générées par IA pour servir de première image aux exercices. Ce ne sont pas des résultats vidéo testés avec Gemini. Utilisez les fonctions présentes dans votre interface SeaImagine.
-
-### SEA-01 · Une tasse en céramique bleu-vert au petit matin
-
-[![Une tasse en céramique bleu-vert au petit matin](assets/seaimagine-ceramic-cup.png)](assets/seaimagine-ceramic-cup.png)
-
-Approchez lentement la caméra sans modifier l’anse, le bord ni le niveau du liquide. Gardez de la place pour le texte final.
-
-Importez l’image de la tasse pour l’animer. Essayez un simple rapprochement lent et vérifiez l’anse et le liquide avant d’ajouter le texte.
-
-[Image vers vidéo](https://seaimagine.com/fr/image-to-video/) · [Générateur d’images IA](https://seaimagine.com/fr/ai-image-generator/)
+[Commerce et réseaux sociaux ](prompts/commerce-social.md) · [Image initiale de référence](assets/seaimagine-ceramic-cup.png) · [Texte brut](prompts/copy/showcase-04.txt)
 
 ```text
 Use the uploaded ceramic-cup image as the exact first frame. Create a 10-second, 16:9 product shot.
@@ -201,15 +113,13 @@ Audio, if supported: quiet room ambience and one distant bird. No speech or musi
 No pouring, added cup, new handle, object morphing, generated text, logo or watermark.
 ```
 
-### SEA-02 · Un port en papier qui s’illumine
+<a id="example-05"></a>
 
-[![Un port en papier qui s’illumine](assets/seaimagine-paper-harbor.png)](assets/seaimagine-paper-harbor.png)
+### 05 · Un port en papier qui s’illumine
 
-Dans un seul plan, allumez le phare puis augmentez à tour de rôle la lumière aux fenêtres des trois maisons. Conservez la texture du papier et la géométrie.
+<a href="assets/seaimagine-paper-harbor.png"><img src="assets/seaimagine-paper-harbor.png" alt="Un port en papier qui s’illumine" width="420"></a>
 
-Importez le port et demandez l’allumage du phare, puis l’intensification successive des lumières aux fenêtres. Comparez la forme des bâtiments au début et à la fin.
-
-[Image vers vidéo](https://seaimagine.com/fr/image-to-video/) · [Générateur d’images IA](https://seaimagine.com/fr/ai-image-generator/)
+[Animation, musique et divertissement ](prompts/stylized-entertainment.md) · [Image initiale de référence](assets/seaimagine-paper-harbor.png) · [Texte brut](prompts/copy/showcase-05.txt)
 
 ```text
 Use the uploaded paper-harbor image as the exact first frame. Animate a single 10-second, 16:9 shot while retaining the handcrafted paper texture, folds and miniature scale.
@@ -221,15 +131,13 @@ Audio, if supported: a quiet original celesta phrase, no voices.
 No ocean waves, added buildings, extra boats, rotating tower, camera cut, text, logo or watermark.
 ```
 
-### SEA-03 · Une pochette en lin pour une boutique multilingue
+<a id="example-06"></a>
 
-<a href="assets/seaimagine-linen-pouch.png"><img src="assets/seaimagine-linen-pouch.png" alt="Une pochette en lin pour une boutique multilingue" width="360"></a>
+### 06 · Une pochette en lin pour une boutique multilingue
 
-Créez une vidéo verticale sans texte, puis ajoutez les sous-titres traduits dans un logiciel de montage classique.
+<a href="assets/seaimagine-linen-pouch.png"><img src="assets/seaimagine-linen-pouch.png" alt="Une pochette en lin pour une boutique multilingue" width="420"></a>
 
-Animez la pochette au format vertical et ajoutez les traductions ensuite. N’utilisez une courte consigne de retouche vidéo que si cette fonction est disponible.
-
-[Image vers vidéo](https://seaimagine.com/fr/image-to-video/) · [Générateur d’images IA](https://seaimagine.com/fr/ai-image-generator/)
+[Commerce et réseaux sociaux ](prompts/commerce-social.md) · [Image initiale de référence](assets/seaimagine-linen-pouch.png) · [Texte brut](prompts/copy/showcase-06.txt)
 
 ```text
 Use the uploaded linen-pouch photograph as the exact first frame. Create a 10-second, 9:16 vertical ecommerce product shot.
@@ -241,21 +149,48 @@ Audio, if supported: soft room tone. No speech or music.
 Do not generate any lettering, subtitles, symbols, price, logo, watermark, extra bag or moving string.
 ```
 
-> Le quotidien, tout simplement
+Le quotidien, tout simplement
 
-[Parcours SeaImagine](docs/seaimagine-workflow.md)
+<a id="video-studies"></a>
 
-## Autres outils SeaImagine
+## Résultats officiels et de la communauté
+
+Les exemples officiels utilisent Gemini Omni 1.1 Flash ; ceux de la communauté datent de mai 2026 et utilisent des versions antérieures d’Omni. Les liens mènent aux publications d’origine ; ce dépôt ne prétend pas avoir reproduit ces résultats. Les éléments de preuve communautaires proviennent de FxTwitter ; la lecture sur X n’a pas été vérifiée.
+
+| Google · Omni 1.1 Flash | Liens |
+|---|---|
+| Prolongement cinématographique | [Voir la vidéo](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) |
+| Transition entre première et dernière images | [Voir la vidéo](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) |
+| Brouillon de diatomées marines en 360p | [Voir la vidéo](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/kw_omni-flash__capability-video__draft-360p__16x9__v1_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) |
+| Danse guidée par des références | [Voir la vidéo](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__video-reference__16x9.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) |
+
+| X · Omni / Flash · 2026-05 | X · Omni / Flash · 2026-05 |
+|---|---|
+| **Des personnes transformées en flamants roses**<br><a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="Des personnes transformées en flamants roses" width="240"></a><br>CHRIS FIRST<br>[Source](https://x.com/chrisfirst/status/2056797606509158681) · [Voir la vidéo](https://video.twimg.com/amplify_video/2056797343085969408/vid/avc1/1080x1440/UYr_7RKomiginRgq.mp4?tag=27) | **Un nouveau chapeau à chaque claquement de mains**<br><a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Un nouveau chapeau à chaque claquement de mains" width="240"></a><br>Justine Moore<br>[Source](https://x.com/venturetwins/status/2056793856843366789) · [Voir la vidéo](https://video.twimg.com/amplify_video/2056793760273686528/vid/avc1/720x1280/Q73liRfIjPtGSveL.mp4?tag=27) |
+| **Explication de la photosynthèse**<br><a href="https://x.com/mrfanduu/status/2056692235174097398"><img src="https://pbs.twimg.com/amplify_video_thumb/2056691792175833088/img/W0_pZkQwRicpRjjG.jpg" alt="Explication de la photosynthèse" width="240"></a><br>Fandu<br>[Source](https://x.com/mrfanduu/status/2056692235174097398) · [Voir la vidéo](https://video.twimg.com/amplify_video/2056691792175833088/vid/avc1/1280x720/Ws-92fvVr5e-FkYZ.mp4?tag=14) | **Zoom à main levée sur le London Eye**<br><a href="https://x.com/fofrAI/status/2056789242274259242"><img src="https://pbs.twimg.com/amplify_video_thumb/2056503814874861569/img/mQnHwThYDypoS1H6.jpg" alt="Zoom à main levée sur le London Eye" width="240"></a><br>fofr<br>[Source](https://x.com/fofrAI/status/2056789242274259242) · [Voir la vidéo](https://video.twimg.com/amplify_video/2056503814874861569/vid/avc1/1280x720/Lc2C4YtTflfGA8qe.mp4?tag=27) |
+| **Comparaison avant et après montage**<br><a href="https://x.com/Mho_23/status/2057151867927601413"><img src="https://pbs.twimg.com/amplify_video_thumb/2057151701904146432/img/yhVQfdBM34BQJjV3.jpg" alt="Comparaison avant et après montage" width="240"></a><br>Miko<br>[Source](https://x.com/Mho_23/status/2057151867927601413) · [Voir la vidéo](https://video.twimg.com/amplify_video/2057151701904146432/vid/avc1/1080x1920/JfeFoDd5udd_FRR7.mp4?tag=27) | **Une carafe change de matière au toucher**<br><a href="https://x.com/alexanderchen/status/2057176690519089166"><img src="https://pbs.twimg.com/amplify_video_thumb/2057176000459612161/img/wTZ0HcgL_8PHxwbY.jpg" alt="Une carafe change de matière au toucher" width="240"></a><br>Alexander Chen<br>[Source](https://x.com/alexanderchen/status/2057176690519089166) · [Voir la vidéo](https://video.twimg.com/amplify_video/2057176000459612161/vid/avc1/1280x720/LRzM8IueMomPMa7J.mp4?tag=27) · [Prompt complet](https://x.com/alexanderchen/status/2057176691903279524) |
+[Source / FxTwitter](docs/community-examples.md)
+
+## Documentation avancée
+
+Les tutoriels sont disponibles sur des pages séparées. [Voir](docs/guides/README_FR.md)
+
+[Conception des prompts](docs/prompting-guide.md) · [Guide multilingue](docs/multilingual-guide.md) · [Références et autorisations](docs/reference-videos.md)
+
+<a id="brand-tools"></a>
+
+## Créer avec SeaImagine
+
+[Gemini Omni](https://seaimagine.com/fr/model/gemini-omni/) · [Gemini Omni 1.1 Flash](https://seaimagine.com/fr/model/gemini-omni-1-1-flash/)
+
+[Image vers vidéo](https://seaimagine.com/fr/image-to-video/) · [Texte vers vidéo](https://seaimagine.com/fr/text-to-video/) · [Générateur d’images IA](https://seaimagine.com/fr/ai-image-generator/)
 
 Ces pages offrent d’autres points de départ. Consultez chaque page pour connaître les modèles, conditions et tarifs actuels. Ce dépôt ne garantit pas une disponibilité continue.
 
-- [Créer](https://seaimagine.com/fr/create/)
-- [Image vers vidéo](https://seaimagine.com/fr/image-to-video/)
-- [Texte vers vidéo](https://seaimagine.com/fr/text-to-video/)
-- [Générateur d’images IA](https://seaimagine.com/fr/ai-image-generator/)
+[Parcours SeaImagine](docs/seaimagine-workflow.md)
 
 ## Source et licence
 
 Adaptation du dépôt Flaq AI, dont les collections de prompts et trois images sont reprises. Tout ce contenu n’est pas une création originale de SeaImagine. Guide indépendant, non officiel Google.
 
-[Flaq AI · awesome-gemini-omni-flash](https://github.com/flaqai/awesome-gemini-omni-flash) · [MIT](LICENSE)
+[Flaq AI · awesome-gemini-omni-flash](https://github.com/flaqai/awesome-gemini-omni-flash) · [MIT](LICENSE) · [Contributing](CONTRIBUTING.md)

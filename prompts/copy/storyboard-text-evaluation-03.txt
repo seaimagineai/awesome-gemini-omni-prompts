@@ -1,0 +1,9 @@
+Re-edit the same single-source event as a 10-second action replay with exactly three shots. Preserve the same adult skateboarder, plain clothing, board design, trick order, landing direction, location, weather, and original ambient sound.
+
+[0-3s] Use the source viewpoint at normal speed to establish the approach.
+[3-7s] Generate a low side view of the same jump at 50% speed, keeping board-to-foot contact and believable gravity.
+[7-10s] Generate a high rear three-quarter view at normal speed for the landing and roll-away.
+
+Use two clean cuts at exactly 3s and 7s. Match the skater's position and motion phase across each cut. Carry wheel sound continuously; lower it naturally during slow motion and add no new music.
+
+No impossible rotation, duplicate skater, crowd reaction, score graphics, brand marks, text, logo, or watermark.

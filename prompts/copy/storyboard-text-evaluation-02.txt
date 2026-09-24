@@ -1,0 +1,13 @@
+Create a 10-second 16:9 video divided into an exact 3×3 grid with nine equal windows and thin warm-gray dividers. The grid remains locked for the entire clip.
+
+Each window shows a different close detail from the same fictional neighborhood bakery at 5:30 a.m.:
+top row: flour landing on a table; dough folded once; an oven thermometer rising.
+middle row: a whisk turning; steam leaving a kettle; a hand opening plain paper bags.
+bottom row: a bicycle wheel stopping outside; a lamp switching on; one round loaf placed on a cooling rack.
+
+[0-6s] All nine actions unfold at natural, different speeds.
+[6-8s] Actions settle one by one from top-left to bottom-right.
+[8-10s] Every window holds a calm finished state.
+
+Audio: one coherent bakery soundscape mixed across the grid—soft dough contact, whisk, kettle, oven tick, bicycle freewheel—with an original low marimba pulse. No dialogue.
+Maintain nine windows only, consistent warm palette, plausible hands, and unique content per window. No merged cells, moving dividers, labels, brands, logos, subtitles, or watermark.

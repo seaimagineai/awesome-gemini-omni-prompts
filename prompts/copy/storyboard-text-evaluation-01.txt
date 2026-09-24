@@ -1,0 +1,12 @@
+[# References <IMAGE_REF_0>@Image1]
+Use Image1 only as a nine-panel storyboard and art-direction reference. Read panels left to right, top to bottom. Create a coherent 10-second animated short based on that exact order; do not show the grid, panel borders, arrows, notes, or captions in the final video.
+
+Story: a tiny solar-powered delivery rover notices a fallen seedling, stops, extends one padded tool, returns the seedling upright, presses soil around it, then resumes its route as the seedling's leaves turn toward the sun.
+
+[0-3s] Combine panels 1-3 into the setup and discovery.
+[3-7s] Combine panels 4-7 into one continuous repair action with clear tool-to-soil contact.
+[7-10s] Use panels 8-9 for the payoff and a steady final composition.
+
+Preserve the rover design, seedling pot, left-to-right geography, warm miniature-set lighting, and scale across every shot. Use motivated cuts only where the board changes shot size.
+Audio: small electric motor, soft soil contact, leaves, one original hopeful three-note cue. No dialogue.
+No extra character, rescue montage, printed notes, brand, text, logo, or watermark.

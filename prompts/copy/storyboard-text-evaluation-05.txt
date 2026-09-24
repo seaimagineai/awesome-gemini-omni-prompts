@@ -1,0 +1,7 @@
+[# References <IMAGE_REF_0>@Image1 <IMAGE_REF_1>@Image2]
+Create a 10-second workshop demonstration. Use Image1 only for the four-step action order. Use Image2 only for the small repair robot's exact identity, materials, proportions, and tool-arm design. Neither image is a literal first frame.
+
+The robot performs the four actions from Image1 in order: inspect a loose wooden drawer handle, stabilize the drawer, tighten exactly two screws, then test the handle once. Show continuous tool contact and believable resistance. One fixed waist-height camera with a gentle 10-degree arc; keep the whole drawer and both tool arms visible.
+
+Audio: tiny motor movement, two distinct screwdriver bursts, wood creak, one quiet confirmation chime. No dialogue or music.
+Preserve the robot from Image2 and the order from Image1. Do not copy notes, arrows, background, people, or text from either reference. No new tool, extra arm, brand, logo, or watermark.

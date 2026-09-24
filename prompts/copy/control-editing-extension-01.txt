@@ -1,0 +1,7 @@
+[# References <IMAGE_REF_0>@Image1 <IMAGE_REF_1>@Image2]
+Create a 10-second dusk hiking scene. Use Image1 only as the hiker's identity and clothing reference. Use Image2 only as the exact lantern reference. Do not use either image as a literal first frame.
+
+The hiker from <IMAGE_REF_0> walks through waist-high grass holding the lantern from <IMAGE_REF_1>. Camera tracks beside them at chest height. At 5s the lantern changes from low warm light to brighter warm light, illuminating seed heads and the hiker's unchanged face. At 8s they place it on a stone and look toward distant rain.
+
+Audio: grass, footsteps, distant thunder, lantern switch click. No dialogue or music.
+Preserve identity, clothes, lantern geometry and color. No extra people, product text, logo or watermark.

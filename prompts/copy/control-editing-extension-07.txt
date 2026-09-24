@@ -1,0 +1,15 @@
+屏幕文字本地化
+
+=== 1/3: Part 1 ===
+
+Change only the final sign text from "OPEN LATE" to Simplified Chinese: "营业至深夜". Keep its original position, size, material, lighting and display time. No other text. Keep everything else the same.
+
+
+=== 2/3: Part 2 ===
+
+Change only the final sign text from "OPEN LATE" to Japanese: "深夜まで営業". Preserve the characters exactly. Keep everything else the same.
+
+
+=== 3/3: Part 3 ===
+
+Change only the final sign text from "OPEN LATE" to Spanish: "ABIERTO HASTA TARDE". Preserve spelling exactly. Keep everything else the same.

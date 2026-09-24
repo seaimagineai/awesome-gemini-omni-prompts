@@ -1,0 +1,9 @@
+[# Sources <FIRST_FRAME>@Image1]
+Create a 10-second premium product film from Image1. Use Image1 as the exact starting frame.
+
+[0-3s] Make a slow 20-degree clockwise camera orbit. Suspended droplets travel around the speaker in clean concentric paths, aligned to a deep electronic kick. Preserve the speaker's exact coral color, grille weave and proportions.
+[3-7s] A sunrise reflection sweeps across the copper end cap. On the snare, droplets strike the wet stone and rebound as fine mist.
+[7-10s] All droplets collapse into one crisp splash behind the product, then settle on a steady three-quarter hero frame with negative space on the right.
+
+Audio: original minimal electronic rhythm at 96 BPM, water-drop percussion, distant ocean ambience. No vocals.
+No product morphing, added controls, text, logo, watermark, hands, duplicate product or camera shake.

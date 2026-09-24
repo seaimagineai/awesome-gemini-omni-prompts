@@ -1,0 +1,5 @@
+Transform only the environment into hand-drawn charcoal line animation on warm off-white paper. Keep the cyclist and bicycle fully photorealistic and unchanged.
+
+The line-art road, buildings, trees, shadows, and clouds must retain the original geometry, perspective, motion, occlusion order, and camera parallax. Use confident charcoal contours, sparse cross-hatching, and subtle paper grain; animated lines may breathe slightly but must not crawl across the cyclist. Preserve the original rider identity, clothing, bicycle construction, pedaling, wheel contact, camera path, timing, and all source audio.
+
+No color in the line-art environment except the existing photorealistic subject. No sketch labels, page borders, added objects, text, logo, or watermark. Keep everything else the same.
