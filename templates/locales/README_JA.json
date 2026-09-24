@@ -1,0 +1,33 @@
+{
+  "collections": [
+    [
+      "映画・ストーリーテリング：8 例",
+      "prompts/cinematic-storytelling.md"
+    ],
+    [
+      "広告・SNS：8 例",
+      "prompts/commerce-social.md"
+    ],
+    [
+      "ドキュメンタリー・旅行・教育：8 例",
+      "prompts/documentary-education.md"
+    ],
+    [
+      "アニメーション・音楽・エンタメ：8 例",
+      "prompts/stylized-entertainment.md"
+    ],
+    [
+      "マルチモーダル制御・編集・延長：10 例",
+      "prompts/control-editing-extension.md"
+    ],
+    [
+      "高度な編集・カメラ・視覚変換：9 例",
+      "prompts/advanced-editing-camera.md"
+    ],
+    [
+      "ストーリーボード・分割画面・文字・評価：9 例",
+      "prompts/storyboard-text-evaluation.md"
+    ]
+  ],
+  "dialogue": "Spoken language: Japanese.\nExact dialogue at 6s, spoken once with natural conversational pacing: \"今日は、遠回りして帰ろう。\"\nDo not translate, paraphrase, repeat or subtitle the dialogue.\n\nExact on-screen Japanese text, centered from 7s to 10s: \"小さな旅\"\nPreserve the characters exactly. No other text anywhere in the video."
+}

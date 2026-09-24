@@ -1,0 +1,215 @@
+{
+  "checked_at": "2026-09-24",
+  "method": "Discovered with web search; author text, media metadata and engagement snapshots retrieved using FxTwitter API. Four native X pages returned HTTP 403 via web tool. No native playback verification. Google AI quotes separately verified via FxTwitter.",
+  "reuse": "Link to original X posts. Do not vendor videos or thumbnails without a suitable license. Short quotes only; write independently worded teaching notes. Mirror engagement is not current native X verification.",
+  "community": [
+    {
+      "title": "Replace people with flamingos",
+      "author": "CHRIS FIRST",
+      "handle": "chrisfirst",
+      "url": "https://x.com/chrisfirst/status/2056797606509158681",
+      "posted_at": "Tue May 19 18:02:17 +0000 2026",
+      "model_context": "Gemini Omni / Flash launch-era example, May 2026; not independently established as 1.1 Flash",
+      "evidence": "mirror_text_and_media_metadata",
+      "evidence_url": "https://api.fxtwitter.com/status/2056797606509158681",
+      "mirror_engagement": {
+        "likes": 499,
+        "retweets": 46,
+        "replies": 25,
+        "views": 102960
+      },
+      "official_quote_url": "https://x.com/GoogleAI/status/2056829479696400608",
+      "learning_note": "Lock clothing and the original action while changing the subject. Check limb contacts and costume continuity.",
+      "limitations": "Short prompt visible in author text; also quoted by Google AI.",
+      "media": [
+        {
+          "url": "https://video.twimg.com/amplify_video/2056797343085969408/vid/avc1/1080x1440/UYr_7RKomiginRgq.mp4?tag=27",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg",
+          "duration": 7.433
+        }
+      ]
+    },
+    {
+      "title": "Change hats on each clap",
+      "author": "Justine Moore",
+      "handle": "venturetwins",
+      "url": "https://x.com/venturetwins/status/2056793856843366789",
+      "posted_at": "Tue May 19 17:47:23 +0000 2026",
+      "model_context": "Gemini Omni / Flash launch-era example, May 2026; not independently established as 1.1 Flash",
+      "evidence": "mirror_text_and_media_metadata",
+      "evidence_url": "https://api.fxtwitter.com/status/2056793856843366789",
+      "mirror_engagement": {
+        "likes": 93,
+        "retweets": 2,
+        "replies": 2,
+        "views": 57897
+      },
+      "official_quote_url": "https://x.com/GoogleAI/status/2056829481218949533",
+      "learning_note": "Use a visible gesture to time an edit. Keep the face, outfit and camera fixed.",
+      "limitations": "Short prompt visible in author text; also quoted by Google AI.",
+      "media": [
+        {
+          "url": "https://video.twimg.com/amplify_video/2056793760273686528/vid/avc1/720x1280/Q73liRfIjPtGSveL.mp4?tag=27",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg",
+          "duration": 5.793
+        }
+      ]
+    },
+    {
+      "title": "Explain photosynthesis",
+      "author": "Fandu",
+      "handle": "mrfanduu",
+      "url": "https://x.com/mrfanduu/status/2056692235174097398",
+      "posted_at": "Tue May 19 11:03:35 +0000 2026",
+      "model_context": "Gemini Omni / Flash launch-era example, May 2026; not independently established as 1.1 Flash",
+      "evidence": "mirror_text_and_media_metadata",
+      "evidence_url": "https://api.fxtwitter.com/status/2056692235174097398",
+      "mirror_engagement": {
+        "likes": 661,
+        "retweets": 46,
+        "replies": 18,
+        "views": 142412
+      },
+      "official_quote_url": "https://x.com/GoogleAI/status/2056829482993095143",
+      "learning_note": "Use one scientific process per clip. Check each factual step and add final labels in editing.",
+      "limitations": "No full original prompt published in the retrieved text; do not invent one. Also quoted by Google AI.",
+      "media": [
+        {
+          "url": "https://video.twimg.com/amplify_video/2056691792175833088/vid/avc1/1280x720/Ws-92fvVr5e-FkYZ.mp4?tag=14",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2056691792175833088/img/W0_pZkQwRicpRjjG.jpg",
+          "duration": 45.6
+        }
+      ]
+    },
+    {
+      "title": "London Eye handheld zoom",
+      "author": "fofr",
+      "handle": "fofrAI",
+      "url": "https://x.com/fofrAI/status/2056789242274259242",
+      "posted_at": "Tue May 19 17:29:03 +0000 2026",
+      "model_context": "Gemini Omni / Flash launch-era example, May 2026; not independently established as 1.1 Flash",
+      "evidence": "mirror_text_and_media_metadata",
+      "evidence_url": "https://api.fxtwitter.com/status/2056789242274259242",
+      "mirror_engagement": {
+        "likes": 486,
+        "retweets": 30,
+        "replies": 25,
+        "views": 233616
+      },
+      "official_quote_url": null,
+      "learning_note": "Describe camera imperfections and recognizable geography separately; verify landmarks instead of assuming geographical accuracy.",
+      "limitations": "Author describes this as Gemini Omni Flash; not evidence for Omni 1.1 specifically.",
+      "media": [
+        {
+          "url": "https://video.twimg.com/amplify_video/2056503814874861569/vid/avc1/1280x720/Lc2C4YtTflfGA8qe.mp4?tag=27",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2056503814874861569/img/mQnHwThYDypoS1H6.jpg",
+          "duration": 10
+        }
+      ]
+    },
+    {
+      "title": "Compare an original clip with an edited clip",
+      "author": "Miko",
+      "handle": "Mho_23",
+      "url": "https://x.com/Mho_23/status/2057151867927601413",
+      "posted_at": "Wed May 20 17:30:00 +0000 2026",
+      "model_context": "Gemini Omni / Flash launch-era example, May 2026; not independently established as 1.1 Flash",
+      "evidence": "mirror_text_and_media_metadata",
+      "evidence_url": "https://api.fxtwitter.com/status/2057151867927601413",
+      "mirror_engagement": {
+        "likes": 418,
+        "retweets": 35,
+        "replies": 41,
+        "views": 30201
+      },
+      "official_quote_url": null,
+      "learning_note": "Compare source and output side by side. Ask for one controlled change and inspect motion continuity.",
+      "limitations": "Full prompt absent; author capability/superiority claims are opinions and should not be repeated as verified facts.",
+      "media": [
+        {
+          "url": "https://video.twimg.com/amplify_video/2057151701904146432/vid/avc1/1080x1920/JfeFoDd5udd_FRR7.mp4?tag=27",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2057151701904146432/img/yhVQfdBM34BQJjV3.jpg",
+          "duration": 11.3
+        },
+        {
+          "url": "https://video.twimg.com/amplify_video/2057151711534313472/vid/avc1/1080x1920/EX_Qv8lvLl7ELnIB.mp4?tag=27",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2057151711534313472/img/X0RtGvDUcM3ViQng.jpg",
+          "duration": 9.433
+        }
+      ]
+    },
+    {
+      "title": "Change a pitcher material on touch",
+      "author": "Alexander Chen",
+      "handle": "alexanderchen",
+      "url": "https://x.com/alexanderchen/status/2057176690519089166",
+      "posted_at": "Wed May 20 19:08:38 +0000 2026",
+      "model_context": "Gemini Omni / Flash launch-era example, May 2026; not independently established as 1.1 Flash",
+      "evidence": "mirror_text_and_media_metadata",
+      "evidence_url": "https://api.fxtwitter.com/status/2057176690519089166",
+      "mirror_engagement": {
+        "likes": 216,
+        "retweets": 23,
+        "replies": 15,
+        "views": 122752
+      },
+      "official_quote_url": null,
+      "learning_note": "Specify the trigger, material sequence and shape invariants separately. Check silhouette and hand contact frame by frame.",
+      "limitations": "Google Creative Lab employee personal demo. Root post describes edited result; linked reply contains prompt and input video. Neither video independently played.",
+      "media": [
+        {
+          "url": "https://video.twimg.com/amplify_video/2057176000459612161/vid/avc1/1280x720/LRzM8IueMomPMa7J.mp4?tag=27",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2057176000459612161/img/wTZ0HcgL_8PHxwbY.jpg",
+          "duration": 9
+        }
+      ],
+      "prompt_reply_url": "https://x.com/alexanderchen/status/2057176691903279524"
+    }
+  ],
+  "official": {
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+    "date": "2026-08-27",
+    "publisher": "Google",
+    "evidence": "Official page read directly; media URLs extracted from official HTML. Videos not independently played.",
+    "summary": "Official examples cover scene extension, first/last frames, 360p drafts, 4K upscaling and reference-driven dances. These Google API demos do not establish that every control exists in SeaImagine.",
+    "media_urls": [
+      "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-woman__16x9.mp4_eyMGivX.mp4",
+      "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4",
+      "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-again-sailor__16x9_xDBiuZX.mp4",
+      "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-again-writer__16x9.mp4",
+      "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4",
+      "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/kw_omni-flash__capability-video__draft-360p__16x9__v1_1.mp4",
+      "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__upscale-4k__16x9.mp4_2.mp4",
+      "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__video-reference__16x9.mp4",
+      "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/TransitionStudio_Blog_V3.mp4",
+      "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/ListingWalkIn_Blog_V2.mp4",
+      "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/DraftRoom_Blog_V3.mp4",
+      "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/Adobe_demo_YtR5rck.mp4",
+      "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/Gemini_Omni_Weave_-_New_Car_aB5raHz.mp4",
+      "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/GMI_Cloud_I7uqeE8.mp4",
+      "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/Omni_Watermarked_2LTQicm.mp4"
+    ],
+    "suggested_cases": [
+      {
+        "title": "Cinematic extension",
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4",
+        "learning_note": "Separate camera moves into consecutive extensions."
+      },
+      {
+        "title": "First and last frame transition",
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4",
+        "learning_note": "Define endpoints and the continuous camera action between them."
+      },
+      {
+        "title": "360p marine-diatom draft",
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/kw_omni-flash__capability-video__draft-360p__16x9__v1_1.mp4",
+        "learning_note": "Validate motion at preview resolution before upscaling."
+      },
+      {
+        "title": "Reference-driven dancers",
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__video-reference__16x9.mp4",
+        "learning_note": "Give every reference clip and character one explicit role."
+      }
+    ]
+  }
+}

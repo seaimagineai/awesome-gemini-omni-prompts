@@ -1,0 +1,125 @@
+{
+  "source_repository": "https://github.com/flaqai/awesome-gemini-omni-flash",
+  "source_commit": "9488e05bb8fa0b5f597a7ab3ed847bdb4bfb1d6d",
+  "checked_on": "2026-09-24",
+  "prompt_collections": {
+    "cinematic-storytelling.md": {
+      "recipes": 8,
+      "control_block_sha256": [
+        "8a2416d170a9b50295fdb1ca077ba74d7813925946fef5bc45ec74d3416042fb",
+        "71bdb52e8ba24641b5d9d4198b64daa33684118c2e60f449ccf67dc5b7ad29f8",
+        "46bd7a4c31adcebb27ce54e7b533b44fda92a20ea4b22d47a108145f77369699",
+        "98e53e2717f547763566ffda36698e5ba2bc83a7fb58237d8e5142422b9033e0",
+        "9218f60a70d13663595a990dc6542fab377ce5748be7a2bdad589942143bbea7",
+        "a880ede25536f906a26f95d5d6ed0eb7d981f7546c6b7a6faeaabc08b724a8ee",
+        "aee8f7c6473faacd7b8410879cf1fdc5726edb1cc5df30d7430d0cf3eace868c",
+        "5063bcafcd73bf30dc73f336c90faf973871eedbeba077f2796ba6e866ecb8aa"
+      ]
+    },
+    "stylized-entertainment.md": {
+      "recipes": 8,
+      "control_block_sha256": [
+        "f5a2d865c53d40f49c91d2fced7d59314643ed778b7e840339f3380c957634f4",
+        "e6847fbcc64246e1f7ac710d3518a6bfc23bc59851426efd189d4896b17f3589",
+        "90e33a6a82294883a4861ddf11fa61d4496bb962f9e142fec219c8bd2f59dc20",
+        "9f1dca4330bd70cfdeb8844504db2a8f821758a3c8f8ba640f50f5e4096815f3",
+        "b06ca2f510f93e0ac632cf042d3cf9f4611631c4f36c5657976ba176d56a1da5",
+        "4573af22d8edf0fe96b6c9e4de3958346468b33e1032120d0452eb05cda5fbeb",
+        "0e1961154b38d4aa27d8d4bfee7127d8c1fe50c30aa4ca755527e71796c1d3d6",
+        "d7d6f29fd24c7864990ee83d02ab37b60d6b63f43d569bcdf2cc9890387236a1"
+      ]
+    },
+    "control-editing-extension.md": {
+      "recipes": 10,
+      "control_block_sha256": [
+        "b50cb9b556c663ba1a6ad0fdee1f5814567c2645bc180d9312428348cdb67b50",
+        "1daaabe7bfa8a916ff3cc2f9a213b0f6396ff3f6a3646f45d23832813b9246f3",
+        "5886fa0eaa63d3f45cbecc2dbe1dd5e8d5a5faa0d4bdb16ca60877be228ff331",
+        "4072aa1619dd19884dc055866f1b68dcb5b25ec0b046b6558ad7ac6c4c736d2c",
+        "2a45e40503bf6926cc22f47e640f115f5d7d7e9d73e3bb8d8a601041d92cd66f",
+        "8b2983b87903cfcf8e9ca3ccb0080a37c12eb3f09565ba00345b330f9d232aa6",
+        "0b1b08fed013fde68a8cc485c5bee930b25c0ca837b15a8b6965d3c93d76bfa7",
+        "f9e06e6d4110a9c2d141d004046f687181b716e5f02fbbdee887f071ec4d0085",
+        "b7c1ada85484dffcda905a1647ef8d2414d7188a638d4f4998b24898e78d63e2",
+        "ce9fc5812d4c95d6cae64ce6c9e15e1be8dcdcd2ce831f2f515df55b9de96feb",
+        "81e2f806e40434801fdbde78196d23e934401f4a23e174fad06bb163cea26ac2",
+        "2a0c98caf367be8e3e8c324c562f5aa169d4a7b7a30ba1e8a4edbe11f44b6ba1",
+        "4527cabefabf6c8b75356ace45d28e441aee4fbdbf1477ee03bc1ee9bd5de453",
+        "30f3098dee0a06bb6d78bf73ed304a7b2294307583ee289ae9eed76f6f03da8a",
+        "783f1bacd554c2edd78f7d42ae4fd675ae7fb0f17d9453c0b268791fbfe1707e",
+        "3fa887107f2bdd61b5a9a26d10a29835c545816972b94cd3f1b551ed998bd92a",
+        "963208b5fc3855eba60b16918860e56f6fa8b990e51738c9805d22ad4437ece1",
+        "4c4b7501e0ade0ade3f87ba07d888a6fda0a771b98e240dee35aa3b5aa22febc"
+      ]
+    },
+    "storyboard-text-evaluation.md": {
+      "recipes": 9,
+      "control_block_sha256": [
+        "23dccd26dc0a5bded8e73343605deb2b85d4fd3f198f1daa3891bac57b73840f",
+        "7a17fe7eb8a8ed795e52254abeadea8757b6e7a4885ee13842767b7d8caa70a3",
+        "07554f22022c374bd0d1823f716f9d9acd656d0ea2187b5e66a8995de923e5b0",
+        "6815cd3575f7afac941a30025be961ab87c114071406ae1f634a0275ca888467",
+        "536d0566f280083780eb7cc8241682ab5a24f1022a4b7d23178b4ca8baf826f5",
+        "dfeac736f922ed93cb9b5dd7c9b229127287eb6ccc45a6c4b2de6ec02d18c650",
+        "393badad2f0f46e53201e542cfdef632ef53b325ae95e02a6c4a6294f9ffcbff",
+        "7bf4f9cec4089956c05f5e39e2fd7f26765cb2d4f2a7828b68500a2ad9e9860a",
+        "7882ba2618cf99853bac7b64bcb1b61c9ceeeed112dd998e3984877f97a854ef",
+        "80bc051dd0603145145000741cd7dccd3722952e7e3f17c526ad6b9b7e15e1ef",
+        "f59cdabe5c96d8d586b9d3dca9ec9aad6d8886edd5956154b9060ce789df7712",
+        "d5a9dda6853ea28d1d286f53bc1f7f24019728bf537fdb8e7ca803d667fa30e2",
+        "dbf1f05ecd8bea1b68f35fd7d78b75987bdbf8579b79f5e5e8ef559940c2bed5",
+        "ec6bc5ea81d6da5a45ab1a8fd397ad2bfd28d6f98f1c6ae090d8718346ab9276"
+      ]
+    },
+    "commerce-social.md": {
+      "recipes": 8,
+      "control_block_sha256": [
+        "aa1273191e9c27e72ff9870bc545f0558eecd5b372e0f090a84e42ef08c78004",
+        "61e6a832732e8dd56491027f1d84cca843bd83d744471f6c2d9623e9ba889c45",
+        "b649dfe499d2bbc357b7d637d259fd60a6fa6e74305be9947bd08f3a2be17b43",
+        "27c67f5831494fc6c7a75fe1f6304a944dbe2274e0b53bcba092a6f494d80cfb",
+        "6a3ecc36b49271a6fd3cc44cf613a32b325ba0b292a6a894f61260b2c01971c8",
+        "1920f2ffd6bef4801346a0375819bd2bcd50523505fc412b7a34ccfa8eedb8b3",
+        "89b96e4a8085112b084f4bb61d2162ba100d1511ffce95b90369ac973f112373",
+        "296ca3220fbbdf04b8f0d84536e79fddb7c5c4f7b1495758f69bbd9a6200aabf",
+        "9f184a48c19f96e39bded317b4cf51f91198f202db1dfd856f633802689ffd6e",
+        "b182097f8652ab760d71491a4c1d6c99ecc00bcb84f8ff5bda17342743e56971",
+        "15d1f1a5e2a3bd6375017a201d452d6eea08651b53a87b83a10cce809d1a2a99"
+      ]
+    },
+    "advanced-editing-camera.md": {
+      "recipes": 9,
+      "control_block_sha256": [
+        "b479d351fadfb805ac25b9f347b0ebd55407d5b32e6e776f4ff177918493b89e",
+        "80a6c1c494d5d8fddc21b777fc0cb4a0181c6e44da1663ab1b9a20beb2d1752b",
+        "b6e0e3655621f10649e9a73385d644ca65cde01bf9796c9f913a27c9ff1b403c",
+        "33b4fb61ba1958cee8622c65455e9182778e16066bb8e37ac99a85d083ac8505",
+        "68a97a63429536153006236617a650f3056c564c570a33a6c6f9920bb143b57b",
+        "3a10e115b84bd94ad0adb603a3fe15841834f3a2df2545004eabb88ecb04858b",
+        "df018988793ef7a7374aa0e93320092f7e6ef5359490d67d99c2711e928880b3",
+        "217fbd1c116a1c6f3ba5e1aadbb37e396fcfb482c56c64fc436b914332fbd043",
+        "6f3d037a2c77ce6165b10656d1bca0a7460672c8996caff61d41c51d66555203",
+        "2d2a355e798cc1e17ebd4388027ccf469bd7be45ffcfe3f11cf4e6519d3d9b67"
+      ]
+    },
+    "documentary-education.md": {
+      "recipes": 8,
+      "control_block_sha256": [
+        "7ee4dcaa5ef48aa1ae7de40b053202852de47719fe1ebfd89674e772cda156a8",
+        "30b2e2e4ca56be7c8188941e7887bb1630f1003158ff3999f2ce220ccad7ada6",
+        "93d119a26448713ec9a96acd5b4bcc0bb54680a0bdbe417ba5ba98ab2def8879",
+        "b1110ae825f2e029d40d1da5ff0c6955e0d8501f58deb054263cb4522ec1e6f0",
+        "0fee70bcfbcc8d3d5564f12162c8cbdcbf7deff98e7414998a2646edb56db7cf",
+        "3d62110afbb53a796c2c3f342886ce9460fa525742aa692cf42c046e39910bd4",
+        "a6db4e8a4a2ae57d80395c703b380d24a4aa59446ca7385dd1d56b31ad282d82",
+        "8c179fe48393927bb5ef0563e1e103c007f355361e2e71b946ec0370fb7f4a0a"
+      ]
+    }
+  },
+  "source_assets": {
+    "travel-cyclist.png": "16f3daffe7f98960a9539740912cb96c31f6ebadda12ac1dbe889e823303835e",
+    "clockmaker-story.png": "aafdb9c00218c9f0de1df57d86ea9c5ca923e1cd4da106965fcbbaddc6a585ee",
+    "gemini-omni-hero.png": "2e980ef1d3e95c183e0e39bc2d5372a997b4605dfbe3166f0d925cd687ef84b9",
+    "product-speaker.png": "427d90114afaa41ff615b17dfbc1ba3cc97cba75d041109efa255e4e56eac063"
+  }
+}

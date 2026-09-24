@@ -1,0 +1,97 @@
+{
+  "checked_at": "2026-09-24",
+  "official_source": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+  "method": "Official HTML element inspection and HTTP HEAD; no media downloads or playback.",
+  "official": [
+    {
+      "title": "Cinematic extension",
+      "video": {
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4",
+        "status": 200,
+        "content_type": "video/mp4",
+        "content_length": "30976706"
+      },
+      "poster_url": null,
+      "poster_note": "No nonempty poster, thumbnail or image attribute exists on this official video element. Use the original video link.",
+      "alt_text": "A woman walks down a hallway and stops. Three alternative paths continue, one with a dolly zoom shot, one with a snap zoom, and one with a time freeze."
+    },
+    {
+      "title": "First and last frame transition",
+      "video": {
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4",
+        "status": 200,
+        "content_type": "video/mp4",
+        "content_length": "6542391"
+      },
+      "poster_url": null,
+      "poster_note": "No nonempty poster, thumbnail or image attribute exists on this official video element. Use the original video link.",
+      "alt_text": "A stylish drummer in a beige suit transitions via a whip-pan to a saxophonist and a spinning ballet dancer, then showing a new looping video with a woman and a TV."
+    },
+    {
+      "title": "360p marine-diatom draft",
+      "video": {
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/kw_omni-flash__capability-video__draft-360p__16x9__v1_1.mp4",
+        "status": 200,
+        "content_type": "video/mp4",
+        "content_length": "30517248"
+      },
+      "poster_url": null,
+      "poster_note": "No nonempty poster, thumbnail or image attribute exists on this official video element. Use the original video link.",
+      "alt_text": "Micro-photography of iridescent marine diatoms with intricate glass-like silica shells in amber, copper, turquoise, and violet transitions from a 360p draft to an upscaled 720p view."
+    },
+    {
+      "title": "Reference-driven dancers",
+      "video": {
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__video-reference__16x9.mp4",
+        "status": 200,
+        "content_type": "video/mp4",
+        "content_length": "18856806"
+      },
+      "poster_url": null,
+      "poster_note": "No nonempty poster, thumbnail or image attribute exists on this official video element. Use the original video link.",
+      "alt_text": "A dog, an octopus, and a bear perform classical, hip-hop, and break dance routines respectively, all gathered together in a large, open space."
+    }
+  ],
+  "community": [
+    {
+      "url": "https://x.com/chrisfirst/status/2056797606509158681",
+      "mirror_url": "https://api.fxtwitter.com/status/2056797606509158681",
+      "mirror_json_status": 200,
+      "mirror_tweet_url": "https://x.com/chrisfirst/status/2056797606509158681",
+      "mirror_author": "chrisfirst",
+      "thumbnail": {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "content_length": "118258"
+      },
+      "video": {
+        "url": "https://video.twimg.com/amplify_video/2056797343085969408/vid/avc1/1080x1440/UYr_7RKomiginRgq.mp4?tag=27",
+        "status": 200,
+        "content_type": "video/mp4",
+        "content_length": "881111"
+      },
+      "note": "Mirror text and media metadata checked; no native X playback verification."
+    },
+    {
+      "url": "https://x.com/venturetwins/status/2056793856843366789",
+      "mirror_url": "https://api.fxtwitter.com/status/2056793856843366789",
+      "mirror_json_status": 200,
+      "mirror_tweet_url": "https://x.com/venturetwins/status/2056793856843366789",
+      "mirror_author": "venturetwins",
+      "thumbnail": {
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "content_length": "84202"
+      },
+      "video": {
+        "url": "https://video.twimg.com/amplify_video/2056793760273686528/vid/avc1/720x1280/Q73liRfIjPtGSveL.mp4?tag=27",
+        "status": 200,
+        "content_type": "video/mp4",
+        "content_length": "692626"
+      },
+      "note": "Mirror text and media metadata checked; no native X playback verification."
+    }
+  ]
+}

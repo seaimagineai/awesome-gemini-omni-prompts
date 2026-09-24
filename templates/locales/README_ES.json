@@ -1,0 +1,33 @@
+{
+  "collections": [
+    [
+      "Cine y narrativa: 8 prompts",
+      "prompts/cinematic-storytelling.md"
+    ],
+    [
+      "Comercio y redes sociales: 8 prompts",
+      "prompts/commerce-social.md"
+    ],
+    [
+      "Documental, viajes y educación: 8 prompts",
+      "prompts/documentary-education.md"
+    ],
+    [
+      "Animación, música y entretenimiento: 8 prompts",
+      "prompts/stylized-entertainment.md"
+    ],
+    [
+      "Control multimodal, edición y extensión: 10 recetas",
+      "prompts/control-editing-extension.md"
+    ],
+    [
+      "Edición avanzada, cámara y transformación visual: 9 prompts",
+      "prompts/advanced-editing-camera.md"
+    ],
+    [
+      "Storyboards, pantalla dividida, texto y evaluación: 9 prompts",
+      "prompts/storyboard-text-evaluation.md"
+    ]
+  ],
+  "dialogue": "Spoken language: Spanish.\nExact dialogue at 6s, spoken once with natural conversational pacing: \"Hoy volvamos por el camino largo.\"\nDo not translate, paraphrase, repeat or subtitle the dialogue.\n\nExact on-screen Spanish title, centered from 7s to 10s: \"PEQUEÑOS VIAJES\"\nPreserve accents and spelling exactly. No other text anywhere in the video."
+}

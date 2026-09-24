@@ -1,0 +1,33 @@
+{
+  "collections": [
+    [
+      "Кино и повествование: 8 промптов",
+      "prompts/cinematic-storytelling.md"
+    ],
+    [
+      "Реклама и социальные сети: 8 промптов",
+      "prompts/commerce-social.md"
+    ],
+    [
+      "Документалистика, путешествия и образование: 8 промптов",
+      "prompts/documentary-education.md"
+    ],
+    [
+      "Анимация, музыка и развлечения: 8 промптов",
+      "prompts/stylized-entertainment.md"
+    ],
+    [
+      "Управление, редактирование и продолжение: 10 рецептов",
+      "prompts/control-editing-extension.md"
+    ],
+    [
+      "Продвинутое редактирование, камера и визуальные преобразования: 9 промптов",
+      "prompts/advanced-editing-camera.md"
+    ],
+    [
+      "Раскадровки, разделённый экран, текст и оценка: 9 промптов",
+      "prompts/storyboard-text-evaluation.md"
+    ]
+  ],
+  "dialogue": "Spoken language: Russian.\nExact dialogue at 6s, spoken once with natural conversational pacing: \"Давай сегодня пойдём домой длинной дорогой.\"\nDo not translate, paraphrase, repeat or subtitle it.\n\nExact on-screen Russian title: \"МАЛЕНЬКИЕ ПУТЕШЕСТВИЯ\"\nUse Cyrillic characters only and preserve spelling exactly. No other text."
+}

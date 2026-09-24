@@ -1,0 +1,33 @@
+{
+  "collections": [
+    [
+      "Cinéma et narration : 8 prompts",
+      "prompts/cinematic-storytelling.md"
+    ],
+    [
+      "Commerce et réseaux sociaux : 8 prompts",
+      "prompts/commerce-social.md"
+    ],
+    [
+      "Documentaire, voyage et éducation : 8 prompts",
+      "prompts/documentary-education.md"
+    ],
+    [
+      "Animation, musique et divertissement : 8 prompts",
+      "prompts/stylized-entertainment.md"
+    ],
+    [
+      "Contrôle, édition et extension : 10 recettes",
+      "prompts/control-editing-extension.md"
+    ],
+    [
+      "Montage avancé, caméra et transformation visuelle : 9 prompts",
+      "prompts/advanced-editing-camera.md"
+    ],
+    [
+      "Storyboards, écrans partagés, texte et évaluation : 9 prompts",
+      "prompts/storyboard-text-evaluation.md"
+    ]
+  ],
+  "dialogue": "Spoken language: French.\nExact dialogue at 6s, spoken once with natural conversational pacing: \"Aujourd'hui, prenons le chemin le plus long pour rentrer.\"\nDo not translate, paraphrase, repeat or subtitle it.\n\nExact on-screen French title: \"PETITS VOYAGES\"\nPreserve accents, apostrophes and spelling exactly. No other text."
+}

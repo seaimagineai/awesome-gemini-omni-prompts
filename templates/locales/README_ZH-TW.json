@@ -1,0 +1,33 @@
+{
+  "collections": [
+    [
+      "電影與敘事：8 條",
+      "prompts/cinematic-storytelling.md"
+    ],
+    [
+      "商業廣告與社群媒體：8 條",
+      "prompts/commerce-social.md"
+    ],
+    [
+      "紀錄片、旅行與教育：8 條",
+      "prompts/documentary-education.md"
+    ],
+    [
+      "動畫、音樂與娛樂：8 條",
+      "prompts/stylized-entertainment.md"
+    ],
+    [
+      "多模態控制、編輯與續寫：10 條",
+      "prompts/control-editing-extension.md"
+    ],
+    [
+      "進階編輯、鏡頭與視覺變換：9 條",
+      "prompts/advanced-editing-camera.md"
+    ],
+    [
+      "故事板、分割畫面、文字與評測：9 條",
+      "prompts/storyboard-text-evaluation.md"
+    ]
+  ],
+  "dialogue": "Spoken language: Mandarin Chinese.\nOn-screen script: Traditional Chinese used in Taiwan.\nExact dialogue at 6s, spoken once: \"今天，繞遠一點回家吧。\"\nDo not translate, paraphrase, repeat or subtitle it.\n\nExact on-screen title: \"小小旅程\"\nDo not convert any character to Simplified Chinese. No other text."
+}

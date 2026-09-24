@@ -1,0 +1,33 @@
+{
+  "collections": [
+    [
+      "Cinema e narrazione: 8 prompt",
+      "prompts/cinematic-storytelling.md"
+    ],
+    [
+      "Commercio e social media: 8 prompt",
+      "prompts/commerce-social.md"
+    ],
+    [
+      "Documentari, viaggi e formazione: 8 prompt",
+      "prompts/documentary-education.md"
+    ],
+    [
+      "Animazione, musica e intrattenimento: 8 prompt",
+      "prompts/stylized-entertainment.md"
+    ],
+    [
+      "Controllo, modifica ed estensione: 10 ricette",
+      "prompts/control-editing-extension.md"
+    ],
+    [
+      "Montaggio avanzato, camera e trasformazione visiva: 9 prompt",
+      "prompts/advanced-editing-camera.md"
+    ],
+    [
+      "Storyboard, schermi divisi, testo e valutazione: 9 prompt",
+      "prompts/storyboard-text-evaluation.md"
+    ]
+  ],
+  "dialogue": "Spoken language: Italian.\nExact dialogue at 6s, spoken once with natural conversational pacing: \"Oggi torniamo a casa facendo la strada più lunga.\"\nDo not translate, paraphrase, repeat or subtitle it.\n\nExact on-screen Italian title: \"PICCOLI VIAGGI\"\nPreserve spelling and punctuation exactly. No other text."
+}

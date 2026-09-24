@@ -1,0 +1,87 @@
+name: Submit an original Gemini Omni prompt
+description: Share one tested, reproducible prompt or localization improvement
+title: "[Prompt] "
+labels:
+  - prompt-submission
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing. Submit one original prompt per issue. Do not include API keys, private data, unauthorized likenesses, protected characters, unlicensed media, or copied prompt collections.
+
+  - type: input
+    id: title
+    attributes:
+      label: Prompt title
+      description: A concise, descriptive, original title.
+      placeholder: Dawn bakery one-take with Mandarin dialogue
+    validations:
+      required: true
+
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Generation mode
+      options:
+        - Text-to-video
+        - Image-to-video
+        - First-and-last-frame
+        - Reference-to-video
+        - Edit
+        - Extend
+        - Multilingual localization
+    validations:
+      required: true
+
+  - type: input
+    id: settings
+    attributes:
+      label: Tested settings
+      description: Model name, date, aspect ratio, resolution, duration, and region if relevant.
+      placeholder: gemini-omni-1.1-flash; 2026-09-01; 9:16; 360p; 10s
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: Input and reference roles
+      description: Describe each image or video and its single intended role. Do not attach media you cannot legally share.
+      placeholder: Image1 is the first frame; Image2 locks the fictional product geometry.
+
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Complete prompt
+      description: Include timeline, camera, motion, audio, continuity, exact language content, and exclusions where relevant.
+      render: text
+    validations:
+      required: true
+
+  - type: textarea
+    id: result
+    attributes:
+      label: Observed result and iteration notes
+      description: What worked, what failed, and what changed between attempts?
+    validations:
+      required: true
+
+  - type: textarea
+    id: media
+    attributes:
+      label: Optional output or authorized reference links
+      description: Public links only. State ownership or license and disclose any affiliate link.
+
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Originality and rights confirmation
+      options:
+        - label: I created this prompt and did not copy or lightly rewrite another collection.
+          required: true
+        - label: I have the right to share every attached input and output.
+          required: true
+        - label: The submission contains no secrets, private data, unauthorized people, protected characters, or undisclosed affiliate links.
+          required: true
+        - label: I agree that accepted contributions may be edited for clarity and released under this repository's MIT License.
+          required: true

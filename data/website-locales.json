@@ -1,0 +1,97 @@
+{
+  "checked_on": "2026-09-24",
+  "source": "https://seaimagine.com/model/gemini-omni-1-1-flash/",
+  "method": "Language-switcher links from public HTML; HTTP GET checks, not generation tests",
+  "locales": [
+    {
+      "website_locale": "en",
+      "url": "https://seaimagine.com/en/model/gemini-omni-1-1-flash/",
+      "http_result": "200 https://seaimagine.com/model/gemini-omni-1-1-flash/",
+      "exit_code": 0
+    },
+    {
+      "website_locale": "ja",
+      "url": "https://seaimagine.com/ja/model/gemini-omni-1-1-flash/",
+      "http_result": "200 https://seaimagine.com/ja/model/gemini-omni-1-1-flash/",
+      "exit_code": 0
+    },
+    {
+      "website_locale": "pt",
+      "url": "https://seaimagine.com/pt/model/gemini-omni-1-1-flash/",
+      "http_result": "200 https://seaimagine.com/pt/model/gemini-omni-1-1-flash/",
+      "exit_code": 0
+    },
+    {
+      "website_locale": "es",
+      "url": "https://seaimagine.com/es/model/gemini-omni-1-1-flash/",
+      "http_result": "200 https://seaimagine.com/es/model/gemini-omni-1-1-flash/",
+      "exit_code": 0
+    },
+    {
+      "website_locale": "de",
+      "url": "https://seaimagine.com/de/model/gemini-omni-1-1-flash/",
+      "http_result": "200 https://seaimagine.com/de/model/gemini-omni-1-1-flash/",
+      "exit_code": 0
+    },
+    {
+      "website_locale": "ru",
+      "url": "https://seaimagine.com/ru/model/gemini-omni-1-1-flash/",
+      "http_result": "200 https://seaimagine.com/ru/model/gemini-omni-1-1-flash/",
+      "exit_code": 0
+    },
+    {
+      "website_locale": "fr",
+      "url": "https://seaimagine.com/fr/model/gemini-omni-1-1-flash/",
+      "http_result": "200 https://seaimagine.com/fr/model/gemini-omni-1-1-flash/",
+      "exit_code": 0
+    },
+    {
+      "website_locale": "cn",
+      "url": "https://seaimagine.com/cn/model/gemini-omni-1-1-flash/",
+      "http_result": "200 https://seaimagine.com/cn/model/gemini-omni-1-1-flash/",
+      "exit_code": 0
+    },
+    {
+      "website_locale": "tw",
+      "url": "https://seaimagine.com/tw/model/gemini-omni-1-1-flash/",
+      "http_result": "200 https://seaimagine.com/tw/model/gemini-omni-1-1-flash/",
+      "exit_code": 0
+    },
+    {
+      "website_locale": "ko",
+      "url": "https://seaimagine.com/ko/model/gemini-omni-1-1-flash/",
+      "http_result": "200 https://seaimagine.com/ko/model/gemini-omni-1-1-flash/",
+      "exit_code": 0
+    },
+    {
+      "website_locale": "th",
+      "url": "https://seaimagine.com/th/model/gemini-omni-1-1-flash/",
+      "http_result": "200 https://seaimagine.com/th/model/gemini-omni-1-1-flash/",
+      "exit_code": 0
+    },
+    {
+      "website_locale": "vi",
+      "url": "https://seaimagine.com/vi/model/gemini-omni-1-1-flash/",
+      "http_result": "200 https://seaimagine.com/vi/model/gemini-omni-1-1-flash/",
+      "exit_code": 0
+    },
+    {
+      "website_locale": "ar",
+      "url": "https://seaimagine.com/ar/model/gemini-omni-1-1-flash/",
+      "http_result": "200 https://seaimagine.com/ar/model/gemini-omni-1-1-flash/",
+      "exit_code": 0
+    },
+    {
+      "website_locale": "id",
+      "url": "https://seaimagine.com/id/model/gemini-omni-1-1-flash/",
+      "http_result": "200 https://seaimagine.com/id/model/gemini-omni-1-1-flash/",
+      "exit_code": 0
+    },
+    {
+      "website_locale": "it",
+      "url": "https://seaimagine.com/it/model/gemini-omni-1-1-flash/",
+      "http_result": "200 https://seaimagine.com/it/model/gemini-omni-1-1-flash/",
+      "exit_code": 0
+    }
+  ]
+}

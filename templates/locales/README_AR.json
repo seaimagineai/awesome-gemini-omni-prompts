@@ -1,0 +1,33 @@
+{
+  "collections": [
+    [
+      "السينما والسرد: 8 مطالبات",
+      "prompts/cinematic-storytelling.md"
+    ],
+    [
+      "الإعلانات ووسائل التواصل: 8 مطالبات",
+      "prompts/commerce-social.md"
+    ],
+    [
+      "الوثائقي والسفر والتعليم: 8 مطالبات",
+      "prompts/documentary-education.md"
+    ],
+    [
+      "الرسوم المتحركة والموسيقى والترفيه: 8 مطالبات",
+      "prompts/stylized-entertainment.md"
+    ],
+    [
+      "التحكم والتحرير والتمديد: 10 وصفات",
+      "prompts/control-editing-extension.md"
+    ],
+    [
+      "التحرير المتقدم والكاميرا والتحويل البصري: 9 مطالبات",
+      "prompts/advanced-editing-camera.md"
+    ],
+    [
+      "لوحات القصة وتقسيم الشاشة والنص والتقييم: 9 مطالبات",
+      "prompts/storyboard-text-evaluation.md"
+    ]
+  ],
+  "dialogue": "Spoken language: Modern Standard Arabic.\nExact dialogue at 6s, spoken once with natural pacing: \"لنعد إلى المنزل اليوم عبر الطريق الأطول.\"\nDo not translate, paraphrase, repeat or subtitle it.\n\nOn-screen language: Modern Standard Arabic.\nText direction: right-to-left.\nExact title: \"رحلات صغيرة\"\nKeep the full phrase connected and right-aligned. No other text."
+}

@@ -1,0 +1,33 @@
+{
+  "collections": [
+    [
+      "Film dan penceritaan: 8 prompt",
+      "prompts/cinematic-storytelling.md"
+    ],
+    [
+      "Iklan dan media sosial: 8 prompt",
+      "prompts/commerce-social.md"
+    ],
+    [
+      "Dokumenter, perjalanan, dan pendidikan: 8 prompt",
+      "prompts/documentary-education.md"
+    ],
+    [
+      "Animasi, musik, dan hiburan: 8 prompt",
+      "prompts/stylized-entertainment.md"
+    ],
+    [
+      "Kontrol, penyuntingan, dan perpanjangan: 10 resep",
+      "prompts/control-editing-extension.md"
+    ],
+    [
+      "Penyuntingan lanjutan, kamera, dan transformasi visual: 9 prompt",
+      "prompts/advanced-editing-camera.md"
+    ],
+    [
+      "Storyboard, layar terbagi, teks, dan evaluasi: 9 prompt",
+      "prompts/storyboard-text-evaluation.md"
+    ]
+  ],
+  "dialogue": "Spoken language: Indonesian.\nExact dialogue at 6s, spoken once with natural conversational pacing: \"Hari ini, mari kita pulang lewat jalan yang lebih panjang.\"\nDo not translate, paraphrase, repeat or subtitle it.\n\nExact on-screen Indonesian title: \"PERJALANAN KECIL\"\nPreserve spelling exactly. No other text."
+}

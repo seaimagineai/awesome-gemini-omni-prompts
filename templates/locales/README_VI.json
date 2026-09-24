@@ -1,0 +1,33 @@
+{
+  "collections": [
+    [
+      "Điện ảnh và kể chuyện: 8 prompt",
+      "prompts/cinematic-storytelling.md"
+    ],
+    [
+      "Quảng cáo và mạng xã hội: 8 prompt",
+      "prompts/commerce-social.md"
+    ],
+    [
+      "Tài liệu, du lịch và giáo dục: 8 prompt",
+      "prompts/documentary-education.md"
+    ],
+    [
+      "Hoạt hình, âm nhạc và giải trí: 8 prompt",
+      "prompts/stylized-entertainment.md"
+    ],
+    [
+      "Điều khiển, chỉnh sửa và mở rộng: 10 công thức",
+      "prompts/control-editing-extension.md"
+    ],
+    [
+      "Chỉnh sửa nâng cao, máy quay và biến đổi hình ảnh: 9 prompt",
+      "prompts/advanced-editing-camera.md"
+    ],
+    [
+      "Storyboard, chia màn hình, chữ và đánh giá: 9 prompt",
+      "prompts/storyboard-text-evaluation.md"
+    ]
+  ],
+  "dialogue": "Spoken language: Vietnamese.\nExact dialogue at 6s, spoken once with natural conversational pacing: \"Hôm nay mình đi đường vòng về nhà nhé.\"\nDo not translate, paraphrase, repeat or subtitle it.\n\nExact on-screen Vietnamese title: \"NHỮNG CHUYẾN ĐI NHỎ\"\nPreserve every Vietnamese tone mark exactly. No other text."
+}

@@ -1,0 +1,33 @@
+{
+  "collections": [
+    [
+      "Film und Storytelling: 8 Prompts",
+      "prompts/cinematic-storytelling.md"
+    ],
+    [
+      "Werbung und Social Media: 8 Prompts",
+      "prompts/commerce-social.md"
+    ],
+    [
+      "Dokumentation, Reise und Bildung: 8 Prompts",
+      "prompts/documentary-education.md"
+    ],
+    [
+      "Animation, Musik und Unterhaltung: 8 Prompts",
+      "prompts/stylized-entertainment.md"
+    ],
+    [
+      "Steuerung, Bearbeitung und Erweiterung: 10 Rezepte",
+      "prompts/control-editing-extension.md"
+    ],
+    [
+      "Fortgeschrittene Bearbeitung, Kamera und visuelle Transformation: 9 Prompts",
+      "prompts/advanced-editing-camera.md"
+    ],
+    [
+      "Storyboards, Split-Screens, Text und Evaluierung: 9 Prompts",
+      "prompts/storyboard-text-evaluation.md"
+    ]
+  ],
+  "dialogue": "Spoken language: German.\nExact dialogue at 6s, spoken once with natural conversational pacing: \"Lass uns heute den längeren Weg nach Hause nehmen.\"\nDo not translate, paraphrase, repeat or subtitle it.\n\nExact on-screen German title: \"KLEINE REISEN\"\nAllow enough width for German compound words. No other text."
+}

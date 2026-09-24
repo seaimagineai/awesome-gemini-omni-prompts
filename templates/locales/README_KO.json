@@ -1,0 +1,33 @@
+{
+  "collections": [
+    [
+      "영화와 스토리텔링: 8개",
+      "prompts/cinematic-storytelling.md"
+    ],
+    [
+      "광고와 소셜 미디어: 8개",
+      "prompts/commerce-social.md"
+    ],
+    [
+      "다큐멘터리, 여행, 교육: 8개",
+      "prompts/documentary-education.md"
+    ],
+    [
+      "애니메이션, 음악, 엔터테인먼트: 8개",
+      "prompts/stylized-entertainment.md"
+    ],
+    [
+      "멀티모달 제어, 편집, 확장: 10개",
+      "prompts/control-editing-extension.md"
+    ],
+    [
+      "고급 편집, 카메라, 시각 변환: 9개",
+      "prompts/advanced-editing-camera.md"
+    ],
+    [
+      "스토리보드, 분할 화면, 텍스트, 평가: 9개",
+      "prompts/storyboard-text-evaluation.md"
+    ]
+  ],
+  "dialogue": "Spoken language: Korean.\nExact dialogue at 6s, spoken once with natural conversational pacing: \"오늘은 조금 돌아서 집에 가자.\"\nDo not translate, paraphrase, repeat or subtitle it.\n\nExact on-screen Korean title: \"작은 여행\"\nUse large readable Hangul syllable blocks. No other text."
+}

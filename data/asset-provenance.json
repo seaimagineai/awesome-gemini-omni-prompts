@@ -1,0 +1,8 @@
+{
+  "file": "assets/seaimagine-omni-hero.png",
+  "created_on": "2026-09-24",
+  "method": "Built-in image generation tool",
+  "purpose": "Original SeaImagine editorial cover; not Gemini video output",
+  "prompt": "An original 16:9 cinematic editorial hero for SeaImagine open Gemini Omni prompt library: a luminous turquoise ocean wave becomes a curling strip of film passing through a warm product-photography stage on an island into a paper-crafted moonlit miniature city, with distant sea cliffs at sunrise. Teal ocean and warm amber, real tactile materials, readable large shapes. No text, letters, logos, UI, watermark or existing characters.",
+  "sha256": "97022073f4fa1dc8ec4a1a494cff4450cadc3969270dc21c9c9c9e71951adbdc"
+}

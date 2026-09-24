@@ -1,0 +1,33 @@
+{
+  "collections": [
+    [
+      "Cinema e narrativa: 8 prompts",
+      "prompts/cinematic-storytelling.md"
+    ],
+    [
+      "Comércio e redes sociais: 8 prompts",
+      "prompts/commerce-social.md"
+    ],
+    [
+      "Documentário, viagem e educação: 8 prompts",
+      "prompts/documentary-education.md"
+    ],
+    [
+      "Animação, música e entretenimento: 8 prompts",
+      "prompts/stylized-entertainment.md"
+    ],
+    [
+      "Controle, edição e extensão: 10 receitas",
+      "prompts/control-editing-extension.md"
+    ],
+    [
+      "Edição avançada, câmera e transformação visual: 9 prompts",
+      "prompts/advanced-editing-camera.md"
+    ],
+    [
+      "Storyboards, tela dividida, texto e avaliação: 9 prompts",
+      "prompts/storyboard-text-evaluation.md"
+    ]
+  ],
+  "dialogue": "Spoken language: Brazilian Portuguese.\nExact dialogue at 6s, spoken once with natural conversational pacing: \"Hoje, vamos voltar para casa pelo caminho mais longo.\"\nDo not translate, paraphrase, repeat or subtitle it.\n\nExact on-screen Brazilian Portuguese title: \"PEQUENAS VIAGENS\"\nPreserve accents, ç and spelling exactly. No other text."
+}

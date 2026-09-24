@@ -1,0 +1,33 @@
+{
+  "collections": [
+    [
+      "ภาพยนตร์และการเล่าเรื่อง: 8 รายการ",
+      "prompts/cinematic-storytelling.md"
+    ],
+    [
+      "โฆษณาและโซเชียลมีเดีย: 8 รายการ",
+      "prompts/commerce-social.md"
+    ],
+    [
+      "สารคดี ท่องเที่ยว และการศึกษา: 8 รายการ",
+      "prompts/documentary-education.md"
+    ],
+    [
+      "แอนิเมชัน ดนตรี และความบันเทิง: 8 รายการ",
+      "prompts/stylized-entertainment.md"
+    ],
+    [
+      "การควบคุม การแก้ไข และการต่อวิดีโอ: 10 รายการ",
+      "prompts/control-editing-extension.md"
+    ],
+    [
+      "การแก้ไขขั้นสูง กล้อง และการแปลงภาพ: 9 รายการ",
+      "prompts/advanced-editing-camera.md"
+    ],
+    [
+      "สตอรีบอร์ด แบ่งหน้าจอ ข้อความ และการประเมิน: 9 รายการ",
+      "prompts/storyboard-text-evaluation.md"
+    ]
+  ],
+  "dialogue": "Spoken language: Thai.\nExact dialogue at 6s, spoken once with natural conversational pacing: \"วันนี้กลับบ้านทางอ้อมกันเถอะ\"\nDo not translate, paraphrase, repeat or subtitle it.\n\nExact on-screen Thai title: \"การเดินทางเล็ก ๆ\"\nKeep it on one line with large readable Thai text. No other text."
+}

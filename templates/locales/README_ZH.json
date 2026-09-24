@@ -1,0 +1,35 @@
+{
+  "collections": [
+    [
+      "电影与叙事",
+      "prompts/cinematic-storytelling.md"
+    ],
+    [
+      "商业广告与社交媒体",
+      "prompts/commerce-social.md"
+    ],
+    [
+      "纪录片、旅行与教育",
+      "prompts/documentary-education.md"
+    ],
+    [
+      "动画、音乐与娱乐",
+      "prompts/stylized-entertainment.md"
+    ],
+    [
+      "多模态控制、编辑与续写",
+      "prompts/control-editing-extension.md"
+    ],
+    [
+      "进阶编辑、镜头与视觉变换",
+      "prompts/advanced-editing-camera.md"
+    ],
+    [
+      "故事板、分屏、文字与评测",
+      "prompts/storyboard-text-evaluation.md"
+    ]
+  ],
+  "dialogue": "Spoken language: Japanese.\nExact dialogue at 6s, spoken once with natural conversational pacing: \"今日は、遠回りして帰ろう。\"\nDo not translate, paraphrase, repeat or subtitle it.\n\nOn-screen language: Spanish.\nExact title, centered and fully readable from 7s to 10s: \"PEQUEÑOS VIAJES\"\nPreserve accents and spelling exactly. No other text anywhere.",
+  "supplemental": "## 一条强提示词应该像导演简报\n\n```text\n[Mode] Text-to-video / Image-to-video / Reference-to-video / Edit / Extend\n[Goal] Audience, emotion, use, duration, aspect ratio\n[Reference roles] Image 1 is the first frame; Image 2 locks identity; Video 1 provides motion only\n[Visual anchors] Subject, wardrobe, product geometry, set, time, palette\n[Timeline] Setup → action → change → deliberate final frame\n[Camera] Shot size, height, path, speed, focus, stopping point\n[Performance and physics] Gaze, hands, weight, inertia, contact, cloth, water\n[Audio] Dialogue, ambience, foley, original music, synchronization cues, silence\n[Continuity] What must never change\n[Avoid] Morphing, duplicates, extra limbs, fake text, logos, watermarks\n```\n\n### 10 秒可复制母版\n\n```text\nFormat: 9:16 vertical video, 10 seconds.\nGoal: [让哪类观众产生什么感受或行动]\n\nScene: [地点、时间、天气、空间关系]\nSubject: [3-5 个稳定识别锚点]\nSubject motion: [按顺序写主体动作]\nCamera motion: [机位、景别、路径、速度、焦点]\nEnvironment motion: [风、光、水、粒子、人群]\n\n[0-3s] [钩子与空间建立]\n[3-7s] [核心动作与升级]\n[7-10s] [结果与明确尾帧]\n\nLook: [媒介、光线、色彩、材料]\nAudio: [前景拟音、环境、音乐进入/退出、静默]\nExact dialogue in [language], spoken once: \"[逐字对白]\"\nExact on-screen text in [language]: \"[逐字文案]\"\nPreserve: [身份、产品、场景、动作、声音]\nDo not include: [短而具体的排除项]\n```\n\n[查看完整提示词设计方法 →](docs/prompting-guide.md)\n\n## 图生视频检查表\n\n- 锁定身份、服装、产品几何、对象数量、构图与主光方向。\n- 分开描述主体运动、环境运动和相机运动。\n- 每个参考素材只有一个职责，避免“使用所有参考图中的全部内容”。\n- 写清相机起点、路径、速度和最终停止位置。\n- 为减速和明确尾帧预留最后 2–3 秒。\n- 将对白、环境、拟音与音乐拆成不同声音层。\n- 只使用原创或已获适当授权的人物、声音、产品和视觉资产。\n\n## Gemini Omni 1.1 Flash FAQ\n\n### 应该用文生视频还是图生视频？\n\n探索概念、剧本或气氛时用文生视频；人物、产品、插画、构图、首帧或尾帧必须可识别时，若所选模型支持，可用图生视频或参考素材。先验证最重要的锚点，再增加复杂特效。\n\n### 怎样减少角色或产品漂移？\n\n指定一个主要身份/产品锚点，先列出不可改变的属性，再描述动作；每个额外参考素材只负责服装、道具、风格或动作中的一项，并明确拒绝重新设计、部件数量变化、标签漂移和身份变化。\n\n### 可以直接用中文或其他语言写完整提示词吗？\n\n可以尝试。此库为方便复用保留英文镜头指令，并用目标语言逐字指定对白与屏幕文字；每个语言版本应单独检查。请以当前界面实际提供的预览分辨率测试，不预设 SeaImagine 提供 360p。\n\n### 编辑视频时为什么要写得更短？\n\n如果所选模型和界面提供视频编辑，编辑轮次中重述整个原片会增加无关元素被重新生成的机会。使用“唯一变化 + 保留项”，例如：`Change only the jacket to dark green. Keep everything else the same.`\n\n### 这些提示词可以免费使用吗？\n\n仓库按 [MIT License](LICENSE) 发布。生成结果仍可能涉及参考图、人物、声音、音乐、商标、场所、广告声明以及所用平台/模型的独立权利和条款。",
+  "collection_table": "| 分类 | 内容 | 数量 | 提示词涉及的设计目标 |\n|---|---|---:|---|\n| [电影与叙事](prompts/cinematic-storytelling.md) | 重逢、追逐、历史工艺、惊悚、季节插值、黑色电影、喜剧、科幻 | 8 | 文生视频、对白、时间轴、连续镜头 |\n| [商业广告与社交媒体](prompts/commerce-social.md) | 产品、护肤、咖啡 UGC、时尚、美食、房产、App、电商本地化 | 8 | 图生视频、参考图、竖屏、文字 |\n| [纪录片、旅行与教育](prompts/documentary-education.md) | 旅行、地质、自然、历史重建、科学、博物馆、语言、建筑 | 8 | 世界知识、解说、可读标签、真实物理 |\n| [动画、音乐与娱乐](prompts/stylized-entertainment.md) | 手绘、2D 动作、黏土、Meme、爵士、舞蹈、剪纸、循环 | 8 | 风格化、原生声音、单镜头、首尾帧 |\n| [多模态控制、编辑与续写](prompts/control-editing-extension.md) | 角色/道具、首尾帧、动作参考、增删对象、文字本地化、40 秒叙事 | 10 | 参考标签、编辑、extend、多轮交互 |\n| [进阶编辑、镜头与视觉变换](prompts/advanced-editing-camera.md) | 对象替换/移除、环境换景、风格隔离、换机位、倾斜揭示、海报穿越、AR、光轨 | 9 | 局部编辑、不变量、生成式视角、遮挡关系 |\n| [故事板、分屏、文字与评测](prompts/storyboard-text-evaluation.md) | 3×3 故事板、九宫格、动作回放、流程图、职责板、动效字、多语言、科学、A/B/C 测试 | 9 | 规划输入、精确文字、本地化、可重复评测 |"
+}
