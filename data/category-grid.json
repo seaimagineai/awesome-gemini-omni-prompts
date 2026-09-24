@@ -1,0 +1,56 @@
+[
+  {
+    "id": "cinematic-storytelling",
+    "title": "电影与叙事",
+    "title_en": "Cinema and storytelling",
+    "image": "assets/showcase-v2-01.png"
+  },
+  {
+    "id": "commerce-social",
+    "title": "商业广告与社交媒体",
+    "title_en": "Commerce and social media",
+    "image": "assets/showcase-v2-02.png"
+  },
+  {
+    "id": "documentary-education",
+    "title": "纪录片、旅行与教育",
+    "title_en": "Documentary, travel and education",
+    "image": "assets/showcase-v2-03.png"
+  },
+  {
+    "id": "stylized-entertainment",
+    "title": "动画、音乐与娱乐",
+    "title_en": "Animation, music and entertainment",
+    "image": "assets/showcase-v2-04.png"
+  },
+  {
+    "id": "control-editing-extension",
+    "title": "多模态控制、编辑与续写",
+    "title_en": "Control, editing and extension",
+    "image": "assets/category-control-v2.png"
+  },
+  {
+    "id": "advanced-editing-camera",
+    "title": "进阶编辑、镜头与视觉变换",
+    "title_en": "Advanced editing and camera",
+    "image": "assets/category-camera-v2.png"
+  },
+  {
+    "id": "storyboard-text-evaluation",
+    "title": "故事板、文字与评测",
+    "title_en": "Storyboards, text and evaluation",
+    "image": "assets/category-storyboard-v2.png"
+  },
+  {
+    "id": "tactile-asmr",
+    "title": "触感与 ASMR",
+    "title_en": "Tactile ASMR",
+    "image": "assets/showcase-v2-05.png"
+  },
+  {
+    "id": "miniature-worlds",
+    "title": "微缩与幻想世界",
+    "title_en": "Miniature and imagined worlds",
+    "image": "assets/showcase-v2-06.png"
+  }
+]

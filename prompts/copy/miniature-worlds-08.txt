@@ -1,0 +1,7 @@
+Create a 10-second, 16:9 miniature night-market animation across a black mechanical keyboard with blank keycaps. A tiny folded metal food kiosk rests flat on the spacebar. Two unlit miniature lanterns hang from its roof frame. No people are present. Keep the surrounding keys full-sized and stationary.
+
+[0-3s] Lower the camera toward keycap height while preserving the keyboard outline. The spacebar depresses once under the kiosk's weight and returns. This mechanical motion triggers the kiosk roof to rise on four visible telescoping posts.
+[3-7s] Two side panels unfold along their hinges to form a counter and canopy. The lanterns switch on with warm light, revealing three miniature steamed buns already arranged on a tray. The buns do not materialize during the opening.
+[7-10s] A narrow wisp of steam rises from the tray and dissipates above the roof. Stop the camera on the open kiosk, with neighbouring blank keys establishing its tiny scale.
+
+Audio: one satisfying spacebar click, small hinge ticks and a restrained steam hiss. No music, voices, lettering, logos, added kiosks, moving neighbouring keys or cuts.

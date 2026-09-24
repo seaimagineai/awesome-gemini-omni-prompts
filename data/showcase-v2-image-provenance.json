@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "created_date": "2026-09-24",
+  "tool": "image_gen.imagegen (built-in)",
+  "status": "AI-generated reference input images, not Gemini Omni video generation results",
+  "review": "Every selected image was visually reviewed using view_image. No Omni video generation was performed.",
+  "images": [
+    {
+      "path": "assets/showcase-v2-01.png",
+      "tool": "image_gen.imagegen",
+      "source_generation_id": "21fe2464-a1c1-4c14-93b7-53a6b6155eda",
+      "prompt": "Use case: photorealistic-natural. Generate one standalone cinematic photograph, landscape 16:9, high resolution, full-bleed rich layered detail. A rain-soaked night laundromat, one adult female repair technician wearing a yellow raincoat, next to a blue front-loading washing machine with its round door open. Exactly one red sock rests across the lower lip of the open drum, physically still supported, ordinary gravity. Neon reflections in wet street seen through windows, reflections only without readable signs. Convincing machine metal, rubber seals, wet coat texture, warm interior versus cyan-magenta reflected rain outside. Wide eye-level frame with technician and open blue washer as clear focal points, visible floor and overhead space anticipating a future gravity reversal, but THIS first frame has no floating objects and no reversed gravity. No words, letters, text, logos, brands or watermark. Single scene, not collage or multi-panel.",
+      "edit_prompt": "Edit this cinematic 16:9 scene keeping photographic realism, yellow raincoat, blue open front-loading washer, rainy neon window reflections, and rich textured environment. Recompose so the adult woman technician crouches on the RIGHT facing the open blue washing machine on the LEFT. Exactly one red sock FLOATS just 5 cm clear of the open drum lip, a small clear air gap between sock and metal, the ONLY object defying gravity. Everything else stays grounded and normal. This is the first subtle moment of gravity reversal, not an action climax. No text, legible letters, branding, logos or watermarks. One full-bleed scene.",
+      "initial_generation_id": "ad01b27c-7cf9-4418-bf37-ae12ae1b7d4e",
+      "intended_use": "Original reference first frame for an image-to-video prompt exercise",
+      "is_omni_output": false,
+      "visually_reviewed": true,
+      "sha256": "7209348c1da1d286970d67baac70c888f87d083f151b9a497c9099ea7b8a578e",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "assets/showcase-v2-02.png",
+      "tool": "image_gen.imagegen",
+      "source_generation_id": "3b92d4c0-080c-4776-90c6-262c1f393dd4",
+      "prompt": "Use case: product-mockup. Create ONE full-bleed cinematic macro product photograph, horizontal 16:9. A pristine unlabeled transparent square perfume bottle containing amber liquid, precise thick glass edges and restrained internal caustics. Beside and partly around it, a finely machined copper mechanical circular ring, beautiful tangible gearing and brushed metal details. A thin real half-slice of orange is securely fixed above the ring, with believable juicy vesicles, pith and rind, no floating pieces. Black studio background, dramatic side light, copper and amber with narrow cool edge highlights. This is an elegant eclipse apparatus BEFORE activation; all objects stationary, no splash, no eclipse effects yet. Composition richly dimensional and full-width with enough separation to read bottle, ring and orange clearly. Premium realistic materials, not a diagram. No labels, words, letters, logo, watermark, hands, panels or collage.",
+      "intended_use": "Original reference first frame for an image-to-video prompt exercise",
+      "is_omni_output": false,
+      "visually_reviewed": true,
+      "sha256": "b54ec48c174c9328524d3be4fca2a4ad99f78a29b4c3a3fb00f2c9326da1214e",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "assets/showcase-v2-03.png",
+      "tool": "image_gen.imagegen",
+      "source_generation_id": "0ead1b1e-8721-4702-9590-3842b2145c7e",
+      "prompt": "Use case: photorealistic-natural. One full-width horizontal 16:9 documentary-quality split-level underwater photograph in a mangrove estuary at indigo NIGHT. Camera half above and half below a gently rippling waterline, realistic optical transition and credible refraction. Above: intricate mangrove trunks, distant branching silhouettes, a light mist under cool indigo night sky. Below: detailed submerged mangrove roots, sparse tiny blue-green bioluminescent plankton points gathered near roots, dark clear water with natural fine suspended particles. Exactly one small silver fish in the lower-right underwater foreground, anatomically credible, subtle silver scales. Layered spatial depth, richly detailed bark, roots and water; calm and mysterious but observationally realistic, not a fantasy neon forest. Glow is sparse and subdued. No people, no words, logos or watermark. Single seamless scene, not a collage, no labels or scientific diagram.",
+      "intended_use": "Original reference first frame for an image-to-video prompt exercise",
+      "is_omni_output": false,
+      "visually_reviewed": true,
+      "sha256": "ca7a0fd6366e0473cc98ee499e4e4928765113849399c359d7e3aa5bf731c06b",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "assets/showcase-v2-04.png",
+      "tool": "image_gen.imagegen",
+      "source_generation_id": "7fe69946-ecb2-4e13-a85e-020173be0a59",
+      "prompt": "Use case: stylized-concept. One exquisite handcrafted paper-art stop-motion animation first frame, full-bleed horizontal 16:9. A small orange folded-paper fox mail carrier stands on the LEFT of a miniature train station platform at night in the rain. The fox wears a blue paper crossbody mail bag and holds an ochre folded-paper umbrella. Clearly visible folded facets, cut paper edges, paper fibers, tiny handmade imperfections. A small red origami steam train approaches from the distant RIGHT background on paper rails, still far away. Rain is made entirely from fine suspended PAPER THREADS, not photoreal water; layered paper puddles reflect soft warm station lamps. Depth-rich miniature stage with cool navy night and warm orange fox, charming but highly sophisticated craft, detailed paper canopy, platform, rails. No text anywhere, no station signs with letters, no logos or watermark. One scene, no collage, no multiple frames.",
+      "edit_prompt": "Change only the train in this paper-art scene: make the locomotive and train carriages clearly saturated RED folded origami paper, visibly red angular paper boiler, red cab and red carriages with tangible paper folds. Keep its position on the right background, its existing scale, perspective and track. Preserve the orange paper fox at left, blue satchel, ochre umbrella, station, lighting, paper-thread rain and entire composition exactly. Keep single 16:9 scene, no text/logo/watermark.",
+      "initial_generation_id": "a39ae6c8-f2b9-4e68-8286-b1965a22fce7",
+      "intended_use": "Original reference first frame for an image-to-video prompt exercise",
+      "is_omni_output": false,
+      "visually_reviewed": true,
+      "sha256": "6a2b6089296a84e80284aa195c06896fe6f43731d93a4ff419d1cec5cd95f9c5",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "assets/showcase-v2-05.png",
+      "tool": "image_gen.imagegen",
+      "source_generation_id": "e7e4d75a-ca97-4670-9e03-74ec83542d56",
+      "prompt": "Use case: product-mockup. One hyperreal macro ASMR still life first frame, full-width landscape 16:9 photograph. A single intact transparent AMBER GLASS PEAR stands on a dark charcoal slate slab. The pear is unmistakably sculpted glass with dense refraction, flawless glossy outer surface, delicate glass stem and tiny STAR-SHAPED air bubbles suspended inside, no fruit flesh. An obsidian knife enters from the upper RIGHT, its dark sharp edge just touching the upper shoulder of the whole pear, BEFORE any cut; no split, no cracks, no detached pieces. No hands and no visible person. Extreme tactile texture in slate and obsidian, luminous internal amber caustics and controlled side illumination, deep dark backdrop, confident cinematic composition, carefully resolved material details. Single uncut pear, no duplication. No text, brands, logos, watermark, panels or collage.",
+      "intended_use": "Original reference first frame for an image-to-video prompt exercise",
+      "is_omni_output": false,
+      "visually_reviewed": true,
+      "sha256": "c13cf49b7279ab20618d01158d568bb872e69e1d28000b4f7ff8d71764434d70",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "assets/showcase-v2-06.png",
+      "tool": "image_gen.imagegen",
+      "source_generation_id": "1943231d-d45b-4f0e-b076-7a8c504e0459",
+      "prompt": "Use case: stylized-concept. One photoreal miniature diorama photograph, full-bleed cinematic landscape 16:9. An open vintage BLUE travel suitcase on a wooden desk contains a beautifully detailed tiny mountain world: a small summit observatory with metallic dome, layered mountains rising through a sea of soft clouds, and a COPPER miniature steam train on a single winding railway around the mountain. The suitcase lid stands upright behind this scene and frames a dark star-filled sky, illuminated by cool starlight. On the FRONT rim of the suitcase a clearly visible copper mechanical knob is mounted, idle and untouched; no hands or people. Warm desk-lamp light from off frame contrasts with cool blue starlight inside the suitcase. Real scale-model craftsmanship, weathered leather blue shell, fine brass latches, precise observatory details and tiny train machinery, cloud fibers, tactile mountain rock. The train is present and at rest for an animation first frame; modest stationary wisp near locomotive only. Every element fits naturally inside the suitcase. No words, labels, letters, logos, watermark, collage or panels.",
+      "intended_use": "Original reference first frame for an image-to-video prompt exercise",
+      "is_omni_output": false,
+      "visually_reviewed": true,
+      "sha256": "13ebfbaf376a9b99094e8454a57a2a68d5ad91fce3f0cac381aca6d5db511e5c",
+      "width": 1672,
+      "height": 941
+    }
+  ]
+}

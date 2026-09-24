@@ -2,19 +2,19 @@
 
 [中文首页](../README_ZH.md) · [English home](../README.md)
 
-60 个完整配方，按 7 类整理。点击案例查看输入要求和完整提示词；点击 TXT 打开可下载的纯文本。多段配方保留各段顺序，使用时分段提交。
+76 个完整配方，按 9 类整理。点击案例查看输入要求和完整提示词；点击 TXT 打开可下载的纯文本。多段配方保留各段顺序，使用时分段提交。
 
-60 complete recipes in 7 categories. Open a case for inputs and copyable prompts, or open TXT for a plain-text download. Submit multi-part recipes one part at a time.
+76 complete recipes in 9 categories. Open a case for inputs and copyable prompts, or open TXT for a plain-text download. Submit multi-part recipes one part at a time.
 
-**案例状态 / Status:** 源库创作配方，未逐条验证生成效果；不将这些配方当作实测输出。 / Source-library practice briefs, not individually verified generated results.
+**案例状态 / Status:** 源库与新增原创配方，未逐条验证生成效果；不将这些配方当作实测输出。 / Source-library and new original practice briefs, not individually verified generated results.
 
-[电影与叙事 / Cinematic storytelling](#cinematic-storytelling) · [商业广告与社交媒体 / Commerce and social](#commerce-social) · [纪录片与教育 / Documentary and education](#documentary-education) · [风格化与娱乐 / Stylized entertainment](#stylized-entertainment) · [多模态控制、编辑与续写 / Multimodal control, editing and extension](#control-editing-extension) · [进阶编辑与镜头 / Advanced editing and camera](#advanced-editing-camera) · [分镜、文字与评测 / Storyboards, text and evaluation](#storyboard-text-evaluation)
+[电影与叙事 / Cinema and storytelling](#cinematic-storytelling) · [商业广告与社交媒体 / Commerce and social media](#commerce-social) · [纪录片、旅行与教育 / Documentary, travel and education](#documentary-education) · [动画、音乐与娱乐 / Animation, music and entertainment](#stylized-entertainment) · [多模态控制、编辑与续写 / Control, editing and extension](#control-editing-extension) · [进阶编辑、镜头与视觉变换 / Advanced editing and camera](#advanced-editing-camera) · [故事板、文字与评测 / Storyboards, text and evaluation](#storyboard-text-evaluation) · [触感与 ASMR / Tactile ASMR](#tactile-asmr) · [微缩与幻想世界 / Miniature and imagined worlds](#miniature-worlds)
 
-[下载全部 60 例 / Download all 60 recipes](../prompts/copy/all-prompts.txt)
+[下载全部 76 例 / Download all 76 recipes](../prompts/copy/all-prompts.txt)
 
 <a id="cinematic-storytelling"></a>
 
-## 电影与叙事 / Cinematic storytelling · 8
+## 电影与叙事 / Cinema and storytelling · 8
 
 | 案例 / Case | 纯文本 / Plain text |
 | --- | --- |
@@ -29,7 +29,7 @@
 
 <a id="commerce-social"></a>
 
-## 商业广告与社交媒体 / Commerce and social · 8
+## 商业广告与社交媒体 / Commerce and social media · 8
 
 | 案例 / Case | 纯文本 / Plain text |
 | --- | --- |
@@ -44,7 +44,7 @@
 
 <a id="documentary-education"></a>
 
-## 纪录片与教育 / Documentary and education · 8
+## 纪录片、旅行与教育 / Documentary, travel and education · 8
 
 | 案例 / Case | 纯文本 / Plain text |
 | --- | --- |
@@ -59,7 +59,7 @@
 
 <a id="stylized-entertainment"></a>
 
-## 风格化与娱乐 / Stylized entertainment · 8
+## 动画、音乐与娱乐 / Animation, music and entertainment · 8
 
 | 案例 / Case | 纯文本 / Plain text |
 | --- | --- |
@@ -74,7 +74,7 @@
 
 <a id="control-editing-extension"></a>
 
-## 多模态控制、编辑与续写 / Multimodal control, editing and extension · 10
+## 多模态控制、编辑与续写 / Control, editing and extension · 10
 
 | 案例 / Case | 纯文本 / Plain text |
 | --- | --- |
@@ -91,7 +91,7 @@
 
 <a id="advanced-editing-camera"></a>
 
-## 进阶编辑与镜头 / Advanced editing and camera · 9
+## 进阶编辑、镜头与视觉变换 / Advanced editing and camera · 9
 
 | 案例 / Case | 纯文本 / Plain text |
 | --- | --- |
@@ -107,7 +107,7 @@
 
 <a id="storyboard-text-evaluation"></a>
 
-## 分镜、文字与评测 / Storyboards, text and evaluation · 9
+## 故事板、文字与评测 / Storyboards, text and evaluation · 9
 
 | 案例 / Case | 纯文本 / Plain text |
 | --- | --- |
@@ -120,3 +120,33 @@
 | [07 · One title sequence, four language-safe variants](../prompts/storyboard-text-evaluation.md#case-07) | [TXT](../prompts/copy/storyboard-text-evaluation-07.txt) |
 | [08 · Clay-table explainer: why tectonic plates move](../prompts/storyboard-text-evaluation.md#case-08) | [TXT](../prompts/copy/storyboard-text-evaluation-08.txt) |
 | [09 · Controlled A/B/C prompt evaluation](../prompts/storyboard-text-evaluation.md#case-09) | [TXT](../prompts/copy/storyboard-text-evaluation-09.txt) |
+
+<a id="tactile-asmr"></a>
+
+## 触感与 ASMR / Tactile ASMR · 8
+
+| 案例 / Case | 纯文本 / Plain text |
+| --- | --- |
+| [01 · 琥珀玻璃梨：切开星形晶核](../prompts/tactile-asmr.md#case-01) | [TXT](../prompts/copy/tactile-asmr-01.txt) |
+| [02 · 月白陶壳：一条裂缝露出蓝色晶洞](../prompts/tactile-asmr.md#case-02) | [TXT](../prompts/copy/tactile-asmr-02.txt) |
+| [03 · 丝绒沙丘：黄铜滚轮压出一条鱼骨纹](../prompts/tactile-asmr.md#case-03) | [TXT](../prompts/copy/tactile-asmr-03.txt) |
+| [04 · 冰层气泡：铜球融出一条透明隧道](../prompts/tactile-asmr.md#case-04) | [TXT](../prompts/copy/tactile-asmr-04.txt) |
+| [05 · 云纹蜡：刨下一整条蓝白卷带](../prompts/tactile-asmr.md#case-05) | [TXT](../prompts/copy/tactile-asmr-05.txt) |
+| [06 · 珍珠膜：一颗水珠越过绷紧的薄膜](../prompts/tactile-asmr.md#case-06) | [TXT](../prompts/copy/tactile-asmr-06.txt) |
+| [07 · 可可地层：热勺划开一条脆壳峡谷](../prompts/tactile-asmr.md#case-07) | [TXT](../prompts/copy/tactile-asmr-07.txt) |
+| [08 · 磁珠编织：一枚环从平面竖起来](../prompts/tactile-asmr.md#case-08) | [TXT](../prompts/copy/tactile-asmr-08.txt) |
+
+<a id="miniature-worlds"></a>
+
+## 微缩与幻想世界 / Miniature and imagined worlds · 8
+
+| 案例 / Case | 纯文本 / Plain text |
+| --- | --- |
+| [01 · 蓝色旅行箱：云海天文台](../prompts/miniature-worlds.md#case-01) | [TXT](../prompts/copy/miniature-worlds-01.txt) |
+| [02 · 茶杯潮汐：灯塔岛迎来一艘小船](../prompts/miniature-worlds.md#case-02) | [TXT](../prompts/copy/miniature-worlds-02.txt) |
+| [03 · 书脊峡谷：维修小车穿过装订线桥](../prompts/miniature-worlds.md#case-03) | [TXT](../prompts/copy/miniature-worlds-03.txt) |
+| [04 · 玻璃罐温室：微型机器人为番茄授粉](../prompts/miniature-worlds.md#case-04) | [TXT](../prompts/copy/miniature-worlds-04.txt) |
+| [05 · 胡桃壳港口：吊机卸下一袋微型咖啡豆](../prompts/miniature-worlds.md#case-05) | [TXT](../prompts/copy/miniature-worlds-05.txt) |
+| [06 · 黑胶唱片城市：有轨电车追着唱针转弯](../prompts/miniature-worlds.md#case-06) | [TXT](../prompts/copy/miniature-worlds-06.txt) |
+| [07 · 雪靴里的滑雪场：缆车穿过鞋带山谷](../prompts/miniature-worlds.md#case-07) | [TXT](../prompts/copy/miniature-worlds-07.txt) |
+| [08 · 机械键盘夜市：空格键升起一座小食亭](../prompts/miniature-worlds.md#case-08) | [TXT](../prompts/copy/miniature-worlds-08.txt) |

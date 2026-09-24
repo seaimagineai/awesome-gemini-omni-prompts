@@ -9,7 +9,7 @@ These recipes focus on controlled changes to an existing generation or an upload
 <a id="case-index"></a>
 
 <!-- catalog:toc:start -->
-**本页案例 / Cases** · [全部 60 例 / All 60 cases](../docs/prompt-index.md)
+**本页案例 / Cases** · [全部 76 例 / All 76 cases](../docs/prompt-index.md)
 
 - [01 · Replace one prop without changing the performance](#case-01) · [TXT](copy/advanced-editing-camera-01.txt)
 - [02 · Remove a foreground obstruction and reconstruct the scene](#case-02) · [TXT](copy/advanced-editing-camera-02.txt)

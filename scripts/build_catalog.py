@@ -9,15 +9,8 @@ import json
 import re
 
 ROOT = Path(__file__).resolve().parents[1]
-CATEGORIES = [
-    ('cinematic-storytelling', '电影与叙事', 'Cinematic storytelling'),
-    ('commerce-social', '商业广告与社交媒体', 'Commerce and social'),
-    ('documentary-education', '纪录片与教育', 'Documentary and education'),
-    ('stylized-entertainment', '风格化与娱乐', 'Stylized entertainment'),
-    ('control-editing-extension', '多模态控制、编辑与续写', 'Multimodal control, editing and extension'),
-    ('advanced-editing-camera', '进阶编辑与镜头', 'Advanced editing and camera'),
-    ('storyboard-text-evaluation', '分镜、文字与评测', 'Storyboards, text and evaluation'),
-]
+CATEGORY_DATA = json.loads((ROOT / 'data/category-grid.json').read_text())
+CATEGORIES = [(c['id'], c['title'], c['title_en']) for c in CATEGORY_DATA]
 HEADINGS = re.compile(r'^## (\d{2})\s*[｜|]\s*(.+)$', re.M)
 FENCES = re.compile(r'^```[^\n]*\n(.*?)^```[ \t]*$', re.M | re.S)
 
@@ -44,23 +37,31 @@ def parse_cases(text):
 
 def build():
     categories, entries, all_prompts = [], [], []
+    total = sum(len(HEADINGS.findall((ROOT / "prompts" / (slug + ".md")).read_text())) for slug, _, _ in CATEGORIES)
+    category_count = len(CATEGORIES)
     copy_dir = ROOT / 'prompts/copy'
     copy_dir.mkdir(exist_ok=True)
     index = [
         '# 提示词案例索引 / Prompt index',
         '[中文首页](../README_ZH.md) · [English home](../README.md)',
-        '60 个完整配方，按 7 类整理。点击案例查看输入要求和完整提示词；点击 TXT 打开可下载的纯文本。多段配方保留各段顺序，使用时分段提交。',
-        '60 complete recipes in 7 categories. Open a case for inputs and copyable prompts, or open TXT for a plain-text download. Submit multi-part recipes one part at a time.',
-        '**案例状态 / Status:** 源库创作配方，未逐条验证生成效果；不将这些配方当作实测输出。 / Source-library practice briefs, not individually verified generated results.',
+        f'{total} 个完整配方，按 {category_count} 类整理。点击案例查看输入要求和完整提示词；点击 TXT 打开可下载的纯文本。多段配方保留各段顺序，使用时分段提交。',
+        f'{total} complete recipes in {category_count} categories. Open a case for inputs and copyable prompts, or open TXT for a plain-text download. Submit multi-part recipes one part at a time.',
+        '**案例状态 / Status:** 源库与新增原创配方，未逐条验证生成效果；不将这些配方当作实测输出。 / Source-library and new original practice briefs, not individually verified generated results.',
         ' · '.join(f'[{zh} / {en}](#{slug})' for slug, zh, en in CATEGORIES),
     ]
     for slug, zh, en in CATEGORIES:
         path = ROOT / 'prompts' / f'{slug}.md'
         original = path.read_text()
         text = clean_generated(original)
+        featured = {x['id']: x for x in json.loads((ROOT/'data/showcase-v2.json').read_text())}
+        for mapping in json.loads((ROOT/'data/new-prompt-provenance.json').read_text())['featured_to_case']:
+            if mapping['category'] == slug:
+                case_match = next(m for m in HEADINGS.finditer(text) if m.group(1) == mapping['case'])
+                block = FENCES.search(text, case_match.end())
+                text = text[:block.start(1)] + featured[mapping['featured_id']]['prompt'] + '\n' + text[block.end(1):]
         cases = parse_cases(text)
         categories.append({'id': slug, 'title': zh, 'title_en': en, 'path': f'prompts/{slug}.md', 'count': len(cases)})
-        toc = ['<!-- catalog:toc:start -->', '**本页案例 / Cases** · [全部 60 例 / All 60 cases](../docs/prompt-index.md)', '']
+        toc = ['<!-- catalog:toc:start -->', f'**本页案例 / Cases** · [全部 {total} 例 / All {total} cases](../docs/prompt-index.md)', '']
         index.extend(['', f'<a id="{slug}"></a>', '', f'## {zh} / {en} · {len(cases)}', '', '| 案例 / Case | 纯文本 / Plain text |', '| --- | --- |'])
         all_prompts.append(f'CATEGORY: {zh} / {en}')
         additions = []
@@ -86,7 +87,11 @@ def build():
             toc.append(f'- [{number} · {title}](#{anchor}) · [TXT](copy/{case_id}.txt)')
             safe_title = title.replace('|', '\\|')
             index.append(f'| [{number} · {safe_title}](../prompts/{slug}.md#{anchor}) | [TXT](../{copy_path}) |')
-            copy_link = f'\n\n<!-- catalog:copy:start -->\n[复制全文 / Download TXT](copy/{case_id}.txt) · [本页索引 / Case index](#case-index)\n<!-- catalog:copy:end -->'
+            input_link = ''
+            for mapping in json.loads((ROOT/'data/new-prompt-provenance.json').read_text())['featured_to_case']:
+                if mapping['category']==slug and mapping['case']==number:
+                    input_link = f'\n\n[参考首帧 / Reference Image1](../{featured[mapping["featured_id"]]["image"]})'
+            copy_link = f'\n\n<!-- catalog:copy:start -->\n[复制全文 / Download TXT](copy/{case_id}.txt) · [本页索引 / Case index](#case-index){input_link}\n<!-- catalog:copy:end -->'
             additions.append((match.end(), copy_link))
             additions.append((match.start(), f'<a id="{anchor}"></a>\n\n'))
         for position, addition in sorted(additions, reverse=True):
@@ -94,14 +99,14 @@ def build():
         toc.extend(['<!-- catalog:toc:end -->', ''])
         start = text.index('<a id="case-')
         text = text[:start] + '\n'.join(['<a id="case-index"></a>', '', *toc]) + '\n' + text[start:]
-        if FENCES.findall(original) != FENCES.findall(text):
+        if slug not in ('tactile-asmr','miniature-worlds') and FENCES.findall(original) != FENCES.findall(text):
             raise ValueError(f'Prompt blocks changed: {path}')
         path.write_text(text)
-    if len(entries) != 60 or len({row['id'] for row in entries}) != 60:
-        raise ValueError('Expected exactly 60 unique cases')
+    if len(entries) != total or len({row['id'] for row in entries}) != total:
+        raise ValueError('Case count mismatch or duplicate IDs')
     (ROOT / 'data/prompt-catalog.json').write_text(json.dumps({'categories': categories, 'cases': entries}, ensure_ascii=False, indent=2) + '\n')
     (copy_dir / 'all-prompts.txt').write_text(('\n\n' + '=' * 72 + '\n\n').join(all_prompts) + '\n')
-    index.insert(6, '[下载全部 60 例 / Download all 60 recipes](../prompts/copy/all-prompts.txt)')
+    index.insert(6, f'[下载全部 {total} 例 / Download all {total} recipes](../prompts/copy/all-prompts.txt)')
     (ROOT / 'docs/prompt-index.md').write_text('\n\n'.join(index[:6]) + '\n\n' + '\n'.join(index[6:]) + '\n')
     print(f'Built {len(entries)} cases in {len(categories)} categories; {sum(row["block_count"] for row in entries)} prompt blocks.')
 

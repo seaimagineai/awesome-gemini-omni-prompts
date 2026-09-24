@@ -9,7 +9,7 @@
 <a id="case-index"></a>
 
 <!-- catalog:toc:start -->
-**本页案例 / Cases** · [全部 60 例 / All 60 cases](../docs/prompt-index.md)
+**本页案例 / Cases** · [全部 76 例 / All 76 cases](../docs/prompt-index.md)
 
 - [01 · 末班站台的重逢](#case-01) · [TXT](copy/cinematic-storytelling-01.txt)
 - [02 · 屋顶快递：一镜到底追逐](#case-02) · [TXT](copy/cinematic-storytelling-02.txt)

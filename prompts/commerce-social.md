@@ -9,7 +9,7 @@
 <a id="case-index"></a>
 
 <!-- catalog:toc:start -->
-**本页案例 / Cases** · [全部 60 例 / All 60 cases](../docs/prompt-index.md)
+**本页案例 / Cases** · [全部 76 例 / All 76 cases](../docs/prompt-index.md)
 
 - [01 · 户外音箱水滴节拍广告](#case-01) · [TXT](copy/commerce-social-01.txt)
 - [02 · 护肤精华：微距质感而非夸张特效](#case-02) · [TXT](copy/commerce-social-02.txt)

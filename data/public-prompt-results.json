@@ -1,0 +1,181 @@
+{
+  "checked_at": "2026-09-24",
+  "selection_rule": "Each result must have an author-published prompt and a matching effect video. Short published instructions are copied completely; longer instructions are excerpted and linked, never silently reconstructed.",
+  "version_note": "All six are May 2026 Omni / Flash examples. None demonstrates Omni 1.1 Flash, SeaImagine availability, or a run performed by this repository.",
+  "quote_note": "Google excerpts total 17 words across two cases; each other author is quoted fewer than 25 words. Translations should not expand the source quotation.",
+  "cases": [
+    {
+      "id": "official-bubbles",
+      "kind": "official",
+      "title": "Bubble sculpture",
+      "author": "Google",
+      "date": "2026-05-29",
+      "model": "Gemini Omni Flash (May 2026 launch generation)",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+      "prompt_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+      "prompt_excerpt": "Make the sculpture out of bubbles.",
+      "excerpt_is_full_published_prompt": true,
+      "prompt_status": "public_original",
+      "video_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/rt_wm__omni__keynote__orb-structural-foam__260517_1.mp4",
+      "thumbnail_url": null,
+      "input_requirement": "An input video is required. The page shows the editing result; it is not a text-only generation recipe.",
+      "verification": "Prompt and corresponding video URL read directly from the official page HTML. Native playback not independently tested. The official HTML supplies no poster image.",
+      "reuse": "Short quotation and links only. Google media is not covered by this repository license.",
+      "mode": "input_video"
+    },
+    {
+      "id": "official-recursive-room",
+      "kind": "official",
+      "title": "A room inside a glass sphere",
+      "author": "Google",
+      "date": "2026-05-29",
+      "model": "Gemini Omni Flash (May 2026 launch generation)",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+      "prompt_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+      "prompt_excerpt": "Put a black and white checkerboard room inside a glass sphere",
+      "excerpt_is_full_published_prompt": false,
+      "prompt_status": "public_original",
+      "video_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/rt_wm_omni__keynote__sizzle__hand-infinite-orbs__260517_1.mp4",
+      "thumbnail_url": null,
+      "input_requirement": "An input video is required. The page shows the editing result; it is not a text-only generation recipe.",
+      "verification": "Prompt and corresponding video URL read directly from the official page HTML. Native playback not independently tested. The official HTML supplies no poster image.",
+      "reuse": "Short quotation and links only. Google media is not covered by this repository license.",
+      "mode": "input_video"
+    },
+    {
+      "id": "x-chrisfirst",
+      "kind": "community",
+      "title": "Replace people with flamingos",
+      "author": "CHRIS FIRST",
+      "date": "Tue May 19 18:02:17 +0000 2026",
+      "model": "Gemini Omni / Flash launch-era example, May 2026; not independently established as 1.1 Flash",
+      "source_url": "https://x.com/chrisfirst/status/2056797606509158681",
+      "prompt_url": "https://x.com/chrisfirst/status/2056797606509158681",
+      "prompt_excerpt": "Make everyone in this shot flamingos. Wearing the same outfit.",
+      "excerpt_is_full_published_prompt": true,
+      "prompt_status": "public_original",
+      "video_url": "https://video.twimg.com/amplify_video/2056797343085969408/vid/avc1/1080x1440/UYr_7RKomiginRgq.mp4?tag=27",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg",
+      "input_requirement": "An input video is required. Copying the instruction without the input will not reproduce this edit.",
+      "verification": "Author prompt text and media metadata verified via FxTwitter on 2026-09-24; native X playback not independently verified.",
+      "evidence_url": "https://api.fxtwitter.com/status/2056797606509158681",
+      "reuse": "Author retains media and prompt rights. Short quotation and source links; long prompts are not republished.",
+      "mode": "input_video"
+    },
+    {
+      "id": "x-venturetwins",
+      "kind": "community",
+      "title": "Change hats on each clap",
+      "author": "Justine Moore",
+      "date": "Tue May 19 17:47:23 +0000 2026",
+      "model": "Gemini Omni / Flash launch-era example, May 2026; not independently established as 1.1 Flash",
+      "source_url": "https://x.com/venturetwins/status/2056793856843366789",
+      "prompt_url": "https://x.com/venturetwins/status/2056793856843366789",
+      "prompt_excerpt": "change my hat every time I clap.",
+      "excerpt_is_full_published_prompt": true,
+      "prompt_status": "public_original",
+      "video_url": "https://video.twimg.com/amplify_video/2056793760273686528/vid/avc1/720x1280/Q73liRfIjPtGSveL.mp4?tag=27",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg",
+      "input_requirement": "An input video is required. Copying the instruction without the input will not reproduce this edit.",
+      "verification": "Author prompt text and media metadata verified via FxTwitter on 2026-09-24; native X playback not independently verified.",
+      "evidence_url": "https://api.fxtwitter.com/status/2056793856843366789",
+      "reuse": "Author retains media and prompt rights. Short quotation and source links; long prompts are not republished.",
+      "mode": "input_video"
+    },
+    {
+      "id": "x-fofrai",
+      "kind": "community",
+      "title": "London Eye handheld zoom",
+      "author": "fofr",
+      "date": "Tue May 19 17:29:03 +0000 2026",
+      "model": "Gemini Omni / Flash launch-era example, May 2026; not independently established as 1.1 Flash",
+      "source_url": "https://x.com/fofrAI/status/2056789242274259242",
+      "prompt_url": "https://x.com/fofrAI/status/2056789242274259242",
+      "prompt_excerpt": "a recording from a capsule on the london eye, a jerky zoom into something in the distance",
+      "excerpt_is_full_published_prompt": false,
+      "prompt_status": "public_original",
+      "video_url": "https://video.twimg.com/amplify_video/2056503814874861569/vid/avc1/1280x720/Lc2C4YtTflfGA8qe.mp4?tag=27",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2056503814874861569/img/mQnHwThYDypoS1H6.jpg",
+      "input_requirement": "Text-to-video; no reference input specified in the published prompt.",
+      "verification": "Author prompt text and media metadata verified via FxTwitter on 2026-09-24; native X playback not independently verified.",
+      "evidence_url": "https://api.fxtwitter.com/status/2056789242274259242",
+      "reuse": "Author retains media and prompt rights. Short quotation and source links; long prompts are not republished.",
+      "mode": "text_to_video"
+    },
+    {
+      "id": "x-alexanderchen",
+      "kind": "community",
+      "title": "Change a pitcher material on touch",
+      "author": "Alexander Chen",
+      "date": "Wed May 20 19:08:38 +0000 2026",
+      "model": "Gemini Omni / Flash launch-era example, May 2026; not independently established as 1.1 Flash",
+      "source_url": "https://x.com/alexanderchen/status/2057176690519089166",
+      "prompt_url": "https://x.com/alexanderchen/status/2057176691903279524",
+      "prompt_excerpt": "make the material of the pitcher instantly change (hard cuts) every 1 seconds to a new material",
+      "excerpt_is_full_published_prompt": false,
+      "prompt_status": "public_original",
+      "video_url": "https://video.twimg.com/amplify_video/2057176000459612161/vid/avc1/1280x720/LRzM8IueMomPMa7J.mp4?tag=27",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2057176000459612161/img/wTZ0HcgL_8PHxwbY.jpg",
+      "input_requirement": "An input video is required. Copying the instruction without the input will not reproduce this edit.",
+      "verification": "Author prompt text and media metadata verified via FxTwitter on 2026-09-24; native X playback not independently verified.",
+      "evidence_url": "https://api.fxtwitter.com/status/2057176691903279524",
+      "reuse": "Author retains media and prompt rights. Short quotation and source links; long prompts are not republished.",
+      "mode": "input_video"
+    }
+  ],
+  "category_inspiration": [
+    {
+      "category": "tactile-asmr",
+      "url": "https://x.com/FilmerNoir/status/1934231649757069603",
+      "evidence_url": "https://api.fxtwitter.com/status/1934231649757069603",
+      "author": "Filmer Noir",
+      "date": "Sun Jun 15 12:48:56 +0000 2025",
+      "context": "Veo 3 glass-fruit slicing; topic inspiration only, not an Omni result or a publicly shared prompt.",
+      "mirror_engagement": {
+        "likes": 1571,
+        "retweets": 192,
+        "views": 336388
+      }
+    },
+    {
+      "category": "miniature-worlds",
+      "url": "https://x.com/xRahultripathi/status/2050867975419507047",
+      "evidence_url": "https://api.fxtwitter.com/status/2050867975419507047",
+      "author": "POCKET ROCKET",
+      "date": "Sun May 03 09:20:03 +0000 2026",
+      "context": "Seedance 2.0 macro-to-micro world narrative with publicly shared prompt; topic inspiration only, not an Omni result.",
+      "mirror_engagement": {
+        "likes": 48,
+        "retweets": 4,
+        "views": 3008
+      }
+    },
+    {
+      "category": "miniature-worlds",
+      "url": "https://x.com/Preda2005/status/2098816503919542376",
+      "evidence_url": "https://api.fxtwitter.com/status/2098816503919542376",
+      "author": "Marcio Lima 利真 マルシオ 💎",
+      "date": "Sat Sep 12 16:50:23 +0000 2026",
+      "context": "GPT Image 2.5 miniature city growing from a map with public prompt; image-topic inspiration only, not an Omni video.",
+      "mirror_engagement": {
+        "likes": 49,
+        "retweets": 5,
+        "views": 3980
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://x.com/mrfanduu/status/2056692235174097398",
+      "reason": "Photosynthesis: retrieved post describes the result but does not publish the original prompt."
+    },
+    {
+      "url": "https://x.com/Mho_23/status/2057151867927601413",
+      "reason": "Original vs edited clip: original prompt absent from retrieved author text."
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+      "reason": "Previous four 1.1 capability demos did not have an individually verified published prompt in the current manifest; not reused as prompt-backed gallery cases."
+    }
+  ]
+}

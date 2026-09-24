@@ -9,7 +9,7 @@ This collection turns planning boards, diagrams, source clips, and exact copy in
 <a id="case-index"></a>
 
 <!-- catalog:toc:start -->
-**本页案例 / Cases** · [全部 60 例 / All 60 cases](../docs/prompt-index.md)
+**本页案例 / Cases** · [全部 76 例 / All 76 cases](../docs/prompt-index.md)
 
 - [01 · Convert a 3×3 storyboard into one ordered micro-story](#case-01) · [TXT](copy/storyboard-text-evaluation-01.txt)
 - [02 · Nine-window split screen with synchronized detail actions](#case-02) · [TXT](copy/storyboard-text-evaluation-02.txt)

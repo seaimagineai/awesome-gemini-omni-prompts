@@ -38,3 +38,9 @@ Localized READMEs provide a browser quickstart, six complete illustrated example
 ## Media rights
 
 The MIT license covers repository code and documentation and retains upstream attribution. Linked Google and creator videos, thumbnails, names, and marks retain their respective owners' rights. A public post or a view count is not permission to rehost or commercially reuse a clip. This project links to those originals; it does not vendor their video files. Reproduce the technique using your own or properly licensed material.
+
+## Expanded gallery and original categories
+
+The redesigned homepage has 76 recipes in nine categories: the original 60 recipes plus 16 new editorial recipes in tactile ASMR and miniature worlds. Their cross-model topic references are recorded in [public prompt sources](public-prompt-sources.md#category-inspiration); they are inspiration, not an Omni popularity ranking or reproduced model results.
+
+Six new featured scenes and three category concept images are generated reference/editorial artwork. Production prompts and file hashes are recorded in `data/showcase-v2-image-provenance.json` and `data/category-image-provenance.json`. These images are not video-generation outputs. The two official SVG video-link cards are repository-authored navigation graphics; they are not frames from the official videos. Third-party media and quoted prompts retain their owners’ rights.

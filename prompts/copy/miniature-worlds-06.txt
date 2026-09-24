@@ -1,0 +1,7 @@
+Create a 10-second, 16:9 miniature city animation built along one groove of a stationary black vinyl record. One cream-and-green tram stands on curved rails between tiny brick buildings. A full-size turntable tonearm is parked above the record's outer edge, clearly separate from the miniature track. The record itself never spins.
+
+[0-3s] Start a slow camera arc that follows the rail curve. The tram closes its doors and begins moving. Warm windows glow in two nearby buildings; keep all structures fixed to the record.
+[3-7s] The tram rounds the curve under a small footbridge. Its roof clears the bridge physically and its wheels remain on the rails. The full-size stylus stays safely above and outside the tram path, providing scale contrast.
+[7-10s] The tram stops beside an empty platform with a blank sign. One door opens to reveal an empty warm interior. Ease the camera to a stop with the stylus and tram both readable.
+
+Audio: a small electric motor, gentle rail squeal and one door chime. No recorded song, passengers, spinning buildings, collisions, labels, logos or cuts.

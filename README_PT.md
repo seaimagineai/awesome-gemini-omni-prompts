@@ -4,13 +4,13 @@
 
 # Biblioteca de prompts do Gemini Omni
 
-**60 prompts em 7 categorias, com 6 imagens de referência como material de entrada, não como resultados gerados e verificados.**
+**76 prompts completos em 9 categorias, 6 exemplos com quadros iniciais originais e resultados acompanhados dos prompts públicos dos autores.**
 
 [English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md)
 
 [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
 
-[Explorar por categoria](#prompt-collections) · [Seis exemplos prontos para copiar](#source-examples) · [Resultados oficiais e da comunidade](#video-studies) · [Índice dos 60 prompts](docs/prompt-index.md) · [Baixar todos os prompts em texto](prompts/copy/all-prompts.txt)
+[Explorar por categoria](#prompt-collections) · [Seis exemplos prontos para copiar](#source-examples) · [Resultados oficiais e da comunidade](#video-studies) · [Índice dos 76 prompts](docs/prompt-index.md) · [Baixar todos os prompts em texto](prompts/copy/all-prompts.txt)
 
 </div>
 
@@ -18,19 +18,29 @@
 
 ## Explorar por categoria
 
-| Categoria | Prompts | Links |
-|---|---:|---|
-| [Cinema e narrativa](prompts/cinematic-storytelling.md) | 8 | [Ver](prompts/cinematic-storytelling.md#case-01) |
-| [Comércio e redes sociais](prompts/commerce-social.md) | 8 | [Ver](prompts/commerce-social.md#case-01) |
-| [Documentário, viagem e educação](prompts/documentary-education.md) | 8 | [Ver](prompts/documentary-education.md#case-01) |
-| [Animação, música e entretenimento](prompts/stylized-entertainment.md) | 8 | [Ver](prompts/stylized-entertainment.md#case-01) |
-| [Controle, edição e extensão](prompts/control-editing-extension.md) | 10 | [Ver](prompts/control-editing-extension.md#case-01) |
-| [Edição avançada, câmera e transformação visual](prompts/advanced-editing-camera.md) | 9 | [Ver](prompts/advanced-editing-camera.md#case-01) |
-| [Storyboards, tela dividida, texto e avaliação](prompts/storyboard-text-evaluation.md) | 9 | [Ver](prompts/storyboard-text-evaluation.md#case-01) |
+<table width="100%">
+<tr>
+<td width="33%" align="center" valign="top"><strong><a href="prompts/cinematic-storytelling.md">Cinema e narrativa</a></strong><br><br><a href="prompts/cinematic-storytelling.md"><img src="assets/showcase-v2-01.png" alt="Cinema e narrativa" width="100%"></a><br>8 prompts<br><a href="prompts/cinematic-storytelling.md#case-index">Ver</a></td>
+<td width="33%" align="center" valign="top"><strong><a href="prompts/commerce-social.md">Publicidade e redes sociais</a></strong><br><br><a href="prompts/commerce-social.md"><img src="assets/showcase-v2-02.png" alt="Publicidade e redes sociais" width="100%"></a><br>8 prompts<br><a href="prompts/commerce-social.md#case-index">Ver</a></td>
+<td width="33%" align="center" valign="top"><strong><a href="prompts/documentary-education.md">Documentário, viagem e educação</a></strong><br><br><a href="prompts/documentary-education.md"><img src="assets/showcase-v2-03.png" alt="Documentário, viagem e educação" width="100%"></a><br>8 prompts<br><a href="prompts/documentary-education.md#case-index">Ver</a></td>
+</tr>
+<tr>
+<td width="33%" align="center" valign="top"><strong><a href="prompts/stylized-entertainment.md">Animação, música e entretenimento</a></strong><br><br><a href="prompts/stylized-entertainment.md"><img src="assets/showcase-v2-04.png" alt="Animação, música e entretenimento" width="100%"></a><br>8 prompts<br><a href="prompts/stylized-entertainment.md#case-index">Ver</a></td>
+<td width="33%" align="center" valign="top"><strong><a href="prompts/control-editing-extension.md">Controle multimodal, edição e extensão</a></strong><br><br><a href="prompts/control-editing-extension.md"><img src="assets/category-control-v2.png" alt="Controle multimodal, edição e extensão" width="100%"></a><br>10 prompts<br><a href="prompts/control-editing-extension.md#case-index">Ver</a></td>
+<td width="33%" align="center" valign="top"><strong><a href="prompts/advanced-editing-camera.md">Edição avançada, câmera e transformação visual</a></strong><br><br><a href="prompts/advanced-editing-camera.md"><img src="assets/category-camera-v2.png" alt="Edição avançada, câmera e transformação visual" width="100%"></a><br>9 prompts<br><a href="prompts/advanced-editing-camera.md#case-index">Ver</a></td>
+</tr>
+<tr>
+<td width="33%" align="center" valign="top"><strong><a href="prompts/storyboard-text-evaluation.md">Storyboards, texto e avaliação</a></strong><br><br><a href="prompts/storyboard-text-evaluation.md"><img src="assets/category-storyboard-v2.png" alt="Storyboards, texto e avaliação" width="100%"></a><br>9 prompts<br><a href="prompts/storyboard-text-evaluation.md#case-index">Ver</a></td>
+<td width="33%" align="center" valign="top"><strong><a href="prompts/tactile-asmr.md">Texturas e ASMR</a></strong><br><br><a href="prompts/tactile-asmr.md"><img src="assets/showcase-v2-05.png" alt="Texturas e ASMR" width="100%"></a><br>8 prompts<br><a href="prompts/tactile-asmr.md#case-index">Ver</a></td>
+<td width="33%" align="center" valign="top"><strong><a href="prompts/miniature-worlds.md">Mundos em miniatura e imaginários</a></strong><br><br><a href="prompts/miniature-worlds.md"><img src="assets/showcase-v2-06.png" alt="Mundos em miniatura e imaginários" width="100%"></a><br>8 prompts<br><a href="prompts/miniature-worlds.md#case-index">Ver</a></td>
+</tr>
+</table>
 
-[Índice dos 60 prompts](docs/prompt-index.md) · [Baixar todos os prompts em texto](prompts/copy/all-prompts.txt)
+As imagens das categorias ilustram seus temas. As seis imagens de exemplo são quadros iniciais de referência. Nenhuma representa um resultado de vídeo gerado.
 
-As cinco primeiras coleções têm explicações em chinês e as duas últimas em inglês. Todos os prompts de controle estão em inglês. As coleções não foram traduzidas integralmente.
+[Índice dos 76 prompts](docs/prompt-index.md) · [Baixar todos os prompts em texto](prompts/copy/all-prompts.txt) · [Fontes de inspiração das novas categorias](docs/public-prompt-sources.md#category-inspiration)
+
+As descrições das categorias estão em chinês e inglês; todos os prompts completos para copiar estão em inglês.
 
 <a id="source-examples"></a>
 
@@ -38,142 +48,156 @@ As cinco primeiras coleções têm explicações em chinês e as duas últimas e
 
 As imagens de referência são material de entrada, não resultados gerados.
 
-[01 · Caixa de som: ritmo de gotas](#example-01) · [02 · Ciclismo na crista: abertura documental](#example-02) · [03 · Relojoeiro e pássaros de papel: história ilustrada](#example-03) · [04 · Uma manhã com uma xícara de cerâmica verde-azulada](#example-04) · [05 · Um porto de papel ganha luz](#example-05) · [06 · Uma bolsa de linho para uma loja multilíngue](#example-06)
+[01 · A lavanderia esquece a gravidade](#example-01) · [02 · Perfume âmbar e eclipse mecânico](#example-02) · [03 · Sob a água do manguezal](#example-03) · [04 · A raposa entrega a última carta](#example-04) · [05 · Pera de vidro âmbar com núcleo estrelado](#example-05) · [06 · Um observatório dentro de uma mala](#example-06)
 
 <a id="example-01"></a>
 
-### 01 · Caixa de som: ritmo de gotas
+### 01 · A lavanderia esquece a gravidade
 
-<a href="assets/product-speaker.png"><img src="assets/product-speaker.png" alt="Caixa de som: ritmo de gotas" width="420"></a>
+[![A lavanderia esquece a gravidade](assets/showcase-v2-01.png)](assets/showcase-v2-01.png)
 
-[Comércio e redes sociais](prompts/commerce-social.md) · [Quadro inicial de referência](assets/product-speaker.png) · [Texto simples](prompts/copy/showcase-01.txt)
+[Cinema e narrativa](prompts/cinematic-storytelling.md) · [Quadro inicial de referência](assets/showcase-v2-01.png) · [Texto simples](prompts/copy/showcase-v2-01.txt)
 
 ```text
-Create a 10-second premium product film from Image1. Use Image1 as the exact starting frame.
+Use Image1 as the exact first frame of a 10-second, 16:9 cinematic shot. One adult repair technician in a yellow raincoat crouches beside one open cobalt-blue washing machine. A single red sock already floats just above the lower drum rim. Keep the washer, doorway and puddle layout fixed. Preserve the technician's appearance and the red sock's identity while allowing the specified movements.
 
-[0-3s] Make a slow 20-degree clockwise camera orbit. Suspended droplets travel around the speaker in clean concentric paths, aligned to a deep electronic kick. Preserve the speaker's exact coral color, grille weave and proportions.
-[3-7s] A sunrise reflection sweeps across the copper end cap. On the snare, droplets strike the wet stone and rebound as fine mist.
-[7-10s] All droplets collapse into one crisp splash behind the product, then settle on a steady three-quarter hero frame with negative space on the right.
+[0-3s] Begin a slow, level camera push toward the open drum. The red sock rises another twenty centimetres and gently rotates. The technician notices it, steadies the small flashlight in her right hand, then looks from the sock to the puddle below. Her face shows curiosity rather than panic. Rain continues downward outside.
+[3-7s] Gravity reverses only inside a cylinder extending vertically from the washer opening. A narrow stream lifts from the puddle directly beneath it into floating beads. The woman raises her empty left palm beneath the sock without touching it. Her raincoat, hair and tools remain normally weighted. Keep the washer firmly on the floor; do not rotate the room or the horizon.
+[7-10s] The machine emits one soft relay click. The beads fall back into the original puddle; the sock drops neatly into her waiting left palm. Stop the camera movement as she gives the empty drum a small, incredulous glance.
 
-Audio: original minimal electronic rhythm at 96 BPM, water-drop percussion, distant ocean ambience. No vocals.
-No product morphing, added controls, text, logo, watermark, hands, duplicate product or camera shake.
+Audio: continuous rain behind glass, a low motor winding down, individual water beads landing, then the relay click. No score or dialogue. Maintain a single continuous shot, natural hands, one sock and one technician. No extra laundry, text, logos, jump cuts or spontaneous object duplication. The final pose must visibly follow the catch.
 ```
 
 <a id="example-02"></a>
 
-### 02 · Ciclismo na crista: abertura documental
+### 02 · Perfume âmbar e eclipse mecânico
 
-<a href="assets/travel-cyclist.png"><img src="assets/travel-cyclist.png" alt="Ciclismo na crista: abertura documental" width="420"></a>
+[![Perfume âmbar e eclipse mecânico](assets/showcase-v2-02.png)](assets/showcase-v2-02.png)
 
-[Documentário, viagem e educação](prompts/documentary-education.md) · [Quadro inicial de referência](assets/travel-cyclist.png) · [Texto simples](prompts/copy/showcase-02.txt)
+[Publicidade e redes sociais](prompts/commerce-social.md) · [Quadro inicial de referência](assets/showcase-v2-02.png) · [Texto simples](prompts/copy/showcase-v2-02.txt)
 
 ```text
-Animate Image1 as a single continuous 10-second documentary tracking shot. Use it as the exact first frame.
+Animate Image1 into a 10-second, 16:9 product film in one continuous macro shot. The unlabelled square glass bottle contains amber perfume and remains upright on the same dark stone surface. Preserve the flat faces, straight edges, copper cap, fill level and bottle proportions. The copper gear ring moves behind it; one thin semicircular orange slice is fixed to the upper ring.
 
-The cyclist pedals steadily toward the observatory while the camera follows from the same height. Silver grass bends in two wind gusts, loose gravel reacts under the rear tire, and clouds move slowly below the ridge. At 6s, the first warm sunlight reaches the jacket and observatory dome.
+[0-3s] Move the camera slowly ten centimetres to the right while keeping the bottle dominant in the left half of the frame. A narrow amber light travels across the front glass, revealing fine condensation and the thickness of its base. The copper ring begins a steady clockwise turn around its visible pivot. The orange slice travels with that ring as one attached object, never independently.
+[3-7s] The slice passes in front of the backlight, creating a partial eclipse. Its translucent pulp projects a moving citrus-coloured pattern through the bottle onto the stone surface. Keep the bottle stationary while the background mechanism creates the movement. Focus shifts briefly from the bottle's front edge to the illuminated pulp, then returns smoothly to the bottle.
+[7-10s] The ring finishes a half revolution. The orange slice clears the light, revealing a clean bright crescent behind the upper-right bottle corner. Ease both camera and mechanism to a stop on a readable three-quarter product view with the bottle and mechanism both remaining visible.
 
-Audio: close tire crunch and chain movement, strong ridge wind, one distant bird at 7s. No music or narration.
-No cuts, drone rise, extra cyclists, landmark text, logo or watermark.
+Audio: one quiet copper bearing tick, a restrained original three-note plucked motif, and a soft mechanical stop. No pouring or fizzing sounds. No label, typography, brand mark, extra bottles, spraying perfume, melting glass, changing liquid level or cuts. The copper supports must remain physically attached and visible.
 ```
 
 <a id="example-03"></a>
 
-### 03 · Relojoeiro e pássaros de papel: história ilustrada
+### 03 · Sob a água do manguezal
 
-<a href="assets/clockmaker-story.png"><img src="assets/clockmaker-story.png" alt="Relojoeiro e pássaros de papel: história ilustrada" width="420"></a>
+[![Sob a água do manguezal](assets/showcase-v2-03.png)](assets/showcase-v2-03.png)
 
-[Animação, música e entretenimento](prompts/stylized-entertainment.md) · [Quadro inicial de referência](assets/clockmaker-story.png) · [Texto simples](prompts/copy/showcase-03.txt)
+[Documentário, viagem e educação](prompts/documentary-education.md) · [Quadro inicial de referência](assets/showcase-v2-03.png) · [Texto simples](prompts/copy/showcase-v2-03.txt)
 
 ```text
-Bring this illustration to life in one coherent 10-second animated shot. Use Image1 as the first frame and preserve its watercolor-and-ink direction.
+Use Image1 as the starting frame for a 10-second, 16:9 natural-history-style visual study. This is an imaginative night scene, not a claim about a particular filmed species or location. Begin with the lens half above and half below calm mangrove water. Preserve the branching root geometry. The small silver fish begins at lower right and follows the path specified below. Sparse blue-green points are already visible near submerged roots.
 
-[0-3s] The brass door clicks open and warm light grows inside it. Nearby gears rotate at different believable speeds.
-[3-7s] Paper birds unfold one by one and spiral past the camera with visible paper flex. Tilt upward to follow them through the clock opening.
-[7-10s] The flock crosses the moon; one tiny paper bird lands on the clock hand.
+[0-3s] Drift forward at a slow swimmer's pace. Above water, one leaf releases a droplet; the resulting ring spreads across the surface. Below water, suspended particles drift with the current. Keep a physically coherent waterline, with refraction and slight distortion separating the two views.
+[3-6s] Lower the camera smoothly until the lens is fully submerged. Let the surface slide upward out of frame instead of dissolving between scenes. Follow the original silver fish as it turns left between two roots. A brief, localized trail of blue-green light responds to its wake and fades behind it; do not illuminate every root or particle.
+[6-10s] Advance beneath the root arch and stop gently. The fish leaves through the left edge. Residual points fade to reveal amber silt and root textures in the low light. End looking back toward a narrow reflection of the night sky on the underside of the surface.
 
-Audio: layered clock ticks, delicate paper folds, wooden gear creaks, then an original celesta motif. No dialogue.
-Keep the clockmaker's face, clothes and goggles consistent. No photorealism, subtitles, logo or watermark.
+Audio: insects and distant water movement above the surface, transitioning continuously to muted underwater movement during submersion. No music, narration, dolphin calls or theatrical sonar. No people, added animals, coral, floating text, glowing plant outlines, abrupt lighting changes or cuts. Maintain plausible water movement and the same small fish throughout.
 ```
 
 <a id="example-04"></a>
 
-### 04 · Uma manhã com uma xícara de cerâmica verde-azulada
+### 04 · A raposa entrega a última carta
 
-<a href="assets/seaimagine-ceramic-cup.png"><img src="assets/seaimagine-ceramic-cup.png" alt="Uma manhã com uma xícara de cerâmica verde-azulada" width="420"></a>
+[![A raposa entrega a última carta](assets/showcase-v2-04.png)](assets/showcase-v2-04.png)
 
-[Comércio e redes sociais](prompts/commerce-social.md) · [Quadro inicial de referência](assets/seaimagine-ceramic-cup.png) · [Texto simples](prompts/copy/showcase-04.txt)
+[Animação, música e entretenimento](prompts/stylized-entertainment.md) · [Quadro inicial de referência](assets/showcase-v2-04.png) · [Texto simples](prompts/copy/showcase-v2-04.txt)
 
 ```text
-Use the uploaded ceramic-cup image as the exact first frame. Create a 10-second, 16:9 product shot.
-Preserve the teal glaze, the single handle on the right, the rim shape, the coffee level and the cup's position on the wooden table.
-[0-3s] A thin ribbon of steam rises; the camera begins a very slow forward move.
-[3-7s] Warm morning light grazes the glaze. Keep the table and background still; only steam and gentle reflections move.
-[7-10s] The camera eases to a stop. Hold the same product with clean space above for a caption added later.
-Audio, if supported: quiet room ambience and one distant bird. No speech or music.
-No pouring, added cup, new handle, object morphing, generated text, logo or watermark.
+Animate Image1 as a 10-second, 16:9 handmade paper stop-motion scene. An orange origami fox mail carrier stands at the left of a tiny railway platform under an ochre folded-paper umbrella, carrying an indigo paper satchel. One red folded-paper train approaches from the right background. Preserve every major fold, the fox's triangular muzzle, its two ears, the satchel strap and the station's paper construction.
+
+[0-3s] The train rolls toward the platform in small, deliberate stop-motion increments. Fine suspended strands and tiny droplets suggest rain beyond the canopy; preserve the handmade set and folded-paper surfaces. Warm lanterns move slightly on thread-like supports. The fox turns its head toward the train while keeping the umbrella in the same paw.
+[3-6s] The train stops with its nearest window aligned beside the fox. With its free paw, the fox extracts the single plain cream envelope already visible in the satchel front pocket. The pocket opens along its existing paper fold. Keep the envelope visibly separate from the paw and bag throughout.
+[6-10s] The fox slides the envelope through the open train window onto a visible empty ledge; no passenger is needed. It withdraws its paw, gives one small bow and smooths the satchel pocket. Finish with the train still stopped and the cream envelope visible inside. Move the camera only in a slow, shallow push; do not cut.
+
+Audio: miniature wheel clicks, a quiet brake squeak, dry paper rustles and soft rain-like pattering. No voices or recognizable tune. Use a gently stepped animation cadence, visible paper grain and warm practical lighting. No written addresses, station signs, logos, flesh, extra paws, transforming folds or realistic fur.
 ```
 
 <a id="example-05"></a>
 
-### 05 · Um porto de papel ganha luz
+### 05 · Pera de vidro âmbar com núcleo estrelado
 
-<a href="assets/seaimagine-paper-harbor.png"><img src="assets/seaimagine-paper-harbor.png" alt="Um porto de papel ganha luz" width="420"></a>
+[![Pera de vidro âmbar com núcleo estrelado](assets/showcase-v2-05.png)](assets/showcase-v2-05.png)
 
-[Animação, música e entretenimento](prompts/stylized-entertainment.md) · [Quadro inicial de referência](assets/seaimagine-paper-harbor.png) · [Texto simples](prompts/copy/showcase-05.txt)
+[Texturas e ASMR](prompts/tactile-asmr.md) · [Quadro inicial de referência](assets/showcase-v2-05.png) · [Texto simples](prompts/copy/showcase-v2-05.txt)
 
 ```text
-Use the uploaded paper-harbor image as the exact first frame. Animate a single 10-second, 16:9 shot while retaining the handcrafted paper texture, folds and miniature scale.
-Keep the ivory lighthouse with its red roof, the three small houses on the left and the single paper boat in exactly the same positions.
-[0-3s] The lighthouse window slowly glows warm amber. The camera begins a small, straight forward move.
-[3-7s] The already warm house windows brighten gently one house at a time, from nearest to farthest. No building moves or changes shape.
-[7-10s] The camera stops. Hold the warm windows against the blue-hour paper harbor. Keep the boat and miniature water surface still.
-Audio, if supported: a quiet original celesta phrase, no voices.
-No ocean waves, added buildings, extra boats, rotating tower, camera cut, text, logo or watermark.
+Use Image1 as the exact opening of a 10-second, 16:9 macro material study. A transparent amber glass pear stands upright on charcoal slate. An obsidian blade enters from the upper right and just touches the unbroken surface. Several small star-shaped inclusions are visible within the core. Treat the pear as a deliberately imaginary, sliceable glass material; it is not real fruit or a real cutting demonstration.
+
+[0-3s] Hold the camera steady at the original low three-quarter angle. The blade presses downward through the near-right side at a slow, even speed. A fine luminous seam follows the cutting edge. The pear stays anchored by its own weight; its stem and silhouette remain unchanged. Keep the blade rigid and show its edge penetrating the material rather than passing through invisibly.
+[3-7s] Complete one continuous cut that separates a single thin outer slice. The slice leans away and settles on the slate at the right, exposing a flat translucent cross-section. The existing star-shaped inclusions remain embedded in the larger standing piece, with their arrangement unchanged and clearer through the cut face. Preserve the removed slice's curved outer skin and matching flat inner face.
+[7-10s] Withdraw the blade upward along its entry path. Rack focus gently from the resting slice to the largest central star-shaped inclusion. Amber caustics brighten beneath the cut face and settle. End with exactly two pear pieces, one whole stem and an unobstructed view of the central inclusion.
+
+Audio: close dry glass-like ticks during penetration, one delicate chime as the slice meets slate, then quiet room tone. No music, chewing, wet flesh sounds or exaggerated shattering. No hands, blood, sparks, loose shards, extra cuts, regenerated pear sections, camera orbit or text.
 ```
 
 <a id="example-06"></a>
 
-### 06 · Uma bolsa de linho para uma loja multilíngue
+### 06 · Um observatório dentro de uma mala
 
-<a href="assets/seaimagine-linen-pouch.png"><img src="assets/seaimagine-linen-pouch.png" alt="Uma bolsa de linho para uma loja multilíngue" width="420"></a>
+[![Um observatório dentro de uma mala](assets/showcase-v2-06.png)](assets/showcase-v2-06.png)
 
-[Comércio e redes sociais](prompts/commerce-social.md) · [Quadro inicial de referência](assets/seaimagine-linen-pouch.png) · [Texto simples](prompts/copy/showcase-06.txt)
+[Mundos em miniatura e imaginários](prompts/miniature-worlds.md) · [Quadro inicial de referência](assets/showcase-v2-06.png) · [Texto simples](prompts/copy/showcase-v2-06.txt)
 
 ```text
-Use the uploaded linen-pouch photograph as the exact first frame. Create a 10-second, 9:16 vertical ecommerce product shot.
-Keep one natural-linen drawstring pouch upright in the same position. Preserve its seam placement, woven texture, silhouette and teal drawstring.
-[0-3s] Start on the supplied framing. The camera slowly moves forward without orbiting.
-[3-7s] A soft highlight travels gently across the fabric; the pouch and its string do not move.
-[7-10s] Stop the camera and hold the product. Keep the lower quarter of the frame empty, evenly lit and free of objects for a caption added in editing.
-Audio, if supported: soft room tone. No speech or music.
-Do not generate any lettering, subtitles, symbols, price, logo, watermark, extra bag or moving string.
-```
+Animate Image1 into a continuous 10-second, 16:9 miniature-diorama film. Inside an open blue hard-shell suitcase, a rocky mountain supports a brass-domed observatory above a shallow sea of clouds. One tiny steam locomotive with two carriages rests on a circular track around the mountain. A copper control knob sits on the front-right exterior panel. No hand is visible in the opening frame.
 
-Mais leveza no dia a dia
+[0-2s] One adult hand enters from the near frame edge, reaches the copper knob on the front-right exterior panel, turns it one quarter-turn clockwise and releases it. The hand withdraws through the nearest frame edge without entering the miniature landscape. The suitcase, hinges, mountain and rails remain stationary. A tiny warm lamp beside the observatory door comes on.
+[2-6s] The train starts gently and travels clockwise along the existing rails. Its three vehicles stay coupled, with wheels contacting the track. A narrow puff of steam rises from the locomotive and disperses above the carriage roofs. Slowly push the camera toward the mountain while keeping both suitcase rims visible to preserve the scale contrast.
+[6-10s] The observatory dome rotates a small distance and its slit opens to reveal a short telescope aimed at one fixed star in the existing night sky. Clouds drift around the mountain base without spilling over the suitcase rim. Let the train continue behind the mountain, partially occluded rather than disappearing. Stop the camera with the glowing observatory above the cloud line.
+
+Audio: close copper-knob click, miniature rail rhythm, soft gear movement and a restrained airy room ambience. No full-size train horn, narration or music. Preserve scale and object counts. No extra hands, flying rails, expanding suitcase, text, logos, time-lapse sky or cuts.
+```
 
 <a id="video-studies"></a>
 
 ## Resultados oficiais e da comunidade
 
-Os exemplos oficiais usam o Gemini Omni 1.1 Flash; os da comunidade são de maio de 2026 e usam versões anteriores do Omni. Os links levam às publicações originais; este repositório não afirma ter reproduzido esses resultados. As evidências da comunidade vêm do FxTwitter; a reprodução no X não foi verificada.
+Cada resultado inclui o link do prompt original. Os textos do X foram conferidos por um espelho, sem verificar a reprodução nativa. Consulte a versão do modelo na fonte; este repositório não reproduziu esses resultados.
 
-| Google · Omni 1.1 Flash | Links |
-|---|---|
-| Extensão cinematográfica | [Ver vídeo](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) |
-| Transição entre o primeiro e o último quadro | [Ver vídeo](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) |
-| Rascunho de diatomáceas marinhas em 360p | [Ver vídeo](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/kw_omni-flash__capability-video__draft-360p__16x9__v1_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) |
-| Dança guiada por referências | [Ver vídeo](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__video-reference__16x9.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) |
+<table width="100%">
+<tr>
+<td width="50%" valign="top"><strong>Escultura de bolhas</strong><br><a href="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/rt_wm__omni__keynote__orb-structural-foam__260517_1.mp4"><img src="assets/official-bubbles-link.svg" alt="Vídeo oficial · sem miniatura" width="100%"></a><br>Google · Omni / Flash · 2026-05<br>Requer vídeo de entrada<br><strong>Trecho do prompt publicado</strong><blockquote>Make the sculpture out of bubbles.</blockquote><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/">Prompt publicado pelo autor</a> · <a href="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/rt_wm__omni__keynote__orb-structural-foam__260517_1.mp4">Ver vídeo</a> · <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/">Fonte</a></td>
+<td width="50%" valign="top"><strong>Um quarto dentro de uma esfera</strong><br><a href="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/rt_wm_omni__keynote__sizzle__hand-infinite-orbs__260517_1.mp4"><img src="assets/official-recursive-link.svg" alt="Vídeo oficial · sem miniatura" width="100%"></a><br>Google · Omni / Flash · 2026-05<br>Requer vídeo de entrada<br><strong>Trecho do prompt publicado</strong><blockquote>Put a black and white checkerboard room inside a glass sphere</blockquote><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/">Prompt publicado pelo autor</a> · <a href="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/rt_wm_omni__keynote__sizzle__hand-infinite-orbs__260517_1.mp4">Ver vídeo</a> · <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/">Fonte</a></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><strong>Transformar pessoas em flamingos</strong><br><a href="https://video.twimg.com/amplify_video/2056797343085969408/vid/avc1/1080x1440/UYr_7RKomiginRgq.mp4?tag=27"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="Transformar pessoas em flamingos" width="100%"></a><br>CHRIS FIRST · Omni / Flash · 2026-05<br>Requer vídeo de entrada<br><strong>Trecho do prompt publicado</strong><blockquote>Make everyone in this shot flamingos. Wearing the same outfit.</blockquote><a href="https://x.com/chrisfirst/status/2056797606509158681">Prompt publicado pelo autor</a> · <a href="https://video.twimg.com/amplify_video/2056797343085969408/vid/avc1/1080x1440/UYr_7RKomiginRgq.mp4?tag=27">Ver vídeo</a> · <a href="https://x.com/chrisfirst/status/2056797606509158681">Fonte</a></td>
+<td width="50%" valign="top"><strong>Trocar de chapéu a cada palma</strong><br><a href="https://video.twimg.com/amplify_video/2056793760273686528/vid/avc1/720x1280/Q73liRfIjPtGSveL.mp4?tag=27"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Trocar de chapéu a cada palma" width="100%"></a><br>Justine Moore · Omni / Flash · 2026-05<br>Requer vídeo de entrada<br><strong>Trecho do prompt publicado</strong><blockquote>change my hat every time I clap.</blockquote><a href="https://x.com/venturetwins/status/2056793856843366789">Prompt publicado pelo autor</a> · <a href="https://video.twimg.com/amplify_video/2056793760273686528/vid/avc1/720x1280/Q73liRfIjPtGSveL.mp4?tag=27">Ver vídeo</a> · <a href="https://x.com/venturetwins/status/2056793856843366789">Fonte</a></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><strong>Zoom à mão livre no London Eye</strong><br><a href="https://video.twimg.com/amplify_video/2056503814874861569/vid/avc1/1280x720/Lc2C4YtTflfGA8qe.mp4?tag=27"><img src="https://pbs.twimg.com/amplify_video_thumb/2056503814874861569/img/mQnHwThYDypoS1H6.jpg" alt="Zoom à mão livre no London Eye" width="100%"></a><br>fofr · Omni / Flash · 2026-05<br>Texto para vídeo<br><strong>Trecho do prompt publicado</strong><blockquote>a recording from a capsule on the london eye, a jerky zoom into something in the distance</blockquote><a href="https://x.com/fofrAI/status/2056789242274259242">Prompt publicado pelo autor</a> · <a href="https://video.twimg.com/amplify_video/2056503814874861569/vid/avc1/1280x720/Lc2C4YtTflfGA8qe.mp4?tag=27">Ver vídeo</a> · <a href="https://x.com/fofrAI/status/2056789242274259242">Fonte</a></td>
+<td width="50%" valign="top"><strong>Mudar o material de uma jarra ao tocar</strong><br><a href="https://video.twimg.com/amplify_video/2057176000459612161/vid/avc1/1280x720/LRzM8IueMomPMa7J.mp4?tag=27"><img src="https://pbs.twimg.com/amplify_video_thumb/2057176000459612161/img/wTZ0HcgL_8PHxwbY.jpg" alt="Mudar o material de uma jarra ao tocar" width="100%"></a><br>Alexander Chen · Omni / Flash · 2026-05<br>Requer vídeo de entrada<br><strong>Trecho do prompt publicado</strong><blockquote>make the material of the pitcher instantly change (hard cuts) every 1 seconds to a new material</blockquote><a href="https://x.com/alexanderchen/status/2057176691903279524">Prompt publicado pelo autor</a> · <a href="https://video.twimg.com/amplify_video/2057176000459612161/vid/avc1/1280x720/LRzM8IueMomPMa7J.mp4?tag=27">Ver vídeo</a> · <a href="https://x.com/alexanderchen/status/2057176690519089166">Fonte</a></td>
+</tr>
+</table>
 
-| X · Omni / Flash · 2026-05 | X · Omni / Flash · 2026-05 |
-|---|---|
-| **Pessoas transformadas em flamingos**<br><a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="Pessoas transformadas em flamingos" width="240"></a><br>CHRIS FIRST<br>[Fonte](https://x.com/chrisfirst/status/2056797606509158681) · [Ver vídeo](https://video.twimg.com/amplify_video/2056797343085969408/vid/avc1/1080x1440/UYr_7RKomiginRgq.mp4?tag=27) | **Um novo chapéu a cada palma**<br><a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Um novo chapéu a cada palma" width="240"></a><br>Justine Moore<br>[Fonte](https://x.com/venturetwins/status/2056793856843366789) · [Ver vídeo](https://video.twimg.com/amplify_video/2056793760273686528/vid/avc1/720x1280/Q73liRfIjPtGSveL.mp4?tag=27) |
-| **Explicação da fotossíntese**<br><a href="https://x.com/mrfanduu/status/2056692235174097398"><img src="https://pbs.twimg.com/amplify_video_thumb/2056691792175833088/img/W0_pZkQwRicpRjjG.jpg" alt="Explicação da fotossíntese" width="240"></a><br>Fandu<br>[Fonte](https://x.com/mrfanduu/status/2056692235174097398) · [Ver vídeo](https://video.twimg.com/amplify_video/2056691792175833088/vid/avc1/1280x720/Ws-92fvVr5e-FkYZ.mp4?tag=14) | **Zoom à mão no London Eye**<br><a href="https://x.com/fofrAI/status/2056789242274259242"><img src="https://pbs.twimg.com/amplify_video_thumb/2056503814874861569/img/mQnHwThYDypoS1H6.jpg" alt="Zoom à mão no London Eye" width="240"></a><br>fofr<br>[Fonte](https://x.com/fofrAI/status/2056789242274259242) · [Ver vídeo](https://video.twimg.com/amplify_video/2056503814874861569/vid/avc1/1280x720/Lc2C4YtTflfGA8qe.mp4?tag=27) |
-| **Comparação entre original e edição**<br><a href="https://x.com/Mho_23/status/2057151867927601413"><img src="https://pbs.twimg.com/amplify_video_thumb/2057151701904146432/img/yhVQfdBM34BQJjV3.jpg" alt="Comparação entre original e edição" width="240"></a><br>Miko<br>[Fonte](https://x.com/Mho_23/status/2057151867927601413) · [Ver vídeo](https://video.twimg.com/amplify_video/2057151701904146432/vid/avc1/1080x1920/JfeFoDd5udd_FRR7.mp4?tag=27) | **Jarra muda de material ao toque**<br><a href="https://x.com/alexanderchen/status/2057176690519089166"><img src="https://pbs.twimg.com/amplify_video_thumb/2057176000459612161/img/wTZ0HcgL_8PHxwbY.jpg" alt="Jarra muda de material ao toque" width="240"></a><br>Alexander Chen<br>[Fonte](https://x.com/alexanderchen/status/2057176690519089166) · [Ver vídeo](https://video.twimg.com/amplify_video/2057176000459612161/vid/avc1/1280x720/LRzM8IueMomPMa7J.mp4?tag=27) · [Prompt completo](https://x.com/alexanderchen/status/2057176691903279524) |
-[Fonte / FxTwitter](docs/community-examples.md)
+[Fonte / FxTwitter](docs/public-prompt-sources.md)
 
 ## Documentação avançada
 
-Os tutoriais estão em páginas separadas. [Ver](docs/guides/README_PT.md)
+Para quem já tem experiência: ajuste as referências, a sequência das ações e uma mudança por vez.
+
+1. Alinhe a quantidade, a posição e o estado inicial dos objetos com o primeiro quadro.
+2. Defina uma ação principal por intervalo e sincronize o som com seu gatilho visível.
+3. Preserve o sujeito e altere só a câmera ou o material; adapte os intervalos à duração aceita pelo modelo.
+
+Instrução reutilizável para uma única alteração, se o modelo permitir edição
+
+```text
+Change only the camera movement to a locked-off shot.
+Keep the subject, material, action timing, lighting and audio unchanged.
+Do not add objects, cuts or text.
+```
+
+[Documentação avançada](docs/guides/README_PT.md)
 
 [Criação de prompts](docs/prompting-guide.md) · [Guia multilíngue](docs/multilingual-guide.md) · [Referências e permissões](docs/reference-videos.md)
 
@@ -181,11 +205,17 @@ Os tutoriais estão em páginas separadas. [Ver](docs/guides/README_PT.md)
 
 ## Criar com o SeaImagine
 
-[Gemini Omni](https://seaimagine.com/pt/model/gemini-omni/) · [Gemini Omni 1.1 Flash](https://seaimagine.com/pt/model/gemini-omni-1-1-flash/)
+Quer sua própria versão da pera de vidro ou do mundo em uma mala? Comece com uma imagem de referência no SeaImagine, cole um prompt completo desta biblioteca e adapte o sujeito, os materiais e a câmera.
+
+Sem uma imagem inicial adequada? Prepare sua cena com geração de imagens por IA. Se já tiver uma imagem, vá direto para imagem para vídeo. Escolha um tema desta biblioteca e adapte-o mantendo a sequência temporal e os detalhes que devem permanecer iguais.
+
+1. Baixe o quadro inicial, envie-o à ferramenta de imagem para vídeo e cole o prompt completo.
+2. Escolha duração, proporção e resolução entre as opções do modelo; gere um rascunho primeiro.
+3. Quando gostar da composição, mude um detalhe por vez antes de aumentar a resolução.
+
+[Gemini Omni 1.1 Flash](https://seaimagine.com/pt/model/gemini-omni-1-1-flash/) · [Gemini Omni](https://seaimagine.com/pt/model/gemini-omni/)
 
 [Imagem para vídeo](https://seaimagine.com/pt/image-to-video/) · [Texto para vídeo](https://seaimagine.com/pt/text-to-video/) · [Gerador de imagens com IA](https://seaimagine.com/pt/ai-image-generator/)
-
-Use estas páginas como outros pontos de partida. Confira os modelos, termos e preços atuais em cada página. Este repositório não garante disponibilidade contínua.
 
 [Fluxo de trabalho no SeaImagine](docs/seaimagine-workflow.md)
 

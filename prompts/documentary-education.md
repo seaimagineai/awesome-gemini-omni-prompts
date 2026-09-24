@@ -9,7 +9,7 @@ Omni 的世界知识适合帮助建立可信场景，但提示词不能代替事
 <a id="case-index"></a>
 
 <!-- catalog:toc:start -->
-**本页案例 / Cases** · [全部 60 例 / All 60 cases](../docs/prompt-index.md)
+**本页案例 / Cases** · [全部 76 例 / All 76 cases](../docs/prompt-index.md)
 
 - [01 · 火山脊骑行纪录片](#case-01) · [TXT](copy/documentary-education-01.txt)
 - [02 · 玄武岩柱是怎样形成的](#case-02) · [TXT](copy/documentary-education-02.txt)

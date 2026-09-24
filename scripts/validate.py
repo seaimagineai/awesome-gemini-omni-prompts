@@ -26,8 +26,8 @@ for name in ['README.md','README_ZH.md','README_ZH-TW.md','README_JA.md','README
  p=R/name;t=p.read_text()
  check('SeaImagine' in t,f'Missing brand: {name}')
  check(bool(re.search(r'^# .*Gemini Omni',t,re.M)),f'Missing model in title: {name}')
- for asset in ['product-speaker.png','travel-cyclist.png','clockmaker-story.png','seaimagine-omni-hero.png']:check(asset in t,f'Missing example/cover {asset}: {name}')
- check('docs/community-examples.md' in t,f'Missing source studies: {name}')
+ for asset in ['seaimagine-omni-hero.png']+[f'showcase-v2-{i:02}.png' for i in range(1,7)]:check(asset in t,f'Missing example/cover {asset}: {name}')
+ check('docs/public-prompt-sources.md' in t,f'Missing source studies: {name}')
  check('docs/flaq-ai-workflow.md' not in t,f'Old promotional route: {name}')
  check('https://flaq.ai/' not in t,f'Old promotional URL: {name}')
 check((R/'README_EN.md').read_bytes()==(R/'README.md').read_bytes(),'English mirror differs')
@@ -39,6 +39,11 @@ from homepage_sections import brand_section, read
 additions=read('homepage-additions.json')
 expected={'en','cn','tw','ja','ko','es','fr','de','pt','it','ru','id','th','vi','ar'}
 check(set(additions)==expected,'Missing localized homepage additions')
+check(set(read('gallery-v2-copy.json'))==expected,'Missing v2 locale copy')
+public_results=read('public-prompt-results.json')['cases']
+check(len(public_results)==6,'Expected six public-prompt results')
+for case in public_results:
+    check(case.get('prompt_status')=='public_original' and case.get('prompt_url') and case.get('video_url') and case.get('mode') in ('input_video','text_to_video'),f'Incomplete public prompt evidence: {case.get("id")}')
 from build_locales import LOCALES, build
 for code,suffix,_ in LOCALES:
     p=R/('README.md' if code=='en' else f'README_{suffix}.md');t=p.read_text()
@@ -47,20 +52,30 @@ for code,suffix,_ in LOCALES:
     check(t.index('id="prompt-collections"')<t.index('id="source-examples"')<t.index('id="video-studies"')<t.index('id="brand-tools"'),f'Wrong reader journey: {code}')
     opening=t.split('<a id="brand-tools"></a>')[0]
     check('SeaImagine' not in opening and 'https://seaimagine.com' not in opening,f'Brand promotion before teaching: {code}')
-    check(len(re.findall(r'^```text$',t,re.M))==6,f'Expected six visible complete examples: {code}')
-    for case in d['community']+d['official']['suggested_cases']:
-        check(case['url'] in t,f'Missing result source: {code}: {case["url"]}')
-    for case in read('showcase-examples.json')+read('brand-examples.json'):
-        prompt=case.get('prompt_en',case['prompt']) if code=='en' else case['prompt']
+    tables=re.findall(r'<table width="100%">(.*?)</table>',t,re.S)
+    check(len(tables)==2 and tables[0].count('<tr>')==3 and tables[0].count('<td ')==9 and tables[1].count('<td ')==6,f'Invalid gallery matrices: {code}')
+    check('width="420"' not in t,f'Homepage reference images should span the page: {code}')
+    check(len(re.findall(r'^```text$',t,re.M))==7,f'Expected six examples and one short edit template: {code}')
+    for case in read('public-prompt-results.json')['cases']:
+        check(case['source_url'] in t and case['prompt_url'] in t,f'Missing public prompt source: {code}: {case["id"]}')
+        check(case['prompt_status']=='public_original' and case['prompt_excerpt'],f'Unverified public prompt: {case["id"]}')
+    for case in read('showcase-v2.json'):
+        prompt=case['prompt']
         check(prompt in t,f'Missing complete example: {code}: {case["image"]}')
     for key,size in [('brand_titles',3),('brand_lessons',3),('brand_actions',3),('study_titles',4),('study_lessons',4),('study_practice',4)]:
         check(len(additions[code][key])==size and all(additions[code][key]),f'Missing {key}: {code}')
     check(build(code,suffix)==t,f'Stale generated locale: {code}')
     for link in re.findall(r'(?:src|href)="([^"#]+)"',t):
-        if not link.startswith(('http:','https:')):check((p.parent/link).exists(),f'Broken HTML image/link: {code}: {link}')
+        if not link.startswith(('http:','https:')):check((p.parent/unquote(urlsplit(link).path)).exists(),f'Broken HTML image/link: {code}: {link}')
 for rec in read('brand-asset-provenance.json'):
     p=R/rec['filename']
     check(p.exists() and hashlib.sha256(p.read_bytes()).hexdigest()==rec['image_sha256'],f'New image provenance mismatch: {p.name}')
+for rec in read('category-image-provenance.json')['assets']:
+    p=R/rec['path']
+    check(p.exists() and hashlib.sha256(p.read_bytes()).hexdigest()==rec['sha256'],f'Category image provenance mismatch: {p.name}')
+for rec in read('showcase-v2-image-provenance.json')['images']:
+    p=R/rec['path']
+    check(p.exists() and hashlib.sha256(p.read_bytes()).hexdigest()==rec['sha256'],f'Featured image provenance mismatch: {p.name}')
 for name,hashes in read('source-teaching-blocks.json')['files'].items():
     guide_name='README_EN.md' if name=='README.md' else name
     blocks=re.findall(r'```text\n(.*?)```',(R/name).read_text()+'\n'+(R/'docs/guides'/guide_name).read_text(),re.S)
@@ -68,7 +83,7 @@ for name,hashes in read('source-teaching-blocks.json')['files'].items():
     check(set(hashes)<=actual,f'Lost source teaching blocks: {name}')
 check('as a separate 360p draft' not in (R/'README.md').read_text(),'Unqualified 360p direction remains')
 catalog=read('prompt-catalog.json')
-check(len(catalog['cases'])==60,'Catalogue must have 60 cases')
+check(len(catalog['cases'])==76 and len(catalog['categories'])==9,'Catalogue must have 76 cases in 9 categories')
 for case in catalog['cases']:
     page=(R/case['path']).read_text()
     check(f'id="{case["anchor"]}"' in page,f'Missing case anchor: {case["id"]}')
@@ -77,4 +92,4 @@ for case in catalog['cases']:
     for block in re.findall(r'```text\n(.*?)```',section,re.S):
         check(block.strip() in download,f'Incomplete text export: {case["id"]}')
 if errors:print('\n'.join(errors));sys.exit(1)
-print(f'PASS: {total} source recipes preserved; 15 locale entries; 4 inherited assets; 3 new practice images; 6 community cases; 60 case downloads; 10 on-page result references; {checks} relative links.')
+print(f'PASS: {total} source recipes preserved; 15 locale entries; 6 redesigned examples; 9 category images; 6 public-prompt cases; 76 case downloads in 9 categories; 6 public-prompt result references; {checks} relative links.')

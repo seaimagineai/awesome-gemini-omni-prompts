@@ -1,0 +1,812 @@
+{
+  "en": {
+    "intro": "76 complete prompts in 9 categories, 6 original starting-frame examples, and published results paired with their authors’ public prompts.",
+    "category_titles": [
+      "Cinema and storytelling",
+      "Commerce and social media",
+      "Documentary, travel and education",
+      "Animation, music and entertainment",
+      "Control, editing and extension",
+      "Advanced editing and camera",
+      "Storyboards, text and evaluation",
+      "Tactile ASMR",
+      "Miniature and imagined worlds"
+    ],
+    "showcase_titles": [
+      "The laundromat forgets gravity",
+      "Amber perfume / mechanical eclipse",
+      "Below the mangrove waterline",
+      "The fox delivers the last letter",
+      "Amber glass pear / star-core cut",
+      "An observatory inside a suitcase"
+    ],
+    "result_titles": [
+      "Bubble sculpture",
+      "A room inside a glass sphere",
+      "Replace people with flamingos",
+      "Change hats on each clap",
+      "London Eye handheld zoom",
+      "Change a pitcher’s material on touch"
+    ],
+    "prompt_excerpt": "Published prompt excerpt",
+    "full_prompt": "Author’s published prompt",
+    "official_video": "Official video · no thumbnail",
+    "results_note": "Every result links to its published prompt. X text was checked through a mirror, without native playback verification. Consult each source for the model version; these are not reproductions made by this repository.",
+    "tutorial_intro": "For experienced users: refine reference roles, action timing and one change at a time.",
+    "tutorial_steps": [
+      "Match the prompt to the starting frame: keep object counts, positions and initial states consistent.",
+      "Assign one main movement to each time segment and align the sound with its visible trigger.",
+      "Change only the camera or material while preserving the subject; adapt the timeline to the duration your chosen model supports."
+    ],
+    "brand_intro": "Want your own version of the glass pear or suitcase world? Start with a reference image in SeaImagine, paste a complete prompt from this library, then adapt its subject, materials and camera movement to your idea.",
+    "brand_steps": [
+      "Download the starting image, upload it to image-to-video, and paste the complete prompt.",
+      "Choose duration, aspect ratio and resolution from the selected model’s available controls; make a draft first.",
+      "Once the composition works, change one detail at a time before increasing the resolution."
+    ],
+    "new_sources": "Creative sources for the new categories",
+    "preview_note": "Category images illustrate their themes. The six example images are reference starting frames. Neither represents a generated video result.",
+    "count_label": "prompts",
+    "input_video": "Input video required",
+    "text_to_video": "Text to video",
+    "language_note": "Category descriptions are currently in Chinese and English; all complete, copyable prompts are in English.",
+    "tutorial_example_label": "Reusable single-change instruction — if the selected model supports editing",
+    "brand_bridge": "No suitable starting image? Prepare your own scene with AI image generation; if you already have an image, go straight to image-to-video. Pick a subject from this library and adapt it while keeping the timeline and the details that must stay unchanged."
+  },
+  "cn": {
+    "intro": "76 条完整提示词，分为 9 类；附 6 个原创首帧案例，以及配有作者公开提示词的效果展示。",
+    "category_titles": [
+      "电影与叙事",
+      "商业广告与社交媒体",
+      "纪录片、旅行与教育",
+      "动画、音乐与娱乐",
+      "多模态控制、编辑与续写",
+      "进阶编辑、镜头与视觉变换",
+      "故事板、文字与评测",
+      "触感与 ASMR（细微声音）",
+      "微缩与幻想世界"
+    ],
+    "showcase_titles": [
+      "雨夜洗衣房：重力失约",
+      "琥珀香水：机械柑橘日蚀",
+      "红树林：潜入荧光水域",
+      "纸艺狐邮差：夜雨末班车",
+      "琥珀玻璃梨：切开星形晶核",
+      "蓝色旅行箱：云海天文台"
+    ],
+    "result_titles": [
+      "气泡雕塑",
+      "玻璃球里的递归房间",
+      "人物替换为火烈鸟",
+      "每次拍手更换帽子",
+      "伦敦眼手持变焦",
+      "触碰水壶后变换材质"
+    ],
+    "prompt_excerpt": "公开提示词摘录",
+    "full_prompt": "作者公开提示词",
+    "official_video": "官方视频 · 暂无缩略图",
+    "results_note": "每例均附原提示词链接。X 文本通过镜像核验，未验证原站播放；模型版本以各来源为准，这些效果并非本仓库复现。",
+    "tutorial_intro": "熟悉基础用法后，可重点调整参考素材的角色、动作时序和单项变化。",
+    "tutorial_steps": [
+      "让提示词与首帧对应：物体数量、位置和初始状态应一致。",
+      "每个时间段安排一个主要动作，让声音与画面中的触发点同步。",
+      "保留主体，只改镜头或材质；按所选模型实际支持的时长调整时间段。"
+    ],
+    "brand_intro": "想把玻璃梨切割、旅行箱世界变成自己的版本？可以在 SeaImagine 从参考图开始，粘贴本库的完整提示词，再按自己的想法调整主体、材质和镜头。",
+    "brand_steps": [
+      "下载首帧，上传到图生视频入口，再粘贴完整提示词。",
+      "按所选模型实际提供的选项设置时长、画幅和分辨率，先生成草稿。",
+      "构图满意后，每次只调整一个细节，再提高分辨率。"
+    ],
+    "new_sources": "新增分类的创作灵感来源",
+    "preview_note": "分类图用于展示题材；六个案例的配图为参考首帧。两者均不代表已生成的视频效果。",
+    "count_label": "条提示词",
+    "input_video": "需输入视频",
+    "text_to_video": "文生视频",
+    "language_note": "分类说明目前以中文和英文编写，完整可复制提示词统一为英文。",
+    "tutorial_example_label": "可直接复用的单项调整指令（所选模型需支持编辑）",
+    "brand_bridge": "没有合适的首帧时，可先用 AI 图片生成准备自己的场景；已有图片则直接做图生视频。选取本库题材，保留动作时间线和需要保持不变的细节，即可开始改写。"
+  },
+  "tw": {
+    "intro": "76 則完整提示詞，分為 9 類；附 6 個原創首幀案例，以及搭配作者公開提示詞的效果展示。",
+    "category_titles": [
+      "電影與敘事",
+      "商業廣告與社群媒體",
+      "紀錄片、旅行與教育",
+      "動畫、音樂與娛樂",
+      "多模態控制、編輯與延伸",
+      "進階編輯、鏡頭與視覺變換",
+      "分鏡、文字與評測",
+      "觸感與 ASMR（細微聲音）",
+      "微縮與幻想世界"
+    ],
+    "showcase_titles": [
+      "雨夜洗衣房：重力失約",
+      "琥珀香水：機械柑橘日蝕",
+      "紅樹林：潛入螢光水域",
+      "紙藝狐郵差：夜雨末班車",
+      "琥珀玻璃梨：切開星形晶核",
+      "藍色旅行箱：雲海天文台"
+    ],
+    "result_titles": [
+      "氣泡雕塑",
+      "玻璃球裡的遞迴房間",
+      "人物替換為紅鶴",
+      "每次拍手更換帽子",
+      "倫敦眼手持變焦",
+      "觸碰水壺後變換材質"
+    ],
+    "prompt_excerpt": "公開提示詞摘錄",
+    "full_prompt": "作者公開提示詞",
+    "official_video": "官方影片 · 暫無縮圖",
+    "results_note": "每例皆附原提示詞連結。X 文字透過鏡像核對，未驗證原站播放；模型版本以各來源為準，這些效果並非本倉庫重現。",
+    "tutorial_intro": "熟悉基本用法後，可著重調整參考素材的角色、動作時序及單項變化。",
+    "tutorial_steps": [
+      "讓提示詞與首幀對應：物件數量、位置與初始狀態應一致。",
+      "每個時段安排一個主要動作，讓聲音與畫面中的觸發點同步。",
+      "保留主體，只改鏡頭或材質；依所選模型實際支援的片長調整時段。"
+    ],
+    "brand_intro": "想把玻璃梨切割、旅行箱世界變成自己的版本？可以在 SeaImagine 從參考圖開始，貼上本庫的完整提示詞，再依自己的想法調整主體、材質與鏡頭。",
+    "brand_steps": [
+      "下載首幀，上傳至圖片轉影片入口，再貼上完整提示詞。",
+      "依所選模型提供的選項設定片長、比例及解析度，先生成草稿。",
+      "構圖滿意後，每次只調整一個細節，再提高解析度。"
+    ],
+    "new_sources": "新增分類的創作靈感來源",
+    "preview_note": "分類圖用於展示題材；六個案例的配圖為參考首幀。兩者皆不代表已生成的影片效果。",
+    "count_label": "則提示詞",
+    "input_video": "需輸入影片",
+    "text_to_video": "文字轉影片",
+    "language_note": "分類說明目前以中文和英文撰寫，完整可複製的提示詞統一為英文。",
+    "tutorial_example_label": "可直接套用的單項調整指令（所選模型須支援編輯）",
+    "brand_bridge": "沒有合適的首幀時，可先用 AI 圖片生成準備自己的場景；已有圖片則直接做圖片轉影片。選取本庫題材，保留動作時間線和需要維持不變的細節，即可開始改寫。"
+  },
+  "ja": {
+    "intro": "9 カテゴリ・76 本の完全版プロンプト、6 つのオリジナル開始フレーム例、作者が公開したプロンプト付きの生成結果を収録。",
+    "category_titles": [
+      "映画・ストーリー",
+      "広告・SNS",
+      "ドキュメンタリー・旅行・教育",
+      "アニメーション・音楽・娯楽",
+      "マルチモーダル制御・編集・延長",
+      "高度な編集・カメラ・視覚変換",
+      "絵コンテ・文字・評価",
+      "触感と ASMR",
+      "ミニチュア・空想世界"
+    ],
+    "showcase_titles": [
+      "雨のコインランドリーで重力が消える",
+      "琥珀の香水と機械仕掛けの日食",
+      "マングローブの水面下へ",
+      "折り紙のキツネと最終列車",
+      "琥珀ガラスの洋梨と星形の芯",
+      "スーツケースの中の天文台"
+    ],
+    "result_titles": [
+      "泡の彫刻",
+      "ガラス球の中で繰り返す部屋",
+      "人物をフラミンゴに変える",
+      "拍手のたびに帽子を変える",
+      "ロンドン・アイから手持ちズーム",
+      "触れるとピッチャーの材質が変わる"
+    ],
+    "prompt_excerpt": "公開プロンプトの抜粋",
+    "full_prompt": "作者の公開プロンプト",
+    "official_video": "公式動画・サムネイルなし",
+    "results_note": "全例に元のプロンプトへのリンクがあります。X の文章はミラーで確認し、元サイトの再生は未確認です。モデルのバージョンは各出典を参照してください。本リポジトリによる再現結果ではありません。",
+    "tutorial_intro": "基本操作に慣れている方向けに、参照素材の役割、動作のタイミング、部分的な変更を整理します。",
+    "tutorial_steps": [
+      "物の数・位置・初期状態を開始フレームに合わせます。",
+      "各時間帯の主な動作を一つに絞り、音を画面上の動きに合わせます。",
+      "被写体を保ったままカメラか材質だけを変更し、対応する動画の長さに合わせて時間配分を調整します。"
+    ],
+    "brand_intro": "ガラスの洋梨やスーツケースの世界を自分流に作るなら、SeaImagine に参照画像を入れ、このライブラリの完全版プロンプトを貼り付けて、被写体・材質・カメラを調整できます。",
+    "brand_steps": [
+      "開始画像をダウンロードして画像から動画の機能にアップロードし、完全版プロンプトを貼り付けます。",
+      "選んだモデルで利用できる長さ・縦横比・解像度を設定し、まず下書きを生成します。",
+      "構図が決まったら一度に一つだけ調整し、その後で解像度を上げます。"
+    ],
+    "new_sources": "新カテゴリの着想元",
+    "preview_note": "カテゴリ画像は題材のイメージです。6 つの作例画像は開始フレーム用の参照画像です。いずれも生成動画の結果ではありません。",
+    "count_label": "本のプロンプト",
+    "input_video": "入力動画が必要",
+    "text_to_video": "テキストから動画",
+    "language_note": "カテゴリの解説は現在、中国語と英語で掲載しています。コピーできる完全版プロンプトはすべて英語です。",
+    "tutorial_example_label": "そのまま使える単一変更の指示（選択したモデルが編集に対応している場合）",
+    "brand_bridge": "適した開始画像がなければ、AI 画像生成で自分のシーンを用意します。画像があれば、そのまま画像から動画へ進めます。このライブラリから題材を選び、動作の時間配分と変えたくない特徴を保ちながら書き換えてみてください。"
+  },
+  "ko": {
+    "intro": "9개 분류의 완성형 프롬프트 76개, 독창적인 시작 프레임 사례 6개, 작성자가 공개한 프롬프트와 연결된 결과를 담았습니다.",
+    "category_titles": [
+      "영화와 스토리텔링",
+      "광고와 소셜 미디어",
+      "다큐멘터리·여행·교육",
+      "애니메이션·음악·엔터테인먼트",
+      "멀티모달 제어·편집·연장",
+      "고급 편집·카메라·시각 변환",
+      "스토리보드·텍스트·평가",
+      "촉감과 ASMR",
+      "미니어처와 상상 속 세계"
+    ],
+    "showcase_titles": [
+      "비 내리는 세탁소의 무중력",
+      "호박빛 향수와 기계식 일식",
+      "맹그로브 수면 아래로",
+      "종이 여우 우체부의 마지막 열차",
+      "호박색 유리 배 속 별 모양 결정",
+      "여행 가방 속 천문대"
+    ],
+    "result_titles": [
+      "비눗방울 조각",
+      "유리 구 속에서 반복되는 방",
+      "사람을 홍학으로 바꾸기",
+      "박수칠 때마다 모자 바꾸기",
+      "런던 아이에서 핸드헬드 줌",
+      "손이 닿으면 물병 재질 바꾸기"
+    ],
+    "prompt_excerpt": "공개 프롬프트 발췌",
+    "full_prompt": "작성자의 공개 프롬프트",
+    "official_video": "공식 영상 · 미리보기 이미지 없음",
+    "results_note": "모든 사례에 원본 프롬프트 링크가 있습니다. X 글은 미러로 확인했으며 원래 사이트의 재생은 확인하지 않았습니다. 모델 버전은 각 출처를 참고하세요. 이 저장소에서 재현한 결과가 아닙니다.",
+    "tutorial_intro": "기본 사용법을 아는 분이라면 참조 자료의 역할, 동작 타이밍, 한 번에 하나의 변경에 집중하세요.",
+    "tutorial_steps": [
+      "물체 수, 위치, 초기 상태가 시작 프레임과 맞도록 프롬프트를 조정하세요.",
+      "시간 구간마다 주요 동작 하나를 배치하고 소리를 화면 속 동작과 맞추세요.",
+      "주인공은 유지하고 카메라나 재질만 바꾸며, 선택한 모델의 실제 지원 길이에 맞춰 시간을 조정하세요."
+    ],
+    "brand_intro": "유리 배 자르기나 여행 가방 속 세계를 나만의 장면으로 만들고 싶다면, SeaImagine에 참조 이미지를 넣고 이 라이브러리의 전체 프롬프트를 붙여 넣은 뒤 대상, 재질, 카메라를 바꿔 보세요.",
+    "brand_steps": [
+      "시작 이미지를 내려받아 이미지로 영상 만들기에 업로드하고 전체 프롬프트를 붙여 넣으세요.",
+      "모델이 제공하는 길이, 화면 비율, 해상도를 선택해 먼저 초안을 만드세요.",
+      "구도가 마음에 들면 한 번에 세부 사항 하나씩 조정한 후 해상도를 높이세요."
+    ],
+    "new_sources": "새 분류의 창작 참고 출처",
+    "preview_note": "분류 이미지는 주제를 보여 주는 예시이며, 여섯 사례 이미지는 시작 프레임용 참조입니다. 둘 다 생성된 영상 결과가 아닙니다.",
+    "count_label": "개 프롬프트",
+    "input_video": "입력 영상 필요",
+    "text_to_video": "텍스트로 영상 만들기",
+    "language_note": "분류 설명은 현재 중국어와 영어로 제공하며, 복사할 수 있는 전체 프롬프트는 모두 영어입니다.",
+    "tutorial_example_label": "바로 쓸 수 있는 단일 변경 지시문 — 선택한 모델이 편집을 지원하는 경우",
+    "brand_bridge": "적절한 시작 이미지가 없다면 AI 이미지 생성으로 장면을 준비하세요. 이미지가 있다면 바로 이미지로 영상 만들기를 시작할 수 있습니다. 이 라이브러리에서 소재를 골라 동작 시간표와 유지할 특징은 남겨 두고 내용을 바꿔 보세요."
+  },
+  "es": {
+    "intro": "76 prompts completos en 9 categorías, 6 ejemplos con fotogramas iniciales originales y resultados acompañados de los prompts públicos de sus autores.",
+    "category_titles": [
+      "Cine y narrativa",
+      "Publicidad y redes sociales",
+      "Documental, viajes y educación",
+      "Animación, música y entretenimiento",
+      "Control multimodal, edición y extensión",
+      "Edición avanzada, cámara y transformación visual",
+      "Guiones gráficos, texto y evaluación",
+      "Texturas y ASMR",
+      "Mundos en miniatura y de fantasía"
+    ],
+    "showcase_titles": [
+      "La lavandería pierde la gravedad",
+      "Perfume ámbar y eclipse mecánico",
+      "Bajo el agua del manglar",
+      "El zorro entrega la última carta",
+      "Pera de cristal ámbar con núcleo estrellado",
+      "Un observatorio dentro de una maleta"
+    ],
+    "result_titles": [
+      "Escultura de burbujas",
+      "Una habitación dentro de una esfera",
+      "Convertir personas en flamencos",
+      "Cambiar de sombrero con cada palmada",
+      "Zoom a pulso desde el London Eye",
+      "Cambiar el material de una jarra al tocarla"
+    ],
+    "prompt_excerpt": "Extracto del prompt publicado",
+    "full_prompt": "Prompt publicado por el autor",
+    "official_video": "Vídeo oficial · sin miniatura",
+    "results_note": "Cada resultado enlaza al prompt original. El texto de X se comprobó mediante un espejo, sin verificar la reproducción nativa. Consulta la versión del modelo en cada fuente; este repositorio no reprodujo estos resultados.",
+    "tutorial_intro": "Para usuarios con experiencia: ajusta las referencias, los tiempos de la acción y un cambio cada vez.",
+    "tutorial_steps": [
+      "Haz coincidir cantidades, posiciones y estados iniciales con el primer fotograma.",
+      "Asigna una acción principal a cada tramo y sincroniza el sonido con su causa visible.",
+      "Conserva el sujeto y cambia solo la cámara o el material; adapta los tiempos a la duración que admita el modelo."
+    ],
+    "brand_intro": "¿Quieres tu propia versión de la pera de cristal o del mundo en una maleta? Empieza con una imagen de referencia en SeaImagine, pega un prompt completo de esta biblioteca y adapta el sujeto, los materiales y la cámara.",
+    "brand_steps": [
+      "Descarga el fotograma inicial, súbelo a imagen a vídeo y pega el prompt completo.",
+      "Elige duración, proporción y resolución entre las opciones del modelo; genera primero un borrador.",
+      "Cuando te guste la composición, modifica un detalle cada vez antes de aumentar la resolución."
+    ],
+    "new_sources": "Fuentes de inspiración para las nuevas categorías",
+    "preview_note": "Las imágenes de las categorías ilustran sus temas. Las seis imágenes de ejemplo son fotogramas iniciales de referencia. Ninguna representa un resultado de vídeo generado.",
+    "count_label": "prompts",
+    "input_video": "Requiere vídeo de entrada",
+    "text_to_video": "Texto a vídeo",
+    "language_note": "Las descripciones de categorías están en chino e inglés; todos los prompts completos para copiar están en inglés.",
+    "tutorial_example_label": "Instrucción reutilizable para un solo cambio, si el modelo admite edición",
+    "brand_bridge": "Si no tienes una imagen inicial adecuada, prepara tu escena con generación de imágenes por IA. Si ya tienes una, pasa a imagen a vídeo. Elige un tema de esta biblioteca y adáptalo conservando la secuencia temporal y los detalles que deben permanecer iguales."
+  },
+  "fr": {
+    "intro": "76 prompts complets répartis en 9 catégories, 6 exemples avec images de départ originales et des résultats associés aux prompts publiés par leurs auteurs.",
+    "category_titles": [
+      "Cinéma et narration",
+      "Publicité et réseaux sociaux",
+      "Documentaire, voyage et éducation",
+      "Animation, musique et divertissement",
+      "Contrôle multimodal, montage et prolongement",
+      "Montage avancé, caméra et transformations",
+      "Storyboards, texte et évaluation",
+      "Matières et ASMR",
+      "Mondes miniatures et imaginaires"
+    ],
+    "showcase_titles": [
+      "La laverie oublie la gravité",
+      "Parfum ambré et éclipse mécanique",
+      "Sous la surface de la mangrove",
+      "Le renard livre la dernière lettre",
+      "Poire en verre ambré au cœur étoilé",
+      "Un observatoire dans une valise"
+    ],
+    "result_titles": [
+      "Sculpture de bulles",
+      "Une pièce dans une sphère de verre",
+      "Transformer les personnes en flamants roses",
+      "Changer de chapeau à chaque claquement",
+      "Zoom à main levée depuis le London Eye",
+      "Changer la matière d’une carafe au toucher"
+    ],
+    "prompt_excerpt": "Extrait du prompt publié",
+    "full_prompt": "Prompt publié par l’auteur",
+    "official_video": "Vidéo officielle · sans miniature",
+    "results_note": "Chaque résultat renvoie à son prompt original. Les textes de X ont été vérifiés via un miroir, sans vérifier la lecture sur X. Consultez chaque source pour la version du modèle ; ces résultats n’ont pas été reproduits par ce dépôt.",
+    "tutorial_intro": "Pour les utilisateurs expérimentés : précisez le rôle des références, le rythme des actions et une modification à la fois.",
+    "tutorial_steps": [
+      "Faites correspondre le nombre d’objets, leurs positions et leur état initial à l’image de départ.",
+      "Prévoyez une action principale par intervalle et synchronisez le son avec son déclencheur visible.",
+      "Conservez le sujet et ne changez que la caméra ou la matière ; adaptez les intervalles à la durée prise en charge."
+    ],
+    "brand_intro": "Envie de créer votre version de la poire en verre ou du monde dans une valise ? Partez d’une image de référence dans SeaImagine, collez un prompt complet de cette bibliothèque, puis adaptez le sujet, les matières et la caméra.",
+    "brand_steps": [
+      "Téléchargez l’image de départ, importez-la dans l’outil image vers vidéo et collez le prompt complet.",
+      "Réglez durée, format et résolution parmi les options du modèle ; commencez par un brouillon.",
+      "Une fois la composition satisfaisante, modifiez un détail à la fois avant d’augmenter la résolution."
+    ],
+    "new_sources": "Sources d’inspiration des nouvelles catégories",
+    "preview_note": "Les images des catégories illustrent leurs thèmes. Les six images d’exemple sont des références pour le premier plan. Aucune ne représente un résultat vidéo généré.",
+    "count_label": "prompts",
+    "input_video": "Vidéo d’entrée requise",
+    "text_to_video": "Texte vers vidéo",
+    "language_note": "Les descriptions des catégories sont en chinois et en anglais ; tous les prompts complets à copier sont en anglais.",
+    "tutorial_example_label": "Instruction réutilisable pour une seule modification, si le modèle permet l’édition",
+    "brand_bridge": "Pas d’image de départ adaptée ? Préparez votre scène avec la génération d’images par IA. Si vous avez déjà une image, passez directement à l’outil image vers vidéo. Choisissez un thème de cette bibliothèque et adaptez-le en conservant la chronologie et les détails à maintenir."
+  },
+  "de": {
+    "intro": "76 vollständige Prompts in 9 Kategorien, 6 Beispiele mit eigenen Startbildern und veröffentlichte Ergebnisse samt öffentlichen Prompts der Urheber.",
+    "category_titles": [
+      "Film und Erzählung",
+      "Werbung und soziale Medien",
+      "Dokumentation, Reisen und Bildung",
+      "Animation, Musik und Unterhaltung",
+      "Multimodale Steuerung, Schnitt und Verlängerung",
+      "Erweiterte Bearbeitung, Kamera und Bildwandel",
+      "Storyboards, Text und Bewertung",
+      "Materialgefühl und ASMR",
+      "Miniatur- und Fantasiewelten"
+    ],
+    "showcase_titles": [
+      "Der Waschsalon vergisst die Schwerkraft",
+      "Bernsteinparfüm und mechanische Finsternis",
+      "Unter der Wasserlinie der Mangroven",
+      "Der Fuchs bringt den letzten Brief",
+      "Bernsteinglasbirne mit Stern im Kern",
+      "Eine Sternwarte im Koffer"
+    ],
+    "result_titles": [
+      "Skulptur aus Seifenblasen",
+      "Ein Zimmer in einer Glaskugel",
+      "Menschen in Flamingos verwandeln",
+      "Bei jedem Klatschen den Hut wechseln",
+      "Handgeführter Zoom aus dem London Eye",
+      "Materialwechsel einer Kanne bei Berührung"
+    ],
+    "prompt_excerpt": "Auszug aus dem veröffentlichten Prompt",
+    "full_prompt": "Veröffentlichter Prompt des Urhebers",
+    "official_video": "Offizielles Video · kein Vorschaubild",
+    "results_note": "Jedes Ergebnis verlinkt den Originalprompt. X-Texte wurden über einen Spiegel geprüft, nicht die Wiedergabe auf X. Die Modellversion steht in der jeweiligen Quelle; dieser Bestand hat die Ergebnisse nicht nachgestellt.",
+    "tutorial_intro": "Für erfahrene Nutzer: Referenzen eindeutig zuordnen, Abläufe planen und jeweils nur einen Aspekt ändern.",
+    "tutorial_steps": [
+      "Objektzahl, Positionen und Ausgangszustand müssen zum Startbild passen.",
+      "Je Zeitabschnitt eine Hauptbewegung vorsehen und den Ton auf den sichtbaren Auslöser abstimmen.",
+      "Das Motiv erhalten und nur Kamera oder Material ändern; Zeitabschnitte an die unterstützte Videolänge anpassen."
+    ],
+    "brand_intro": "Möchtest du die Glasbirne oder Kofferwelt selbst gestalten? Beginne in SeaImagine mit einem Referenzbild, füge einen vollständigen Prompt aus dieser Sammlung ein und passe Motiv, Materialien und Kamera an deine Idee an.",
+    "brand_steps": [
+      "Startbild herunterladen, in Bild-zu-Video hochladen und den vollständigen Prompt einfügen.",
+      "Länge, Seitenverhältnis und Auflösung aus den Modelloptionen wählen; zunächst einen Entwurf erzeugen.",
+      "Wenn die Komposition passt, jeweils ein Detail ändern und erst danach die Auflösung erhöhen."
+    ],
+    "new_sources": "Ideenquellen für die neuen Kategorien",
+    "preview_note": "Kategoriebilder veranschaulichen die Themen. Die sechs Beispielbilder dienen als Referenz für den ersten Frame. Keines davon zeigt ein erzeugtes Videoergebnis.",
+    "count_label": "Prompts",
+    "input_video": "Eingabevideo erforderlich",
+    "text_to_video": "Text zu Video",
+    "language_note": "Die Kategoriebeschreibungen sind derzeit auf Chinesisch und Englisch; alle vollständig kopierbaren Prompts sind auf Englisch.",
+    "tutorial_example_label": "Wiederverwendbare Anweisung für eine einzelne Änderung — sofern das Modell Bearbeitung unterstützt",
+    "brand_bridge": "Kein passendes Startbild? Bereite deine Szene mit KI-Bildgenerierung vor. Mit einem vorhandenen Bild kannst du direkt zu Bild-zu-Video wechseln. Wähle ein Thema aus dieser Sammlung und passe es an; behalte dabei den zeitlichen Ablauf und die unveränderlichen Details bei."
+  },
+  "pt": {
+    "intro": "76 prompts completos em 9 categorias, 6 exemplos com quadros iniciais originais e resultados acompanhados dos prompts públicos dos autores.",
+    "category_titles": [
+      "Cinema e narrativa",
+      "Publicidade e redes sociais",
+      "Documentário, viagem e educação",
+      "Animação, música e entretenimento",
+      "Controle multimodal, edição e extensão",
+      "Edição avançada, câmera e transformação visual",
+      "Storyboards, texto e avaliação",
+      "Texturas e ASMR",
+      "Mundos em miniatura e imaginários"
+    ],
+    "showcase_titles": [
+      "A lavanderia esquece a gravidade",
+      "Perfume âmbar e eclipse mecânico",
+      "Sob a água do manguezal",
+      "A raposa entrega a última carta",
+      "Pera de vidro âmbar com núcleo estrelado",
+      "Um observatório dentro de uma mala"
+    ],
+    "result_titles": [
+      "Escultura de bolhas",
+      "Um quarto dentro de uma esfera",
+      "Transformar pessoas em flamingos",
+      "Trocar de chapéu a cada palma",
+      "Zoom à mão livre no London Eye",
+      "Mudar o material de uma jarra ao tocar"
+    ],
+    "prompt_excerpt": "Trecho do prompt publicado",
+    "full_prompt": "Prompt publicado pelo autor",
+    "official_video": "Vídeo oficial · sem miniatura",
+    "results_note": "Cada resultado inclui o link do prompt original. Os textos do X foram conferidos por um espelho, sem verificar a reprodução nativa. Consulte a versão do modelo na fonte; este repositório não reproduziu esses resultados.",
+    "tutorial_intro": "Para quem já tem experiência: ajuste as referências, a sequência das ações e uma mudança por vez.",
+    "tutorial_steps": [
+      "Alinhe a quantidade, a posição e o estado inicial dos objetos com o primeiro quadro.",
+      "Defina uma ação principal por intervalo e sincronize o som com seu gatilho visível.",
+      "Preserve o sujeito e altere só a câmera ou o material; adapte os intervalos à duração aceita pelo modelo."
+    ],
+    "brand_intro": "Quer sua própria versão da pera de vidro ou do mundo em uma mala? Comece com uma imagem de referência no SeaImagine, cole um prompt completo desta biblioteca e adapte o sujeito, os materiais e a câmera.",
+    "brand_steps": [
+      "Baixe o quadro inicial, envie-o à ferramenta de imagem para vídeo e cole o prompt completo.",
+      "Escolha duração, proporção e resolução entre as opções do modelo; gere um rascunho primeiro.",
+      "Quando gostar da composição, mude um detalhe por vez antes de aumentar a resolução."
+    ],
+    "new_sources": "Fontes de inspiração das novas categorias",
+    "preview_note": "As imagens das categorias ilustram seus temas. As seis imagens de exemplo são quadros iniciais de referência. Nenhuma representa um resultado de vídeo gerado.",
+    "count_label": "prompts",
+    "input_video": "Requer vídeo de entrada",
+    "text_to_video": "Texto para vídeo",
+    "language_note": "As descrições das categorias estão em chinês e inglês; todos os prompts completos para copiar estão em inglês.",
+    "tutorial_example_label": "Instrução reutilizável para uma única alteração, se o modelo permitir edição",
+    "brand_bridge": "Sem uma imagem inicial adequada? Prepare sua cena com geração de imagens por IA. Se já tiver uma imagem, vá direto para imagem para vídeo. Escolha um tema desta biblioteca e adapte-o mantendo a sequência temporal e os detalhes que devem permanecer iguais."
+  },
+  "it": {
+    "intro": "76 prompt completi in 9 categorie, 6 esempi con fotogrammi iniziali originali e risultati accompagnati dai prompt pubblicati dagli autori.",
+    "category_titles": [
+      "Cinema e narrazione",
+      "Pubblicità e social media",
+      "Documentario, viaggio e istruzione",
+      "Animazione, musica e intrattenimento",
+      "Controllo multimodale, modifica ed estensione",
+      "Modifica avanzata, camera e trasformazioni",
+      "Storyboard, testo e valutazione",
+      "Materiali e ASMR",
+      "Mondi in miniatura e immaginari"
+    ],
+    "showcase_titles": [
+      "La lavanderia dimentica la gravità",
+      "Profumo ambrato ed eclissi meccanica",
+      "Sotto l’acqua delle mangrovie",
+      "La volpe consegna l’ultima lettera",
+      "Pera di vetro ambrato con cuore stellato",
+      "Un osservatorio dentro una valigia"
+    ],
+    "result_titles": [
+      "Scultura di bolle",
+      "Una stanza dentro una sfera di vetro",
+      "Trasformare le persone in fenicotteri",
+      "Cambiare cappello a ogni battito di mani",
+      "Zoom a mano libera dal London Eye",
+      "Cambiare il materiale di una brocca al tocco"
+    ],
+    "prompt_excerpt": "Estratto del prompt pubblicato",
+    "full_prompt": "Prompt pubblicato dall’autore",
+    "official_video": "Video ufficiale · senza anteprima",
+    "results_note": "Ogni risultato rimanda al prompt originale. I testi di X sono stati verificati tramite un mirror, senza controllare la riproduzione su X. Per la versione del modello consulta la fonte; il repository non ha riprodotto questi risultati.",
+    "tutorial_intro": "Per chi conosce già le basi: definisci i ruoli dei riferimenti, i tempi delle azioni e una modifica alla volta.",
+    "tutorial_steps": [
+      "Fai coincidere numero, posizione e stato iniziale degli oggetti con il primo fotogramma.",
+      "Assegna un movimento principale a ogni intervallo e sincronizza il suono con la sua causa visibile.",
+      "Mantieni il soggetto e modifica solo la camera o il materiale; adatta i tempi alla durata supportata dal modello."
+    ],
+    "brand_intro": "Vuoi creare la tua versione della pera di vetro o del mondo in valigia? Parti da un’immagine di riferimento in SeaImagine, incolla un prompt completo della raccolta e adatta soggetto, materiali e camera.",
+    "brand_steps": [
+      "Scarica il fotogramma iniziale, caricalo nella funzione da immagine a video e incolla il prompt completo.",
+      "Scegli durata, proporzioni e risoluzione fra le opzioni del modello; genera prima una bozza.",
+      "Quando la composizione ti soddisfa, cambia un dettaglio alla volta e poi aumenta la risoluzione."
+    ],
+    "new_sources": "Fonti di ispirazione per le nuove categorie",
+    "preview_note": "Le immagini delle categorie ne illustrano i temi. Le sei immagini di esempio sono fotogrammi iniziali di riferimento. Nessuna rappresenta un risultato video generato.",
+    "count_label": "prompt",
+    "input_video": "Video in ingresso richiesto",
+    "text_to_video": "Da testo a video",
+    "language_note": "Le descrizioni delle categorie sono in cinese e inglese; tutti i prompt completi da copiare sono in inglese.",
+    "tutorial_example_label": "Istruzione riutilizzabile per una sola modifica, se il modello supporta l’editing",
+    "brand_bridge": "Non hai un’immagine iniziale adatta? Prepara la tua scena con la generazione di immagini IA. Se hai già un’immagine, passa direttamente da immagine a video. Scegli un tema della raccolta e adattalo mantenendo la sequenza temporale e i dettagli che non devono cambiare."
+  },
+  "ru": {
+    "intro": "76 полных промптов в 9 категориях, 6 примеров с оригинальными стартовыми кадрами и опубликованные результаты со ссылками на промпты авторов.",
+    "category_titles": [
+      "Кино и повествование",
+      "Реклама и соцсети",
+      "Документалистика, путешествия и образование",
+      "Анимация, музыка и развлечения",
+      "Мультимодальное управление, монтаж и продление",
+      "Продвинутый монтаж, камера и визуальные изменения",
+      "Раскадровка, текст и оценка",
+      "Фактуры и ASMR",
+      "Миниатюрные и фантастические миры"
+    ],
+    "showcase_titles": [
+      "Прачечная без гравитации",
+      "Янтарные духи и механическое затмение",
+      "Под водой мангрового леса",
+      "Лис доставляет последнее письмо",
+      "Стеклянная груша со звёздным ядром",
+      "Обсерватория в чемодане"
+    ],
+    "result_titles": [
+      "Скульптура из пузырей",
+      "Комната внутри стеклянной сферы",
+      "Заменить людей фламинго",
+      "Менять шляпу при каждом хлопке",
+      "Ручной зум из кабины London Eye",
+      "Менять материал кувшина при касании"
+    ],
+    "prompt_excerpt": "Отрывок опубликованного промпта",
+    "full_prompt": "Промпт, опубликованный автором",
+    "official_video": "Официальное видео · без миниатюры",
+    "results_note": "У каждого результата есть ссылка на исходный промпт. Тексты X проверены через зеркало; воспроизведение на самом X не проверялось. Версия модели указана в источнике. Это не результаты воспроизведения в данном репозитории.",
+    "tutorial_intro": "Для опытных пользователей: уточняйте роли референсов, время действий и меняйте по одному параметру.",
+    "tutorial_steps": [
+      "Число объектов, их положение и исходное состояние должны совпадать со стартовым кадром.",
+      "Задавайте одно основное движение на интервал и привязывайте звук к видимому событию.",
+      "Сохраняйте главный объект, меняя только камеру или материал; подстройте интервалы под поддерживаемую длительность."
+    ],
+    "brand_intro": "Хотите свою версию стеклянной груши или мира в чемодане? Начните с референсного изображения в SeaImagine, вставьте полный промпт из библиотеки и измените объект, материалы и камеру под свой замысел.",
+    "brand_steps": [
+      "Скачайте стартовый кадр, загрузите его в режим видео из изображения и вставьте полный промпт.",
+      "Выберите доступные для модели длительность, формат и разрешение; сначала сделайте черновик.",
+      "Когда композиция устроит, меняйте по одной детали, затем повышайте разрешение."
+    ],
+    "new_sources": "Источники идей для новых категорий",
+    "preview_note": "Изображения категорий иллюстрируют темы. Шесть изображений примеров служат референсами для стартового кадра. Ни те ни другие не показывают результаты генерации видео.",
+    "count_label": "промптов",
+    "input_video": "Нужно входное видео",
+    "text_to_video": "Видео из текста",
+    "language_note": "Описания категорий пока доступны на китайском и английском; все полные промпты для копирования написаны на английском.",
+    "tutorial_example_label": "Готовая инструкция для одного изменения — если модель поддерживает редактирование",
+    "brand_bridge": "Нет подходящего стартового изображения? Подготовьте сцену с помощью генерации изображений ИИ. Если изображение уже есть, переходите к созданию видео из него. Выберите тему из библиотеки и переработайте её, сохраняя временную последовательность и детали, которые не должны меняться."
+  },
+  "id": {
+    "intro": "76 prompt lengkap dalam 9 kategori, 6 contoh dengan bingkai awal orisinal, serta hasil dengan tautan prompt yang dipublikasikan pembuatnya.",
+    "category_titles": [
+      "Film dan cerita",
+      "Iklan dan media sosial",
+      "Dokumenter, perjalanan dan pendidikan",
+      "Animasi, musik dan hiburan",
+      "Kontrol multimodal, penyuntingan dan perpanjangan",
+      "Penyuntingan lanjutan, kamera dan transformasi visual",
+      "Storyboard, teks dan evaluasi",
+      "Tekstur dan ASMR",
+      "Dunia miniatur dan imajinasi"
+    ],
+    "showcase_titles": [
+      "Gravitasi hilang di tempat penatu",
+      "Parfum ambar dan gerhana mekanis",
+      "Di bawah air hutan bakau",
+      "Rubah mengantar surat terakhir",
+      "Pir kaca ambar dengan inti bintang",
+      "Observatorium di dalam koper"
+    ],
+    "result_titles": [
+      "Patung gelembung",
+      "Ruangan di dalam bola kaca",
+      "Mengubah orang menjadi flamingo",
+      "Mengganti topi setiap bertepuk tangan",
+      "Zoom genggam dari London Eye",
+      "Mengubah bahan teko saat disentuh"
+    ],
+    "prompt_excerpt": "Kutipan prompt yang dipublikasikan",
+    "full_prompt": "Prompt yang dipublikasikan pembuat",
+    "official_video": "Video resmi · tanpa gambar pratinjau",
+    "results_note": "Setiap hasil menautkan prompt asli. Teks X diperiksa melalui mirror; pemutaran di X belum diverifikasi. Lihat versi model pada tiap sumber. Hasil ini tidak direproduksi oleh repositori ini.",
+    "tutorial_intro": "Untuk pengguna berpengalaman: perjelas peran referensi, waktu gerakan, dan ubah satu hal setiap kali.",
+    "tutorial_steps": [
+      "Samakan jumlah, posisi dan keadaan awal objek dengan bingkai pertama.",
+      "Tetapkan satu gerakan utama per rentang waktu dan selaraskan suara dengan pemicunya di layar.",
+      "Pertahankan subjek, ubah hanya kamera atau bahan, lalu sesuaikan waktunya dengan durasi yang didukung model."
+    ],
+    "brand_intro": "Ingin membuat versi sendiri dari pir kaca atau dunia dalam koper? Mulai dengan gambar referensi di SeaImagine, tempel prompt lengkap dari pustaka ini, lalu sesuaikan subjek, bahan dan kamera dengan ide Anda.",
+    "brand_steps": [
+      "Unduh bingkai awal, unggah ke fitur gambar ke video, lalu tempel prompt lengkap.",
+      "Pilih durasi, rasio dan resolusi yang tersedia pada model; buat draf dahulu.",
+      "Setelah komposisinya sesuai, ubah satu detail setiap kali sebelum menaikkan resolusi."
+    ],
+    "new_sources": "Sumber inspirasi kategori baru",
+    "preview_note": "Gambar kategori menggambarkan temanya. Keenam gambar contoh adalah referensi bingkai awal. Keduanya bukan hasil video yang telah dibuat.",
+    "count_label": "prompt",
+    "input_video": "Memerlukan video masukan",
+    "text_to_video": "Teks ke video",
+    "language_note": "Deskripsi kategori saat ini tersedia dalam bahasa Mandarin dan Inggris; semua prompt lengkap yang dapat disalin ditulis dalam bahasa Inggris.",
+    "tutorial_example_label": "Instruksi siap pakai untuk satu perubahan, jika model mendukung penyuntingan",
+    "brand_bridge": "Belum punya gambar awal yang cocok? Siapkan adegan dengan pembuatan gambar AI. Jika sudah punya gambar, langsung gunakan gambar ke video. Pilih tema dari pustaka ini lalu ubah sesuai ide Anda, sambil mempertahankan urutan waktu dan detail yang harus tetap sama."
+  },
+  "th": {
+    "intro": "พรอมป์ฉบับเต็ม 76 รายการใน 9 หมวด พร้อมตัวอย่างเฟรมเริ่มต้นที่สร้างขึ้นใหม่ 6 แบบ และผลงานที่มีลิงก์พรอมป์ซึ่งผู้สร้างเผยแพร่ไว้",
+    "category_titles": [
+      "ภาพยนตร์และการเล่าเรื่อง",
+      "โฆษณาและโซเชียลมีเดีย",
+      "สารคดี การเดินทาง และการศึกษา",
+      "แอนิเมชัน ดนตรี และความบันเทิง",
+      "ควบคุมหลายสื่อ ตัดต่อ และต่อวิดีโอ",
+      "ตัดต่อขั้นสูง กล้อง และการแปลงภาพ",
+      "สตอรีบอร์ด ข้อความ และการประเมิน",
+      "พื้นผิวและ ASMR",
+      "โลกจิ๋วและโลกจินตนาการ"
+    ],
+    "showcase_titles": [
+      "ร้านซักผ้าที่ลืมแรงโน้มถ่วง",
+      "น้ำหอมสีอำพันกับคราสกลไก",
+      "ใต้ผิวน้ำป่าชายเลน",
+      "จิ้งจอกส่งจดหมายฉบับสุดท้าย",
+      "ลูกแพร์แก้วสีอำพันกับแกนรูปดาว",
+      "หอดูดาวในกระเป๋าเดินทาง"
+    ],
+    "result_titles": [
+      "ประติมากรรมฟองสบู่",
+      "ห้องในลูกแก้ว",
+      "เปลี่ยนคนเป็นนกฟลามิงโก",
+      "เปลี่ยนหมวกทุกครั้งที่ปรบมือ",
+      "ซูมแบบถือกล้องจากลอนดอนอาย",
+      "เปลี่ยนวัสดุเหยือกเมื่อสัมผัส"
+    ],
+    "prompt_excerpt": "ข้อความจากพรอมป์ที่เผยแพร่",
+    "full_prompt": "พรอมป์ที่ผู้สร้างเผยแพร่",
+    "official_video": "วิดีโอทางการ · ไม่มีภาพย่อ",
+    "results_note": "ทุกผลงานมีลิงก์พรอมป์ต้นฉบับ ตรวจข้อความ X ผ่านเว็บไซต์สำเนา แต่ยังไม่ได้ตรวจการเล่นบน X ดูรุ่นโมเดลจากแต่ละแหล่ง ผลงานเหล่านี้ไม่ได้สร้างซ้ำโดยคลังนี้",
+    "tutorial_intro": "สำหรับผู้มีประสบการณ์: ระบุหน้าที่ของสื่ออ้างอิง จังหวะการเคลื่อนไหว และปรับทีละอย่าง",
+    "tutorial_steps": [
+      "ให้จำนวน ตำแหน่ง และสภาพเริ่มต้นของวัตถุตรงกับเฟรมแรก",
+      "กำหนดการเคลื่อนไหวหลักหนึ่งอย่างต่อช่วงเวลา และให้เสียงตรงกับเหตุการณ์ที่เห็น",
+      "คงตัวแบบไว้แล้วเปลี่ยนเฉพาะกล้องหรือวัสดุ ปรับช่วงเวลาให้ตรงกับความยาวที่โมเดลรองรับ"
+    ],
+    "brand_intro": "อยากทำลูกแพร์แก้วหรือโลกในกระเป๋าในแบบของคุณเองไหม? เริ่มจากภาพอ้างอิงใน SeaImagine วางพรอมป์ฉบับเต็มจากคลังนี้ แล้วปรับตัวแบบ วัสดุ และกล้องตามไอเดียของคุณ",
+    "brand_steps": [
+      "ดาวน์โหลดเฟรมเริ่มต้น อัปโหลดในฟังก์ชันภาพเป็นวิดีโอ แล้ววางพรอมป์ฉบับเต็ม",
+      "เลือกความยาว อัตราส่วน และความละเอียดที่โมเดลมีให้ แล้วสร้างฉบับร่างก่อน",
+      "เมื่อพอใจกับองค์ประกอบภาพ ให้ปรับทีละรายละเอียดก่อนเพิ่มความละเอียด"
+    ],
+    "new_sources": "แหล่งแรงบันดาลใจของหมวดใหม่",
+    "preview_note": "ภาพหมวดหมู่ใช้สื่อถึงหัวข้อ ส่วนภาพตัวอย่างทั้งหกเป็นภาพอ้างอิงสำหรับเฟรมเริ่มต้น ทั้งสองประเภทไม่ใช่ผลลัพธ์วิดีโอที่สร้างแล้ว",
+    "count_label": "พรอมป์",
+    "input_video": "ต้องมีวิดีโอต้นทาง",
+    "text_to_video": "ข้อความเป็นวิดีโอ",
+    "language_note": "คำอธิบายหมวดหมู่ขณะนี้เป็นภาษาจีนและอังกฤษ ส่วนพรอมป์ฉบับเต็มที่คัดลอกได้ทั้งหมดเป็นภาษาอังกฤษ",
+    "tutorial_example_label": "คำสั่งปรับทีละอย่างที่นำไปใช้ได้ทันที หากโมเดลที่เลือกรองรับการแก้ไข",
+    "brand_bridge": "ถ้ายังไม่มีภาพเริ่มต้นที่เหมาะสม ให้สร้างฉากของคุณด้วย AI สร้างภาพก่อน หากมีภาพแล้ว ให้ใช้ภาพเป็นวิดีโอได้เลย เลือกหัวข้อจากคลังนี้แล้วปรับเนื้อหา โดยคงลำดับเวลาและรายละเอียดที่ต้องไม่เปลี่ยนไว้"
+  },
+  "vi": {
+    "intro": "76 prompt đầy đủ trong 9 nhóm, 6 ví dụ có khung hình đầu tự sáng tạo và kết quả kèm prompt do tác giả công khai.",
+    "category_titles": [
+      "Điện ảnh và kể chuyện",
+      "Quảng cáo và mạng xã hội",
+      "Tài liệu, du lịch và giáo dục",
+      "Hoạt hình, âm nhạc và giải trí",
+      "Điều khiển đa phương thức, chỉnh sửa và nối dài",
+      "Chỉnh sửa nâng cao, máy quay và biến đổi hình ảnh",
+      "Phân cảnh, chữ và đánh giá",
+      "Chất liệu và ASMR",
+      "Thế giới thu nhỏ và tưởng tượng"
+    ],
+    "showcase_titles": [
+      "Tiệm giặt quên mất trọng lực",
+      "Nước hoa hổ phách và nhật thực cơ khí",
+      "Dưới mặt nước rừng ngập mặn",
+      "Cáo giao lá thư cuối cùng",
+      "Quả lê thủy tinh hổ phách với lõi hình sao",
+      "Đài thiên văn trong vali"
+    ],
+    "result_titles": [
+      "Tượng bong bóng",
+      "Căn phòng trong quả cầu thủy tinh",
+      "Biến người thành hồng hạc",
+      "Đổi mũ sau mỗi lần vỗ tay",
+      "Zoom cầm tay từ London Eye",
+      "Đổi chất liệu bình khi chạm vào"
+    ],
+    "prompt_excerpt": "Trích prompt đã công khai",
+    "full_prompt": "Prompt do tác giả công khai",
+    "official_video": "Video chính thức · không có ảnh thu nhỏ",
+    "results_note": "Mỗi kết quả đều có liên kết prompt gốc. Nội dung X được kiểm tra qua bản sao, chưa xác minh phát video trực tiếp trên X. Xem phiên bản mô hình tại từng nguồn; kho này không tái tạo các kết quả đó.",
+    "tutorial_intro": "Với người đã có kinh nghiệm: làm rõ vai trò tư liệu tham chiếu, thời điểm chuyển động và sửa từng yếu tố.",
+    "tutorial_steps": [
+      "Giữ số lượng, vị trí và trạng thái ban đầu của vật thể khớp với khung hình đầu.",
+      "Mỗi khoảng thời gian chỉ có một chuyển động chính; đồng bộ âm thanh với sự kiện nhìn thấy.",
+      "Giữ nguyên chủ thể, chỉ đổi máy quay hoặc chất liệu; điều chỉnh mốc thời gian theo thời lượng mô hình hỗ trợ."
+    ],
+    "brand_intro": "Muốn làm phiên bản riêng của quả lê thủy tinh hay thế giới trong vali? Bắt đầu bằng ảnh tham chiếu trong SeaImagine, dán prompt đầy đủ từ thư viện này rồi thay chủ thể, chất liệu và máy quay theo ý tưởng của bạn.",
+    "brand_steps": [
+      "Tải khung hình đầu, tải lên chế độ ảnh thành video rồi dán prompt đầy đủ.",
+      "Chọn thời lượng, tỉ lệ khung hình và độ phân giải có sẵn của mô hình; tạo bản nháp trước.",
+      "Khi đã hài lòng với bố cục, sửa từng chi tiết rồi mới tăng độ phân giải."
+    ],
+    "new_sources": "Nguồn cảm hứng cho các nhóm mới",
+    "preview_note": "Ảnh phân loại minh họa chủ đề. Sáu ảnh ví dụ là ảnh tham chiếu cho khung hình đầu. Cả hai đều không phải kết quả video đã tạo.",
+    "count_label": "prompt",
+    "input_video": "Cần video đầu vào",
+    "text_to_video": "Văn bản thành video",
+    "language_note": "Mô tả các nhóm hiện có bằng tiếng Trung và tiếng Anh; mọi prompt đầy đủ có thể sao chép đều bằng tiếng Anh.",
+    "tutorial_example_label": "Lệnh chỉnh một yếu tố có thể dùng ngay, nếu mô hình hỗ trợ chỉnh sửa",
+    "brand_bridge": "Chưa có ảnh đầu phù hợp? Hãy tạo cảnh riêng bằng công cụ tạo ảnh AI. Nếu đã có ảnh, chuyển thẳng sang ảnh thành video. Chọn chủ đề trong thư viện rồi viết lại, giữ nguyên trình tự thời gian và những chi tiết không được thay đổi."
+  },
+  "ar": {
+    "intro": "76 وصفًا نصيًا كاملًا ضمن 9 فئات، و6 أمثلة بإطارات بداية أصلية، ونتائج مرفقة بالأوصاف التي نشرها أصحابها.",
+    "category_titles": [
+      "السينما والسرد",
+      "الإعلانات ووسائل التواصل",
+      "الوثائقيات والسفر والتعليم",
+      "الرسوم المتحركة والموسيقى والترفيه",
+      "التحكم متعدد الوسائط والتحرير والتمديد",
+      "التحرير المتقدم والكاميرا والتحولات البصرية",
+      "لوحات المشاهد والنصوص والتقييم",
+      "الملمس وأصوات ASMR الهادئة",
+      "العوالم المصغرة والخيالية"
+    ],
+    "showcase_titles": [
+      "مغسلة تنسى الجاذبية",
+      "عطر كهرماني وكسوف ميكانيكي",
+      "تحت مياه المانغروف",
+      "الثعلب يسلّم الرسالة الأخيرة",
+      "كمثرى زجاجية كهرمانية بقلب نجمي",
+      "مرصد داخل حقيبة سفر"
+    ],
+    "result_titles": [
+      "منحوتة من الفقاعات",
+      "غرفة داخل كرة زجاجية",
+      "تحويل الأشخاص إلى طيور فلامنغو",
+      "تغيير القبعة مع كل تصفيقة",
+      "تقريب بكاميرا محمولة من عين لندن",
+      "تغيير مادة الإبريق عند لمسه"
+    ],
+    "prompt_excerpt": "مقتطف من الوصف المنشور",
+    "full_prompt": "الوصف الذي نشره صاحبه",
+    "official_video": "فيديو رسمي · دون صورة مصغرة",
+    "results_note": "تتضمن كل نتيجة رابط الوصف الأصلي. تحقّقنا من نصوص X عبر نسخة مرآة، ولم نتحقق من التشغيل على X نفسه. راجع المصدر لمعرفة إصدار النموذج؛ لم يُعِد هذا المستودع إنتاج هذه النتائج.",
+    "tutorial_intro": "للمستخدمين المتمرسين: حدّد أدوار المراجع وتوقيت الحركات، وغيّر عنصرًا واحدًا في كل مرة.",
+    "tutorial_steps": [
+      "اجعل عدد العناصر ومواضعها وحالتها الأولية متوافقة مع إطار البداية.",
+      "خصّص حركة رئيسية واحدة لكل فترة، وزامن الصوت مع الحدث المرئي الذي يسببه.",
+      "حافظ على الموضوع وغيّر الكاميرا أو المادة فقط، واضبط التوقيت حسب المدة التي يدعمها النموذج."
+    ],
+    "brand_intro": "هل تريد نسختك الخاصة من الكمثرى الزجاجية أو العالم داخل حقيبة؟ ابدأ بصورة مرجعية في SeaImagine، والصق وصفًا كاملًا من هذه المكتبة، ثم عدّل الموضوع والمواد وحركة الكاميرا وفق فكرتك.",
+    "brand_steps": [
+      "نزّل إطار البداية وارفعه في ميزة تحويل الصورة إلى فيديو، ثم الصق الوصف كاملًا.",
+      "اختر المدة ونسبة الأبعاد والدقة من الخيارات المتاحة للنموذج، وأنشئ مسودة أولًا.",
+      "بعد أن يعجبك التكوين، عدّل تفصيلًا واحدًا في كل مرة قبل رفع الدقة."
+    ],
+    "new_sources": "مصادر الإلهام للفئات الجديدة",
+    "preview_note": "صور الفئات توضح موضوعاتها، وصور الأمثلة الستة مراجع لإطار البداية. لا يمثل أي منها نتيجة فيديو مولّدة.",
+    "count_label": "وصفًا نصيًا",
+    "input_video": "يتطلب فيديو إدخال",
+    "text_to_video": "من نص إلى فيديو",
+    "language_note": "أوصاف الفئات متاحة حاليًا بالصينية والإنجليزية، وجميع الأوصاف الكاملة القابلة للنسخ مكتوبة بالإنجليزية.",
+    "tutorial_example_label": "تعليمة جاهزة لتعديل واحد، إذا كان النموذج المختار يدعم التحرير",
+    "brand_bridge": "ليس لديك إطار بداية مناسب؟ جهّز مشهدك باستخدام توليد الصور بالذكاء الاصطناعي. وإن كانت لديك صورة، فانتقل مباشرة إلى تحويل الصورة إلى فيديو. اختر موضوعًا من المكتبة وعدّله مع الحفاظ على التسلسل الزمني والتفاصيل التي يجب ألا تتغير."
+  }
+}

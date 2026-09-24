@@ -1,0 +1,44 @@
+{
+  "purpose": "Original category illustrations, not Gemini Omni outputs or video results.",
+  "assets": [
+    {
+      "id": "control",
+      "path": "assets/category-control-v2.png",
+      "prompt": "Use case: stylized-concept. Asset type: repository category concept artwork, not claimed model output. Create one landscape 16:9 cinematic concept image illustrating first-frame/end-frame control and video extension. Three clearly separated adjacent panels, elegant narrow dark gutters. Same single futuristic coastal lighthouse architecture in every panel: slender white concrete tower, copper ring observation deck, black rocky island, curving causeway. Left panel is early sunrise, central larger panel is luminous twilight with a continuous amber light ribbon along the causeway suggesting time continuity, right panel is starry night with lighthouse beam. Architecture and coastline must stay identical between panels, only illumination changes. Sophisticated photoreal concept art, teal sea and copper light, rich clouds and tactile rock. All three panels together occupy the full image with crisp readable silhouette at small thumbnail size. No text, typography, numbers, logos, watermarks, UI, arrows or extra towers.",
+      "tool": "built-in image_gen",
+      "status": "original_category_concept_not_model_output",
+      "sha256": "b68abbd7378739da753d675b630641f18ff7c1c2ffce9fd5342fe46467df5c7e",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "review": "Visually inspected: requested panels, category subject and no visible text verified. Concept artwork, not an exact frame-continuity or model-quality test."
+    },
+    {
+      "id": "camera",
+      "path": "assets/category-camera-v2.png",
+      "prompt": "Use case: stylized-concept. Asset type: cinematic repository category artwork illustrating camera coverage, not claimed model output. One landscape 16:9 image arranged as THREE connected cinematic panels divided by subtle diagonal boundaries, filling the whole frame. Same vintage cherry-red tram with cream roof, round warm headlights, brass trim and dark windows crossing the SAME rain-soaked city intersection at night in all panels. Left panel: dramatic street-level low angle by wet rail. Centre panel: overhead bird's-eye view revealing the rail curve and intersection. Right panel: close side tracking viewpoint showing the tram flank and reflections. Preserve one consistent tram design in every panel; no written route numbers, advertisements or readable signs. City brick facades, amber lamps, blue reflections, rich realistic cinematic lighting, sharply different camera heights unmistakable in small thumbnail. No text, logos, watermarks, arrows, cameras or UI. It should feel like a beautiful cinematography contact sheet, not a collage of unrelated trains.",
+      "tool": "built-in image_gen",
+      "status": "original_category_concept_not_model_output",
+      "sha256": "70981c19493e707f5d0becb863e01b7b48681fdc384638575fbddcb1d2ffcf85",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "review": "Visually inspected: requested panels, category subject and no visible text verified. Concept artwork, not an exact frame-continuity or model-quality test."
+    },
+    {
+      "id": "storyboard",
+      "path": "assets/category-storyboard-v2.png",
+      "prompt": "Use case: illustration-story. Asset type: repository storyboard category concept art, not claimed model output. Create one 16:9 landscape image consisting of exactly nine equal rectangular frames in an immaculate 3 by 3 storyboard grid with thin dark gutters, no captions. Cinematic painterly science-fiction storyboard telling one coherent story: a lone adult astronaut in a cream suit with orange shoulder panels and mirrored round helmet discovers a glowing teal plant in a red desert at dusk. Reading left to right top to bottom: 1 extreme-wide astronaut tiny amid dunes and distant rock spires; 2 medium rear shot astronaut walking toward faint glow behind rock; 3 close-up boot stopping beside a tiny teal root; 4 over-shoulder view revealing single delicate glowing plant; 5 close-up intact glowing plant with translucent leaves; 6 medium side view astronaut kneeling beside plant, hand hovering without touching; 7 close-up teal light reflected in mirrored visor; 8 wide view astronaut rising as dusk turns blue; 9 extreme-wide final view solitary astronaut beside plant under first stars. Strong, unambiguous progression of shot sizes. Same astronaut suit, same plant, same desert throughout. Each frame richly composed and visually readable, elegant red sand/teal contrast. No text, numbers, UI, labels, logos or watermark.",
+      "tool": "built-in image_gen",
+      "status": "original_category_concept_not_model_output",
+      "sha256": "584c9e7bdb2a9a5fbc9c9fe50d83a912ed2045f13a499ec4f6d946bb63117121",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "review": "Visually inspected: requested panels, category subject and no visible text verified. Concept artwork, not an exact frame-continuity or model-quality test."
+    }
+  ]
+}

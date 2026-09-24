@@ -3,51 +3,65 @@
     {
       "id": "cinematic-storytelling",
       "title": "电影与叙事",
-      "title_en": "Cinematic storytelling",
+      "title_en": "Cinema and storytelling",
       "path": "prompts/cinematic-storytelling.md",
       "count": 8
     },
     {
       "id": "commerce-social",
       "title": "商业广告与社交媒体",
-      "title_en": "Commerce and social",
+      "title_en": "Commerce and social media",
       "path": "prompts/commerce-social.md",
       "count": 8
     },
     {
       "id": "documentary-education",
-      "title": "纪录片与教育",
-      "title_en": "Documentary and education",
+      "title": "纪录片、旅行与教育",
+      "title_en": "Documentary, travel and education",
       "path": "prompts/documentary-education.md",
       "count": 8
     },
     {
       "id": "stylized-entertainment",
-      "title": "风格化与娱乐",
-      "title_en": "Stylized entertainment",
+      "title": "动画、音乐与娱乐",
+      "title_en": "Animation, music and entertainment",
       "path": "prompts/stylized-entertainment.md",
       "count": 8
     },
     {
       "id": "control-editing-extension",
       "title": "多模态控制、编辑与续写",
-      "title_en": "Multimodal control, editing and extension",
+      "title_en": "Control, editing and extension",
       "path": "prompts/control-editing-extension.md",
       "count": 10
     },
     {
       "id": "advanced-editing-camera",
-      "title": "进阶编辑与镜头",
+      "title": "进阶编辑、镜头与视觉变换",
       "title_en": "Advanced editing and camera",
       "path": "prompts/advanced-editing-camera.md",
       "count": 9
     },
     {
       "id": "storyboard-text-evaluation",
-      "title": "分镜、文字与评测",
+      "title": "故事板、文字与评测",
       "title_en": "Storyboards, text and evaluation",
       "path": "prompts/storyboard-text-evaluation.md",
       "count": 9
+    },
+    {
+      "id": "tactile-asmr",
+      "title": "触感与 ASMR",
+      "title_en": "Tactile ASMR",
+      "path": "prompts/tactile-asmr.md",
+      "count": 8
+    },
+    {
+      "id": "miniature-worlds",
+      "title": "微缩与幻想世界",
+      "title_en": "Miniature and imagined worlds",
+      "path": "prompts/miniature-worlds.md",
+      "count": 8
     }
   ],
   "cases": [
@@ -650,6 +664,166 @@
       "anchor": "case-09",
       "copy_path": "prompts/copy/storyboard-text-evaluation-09.txt",
       "block_count": 2
+    },
+    {
+      "metadata": "",
+      "id": "tactile-asmr-01",
+      "category": "tactile-asmr",
+      "title": "琥珀玻璃梨：切开星形晶核",
+      "path": "prompts/tactile-asmr.md",
+      "anchor": "case-01",
+      "copy_path": "prompts/copy/tactile-asmr-01.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "",
+      "id": "tactile-asmr-02",
+      "category": "tactile-asmr",
+      "title": "月白陶壳：一条裂缝露出蓝色晶洞",
+      "path": "prompts/tactile-asmr.md",
+      "anchor": "case-02",
+      "copy_path": "prompts/copy/tactile-asmr-02.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "",
+      "id": "tactile-asmr-03",
+      "category": "tactile-asmr",
+      "title": "丝绒沙丘：黄铜滚轮压出一条鱼骨纹",
+      "path": "prompts/tactile-asmr.md",
+      "anchor": "case-03",
+      "copy_path": "prompts/copy/tactile-asmr-03.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "",
+      "id": "tactile-asmr-04",
+      "category": "tactile-asmr",
+      "title": "冰层气泡：铜球融出一条透明隧道",
+      "path": "prompts/tactile-asmr.md",
+      "anchor": "case-04",
+      "copy_path": "prompts/copy/tactile-asmr-04.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "",
+      "id": "tactile-asmr-05",
+      "category": "tactile-asmr",
+      "title": "云纹蜡：刨下一整条蓝白卷带",
+      "path": "prompts/tactile-asmr.md",
+      "anchor": "case-05",
+      "copy_path": "prompts/copy/tactile-asmr-05.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "",
+      "id": "tactile-asmr-06",
+      "category": "tactile-asmr",
+      "title": "珍珠膜：一颗水珠越过绷紧的薄膜",
+      "path": "prompts/tactile-asmr.md",
+      "anchor": "case-06",
+      "copy_path": "prompts/copy/tactile-asmr-06.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "",
+      "id": "tactile-asmr-07",
+      "category": "tactile-asmr",
+      "title": "可可地层：热勺划开一条脆壳峡谷",
+      "path": "prompts/tactile-asmr.md",
+      "anchor": "case-07",
+      "copy_path": "prompts/copy/tactile-asmr-07.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "",
+      "id": "tactile-asmr-08",
+      "category": "tactile-asmr",
+      "title": "磁珠编织：一枚环从平面竖起来",
+      "path": "prompts/tactile-asmr.md",
+      "anchor": "case-08",
+      "copy_path": "prompts/copy/tactile-asmr-08.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "",
+      "id": "miniature-worlds-01",
+      "category": "miniature-worlds",
+      "title": "蓝色旅行箱：云海天文台",
+      "path": "prompts/miniature-worlds.md",
+      "anchor": "case-01",
+      "copy_path": "prompts/copy/miniature-worlds-01.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "",
+      "id": "miniature-worlds-02",
+      "category": "miniature-worlds",
+      "title": "茶杯潮汐：灯塔岛迎来一艘小船",
+      "path": "prompts/miniature-worlds.md",
+      "anchor": "case-02",
+      "copy_path": "prompts/copy/miniature-worlds-02.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "",
+      "id": "miniature-worlds-03",
+      "category": "miniature-worlds",
+      "title": "书脊峡谷：维修小车穿过装订线桥",
+      "path": "prompts/miniature-worlds.md",
+      "anchor": "case-03",
+      "copy_path": "prompts/copy/miniature-worlds-03.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "",
+      "id": "miniature-worlds-04",
+      "category": "miniature-worlds",
+      "title": "玻璃罐温室：微型机器人为番茄授粉",
+      "path": "prompts/miniature-worlds.md",
+      "anchor": "case-04",
+      "copy_path": "prompts/copy/miniature-worlds-04.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "",
+      "id": "miniature-worlds-05",
+      "category": "miniature-worlds",
+      "title": "胡桃壳港口：吊机卸下一袋微型咖啡豆",
+      "path": "prompts/miniature-worlds.md",
+      "anchor": "case-05",
+      "copy_path": "prompts/copy/miniature-worlds-05.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "",
+      "id": "miniature-worlds-06",
+      "category": "miniature-worlds",
+      "title": "黑胶唱片城市：有轨电车追着唱针转弯",
+      "path": "prompts/miniature-worlds.md",
+      "anchor": "case-06",
+      "copy_path": "prompts/copy/miniature-worlds-06.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "",
+      "id": "miniature-worlds-07",
+      "category": "miniature-worlds",
+      "title": "雪靴里的滑雪场：缆车穿过鞋带山谷",
+      "path": "prompts/miniature-worlds.md",
+      "anchor": "case-07",
+      "copy_path": "prompts/copy/miniature-worlds-07.txt",
+      "block_count": 1
+    },
+    {
+      "metadata": "",
+      "id": "miniature-worlds-08",
+      "category": "miniature-worlds",
+      "title": "机械键盘夜市：空格键升起一座小食亭",
+      "path": "prompts/miniature-worlds.md",
+      "anchor": "case-08",
+      "copy_path": "prompts/copy/miniature-worlds-08.txt",
+      "block_count": 1
     }
   ]
 }

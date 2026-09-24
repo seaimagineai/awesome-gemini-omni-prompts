@@ -68,3 +68,11 @@ Avoid: photorealism, generic anime face, extra fingers, duplicated birds
 | `seaimagine-linen-pouch.png` | A vertical product shot with captions added later | One linen pouch, teal string, empty space below |
 
 These three illustrations were newly AI-generated for the SeaImagine practice briefs. They are image-to-video inputs, not outputs produced or tested with Gemini Omni. Full production prompts, dimensions, method, date and SHA-256 hashes are in [the generation record](../data/brand-asset-provenance.json). The video prompts describe the inspected images, including the already-lit house windows; they do not treat the requested image-generation brief as proof of the resulting pixels.
+
+## Redesigned showcase and category artwork
+
+The six `showcase-v2-01.png` through `showcase-v2-06.png` files are new full-width reference first frames. Their generation prompts, hashes and reviews are in [showcase image provenance](../data/showcase-v2-image-provenance.json). The matching complete video briefs are in [showcase data](../data/showcase-v2.json). They have not been verified as Omni-generated video results.
+
+The three `category-*-v2.png` files are editorial concepts for control, camera and storyboards. See [category generation prompts and provenance](../data/category-image-provenance.json). They are category illustrations, not before-and-after model comparisons.
+
+`official-bubbles-link.svg` and `official-recursive-link.svg` are locally authored video-link cards. They do not depict or reproduce frames from Google's videos.

@@ -144,6 +144,48 @@ For source clips and reuse conditions, use the [reference video and licensing gu
 Review copyright, likeness, trademark, audio, advertising claims, safety policy, and platform terms before commercial release.
 
 
+## Earlier source examples
+
+![Source reference](../../assets/product-speaker.png)
+
+```text
+[# Sources <FIRST_FRAME>@Image1]
+Create a 10-second premium product film from Image1. Use Image1 as the exact starting frame.
+
+[0-3s] Make a slow 20-degree clockwise camera orbit. Suspended droplets travel around the speaker in clean concentric paths, aligned to a deep electronic kick. Preserve the speaker's exact coral color, grille weave and proportions.
+[3-7s] A sunrise reflection sweeps across the copper end cap. On the snare, droplets strike the wet stone and rebound as fine mist.
+[7-10s] All droplets collapse into one crisp splash behind the product, then settle on a steady three-quarter hero frame with negative space on the right.
+
+Audio: original minimal electronic rhythm at 96 BPM, water-drop percussion, distant ocean ambience. No vocals.
+No product morphing, added controls, text, logo, watermark, hands, duplicate product or camera shake.
+```
+
+![Source reference](../../assets/travel-cyclist.png)
+
+```text
+[# Sources <FIRST_FRAME>@Image1]
+Animate Image1 as a single continuous 10-second documentary tracking shot. Use it as the exact first frame.
+
+The cyclist pedals steadily toward the observatory while the camera follows from the same height. Silver grass bends in two wind gusts, loose gravel reacts under the rear tire, and clouds move slowly below the ridge. At 6s, the first warm sunlight reaches the jacket and observatory dome.
+
+Audio: close tire crunch and chain movement, strong ridge wind, one distant bird at 7s. No music or narration.
+No cuts, drone rise, extra cyclists, landmark text, logo or watermark.
+```
+
+![Source reference](../../assets/clockmaker-story.png)
+
+```text
+[# Sources <FIRST_FRAME>@Image1]
+Bring this original illustration to life in one coherent 10-second animated shot. Use Image1 as the first frame and preserve its watercolor-and-ink direction.
+
+[0-3s] The brass door clicks open and warm light grows inside it. Nearby gears rotate at different believable speeds.
+[3-7s] Paper birds unfold one by one and spiral past the camera with visible paper flex. Tilt upward to follow them through the clock opening.
+[7-10s] The flock crosses the moon; one tiny paper bird lands on the clock hand.
+
+Audio: layered clock ticks, delicate paper folds, wooden gear creaks, then an original celesta motif. No dialogue.
+Keep the clockmaker's face, clothes and goggles consistent. No photorealism, subtitles, logo or watermark.
+```
+
 <a id="sea-practice"></a>
 
 ## Three SeaImagine exercises with original reference images

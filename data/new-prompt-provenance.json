@@ -1,0 +1,77 @@
+{
+  "status": "original_editorial_prompts_not_model_tested",
+  "notes": [
+    "These original briefs are not quoted from X or official model demonstrations.",
+    "No generation, quality, or timing claim is implied. Durations, aspect ratios and audio must match the selected interface.",
+    "The six showcase images are reference first frames, not claimed generated video results.",
+    "ASMR and miniature-world themes may be linked to public trend references separately; such references do not establish popularity rankings or Gemini Omni performance."
+  ],
+  "showcase_source": "data/showcase-v2.json",
+  "categories": [
+    {
+      "id": "tactile-asmr",
+      "path": "prompts/tactile-asmr.md",
+      "count": 8,
+      "shared_featured_id": "glass-pear"
+    },
+    {
+      "id": "miniature-worlds",
+      "path": "prompts/miniature-worlds.md",
+      "count": 8,
+      "shared_featured_id": "suitcase-observatory"
+    }
+  ],
+  "inspiration_sources": [
+    {
+      "category": "tactile-asmr",
+      "url": "https://x.com/FilmerNoir/status/1934231649757069603",
+      "evidence_url": "https://api.fxtwitter.com/status/1934231649757069603",
+      "author": "Filmer Noir",
+      "date": "Sun Jun 15 12:48:56 +0000 2025",
+      "context": "Veo 3 glass-fruit slicing; topic inspiration only, not an Omni result or a publicly shared prompt.",
+      "mirror_engagement": {
+        "likes": 1571,
+        "retweets": 192,
+        "views": 336388
+      }
+    },
+    {
+      "category": "miniature-worlds",
+      "url": "https://x.com/xRahultripathi/status/2050867975419507047",
+      "evidence_url": "https://api.fxtwitter.com/status/2050867975419507047",
+      "author": "POCKET ROCKET",
+      "date": "Sun May 03 09:20:03 +0000 2026",
+      "context": "Seedance 2.0 macro-to-micro world narrative with publicly shared prompt; topic inspiration only, not an Omni result.",
+      "mirror_engagement": {
+        "likes": 48,
+        "retweets": 4,
+        "views": 3008
+      }
+    },
+    {
+      "category": "miniature-worlds",
+      "url": "https://x.com/Preda2005/status/2098816503919542376",
+      "evidence_url": "https://api.fxtwitter.com/status/2098816503919542376",
+      "author": "Marcio Lima 利真 マルシオ 💎",
+      "date": "Sat Sep 12 16:50:23 +0000 2026",
+      "context": "GPT Image 2.5 miniature city growing from a map with public prompt; image-topic inspiration only, not an Omni video.",
+      "mirror_engagement": {
+        "likes": 49,
+        "retweets": 5,
+        "views": 3980
+      }
+    }
+  ],
+  "featured_to_case": [
+    {
+      "featured_id": "glass-pear",
+      "category": "tactile-asmr",
+      "case": "01"
+    },
+    {
+      "featured_id": "suitcase-observatory",
+      "category": "miniature-worlds",
+      "case": "01"
+    }
+  ]
+}

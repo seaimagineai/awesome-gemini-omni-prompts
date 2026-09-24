@@ -1,4 +1,4 @@
-CATEGORY: 电影与叙事 / Cinematic storytelling
+CATEGORY: 电影与叙事 / Cinema and storytelling
 
 ========================================================================
 
@@ -122,7 +122,7 @@ Keep suit, face, tray and greenhouse layout consistent. No flames, weapons, alie
 
 ========================================================================
 
-CATEGORY: 商业广告与社交媒体 / Commerce and social
+CATEGORY: 商业广告与社交媒体 / Commerce and social media
 
 ========================================================================
 
@@ -268,7 +268,7 @@ Change only the final on-screen text to Spanish: "CALIDEZ EN CAMINO". Preserve s
 
 ========================================================================
 
-CATEGORY: 纪录片与教育 / Documentary and education
+CATEGORY: 纪录片、旅行与教育 / Documentary, travel and education
 
 ========================================================================
 
@@ -388,7 +388,7 @@ No brand systems, no impossible transparent walls after the section ends, no lux
 
 ========================================================================
 
-CATEGORY: 风格化与娱乐 / Stylized entertainment
+CATEGORY: 动画、音乐与娱乐 / Animation, music and entertainment
 
 ========================================================================
 
@@ -497,7 +497,7 @@ Do not change any plant, pot, window or light fixture. No cuts, people, new obje
 
 ========================================================================
 
-CATEGORY: 多模态控制、编辑与续写 / Multimodal control, editing and extension
+CATEGORY: 多模态控制、编辑与续写 / Control, editing and extension
 
 ========================================================================
 
@@ -655,7 +655,7 @@ Extend by 10 seconds. Continue from the exterior stairs. The weather clears enou
 
 ========================================================================
 
-CATEGORY: 进阶编辑与镜头 / Advanced editing and camera
+CATEGORY: 进阶编辑、镜头与视觉变换 / Advanced editing and camera
 
 ========================================================================
 
@@ -778,7 +778,7 @@ No trails from hands or body, no particles, flame, smoke, brand marks, text, log
 
 ========================================================================
 
-CATEGORY: 分镜、文字与评测 / Storyboards, text and evaluation
+CATEGORY: 故事板、文字与评测 / Storyboards, text and evaluation
 
 ========================================================================
 
@@ -951,3 +951,219 @@ Preserve one person, two hands, three tiles, tile color, action order, camera, t
 Variant A — Camera: completely locked tripod shot.
 Variant B — Camera: 15-centimeter slow push-in from 2s to 8s.
 Variant C — Camera: 20-degree slow arc from front-left to front-right from 2s to 8s.
+
+========================================================================
+
+CATEGORY: 触感与 ASMR / Tactile ASMR
+
+========================================================================
+
+CASE 01: 琥珀玻璃梨：切开星形晶核
+
+
+Use Image1 as the exact opening of a 10-second, 16:9 macro material study. A transparent amber glass pear stands upright on charcoal slate. An obsidian blade enters from the upper right and just touches the unbroken surface. Several small star-shaped inclusions are visible within the core. Treat the pear as a deliberately imaginary, sliceable glass material; it is not real fruit or a real cutting demonstration.
+
+[0-3s] Hold the camera steady at the original low three-quarter angle. The blade presses downward through the near-right side at a slow, even speed. A fine luminous seam follows the cutting edge. The pear stays anchored by its own weight; its stem and silhouette remain unchanged. Keep the blade rigid and show its edge penetrating the material rather than passing through invisibly.
+[3-7s] Complete one continuous cut that separates a single thin outer slice. The slice leans away and settles on the slate at the right, exposing a flat translucent cross-section. The existing star-shaped inclusions remain embedded in the larger standing piece, with their arrangement unchanged and clearer through the cut face. Preserve the removed slice's curved outer skin and matching flat inner face.
+[7-10s] Withdraw the blade upward along its entry path. Rack focus gently from the resting slice to the largest central star-shaped inclusion. Amber caustics brighten beneath the cut face and settle. End with exactly two pear pieces, one whole stem and an unobstructed view of the central inclusion.
+
+Audio: close dry glass-like ticks during penetration, one delicate chime as the slice meets slate, then quiet room tone. No music, chewing, wet flesh sounds or exaggerated shattering. No hands, blood, sparks, loose shards, extra cuts, regenerated pear sections, camera orbit or text.
+
+========================================================================
+
+CASE 02: 月白陶壳：一条裂缝露出蓝色晶洞
+
+
+Create a 10-second, 16:9 locked macro shot of a palm-sized, matte-white ceramic shell resting in a shallow black sand tray. A narrow blue crystalline cavity is concealed inside. One brass stylus touches the shell at its top; show only the tool, with no hand in frame.
+
+[0-3s] The stylus presses once. A single hairline fracture travels slowly from the contact point toward the near edge, accompanied by a dry ceramic tick.
+[3-7s] The two sides open a few millimetres under that pressure, revealing a fixed cluster of tiny cobalt crystals. Three small ceramic crumbs fall into the sand and remain there. Keep the shell's outer contour and thickness consistent; do not grow new crystals.
+[7-10s] Lift the stylus away. Hold focus on the exposed cavity while a soft side light reveals its depth. The shell stays in two connected halves.
+
+Audio: one close tap, quiet brittle crackles and three soft sand impacts. No music, explosions or wet sounds. No cuts, glitter clouds, morphing, extra tools, text or logos. This is an imagined material study, not a repair or safety demonstration.
+
+========================================================================
+
+CASE 03: 丝绒沙丘：黄铜滚轮压出一条鱼骨纹
+
+
+Create a 10-second, 16:9 top-down macro shot of fine terracotta kinetic sand, evenly levelled in a shallow square tray. One small brass roller with a repeating chevron pattern rests against the upper edge. The camera and tray remain still.
+
+[0-3s] Roll the tool slowly downward into the sand. Its embossed surface leaves a continuous fishbone track directly behind the contact line. Keep the sand undisturbed everywhere else.
+[3-7s] Continue at constant speed through the centre. Tiny grains slump along both raised edges, while each repeated chevron stays crisp and evenly spaced. The cylinder must visibly rotate rather than slide across the surface.
+[7-10s] Stop before reaching the lower edge and lift the roller vertically away. Hold on the complete uninterrupted track, with loose grains settling naturally into the shallow channels.
+
+Audio: intimate dry granular crunch, faint brass axle friction and a final soft release. No music or voice. Preserve the initial sand volume and tray boundaries. No reverse playback, magically repaired sand, duplicated roller, additional patterns, hands, text or camera movement.
+
+========================================================================
+
+CASE 04: 冰层气泡：铜球融出一条透明隧道
+
+
+Create a 10-second, 16:9 macro material experiment on a black studio surface. A clear rectangular ice block contains a vertical chain of six trapped air bubbles. One warm copper sphere rests in a shallow depression on its upper face. Treat this as an accelerated artistic visualization, not measured physical footage.
+
+[0-3s] A thin reflective meltwater ring forms around the sphere. Slowly push the camera closer without changing the viewing angle. Keep the ice block edges stable.
+[3-7s] The sphere descends several millimetres as a smooth cylindrical cavity forms beneath it. The topmost trapped bubble reaches the cavity and escapes as one small surface bubble. Keep the other five bubbles in their original positions.
+[7-10s] The sphere stops descending. A single water bead runs down the block's near face and reaches the table. End with the cavity, sphere and remaining bubbles clearly visible.
+
+Audio: faint ice ticks, one small bubble pop and a water bead landing. No sizzling fire sound, steam cloud or music. No fragmentation, new spheres, hollow transparent copper, text or sudden cuts.
+
+========================================================================
+
+CASE 05: 云纹蜡：刨下一整条蓝白卷带
+
+
+Create a 10-second, 16:9 fixed macro shot of a rectangular block of blue-and-white marbled wax on a pale wooden bench. A small steel plane rests against the near upper corner, oriented to travel away from the camera. Show the tool only, with no visible hand.
+
+[0-3s] Push the plane slowly forward. Its edge shaves a single thin ribbon, which curls upward through the tool opening. The new flat face exposes a continuous blue-and-white pattern beneath.
+[3-7s] Continue the same stroke. The ribbon forms two broad loops and falls to the right of the block without breaking. Keep the tool's blade angle and the shaving thickness constant.
+[7-10s] Finish the stroke at the far edge. Stop the tool and let the final curl settle on the bench. Hold focus on the clean new face and the complete ribbon beside it.
+
+Audio: close soft wax scraping, a quiet metal glide and a muted ribbon landing. No wood splinter sounds, music or speech. No second stroke, regenerated surface, flying shavings, extra tools, lettering or camera cuts.
+
+========================================================================
+
+CASE 06: 珍珠膜：一颗水珠越过绷紧的薄膜
+
+
+Create a 10-second, 16:9 macro shot of a pearlescent elastic membrane stretched taut across one circular metal hoop. A single clear water bead rests slightly left of centre. The hoop lies almost horizontally against a dark background, with a narrow white strip light reflected in the bead.
+
+[0-3s] Tilt the hoop a few degrees to the right using an unseen support. The bead begins to roll, depressing the membrane beneath it. The membrane stretches smoothly without tearing.
+[3-7s] Follow the bead with a very small camera pan. Its reflection changes continuously as it crosses the centre. A shallow travelling wrinkle forms behind it and relaxes. Preserve exactly one bead and one continuous membrane.
+[7-10s] Return the hoop to level before the bead reaches the edge. It slows, oscillates once and settles into a rounder shape. End with its reflection sharply resolved.
+
+Audio: a faint rubber tension creak and delicate water contact sounds against otherwise quiet room tone. No popping, speech or music. No rainbow explosions, fluid duplication, punctures, hands, text or abrupt speed changes.
+
+========================================================================
+
+CASE 07: 可可地层：热勺划开一条脆壳峡谷
+
+
+Create a 10-second, 16:9 close macro food shot of a small rectangular chocolate dessert. Its top is a thin dark chocolate shell; beneath it are clearly separated hazelnut cream and sponge layers. A clean silver spoon enters from the upper right. Keep the dessert on one simple off-white plate.
+
+[0-3s] The spoon presses once through the shell near the right edge. A few narrow cracks spread from the contact point; the remaining top stays intact.
+[3-7s] Scoop one small portion toward the camera. Show the layers bending and separating along the spoon's path. The spoon lifts the single portion just above the plate, with all three layers still recognizable.
+[7-10s] Hold the spoon steady. Two tiny chocolate crumbs fall into the empty scoop mark and remain there. Slowly shift focus from the exposed cross-section to the spoonful.
+
+Audio: a crisp shell snap, quiet cream movement and a subtle spoon scrape. No chewing, voice or music. No mouth, extra spoon, refilling dessert, dripping chocolate fountain, text, logos or cuts.
+
+========================================================================
+
+CASE 08: 磁珠编织：一枚环从平面竖起来
+
+
+Create a 10-second, 16:9 locked macro tabletop animation of twenty identical polished steel beads arranged in a closed circle on matte navy felt. A small cylindrical magnet is visible above the topmost bead. This is a deliberately choreographed material animation, not a scientific demonstration of magnetic behaviour.
+
+[0-3s] Lower the magnet until it contacts the top bead. Raise it slowly, lifting that bead while its two neighbours follow. Keep every adjacent pair connected.
+[3-7s] Continue lifting until the bead circle stands upright on its lowest bead, becoming a vertical ring. Each bead rotates naturally at its contact points; preserve the count and circular order. Felt fibres compress beneath the bottom bead.
+[7-10s] Stop the magnet and let the ring sway once, then settle. A narrow light strip travels across the polished surfaces as focus remains on the front half of the ring.
+
+Audio: restrained individual metallic clicks and a soft felt drag. No music, machine roar or voice. No extra beads, elastic stretching, disappearing supports, text or camera orbit.
+
+========================================================================
+
+CATEGORY: 微缩与幻想世界 / Miniature and imagined worlds
+
+========================================================================
+
+CASE 01: 蓝色旅行箱：云海天文台
+
+
+Animate Image1 into a continuous 10-second, 16:9 miniature-diorama film. Inside an open blue hard-shell suitcase, a rocky mountain supports a brass-domed observatory above a shallow sea of clouds. One tiny steam locomotive with two carriages rests on a circular track around the mountain. A copper control knob sits on the front-right exterior panel. No hand is visible in the opening frame.
+
+[0-2s] One adult hand enters from the near frame edge, reaches the copper knob on the front-right exterior panel, turns it one quarter-turn clockwise and releases it. The hand withdraws through the nearest frame edge without entering the miniature landscape. The suitcase, hinges, mountain and rails remain stationary. A tiny warm lamp beside the observatory door comes on.
+[2-6s] The train starts gently and travels clockwise along the existing rails. Its three vehicles stay coupled, with wheels contacting the track. A narrow puff of steam rises from the locomotive and disperses above the carriage roofs. Slowly push the camera toward the mountain while keeping both suitcase rims visible to preserve the scale contrast.
+[6-10s] The observatory dome rotates a small distance and its slit opens to reveal a short telescope aimed at one fixed star in the existing night sky. Clouds drift around the mountain base without spilling over the suitcase rim. Let the train continue behind the mountain, partially occluded rather than disappearing. Stop the camera with the glowing observatory above the cloud line.
+
+Audio: close copper-knob click, miniature rail rhythm, soft gear movement and a restrained airy room ambience. No full-size train horn, narration or music. Preserve scale and object counts. No extra hands, flying rails, expanding suitcase, text, logos, time-lapse sky or cuts.
+
+========================================================================
+
+CASE 02: 茶杯潮汐：灯塔岛迎来一艘小船
+
+
+Create a 10-second, 16:9 miniature film of a tiny rocky lighthouse island inside a wide white ceramic teacup. A narrow ring of water surrounds the island; one red toy-sized sailboat floats near the front. Keep the cup handle visible at right and a teaspoon outside it to establish scale.
+
+[0-3s] Begin a slow lateral camera slide. A gentle ripple lifts the sailboat once without spilling water over the cup rim. The lighthouse lens begins a measured clockwise rotation.
+[3-7s] The sailboat travels left around the island, following the water channel. Its sail flexes subtly; its hull stays at the surface. The rotating beam passes across the rocky shore and briefly reaches the cup's inner wall.
+[7-10s] The boat reaches a small jetty on the left and slows beside it. End with the lighthouse, boat and entire cup rim still visible. Keep all structures fixed to the island.
+
+Audio: delicate lapping water, a tiny rope creak and quiet room tone. No seagull swarm, ocean-sized waves, narration or music. No full-size humans, new boats, changing cup shape, letters or cuts.
+
+========================================================================
+
+CASE 03: 书脊峡谷：维修小车穿过装订线桥
+
+
+Create a 10-second, 16:9 miniature diorama shot across the open spine of an old unprinted clothbound book. Raised paper layers form two canyon walls. A small maintenance trolley sits on a narrow wooden bridge suspended from visible binding threads, spanning the gutter. No writing appears on any page.
+
+[0-3s] Slowly lower the camera toward bridge height while keeping the book's outer edges visible. The trolley's small lamp switches on. One thread support vibrates slightly as the wheels start moving.
+[3-7s] The trolley crosses from left to right at walking pace. The bridge sags gently beneath its weight and recovers behind it. The wheels remain on the two rails; its lamp illuminates the paper strata ahead.
+[7-10s] The trolley enters a shallow tunnel cut into the right paper wall. Its rear lamp remains visible for a moment, then disappears behind the tunnel edge. Stop the camera on the now-empty bridge.
+
+Audio: miniature wheel clicks, soft thread tension and paper rustle. No dialogue, music, page-turning or earthquake. No floating bridge, human hands, printed text, morphing book or cuts.
+
+========================================================================
+
+CASE 04: 玻璃罐温室：微型机器人为番茄授粉
+
+
+Create a 10-second, 16:9 macro miniature greenhouse film inside a clear cylindrical glass jar. One dwarf tomato vine climbs a thin brass trellis. A tiny wheeled gardening robot with one soft brush arm stands beside a single yellow flower. Keep a full-size pencil outside the jar for scale.
+
+[0-3s] Push the camera slowly closer through the clear front glass, retaining subtle curved reflections. The robot advances along a visible soil path and stops beneath the flower. Its wheels leave two shallow tracks.
+[3-7s] The brush arm rises and touches the flower gently twice. The stem bends slightly and springs back. Show no instant fruit growth or exaggerated pollen cloud. Existing green tomatoes elsewhere on the vine remain unchanged.
+[7-10s] The robot lowers its arm and reverses along its own tracks. A condensation bead on the jar wall slides a short distance, refracting the trellis behind it. End on the intact flower.
+
+Audio: a tiny motor whirr, two soft brush contacts and quiet greenhouse ambience. No speech or music. No new robots, insects, text, broken glass, giant plant growth or cuts.
+
+========================================================================
+
+CASE 05: 胡桃壳港口：吊机卸下一袋微型咖啡豆
+
+
+Create a 10-second, 16:9 miniature port inside one half of a walnut shell resting on a linen tablecloth. A shallow resin-like harbour holds one tiny wooden cargo boat. A small brass crane is fixed to a dock along the shell's inner edge. Its hook is already attached to one burlap sack on the boat.
+
+[0-3s] Hold a low three-quarter view showing the walnut rim. The crane winds up its visible cable, lifting the sack just clear of the boat. The boat rocks slightly and returns toward level.
+[3-7s] Rotate the crane arm slowly toward the dock. Keep the sack hanging beneath the hook with a small lagging swing. The crane base remains firmly attached to the dock; the cable stays taut.
+[7-10s] Lower the sack onto a marked empty patch of wooden planks with no lettering. Once the sack bears its own weight, the cable slackens. End with the cargo on the dock and the boat visibly lighter.
+
+Audio: tiny wooden creaks, restrained pulley clicks and soft sack contact. No human voices, music, extra boats, spilled water, transforming sack, text or cuts.
+
+========================================================================
+
+CASE 06: 黑胶唱片城市：有轨电车追着唱针转弯
+
+
+Create a 10-second, 16:9 miniature city animation built along one groove of a stationary black vinyl record. One cream-and-green tram stands on curved rails between tiny brick buildings. A full-size turntable tonearm is parked above the record's outer edge, clearly separate from the miniature track. The record itself never spins.
+
+[0-3s] Start a slow camera arc that follows the rail curve. The tram closes its doors and begins moving. Warm windows glow in two nearby buildings; keep all structures fixed to the record.
+[3-7s] The tram rounds the curve under a small footbridge. Its roof clears the bridge physically and its wheels remain on the rails. The full-size stylus stays safely above and outside the tram path, providing scale contrast.
+[7-10s] The tram stops beside an empty platform with a blank sign. One door opens to reveal an empty warm interior. Ease the camera to a stop with the stylus and tram both readable.
+
+Audio: a small electric motor, gentle rail squeal and one door chime. No recorded song, passengers, spinning buildings, collisions, labels, logos or cuts.
+
+========================================================================
+
+CASE 07: 雪靴里的滑雪场：缆车穿过鞋带山谷
+
+
+Create a 10-second, 16:9 winter miniature scene inside one upright dark-blue snow boot. White artificial snow forms a tiny slope from its open cuff down toward the toe. One red cable-car cabin hangs on a taut cable stretched between two visible miniature towers attached to the boot. Thick shoelaces form fixed valley ridges.
+
+[0-3s] Make a slow camera push while keeping the boot sole and cuff visible. The red cabin begins moving uphill. A small pile of powder falls from the lower tower roof and lands on the slope.
+[3-7s] Follow the cabin as it passes between two lace ridges. Its hanger remains attached to the cable, and the cabin stays upright with one subtle sway. Keep the cable taut and both support towers stationary.
+[7-10s] The cabin arrives at a small station near the cuff and stops. A warm light turns on inside the station. End with the complete boot outline still recognizable.
+
+Audio: quiet cable-wheel clicks, faint winter wind and one small stop mechanism. No people, avalanche, music, extra cabins, growing snow, text or cuts.
+
+========================================================================
+
+CASE 08: 机械键盘夜市：空格键升起一座小食亭
+
+
+Create a 10-second, 16:9 miniature night-market animation across a black mechanical keyboard with blank keycaps. A tiny folded metal food kiosk rests flat on the spacebar. Two unlit miniature lanterns hang from its roof frame. No people are present. Keep the surrounding keys full-sized and stationary.
+
+[0-3s] Lower the camera toward keycap height while preserving the keyboard outline. The spacebar depresses once under the kiosk's weight and returns. This mechanical motion triggers the kiosk roof to rise on four visible telescoping posts.
+[3-7s] Two side panels unfold along their hinges to form a counter and canopy. The lanterns switch on with warm light, revealing three miniature steamed buns already arranged on a tray. The buns do not materialize during the opening.
+[7-10s] A narrow wisp of steam rises from the tray and dissipates above the roof. Stop the camera on the open kiosk, with neighbouring blank keys establishing its tiny scale.
+
+Audio: one satisfying spacebar click, small hinge ticks and a restrained steam hiss. No music, voices, lettering, logos, added kiosks, moving neighbouring keys or cuts.
