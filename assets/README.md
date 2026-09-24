@@ -76,3 +76,7 @@ The six `showcase-v2-01.png` through `showcase-v2-06.png` files are new full-wid
 The three `category-*-v2.png` files are editorial concepts for control, camera and storyboards. See [category generation prompts and provenance](../data/category-image-provenance.json). They are category illustrations, not before-and-after model comparisons.
 
 `official-bubbles-link.svg` and `official-recursive-link.svg` are locally authored video-link cards. They do not depict or reproduce frames from Google's videos.
+
+## SeaImagine creation section
+
+`seaimagine-logo.png` is the original 64-pixel transparent logo from the official website. `seaimagine-creative-world.png` is an original brand illustration generated with the built-in image tool: a violet river connects the glass pear, paper fox, perfume mechanism and suitcase observatory. It is editorial art, not a model result or a reference frame for the six individual prompts. See the [full generation prompt](SEAIMAGINE_CREATIVE_WORLD_PROMPT.md) and [source records](../data/creative-world-provenance.json).

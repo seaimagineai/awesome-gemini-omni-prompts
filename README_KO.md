@@ -205,6 +205,10 @@ Do not add objects, cuts or text.
 
 ## SeaImagine에서 만들기
 
+<a href="https://seaimagine.com/ko/"><img src="assets/seaimagine-logo.png" alt="SeaImagine" width="48"></a>
+
+[![SeaImagine에서 만들기](assets/seaimagine-creative-world.png)](https://seaimagine.com/ko/image-to-video/)
+
 유리 배 자르기나 여행 가방 속 세계를 나만의 장면으로 만들고 싶다면, SeaImagine에 참조 이미지를 넣고 이 라이브러리의 전체 프롬프트를 붙여 넣은 뒤 대상, 재질, 카메라를 바꿔 보세요.
 
 적절한 시작 이미지가 없다면 AI 이미지 생성으로 장면을 준비하세요. 이미지가 있다면 바로 이미지로 영상 만들기를 시작할 수 있습니다. 이 라이브러리에서 소재를 골라 동작 시간표와 유지할 특징은 남겨 두고 내용을 바꿔 보세요.

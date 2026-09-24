@@ -205,6 +205,10 @@ Do not add objects, cuts or text.
 
 ## SeaImagine 创作入口
 
+<a href="https://seaimagine.com/cn/"><img src="assets/seaimagine-logo.png" alt="SeaImagine" width="48"></a>
+
+[![SeaImagine 创作入口](assets/seaimagine-creative-world.png)](https://seaimagine.com/cn/image-to-video/)
+
 想把玻璃梨切割、旅行箱世界变成自己的版本？可以在 SeaImagine 从参考图开始，粘贴本库的完整提示词，再按自己的想法调整主体、材质和镜头。
 
 没有合适的首帧时，可先用 AI 图片生成准备自己的场景；已有图片则直接做图生视频。选取本库题材，保留动作时间线和需要保持不变的细节，即可开始改写。

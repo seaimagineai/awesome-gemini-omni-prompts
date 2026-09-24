@@ -205,6 +205,10 @@ Do not add objects, cuts or text.
 
 ## SeaImagine 創作入口
 
+<a href="https://seaimagine.com/tw/"><img src="assets/seaimagine-logo.png" alt="SeaImagine" width="48"></a>
+
+[![SeaImagine 創作入口](assets/seaimagine-creative-world.png)](https://seaimagine.com/tw/image-to-video/)
+
 想把玻璃梨切割、旅行箱世界變成自己的版本？可以在 SeaImagine 從參考圖開始，貼上本庫的完整提示詞，再依自己的想法調整主體、材質與鏡頭。
 
 沒有合適的首幀時，可先用 AI 圖片生成準備自己的場景；已有圖片則直接做圖片轉影片。選取本庫題材，保留動作時間線和需要維持不變的細節，即可開始改寫。

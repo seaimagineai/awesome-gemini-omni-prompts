@@ -205,6 +205,10 @@ Do not add objects, cuts or text.
 
 ## أنشئ باستخدام SeaImagine
 
+<a href="https://seaimagine.com/ar/"><img src="assets/seaimagine-logo.png" alt="SeaImagine" width="48"></a>
+
+[![أنشئ باستخدام SeaImagine](assets/seaimagine-creative-world.png)](https://seaimagine.com/ar/image-to-video/)
+
 هل تريد نسختك الخاصة من الكمثرى الزجاجية أو العالم داخل حقيبة؟ ابدأ بصورة مرجعية في SeaImagine، والصق وصفًا كاملًا من هذه المكتبة، ثم عدّل الموضوع والمواد وحركة الكاميرا وفق فكرتك.
 
 ليس لديك إطار بداية مناسب؟ جهّز مشهدك باستخدام توليد الصور بالذكاء الاصطناعي. وإن كانت لديك صورة، فانتقل مباشرة إلى تحويل الصورة إلى فيديو. اختر موضوعًا من المكتبة وعدّله مع الحفاظ على التسلسل الزمني والتفاصيل التي يجب ألا تتغير.

@@ -205,6 +205,10 @@ Do not add objects, cuts or text.
 
 ## SeaImagine で作成
 
+<a href="https://seaimagine.com/ja/"><img src="assets/seaimagine-logo.png" alt="SeaImagine" width="48"></a>
+
+[![SeaImagine で作成](assets/seaimagine-creative-world.png)](https://seaimagine.com/ja/image-to-video/)
+
 ガラスの洋梨やスーツケースの世界を自分流に作るなら、SeaImagine に参照画像を入れ、このライブラリの完全版プロンプトを貼り付けて、被写体・材質・カメラを調整できます。
 
 適した開始画像がなければ、AI 画像生成で自分のシーンを用意します。画像があれば、そのまま画像から動画へ進めます。このライブラリから題材を選び、動作の時間配分と変えたくない特徴を保ちながら書き換えてみてください。

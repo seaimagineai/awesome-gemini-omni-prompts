@@ -205,6 +205,10 @@ Do not add objects, cuts or text.
 
 ## Sáng tạo với SeaImagine
 
+<a href="https://seaimagine.com/vi/"><img src="assets/seaimagine-logo.png" alt="SeaImagine" width="48"></a>
+
+[![Sáng tạo với SeaImagine](assets/seaimagine-creative-world.png)](https://seaimagine.com/vi/image-to-video/)
+
 Muốn làm phiên bản riêng của quả lê thủy tinh hay thế giới trong vali? Bắt đầu bằng ảnh tham chiếu trong SeaImagine, dán prompt đầy đủ từ thư viện này rồi thay chủ thể, chất liệu và máy quay theo ý tưởng của bạn.
 
 Chưa có ảnh đầu phù hợp? Hãy tạo cảnh riêng bằng công cụ tạo ảnh AI. Nếu đã có ảnh, chuyển thẳng sang ảnh thành video. Chọn chủ đề trong thư viện rồi viết lại, giữ nguyên trình tự thời gian và những chi tiết không được thay đổi.

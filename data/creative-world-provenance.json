@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-24",
+  "prompt_file": "assets/SEAIMAGINE_CREATIVE_WORLD_PROMPT.md",
+  "assets": [
+    {
+      "path": "assets/seaimagine-logo.png",
+      "sha256": "95e63dcffd41eaf9bfddee306e599c5886f52982dd595fa08f167ebd5246745b",
+      "width": 64,
+      "height": 64,
+      "source": "https://seaimagine.com/images/logo.png",
+      "role": "official logo"
+    },
+    {
+      "path": "assets/seaimagine-creative-world.png",
+      "sha256": "509f95eebf074e0df119afd9d2f9e1a6c589c93dae97b1b71ad9666d1e5d8dfa",
+      "width": 1672,
+      "height": 941,
+      "source": "image_gen.imagegen",
+      "role": "original editorial brand illustration; not model video output"
+    }
+  ]
+}

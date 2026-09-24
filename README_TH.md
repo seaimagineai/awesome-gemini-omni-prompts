@@ -205,6 +205,10 @@ Do not add objects, cuts or text.
 
 ## สร้างด้วย SeaImagine
 
+<a href="https://seaimagine.com/th/"><img src="assets/seaimagine-logo.png" alt="SeaImagine" width="48"></a>
+
+[![สร้างด้วย SeaImagine](assets/seaimagine-creative-world.png)](https://seaimagine.com/th/image-to-video/)
+
 อยากทำลูกแพร์แก้วหรือโลกในกระเป๋าในแบบของคุณเองไหม? เริ่มจากภาพอ้างอิงใน SeaImagine วางพรอมป์ฉบับเต็มจากคลังนี้ แล้วปรับตัวแบบ วัสดุ และกล้องตามไอเดียของคุณ
 
 ถ้ายังไม่มีภาพเริ่มต้นที่เหมาะสม ให้สร้างฉากของคุณด้วย AI สร้างภาพก่อน หากมีภาพแล้ว ให้ใช้ภาพเป็นวิดีโอได้เลย เลือกหัวข้อจากคลังนี้แล้วปรับเนื้อหา โดยคงลำดับเวลาและรายละเอียดที่ต้องไม่เปลี่ยนไว้

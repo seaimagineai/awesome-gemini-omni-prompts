@@ -205,6 +205,10 @@ Do not add objects, cuts or text.
 
 ## Buat dengan SeaImagine
 
+<a href="https://seaimagine.com/id/"><img src="assets/seaimagine-logo.png" alt="SeaImagine" width="48"></a>
+
+[![Buat dengan SeaImagine](assets/seaimagine-creative-world.png)](https://seaimagine.com/id/image-to-video/)
+
 Ingin membuat versi sendiri dari pir kaca atau dunia dalam koper? Mulai dengan gambar referensi di SeaImagine, tempel prompt lengkap dari pustaka ini, lalu sesuaikan subjek, bahan dan kamera dengan ide Anda.
 
 Belum punya gambar awal yang cocok? Siapkan adegan dengan pembuatan gambar AI. Jika sudah punya gambar, langsung gunakan gambar ke video. Pilih tema dari pustaka ini lalu ubah sesuai ide Anda, sambil mempertahankan urutan waktu dan detail yang harus tetap sama.

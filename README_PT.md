@@ -205,6 +205,10 @@ Do not add objects, cuts or text.
 
 ## Criar com o SeaImagine
 
+<a href="https://seaimagine.com/pt/"><img src="assets/seaimagine-logo.png" alt="SeaImagine" width="48"></a>
+
+[![Criar com o SeaImagine](assets/seaimagine-creative-world.png)](https://seaimagine.com/pt/image-to-video/)
+
 Quer sua própria versão da pera de vidro ou do mundo em uma mala? Comece com uma imagem de referência no SeaImagine, cole um prompt completo desta biblioteca e adapte o sujeito, os materiais e a câmera.
 
 Sem uma imagem inicial adequada? Prepare sua cena com geração de imagens por IA. Se já tiver uma imagem, vá direto para imagem para vídeo. Escolha um tema desta biblioteca e adapte-o mantendo a sequência temporal e os detalhes que devem permanecer iguais.

@@ -205,6 +205,10 @@ Do not add objects, cuts or text.
 
 ## Create with SeaImagine
 
+<a href="https://seaimagine.com/"><img src="assets/seaimagine-logo.png" alt="SeaImagine" width="48"></a>
+
+[![Create with SeaImagine](assets/seaimagine-creative-world.png)](https://seaimagine.com/image-to-video/)
+
 Want your own version of the glass pear or suitcase world? Start with a reference image in SeaImagine, paste a complete prompt from this library, then adapt its subject, materials and camera movement to your idea.
 
 No suitable starting image? Prepare your own scene with AI image generation; if you already have an image, go straight to image-to-video. Pick a subject from this library and adapt it while keeping the timeline and the details that must stay unchanged.

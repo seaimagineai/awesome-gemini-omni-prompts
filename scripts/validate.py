@@ -76,6 +76,9 @@ for rec in read('category-image-provenance.json')['assets']:
 for rec in read('showcase-v2-image-provenance.json')['images']:
     p=R/rec['path']
     check(p.exists() and hashlib.sha256(p.read_bytes()).hexdigest()==rec['sha256'],f'Featured image provenance mismatch: {p.name}')
+for rec in read('creative-world-provenance.json')['assets']:
+    p=R/rec['path']
+    check(p.exists() and hashlib.sha256(p.read_bytes()).hexdigest()==rec['sha256'],f'Brand artwork provenance mismatch: {p.name}')
 for name,hashes in read('source-teaching-blocks.json')['files'].items():
     guide_name='README_EN.md' if name=='README.md' else name
     blocks=re.findall(r'```text\n(.*?)```',(R/name).read_text()+'\n'+(R/'docs/guides'/guide_name).read_text(),re.S)

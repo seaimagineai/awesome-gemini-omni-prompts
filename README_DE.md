@@ -205,6 +205,10 @@ Do not add objects, cuts or text.
 
 ## Mit SeaImagine erstellen
 
+<a href="https://seaimagine.com/de/"><img src="assets/seaimagine-logo.png" alt="SeaImagine" width="48"></a>
+
+[![Mit SeaImagine erstellen](assets/seaimagine-creative-world.png)](https://seaimagine.com/de/image-to-video/)
+
 Möchtest du die Glasbirne oder Kofferwelt selbst gestalten? Beginne in SeaImagine mit einem Referenzbild, füge einen vollständigen Prompt aus dieser Sammlung ein und passe Motiv, Materialien und Kamera an deine Idee an.
 
 Kein passendes Startbild? Bereite deine Szene mit KI-Bildgenerierung vor. Mit einem vorhandenen Bild kannst du direkt zu Bild-zu-Video wechseln. Wähle ein Thema aus dieser Sammlung und passe es an; behalte dabei den zeitlichen Ablauf und die unveränderlichen Details bei.
