@@ -1,5 +1,11 @@
 # 动画、音乐与娱乐：8 个原创提示词
 
+<!-- catalog:hero:start -->
+[![动画、音乐与娱乐 / Animation, music and entertainment](../assets/category-animation-v3.png)](../assets/category-animation-v3.png)
+
+*分类题材示意 / Category illustration*
+<!-- catalog:hero:end -->
+
 [← 上一篇：纪录片、旅行与教育](documentary-education.md) · [返回中文主页](../README_ZH.md) · [English home](../README.md) · 下一篇：[控制、编辑与续写 →](control-editing-extension.md)
 
 > Source: adapted from [Flaq AI](https://github.com/flaqai/awesome-gemini-omni-flash), under MIT. Prompts are practice briefs, not SeaImagine-verified results. Advanced controls depend on the selected interface.

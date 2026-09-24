@@ -1,5 +1,11 @@
 # Advanced Editing, Camera, and Visual Transformation: 9 Original Prompts
 
+<!-- catalog:hero:start -->
+[![进阶编辑、镜头与视觉变换 / Advanced editing and camera](../assets/category-camera-v2.png)](../assets/category-camera-v2.png)
+
+*分类题材示意 / Category illustration*
+<!-- catalog:hero:end -->
+
 [← Previous: Multimodal control, editing, and extension](control-editing-extension.md) · [English home](../README.md) · [中文主页](../README_ZH.md) · Next: [Storyboards, text, and evaluation →](storyboard-text-evaluation.md)
 
 > Source: adapted from [Flaq AI](https://github.com/flaqai/awesome-gemini-omni-flash), under MIT. Prompts are practice briefs, not SeaImagine-verified results. Advanced controls depend on the selected interface.

@@ -1,5 +1,11 @@
 # 纪录片、旅行与教育：8 个原创提示词
 
+<!-- catalog:hero:start -->
+[![纪录片、旅行与教育 / Documentary, travel and education](../assets/category-documentary-v3.png)](../assets/category-documentary-v3.png)
+
+*分类题材示意 / Category illustration*
+<!-- catalog:hero:end -->
+
 [← 上一篇：商业广告与社交媒体](commerce-social.md) · [返回中文主页](../README_ZH.md) · [English home](../README.md) · 下一篇：[动画、音乐与娱乐 →](stylized-entertainment.md)
 
 > Source: adapted from [Flaq AI](https://github.com/flaqai/awesome-gemini-omni-flash), under MIT. Prompts are practice briefs, not SeaImagine-verified results. Advanced controls depend on the selected interface.

@@ -1,5 +1,11 @@
 # Storyboards, Split Screens, Text, and Evaluation: 9 Original Prompts
 
+<!-- catalog:hero:start -->
+[![故事板、文字与评测 / Storyboards, text and evaluation](../assets/category-storyboard-v2.png)](../assets/category-storyboard-v2.png)
+
+*分类题材示意 / Category illustration*
+<!-- catalog:hero:end -->
+
 [← Previous: Advanced editing, camera, and visual transformation](advanced-editing-camera.md) · [English home](../README.md) · [中文主页](../README_ZH.md)
 
 > Source: adapted from [Flaq AI](https://github.com/flaqai/awesome-gemini-omni-flash), under MIT. Prompts are practice briefs, not SeaImagine-verified results. Advanced controls depend on the selected interface.

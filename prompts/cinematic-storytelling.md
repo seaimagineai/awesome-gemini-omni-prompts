@@ -1,5 +1,11 @@
 # 电影与叙事：8 个原创 Gemini Omni 1.1 Flash 提示词
 
+<!-- catalog:hero:start -->
+[![电影与叙事 / Cinema and storytelling](../assets/category-cinema-v3.png)](../assets/category-cinema-v3.png)
+
+*分类题材示意 / Category illustration*
+<!-- catalog:hero:end -->
+
 [← 返回中文主页](../README_ZH.md) · [English home](../README.md) · 下一篇：[商业广告与社交媒体 →](commerce-social.md)
 
 > Source: adapted from [Flaq AI](https://github.com/flaqai/awesome-gemini-omni-flash), under MIT. Prompts are practice briefs, not SeaImagine-verified results. Advanced controls depend on the selected interface.

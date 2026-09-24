@@ -1,5 +1,11 @@
 # 商业广告与社交媒体：8 个原创提示词
 
+<!-- catalog:hero:start -->
+[![商业广告与社交媒体 / Commerce and social media](../assets/category-commerce-v3.png)](../assets/category-commerce-v3.png)
+
+*分类题材示意 / Category illustration*
+<!-- catalog:hero:end -->
+
 [← 上一篇：电影与叙事](cinematic-storytelling.md) · [返回中文主页](../README_ZH.md) · [English home](../README.md) · 下一篇：[纪录片、旅行与教育 →](documentary-education.md)
 
 > Source: adapted from [Flaq AI](https://github.com/flaqai/awesome-gemini-omni-flash), under MIT. Prompts are practice briefs, not SeaImagine-verified results. Advanced controls depend on the selected interface.

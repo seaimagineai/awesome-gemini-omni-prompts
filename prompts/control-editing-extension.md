@@ -1,5 +1,11 @@
 # 多模态控制、编辑与续写：10 个原创配方
 
+<!-- catalog:hero:start -->
+[![多模态控制、编辑与续写 / Control, editing and extension](../assets/category-control-v2.png)](../assets/category-control-v2.png)
+
+*分类题材示意 / Category illustration*
+<!-- catalog:hero:end -->
+
 [← 上一篇：动画、音乐与娱乐](stylized-entertainment.md) · [返回中文主页](../README_ZH.md) · [English home](../README.md) · 下一篇：[进阶编辑、镜头与视觉变换 →](advanced-editing-camera.md)
 
 > Source: adapted from [Flaq AI](https://github.com/flaqai/awesome-gemini-omni-flash), under MIT. Prompts are practice briefs, not SeaImagine-verified results. Advanced controls depend on the selected interface.

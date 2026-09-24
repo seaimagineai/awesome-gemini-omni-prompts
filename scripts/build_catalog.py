@@ -16,6 +16,7 @@ FENCES = re.compile(r'^```[^\n]*\n(.*?)^```[ \t]*$', re.M | re.S)
 
 
 def clean_generated(text):
+    text = re.sub(r'<!-- catalog:hero:start -->\n.*?<!-- catalog:hero:end -->\n\n', '', text, flags=re.S)
     text = re.sub(r'<!-- catalog:toc:start -->\n.*?<!-- catalog:toc:end -->\n\n', '', text, flags=re.S)
     text = re.sub(r'<a id="case-(?:\d{2}|index)"></a>\n(?:\n)?', '', text)
     text = re.sub(r'<!-- catalog:copy:start -->\n.*?<!-- catalog:copy:end -->\n\n', '', text, flags=re.S)
@@ -90,7 +91,8 @@ def build():
             input_link = ''
             for mapping in json.loads((ROOT/'data/new-prompt-provenance.json').read_text())['featured_to_case']:
                 if mapping['category']==slug and mapping['case']==number:
-                    input_link = f'\n\n[参考首帧 / Reference Image1](../{featured[mapping["featured_id"]]["image"]})'
+                    image = featured[mapping['featured_id']]['image']
+                    input_link = f'\n\n[![参考首帧 / Reference Image1](../{image})](../{image})'
             copy_link = f'\n\n<!-- catalog:copy:start -->\n[复制全文 / Download TXT](copy/{case_id}.txt) · [本页索引 / Case index](#case-index){input_link}\n<!-- catalog:copy:end -->'
             additions.append((match.end(), copy_link))
             additions.append((match.start(), f'<a id="{anchor}"></a>\n\n'))
@@ -101,6 +103,10 @@ def build():
         text = text[:start] + '\n'.join(['<a id="case-index"></a>', '', *toc]) + '\n' + text[start:]
         if slug not in ('tactile-asmr','miniature-worlds') and FENCES.findall(original) != FENCES.findall(text):
             raise ValueError(f'Prompt blocks changed: {path}')
+        hero = next(c['image'] for c in CATEGORY_DATA if c['id'] == slug)
+        heading_end = text.index('\n')
+        image_block = f'\n\n<!-- catalog:hero:start -->\n[![{zh} / {en}](../{hero})](../{hero})\n\n*分类题材示意 / Category illustration*\n<!-- catalog:hero:end -->'
+        text = text[:heading_end] + image_block + text[heading_end:]
         path.write_text(text)
     if len(entries) != total or len({row['id'] for row in entries}) != total:
         raise ValueError('Case count mismatch or duplicate IDs')

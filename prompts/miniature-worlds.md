@@ -1,5 +1,11 @@
 # 微缩世界：8 个原创提示词
 
+<!-- catalog:hero:start -->
+[![微缩与幻想世界 / Miniature and imagined worlds](../assets/category-miniature-v3.png)](../assets/category-miniature-v3.png)
+
+*分类题材示意 / Category illustration*
+<!-- catalog:hero:end -->
+
 [← 中文首页](../README_ZH.md) · [English home](../README.md) · [全部案例索引](../docs/prompt-index.md)
 
 这些是新创作的实验提示词，不是官方原文，也不是已实测的模型输出。10 秒和 16:9 是创作目标，请按所选工具实际提供的时长、画幅和音频功能调整。首例使用首页提供的参考首帧；其余例可直接从文字开始。保留杯沿、箱框、书页或键盘等日常物件，让观众一眼看出微缩比例。
@@ -26,7 +32,7 @@
 <!-- catalog:copy:start -->
 [复制全文 / Download TXT](copy/miniature-worlds-01.txt) · [本页索引 / Case index](#case-index)
 
-[参考首帧 / Reference Image1](../assets/showcase-v2-06.png)
+[![参考首帧 / Reference Image1](../assets/showcase-v2-06.png)](../assets/showcase-v2-06.png)
 <!-- catalog:copy:end -->
 
 <!-- source: data/showcase-v2.json#suitcase-observatory; keep prompt synchronized -->
