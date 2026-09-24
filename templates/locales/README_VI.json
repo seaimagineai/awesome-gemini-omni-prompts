@@ -29,5 +29,6 @@
       "prompts/storyboard-text-evaluation.md"
     ]
   ],
-  "dialogue": "Spoken language: Vietnamese.\nExact dialogue at 6s, spoken once with natural conversational pacing: \"Hôm nay mình đi đường vòng về nhà nhé.\"\nDo not translate, paraphrase, repeat or subtitle it.\n\nExact on-screen Vietnamese title: \"NHỮNG CHUYẾN ĐI NHỎ\"\nPreserve every Vietnamese tone mark exactly. No other text."
+  "dialogue": "Spoken language: Vietnamese.\nExact dialogue at 6s, spoken once with natural conversational pacing: \"Hôm nay mình đi đường vòng về nhà nhé.\"\nDo not translate, paraphrase, repeat or subtitle it.\n\nExact on-screen Vietnamese title: \"NHỮNG CHUYẾN ĐI NHỎ\"\nPreserve every Vietnamese tone mark exactly. No other text.",
+  "before_examples": "## Nội dung\n\nDanh sách này mô tả nội dung có thể lên kế hoạch trong prompt, không bảo đảm tính năng. Hãy kiểm tra đầu vào, chỉnh sửa, kéo dài, âm thanh và độ phân giải của mô hình đang chọn trên SeaImagine. Trước tiên, kiểm tra bố cục, lời nói và chữ bằng chế độ xem trước hiện có. API Google (giao diện lập trình) và giao diện SeaImagine là hai dịch vụ riêng.\n\n- Văn bản thành video, hình ảnh thành video, khung đầu/cuối và tham chiếu nhân vật hoặc sản phẩm.\n- Thiết kế đồng thời hình ảnh, âm thanh môi trường, foley, nhạc nguyên bản, khoảng lặng và lời thoại.\n- Quy tắc lời thoại, chữ trên màn hình, xuống dòng và duyệt bởi người bản ngữ cho 15 ngôn ngữ."
 }

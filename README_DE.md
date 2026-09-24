@@ -4,9 +4,11 @@
 
 ![Videoprompts für Gemini Omni auf SeaImagine](assets/seaimagine-omni-hero.png)
 
-60 Prompts aus dem Flaq-AI-Quellrepository, für SeaImagine aufbereitet: Produktwerbung, Reisen, Animation und Schnitt. Die drei Beispiele enthalten Referenzbilder und vollständige englische Prompts.
+Diese Sammlung bewahrt die 60 ursprünglichen Rezepte von Flaq AI und ergänzt drei SeaImagine-Übungen mit eigenen Referenzbildern. Auf dieser Seite findest du die neuen Übungen, Beispiele aus der Vorlage und Lernhinweise zu offiziellen und Community-Beispielen.
 
 [Gemini Omni](https://seaimagine.com/de/model/gemini-omni/) · [Gemini Omni 1.1 Flash](https://seaimagine.com/de/model/gemini-omni-1-1-flash/)
+
+[Drei SeaImagine-Übungen mit eigenen Referenzbildern](#sea-practice) · [Drei Prompts zum Kopieren](#source-examples) · [Was du aus offiziellen und Community-Beispielen lernen kannst](#video-studies)
 
 ## Mit SeaImagine beginnen
 
@@ -15,6 +17,76 @@
 3. Wähle Dauer und Format in der Oberfläche. Teste eine Einstellung, prüfe Aussehen, Bewegung und Ton und ändere jeweils nur eine Anweisung.
 
 Dies sind Promptentwürfe, keine auf SeaImagine geprüften Videoergebnisse. Dauer, Ton, Bearbeitung, Verlängerung und Referenzen hängen vom Modell und der aktuellen Oberfläche ab. Funktionen der Google-API sind nicht automatisch in SeaImagine verfügbar.
+
+<a id="sea-practice"></a>
+
+## Drei SeaImagine-Übungen mit eigenen Referenzbildern
+
+Diese KI-generierten Referenzbilder dienen als Startbilder zum Üben. Sie sind keine getesteten Gemini-Videoergebnisse. Verwende nur Funktionen, die deine SeaImagine-Oberfläche anbietet.
+
+### SEA-01 · Eine türkisgrüne Keramiktasse im Morgenlicht
+
+[![Eine türkisgrüne Keramiktasse im Morgenlicht](assets/seaimagine-ceramic-cup.png)](assets/seaimagine-ceramic-cup.png)
+
+Fahre langsam mit der Kamera näher heran. Henkel, Rand und Flüssigkeitsstand bleiben gleich; am Ende bleibt Platz für Text.
+
+Lade das Tassenbild für die Videoerstellung hoch. Teste zuerst nur eine langsame Annäherung und prüfe Henkel und Flüssigkeitsstand vor dem Beschriften.
+
+[Bild zu Video](https://seaimagine.com/de/image-to-video/) · [KI-Bildgenerator](https://seaimagine.com/de/ai-image-generator/)
+
+```text
+Use the uploaded ceramic-cup image as the exact first frame. Create a 10-second, 16:9 product shot.
+Preserve the teal glaze, the single handle on the right, the rim shape, the coffee level and the cup's position on the wooden table.
+[0-3s] A thin ribbon of steam rises; the camera begins a very slow forward move.
+[3-7s] Warm morning light grazes the glaze. Keep the table and background still; only steam and gentle reflections move.
+[7-10s] The camera eases to a stop. Hold the same product with clean space above for a caption added later.
+Audio, if supported: quiet room ambience and one distant bird. No speech or music.
+No pouring, added cup, new handle, object morphing, generated text, logo or watermark.
+```
+
+### SEA-02 · Ein Papierhafen wird beleuchtet
+
+[![Ein Papierhafen wird beleuchtet](assets/seaimagine-paper-harbor.png)](assets/seaimagine-paper-harbor.png)
+
+Lass in einer Einstellung das Leuchtturmlicht angehen und die Fenster der drei Häuser nacheinander heller werden. Papierstruktur und Formen bleiben erhalten.
+
+Lade das Hafenbild hoch. Lass das Leuchtturmlicht angehen und die Fenster nacheinander heller werden. Vergleiche die Gebäudeformen am Anfang und Ende.
+
+[Bild zu Video](https://seaimagine.com/de/image-to-video/) · [KI-Bildgenerator](https://seaimagine.com/de/ai-image-generator/)
+
+```text
+Use the uploaded paper-harbor image as the exact first frame. Animate a single 10-second, 16:9 shot while retaining the handcrafted paper texture, folds and miniature scale.
+Keep the ivory lighthouse with its red roof, the three small houses on the left and the single paper boat in exactly the same positions.
+[0-3s] The lighthouse window slowly glows warm amber. The camera begins a small, straight forward move.
+[3-7s] The already warm house windows brighten gently one house at a time, from nearest to farthest. No building moves or changes shape.
+[7-10s] The camera stops. Hold the warm windows against the blue-hour paper harbor. Keep the boat and miniature water surface still.
+Audio, if supported: a quiet original celesta phrase, no voices.
+No ocean waves, added buildings, extra boats, rotating tower, camera cut, text, logo or watermark.
+```
+
+### SEA-03 · Ein Leinenbeutel für mehrsprachige Produktvideos
+
+<a href="assets/seaimagine-linen-pouch.png"><img src="assets/seaimagine-linen-pouch.png" alt="Ein Leinenbeutel für mehrsprachige Produktvideos" width="360"></a>
+
+Erstelle ein sauberes Hochformatvideo ohne Schrift und ergänze die übersetzten Untertitel anschließend in einem gewöhnlichen Videoschnittprogramm.
+
+Erstelle aus dem Beutelbild ein Hochformatvideo und ergänze später die Übersetzungen. Nutze kurze Anweisungen zur Videobearbeitung nur, wenn diese Funktion verfügbar ist.
+
+[Bild zu Video](https://seaimagine.com/de/image-to-video/) · [KI-Bildgenerator](https://seaimagine.com/de/ai-image-generator/)
+
+```text
+Use the uploaded linen-pouch photograph as the exact first frame. Create a 10-second, 9:16 vertical ecommerce product shot.
+Keep one natural-linen drawstring pouch upright in the same position. Preserve its seam placement, woven texture, silhouette and teal drawstring.
+[0-3s] Start on the supplied framing. The camera slowly moves forward without orbiting.
+[3-7s] A soft highlight travels gently across the fabric; the pouch and its string do not move.
+[7-10s] Stop the camera and hold the product. Keep the lower quarter of the frame empty, evenly lit and free of objects for a caption added in editing.
+Audio, if supported: soft room tone. No speech or music.
+Do not generate any lettering, subtitles, symbols, price, logo, watermark, extra bag or moving string.
+```
+
+> Den Alltag leichter machen
+
+<a id="source-examples"></a>
 
 ## Drei Prompts zum Kopieren
 
@@ -62,6 +134,60 @@ Bring this illustration to life in one coherent 10-second animated shot. Use Ima
 Audio: layered clock ticks, delicate paper folds, wooden gear creaks, then an original celesta motif. No dialogue.
 Keep the clockmaker's face, clothes and goggles consistent. No photorealism, subtitles, logo or watermark.
 ```
+
+
+
+<a id="video-studies"></a>
+
+## Was du aus offiziellen und Community-Beispielen lernen kannst
+
+Die Google-Videos zeigen Omni 1.1 Flash, keine SeaImagine-Ergebnisse. Die Community-Beiträge stammen aus Mai 2026 und betreffen das ursprüngliche Omni / Flash; Tests mit Version 1.1 sind nicht bestätigt. Die Belege bestehen aus FxTwitter-Texten und Medienmetadaten; die native Wiedergabe auf X wurde nicht geprüft. Prüfe verfügbare Funktionen in SeaImagine.
+
+### Google: Übergang zwischen Start- und Endbild
+
+[Originalbeispiel ansehen](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4)
+
+Lege Startbild, Endbild und die durchgehende Bewegung dazwischen getrennt fest.
+
+Fotografiere dasselbe Objekt aus zwei passenden Winkeln. Sind Start- und Endbilder möglich, verbinde sie mit einer einfachen Bewegung.
+
+### Google: eine Einstellung verlängern
+
+[Originalbeispiel ansehen](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4)
+
+Beschreibe die nächste Kamerabewegung und behalte Motiv und Bewegungsrichtung bei.
+
+Verwende einen eigenen Clip. Falls Verlängern möglich ist, ergänze eine einzige Fortsetzung und prüfe den Übergang auf Sprünge bei Bewegung oder Licht.
+
+### CHRIS FIRST: Menschen durch Flamingos ersetzen
+
+<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST: Menschen durch Flamingos ersetzen" width="300"></a>
+
+[Originalbeispiel ansehen](https://x.com/chrisfirst/status/2056797606509158681)
+
+Ersetze das Motiv, lasse aber Kleidung und Handlung erhalten. Prüfe die Berührungspunkte von Armen und Beinen.
+
+Ersetze bei verfügbarer Videobearbeitung nur ein Motiv in deinem eigenen Clip. Vergleiche Kleidung, Haltung und Bodenkontakt.
+
+### Justine Moore: bei jedem Klatschen den Hut wechseln
+
+<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore: bei jedem Klatschen den Hut wechseln" width="300"></a>
+
+[Originalbeispiel ansehen](https://x.com/venturetwins/status/2056793856843366789)
+
+Eine sichtbare Geste bestimmt den Zeitpunkt des Wechsels; Gesicht, Kleidung und Kamera bleiben gleich.
+
+Filme zweimal deutliches Klatschen mit feststehender Kamera. Falls Videobearbeitung möglich ist, fordere bei jedem Klatschen einen Hutwechsel an und prüfe den Zeitpunkt Bild für Bild.
+
+[Offizielle und Community-Beispiele](docs/community-examples.md)
+
+## Enthalten
+
+Die Liste beschreibt Themen für die Prompt-Planung, keine zugesicherten Funktionen. Prüfe Eingaben, Bearbeitung, Verlängerung, Ton und Auflösung beim gewählten Modell in SeaImagine. Prüfe zuerst Bildaufbau, Sprache und Text mit einer verfügbaren Vorschau. Googles Programmierschnittstelle (API) und die SeaImagine-Oberfläche sind getrennte Angebote.
+
+- Text-zu-Video, Bild-zu-Video, erstes/letztes Bild sowie Personen- und Produktreferenzen.
+- Gemeinsame Planung von Bild, Atmosphäre, Foley, Originalmusik, Stille und Dialog.
+- Dialog-, Bildschirmtext- und Prüfregeln für 15 Sprachen.
 
 ## Alle 60 Prompts
 

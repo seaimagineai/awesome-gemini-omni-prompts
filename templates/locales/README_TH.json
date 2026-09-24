@@ -29,5 +29,6 @@
       "prompts/storyboard-text-evaluation.md"
     ]
   ],
-  "dialogue": "Spoken language: Thai.\nExact dialogue at 6s, spoken once with natural conversational pacing: \"วันนี้กลับบ้านทางอ้อมกันเถอะ\"\nDo not translate, paraphrase, repeat or subtitle it.\n\nExact on-screen Thai title: \"การเดินทางเล็ก ๆ\"\nKeep it on one line with large readable Thai text. No other text."
+  "dialogue": "Spoken language: Thai.\nExact dialogue at 6s, spoken once with natural conversational pacing: \"วันนี้กลับบ้านทางอ้อมกันเถอะ\"\nDo not translate, paraphrase, repeat or subtitle it.\n\nExact on-screen Thai title: \"การเดินทางเล็ก ๆ\"\nKeep it on one line with large readable Thai text. No other text.",
+  "before_examples": "## เนื้อหา\n\nรายการนี้เป็นสิ่งที่วางแผนในพรอมป์ได้ ไม่ใช่การรับรองว่ามีทุกฟังก์ชัน โปรดตรวจสอบข้อมูลนำเข้า การแก้ไข การต่อวิดีโอ เสียง และความละเอียดในโมเดลและหน้าจอ SeaImagine ที่เลือก เริ่มตรวจองค์ประกอบ คำพูด และข้อความด้วยการตั้งค่าตัวอย่างที่มีให้ API ของ Google (ช่องทางเรียกใช้ด้วยโปรแกรม) เป็นคนละบริการกับหน้าเว็บ SeaImagine\n\n- ข้อความเป็นวิดีโอ ภาพเป็นวิดีโอ เฟรมแรก/สุดท้าย และภาพอ้างอิงตัวละครหรือสินค้า\n- การออกแบบภาพ เสียงบรรยากาศ โฟลีย์ ดนตรีต้นฉบับ ความเงียบ และบทพูดร่วมกัน\n- แนวทางบทพูด ข้อความบนจอ การตัดบรรทัด และการตรวจโดยเจ้าของภาษา 15 ภาษา"
 }

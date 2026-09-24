@@ -57,3 +57,14 @@ Lighting/mood: deep indigo moonlight, warm lantern gold, wonder and momentum
 Constraints: no text, no logos, no watermark, no resemblance to existing animation characters or studios
 Avoid: photorealism, generic anime face, extra fingers, duplicated birds
 ```
+
+
+## New SeaImagine practice first frames
+
+| File | Intended practice | Image review |
+|---|---|---|
+| `seaimagine-ceramic-cup.png` | A slow product shot preserving one handle and the coffee level | Single right-side handle, teal glaze, steam, caption space above |
+| `seaimagine-paper-harbor.png` | Lighthouse illumination and gradual house-window brightening | One lighthouse, three already warmly lit houses, one paper boat; reflective miniature water |
+| `seaimagine-linen-pouch.png` | A vertical product shot with captions added later | One linen pouch, teal string, empty space below |
+
+These three illustrations were newly AI-generated for the SeaImagine practice briefs. They are image-to-video inputs, not outputs produced or tested with Gemini Omni. Full production prompts, dimensions, method, date and SHA-256 hashes are in [the generation record](../data/brand-asset-provenance.json). The video prompts describe the inspected images, including the already-lit house windows; they do not treat the requested image-generation brief as proof of the resulting pixels.

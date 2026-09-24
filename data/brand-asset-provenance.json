@@ -1,0 +1,35 @@
+[
+  {
+    "filename": "assets/seaimagine-ceramic-cup.png",
+    "prompt": "Use case: product-mockup\nAsset type: original SeaImagine prompt-library first-frame practice image, horizontal 16:9.\nPrimary request: A single teal glazed ceramic coffee cup on a pale natural wood table in warm morning light. Exactly one handle, on the right. Coffee sits at a clearly visible fixed level below the rim, with a fine subtle wisp of steam.\nStyle/medium: refined realistic product photography, tangible ceramic texture, warm minimalist creative style.\nComposition/framing: horizontal 16:9, cup in the lower central portion, ample clean quiet space in the top quarter reserved for future subtitles. Table and soft neutral background only.\nColor palette: sea teal, pale wood, warm cream.\nConstraints: one cup only; one handle on right; no saucer, no other props, no people, no text, no letters, no brand mark, no logo, no watermark. This is an original illustration for a practice input, not evidence of Gemini model output.",
+    "date": "2026-09-24",
+    "method": "AI-generated original reference image",
+    "builtin": true,
+    "image_sha256": "855c1933f8f533232054635fecbc6b3e3a69b4a1ddbc4b56422eee816b4c1f40",
+    "purpose": "Original SeaImagine practice first frame; not a Gemini output or product performance demonstration.",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "filename": "assets/seaimagine-paper-harbor.png",
+    "prompt": "Use case: stylized-concept\nAsset type: original SeaImagine prompt-library first-frame practice image, horizontal 16:9.\nPrimary request: An intricate handmade miniature paper harbor at blue hour. One ivory-white paper lighthouse with a red roof, exactly three small folded-paper houses on the left, and exactly one little paper boat resting on still teal paper water. The lighthouse lamp is unlit.\nStyle/medium: crafted paper diorama photographed at miniature scale, visible paper fibers and precise folds, tactile matte paper rather than plastic.\nComposition/framing: horizontal 16:9 cinematic wide view, clearly readable lighthouse, three houses and single boat. Warm simple SeaImagine teal aesthetic within blue-hour light.\nConstraints: lighthouse light off, no beam; no people, no writing, no letters, no logos, no watermark; no extra buildings or boats. This is an original illustration for a practice input, not evidence of Gemini model output.",
+    "date": "2026-09-24",
+    "method": "AI-generated original reference image",
+    "builtin": true,
+    "image_sha256": "38dcda7fbd945bc6d3a8a16eda45d46d53536141ea68fa2104e389ee7488a4b0",
+    "purpose": "Original SeaImagine practice first frame; not a Gemini output or product performance demonstration.",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "filename": "assets/seaimagine-linen-pouch.png",
+    "prompt": "Use case: product-mockup\nAsset type: original SeaImagine prompt-library first-frame practice image, vertical 9:16.\nPrimary request: A single unbranded natural linen drawstring storage pouch standing upright on a seamless warm-white surface and background. The drawstring is teal. Show fine linen weave, natural fabric folds, convincing soft shadows and warm refined minimalist product photography.\nComposition/framing: portrait 9:16; entire pouch visible in upper-middle area with plentiful clean blank space in the lower quarter for future subtitles. Neutral simple composition.\nColor palette: natural oatmeal linen, sea-teal cord, warm white.\nConstraints: exactly one pouch, no props, no people, no hands, no text, no label, no logo, no watermark. This is an original illustration for a practice input, not evidence of Gemini model output.",
+    "date": "2026-09-24",
+    "method": "AI-generated original reference image",
+    "builtin": true,
+    "image_sha256": "8086241729aa97fe9895f459c028097dcecd22c65077dc0474aa13551407fd0d",
+    "purpose": "Original SeaImagine practice first frame; not a Gemini output or product performance demonstration.",
+    "width": 941,
+    "height": 1672
+  }
+]

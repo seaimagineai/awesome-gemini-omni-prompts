@@ -29,5 +29,6 @@
       "prompts/storyboard-text-evaluation.md"
     ]
   ],
-  "dialogue": "Spoken language: Mandarin Chinese.\nOn-screen script: Traditional Chinese used in Taiwan.\nExact dialogue at 6s, spoken once: \"今天，繞遠一點回家吧。\"\nDo not translate, paraphrase, repeat or subtitle it.\n\nExact on-screen title: \"小小旅程\"\nDo not convert any character to Simplified Chinese. No other text."
+  "dialogue": "Spoken language: Mandarin Chinese.\nOn-screen script: Traditional Chinese used in Taiwan.\nExact dialogue at 6s, spoken once: \"今天，繞遠一點回家吧。\"\nDo not translate, paraphrase, repeat or subtitle it.\n\nExact on-screen title: \"小小旅程\"\nDo not convert any character to Simplified Chinese. No other text.",
+  "before_examples": "## 專案內容\n\n以下是提示詞可規劃的內容，不代表 SeaImagine 的每個模型都提供這些功能。輸入素材、編輯、續寫、聲音與解析度請以所選模型及目前介面為準。先用介面提供的預覽設定檢查構圖、對白與文字，再製作成片。Google API（程式呼叫介面）的規格不等於 SeaImagine 的網頁功能。\n\n- 文字轉影片、圖片轉影片、首尾幀、角色/商品參考與短影片參考。\n- 將環境聲、擬音、原創音樂、靜默與對白時間一起設計。\n- 15 種語言的對白、螢幕文字、RTL、斷行與母語審核規則。\n- 使用 `<FIRST_FRAME>`、`<LAST_FRAME>`、`<IMAGE_REF_N>`、`<VIDEO_REF_N>` 的完整範例。"
 }

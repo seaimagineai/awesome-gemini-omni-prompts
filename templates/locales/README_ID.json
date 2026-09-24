@@ -29,5 +29,6 @@
       "prompts/storyboard-text-evaluation.md"
     ]
   ],
-  "dialogue": "Spoken language: Indonesian.\nExact dialogue at 6s, spoken once with natural conversational pacing: \"Hari ini, mari kita pulang lewat jalan yang lebih panjang.\"\nDo not translate, paraphrase, repeat or subtitle it.\n\nExact on-screen Indonesian title: \"PERJALANAN KECIL\"\nPreserve spelling exactly. No other text."
+  "dialogue": "Spoken language: Indonesian.\nExact dialogue at 6s, spoken once with natural conversational pacing: \"Hari ini, mari kita pulang lewat jalan yang lebih panjang.\"\nDo not translate, paraphrase, repeat or subtitle it.\n\nExact on-screen Indonesian title: \"PERJALANAN KECIL\"\nPreserve spelling exactly. No other text.",
+  "before_examples": "## Isi proyek\n\nDaftar ini berisi hal yang dapat direncanakan dalam prompt, bukan jaminan fitur. Periksa masukan, penyuntingan, perpanjangan, audio, dan resolusi pada model yang dipilih di SeaImagine. Periksa komposisi, ucapan, dan teks melalui pratinjau yang tersedia terlebih dahulu. API Google (antarmuka pemrograman) berbeda dari antarmuka SeaImagine.\n\n- Teks-ke-video, gambar-ke-video, bingkai pertama/terakhir, serta referensi karakter dan produk.\n- Perencanaan visual, ambience, foley, musik orisinal, keheningan, dan dialog secara terpadu.\n- Aturan dialog, teks layar, tata letak, dan tinjauan penutur asli untuk 15 bahasa."
 }

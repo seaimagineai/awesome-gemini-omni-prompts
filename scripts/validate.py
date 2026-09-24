@@ -34,5 +34,28 @@ check((R/'README_EN.md').read_bytes()==(R/'README.md').read_bytes(),'English mir
 check('Copyright (c) 2026 Flaq AI' in (R/'LICENSE').read_text(),'Missing upstream license')
 d=json.loads((R/'data/community-examples.json').read_text());check(len(d['community'])==6,'Community count')
 check(len({x['url'] for x in d['community']})==6,'Duplicate community posts')
+# Guard actual learning content, not just the presence of language files.
+from homepage_sections import brand_section, studies_section, read
+additions=read('homepage-additions.json')
+expected={'en','cn','tw','ja','ko','es','fr','de','pt','it','ru','id','th','vi','ar'}
+check(set(additions)==expected,'Missing localized homepage additions')
+from build_locales import LOCALES, build
+for code,suffix,_ in LOCALES:
+    p=R/('README.md' if code=='en' else f'README_{suffix}.md');t=p.read_text()
+    check(brand_section(code) in t,f'Incomplete brand practice: {code}')
+    check(studies_section(code) in t,f'Incomplete localized studies: {code}')
+    for key,size in [('brand_titles',3),('brand_lessons',3),('brand_actions',3),('study_titles',4),('study_lessons',4),('study_practice',4)]:
+        check(len(additions[code][key])==size and all(additions[code][key]),f'Missing {key}: {code}')
+    if code!='en':check(build(code,suffix)==t,f'Stale generated locale: {code}')
+    for link in re.findall(r'(?:src|href)="([^"#]+)"',t):
+        if not link.startswith(('http:','https:')):check((p.parent/link).exists(),f'Broken HTML image/link: {code}: {link}')
+for rec in read('brand-asset-provenance.json'):
+    p=R/rec['filename']
+    check(p.exists() and hashlib.sha256(p.read_bytes()).hexdigest()==rec['image_sha256'],f'New image provenance mismatch: {p.name}')
+for name,hashes in read('source-teaching-blocks.json')['files'].items():
+    blocks=re.findall(r'```text\n(.*?)```',(R/name).read_text(),re.S)
+    actual={hashlib.sha256(b.strip().encode()).hexdigest() for b in blocks}
+    check(set(hashes)<=actual,f'Lost source teaching blocks: {name}')
+check('as a separate 360p draft' not in (R/'README.md').read_text(),'Unqualified 360p direction remains')
 if errors:print('\n'.join(errors));sys.exit(1)
-print(f'PASS: {total} source recipes preserved; 15 locale entries; 4 inherited assets; 6 community cases; {checks} relative links.')
+print(f'PASS: {total} source recipes preserved; 15 locale entries; 4 inherited assets; 3 new practice images; 6 community cases; localized on-page studies; {checks} relative links.')

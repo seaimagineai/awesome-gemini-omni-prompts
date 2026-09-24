@@ -29,5 +29,6 @@
       "prompts/storyboard-text-evaluation.md"
     ]
   ],
-  "dialogue": "Spoken language: Korean.\nExact dialogue at 6s, spoken once with natural conversational pacing: \"오늘은 조금 돌아서 집에 가자.\"\nDo not translate, paraphrase, repeat or subtitle it.\n\nExact on-screen Korean title: \"작은 여행\"\nUse large readable Hangul syllable blocks. No other text."
+  "dialogue": "Spoken language: Korean.\nExact dialogue at 6s, spoken once with natural conversational pacing: \"오늘은 조금 돌아서 집에 가자.\"\nDo not translate, paraphrase, repeat or subtitle it.\n\nExact on-screen Korean title: \"작은 여행\"\nUse large readable Hangul syllable blocks. No other text.",
+  "before_examples": "## 포함 내용\n\n아래 목록은 프롬프트에서 계획할 내용이며 기능 제공을 보장하지 않습니다. 입력 자료, 편집, 연장, 소리, 해상도는 SeaImagine에서 선택한 모델과 현재 화면을 확인하세요. 먼저 제공되는 미리보기 설정으로 구도, 발음, 글자를 확인하세요. Google API(프로그램 호출 인터페이스)와 SeaImagine 웹 화면은 별개입니다.\n\n- 텍스트-비디오, 이미지-비디오, 첫/마지막 프레임, 인물·제품 이미지, 짧은 비디오 참조.\n- 환경음, 폴리, 오리지널 음악, 침묵, 대사 타이밍을 함께 설계하는 방법.\n- 15개 언어의 대사, 화면 문자, 줄바꿈, 발음, 원어민 검수 가이드."
 }

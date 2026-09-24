@@ -29,5 +29,6 @@
       "prompts/storyboard-text-evaluation.md"
     ]
   ],
-  "dialogue": "Spoken language: Russian.\nExact dialogue at 6s, spoken once with natural conversational pacing: \"Давай сегодня пойдём домой длинной дорогой.\"\nDo not translate, paraphrase, repeat or subtitle it.\n\nExact on-screen Russian title: \"МАЛЕНЬКИЕ ПУТЕШЕСТВИЯ\"\nUse Cyrillic characters only and preserve spelling exactly. No other text."
+  "dialogue": "Spoken language: Russian.\nExact dialogue at 6s, spoken once with natural conversational pacing: \"Давай сегодня пойдём домой длинной дорогой.\"\nDo not translate, paraphrase, repeat or subtitle it.\n\nExact on-screen Russian title: \"МАЛЕНЬКИЕ ПУТЕШЕСТВИЯ\"\nUse Cyrillic characters only and preserve spelling exactly. No other text.",
+  "before_examples": "## Что включено\n\nСписок описывает задачи для промптов, а не гарантирует функции. Проверьте ввод, редактирование, продление, звук и разрешение в выбранной модели SeaImagine. Сначала оцените композицию, речь и текст в доступном режиме предпросмотра. API Google (программный интерфейс) и интерфейс SeaImagine — разные сервисы.\n\n- Текст-в-видео, изображение-в-видео, первый/последний кадр и референсы персонажей или продуктов.\n- Совместное проектирование изображения, атмосферы, шумов, оригинальной музыки, тишины и реплик.\n- Правила диалога, экранного текста, переноса строк и проверки для 15 языков."
 }

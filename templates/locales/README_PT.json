@@ -29,5 +29,6 @@
       "prompts/storyboard-text-evaluation.md"
     ]
   ],
-  "dialogue": "Spoken language: Brazilian Portuguese.\nExact dialogue at 6s, spoken once with natural conversational pacing: \"Hoje, vamos voltar para casa pelo caminho mais longo.\"\nDo not translate, paraphrase, repeat or subtitle it.\n\nExact on-screen Brazilian Portuguese title: \"PEQUENAS VIAGENS\"\nPreserve accents, ç and spelling exactly. No other text."
+  "dialogue": "Spoken language: Brazilian Portuguese.\nExact dialogue at 6s, spoken once with natural conversational pacing: \"Hoje, vamos voltar para casa pelo caminho mais longo.\"\nDo not translate, paraphrase, repeat or subtitle it.\n\nExact on-screen Brazilian Portuguese title: \"PEQUENAS VIAGENS\"\nPreserve accents, ç and spelling exactly. No other text.",
+  "before_examples": "## O que está incluído\n\nA lista descreve o que planejar nos prompts, sem garantir a disponibilidade dos recursos. Confira entradas, edição, extensão, áudio e resolução no modelo selecionado no SeaImagine. Verifique primeiro composição, fala e texto com uma prévia disponível. A API do Google (interface de programação) e a interface do SeaImagine são serviços distintos.\n\n- Texto para vídeo, imagem para vídeo, primeiro/último quadro e referências de pessoas ou produtos.\n- Planejamento conjunto de imagem, ambiente, efeitos sonoros, música original, silêncio e diálogo.\n- Regras de fala, texto, quebra de linha e revisão para 15 idiomas."
 }

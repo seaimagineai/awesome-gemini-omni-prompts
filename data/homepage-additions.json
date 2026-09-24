@@ -1,0 +1,647 @@
+{
+  "en": {
+    "brand_heading": "Three SeaImagine exercises with original reference images",
+    "brand_note": "These AI-generated reference images are starting frames for practice, not tested Gemini video outputs. Use only the controls available in your SeaImagine interface.",
+    "brand_titles": [
+      "A quiet morning with a teal ceramic cup",
+      "A paper harbor lights up",
+      "A linen pouch for a multilingual shop"
+    ],
+    "brand_lessons": [
+      "Keep the handle, rim and liquid level consistent while the camera slowly moves closer. Leave space for a final caption.",
+      "In a single shot, light the lighthouse, then brighten the windows of the three houses one by one. Preserve paper texture and geometry.",
+      "Make a clean vertical product clip without lettering, then add local-language captions in a regular video editor."
+    ],
+    "brand_actions": [
+      "Upload the cup image for image-to-video. Try one slow push-in; check the handle and liquid level before adding your caption.",
+      "Upload the harbor image for image-to-video. Request the lighthouse light and sequentially brighter windows; compare the buildings at the beginning and end.",
+      "Upload the pouch image and request a vertical clip. Add translated captions afterward; use a short video-editing instruction only if that feature is available."
+    ],
+    "study_heading": "What to learn from official and community examples",
+    "study_note": "Google’s videos demonstrate Omni 1.1 Flash, not SeaImagine outputs. The community posts date from May 2026 and concern the original Omni / Flash; they are not verified 1.1 tests. Community evidence comes from FxTwitter text and media metadata, without native X playback verification. Feature availability must be checked in SeaImagine.",
+    "study_titles": [
+      "Google: first-to-last-frame transition",
+      "Google: extend a shot",
+      "CHRIS FIRST: people become flamingos",
+      "Justine Moore: change hats on each clap"
+    ],
+    "study_lessons": [
+      "Set the starting image, ending image and the continuous movement between them separately.",
+      "Describe the next camera move while preserving the subject and the direction of motion.",
+      "Change the subject while explicitly preserving clothing and action; inspect limb contacts.",
+      "Use a visible gesture to time each change while keeping the face, outfit and camera consistent."
+    ],
+    "study_practice": [
+      "Prepare two photos of the same object from compatible angles. If first/last-frame controls are available, connect them with one simple movement.",
+      "Use your own short clip. If extension is available, request one continuation and inspect the join for jumps in motion or lighting.",
+      "With your own footage and an available video editor, replace one subject. Compare clothing, pose and contact with the ground before and after.",
+      "Film two clear claps with a fixed camera. If video editing is available, request a hat change at each clap and check the timing frame by frame."
+    ],
+    "watch_label": "View the source example",
+    "caption": "Everyday, made simple",
+    "caption_language": "English",
+    "intro": "This library preserves Flaq AI’s 60 source recipes and adds three SeaImagine exercises with original reference images. Explore the new exercises, source examples, and lessons from official and community cases on this page."
+  },
+  "cn": {
+    "brand_heading": "三个 SeaImagine 原创参考图练习",
+    "brand_note": "以下参考图由 AI 生成，用于首帧练习，不是 Gemini 视频实测结果。操作时以 SeaImagine 界面实际提供的功能为准。",
+    "brand_titles": [
+      "青绿色陶瓷杯：清晨商品短片",
+      "纸艺海港：点亮灯塔与窗光",
+      "亚麻收纳袋：多语言竖屏收尾"
+    ],
+    "brand_lessons": [
+      "镜头缓慢推进，保持杯把、杯口和液位不变，结尾留出字幕位置。",
+      "用单一镜头让灯塔亮起，再让三幢房屋的窗光依次增强，保持纸张质感与几何结构。",
+      "先制作无文字的干净竖屏商品片，再用常规视频编辑器添加本地语言字幕。"
+    ],
+    "brand_actions": [
+      "上传杯子参考图进行图生视频。先只尝试缓慢推进，检查杯把和液位，再添加字幕。",
+      "上传海港参考图进行图生视频。要求灯塔亮起、窗光依次增强，对比开头与结尾的建筑形状。",
+      "上传收纳袋参考图制作竖屏短片，之后添加翻译好的字幕；仅在界面支持视频编辑时使用简短编辑指令。"
+    ],
+    "study_heading": "从官方与社区案例学什么",
+    "study_note": "Google 视频是 Omni 1.1 Flash 官方展示，不是 SeaImagine 生成结果。社区帖子发布于 2026 年 5 月，属于原始 Omni / Flash 案例，未核实为 1.1 实测。社区证据来自 FxTwitter 的文字和媒体元数据，未核验 X 原生播放。具体功能须以 SeaImagine 界面为准。",
+    "study_titles": [
+      "Google：首尾帧转场",
+      "Google：延长镜头",
+      "CHRIS FIRST：人物换成火烈鸟",
+      "Justine Moore：每次拍手换一顶帽子"
+    ],
+    "study_lessons": [
+      "分别确定起始画面、结束画面和两者之间连续的运动。",
+      "续写下一段镜头运动，同时保持主体与运动方向一致。",
+      "更换主体时明确保留服装和动作，并检查肢体接触位置。",
+      "用可见动作决定变化时刻，同时保持人脸、服装和镜头一致。"
+    ],
+    "study_practice": [
+      "为同一物体准备两张角度相容的照片；如果支持首尾帧，用一个简单动作连接两张图。",
+      "使用自己的短片；如果支持延长，只增加一段连续动作，检查接缝处的运动和光线是否跳变。",
+      "使用自己的视频；如果支持视频编辑，只替换一个主体，对比前后的服装、姿势及与地面的接触。",
+      "固定机位拍摄两次清楚的拍手；如果支持视频编辑，要求每次拍手换帽，逐帧检查变化时刻。"
+    ],
+    "watch_label": "查看原始案例",
+    "caption": "让日常更从容",
+    "caption_language": "Mandarin Chinese; Simplified Chinese script",
+    "intro": "本库保留 Flaq AI 的 60 条源配方，并新增三组带原创参考图的 SeaImagine 练习。本页可直接阅读新练习、源库示例，以及官方与社区案例的学习说明。"
+  },
+  "tw": {
+    "brand_heading": "三個 SeaImagine 原創參考圖練習",
+    "brand_note": "以下參考圖由 AI 生成，用於首幀練習，並非 Gemini 影片實測結果。請以 SeaImagine 介面實際提供的功能為準。",
+    "brand_titles": [
+      "青綠色陶瓷杯：清晨商品短片",
+      "紙藝海港：點亮燈塔與窗光",
+      "亞麻收納袋：多語言直式片尾"
+    ],
+    "brand_lessons": [
+      "鏡頭緩慢推近，保持杯把、杯口和液面高度不變，結尾預留字幕空間。",
+      "以單一鏡頭讓燈塔亮起，再讓三棟房屋的窗光依序增強，保持紙張質感與幾何結構。",
+      "先製作不含文字的乾淨直式商品影片，再以一般影片編輯器加入在地語言字幕。"
+    ],
+    "brand_actions": [
+      "上傳杯子參考圖製作圖生影片。先只嘗試緩慢推近，檢查杯把和液面，再加入字幕。",
+      "上傳海港參考圖製作圖生影片。要求燈塔亮起、窗光依序增強，比較片頭和片尾的建築形狀。",
+      "上傳收納袋參考圖製作直式短片，再加入翻譯好的字幕；僅在介面支援影片編輯時使用簡短編輯指令。"
+    ],
+    "study_heading": "從官方與社群案例學什麼",
+    "study_note": "Google 影片是 Omni 1.1 Flash 官方展示，並非 SeaImagine 生成結果。社群貼文發布於 2026 年 5 月，屬於原始 Omni / Flash 案例，未確認為 1.1 實測。社群證據來自 FxTwitter 的文字與媒體中繼資料，未驗證 X 原生播放。功能是否可用，請查看 SeaImagine 介面。",
+    "study_titles": [
+      "Google：首尾幀轉場",
+      "Google：延長鏡頭",
+      "CHRIS FIRST：人物變成紅鶴",
+      "Justine Moore：每次拍手換一頂帽子"
+    ],
+    "study_lessons": [
+      "分別指定起始畫面、結束畫面，以及兩者之間連續的運動。",
+      "描述下一段鏡頭運動，同時維持主體與運動方向一致。",
+      "替換主體時明確保留服裝和動作，並檢查肢體接觸的位置。",
+      "以可見動作決定變化時機，同時維持臉孔、服裝和鏡頭一致。"
+    ],
+    "study_practice": [
+      "為同一物件準備兩張角度相容的照片；若支援首尾幀，以一個簡單動作連接兩張圖。",
+      "使用自己的短片；若支援延長，只接續一段動作，檢查接點的運動與光線是否突然改變。",
+      "使用自己的影片；若支援影片編輯，只替換一個主體，比較前後的服裝、姿勢與觸地位置。",
+      "固定攝影機，拍攝兩次清楚的拍手；若支援影片編輯，要求每次拍手換帽，逐格檢查時間點。"
+    ],
+    "watch_label": "查看原始案例",
+    "caption": "讓日常更從容",
+    "caption_language": "Mandarin Chinese; Traditional Chinese script",
+    "intro": "本庫保留 Flaq AI 的 60 條原始配方，並新增三組附原創參考圖的 SeaImagine 練習。本頁可直接閱讀新練習、來源庫範例，以及官方與社群案例的學習說明。"
+  },
+  "ja": {
+    "brand_heading": "SeaImagine 独自の参考画像で試す3つの練習",
+    "brand_note": "参考画像は AI で生成した練習用の開始フレームです。Gemini による動画の実測結果ではありません。SeaImagine の画面で利用できる機能に合わせて試してください。",
+    "brand_titles": [
+      "青緑の陶器カップで朝の商品動画",
+      "ペーパークラフトの港に灯りをともす",
+      "リネンのポーチで多言語の縦型動画"
+    ],
+    "brand_lessons": [
+      "ゆっくり寄るカメラに合わせ、取っ手、飲み口、液面を保ちます。最後に字幕用の余白を残します。",
+      "一つのショットで灯台を点灯させ、3軒の家の窓明かりを順に強めます。紙の質感と形を維持します。",
+      "文字のない縦型の商品動画を作り、通常の動画編集ソフトで各言語の字幕を加えます。"
+    ],
+    "brand_actions": [
+      "カップの画像をアップロードして動画化します。まずはゆっくり寄る動きだけを試し、取っ手と液面を確認してから字幕を加えます。",
+      "港の画像をアップロードし、灯台の点灯と窓明かりの段階的な変化を指定します。最初と最後で建物の形を比べます。",
+      "ポーチの画像から縦型動画を作り、翻訳した字幕を後から加えます。短い動画編集指示は、その機能が使える場合に限ります。"
+    ],
+    "study_heading": "公式・コミュニティ事例から学ぶ",
+    "study_note": "Google の動画は Omni 1.1 Flash の公式デモであり、SeaImagine の生成結果ではありません。コミュニティ事例は2026年5月の初代 Omni / Flash に関する投稿で、1.1 の実測とは確認できていません。証拠は FxTwitter の投稿文とメディア情報で、X 上の直接再生は未確認です。各機能の有無は SeaImagine で確認してください。",
+    "study_titles": [
+      "Google：開始・終了フレームをつなぐ",
+      "Google：ショットを延長する",
+      "CHRIS FIRST：人物をフラミンゴに",
+      "Justine Moore：手拍子ごとに帽子を変える"
+    ],
+    "study_lessons": [
+      "開始画像、終了画像、その間の連続した動きを別々に決めます。",
+      "被写体と動く方向を保ちながら、続くカメラの動きを指定します。",
+      "被写体だけを変え、服と動作は残すよう指定します。手足の接触部分も確認します。",
+      "目に見える動作を変化の合図にし、顔、服、カメラを維持します。"
+    ],
+    "study_practice": [
+      "同じ物を自然につながる角度で2枚撮影します。開始・終了フレームが使えれば、単純な動きでつなぎます。",
+      "自分の短い動画を使います。延長機能があれば、一続きの動作を追加し、つなぎ目の動きと光を確認します。",
+      "自分の動画を使い、動画編集が可能なら被写体を一つだけ置き換えます。服、姿勢、地面との接触を前後で比較します。",
+      "カメラを固定して2回の明確な手拍子を撮影します。動画編集が可能なら手拍子ごとの帽子変更を指示し、タイミングをコマごとに確認します。"
+    ],
+    "watch_label": "元の事例を見る",
+    "caption": "毎日を、もっと心地よく",
+    "caption_language": "Japanese",
+    "intro": "Flaq AI の元のレシピ60件を残し、独自の参考画像を使った SeaImagine の練習を3つ追加しました。このページで新しい練習、元の作例、公式・コミュニティ事例の学習ポイントを読めます。"
+  },
+  "ko": {
+    "brand_heading": "SeaImagine 전용 참고 이미지로 해 보는 세 가지 연습",
+    "brand_note": "아래 이미지는 AI로 만든 첫 프레임 연습 자료이며 Gemini 동영상 실측 결과가 아닙니다. SeaImagine 화면에서 실제로 제공하는 기능에 맞춰 사용하세요.",
+    "brand_titles": [
+      "청록색 도자기 컵으로 아침 상품 영상 만들기",
+      "종이 공예 항구에 차례로 불 켜기",
+      "리넨 파우치로 다국어 세로 영상 마무리하기"
+    ],
+    "brand_lessons": [
+      "카메라를 천천히 가까이 이동하면서 손잡이, 컵 가장자리, 액체 높이를 유지합니다. 마지막에는 자막 공간을 남깁니다.",
+      "한 장면에서 등대에 불을 켠 뒤 집 세 채의 창문 불빛을 차례로 밝게 합니다. 종이 질감과 형태를 유지합니다.",
+      "글자 없는 세로 상품 영상을 먼저 만든 뒤 일반 영상 편집기로 각 언어의 자막을 넣습니다."
+    ],
+    "brand_actions": [
+      "컵 이미지를 올려 이미지 기반 영상을 만드세요. 먼저 천천히 다가가는 동작만 시험하고 손잡이와 액체 높이를 확인한 뒤 자막을 넣으세요.",
+      "항구 이미지를 올리고 등대가 켜진 뒤 창문 불빛이 차례로 밝아지도록 요청하세요. 시작과 끝의 건물 형태를 비교하세요.",
+      "파우치 이미지로 세로 영상을 만들고 번역한 자막을 나중에 넣으세요. 짧은 영상 편집 지시는 해당 기능을 지원할 때만 사용하세요."
+    ],
+    "study_heading": "공식·커뮤니티 사례에서 배울 점",
+    "study_note": "Google 영상은 Omni 1.1 Flash 공식 시연이며 SeaImagine 생성 결과가 아닙니다. 커뮤니티 게시물은 2026년 5월의 초기 Omni / Flash 사례로, 1.1 실측으로 확인되지 않았습니다. 근거는 FxTwitter의 글과 미디어 정보이며 X 원본 재생은 검증하지 않았습니다. 기능 제공 여부는 SeaImagine에서 확인하세요.",
+    "study_titles": [
+      "Google: 첫 프레임과 마지막 프레임 연결",
+      "Google: 장면 연장",
+      "CHRIS FIRST: 사람을 홍학으로 바꾸기",
+      "Justine Moore: 박수마다 모자 바꾸기"
+    ],
+    "study_lessons": [
+      "시작 이미지, 끝 이미지, 그 사이의 연속 동작을 각각 정합니다.",
+      "대상과 이동 방향을 유지하면서 다음 카메라 움직임을 설명합니다.",
+      "대상은 바꾸되 의상과 동작은 유지하도록 지정하고 팔다리가 닿는 부분을 확인합니다.",
+      "눈에 보이는 동작으로 변경 시점을 정하고 얼굴, 의상, 카메라는 유지합니다."
+    ],
+    "study_practice": [
+      "같은 물체를 자연스럽게 연결할 수 있는 각도로 두 장 촬영하세요. 첫·마지막 프레임 기능이 있다면 단순한 동작으로 연결하세요.",
+      "직접 찍은 짧은 영상을 사용하세요. 연장 기능이 있다면 한 동작만 이어 붙이고 연결 지점의 움직임과 조명을 확인하세요.",
+      "직접 찍은 영상에서 편집 기능을 사용할 수 있다면 대상 하나만 바꾸세요. 전후의 의상, 자세, 지면 접촉을 비교하세요.",
+      "카메라를 고정하고 박수를 두 번 분명하게 치는 영상을 찍으세요. 영상 편집이 가능하면 박수마다 모자를 바꾸도록 요청하고 프레임별로 시점을 확인하세요."
+    ],
+    "watch_label": "원본 사례 보기",
+    "caption": "매일을 조금 더 여유롭게",
+    "caption_language": "Korean",
+    "intro": "Flaq AI의 원본 레시피 60개를 보존하고, 자체 참고 이미지를 활용한 SeaImagine 연습 세 가지를 추가했습니다. 이 페이지에서 새 연습, 원본 예시, 공식·커뮤니티 사례의 학습 내용을 확인하세요."
+  },
+  "es": {
+    "brand_heading": "Tres ejercicios de SeaImagine con imágenes originales",
+    "brand_note": "Estas imágenes de referencia se generaron con IA para practicar con el primer fotograma. No son resultados de vídeo probados con Gemini. Usa solo las funciones que aparezcan en SeaImagine.",
+    "brand_titles": [
+      "Una mañana con una taza de cerámica verde azulada",
+      "Luces en un puerto de papel",
+      "Una bolsa de lino para una tienda multilingüe"
+    ],
+    "brand_lessons": [
+      "Acerca la cámara despacio sin alterar el asa, el borde ni el nivel del líquido. Deja espacio para un texto final.",
+      "En una sola toma, enciende el faro y aumenta por turnos la luz de las ventanas de las tres casas. Conserva la textura del papel y la geometría.",
+      "Crea un vídeo vertical limpio, sin letras, y añade los subtítulos en cada idioma con un editor de vídeo convencional."
+    ],
+    "brand_actions": [
+      "Sube la imagen de la taza para animarla. Prueba solo un acercamiento lento y revisa el asa y el líquido antes de añadir el texto.",
+      "Sube la imagen del puerto y pide encender el faro e intensificar las luces de las ventanas en secuencia. Compara la forma de los edificios al principio y al final.",
+      "Anima la imagen de la bolsa en formato vertical y añade después los subtítulos traducidos. Usa una instrucción breve de edición de vídeo solo si esa función está disponible."
+    ],
+    "study_heading": "Qué aprender de los ejemplos oficiales y de la comunidad",
+    "study_note": "Los vídeos de Google muestran Omni 1.1 Flash, no resultados de SeaImagine. Las publicaciones de la comunidad son de mayo de 2026 y corresponden al Omni / Flash original; no se han confirmado como pruebas de 1.1. La evidencia procede del texto y los metadatos de FxTwitter, sin verificar la reproducción nativa en X. Comprueba las funciones en SeaImagine.",
+    "study_titles": [
+      "Google: transición entre el primer y el último fotograma",
+      "Google: prolongar una toma",
+      "CHRIS FIRST: convertir personas en flamencos",
+      "Justine Moore: cambiar de sombrero con cada palmada"
+    ],
+    "study_lessons": [
+      "Define por separado la imagen inicial, la final y el movimiento continuo que las une.",
+      "Describe el siguiente movimiento de cámara manteniendo el sujeto y la dirección del movimiento.",
+      "Cambia el sujeto, pero conserva explícitamente la ropa y la acción; revisa los puntos de contacto de las extremidades.",
+      "Usa un gesto visible para marcar cada cambio y mantén la cara, la ropa y la cámara."
+    ],
+    "study_practice": [
+      "Prepara dos fotos del mismo objeto desde ángulos compatibles. Si se admiten fotogramas inicial y final, únelas con un movimiento sencillo.",
+      "Usa un clip propio. Si hay función de extensión, pide una sola continuación y revisa los saltos de movimiento o luz en la unión.",
+      "Si puedes editar vídeo, sustituye un solo sujeto en una grabación propia. Compara la ropa, la postura y el contacto con el suelo.",
+      "Graba dos palmadas claras con la cámara fija. Si puedes editar vídeo, pide un sombrero nuevo en cada palmada y revisa el momento fotograma a fotograma."
+    ],
+    "watch_label": "Ver el ejemplo original",
+    "caption": "Un día a día más sencillo",
+    "caption_language": "Spanish",
+    "intro": "Esta biblioteca conserva las 60 recetas originales de Flaq AI y añade tres ejercicios de SeaImagine con imágenes propias. Aquí encontrarás los nuevos ejercicios, ejemplos del repositorio original y lecciones de casos oficiales y de la comunidad."
+  },
+  "fr": {
+    "brand_heading": "Trois exercices SeaImagine avec des images originales",
+    "brand_note": "Ces images de référence ont été générées par IA pour servir de première image aux exercices. Ce ne sont pas des résultats vidéo testés avec Gemini. Utilisez les fonctions présentes dans votre interface SeaImagine.",
+    "brand_titles": [
+      "Une tasse en céramique bleu-vert au petit matin",
+      "Un port en papier qui s’illumine",
+      "Une pochette en lin pour une boutique multilingue"
+    ],
+    "brand_lessons": [
+      "Approchez lentement la caméra sans modifier l’anse, le bord ni le niveau du liquide. Gardez de la place pour le texte final.",
+      "Dans un seul plan, allumez le phare puis augmentez à tour de rôle la lumière aux fenêtres des trois maisons. Conservez la texture du papier et la géométrie.",
+      "Créez une vidéo verticale sans texte, puis ajoutez les sous-titres traduits dans un logiciel de montage classique."
+    ],
+    "brand_actions": [
+      "Importez l’image de la tasse pour l’animer. Essayez un simple rapprochement lent et vérifiez l’anse et le liquide avant d’ajouter le texte.",
+      "Importez le port et demandez l’allumage du phare, puis l’intensification successive des lumières aux fenêtres. Comparez la forme des bâtiments au début et à la fin.",
+      "Animez la pochette au format vertical et ajoutez les traductions ensuite. N’utilisez une courte consigne de retouche vidéo que si cette fonction est disponible."
+    ],
+    "study_heading": "Ce qu’enseignent les exemples officiels et communautaires",
+    "study_note": "Les vidéos de Google présentent Omni 1.1 Flash, pas des résultats SeaImagine. Les publications communautaires datent de mai 2026 et concernent la première version d’Omni / Flash ; elles ne constituent pas des tests confirmés de la version 1.1. Les éléments consultés sont le texte et les métadonnées de FxTwitter, sans vérification de la lecture native sur X. Vérifiez les fonctions dans SeaImagine.",
+    "study_titles": [
+      "Google : transition entre deux images clés",
+      "Google : prolonger un plan",
+      "CHRIS FIRST : transformer les personnes en flamants roses",
+      "Justine Moore : changer de chapeau à chaque claquement de mains"
+    ],
+    "study_lessons": [
+      "Définissez séparément l’image de départ, celle d’arrivée et le mouvement continu qui les relie.",
+      "Décrivez le mouvement de caméra suivant tout en conservant le sujet et sa direction.",
+      "Remplacez le sujet en demandant de conserver ses vêtements et son action ; vérifiez les points de contact des membres.",
+      "Utilisez un geste visible pour déclencher chaque changement, sans modifier le visage, la tenue ni la caméra."
+    ],
+    "study_practice": [
+      "Prenez deux photos du même objet sous des angles compatibles. Si les images de début et de fin sont acceptées, reliez-les par un mouvement simple.",
+      "Utilisez votre propre clip. Si la prolongation est disponible, ajoutez une seule suite et recherchez les ruptures de mouvement ou d’éclairage au raccord.",
+      "Si la retouche vidéo est disponible, remplacez un seul sujet dans votre clip. Comparez les vêtements, la posture et le contact avec le sol.",
+      "Filmez deux claquements de mains nets avec une caméra fixe. Si la retouche vidéo est disponible, demandez un changement de chapeau à chaque geste et vérifiez le moment image par image."
+    ],
+    "watch_label": "Voir l’exemple original",
+    "caption": "Le quotidien, tout simplement",
+    "caption_language": "French",
+    "intro": "Cette bibliothèque conserve les 60 recettes de Flaq AI et ajoute trois exercices SeaImagine avec des images originales. Retrouvez ici ces exercices, les exemples du dépôt source et les enseignements des cas officiels et communautaires."
+  },
+  "de": {
+    "brand_heading": "Drei SeaImagine-Übungen mit eigenen Referenzbildern",
+    "brand_note": "Diese KI-generierten Referenzbilder dienen als Startbilder zum Üben. Sie sind keine getesteten Gemini-Videoergebnisse. Verwende nur Funktionen, die deine SeaImagine-Oberfläche anbietet.",
+    "brand_titles": [
+      "Eine türkisgrüne Keramiktasse im Morgenlicht",
+      "Ein Papierhafen wird beleuchtet",
+      "Ein Leinenbeutel für mehrsprachige Produktvideos"
+    ],
+    "brand_lessons": [
+      "Fahre langsam mit der Kamera näher heran. Henkel, Rand und Flüssigkeitsstand bleiben gleich; am Ende bleibt Platz für Text.",
+      "Lass in einer Einstellung das Leuchtturmlicht angehen und die Fenster der drei Häuser nacheinander heller werden. Papierstruktur und Formen bleiben erhalten.",
+      "Erstelle ein sauberes Hochformatvideo ohne Schrift und ergänze die übersetzten Untertitel anschließend in einem gewöhnlichen Videoschnittprogramm."
+    ],
+    "brand_actions": [
+      "Lade das Tassenbild für die Videoerstellung hoch. Teste zuerst nur eine langsame Annäherung und prüfe Henkel und Flüssigkeitsstand vor dem Beschriften.",
+      "Lade das Hafenbild hoch. Lass das Leuchtturmlicht angehen und die Fenster nacheinander heller werden. Vergleiche die Gebäudeformen am Anfang und Ende.",
+      "Erstelle aus dem Beutelbild ein Hochformatvideo und ergänze später die Übersetzungen. Nutze kurze Anweisungen zur Videobearbeitung nur, wenn diese Funktion verfügbar ist."
+    ],
+    "study_heading": "Was du aus offiziellen und Community-Beispielen lernen kannst",
+    "study_note": "Die Google-Videos zeigen Omni 1.1 Flash, keine SeaImagine-Ergebnisse. Die Community-Beiträge stammen aus Mai 2026 und betreffen das ursprüngliche Omni / Flash; Tests mit Version 1.1 sind nicht bestätigt. Die Belege bestehen aus FxTwitter-Texten und Medienmetadaten; die native Wiedergabe auf X wurde nicht geprüft. Prüfe verfügbare Funktionen in SeaImagine.",
+    "study_titles": [
+      "Google: Übergang zwischen Start- und Endbild",
+      "Google: eine Einstellung verlängern",
+      "CHRIS FIRST: Menschen durch Flamingos ersetzen",
+      "Justine Moore: bei jedem Klatschen den Hut wechseln"
+    ],
+    "study_lessons": [
+      "Lege Startbild, Endbild und die durchgehende Bewegung dazwischen getrennt fest.",
+      "Beschreibe die nächste Kamerabewegung und behalte Motiv und Bewegungsrichtung bei.",
+      "Ersetze das Motiv, lasse aber Kleidung und Handlung erhalten. Prüfe die Berührungspunkte von Armen und Beinen.",
+      "Eine sichtbare Geste bestimmt den Zeitpunkt des Wechsels; Gesicht, Kleidung und Kamera bleiben gleich."
+    ],
+    "study_practice": [
+      "Fotografiere dasselbe Objekt aus zwei passenden Winkeln. Sind Start- und Endbilder möglich, verbinde sie mit einer einfachen Bewegung.",
+      "Verwende einen eigenen Clip. Falls Verlängern möglich ist, ergänze eine einzige Fortsetzung und prüfe den Übergang auf Sprünge bei Bewegung oder Licht.",
+      "Ersetze bei verfügbarer Videobearbeitung nur ein Motiv in deinem eigenen Clip. Vergleiche Kleidung, Haltung und Bodenkontakt.",
+      "Filme zweimal deutliches Klatschen mit feststehender Kamera. Falls Videobearbeitung möglich ist, fordere bei jedem Klatschen einen Hutwechsel an und prüfe den Zeitpunkt Bild für Bild."
+    ],
+    "watch_label": "Originalbeispiel ansehen",
+    "caption": "Den Alltag leichter machen",
+    "caption_language": "German",
+    "intro": "Diese Sammlung bewahrt die 60 ursprünglichen Rezepte von Flaq AI und ergänzt drei SeaImagine-Übungen mit eigenen Referenzbildern. Auf dieser Seite findest du die neuen Übungen, Beispiele aus der Vorlage und Lernhinweise zu offiziellen und Community-Beispielen."
+  },
+  "pt": {
+    "brand_heading": "Três exercícios SeaImagine com imagens originais",
+    "brand_note": "Estas imagens de referência foram geradas por IA para praticar com o primeiro quadro. Não são resultados de vídeo testados com Gemini. Use apenas as funções disponíveis na interface do SeaImagine.",
+    "brand_titles": [
+      "Uma manhã com uma xícara de cerâmica verde-azulada",
+      "Um porto de papel ganha luz",
+      "Uma bolsa de linho para uma loja multilíngue"
+    ],
+    "brand_lessons": [
+      "Aproxime a câmera devagar sem alterar a alça, a borda ou o nível do líquido. Reserve espaço para o texto final.",
+      "Em uma única tomada, acenda o farol e aumente, uma casa por vez, a luz das janelas das três casas. Preserve a textura do papel e a geometria.",
+      "Crie um vídeo vertical limpo e sem letras; depois, adicione legendas em cada idioma em um editor de vídeo comum."
+    ],
+    "brand_actions": [
+      "Envie a imagem da xícara para gerar o vídeo. Teste só uma aproximação lenta e confira a alça e o líquido antes de adicionar o texto.",
+      "Envie a imagem do porto e peça para acender o farol e intensificar as luzes das janelas em sequência. Compare o formato dos prédios no início e no fim.",
+      "Gere um vídeo vertical da bolsa e adicione as traduções depois. Use uma instrução curta de edição de vídeo apenas se essa função estiver disponível."
+    ],
+    "study_heading": "O que aprender com os exemplos oficiais e da comunidade",
+    "study_note": "Os vídeos do Google demonstram o Omni 1.1 Flash, não resultados do SeaImagine. As publicações da comunidade são de maio de 2026 e tratam do Omni / Flash original; não foram confirmadas como testes da versão 1.1. A evidência vem do texto e dos metadados do FxTwitter, sem verificação da reprodução nativa no X. Confira as funções no SeaImagine.",
+    "study_titles": [
+      "Google: transição entre o primeiro e o último quadro",
+      "Google: prolongar uma tomada",
+      "CHRIS FIRST: transformar pessoas em flamingos",
+      "Justine Moore: trocar o chapéu a cada palma"
+    ],
+    "study_lessons": [
+      "Defina separadamente a imagem inicial, a final e o movimento contínuo entre elas.",
+      "Descreva o próximo movimento de câmera mantendo o sujeito e a direção do movimento.",
+      "Troque o sujeito, mas peça para preservar roupa e ação; verifique os pontos de contato dos membros.",
+      "Use um gesto visível para marcar cada troca e mantenha rosto, roupa e câmera."
+    ],
+    "study_practice": [
+      "Tire duas fotos do mesmo objeto em ângulos compatíveis. Se houver controles de primeiro e último quadro, conecte as fotos com um movimento simples.",
+      "Use um clipe próprio. Se houver extensão, peça uma única continuação e verifique saltos de movimento ou luz na junção.",
+      "Se a edição de vídeo estiver disponível, substitua apenas um sujeito em uma gravação sua. Compare roupa, postura e contato com o chão.",
+      "Filme duas palmas claras com a câmera fixa. Se houver edição de vídeo, peça uma troca de chapéu em cada palma e confira o momento quadro a quadro."
+    ],
+    "watch_label": "Ver o exemplo original",
+    "caption": "Mais leveza no dia a dia",
+    "caption_language": "Portuguese",
+    "intro": "Esta biblioteca preserva as 60 receitas originais da Flaq AI e adiciona três exercícios SeaImagine com imagens próprias. Veja nesta página os novos exercícios, exemplos do repositório original e lições de casos oficiais e da comunidade."
+  },
+  "it": {
+    "brand_heading": "Tre esercizi SeaImagine con immagini originali",
+    "brand_note": "Queste immagini di riferimento sono state generate con IA come fotogrammi iniziali per esercitarsi. Non sono risultati video testati con Gemini. Usa le funzioni effettivamente disponibili in SeaImagine.",
+    "brand_titles": [
+      "Una tazza in ceramica verde petrolio al mattino",
+      "Un porto di carta si illumina",
+      "Una pochette di lino per un negozio multilingue"
+    ],
+    "brand_lessons": [
+      "Avvicina lentamente la camera senza modificare manico, bordo o livello del liquido. Lascia spazio per il testo finale.",
+      "In un’unica inquadratura, accendi il faro e intensifica a turno le luci delle finestre delle tre case. Conserva la consistenza della carta e la geometria.",
+      "Crea un video verticale pulito e senza scritte, poi aggiungi i sottotitoli tradotti con un normale programma di montaggio."
+    ],
+    "brand_actions": [
+      "Carica l’immagine della tazza per animarla. Prova solo un lento avvicinamento e controlla manico e liquido prima di aggiungere il testo.",
+      "Carica l’immagine del porto e chiedi di accendere il faro, poi di intensificare le luci delle finestre in sequenza. Confronta le forme degli edifici all’inizio e alla fine.",
+      "Crea un video verticale della pochette e aggiungi le traduzioni in seguito. Usa una breve istruzione di modifica video solo se la funzione è disponibile."
+    ],
+    "study_heading": "Cosa imparare dagli esempi ufficiali e della community",
+    "study_note": "I video di Google mostrano Omni 1.1 Flash, non risultati di SeaImagine. I post della community risalgono a maggio 2026 e riguardano Omni / Flash originale; non sono test confermati della versione 1.1. Le prove consultate sono testi e metadati di FxTwitter, senza verifica della riproduzione nativa su X. Controlla le funzioni in SeaImagine.",
+    "study_titles": [
+      "Google: transizione tra fotogramma iniziale e finale",
+      "Google: prolungare un’inquadratura",
+      "CHRIS FIRST: persone trasformate in fenicotteri",
+      "Justine Moore: un cappello diverso a ogni battito di mani"
+    ],
+    "study_lessons": [
+      "Definisci separatamente l’immagine iniziale, quella finale e il movimento continuo che le unisce.",
+      "Descrivi il movimento di camera successivo mantenendo il soggetto e la direzione del movimento.",
+      "Cambia il soggetto chiedendo di mantenere vestiti e azione; controlla i punti di contatto degli arti.",
+      "Usa un gesto visibile per stabilire quando avviene ogni cambio, mantenendo volto, vestiti e camera."
+    ],
+    "study_practice": [
+      "Scatta due foto dello stesso oggetto da angoli compatibili. Se sono disponibili i fotogrammi iniziale e finale, collegale con un movimento semplice.",
+      "Usa un tuo breve video. Se è disponibile l’estensione, chiedi una sola continuazione e controlla salti di movimento o luce nel raccordo.",
+      "Se puoi modificare video, sostituisci un solo soggetto in una tua ripresa. Confronta vestiti, postura e contatto con il suolo.",
+      "Filma due battiti di mani ben visibili con la camera fissa. Se puoi modificare video, chiedi un cambio di cappello a ogni battito e controlla il momento fotogramma per fotogramma."
+    ],
+    "watch_label": "Guarda l’esempio originale",
+    "caption": "Ogni giorno, più semplice",
+    "caption_language": "Italian",
+    "intro": "Questa raccolta conserva le 60 ricette originali di Flaq AI e aggiunge tre esercizi SeaImagine con immagini proprie. Qui trovi i nuovi esercizi, gli esempi del repository di origine e le lezioni tratte dai casi ufficiali e della community."
+  },
+  "ru": {
+    "brand_heading": "Три упражнения SeaImagine с оригинальными изображениями",
+    "brand_note": "Эти изображения созданы ИИ как начальные кадры для упражнений. Это не проверенные результаты генерации видео в Gemini. Используйте только функции, доступные в интерфейсе SeaImagine.",
+    "brand_titles": [
+      "Бирюзовая керамическая чашка в утреннем свете",
+      "В бумажной гавани загораются огни",
+      "Льняной мешочек для многоязычного магазина"
+    ],
+    "brand_lessons": [
+      "Медленно приближайте камеру, сохраняя ручку, край чашки и уровень жидкости. В конце оставьте место для надписи.",
+      "В одном плане включите свет маяка, затем по очереди усильте свет в окнах трёх домов. Сохраните фактуру бумаги и геометрию.",
+      "Сначала создайте чистое вертикальное видео товара без текста, затем добавьте переведённые подписи в обычном видеоредакторе."
+    ],
+    "brand_actions": [
+      "Загрузите изображение чашки для создания видео. Сначала попробуйте только медленное приближение; проверьте ручку и уровень жидкости перед добавлением надписи.",
+      "Загрузите изображение гавани. Попросите включить маяк и по очереди усилить свет в окнах. Сравните форму зданий в начале и конце.",
+      "Создайте вертикальное видео по изображению мешочка и добавьте переводы после генерации. Короткую команду редактирования видео используйте только при наличии этой функции."
+    ],
+    "study_heading": "Чему учат официальные примеры и работы сообщества",
+    "study_note": "Видео Google демонстрируют Omni 1.1 Flash, а не результаты SeaImagine. Посты сообщества опубликованы в мае 2026 года и относятся к исходной Omni / Flash; использование версии 1.1 не подтверждено. Источники проверки — текст и метаданные FxTwitter, без проверки воспроизведения непосредственно в X. Наличие функций уточняйте в SeaImagine.",
+    "study_titles": [
+      "Google: переход между начальным и конечным кадрами",
+      "Google: продление плана",
+      "CHRIS FIRST: люди превращаются во фламинго",
+      "Justine Moore: новая шляпа после каждого хлопка"
+    ],
+    "study_lessons": [
+      "Отдельно задайте начальный кадр, конечный кадр и непрерывное движение между ними.",
+      "Опишите следующее движение камеры, сохранив объект и направление движения.",
+      "Меняйте персонажа, явно сохраняя одежду и действие; проверяйте точки контакта конечностей.",
+      "Используйте видимый жест как сигнал смены, сохраняя лицо, одежду и положение камеры."
+    ],
+    "study_practice": [
+      "Сделайте два снимка одного предмета с совместимых ракурсов. Если доступны начальный и конечный кадры, соедините их простым движением.",
+      "Возьмите свой короткий ролик. Если доступно продление, добавьте одно продолжение и проверьте стык на скачки движения и света.",
+      "Если доступно редактирование видео, замените одного персонажа в своей записи. Сравните одежду, позу и контакт с землёй до и после.",
+      "Снимите два чётких хлопка неподвижной камерой. Если доступно редактирование видео, попросите менять шляпу при каждом хлопке и проверьте момент смены покадрово."
+    ],
+    "watch_label": "Посмотреть исходный пример",
+    "caption": "Больше лёгкости каждый день",
+    "caption_language": "Russian",
+    "intro": "Библиотека сохраняет 60 исходных рецептов Flaq AI и добавляет три упражнения SeaImagine с оригинальными изображениями. На этой странице собраны новые упражнения, примеры из исходного репозитория и уроки из официальных работ и примеров сообщества."
+  },
+  "id": {
+    "brand_heading": "Tiga latihan SeaImagine dengan gambar referensi orisinal",
+    "brand_note": "Gambar referensi ini dibuat dengan AI sebagai bingkai awal latihan, bukan hasil video Gemini yang telah diuji. Gunakan fitur yang benar-benar tersedia di antarmuka SeaImagine.",
+    "brand_titles": [
+      "Cangkir keramik hijau kebiruan di pagi hari",
+      "Lampu pelabuhan kertas menyala bergantian",
+      "Kantong linen untuk toko multibahasa"
+    ],
+    "brand_lessons": [
+      "Dekatkan kamera perlahan sambil mempertahankan gagang, bibir cangkir, dan ketinggian cairan. Sisakan ruang untuk teks penutup.",
+      "Dalam satu pengambilan gambar, nyalakan mercusuar, lalu terangkan cahaya jendela ketiga rumah secara bergantian. Pertahankan tekstur kertas dan bentuknya.",
+      "Buat video produk vertikal tanpa tulisan, lalu tambahkan teks terjemahan di aplikasi penyunting video biasa."
+    ],
+    "brand_actions": [
+      "Unggah gambar cangkir untuk membuat video. Coba satu gerakan mendekat yang lambat; periksa gagang dan cairan sebelum menambahkan teks.",
+      "Unggah gambar pelabuhan. Minta mercusuar menyala dan cahaya jendela bertambah terang secara berurutan. Bandingkan bentuk bangunan di awal dan akhir.",
+      "Buat video vertikal dari gambar kantong, lalu tambahkan terjemahan. Gunakan instruksi penyuntingan video singkat hanya jika fitur tersebut tersedia."
+    ],
+    "study_heading": "Pelajaran dari contoh resmi dan komunitas",
+    "study_note": "Video Google mendemonstrasikan Omni 1.1 Flash, bukan hasil SeaImagine. Unggahan komunitas berasal dari Mei 2026 dan membahas Omni / Flash awal; belum terkonfirmasi sebagai pengujian versi 1.1. Bukti berasal dari teks dan metadata media FxTwitter, tanpa verifikasi pemutaran langsung di X. Periksa ketersediaan fitur di SeaImagine.",
+    "study_titles": [
+      "Google: transisi bingkai awal ke akhir",
+      "Google: memperpanjang adegan",
+      "CHRIS FIRST: mengganti orang dengan flamingo",
+      "Justine Moore: mengganti topi setiap tepukan"
+    ],
+    "study_lessons": [
+      "Tentukan gambar awal, gambar akhir, dan gerakan berkesinambungan di antaranya secara terpisah.",
+      "Jelaskan gerakan kamera berikutnya dengan mempertahankan subjek dan arah gerak.",
+      "Ganti subjek sambil secara tegas mempertahankan pakaian dan aksinya; periksa titik kontak anggota tubuh.",
+      "Gunakan gerakan yang terlihat sebagai penanda pergantian; pertahankan wajah, pakaian, dan kamera."
+    ],
+    "study_practice": [
+      "Siapkan dua foto objek yang sama dari sudut yang sesuai. Jika bingkai awal dan akhir didukung, hubungkan dengan satu gerakan sederhana.",
+      "Gunakan klip milik sendiri. Jika tersedia fitur perpanjangan, minta satu kelanjutan dan periksa perubahan mendadak pada gerak atau cahaya di sambungan.",
+      "Jika penyuntingan video tersedia, ganti satu subjek dalam rekaman sendiri. Bandingkan pakaian, pose, dan kontak dengan tanah sebelum dan sesudahnya.",
+      "Rekam dua tepukan jelas dengan kamera tetap. Jika penyuntingan video tersedia, minta topi berganti setiap tepukan dan periksa waktunya bingkai demi bingkai."
+    ],
+    "watch_label": "Lihat contoh asli",
+    "caption": "Keseharian jadi lebih mudah",
+    "caption_language": "Indonesian",
+    "intro": "Pustaka ini mempertahankan 60 resep asli Flaq AI dan menambahkan tiga latihan SeaImagine dengan gambar referensi sendiri. Halaman ini memuat latihan baru, contoh dari repositori asal, serta pelajaran dari contoh resmi dan komunitas."
+  },
+  "th": {
+    "brand_heading": "แบบฝึกหัด SeaImagine 3 แบบพร้อมภาพอ้างอิงที่สร้างขึ้นใหม่",
+    "brand_note": "ภาพอ้างอิงเหล่านี้สร้างด้วย AI เพื่อใช้เป็นเฟรมแรกสำหรับฝึก ไม่ใช่ผลวิดีโอ Gemini ที่ผ่านการทดสอบ ให้ใช้เฉพาะฟังก์ชันที่มีในหน้า SeaImagine ของคุณ",
+    "brand_titles": [
+      "แก้วเซรามิกสีเขียวอมฟ้าในแสงยามเช้า",
+      "ท่าเรือกระดาษที่ค่อย ๆ เปิดไฟ",
+      "ถุงผ้าลินินสำหรับวิดีโอขายสินค้าหลายภาษา"
+    ],
+    "brand_lessons": [
+      "เคลื่อนกล้องเข้าใกล้ช้า ๆ โดยคงหูจับ ขอบแก้ว และระดับของเหลวไว้ พร้อมเว้นพื้นที่ท้ายคลิปสำหรับข้อความ",
+      "ในช็อตเดียว ให้ประภาคารเปิดไฟ แล้วเพิ่มความสว่างที่หน้าต่างบ้านทั้งสามหลังทีละหลัง โดยคงพื้นผิวกระดาษและรูปทรงเดิม",
+      "สร้างวิดีโอสินค้าแนวตั้งที่ไม่มีตัวอักษรก่อน แล้วใส่ข้อความแต่ละภาษาด้วยโปรแกรมตัดต่อทั่วไป"
+    ],
+    "brand_actions": [
+      "อัปโหลดภาพแก้วเพื่อสร้างวิดีโอ เริ่มจากการเคลื่อนกล้องเข้าใกล้เพียงอย่างเดียว ตรวจหูจับและระดับของเหลวก่อนใส่ข้อความ",
+      "อัปโหลดภาพท่าเรือ ขอให้ประภาคารเปิดไฟแล้วเพิ่มความสว่างของหน้าต่างตามลำดับ เปรียบเทียบรูปทรงอาคารตอนต้นกับตอนท้าย",
+      "ใช้ภาพถุงผ้าสร้างวิดีโอแนวตั้ง แล้วใส่ข้อความที่แปลไว้ภายหลัง ใช้คำสั่งแก้ไขวิดีโอแบบสั้นเฉพาะเมื่อมีฟังก์ชันนี้"
+    ],
+    "study_heading": "เรียนรู้อะไรจากตัวอย่างทางการและชุมชน",
+    "study_note": "วิดีโอของ Google เป็นการสาธิต Omni 1.1 Flash ไม่ใช่ผลงานจาก SeaImagine โพสต์ชุมชนเผยแพร่ในเดือนพฤษภาคม 2026 และเกี่ยวกับ Omni / Flash รุ่นแรก ยังไม่ยืนยันว่าเป็นการทดสอบรุ่น 1.1 หลักฐานมาจากข้อความและข้อมูลสื่อของ FxTwitter โดยไม่ได้ตรวจการเล่นวิดีโอบน X โดยตรง โปรดตรวจฟังก์ชันใน SeaImagine ก่อนใช้",
+    "study_titles": [
+      "Google: เชื่อมเฟรมแรกกับเฟรมสุดท้าย",
+      "Google: ต่อความยาวของช็อต",
+      "CHRIS FIRST: เปลี่ยนคนเป็นนกฟลามิงโก",
+      "Justine Moore: เปลี่ยนหมวกทุกครั้งที่ปรบมือ"
+    ],
+    "study_lessons": [
+      "กำหนดภาพเริ่มต้น ภาพสุดท้าย และการเคลื่อนไหวต่อเนื่องระหว่างสองภาพแยกกัน",
+      "อธิบายการเคลื่อนกล้องถัดไปโดยคงตัวแบบและทิศทางการเคลื่อนไหว",
+      "เปลี่ยนตัวแบบแต่ระบุให้คงเสื้อผ้าและท่าทางไว้ ตรวจจุดสัมผัสของแขนขาด้วย",
+      "ใช้ท่าทางที่มองเห็นชัดเป็นจังหวะเปลี่ยน โดยคงใบหน้า เสื้อผ้า และกล้องไว้"
+    ],
+    "study_practice": [
+      "ถ่ายวัตถุชิ้นเดียวกันสองภาพจากมุมที่เชื่อมกันได้ หากมีฟังก์ชันเฟรมแรกและเฟรมสุดท้าย ให้เชื่อมด้วยการเคลื่อนไหวง่าย ๆ",
+      "ใช้คลิปสั้นของคุณเอง หากต่อความยาวได้ ให้เพิ่มเพียงช่วงเดียว แล้วตรวจรอยต่อว่าการเคลื่อนไหวหรือแสงกระโดดหรือไม่",
+      "หากแก้ไขวิดีโอได้ ให้เปลี่ยนตัวแบบเพียงตัวเดียวในคลิปของคุณ เปรียบเทียบเสื้อผ้า ท่าทาง และจุดสัมผัสพื้นก่อนกับหลัง",
+      "ตั้งกล้องนิ่งและถ่ายการปรบมือชัด ๆ สองครั้ง หากแก้ไขวิดีโอได้ ให้เปลี่ยนหมวกทุกครั้งที่ปรบมือ แล้วตรวจจังหวะทีละเฟรม"
+    ],
+    "watch_label": "ดูตัวอย่างต้นฉบับ",
+    "caption": "ให้ทุกวันเรียบง่ายขึ้น",
+    "caption_language": "Thai",
+    "intro": "คลังนี้เก็บสูตรต้นฉบับทั้ง 60 รายการของ Flaq AI ไว้ และเพิ่มแบบฝึกหัด SeaImagine อีก 3 แบบพร้อมภาพอ้างอิงที่สร้างขึ้นใหม่ หน้านี้รวมแบบฝึกหัดใหม่ ตัวอย่างจากคลังต้นฉบับ และสิ่งที่เรียนรู้ได้จากตัวอย่างทางการกับชุมชน"
+  },
+  "vi": {
+    "brand_heading": "Ba bài tập SeaImagine với ảnh tham chiếu riêng",
+    "brand_note": "Các ảnh tham chiếu này được tạo bằng AI để làm khung hình đầu cho bài tập, không phải kết quả video Gemini đã được thử nghiệm. Hãy dùng các tính năng thực sự có trong giao diện SeaImagine.",
+    "brand_titles": [
+      "Cốc gốm xanh ngọc trong ánh sáng ban mai",
+      "Bến cảng giấy lần lượt lên đèn",
+      "Túi vải lanh cho video bán hàng đa ngôn ngữ"
+    ],
+    "brand_lessons": [
+      "Đưa máy quay lại gần từ từ, giữ nguyên quai, miệng cốc và mực chất lỏng. Chừa chỗ cho chữ ở cuối video.",
+      "Trong một cảnh quay, bật đèn hải đăng rồi lần lượt tăng độ sáng ở cửa sổ ba ngôi nhà. Giữ nguyên chất liệu giấy và hình khối.",
+      "Tạo video sản phẩm dọc không có chữ trước, rồi thêm phụ đề từng ngôn ngữ bằng phần mềm dựng video thông thường."
+    ],
+    "brand_actions": [
+      "Tải ảnh cốc lên để tạo video. Trước hết chỉ thử chuyển động tiến lại gần chậm, kiểm tra quai và mực chất lỏng rồi mới thêm chữ.",
+      "Tải ảnh bến cảng lên, yêu cầu bật đèn hải đăng rồi tăng độ sáng các cửa sổ theo thứ tự. So sánh hình dạng công trình ở đầu và cuối video.",
+      "Tạo video dọc từ ảnh túi rồi thêm bản dịch sau. Chỉ dùng lệnh chỉnh sửa video ngắn khi giao diện có tính năng này."
+    ],
+    "study_heading": "Học gì từ ví dụ chính thức và cộng đồng",
+    "study_note": "Video của Google minh họa Omni 1.1 Flash, không phải kết quả từ SeaImagine. Bài đăng cộng đồng được đăng vào tháng 5/2026, thuộc Omni / Flash ban đầu; chưa được xác nhận là thử nghiệm bản 1.1. Bằng chứng gồm văn bản và siêu dữ liệu phương tiện từ FxTwitter, chưa kiểm chứng phát video trực tiếp trên X. Hãy kiểm tra tính năng trong SeaImagine.",
+    "study_titles": [
+      "Google: chuyển từ khung hình đầu đến cuối",
+      "Google: kéo dài cảnh quay",
+      "CHRIS FIRST: thay người bằng hồng hạc",
+      "Justine Moore: đổi mũ sau mỗi tiếng vỗ tay"
+    ],
+    "study_lessons": [
+      "Xác định riêng ảnh đầu, ảnh cuối và chuyển động liên tục nối hai ảnh.",
+      "Mô tả chuyển động máy quay tiếp theo, đồng thời giữ nguyên chủ thể và hướng chuyển động.",
+      "Thay chủ thể nhưng yêu cầu giữ trang phục và hành động; kiểm tra các điểm tiếp xúc của tay chân.",
+      "Dùng một cử chỉ rõ ràng để xác định thời điểm đổi, đồng thời giữ nguyên khuôn mặt, trang phục và máy quay."
+    ],
+    "study_practice": [
+      "Chụp cùng một vật từ hai góc có thể nối với nhau. Nếu hỗ trợ khung hình đầu và cuối, hãy nối bằng một chuyển động đơn giản.",
+      "Dùng clip ngắn của bạn. Nếu có tính năng kéo dài, chỉ thêm một đoạn tiếp nối và kiểm tra xem chuyển động hoặc ánh sáng có bị nhảy ở điểm nối không.",
+      "Nếu có chỉnh sửa video, chỉ thay một chủ thể trong clip của bạn. So sánh trang phục, tư thế và tiếp xúc với mặt đất trước và sau.",
+      "Cố định máy quay và quay hai lần vỗ tay rõ ràng. Nếu có chỉnh sửa video, yêu cầu đổi mũ mỗi lần vỗ tay rồi kiểm tra thời điểm theo từng khung hình."
+    ],
+    "watch_label": "Xem ví dụ gốc",
+    "caption": "Mỗi ngày thêm nhẹ nhàng",
+    "caption_language": "Vietnamese",
+    "intro": "Thư viện giữ nguyên 60 công thức gốc của Flaq AI và bổ sung ba bài tập SeaImagine với ảnh tham chiếu riêng. Trang này có các bài tập mới, ví dụ từ kho gốc và phần hướng dẫn học từ ví dụ chính thức cùng cộng đồng."
+  },
+  "ar": {
+    "brand_heading": "ثلاثة تمارين في SeaImagine بصور مرجعية أصلية",
+    "brand_note": "هذه الصور المرجعية مولّدة بالذكاء الاصطناعي لتكون إطارات أولى للتدريب، وليست نتائج فيديو جرى اختبارها باستخدام Gemini. استخدم فقط الوظائف المتاحة في واجهة SeaImagine.",
+    "brand_titles": [
+      "كوب خزفي فيروزي في ضوء الصباح",
+      "أضواء تتعاقب في ميناء ورقي",
+      "كيس كتاني لفيديو متجر متعدد اللغات"
+    ],
+    "brand_lessons": [
+      "قرّب الكاميرا ببطء مع الحفاظ على المقبض وحافة الكوب ومستوى السائل. اترك مساحة للنص في النهاية.",
+      "في لقطة واحدة، أشعل ضوء المنارة ثم زِد سطوع نوافذ المنازل الثلاثة بالتتابع. حافظ على ملمس الورق والأشكال الهندسية.",
+      "أنشئ فيديو رأسيًا نظيفًا للمنتج بلا كتابة، ثم أضف النصوص المترجمة ببرنامج تحرير فيديو عادي."
+    ],
+    "brand_actions": [
+      "ارفع صورة الكوب لتحويلها إلى فيديو. جرّب تقرّبًا بطيئًا فقط، وافحص المقبض ومستوى السائل قبل إضافة النص.",
+      "ارفع صورة الميناء واطلب إضاءة المنارة ثم زيادة سطوع النوافذ بالتتابع. قارن أشكال المباني في البداية والنهاية.",
+      "أنشئ فيديو رأسيًا من صورة الكيس، ثم أضف الترجمات لاحقًا. استخدم أمر تعديل فيديو قصيرًا فقط إذا كانت هذه الوظيفة متاحة."
+    ],
+    "study_heading": "ما الذي نتعلمه من الأمثلة الرسمية وأمثلة المجتمع؟",
+    "study_note": "تعرض فيديوهات Google إمكانات Omni 1.1 Flash، وليست نتائج من SeaImagine. نُشرت أمثلة المجتمع في مايو 2026 وتخص Omni / Flash الأصلي؛ ولم يُثبت أنها اختبارات للإصدار 1.1. الأدلة هي النصوص وبيانات الوسائط الوصفية من FxTwitter، دون التحقق من التشغيل المباشر على X. تحقّق من توفر الوظائف داخل SeaImagine.",
+    "study_titles": [
+      "Google: الانتقال بين الإطار الأول والأخير",
+      "Google: تمديد اللقطة",
+      "CHRIS FIRST: استبدال الأشخاص بطيور النحام",
+      "Justine Moore: تبديل القبعة مع كل تصفيقة"
+    ],
+    "study_lessons": [
+      "حدّد صورة البداية وصورة النهاية والحركة المتصلة بينهما كلًا على حدة.",
+      "صِف حركة الكاميرا التالية مع الحفاظ على العنصر الرئيسي واتجاه الحركة.",
+      "غيّر الشخصية مع طلب الإبقاء على الملابس والحركة، وافحص مواضع تلامس الأطراف.",
+      "استخدم إيماءة واضحة لتوقيت كل تغيير، مع الحفاظ على الوجه والملابس والكاميرا."
+    ],
+    "study_practice": [
+      "التقط صورتين للغرض نفسه من زاويتين مناسبتين للوصل. إذا توفرت وظيفة الإطار الأول والأخير، اربطهما بحركة بسيطة.",
+      "استخدم مقطعًا قصيرًا من تصويرك. إذا توفر التمديد، أضف جزءًا متصلًا واحدًا وافحص نقطة الوصل بحثًا عن قفزات في الحركة أو الإضاءة.",
+      "إذا توفر تعديل الفيديو، استبدل شخصية واحدة في مقطع من تصويرك. قارن الملابس والوضعية والتلامس مع الأرض قبل التعديل وبعده.",
+      "ثبّت الكاميرا وصوّر تصفيقتين واضحتين. إذا توفر تعديل الفيديو، اطلب تغيير القبعة عند كل تصفيقة وافحص التوقيت إطارًا بإطار."
+    ],
+    "watch_label": "شاهد المثال الأصلي",
+    "caption": "لحياة يومية أبسط",
+    "caption_language": "Arabic",
+    "intro": "تحتفظ هذه المكتبة بوصفات Flaq AI الأصلية الستين، وتضيف ثلاثة تمارين SeaImagine بصور مرجعية خاصة. تضم هذه الصفحة التمارين الجديدة وأمثلة المستودع الأصلي ودروسًا من الأمثلة الرسمية وأعمال المجتمع."
+  }
+}

@@ -36,53 +36,75 @@ These task pages are useful alternatives when planning a project across models. 
 
 First/last-frame pairs, video references, conversational editing, 360p output, extension, and 4K upscaling depend on the selected interface. If a control is absent, do not paste API parameters into a web prompt and expect them to create it. Use the supported mode or follow the separate [Google API guide](api-quickstart.md).
 
-## Three additional SeaImagine practice briefs
+<!-- generated:practice:start -->
+<a id="sea-practice"></a>
 
-These are new editorial adaptations for this repository, outside the inherited 60-recipe count. They have not been generation-tested. Use your own references; the examples specify creative intent, not guaranteed model behavior.
+## Three SeaImagine exercises with original reference images
 
-### 1. Product photo to a calm storefront loop
+These AI-generated reference images are starting frames for practice, not tested Gemini video outputs. Use only the controls available in your SeaImagine interface.
 
-**Input:** one unbranded ceramic cup photographed clearly. **Use:** image-to-video. **Check:** handle count, rim shape, liquid level, and final frame stability.
+### SEA-01 · A quiet morning with a teal ceramic cup
 
-```text
-Use the uploaded photograph as the first frame. Create a 10-second single-shot product video in the same aspect ratio as the reference.
-Preserve the cup's exact silhouette, handle, glaze, liquid level and tabletop position.
-[0-3s] A thin ribbon of steam rises naturally. The camera begins a very slow forward move.
-[3-7s] Soft morning light moves across the glaze; only steam and the light reflection change.
-[7-10s] The camera gently stops. Hold a clean product frame with room above it for a caption added later.
-Audio: quiet room ambience and distant birds. No speech or music.
-No pouring, extra cup, new handle, floating objects, generated text, logo or watermark.
-```
+[![A quiet morning with a teal ceramic cup](../assets/seaimagine-ceramic-cup.png)](../assets/seaimagine-ceramic-cup.png)
 
-If the endpoint differs from the start, use a short crossfade in your editor; a seamless loop is not guaranteed by this brief.
+Keep the handle, rim and liquid level consistent while the camera slowly moves closer. Leave space for a final caption.
 
-### 2. A travel idea without a reference photo
+Upload the cup image for image-to-video. Try one slow push-in; check the handle and liquid level before adding your caption.
 
-**Input:** text only. **Use:** text-to-video. **Check:** one continuous shot, believable contact, and simple motion.
+[Image to video](https://seaimagine.com/image-to-video/) · [AI image generator](https://seaimagine.com/ai-image-generator/)
 
 ```text
-Create a 10-second, 16:9 travel atmosphere shot of an imagined coastal village at dawn. No real landmark is required.
-One adult carrying a small canvas bag walks along a stone path toward a quiet harbor. A low sea wall stays on the right.
-[0-3s] Establish the person and the path in a wide rear three-quarter view.
-[3-7s] Track forward at walking speed. A breeze moves the coat hem and nearby grass; footsteps stay in contact with the stones.
-[7-10s] The person pauses at the harbor entrance. The camera slows and holds without crossing the wall.
-Audio: footsteps, mild sea wind, distant boat rigging. No speech or music.
-Keep the person, bag and path consistent. No cut, aerial rise, extra people, readable signage, logo or watermark.
+Use the uploaded ceramic-cup image as the exact first frame. Create a 10-second, 16:9 product shot.
+Preserve the teal glaze, the single handle on the right, the rim shape, the coffee level and the cup's position on the wooden table.
+[0-3s] A thin ribbon of steam rises; the camera begins a very slow forward move.
+[3-7s] Warm morning light grazes the glaze. Keep the table and background still; only steam and gentle reflections move.
+[7-10s] The camera eases to a stop. Hold the same product with clean space above for a caption added later.
+Audio, if supported: quiet room ambience and one distant bird. No speech or music.
+No pouring, added cup, new handle, object morphing, generated text, logo or watermark.
 ```
 
-### 3. One product film, different language captions
+### SEA-02 · A paper harbor lights up
 
-**Input:** an approved product clip. **Use:** video editing only if the selected interface supports it; otherwise add captions in a conventional editor. **Check:** exact text, accents, readability, and unchanged product.
+[![A paper harbor lights up](../assets/seaimagine-paper-harbor.png)](../assets/seaimagine-paper-harbor.png)
+
+In a single shot, light the lighthouse, then brighten the windows of the three houses one by one. Preserve paper texture and geometry.
+
+Upload the harbor image for image-to-video. Request the lighthouse light and sequentially brighter windows; compare the buildings at the beginning and end.
+
+[Image to video](https://seaimagine.com/image-to-video/) · [AI image generator](https://seaimagine.com/ai-image-generator/)
 
 ```text
-Change only the final caption from 7s to 10s to exactly: "Un petit moment pour soi."
-On-screen language: French. Preserve the exact spelling, punctuation and accents.
-Place it in the existing caption area, high contrast, comfortably inside the frame.
-Keep the product, composition, camera, action, timing and audio unchanged.
-Do not translate the caption, add a second line, invent packaging text or change the product.
+Use the uploaded paper-harbor image as the exact first frame. Animate a single 10-second, 16:9 shot while retaining the handcrafted paper texture, folds and miniature scale.
+Keep the ivory lighthouse with its red roof, the three small houses on the left and the single paper boat in exactly the same positions.
+[0-3s] The lighthouse window slowly glows warm amber. The camera begins a small, straight forward move.
+[3-7s] The already warm house windows brighten gently one house at a time, from nearest to farthest. No building moves or changes shape.
+[7-10s] The camera stops. Hold the warm windows against the blue-hour paper harbor. Keep the boat and miniature water surface still.
+Audio, if supported: a quiet original celesta phrase, no voices.
+No ocean waves, added buildings, extra boats, rotating tower, camera cut, text, logo or watermark.
 ```
 
-Replace the caption with a short phrase from your target language. Review it with a fluent speaker; keep the visual control instructions in English as a shared starting point.
+### SEA-03 · A linen pouch for a multilingual shop
+
+<a href="../assets/seaimagine-linen-pouch.png"><img src="../assets/seaimagine-linen-pouch.png" alt="A linen pouch for a multilingual shop" width="360"></a>
+
+Make a clean vertical product clip without lettering, then add local-language captions in a regular video editor.
+
+Upload the pouch image and request a vertical clip. Add translated captions afterward; use a short video-editing instruction only if that feature is available.
+
+[Image to video](https://seaimagine.com/image-to-video/) · [AI image generator](https://seaimagine.com/ai-image-generator/)
+
+```text
+Use the uploaded linen-pouch photograph as the exact first frame. Create a 10-second, 9:16 vertical ecommerce product shot.
+Keep one natural-linen drawstring pouch upright in the same position. Preserve its seam placement, woven texture, silhouette and teal drawstring.
+[0-3s] Start on the supplied framing. The camera slowly moves forward without orbiting.
+[3-7s] A soft highlight travels gently across the fabric; the pouch and its string do not move.
+[7-10s] Stop the camera and hold the product. Keep the lower quarter of the frame empty, evenly lit and free of objects for a caption added in editing.
+Audio, if supported: soft room tone. No speech or music.
+Do not generate any lettering, subtitles, symbols, price, logo, watermark, extra bag or moving string.
+```
+
+> Everyday, made simple
+<!-- generated:practice:end -->
 
 ## Fix the first failure, then iterate
 
@@ -98,4 +120,4 @@ Replace the caption with a short phrase from your target language. Review it wit
 
 ## 中文速读
 
-先按素材选择文生视频、图生视频或图片生成入口，再确认编辑器实际提供的模型和参数。保存首帧图，粘贴完整提示词，并把时长改成界面可选的时长。先做草稿，检查主体是否变形、动作是否连贯、文字和声音是否正确，再提高分辨率。标签不能替代上传文件；谷歌 API 支持的功能也不代表 SeaImagine 网页一定提供。上方三个新增配方分别练习商品短片、旅行氛围和法语字幕变体。
+先按素材选择文生视频、图生视频或图片生成入口，再确认编辑器实际提供的模型和参数。保存首帧图，粘贴完整提示词，并把时长改成界面可选的时长。先做草稿，检查主体是否变形、动作是否连贯、文字和声音是否正确，再提高分辨率。标签不能替代上传文件；谷歌 API 支持的功能也不代表 SeaImagine 网页一定提供。上方三个新增配方分别练习陶瓷杯商品短片、纸艺海港灯光变化和亚麻袋竖屏电商短片；字幕在后期添加，不预设网页提供视频编辑。

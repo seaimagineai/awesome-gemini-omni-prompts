@@ -4,9 +4,11 @@
 
 ![Видеопромпты Gemini Omni для SeaImagine](assets/seaimagine-omni-hero.png)
 
-60 промптов из репозитория Flaq AI, адаптированных для пользователей SeaImagine: реклама, путешествия, анимация и монтаж. Три примера ниже содержат референсы и полные промпты на английском.
+Библиотека сохраняет 60 исходных рецептов Flaq AI и добавляет три упражнения SeaImagine с оригинальными изображениями. На этой странице собраны новые упражнения, примеры из исходного репозитория и уроки из официальных работ и примеров сообщества.
 
 [Gemini Omni](https://seaimagine.com/ru/model/gemini-omni/) · [Gemini Omni 1.1 Flash](https://seaimagine.com/ru/model/gemini-omni-1-1-flash/)
+
+[Три упражнения SeaImagine с оригинальными изображениями](#sea-practice) · [Три промпта для копирования](#source-examples) · [Чему учат официальные примеры и работы сообщества](#video-studies)
 
 ## Начало работы с SeaImagine
 
@@ -15,6 +17,76 @@
 3. Выберите длительность и формат в интерфейсе. Проверьте один план: внешний вид, движение и звук. Меняйте по одной инструкции.
 
 Это проекты промптов, а не проверенные результаты генерации в SeaImagine. Длительность, звук, монтаж, продление и референсы зависят от модели и текущего интерфейса. Функции API Google не обязательно доступны в SeaImagine.
+
+<a id="sea-practice"></a>
+
+## Три упражнения SeaImagine с оригинальными изображениями
+
+Эти изображения созданы ИИ как начальные кадры для упражнений. Это не проверенные результаты генерации видео в Gemini. Используйте только функции, доступные в интерфейсе SeaImagine.
+
+### SEA-01 · Бирюзовая керамическая чашка в утреннем свете
+
+[![Бирюзовая керамическая чашка в утреннем свете](assets/seaimagine-ceramic-cup.png)](assets/seaimagine-ceramic-cup.png)
+
+Медленно приближайте камеру, сохраняя ручку, край чашки и уровень жидкости. В конце оставьте место для надписи.
+
+Загрузите изображение чашки для создания видео. Сначала попробуйте только медленное приближение; проверьте ручку и уровень жидкости перед добавлением надписи.
+
+[Видео из изображения](https://seaimagine.com/ru/image-to-video/) · [Генератор изображений ИИ](https://seaimagine.com/ru/ai-image-generator/)
+
+```text
+Use the uploaded ceramic-cup image as the exact first frame. Create a 10-second, 16:9 product shot.
+Preserve the teal glaze, the single handle on the right, the rim shape, the coffee level and the cup's position on the wooden table.
+[0-3s] A thin ribbon of steam rises; the camera begins a very slow forward move.
+[3-7s] Warm morning light grazes the glaze. Keep the table and background still; only steam and gentle reflections move.
+[7-10s] The camera eases to a stop. Hold the same product with clean space above for a caption added later.
+Audio, if supported: quiet room ambience and one distant bird. No speech or music.
+No pouring, added cup, new handle, object morphing, generated text, logo or watermark.
+```
+
+### SEA-02 · В бумажной гавани загораются огни
+
+[![В бумажной гавани загораются огни](assets/seaimagine-paper-harbor.png)](assets/seaimagine-paper-harbor.png)
+
+В одном плане включите свет маяка, затем по очереди усильте свет в окнах трёх домов. Сохраните фактуру бумаги и геометрию.
+
+Загрузите изображение гавани. Попросите включить маяк и по очереди усилить свет в окнах. Сравните форму зданий в начале и конце.
+
+[Видео из изображения](https://seaimagine.com/ru/image-to-video/) · [Генератор изображений ИИ](https://seaimagine.com/ru/ai-image-generator/)
+
+```text
+Use the uploaded paper-harbor image as the exact first frame. Animate a single 10-second, 16:9 shot while retaining the handcrafted paper texture, folds and miniature scale.
+Keep the ivory lighthouse with its red roof, the three small houses on the left and the single paper boat in exactly the same positions.
+[0-3s] The lighthouse window slowly glows warm amber. The camera begins a small, straight forward move.
+[3-7s] The already warm house windows brighten gently one house at a time, from nearest to farthest. No building moves or changes shape.
+[7-10s] The camera stops. Hold the warm windows against the blue-hour paper harbor. Keep the boat and miniature water surface still.
+Audio, if supported: a quiet original celesta phrase, no voices.
+No ocean waves, added buildings, extra boats, rotating tower, camera cut, text, logo or watermark.
+```
+
+### SEA-03 · Льняной мешочек для многоязычного магазина
+
+<a href="assets/seaimagine-linen-pouch.png"><img src="assets/seaimagine-linen-pouch.png" alt="Льняной мешочек для многоязычного магазина" width="360"></a>
+
+Сначала создайте чистое вертикальное видео товара без текста, затем добавьте переведённые подписи в обычном видеоредакторе.
+
+Создайте вертикальное видео по изображению мешочка и добавьте переводы после генерации. Короткую команду редактирования видео используйте только при наличии этой функции.
+
+[Видео из изображения](https://seaimagine.com/ru/image-to-video/) · [Генератор изображений ИИ](https://seaimagine.com/ru/ai-image-generator/)
+
+```text
+Use the uploaded linen-pouch photograph as the exact first frame. Create a 10-second, 9:16 vertical ecommerce product shot.
+Keep one natural-linen drawstring pouch upright in the same position. Preserve its seam placement, woven texture, silhouette and teal drawstring.
+[0-3s] Start on the supplied framing. The camera slowly moves forward without orbiting.
+[3-7s] A soft highlight travels gently across the fabric; the pouch and its string do not move.
+[7-10s] Stop the camera and hold the product. Keep the lower quarter of the frame empty, evenly lit and free of objects for a caption added in editing.
+Audio, if supported: soft room tone. No speech or music.
+Do not generate any lettering, subtitles, symbols, price, logo, watermark, extra bag or moving string.
+```
+
+> Больше лёгкости каждый день
+
+<a id="source-examples"></a>
 
 ## Три промпта для копирования
 
@@ -62,6 +134,60 @@ Bring this illustration to life in one coherent 10-second animated shot. Use Ima
 Audio: layered clock ticks, delicate paper folds, wooden gear creaks, then an original celesta motif. No dialogue.
 Keep the clockmaker's face, clothes and goggles consistent. No photorealism, subtitles, logo or watermark.
 ```
+
+
+
+<a id="video-studies"></a>
+
+## Чему учат официальные примеры и работы сообщества
+
+Видео Google демонстрируют Omni 1.1 Flash, а не результаты SeaImagine. Посты сообщества опубликованы в мае 2026 года и относятся к исходной Omni / Flash; использование версии 1.1 не подтверждено. Источники проверки — текст и метаданные FxTwitter, без проверки воспроизведения непосредственно в X. Наличие функций уточняйте в SeaImagine.
+
+### Google: переход между начальным и конечным кадрами
+
+[Посмотреть исходный пример](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4)
+
+Отдельно задайте начальный кадр, конечный кадр и непрерывное движение между ними.
+
+Сделайте два снимка одного предмета с совместимых ракурсов. Если доступны начальный и конечный кадры, соедините их простым движением.
+
+### Google: продление плана
+
+[Посмотреть исходный пример](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4)
+
+Опишите следующее движение камеры, сохранив объект и направление движения.
+
+Возьмите свой короткий ролик. Если доступно продление, добавьте одно продолжение и проверьте стык на скачки движения и света.
+
+### CHRIS FIRST: люди превращаются во фламинго
+
+<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST: люди превращаются во фламинго" width="300"></a>
+
+[Посмотреть исходный пример](https://x.com/chrisfirst/status/2056797606509158681)
+
+Меняйте персонажа, явно сохраняя одежду и действие; проверяйте точки контакта конечностей.
+
+Если доступно редактирование видео, замените одного персонажа в своей записи. Сравните одежду, позу и контакт с землёй до и после.
+
+### Justine Moore: новая шляпа после каждого хлопка
+
+<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore: новая шляпа после каждого хлопка" width="300"></a>
+
+[Посмотреть исходный пример](https://x.com/venturetwins/status/2056793856843366789)
+
+Используйте видимый жест как сигнал смены, сохраняя лицо, одежду и положение камеры.
+
+Снимите два чётких хлопка неподвижной камерой. Если доступно редактирование видео, попросите менять шляпу при каждом хлопке и проверьте момент смены покадрово.
+
+[Официальные примеры и работы сообщества](docs/community-examples.md)
+
+## Что включено
+
+Список описывает задачи для промптов, а не гарантирует функции. Проверьте ввод, редактирование, продление, звук и разрешение в выбранной модели SeaImagine. Сначала оцените композицию, речь и текст в доступном режиме предпросмотра. API Google (программный интерфейс) и интерфейс SeaImagine — разные сервисы.
+
+- Текст-в-видео, изображение-в-видео, первый/последний кадр и референсы персонажей или продуктов.
+- Совместное проектирование изображения, атмосферы, шумов, оригинальной музыки, тишины и реплик.
+- Правила диалога, экранного текста, переноса строк и проверки для 15 языков.
 
 ## Все 60 промптов
 

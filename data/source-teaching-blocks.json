@@ -1,0 +1,62 @@
+{
+  "source_commit": "9488e05bb8fa0b5f597a7ab3ed847bdb4bfb1d6d",
+  "scope": "Exact source teaching blocks; Chinese three visual examples use the shared browser-adapted snippets, with complete originals retained in the seven prompt collections.",
+  "files": {
+    "README.md": [
+      "bfdb3281a1ced77cd9f5acef60baa9d89cb76e3c5b4d54bca333a99300b14642",
+      "6a0b160a09601a1766348e29e29b628b57985e724f1092f735cb2bf72e58f3b7",
+      "955c0a66657528158d5c6892390168f99580f3566c57f4bae2b88755c0457192",
+      "2b82532b84ae3595affcfbea7e9af259eb2b481c152aa8ed239e9f401b660d1f",
+      "7a5f70dbc2ba7a91d87df90a0c7a9c5aa15fae3d744eeeb811728f9db10d0ea1",
+      "dfd1b4f924dee010f3484660823222b1848d52d626e5e866e2adf6ce0757f069"
+    ],
+    "README_ID.md": [
+      "e66ce04a85b271424181ae6274f343b82bd8ea69843b08b07a956380fe49909a"
+    ],
+    "README_JA.md": [
+      "04223b9a51342545d6b7ae7857a0c3c4eb36a00b07a5607c23c614086b9b33c1",
+      "69dcfd158e4498afba8747e3e014d31a0a56efea1d29f40e03a2d442d0142e85",
+      "7857033d800ccbe057b4d12ee8177926a15080fd8a1fcdedf957346b9865e511"
+    ],
+    "README_TH.md": [
+      "d554f9cad64aa2d8a9a8050d82fec0f2087bd2163ccbc491859ddf1ad79324ab"
+    ],
+    "README_RU.md": [
+      "5b07a73bcc78ff2640cc0d410755e5044d0df264742dc0712b2571581bd85e16"
+    ],
+    "README_ZH-TW.md": [
+      "eb522e587071ab1f6f319497a112a3d82913b8663d3bb50e966a11e6cc3e20ec"
+    ],
+    "README_PT.md": [
+      "cd5ca8f0cd52fa3727caed979791a00fdb545bc840a2564ac5637287cc212584"
+    ],
+    "README_VI.md": [
+      "4fa86fb8dfaf8f60a47fccfaa884f77b0dd18674aead22376f42ecc9bd30cf82"
+    ],
+    "README_KO.md": [
+      "4abf4527e0344ed713b181b65baf5ce2344517292fba9c4864452ad942370918"
+    ],
+    "README_AR.md": [
+      "859f49f29014e00ddb144953059320ab7a197255434c3d6f3cca96ce9cc1a8ac"
+    ],
+    "README_IT.md": [
+      "bde399d42c5e46a4d629a37f0ef68071633f217ad0389fa044c62fc9d27dc9c5"
+    ],
+    "README_ES.md": [
+      "5530c52cbee03818434960358a4758e3e6c6ca0590165ff1311faaaca744c46c",
+      "ef249cdd7dc72ada44325e0b9d1fee18ecfa2116ae9d1580c8a1c12d1d5e0457",
+      "ee1788744ae0b85050a66e606bf59156f9e252fd8d5fc96d4dc4aae6cd9846c9"
+    ],
+    "README_ZH.md": [
+      "bfdb3281a1ced77cd9f5acef60baa9d89cb76e3c5b4d54bca333a99300b14642",
+      "46ee1b4128114c8cf90b2eae9a7688763a9406de6c8e94baf6bd04f0da075b33",
+      "dfd1b4f924dee010f3484660823222b1848d52d626e5e866e2adf6ce0757f069"
+    ],
+    "README_FR.md": [
+      "c7c4f24666d6331f51983580710801998bc172a62fc43f43aedb1d8c4f7faedb"
+    ],
+    "README_DE.md": [
+      "345272d7d749a17fdb95407b2a5dd20046a239ac23c6c05bb1b808b8d909cc7a"
+    ]
+  }
+}

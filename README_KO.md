@@ -4,9 +4,11 @@
 
 ![SeaImagine용 Gemini Omni 영상 프롬프트 모음](assets/seaimagine-omni-hero.png)
 
-Flaq AI 원본 저장소의 프롬프트 60개를 SeaImagine 사용자를 위해 정리했습니다. 제품 광고, 여행, 애니메이션, 편집 아이디어를 살펴보세요. 아래 예시 3개에는 참고 이미지와 복사할 수 있는 영어 프롬프트가 있습니다.
+Flaq AI의 원본 레시피 60개를 보존하고, 자체 참고 이미지를 활용한 SeaImagine 연습 세 가지를 추가했습니다. 이 페이지에서 새 연습, 원본 예시, 공식·커뮤니티 사례의 학습 내용을 확인하세요.
 
 [Gemini Omni](https://seaimagine.com/ko/model/gemini-omni/) · [Gemini Omni 1.1 Flash](https://seaimagine.com/ko/model/gemini-omni-1-1-flash/)
+
+[SeaImagine 전용 참고 이미지로 해 보는 세 가지 연습](#sea-practice) · [복사해서 사용할 예시 3개](#source-examples) · [공식·커뮤니티 사례에서 배울 점](#video-studies)
 
 ## SeaImagine 시작하기
 
@@ -15,6 +17,76 @@ Flaq AI 원본 저장소의 프롬프트 60개를 SeaImagine 사용자를 위해
 3. 화면에서 길이와 비율을 선택합니다. 한 장면을 먼저 시험하고 외형, 움직임, 소리를 확인한 뒤 지시를 하나씩 수정합니다.
 
 프롬프트 설계 예시이며 SeaImagine에서 검증한 생성 결과가 아닙니다. 길이, 음성, 편집, 연장, 참고 자료 지원은 선택한 모델과 현재 화면에 따라 다릅니다. Google API 기능이 SeaImagine에서도 제공된다는 뜻은 아닙니다.
+
+<a id="sea-practice"></a>
+
+## SeaImagine 전용 참고 이미지로 해 보는 세 가지 연습
+
+아래 이미지는 AI로 만든 첫 프레임 연습 자료이며 Gemini 동영상 실측 결과가 아닙니다. SeaImagine 화면에서 실제로 제공하는 기능에 맞춰 사용하세요.
+
+### SEA-01 · 청록색 도자기 컵으로 아침 상품 영상 만들기
+
+[![청록색 도자기 컵으로 아침 상품 영상 만들기](assets/seaimagine-ceramic-cup.png)](assets/seaimagine-ceramic-cup.png)
+
+카메라를 천천히 가까이 이동하면서 손잡이, 컵 가장자리, 액체 높이를 유지합니다. 마지막에는 자막 공간을 남깁니다.
+
+컵 이미지를 올려 이미지 기반 영상을 만드세요. 먼저 천천히 다가가는 동작만 시험하고 손잡이와 액체 높이를 확인한 뒤 자막을 넣으세요.
+
+[이미지로 영상 만들기](https://seaimagine.com/ko/image-to-video/) · [AI 이미지 생성기](https://seaimagine.com/ko/ai-image-generator/)
+
+```text
+Use the uploaded ceramic-cup image as the exact first frame. Create a 10-second, 16:9 product shot.
+Preserve the teal glaze, the single handle on the right, the rim shape, the coffee level and the cup's position on the wooden table.
+[0-3s] A thin ribbon of steam rises; the camera begins a very slow forward move.
+[3-7s] Warm morning light grazes the glaze. Keep the table and background still; only steam and gentle reflections move.
+[7-10s] The camera eases to a stop. Hold the same product with clean space above for a caption added later.
+Audio, if supported: quiet room ambience and one distant bird. No speech or music.
+No pouring, added cup, new handle, object morphing, generated text, logo or watermark.
+```
+
+### SEA-02 · 종이 공예 항구에 차례로 불 켜기
+
+[![종이 공예 항구에 차례로 불 켜기](assets/seaimagine-paper-harbor.png)](assets/seaimagine-paper-harbor.png)
+
+한 장면에서 등대에 불을 켠 뒤 집 세 채의 창문 불빛을 차례로 밝게 합니다. 종이 질감과 형태를 유지합니다.
+
+항구 이미지를 올리고 등대가 켜진 뒤 창문 불빛이 차례로 밝아지도록 요청하세요. 시작과 끝의 건물 형태를 비교하세요.
+
+[이미지로 영상 만들기](https://seaimagine.com/ko/image-to-video/) · [AI 이미지 생성기](https://seaimagine.com/ko/ai-image-generator/)
+
+```text
+Use the uploaded paper-harbor image as the exact first frame. Animate a single 10-second, 16:9 shot while retaining the handcrafted paper texture, folds and miniature scale.
+Keep the ivory lighthouse with its red roof, the three small houses on the left and the single paper boat in exactly the same positions.
+[0-3s] The lighthouse window slowly glows warm amber. The camera begins a small, straight forward move.
+[3-7s] The already warm house windows brighten gently one house at a time, from nearest to farthest. No building moves or changes shape.
+[7-10s] The camera stops. Hold the warm windows against the blue-hour paper harbor. Keep the boat and miniature water surface still.
+Audio, if supported: a quiet original celesta phrase, no voices.
+No ocean waves, added buildings, extra boats, rotating tower, camera cut, text, logo or watermark.
+```
+
+### SEA-03 · 리넨 파우치로 다국어 세로 영상 마무리하기
+
+<a href="assets/seaimagine-linen-pouch.png"><img src="assets/seaimagine-linen-pouch.png" alt="리넨 파우치로 다국어 세로 영상 마무리하기" width="360"></a>
+
+글자 없는 세로 상품 영상을 먼저 만든 뒤 일반 영상 편집기로 각 언어의 자막을 넣습니다.
+
+파우치 이미지로 세로 영상을 만들고 번역한 자막을 나중에 넣으세요. 짧은 영상 편집 지시는 해당 기능을 지원할 때만 사용하세요.
+
+[이미지로 영상 만들기](https://seaimagine.com/ko/image-to-video/) · [AI 이미지 생성기](https://seaimagine.com/ko/ai-image-generator/)
+
+```text
+Use the uploaded linen-pouch photograph as the exact first frame. Create a 10-second, 9:16 vertical ecommerce product shot.
+Keep one natural-linen drawstring pouch upright in the same position. Preserve its seam placement, woven texture, silhouette and teal drawstring.
+[0-3s] Start on the supplied framing. The camera slowly moves forward without orbiting.
+[3-7s] A soft highlight travels gently across the fabric; the pouch and its string do not move.
+[7-10s] Stop the camera and hold the product. Keep the lower quarter of the frame empty, evenly lit and free of objects for a caption added in editing.
+Audio, if supported: soft room tone. No speech or music.
+Do not generate any lettering, subtitles, symbols, price, logo, watermark, extra bag or moving string.
+```
+
+> 매일을 조금 더 여유롭게
+
+<a id="source-examples"></a>
 
 ## 복사해서 사용할 예시 3개
 
@@ -62,6 +134,60 @@ Bring this illustration to life in one coherent 10-second animated shot. Use Ima
 Audio: layered clock ticks, delicate paper folds, wooden gear creaks, then an original celesta motif. No dialogue.
 Keep the clockmaker's face, clothes and goggles consistent. No photorealism, subtitles, logo or watermark.
 ```
+
+
+
+<a id="video-studies"></a>
+
+## 공식·커뮤니티 사례에서 배울 점
+
+Google 영상은 Omni 1.1 Flash 공식 시연이며 SeaImagine 생성 결과가 아닙니다. 커뮤니티 게시물은 2026년 5월의 초기 Omni / Flash 사례로, 1.1 실측으로 확인되지 않았습니다. 근거는 FxTwitter의 글과 미디어 정보이며 X 원본 재생은 검증하지 않았습니다. 기능 제공 여부는 SeaImagine에서 확인하세요.
+
+### Google: 첫 프레임과 마지막 프레임 연결
+
+[원본 사례 보기](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4)
+
+시작 이미지, 끝 이미지, 그 사이의 연속 동작을 각각 정합니다.
+
+같은 물체를 자연스럽게 연결할 수 있는 각도로 두 장 촬영하세요. 첫·마지막 프레임 기능이 있다면 단순한 동작으로 연결하세요.
+
+### Google: 장면 연장
+
+[원본 사례 보기](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4)
+
+대상과 이동 방향을 유지하면서 다음 카메라 움직임을 설명합니다.
+
+직접 찍은 짧은 영상을 사용하세요. 연장 기능이 있다면 한 동작만 이어 붙이고 연결 지점의 움직임과 조명을 확인하세요.
+
+### CHRIS FIRST: 사람을 홍학으로 바꾸기
+
+<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST: 사람을 홍학으로 바꾸기" width="300"></a>
+
+[원본 사례 보기](https://x.com/chrisfirst/status/2056797606509158681)
+
+대상은 바꾸되 의상과 동작은 유지하도록 지정하고 팔다리가 닿는 부분을 확인합니다.
+
+직접 찍은 영상에서 편집 기능을 사용할 수 있다면 대상 하나만 바꾸세요. 전후의 의상, 자세, 지면 접촉을 비교하세요.
+
+### Justine Moore: 박수마다 모자 바꾸기
+
+<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore: 박수마다 모자 바꾸기" width="300"></a>
+
+[원본 사례 보기](https://x.com/venturetwins/status/2056793856843366789)
+
+눈에 보이는 동작으로 변경 시점을 정하고 얼굴, 의상, 카메라는 유지합니다.
+
+카메라를 고정하고 박수를 두 번 분명하게 치는 영상을 찍으세요. 영상 편집이 가능하면 박수마다 모자를 바꾸도록 요청하고 프레임별로 시점을 확인하세요.
+
+[공식 및 커뮤니티 사례](docs/community-examples.md)
+
+## 포함 내용
+
+아래 목록은 프롬프트에서 계획할 내용이며 기능 제공을 보장하지 않습니다. 입력 자료, 편집, 연장, 소리, 해상도는 SeaImagine에서 선택한 모델과 현재 화면을 확인하세요. 먼저 제공되는 미리보기 설정으로 구도, 발음, 글자를 확인하세요. Google API(프로그램 호출 인터페이스)와 SeaImagine 웹 화면은 별개입니다.
+
+- 텍스트-비디오, 이미지-비디오, 첫/마지막 프레임, 인물·제품 이미지, 짧은 비디오 참조.
+- 환경음, 폴리, 오리지널 음악, 침묵, 대사 타이밍을 함께 설계하는 방법.
+- 15개 언어의 대사, 화면 문자, 줄바꿈, 발음, 원어민 검수 가이드.
 
 ## 프롬프트 60개 전체
 

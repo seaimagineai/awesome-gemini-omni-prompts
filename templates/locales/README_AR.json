@@ -29,5 +29,6 @@
       "prompts/storyboard-text-evaluation.md"
     ]
   ],
-  "dialogue": "Spoken language: Modern Standard Arabic.\nExact dialogue at 6s, spoken once with natural pacing: \"لنعد إلى المنزل اليوم عبر الطريق الأطول.\"\nDo not translate, paraphrase, repeat or subtitle it.\n\nOn-screen language: Modern Standard Arabic.\nText direction: right-to-left.\nExact title: \"رحلات صغيرة\"\nKeep the full phrase connected and right-aligned. No other text."
+  "dialogue": "Spoken language: Modern Standard Arabic.\nExact dialogue at 6s, spoken once with natural pacing: \"لنعد إلى المنزل اليوم عبر الطريق الأطول.\"\nDo not translate, paraphrase, repeat or subtitle it.\n\nOn-screen language: Modern Standard Arabic.\nText direction: right-to-left.\nExact title: \"رحلات صغيرة\"\nKeep the full phrase connected and right-aligned. No other text.",
+  "before_examples": "## ما الذي يتضمنه المشروع؟\n\nتصف القائمة ما يمكن تخطيطه بالمطالبات، ولا تضمن توفر كل ميزة. تحقّق من المدخلات والتحرير والتمديد والصوت والدقة في النموذج المختار داخل SeaImagine. اختبر التكوين والحوار والنص بإعداد المعاينة المتاح أولًا. واجهة Google البرمجية وواجهة SeaImagine خدمتان مختلفتان.\n\n- تحويل النص أو الصورة إلى فيديو، واستخدام الإطار الأول/الأخير، ومراجع الشخصيات والمنتجات.\n- تخطيط الصورة والأجواء والمؤثرات الصوتية والموسيقى الأصلية والصمت والحوار معًا.\n- قواعد للحوار والنص واتجاه الكتابة والمراجعة البشرية في 15 لغة."
 }

@@ -4,9 +4,11 @@
 
 ![Kumpulan prompt video Gemini Omni untuk SeaImagine](assets/seaimagine-omni-hero.png)
 
-60 prompt diadaptasi dari repositori Flaq AI untuk pengguna SeaImagine: iklan produk, perjalanan, animasi, dan penyuntingan. Tiga contoh berikut menyertakan gambar referensi dan prompt lengkap berbahasa Inggris.
+Pustaka ini mempertahankan 60 resep asli Flaq AI dan menambahkan tiga latihan SeaImagine dengan gambar referensi sendiri. Halaman ini memuat latihan baru, contoh dari repositori asal, serta pelajaran dari contoh resmi dan komunitas.
 
 [Gemini Omni](https://seaimagine.com/id/model/gemini-omni/) · [Gemini Omni 1.1 Flash](https://seaimagine.com/id/model/gemini-omni-1-1-flash/)
+
+[Tiga latihan SeaImagine dengan gambar referensi orisinal](#sea-practice) · [Tiga prompt untuk disalin](#source-examples) · [Pelajaran dari contoh resmi dan komunitas](#video-studies)
 
 ## Mulai dengan SeaImagine
 
@@ -15,6 +17,76 @@
 3. Pilih durasi dan format pada antarmuka. Uji satu adegan, periksa tampilan, gerakan, dan suara, lalu ubah satu instruksi setiap kali.
 
 Ini rancangan prompt, bukan hasil generasi yang telah diuji di SeaImagine. Durasi, audio, penyuntingan, perpanjangan, dan referensi bergantung pada model serta antarmuka saat ini. Fitur API Google tidak otomatis tersedia di SeaImagine.
+
+<a id="sea-practice"></a>
+
+## Tiga latihan SeaImagine dengan gambar referensi orisinal
+
+Gambar referensi ini dibuat dengan AI sebagai bingkai awal latihan, bukan hasil video Gemini yang telah diuji. Gunakan fitur yang benar-benar tersedia di antarmuka SeaImagine.
+
+### SEA-01 · Cangkir keramik hijau kebiruan di pagi hari
+
+[![Cangkir keramik hijau kebiruan di pagi hari](assets/seaimagine-ceramic-cup.png)](assets/seaimagine-ceramic-cup.png)
+
+Dekatkan kamera perlahan sambil mempertahankan gagang, bibir cangkir, dan ketinggian cairan. Sisakan ruang untuk teks penutup.
+
+Unggah gambar cangkir untuk membuat video. Coba satu gerakan mendekat yang lambat; periksa gagang dan cairan sebelum menambahkan teks.
+
+[Gambar ke video](https://seaimagine.com/id/image-to-video/) · [Generator gambar AI](https://seaimagine.com/id/ai-image-generator/)
+
+```text
+Use the uploaded ceramic-cup image as the exact first frame. Create a 10-second, 16:9 product shot.
+Preserve the teal glaze, the single handle on the right, the rim shape, the coffee level and the cup's position on the wooden table.
+[0-3s] A thin ribbon of steam rises; the camera begins a very slow forward move.
+[3-7s] Warm morning light grazes the glaze. Keep the table and background still; only steam and gentle reflections move.
+[7-10s] The camera eases to a stop. Hold the same product with clean space above for a caption added later.
+Audio, if supported: quiet room ambience and one distant bird. No speech or music.
+No pouring, added cup, new handle, object morphing, generated text, logo or watermark.
+```
+
+### SEA-02 · Lampu pelabuhan kertas menyala bergantian
+
+[![Lampu pelabuhan kertas menyala bergantian](assets/seaimagine-paper-harbor.png)](assets/seaimagine-paper-harbor.png)
+
+Dalam satu pengambilan gambar, nyalakan mercusuar, lalu terangkan cahaya jendela ketiga rumah secara bergantian. Pertahankan tekstur kertas dan bentuknya.
+
+Unggah gambar pelabuhan. Minta mercusuar menyala dan cahaya jendela bertambah terang secara berurutan. Bandingkan bentuk bangunan di awal dan akhir.
+
+[Gambar ke video](https://seaimagine.com/id/image-to-video/) · [Generator gambar AI](https://seaimagine.com/id/ai-image-generator/)
+
+```text
+Use the uploaded paper-harbor image as the exact first frame. Animate a single 10-second, 16:9 shot while retaining the handcrafted paper texture, folds and miniature scale.
+Keep the ivory lighthouse with its red roof, the three small houses on the left and the single paper boat in exactly the same positions.
+[0-3s] The lighthouse window slowly glows warm amber. The camera begins a small, straight forward move.
+[3-7s] The already warm house windows brighten gently one house at a time, from nearest to farthest. No building moves or changes shape.
+[7-10s] The camera stops. Hold the warm windows against the blue-hour paper harbor. Keep the boat and miniature water surface still.
+Audio, if supported: a quiet original celesta phrase, no voices.
+No ocean waves, added buildings, extra boats, rotating tower, camera cut, text, logo or watermark.
+```
+
+### SEA-03 · Kantong linen untuk toko multibahasa
+
+<a href="assets/seaimagine-linen-pouch.png"><img src="assets/seaimagine-linen-pouch.png" alt="Kantong linen untuk toko multibahasa" width="360"></a>
+
+Buat video produk vertikal tanpa tulisan, lalu tambahkan teks terjemahan di aplikasi penyunting video biasa.
+
+Buat video vertikal dari gambar kantong, lalu tambahkan terjemahan. Gunakan instruksi penyuntingan video singkat hanya jika fitur tersebut tersedia.
+
+[Gambar ke video](https://seaimagine.com/id/image-to-video/) · [Generator gambar AI](https://seaimagine.com/id/ai-image-generator/)
+
+```text
+Use the uploaded linen-pouch photograph as the exact first frame. Create a 10-second, 9:16 vertical ecommerce product shot.
+Keep one natural-linen drawstring pouch upright in the same position. Preserve its seam placement, woven texture, silhouette and teal drawstring.
+[0-3s] Start on the supplied framing. The camera slowly moves forward without orbiting.
+[3-7s] A soft highlight travels gently across the fabric; the pouch and its string do not move.
+[7-10s] Stop the camera and hold the product. Keep the lower quarter of the frame empty, evenly lit and free of objects for a caption added in editing.
+Audio, if supported: soft room tone. No speech or music.
+Do not generate any lettering, subtitles, symbols, price, logo, watermark, extra bag or moving string.
+```
+
+> Keseharian jadi lebih mudah
+
+<a id="source-examples"></a>
 
 ## Tiga prompt untuk disalin
 
@@ -62,6 +134,60 @@ Bring this illustration to life in one coherent 10-second animated shot. Use Ima
 Audio: layered clock ticks, delicate paper folds, wooden gear creaks, then an original celesta motif. No dialogue.
 Keep the clockmaker's face, clothes and goggles consistent. No photorealism, subtitles, logo or watermark.
 ```
+
+
+
+<a id="video-studies"></a>
+
+## Pelajaran dari contoh resmi dan komunitas
+
+Video Google mendemonstrasikan Omni 1.1 Flash, bukan hasil SeaImagine. Unggahan komunitas berasal dari Mei 2026 dan membahas Omni / Flash awal; belum terkonfirmasi sebagai pengujian versi 1.1. Bukti berasal dari teks dan metadata media FxTwitter, tanpa verifikasi pemutaran langsung di X. Periksa ketersediaan fitur di SeaImagine.
+
+### Google: transisi bingkai awal ke akhir
+
+[Lihat contoh asli](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4)
+
+Tentukan gambar awal, gambar akhir, dan gerakan berkesinambungan di antaranya secara terpisah.
+
+Siapkan dua foto objek yang sama dari sudut yang sesuai. Jika bingkai awal dan akhir didukung, hubungkan dengan satu gerakan sederhana.
+
+### Google: memperpanjang adegan
+
+[Lihat contoh asli](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4)
+
+Jelaskan gerakan kamera berikutnya dengan mempertahankan subjek dan arah gerak.
+
+Gunakan klip milik sendiri. Jika tersedia fitur perpanjangan, minta satu kelanjutan dan periksa perubahan mendadak pada gerak atau cahaya di sambungan.
+
+### CHRIS FIRST: mengganti orang dengan flamingo
+
+<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST: mengganti orang dengan flamingo" width="300"></a>
+
+[Lihat contoh asli](https://x.com/chrisfirst/status/2056797606509158681)
+
+Ganti subjek sambil secara tegas mempertahankan pakaian dan aksinya; periksa titik kontak anggota tubuh.
+
+Jika penyuntingan video tersedia, ganti satu subjek dalam rekaman sendiri. Bandingkan pakaian, pose, dan kontak dengan tanah sebelum dan sesudahnya.
+
+### Justine Moore: mengganti topi setiap tepukan
+
+<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore: mengganti topi setiap tepukan" width="300"></a>
+
+[Lihat contoh asli](https://x.com/venturetwins/status/2056793856843366789)
+
+Gunakan gerakan yang terlihat sebagai penanda pergantian; pertahankan wajah, pakaian, dan kamera.
+
+Rekam dua tepukan jelas dengan kamera tetap. Jika penyuntingan video tersedia, minta topi berganti setiap tepukan dan periksa waktunya bingkai demi bingkai.
+
+[Contoh resmi dan komunitas](docs/community-examples.md)
+
+## Isi proyek
+
+Daftar ini berisi hal yang dapat direncanakan dalam prompt, bukan jaminan fitur. Periksa masukan, penyuntingan, perpanjangan, audio, dan resolusi pada model yang dipilih di SeaImagine. Periksa komposisi, ucapan, dan teks melalui pratinjau yang tersedia terlebih dahulu. API Google (antarmuka pemrograman) berbeda dari antarmuka SeaImagine.
+
+- Teks-ke-video, gambar-ke-video, bingkai pertama/terakhir, serta referensi karakter dan produk.
+- Perencanaan visual, ambience, foley, musik orisinal, keheningan, dan dialog secara terpadu.
+- Aturan dialog, teks layar, tata letak, dan tinjauan penutur asli untuk 15 bahasa.
 
 ## Semua 60 prompt
 

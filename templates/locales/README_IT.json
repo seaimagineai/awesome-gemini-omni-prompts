@@ -29,5 +29,6 @@
       "prompts/storyboard-text-evaluation.md"
     ]
   ],
-  "dialogue": "Spoken language: Italian.\nExact dialogue at 6s, spoken once with natural conversational pacing: \"Oggi torniamo a casa facendo la strada più lunga.\"\nDo not translate, paraphrase, repeat or subtitle it.\n\nExact on-screen Italian title: \"PICCOLI VIAGGI\"\nPreserve spelling and punctuation exactly. No other text."
+  "dialogue": "Spoken language: Italian.\nExact dialogue at 6s, spoken once with natural conversational pacing: \"Oggi torniamo a casa facendo la strada più lunga.\"\nDo not translate, paraphrase, repeat or subtitle it.\n\nExact on-screen Italian title: \"PICCOLI VIAGGI\"\nPreserve spelling and punctuation exactly. No other text.",
+  "before_examples": "## Contenuti\n\nL’elenco descrive cosa pianificare nei prompt, senza garantire la disponibilità delle funzioni. Verifica input, modifica, estensione, audio e risoluzione nel modello scelto su SeaImagine. Controlla prima composizione, dialogo e testo con un’anteprima disponibile. L’API di Google (interfaccia di programmazione) è distinta dall’interfaccia di SeaImagine.\n\n- Testo-video, immagine-video, primo/ultimo fotogramma e riferimenti per soggetti o prodotti.\n- Progettazione coordinata di immagini, ambiente, effetti, musica originale, silenzio e dialogo.\n- Regole per dialogo, testo sullo schermo e revisione in 15 lingue."
 }

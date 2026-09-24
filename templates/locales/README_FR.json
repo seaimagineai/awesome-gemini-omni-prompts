@@ -29,5 +29,6 @@
       "prompts/storyboard-text-evaluation.md"
     ]
   ],
-  "dialogue": "Spoken language: French.\nExact dialogue at 6s, spoken once with natural conversational pacing: \"Aujourd'hui, prenons le chemin le plus long pour rentrer.\"\nDo not translate, paraphrase, repeat or subtitle it.\n\nExact on-screen French title: \"PETITS VOYAGES\"\nPreserve accents, apostrophes and spelling exactly. No other text."
+  "dialogue": "Spoken language: French.\nExact dialogue at 6s, spoken once with natural conversational pacing: \"Aujourd'hui, prenons le chemin le plus long pour rentrer.\"\nDo not translate, paraphrase, repeat or subtitle it.\n\nExact on-screen French title: \"PETITS VOYAGES\"\nPreserve accents, apostrophes and spelling exactly. No other text.",
+  "before_examples": "## Contenu\n\nCette liste décrit des éléments à prévoir dans les prompts, sans garantir leur disponibilité. Vérifiez les entrées, le montage, la prolongation, le son et la résolution dans le modèle choisi sur SeaImagine. Testez d’abord la composition, les paroles et le texte avec un aperçu disponible. L’API de Google (interface de programmation) et l’interface SeaImagine sont distinctes.\n\n- Texte-vers-vidéo, image-vers-vidéo, première/dernière image et références de sujets.\n- Conception conjointe de l’image, des ambiances, du bruitage, de la musique originale, du silence et du dialogue.\n- Règles de dialogue et de texte à l’écran pour 15 langues."
 }

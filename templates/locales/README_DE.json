@@ -29,5 +29,6 @@
       "prompts/storyboard-text-evaluation.md"
     ]
   ],
-  "dialogue": "Spoken language: German.\nExact dialogue at 6s, spoken once with natural conversational pacing: \"Lass uns heute den längeren Weg nach Hause nehmen.\"\nDo not translate, paraphrase, repeat or subtitle it.\n\nExact on-screen German title: \"KLEINE REISEN\"\nAllow enough width for German compound words. No other text."
+  "dialogue": "Spoken language: German.\nExact dialogue at 6s, spoken once with natural conversational pacing: \"Lass uns heute den längeren Weg nach Hause nehmen.\"\nDo not translate, paraphrase, repeat or subtitle it.\n\nExact on-screen German title: \"KLEINE REISEN\"\nAllow enough width for German compound words. No other text.",
+  "before_examples": "## Enthalten\n\nDie Liste beschreibt Themen für die Prompt-Planung, keine zugesicherten Funktionen. Prüfe Eingaben, Bearbeitung, Verlängerung, Ton und Auflösung beim gewählten Modell in SeaImagine. Prüfe zuerst Bildaufbau, Sprache und Text mit einer verfügbaren Vorschau. Googles Programmierschnittstelle (API) und die SeaImagine-Oberfläche sind getrennte Angebote.\n\n- Text-zu-Video, Bild-zu-Video, erstes/letztes Bild sowie Personen- und Produktreferenzen.\n- Gemeinsame Planung von Bild, Atmosphäre, Foley, Originalmusik, Stille und Dialog.\n- Dialog-, Bildschirmtext- und Prüfregeln für 15 Sprachen."
 }
