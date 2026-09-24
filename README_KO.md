@@ -1,58 +1,59 @@
-# Gemini Omni 프롬프트 모음
+<div align="center">
 
 ![Gemini Omni 프롬프트 모음](assets/seaimagine-omni-hero.png)
 
-[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md) · [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
+# Gemini Omni 프롬프트 모음
 
-<a id="video-studies"></a>
+**원본 라이브러리의 완전한 레시피 60개를 7개 분류로 모았습니다. 장면, 동작의 시점, 카메라와 소리를 설명하는 법을 배우고 원하는 아이디어에 맞게 바꿔 보세요.**
 
-## 공식·커뮤니티 사례에서 배울 점
+[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md)
 
-Google 공식 영상은 Omni 1.1 Flash 시연입니다. 커뮤니티 게시물은 2026년 5월의 초기 Omni / Flash 사례이며 1.1 실측으로 확인되지 않았습니다. 근거는 FxTwitter 미러의 글과 미디어 정보이고, X에서의 원본 재생은 검증하지 않았습니다. 외부 사례이므로 사용 중인 플랫폼의 생성 결과를 뜻하지 않습니다. 지원 기능은 각 도구에서 확인하세요.
+[Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
 
-### Google: 첫 프레임과 마지막 프레임 연결
 
-[원본 사례 보기](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-시작 이미지, 끝 이미지, 그 사이의 연속 동작을 각각 정합니다.
+[프롬프트 60개 전체](#prompt-collections) · [복사해서 사용할 예시 3개](#source-examples) · [공식 및 커뮤니티 사례](#video-studies) · [다국어 안내](docs/multilingual-guide.md)
 
-같은 물체를 자연스럽게 연결할 수 있는 각도로 두 장 촬영하세요. 첫·마지막 프레임 기능이 있다면 단순한 동작으로 연결하세요.
+</div>
 
-### Google: 장면 연장
+## 포함 내용
 
-[원본 사례 보기](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
+아래 목록은 프롬프트에서 계획할 내용이며 기능 제공을 보장하지 않습니다. 사용하는 도구에서 선택한 모델과 현재 화면을 살펴보고 입력 자료, 편집, 연장, 소리, 해상도 지원 여부를 확인하세요. 먼저 제공되는 미리보기 설정으로 구도, 발음, 글자를 확인하세요. Google API(프로그램 호출 인터페이스)와 사용하는 도구의 웹 화면은 별개입니다.
 
-대상과 이동 방향을 유지하면서 다음 카메라 움직임을 설명합니다.
+- 텍스트-비디오, 이미지-비디오, 첫/마지막 프레임, 인물·제품 이미지, 짧은 비디오 참조.
+- 환경음, 폴리, 오리지널 음악, 침묵, 대사 타이밍을 함께 설계하는 방법.
+- 15개 언어의 대사, 화면 문자, 줄바꿈, 발음, 원어민 검수 가이드.
 
-직접 찍은 짧은 영상을 사용하세요. 연장 기능이 있다면 한 동작만 이어 붙이고 연결 지점의 움직임과 조명을 확인하세요.
+## 한국어 대사 지정하기
 
-### CHRIS FIRST: 사람을 홍학으로 바꾸기
+필요하면 장면 지시는 영어로 유지하고 대사와 화면 문구는 한국어로 정확히 지정하세요. 발음, 맞춤법, 타이밍을 확인하세요.
 
-<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST: 사람을 홍학으로 바꾸기" width="300"></a>
+```text
+Spoken language: Korean.
+Exact dialogue at 6s, spoken once with natural conversational pacing: "오늘은 조금 돌아서 집에 가자."
+Do not translate, paraphrase, repeat or subtitle it.
 
-[원본 사례 보기](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
+Exact on-screen Korean title: "작은 여행"
+Use large readable Hangul syllable blocks. No other text.
+```
 
-대상은 바꾸되 의상과 동작은 유지하도록 지정하고 팔다리가 닿는 부분을 확인합니다.
+<a id="prompt-collections"></a>
 
-직접 찍은 영상에서 편집 기능을 사용할 수 있다면 대상 하나만 바꾸세요. 전후의 의상, 자세, 지면 접촉을 비교하세요.
+## 프롬프트 60개 전체
 
-### Justine Moore: 박수마다 모자 바꾸기
+앞의 5개 모음은 중국어 설명, 뒤의 2개는 영어 설명입니다. 복사할 제어 프롬프트는 모두 영어입니다. 모음 본문 전체가 번역된 것은 아닙니다.
 
-<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore: 박수마다 모자 바꾸기" width="300"></a>
+- [영화와 스토리텔링: 8개](prompts/cinematic-storytelling.md)
+- [광고와 소셜 미디어: 8개](prompts/commerce-social.md)
+- [다큐멘터리, 여행, 교육: 8개](prompts/documentary-education.md)
+- [애니메이션, 음악, 엔터테인먼트: 8개](prompts/stylized-entertainment.md)
+- [멀티모달 제어, 편집, 확장: 10개](prompts/control-editing-extension.md)
+- [고급 편집, 카메라, 시각 변환: 9개](prompts/advanced-editing-camera.md)
+- [스토리보드, 분할 화면, 텍스트, 평가: 9개](prompts/storyboard-text-evaluation.md)
 
-[원본 사례 보기](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
 
-눈에 보이는 동작으로 변경 시점을 정하고 얼굴, 의상, 카메라는 유지합니다.
 
-카메라를 고정하고 박수를 두 번 분명하게 치는 영상을 찍으세요. 영상 편집이 가능하면 박수마다 모자를 바꾸도록 요청하고 프레임별로 시점을 확인하세요.
-
-[공식 및 커뮤니티 사례](docs/community-examples.md)
-
-## 사례를 보고 내 프롬프트 만들기
-
-원본 라이브러리의 완전한 레시피 60개를 7개 분류로 모았습니다. 장면, 동작의 시점, 카메라와 소리를 설명하는 법을 배우고 원하는 아이디어에 맞게 바꿔 보세요.
-
-### 첫 프롬프트 사용하기
+## 첫 프롬프트 사용하기
 
 1. 만들고 싶은 장면과 비슷한 예시를 골라 프롬프트 전체를 복사하세요.
 2. 예시에 맞는 참고 이미지를 내려받으세요. 사용하는 도구가 첫 프레임 설정을 지원하면 해당 이미지를 지정하세요.
@@ -109,38 +110,49 @@ Keep the clockmaker's face, clothes and goggles consistent. No photorealism, sub
 
 
 
-## 포함 내용
+<a id="video-studies"></a>
 
-아래 목록은 프롬프트에서 계획할 내용이며 기능 제공을 보장하지 않습니다. 사용하는 도구에서 선택한 모델과 현재 화면을 살펴보고 입력 자료, 편집, 연장, 소리, 해상도 지원 여부를 확인하세요. 먼저 제공되는 미리보기 설정으로 구도, 발음, 글자를 확인하세요. Google API(프로그램 호출 인터페이스)와 사용하는 도구의 웹 화면은 별개입니다.
+## 공식·커뮤니티 사례에서 배울 점
 
-- 텍스트-비디오, 이미지-비디오, 첫/마지막 프레임, 인물·제품 이미지, 짧은 비디오 참조.
-- 환경음, 폴리, 오리지널 음악, 침묵, 대사 타이밍을 함께 설계하는 방법.
-- 15개 언어의 대사, 화면 문자, 줄바꿈, 발음, 원어민 검수 가이드.
+Google 공식 영상은 Omni 1.1 Flash 시연입니다. 커뮤니티 게시물은 2026년 5월의 초기 Omni / Flash 사례이며 1.1 실측으로 확인되지 않았습니다. 근거는 FxTwitter 미러의 글과 미디어 정보이고, X에서의 원본 재생은 검증하지 않았습니다. 외부 사례이므로 사용 중인 플랫폼의 생성 결과를 뜻하지 않습니다. 지원 기능은 각 도구에서 확인하세요.
 
-## 프롬프트 60개 전체
+### Google: 첫 프레임과 마지막 프레임 연결
 
-앞의 5개 모음은 중국어 설명, 뒤의 2개는 영어 설명입니다. 복사할 제어 프롬프트는 모두 영어입니다. 모음 본문 전체가 번역된 것은 아닙니다.
+[원본 사례 보기](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-- [영화와 스토리텔링: 8개](prompts/cinematic-storytelling.md)
-- [광고와 소셜 미디어: 8개](prompts/commerce-social.md)
-- [다큐멘터리, 여행, 교육: 8개](prompts/documentary-education.md)
-- [애니메이션, 음악, 엔터테인먼트: 8개](prompts/stylized-entertainment.md)
-- [멀티모달 제어, 편집, 확장: 10개](prompts/control-editing-extension.md)
-- [고급 편집, 카메라, 시각 변환: 9개](prompts/advanced-editing-camera.md)
-- [스토리보드, 분할 화면, 텍스트, 평가: 9개](prompts/storyboard-text-evaluation.md)
+시작 이미지, 끝 이미지, 그 사이의 연속 동작을 각각 정합니다.
 
-## 한국어 대사 지정하기
+같은 물체를 자연스럽게 연결할 수 있는 각도로 두 장 촬영하세요. 첫·마지막 프레임 기능이 있다면 단순한 동작으로 연결하세요.
 
-필요하면 장면 지시는 영어로 유지하고 대사와 화면 문구는 한국어로 정확히 지정하세요. 발음, 맞춤법, 타이밍을 확인하세요.
+### Google: 장면 연장
 
-```text
-Spoken language: Korean.
-Exact dialogue at 6s, spoken once with natural conversational pacing: "오늘은 조금 돌아서 집에 가자."
-Do not translate, paraphrase, repeat or subtitle it.
+[원본 사례 보기](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-Exact on-screen Korean title: "작은 여행"
-Use large readable Hangul syllable blocks. No other text.
-```
+대상과 이동 방향을 유지하면서 다음 카메라 움직임을 설명합니다.
+
+직접 찍은 짧은 영상을 사용하세요. 연장 기능이 있다면 한 동작만 이어 붙이고 연결 지점의 움직임과 조명을 확인하세요.
+
+### CHRIS FIRST: 사람을 홍학으로 바꾸기
+
+<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST: 사람을 홍학으로 바꾸기" width="300"></a>
+
+[원본 사례 보기](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
+
+대상은 바꾸되 의상과 동작은 유지하도록 지정하고 팔다리가 닿는 부분을 확인합니다.
+
+직접 찍은 영상에서 편집 기능을 사용할 수 있다면 대상 하나만 바꾸세요. 전후의 의상, 자세, 지면 접촉을 비교하세요.
+
+### Justine Moore: 박수마다 모자 바꾸기
+
+<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore: 박수마다 모자 바꾸기" width="300"></a>
+
+[원본 사례 보기](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
+
+눈에 보이는 동작으로 변경 시점을 정하고 얼굴, 의상, 카메라는 유지합니다.
+
+카메라를 고정하고 박수를 두 번 분명하게 치는 영상을 찍으세요. 영상 편집이 가능하면 박수마다 모자를 바꾸도록 요청하고 프레임별로 시점을 확인하세요.
+
+[공식 및 커뮤니티 사례](docs/community-examples.md)
 
 ## 더 읽기
 

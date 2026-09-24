@@ -43,7 +43,7 @@ def studies_section(code):
 
 def library_intro(code):
     e=read('editorial-copy.json')[code]
-    return '\n\n'.join([f'## {e["library_heading"]}',e['library_intro'],f'### {e["usage_heading"]}', '\n'.join(f'{i}. {v}' for i,v in enumerate(e['usage_steps'],1))])
+    return '\n\n'.join([f'## {e["usage_heading"]}', '\n'.join(f'{i}. {v}' for i,v in enumerate(e['usage_steps'],1))])
 
 def update_english():
     p=ROOT/'README.md';s=p.read_text()

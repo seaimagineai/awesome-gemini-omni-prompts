@@ -1,58 +1,59 @@
-# คลังพรอมป์ต์ Gemini Omni
+<div align="center">
 
 ![คลังพรอมป์ต์ Gemini Omni](assets/seaimagine-omni-hero.png)
 
-[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md) · [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
+# คลังพรอมป์ต์ Gemini Omni
 
-<a id="video-studies"></a>
+**รวมพรอมป์ต์ฉบับเต็ม 60 สูตรจากคลังต้นฉบับ แบ่งเป็น 7 หมวด เรียนรู้วิธีบรรยายฉาก กำหนดเวลาของแต่ละการกระทำ ควบคุมกล้องและเสียง แล้วปรับตัวอย่างให้เข้ากับไอเดียของคุณ**
 
-## เรียนรู้อะไรจากตัวอย่างทางการและชุมชน
+[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md)
 
-วิดีโออย่างเป็นทางการของ Google สาธิต Omni 1.1 Flash ส่วนโพสต์จากชุมชนเผยแพร่ในเดือนพฤษภาคม 2026 และเป็นตัวอย่างของ Omni / Flash รุ่นแรก ยังไม่ได้ยืนยันว่าเป็นการทดสอบรุ่น 1.1 หลักฐานของชุมชนมาจากข้อความและข้อมูลกำกับสื่อบนเว็บไซต์สำเนา FxTwitter โดยยังไม่ได้ตรวจสอบการเล่นวิดีโอต้นฉบับบน X ตัวอย่างเหล่านี้มาจากแหล่งภายนอก ไม่ใช่ผลลัพธ์จากแพลตฟอร์มที่คุณใช้ โปรดตรวจสอบฟังก์ชันที่มีในเครื่องมือของคุณ
+[Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
 
-### Google: เชื่อมเฟรมแรกกับเฟรมสุดท้าย
 
-[ดูตัวอย่างต้นฉบับ](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-กำหนดภาพเริ่มต้น ภาพสุดท้าย และการเคลื่อนไหวต่อเนื่องระหว่างสองภาพแยกกัน
+[พรอมป์ทั้งหมด 60 รายการ](#prompt-collections) · [พรอมป์ 3 ชุดสำหรับคัดลอก](#source-examples) · [ตัวอย่างทางการและจากชุมชน](#video-studies) · [คู่มือหลายภาษา](docs/multilingual-guide.md)
 
-ถ่ายวัตถุชิ้นเดียวกันสองภาพจากมุมที่เชื่อมกันได้ หากมีฟังก์ชันเฟรมแรกและเฟรมสุดท้าย ให้เชื่อมด้วยการเคลื่อนไหวง่าย ๆ
+</div>
 
-### Google: ต่อความยาวของช็อต
+## เนื้อหา
 
-[ดูตัวอย่างต้นฉบับ](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
+รายการนี้เป็นสิ่งที่วางแผนในพรอมป์ได้ ไม่ใช่การรับรองว่ามีทุกฟังก์ชัน โปรดตรวจสอบว่าโมเดลที่เลือกในเครื่องมือของคุณรองรับข้อมูลนำเข้า การแก้ไข การต่อวิดีโอ เสียง และความละเอียดใดบ้าง เริ่มตรวจองค์ประกอบ คำพูด และข้อความด้วยการตั้งค่าตัวอย่างที่มีให้ API ของ Google (ช่องทางเรียกใช้ด้วยโปรแกรม) เป็นคนละบริการกับหน้าเว็บของเครื่องมือที่คุณใช้
 
-อธิบายการเคลื่อนกล้องถัดไปโดยคงตัวแบบและทิศทางการเคลื่อนไหว
+- ข้อความเป็นวิดีโอ ภาพเป็นวิดีโอ เฟรมแรก/สุดท้าย และภาพอ้างอิงตัวละครหรือสินค้า
+- การออกแบบภาพ เสียงบรรยากาศ โฟลีย์ ดนตรีต้นฉบับ ความเงียบ และบทพูดร่วมกัน
+- แนวทางบทพูด ข้อความบนจอ การตัดบรรทัด และการตรวจโดยเจ้าของภาษา 15 ภาษา
 
-ใช้คลิปสั้นของคุณเอง หากต่อความยาวได้ ให้เพิ่มเพียงช่วงเดียว แล้วตรวจรอยต่อว่าการเคลื่อนไหวหรือแสงกระโดดหรือไม่
+## บทพูดภาษาไทย
 
-### CHRIS FIRST: เปลี่ยนคนเป็นนกฟลามิงโก
+อาจคงคำสั่งฉากเป็นภาษาอังกฤษ และระบุบทพูดกับข้อความบนจอเป็นภาษาไทยให้ตรงตามต้องการ ตรวจสอบการออกเสียง การสะกด และจังหวะเวลา
 
-<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST: เปลี่ยนคนเป็นนกฟลามิงโก" width="300"></a>
+```text
+Spoken language: Thai.
+Exact dialogue at 6s, spoken once with natural conversational pacing: "วันนี้กลับบ้านทางอ้อมกันเถอะ"
+Do not translate, paraphrase, repeat or subtitle it.
 
-[ดูตัวอย่างต้นฉบับ](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
+Exact on-screen Thai title: "การเดินทางเล็ก ๆ"
+Keep it on one line with large readable Thai text. No other text.
+```
 
-เปลี่ยนตัวแบบแต่ระบุให้คงเสื้อผ้าและท่าทางไว้ ตรวจจุดสัมผัสของแขนขาด้วย
+<a id="prompt-collections"></a>
 
-หากแก้ไขวิดีโอได้ ให้เปลี่ยนตัวแบบเพียงตัวเดียวในคลิปของคุณ เปรียบเทียบเสื้อผ้า ท่าทาง และจุดสัมผัสพื้นก่อนกับหลัง
+## พรอมป์ทั้งหมด 60 รายการ
 
-### Justine Moore: เปลี่ยนหมวกทุกครั้งที่ปรบมือ
+คำอธิบายของ 5 หมวดแรกเป็นภาษาจีน และ 2 หมวดสุดท้ายเป็นภาษาอังกฤษ พรอมป์ควบคุมที่คัดลอกได้ทั้งหมดเป็นภาษาอังกฤษ เนื้อหาแต่ละหมวดยังไม่ได้แปลครบทุกภาษา
 
-<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore: เปลี่ยนหมวกทุกครั้งที่ปรบมือ" width="300"></a>
+- [ภาพยนตร์และการเล่าเรื่อง: 8 รายการ](prompts/cinematic-storytelling.md)
+- [โฆษณาและโซเชียลมีเดีย: 8 รายการ](prompts/commerce-social.md)
+- [สารคดี ท่องเที่ยว และการศึกษา: 8 รายการ](prompts/documentary-education.md)
+- [แอนิเมชัน ดนตรี และความบันเทิง: 8 รายการ](prompts/stylized-entertainment.md)
+- [การควบคุม การแก้ไข และการต่อวิดีโอ: 10 รายการ](prompts/control-editing-extension.md)
+- [การแก้ไขขั้นสูง กล้อง และการแปลงภาพ: 9 รายการ](prompts/advanced-editing-camera.md)
+- [สตอรีบอร์ด แบ่งหน้าจอ ข้อความ และการประเมิน: 9 รายการ](prompts/storyboard-text-evaluation.md)
 
-[ดูตัวอย่างต้นฉบับ](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
 
-ใช้ท่าทางที่มองเห็นชัดเป็นจังหวะเปลี่ยน โดยคงใบหน้า เสื้อผ้า และกล้องไว้
 
-ตั้งกล้องนิ่งและถ่ายการปรบมือชัด ๆ สองครั้ง หากแก้ไขวิดีโอได้ ให้เปลี่ยนหมวกทุกครั้งที่ปรบมือ แล้วตรวจจังหวะทีละเฟรม
-
-[ตัวอย่างทางการและจากชุมชน](docs/community-examples.md)
-
-## จากตัวอย่าง สู่พรอมป์ต์ที่คุณลองใช้ได้
-
-รวมพรอมป์ต์ฉบับเต็ม 60 สูตรจากคลังต้นฉบับ แบ่งเป็น 7 หมวด เรียนรู้วิธีบรรยายฉาก กำหนดเวลาของแต่ละการกระทำ ควบคุมกล้องและเสียง แล้วปรับตัวอย่างให้เข้ากับไอเดียของคุณ
-
-### ลองใช้พรอมป์ต์แรก
+## ลองใช้พรอมป์ต์แรก
 
 1. เลือกตัวอย่างฉบับเต็มที่ใกล้เคียงกับฉากที่อยากสร้าง แล้วคัดลอกพรอมป์ต์ทั้งหมด
 2. ดาวน์โหลดภาพอ้างอิงที่ตรงกับตัวอย่าง แล้วตั้งเป็นเฟรมแรก หากเครื่องมือที่ใช้รองรับ
@@ -109,38 +110,49 @@ Keep the clockmaker's face, clothes and goggles consistent. No photorealism, sub
 
 
 
-## เนื้อหา
+<a id="video-studies"></a>
 
-รายการนี้เป็นสิ่งที่วางแผนในพรอมป์ได้ ไม่ใช่การรับรองว่ามีทุกฟังก์ชัน โปรดตรวจสอบว่าโมเดลที่เลือกในเครื่องมือของคุณรองรับข้อมูลนำเข้า การแก้ไข การต่อวิดีโอ เสียง และความละเอียดใดบ้าง เริ่มตรวจองค์ประกอบ คำพูด และข้อความด้วยการตั้งค่าตัวอย่างที่มีให้ API ของ Google (ช่องทางเรียกใช้ด้วยโปรแกรม) เป็นคนละบริการกับหน้าเว็บของเครื่องมือที่คุณใช้
+## เรียนรู้อะไรจากตัวอย่างทางการและชุมชน
 
-- ข้อความเป็นวิดีโอ ภาพเป็นวิดีโอ เฟรมแรก/สุดท้าย และภาพอ้างอิงตัวละครหรือสินค้า
-- การออกแบบภาพ เสียงบรรยากาศ โฟลีย์ ดนตรีต้นฉบับ ความเงียบ และบทพูดร่วมกัน
-- แนวทางบทพูด ข้อความบนจอ การตัดบรรทัด และการตรวจโดยเจ้าของภาษา 15 ภาษา
+วิดีโออย่างเป็นทางการของ Google สาธิต Omni 1.1 Flash ส่วนโพสต์จากชุมชนเผยแพร่ในเดือนพฤษภาคม 2026 และเป็นตัวอย่างของ Omni / Flash รุ่นแรก ยังไม่ได้ยืนยันว่าเป็นการทดสอบรุ่น 1.1 หลักฐานของชุมชนมาจากข้อความและข้อมูลกำกับสื่อบนเว็บไซต์สำเนา FxTwitter โดยยังไม่ได้ตรวจสอบการเล่นวิดีโอต้นฉบับบน X ตัวอย่างเหล่านี้มาจากแหล่งภายนอก ไม่ใช่ผลลัพธ์จากแพลตฟอร์มที่คุณใช้ โปรดตรวจสอบฟังก์ชันที่มีในเครื่องมือของคุณ
 
-## พรอมป์ทั้งหมด 60 รายการ
+### Google: เชื่อมเฟรมแรกกับเฟรมสุดท้าย
 
-คำอธิบายของ 5 หมวดแรกเป็นภาษาจีน และ 2 หมวดสุดท้ายเป็นภาษาอังกฤษ พรอมป์ควบคุมที่คัดลอกได้ทั้งหมดเป็นภาษาอังกฤษ เนื้อหาแต่ละหมวดยังไม่ได้แปลครบทุกภาษา
+[ดูตัวอย่างต้นฉบับ](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-- [ภาพยนตร์และการเล่าเรื่อง: 8 รายการ](prompts/cinematic-storytelling.md)
-- [โฆษณาและโซเชียลมีเดีย: 8 รายการ](prompts/commerce-social.md)
-- [สารคดี ท่องเที่ยว และการศึกษา: 8 รายการ](prompts/documentary-education.md)
-- [แอนิเมชัน ดนตรี และความบันเทิง: 8 รายการ](prompts/stylized-entertainment.md)
-- [การควบคุม การแก้ไข และการต่อวิดีโอ: 10 รายการ](prompts/control-editing-extension.md)
-- [การแก้ไขขั้นสูง กล้อง และการแปลงภาพ: 9 รายการ](prompts/advanced-editing-camera.md)
-- [สตอรีบอร์ด แบ่งหน้าจอ ข้อความ และการประเมิน: 9 รายการ](prompts/storyboard-text-evaluation.md)
+กำหนดภาพเริ่มต้น ภาพสุดท้าย และการเคลื่อนไหวต่อเนื่องระหว่างสองภาพแยกกัน
 
-## บทพูดภาษาไทย
+ถ่ายวัตถุชิ้นเดียวกันสองภาพจากมุมที่เชื่อมกันได้ หากมีฟังก์ชันเฟรมแรกและเฟรมสุดท้าย ให้เชื่อมด้วยการเคลื่อนไหวง่าย ๆ
 
-อาจคงคำสั่งฉากเป็นภาษาอังกฤษ และระบุบทพูดกับข้อความบนจอเป็นภาษาไทยให้ตรงตามต้องการ ตรวจสอบการออกเสียง การสะกด และจังหวะเวลา
+### Google: ต่อความยาวของช็อต
 
-```text
-Spoken language: Thai.
-Exact dialogue at 6s, spoken once with natural conversational pacing: "วันนี้กลับบ้านทางอ้อมกันเถอะ"
-Do not translate, paraphrase, repeat or subtitle it.
+[ดูตัวอย่างต้นฉบับ](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-Exact on-screen Thai title: "การเดินทางเล็ก ๆ"
-Keep it on one line with large readable Thai text. No other text.
-```
+อธิบายการเคลื่อนกล้องถัดไปโดยคงตัวแบบและทิศทางการเคลื่อนไหว
+
+ใช้คลิปสั้นของคุณเอง หากต่อความยาวได้ ให้เพิ่มเพียงช่วงเดียว แล้วตรวจรอยต่อว่าการเคลื่อนไหวหรือแสงกระโดดหรือไม่
+
+### CHRIS FIRST: เปลี่ยนคนเป็นนกฟลามิงโก
+
+<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST: เปลี่ยนคนเป็นนกฟลามิงโก" width="300"></a>
+
+[ดูตัวอย่างต้นฉบับ](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
+
+เปลี่ยนตัวแบบแต่ระบุให้คงเสื้อผ้าและท่าทางไว้ ตรวจจุดสัมผัสของแขนขาด้วย
+
+หากแก้ไขวิดีโอได้ ให้เปลี่ยนตัวแบบเพียงตัวเดียวในคลิปของคุณ เปรียบเทียบเสื้อผ้า ท่าทาง และจุดสัมผัสพื้นก่อนกับหลัง
+
+### Justine Moore: เปลี่ยนหมวกทุกครั้งที่ปรบมือ
+
+<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore: เปลี่ยนหมวกทุกครั้งที่ปรบมือ" width="300"></a>
+
+[ดูตัวอย่างต้นฉบับ](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
+
+ใช้ท่าทางที่มองเห็นชัดเป็นจังหวะเปลี่ยน โดยคงใบหน้า เสื้อผ้า และกล้องไว้
+
+ตั้งกล้องนิ่งและถ่ายการปรบมือชัด ๆ สองครั้ง หากแก้ไขวิดีโอได้ ให้เปลี่ยนหมวกทุกครั้งที่ปรบมือ แล้วตรวจจังหวะทีละเฟรม
+
+[ตัวอย่างทางการและจากชุมชน](docs/community-examples.md)
 
 ## อ่านเพิ่มเติม
 

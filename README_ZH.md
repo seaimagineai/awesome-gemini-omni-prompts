@@ -1,58 +1,97 @@
-# Gemini Omni 提示词库
+<div align="center">
 
 ![Gemini Omni 提示词库](assets/seaimagine-omni-hero.png)
 
-[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md) · [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
+# Gemini Omni 提示词库
 
-<a id="video-studies"></a>
+**本库收录源库的 60 条完整配方，分为 7 类。跟着示例学习如何交代场景、安排动作时间、控制镜头和声音，再改成自己的创意。**
 
-## 从官方与社区案例学什么
+[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md)
 
-Google 视频是 Omni 1.1 Flash 官方展示。社区帖子发布于 2026 年 5 月，属于早期 Omni / Flash 案例，未核实为 1.1 实测。社区证据来自 FxTwitter 镜像的文字和媒体元数据，未核验 X 原生播放。这些是独立来源的案例，不代表你所用平台的生成结果；具体功能请查看所用工具。
+[Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
 
-### Google：首尾帧转场
+[![License: MIT](https://img.shields.io/badge/License-MIT-6f42c1.svg)](LICENSE)
+[![Prompt recipes](https://img.shields.io/badge/prompt_recipes-60-00b8d9.svg)](#prompt-collections)
+[![Languages](https://img.shields.io/badge/localization_guides-15-ff8a00.svg)](docs/multilingual-guide.md)
+[![Model](https://img.shields.io/badge/model-gemini--omni--1.1--flash-4285f4.svg)](https://ai.google.dev/gemini-api/docs/omni)
 
-[查看原始案例](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
+[全部 60 条提示词](#prompt-collections) · [三个可复制的示例](#source-examples) · [官方与社区案例](#video-studies) · [多语言指南](docs/multilingual-guide.md)
 
-分别确定起始画面、结束画面和两者之间连续的运动。
+</div>
 
-为同一物体准备两张角度相容的照片；如果支持首尾帧，用一个简单动作连接两张图。
+## 一分钟找到合适的提示词
 
-### Google：延长镜头
+| 你的起点或目标 | 从这里开始 |
+|---|---|
+| 只有一个概念、剧本或镜头想法 | [电影与叙事](prompts/cinematic-storytelling.md) |
+| 有产品图、店铺、服装或商业目标 | [商业广告与社交媒体](prompts/commerce-social.md) |
+| 需要旅行、自然、历史、科学或建筑内容 | [纪录片、旅行与教育](prompts/documentary-education.md) |
+| 想做动画、音乐、舞蹈、喜剧或无缝循环 | [动画、音乐与娱乐](prompts/stylized-entertainment.md) |
+| 已有首帧、尾帧、角色图、短视频或待编辑视频 | [多模态控制、编辑与续写](prompts/control-editing-extension.md) |
+| 需要对象替换、环境换景、换机位、风格隔离、AR 或特效 | [进阶编辑、镜头与视觉变换](prompts/advanced-editing-camera.md) |
+| 已有九宫格故事板、流程图，或要做分屏、动效文字、多语言标题与评测 | [故事板、文字与评测](prompts/storyboard-text-evaluation.md) |
+| 想看官方演示，或寻找授权条件清晰的参考视频 | [参考视频与授权指南](docs/reference-videos.md) |
+| 需要中文、日语、韩语、法语等对白或屏幕文字 | [15 种语言本地化指南](docs/multilingual-guide.md) |
+| 提示词出现角色漂移、文字乱码或声音拥挤 | [失败诊断与提示词设计指南](docs/prompting-guide.md) |
+| 准备用 Python、JavaScript 或 REST 接入 | [Google Gemini API 快速开始（程序调用，与所选工具网页分开）](docs/api-quickstart.md) |
 
-[查看原始案例](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
+## 按创作目标理解提示词
 
-续写下一段镜头运动，同时保持主体与运动方向一致。
+以下对照表帮助你写清素材职责、动作与修改范围，不代表所选工具已支持全部方式。先在所选模型页面确认输入类型、编辑、续写、声音和时长，再复制对应提示词。`<FIRST_FRAME>` 等是素材职责标签；如果网页没有对应输入栏，它们不能开启额外功能。
 
-使用自己的短片；如果支持延长，只增加一段连续动作，检查接缝处的运动和光线是否跳变。
+| 创作方式 | 最适合的任务 | 提示词重点 |
+|---|---|---|
+| 文本 → 带声音视频 | 概念片、叙事、广告、短视频 | 场景、主体动作、镜头、光线、声音、时间点 |
+| 图片 → 视频 | 产品图、照片、插画 | 明确首帧或参考；分别描述主体、相机、环境运动 |
+| 首帧 + 尾帧 | 转场、变身、季节变化、循环 | 锁定几何，解释连续变化机制，预留稳定尾帧 |
+| 多张参考图 | 角色、服装、道具与美术组合 | 使用 `<IMAGE_REF_N>`，每个素材只承担一个职责 |
+| 视频参考 | 动作、主体或镜头路径 | 使用 `<VIDEO_REF_N>`，明确不是待编辑源并忽略参考音频 |
+| 对话式编辑 | 换光线、增删物体、改风格、换文字 | 一轮只改一项，结尾写 `Keep everything else the same.` |
+| 片尾续写 | 连续故事、角色进场、音乐段落 | 说明接续或切场，并同步定义画面与声音连续性 |
+| 可读文字 | 标牌、标题卡、包装、动态字效 | 逐字引用，指定语言、位置、出现时间与唯一性 |
 
-### CHRIS FIRST：人物换成火烈鸟
+## 一条强提示词应该像导演简报
 
-<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST：人物换成火烈鸟" width="300"></a>
+```text
+[Mode] Text-to-video / Image-to-video / Reference-to-video / Edit / Extend
+[Goal] Audience, emotion, use, duration, aspect ratio
+[Reference roles] Image 1 is the first frame; Image 2 locks identity; Video 1 provides motion only
+[Visual anchors] Subject, wardrobe, product geometry, set, time, palette
+[Timeline] Setup → action → change → deliberate final frame
+[Camera] Shot size, height, path, speed, focus, stopping point
+[Performance and physics] Gaze, hands, weight, inertia, contact, cloth, water
+[Audio] Dialogue, ambience, foley, original music, synchronization cues, silence
+[Continuity] What must never change
+[Avoid] Morphing, duplicates, extra limbs, fake text, logos, watermarks
+```
 
-[查看原始案例](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
+### 10 秒可复制母版
 
-更换主体时明确保留服装和动作，并检查肢体接触位置。
+```text
+Format: 9:16 vertical video, 10 seconds.
+Goal: [让哪类观众产生什么感受或行动]
 
-使用自己的视频；如果支持视频编辑，只替换一个主体，对比前后的服装、姿势及与地面的接触。
+Scene: [地点、时间、天气、空间关系]
+Subject: [3-5 个稳定识别锚点]
+Subject motion: [按顺序写主体动作]
+Camera motion: [机位、景别、路径、速度、焦点]
+Environment motion: [风、光、水、粒子、人群]
 
-### Justine Moore：每次拍手换一顶帽子
+[0-3s] [钩子与空间建立]
+[3-7s] [核心动作与升级]
+[7-10s] [结果与明确尾帧]
 
-<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore：每次拍手换一顶帽子" width="300"></a>
+Look: [媒介、光线、色彩、材料]
+Audio: [前景拟音、环境、音乐进入/退出、静默]
+Exact dialogue in [language], spoken once: "[逐字对白]"
+Exact on-screen text in [language]: "[逐字文案]"
+Preserve: [身份、产品、场景、动作、声音]
+Do not include: [短而具体的排除项]
+```
 
-[查看原始案例](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
+[查看完整提示词设计方法 →](docs/prompting-guide.md)
 
-用可见动作决定变化时刻，同时保持人脸、服装和镜头一致。
-
-固定机位拍摄两次清楚的拍手；如果支持视频编辑，要求每次拍手换帽，逐帧检查变化时刻。
-
-[官方与社区案例](docs/community-examples.md)
-
-## 从看案例，到动手写提示词
-
-本库收录源库的 60 条完整配方，分为 7 类。跟着示例学习如何交代场景、安排动作时间、控制镜头和声音，再改成自己的创意。
-
-### 开始你的第一次尝试
+## 开始你的第一次尝试
 
 1. 选择一个接近你想做的场景的完整示例，复制全部提示词。
 2. 下载示例对应的参考图；如果所用工具支持首帧，请将图片设为首帧。
@@ -109,36 +148,7 @@ Keep the clockmaker's face, clothes and goggles consistent. No photorealism, sub
 
 
 
-## 一分钟找到合适的提示词
-
-| 你的起点或目标 | 从这里开始 |
-|---|---|
-| 只有一个概念、剧本或镜头想法 | [电影与叙事](prompts/cinematic-storytelling.md) |
-| 有产品图、店铺、服装或商业目标 | [商业广告与社交媒体](prompts/commerce-social.md) |
-| 需要旅行、自然、历史、科学或建筑内容 | [纪录片、旅行与教育](prompts/documentary-education.md) |
-| 想做动画、音乐、舞蹈、喜剧或无缝循环 | [动画、音乐与娱乐](prompts/stylized-entertainment.md) |
-| 已有首帧、尾帧、角色图、短视频或待编辑视频 | [多模态控制、编辑与续写](prompts/control-editing-extension.md) |
-| 需要对象替换、环境换景、换机位、风格隔离、AR 或特效 | [进阶编辑、镜头与视觉变换](prompts/advanced-editing-camera.md) |
-| 已有九宫格故事板、流程图，或要做分屏、动效文字、多语言标题与评测 | [故事板、文字与评测](prompts/storyboard-text-evaluation.md) |
-| 想看官方演示，或寻找授权条件清晰的参考视频 | [参考视频与授权指南](docs/reference-videos.md) |
-| 需要中文、日语、韩语、法语等对白或屏幕文字 | [15 种语言本地化指南](docs/multilingual-guide.md) |
-| 提示词出现角色漂移、文字乱码或声音拥挤 | [失败诊断与提示词设计指南](docs/prompting-guide.md) |
-| 准备用 Python、JavaScript 或 REST 接入 | [Google Gemini API 快速开始（程序调用，与所选工具网页分开）](docs/api-quickstart.md) |
-
-## 按创作目标理解提示词
-
-以下对照表帮助你写清素材职责、动作与修改范围，不代表所选工具已支持全部方式。先在所选模型页面确认输入类型、编辑、续写、声音和时长，再复制对应提示词。`<FIRST_FRAME>` 等是素材职责标签；如果网页没有对应输入栏，它们不能开启额外功能。
-
-| 创作方式 | 最适合的任务 | 提示词重点 |
-|---|---|---|
-| 文本 → 带声音视频 | 概念片、叙事、广告、短视频 | 场景、主体动作、镜头、光线、声音、时间点 |
-| 图片 → 视频 | 产品图、照片、插画 | 明确首帧或参考；分别描述主体、相机、环境运动 |
-| 首帧 + 尾帧 | 转场、变身、季节变化、循环 | 锁定几何，解释连续变化机制，预留稳定尾帧 |
-| 多张参考图 | 角色、服装、道具与美术组合 | 使用 `<IMAGE_REF_N>`，每个素材只承担一个职责 |
-| 视频参考 | 动作、主体或镜头路径 | 使用 `<VIDEO_REF_N>`，明确不是待编辑源并忽略参考音频 |
-| 对话式编辑 | 换光线、增删物体、改风格、换文字 | 一轮只改一项，结尾写 `Keep everything else the same.` |
-| 片尾续写 | 连续故事、角色进场、音乐段落 | 说明接续或切场，并同步定义画面与声音连续性 |
-| 可读文字 | 标牌、标题卡、包装、动态字效 | 逐字引用，指定语言、位置、出现时间与唯一性 |
+<a id="prompt-collections"></a>
 
 ## 全部 60 条提示词
 
@@ -167,47 +177,6 @@ On-screen script: Simplified Chinese.
 Exact on-screen title, centered from 7s to 10s: "小小旅程"
 Preserve the exact characters. No other text.
 ```
-
-## 一条强提示词应该像导演简报
-
-```text
-[Mode] Text-to-video / Image-to-video / Reference-to-video / Edit / Extend
-[Goal] Audience, emotion, use, duration, aspect ratio
-[Reference roles] Image 1 is the first frame; Image 2 locks identity; Video 1 provides motion only
-[Visual anchors] Subject, wardrobe, product geometry, set, time, palette
-[Timeline] Setup → action → change → deliberate final frame
-[Camera] Shot size, height, path, speed, focus, stopping point
-[Performance and physics] Gaze, hands, weight, inertia, contact, cloth, water
-[Audio] Dialogue, ambience, foley, original music, synchronization cues, silence
-[Continuity] What must never change
-[Avoid] Morphing, duplicates, extra limbs, fake text, logos, watermarks
-```
-
-### 10 秒可复制母版
-
-```text
-Format: 9:16 vertical video, 10 seconds.
-Goal: [让哪类观众产生什么感受或行动]
-
-Scene: [地点、时间、天气、空间关系]
-Subject: [3-5 个稳定识别锚点]
-Subject motion: [按顺序写主体动作]
-Camera motion: [机位、景别、路径、速度、焦点]
-Environment motion: [风、光、水、粒子、人群]
-
-[0-3s] [钩子与空间建立]
-[3-7s] [核心动作与升级]
-[7-10s] [结果与明确尾帧]
-
-Look: [媒介、光线、色彩、材料]
-Audio: [前景拟音、环境、音乐进入/退出、静默]
-Exact dialogue in [language], spoken once: "[逐字对白]"
-Exact on-screen text in [language]: "[逐字文案]"
-Preserve: [身份、产品、场景、动作、声音]
-Do not include: [短而具体的排除项]
-```
-
-[查看完整提示词设计方法 →](docs/prompting-guide.md)
 
 ## 图生视频检查表
 
@@ -272,6 +241,50 @@ Preserve accents and spelling exactly. No other text anywhere.
 - [Google DeepMind：Gemini Omni Flash 模型卡](https://deepmind.google/models/model-cards/gemini-omni-flash/)
 
 参考视频的使用边界见[素材与授权指南](docs/reference-videos.md)。本项目是独立整理的学习资料，不代表 Google 官方背书；提示词的开源许可不替代生成平台条款或第三方素材授权。
+
+<a id="video-studies"></a>
+
+## 从官方与社区案例学什么
+
+Google 视频是 Omni 1.1 Flash 官方展示。社区帖子发布于 2026 年 5 月，属于早期 Omni / Flash 案例，未核实为 1.1 实测。社区证据来自 FxTwitter 镜像的文字和媒体元数据，未核验 X 原生播放。这些是独立来源的案例，不代表你所用平台的生成结果；具体功能请查看所用工具。
+
+### Google：首尾帧转场
+
+[查看原始案例](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
+
+分别确定起始画面、结束画面和两者之间连续的运动。
+
+为同一物体准备两张角度相容的照片；如果支持首尾帧，用一个简单动作连接两张图。
+
+### Google：延长镜头
+
+[查看原始案例](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
+
+续写下一段镜头运动，同时保持主体与运动方向一致。
+
+使用自己的短片；如果支持延长，只增加一段连续动作，检查接缝处的运动和光线是否跳变。
+
+### CHRIS FIRST：人物换成火烈鸟
+
+<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST：人物换成火烈鸟" width="300"></a>
+
+[查看原始案例](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
+
+更换主体时明确保留服装和动作，并检查肢体接触位置。
+
+使用自己的视频；如果支持视频编辑，只替换一个主体，对比前后的服装、姿势及与地面的接触。
+
+### Justine Moore：每次拍手换一顶帽子
+
+<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore：每次拍手换一顶帽子" width="300"></a>
+
+[查看原始案例](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
+
+用可见动作决定变化时刻，同时保持人脸、服装和镜头一致。
+
+固定机位拍摄两次清楚的拍手；如果支持视频编辑，要求每次拍手换帽，逐帧检查变化时刻。
+
+[官方与社区案例](docs/community-examples.md)
 
 ## 继续阅读
 

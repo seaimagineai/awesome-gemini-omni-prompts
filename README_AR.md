@@ -1,58 +1,61 @@
-# مكتبة أوامر Gemini Omni
+<div align="center">
 
 ![مكتبة أوامر Gemini Omni](assets/seaimagine-omni-hero.png)
 
-[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md) · [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
+# مكتبة أوامر Gemini Omni
 
-<a id="video-studies"></a>
+**استكشف 60 وصفة كاملة من المكتبة الأصلية، موزعة على سبع فئات. تعلّم وصف المشهد وتوقيت الأفعال وتوجيه الكاميرا والصوت، ثم عدّل أحد الأمثلة ليناسب فكرتك.**
 
-## ما الذي نتعلمه من الأمثلة الرسمية وأمثلة المجتمع؟
+[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md)
 
-تعرض فيديوهات Google الرسمية نموذج Omni 1.1 Flash. أما منشورات المجتمع فتعود إلى مايو 2026 وتتعلق بالإصدار الأول من Omni / Flash، ولم يُتحقق من كونها اختبارات للإصدار 1.1. تستند أدلة المجتمع إلى النصوص وبيانات الوسائط الوصفية في نسخة FxTwitter، ولم يُتحقق من التشغيل المباشر على X. هذه أمثلة من مصادر خارجية وليست نتائج المنصة التي تستخدمها. راجع الوظائف المتاحة في أداتك.
+[Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
 
-### Google: الانتقال بين الإطار الأول والأخير
 
-[شاهد المثال الأصلي](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-حدّد صورة البداية وصورة النهاية والحركة المتصلة بينهما كلًا على حدة.
+[المطالبات الستون كاملة](#prompt-collections) · [ثلاث مطالبات للنسخ](#source-examples) · [أمثلة رسمية ومن المجتمع](#video-studies) · [دليل اللغات](docs/multilingual-guide.md)
 
-التقط صورتين للغرض نفسه من زاويتين مناسبتين للوصل. إذا توفرت وظيفة الإطار الأول والأخير، اربطهما بحركة بسيطة.
+</div>
 
-### Google: تمديد اللقطة
+## ما الذي يتضمنه المشروع؟
 
-[شاهد المثال الأصلي](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
+تصف القائمة ما يمكن تخطيطه بالمطالبات، ولا تضمن توفر كل ميزة. تحقّق من المدخلات والتحرير والتمديد والصوت والدقة المتاحة للنموذج المحدد في أداتك. اختبر التكوين والحوار والنص بإعداد المعاينة المتاح أولًا. واجهة Google البرمجية وواجهة أداتك خدمتان مختلفتان.
 
-صِف حركة الكاميرا التالية مع الحفاظ على العنصر الرئيسي واتجاه الحركة.
+- تحويل النص أو الصورة إلى فيديو، واستخدام الإطار الأول/الأخير، ومراجع الشخصيات والمنتجات.
+- تخطيط الصورة والأجواء والمؤثرات الصوتية والموسيقى الأصلية والصمت والحوار معًا.
+- قواعد للحوار والنص واتجاه الكتابة والمراجعة البشرية في 15 لغة.
 
-استخدم مقطعًا قصيرًا من تصويرك. إذا توفر التمديد، أضف جزءًا متصلًا واحدًا وافحص نقطة الوصل بحثًا عن قفزات في الحركة أو الإضاءة.
+## الحوار بالعربية
 
-### CHRIS FIRST: استبدال الأشخاص بطيور النحام
+يمكن إبقاء تعليمات المشهد بالإنجليزية وتحديد الحوار والنص الظاهر بالعربية حرفيًا. تحقق من النطق والإملاء والتوقيت.
 
-<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST: استبدال الأشخاص بطيور النحام" width="300"></a>
+```text
+Spoken language: Modern Standard Arabic.
+Exact dialogue at 6s, spoken once with natural pacing: "لنعد إلى المنزل اليوم عبر الطريق الأطول."
+Do not translate, paraphrase, repeat or subtitle it.
 
-[شاهد المثال الأصلي](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
+On-screen language: Modern Standard Arabic.
+Text direction: right-to-left.
+Exact title: "رحلات صغيرة"
+Keep the full phrase connected and right-aligned. No other text.
+```
 
-غيّر الشخصية مع طلب الإبقاء على الملابس والحركة، وافحص مواضع تلامس الأطراف.
+<a id="prompt-collections"></a>
 
-إذا توفر تعديل الفيديو، استبدل شخصية واحدة في مقطع من تصويرك. قارن الملابس والوضعية والتلامس مع الأرض قبل التعديل وبعده.
+## المطالبات الستون كاملة
 
-### Justine Moore: تبديل القبعة مع كل تصفيقة
+شروح المجموعات الخمس الأولى بالصينية، وشروح المجموعتين الأخيرتين بالإنجليزية. جميع مطالبات التحكم القابلة للنسخ بالإنجليزية. لم تُترجم نصوص المجموعات بالكامل.
 
-<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore: تبديل القبعة مع كل تصفيقة" width="300"></a>
+- [السينما والسرد: 8 مطالبات](prompts/cinematic-storytelling.md)
+- [الإعلانات ووسائل التواصل: 8 مطالبات](prompts/commerce-social.md)
+- [الوثائقي والسفر والتعليم: 8 مطالبات](prompts/documentary-education.md)
+- [الرسوم المتحركة والموسيقى والترفيه: 8 مطالبات](prompts/stylized-entertainment.md)
+- [التحكم والتحرير والتمديد: 10 وصفات](prompts/control-editing-extension.md)
+- [التحرير المتقدم والكاميرا والتحويل البصري: 9 مطالبات](prompts/advanced-editing-camera.md)
+- [لوحات القصة وتقسيم الشاشة والنص والتقييم: 9 مطالبات](prompts/storyboard-text-evaluation.md)
 
-[شاهد المثال الأصلي](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
 
-استخدم إيماءة واضحة لتوقيت كل تغيير، مع الحفاظ على الوجه والملابس والكاميرا.
 
-ثبّت الكاميرا وصوّر تصفيقتين واضحتين. إذا توفر تعديل الفيديو، اطلب تغيير القبعة عند كل تصفيقة وافحص التوقيت إطارًا بإطار.
-
-[أمثلة رسمية ومن المجتمع](docs/community-examples.md)
-
-## من مشاهدة الأمثلة إلى كتابة أوامرك
-
-استكشف 60 وصفة كاملة من المكتبة الأصلية، موزعة على سبع فئات. تعلّم وصف المشهد وتوقيت الأفعال وتوجيه الكاميرا والصوت، ثم عدّل أحد الأمثلة ليناسب فكرتك.
-
-### جرّب أمرك الأول
+## جرّب أمرك الأول
 
 1. اختر مثالًا كاملًا قريبًا من المشهد الذي تريد إنشاءه وانسخ نص الأمر بالكامل.
 2. نزّل الصورة المرجعية المطابقة وحددها بوصفها الإطار الأول إذا كانت أداتك تدعم ذلك.
@@ -109,40 +112,49 @@ Keep the clockmaker's face, clothes and goggles consistent. No photorealism, sub
 
 
 
-## ما الذي يتضمنه المشروع؟
+<a id="video-studies"></a>
 
-تصف القائمة ما يمكن تخطيطه بالمطالبات، ولا تضمن توفر كل ميزة. تحقّق من المدخلات والتحرير والتمديد والصوت والدقة المتاحة للنموذج المحدد في أداتك. اختبر التكوين والحوار والنص بإعداد المعاينة المتاح أولًا. واجهة Google البرمجية وواجهة أداتك خدمتان مختلفتان.
+## ما الذي نتعلمه من الأمثلة الرسمية وأمثلة المجتمع؟
 
-- تحويل النص أو الصورة إلى فيديو، واستخدام الإطار الأول/الأخير، ومراجع الشخصيات والمنتجات.
-- تخطيط الصورة والأجواء والمؤثرات الصوتية والموسيقى الأصلية والصمت والحوار معًا.
-- قواعد للحوار والنص واتجاه الكتابة والمراجعة البشرية في 15 لغة.
+تعرض فيديوهات Google الرسمية نموذج Omni 1.1 Flash. أما منشورات المجتمع فتعود إلى مايو 2026 وتتعلق بالإصدار الأول من Omni / Flash، ولم يُتحقق من كونها اختبارات للإصدار 1.1. تستند أدلة المجتمع إلى النصوص وبيانات الوسائط الوصفية في نسخة FxTwitter، ولم يُتحقق من التشغيل المباشر على X. هذه أمثلة من مصادر خارجية وليست نتائج المنصة التي تستخدمها. راجع الوظائف المتاحة في أداتك.
 
-## المطالبات الستون كاملة
+### Google: الانتقال بين الإطار الأول والأخير
 
-شروح المجموعات الخمس الأولى بالصينية، وشروح المجموعتين الأخيرتين بالإنجليزية. جميع مطالبات التحكم القابلة للنسخ بالإنجليزية. لم تُترجم نصوص المجموعات بالكامل.
+[شاهد المثال الأصلي](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-- [السينما والسرد: 8 مطالبات](prompts/cinematic-storytelling.md)
-- [الإعلانات ووسائل التواصل: 8 مطالبات](prompts/commerce-social.md)
-- [الوثائقي والسفر والتعليم: 8 مطالبات](prompts/documentary-education.md)
-- [الرسوم المتحركة والموسيقى والترفيه: 8 مطالبات](prompts/stylized-entertainment.md)
-- [التحكم والتحرير والتمديد: 10 وصفات](prompts/control-editing-extension.md)
-- [التحرير المتقدم والكاميرا والتحويل البصري: 9 مطالبات](prompts/advanced-editing-camera.md)
-- [لوحات القصة وتقسيم الشاشة والنص والتقييم: 9 مطالبات](prompts/storyboard-text-evaluation.md)
+حدّد صورة البداية وصورة النهاية والحركة المتصلة بينهما كلًا على حدة.
 
-## الحوار بالعربية
+التقط صورتين للغرض نفسه من زاويتين مناسبتين للوصل. إذا توفرت وظيفة الإطار الأول والأخير، اربطهما بحركة بسيطة.
 
-يمكن إبقاء تعليمات المشهد بالإنجليزية وتحديد الحوار والنص الظاهر بالعربية حرفيًا. تحقق من النطق والإملاء والتوقيت.
+### Google: تمديد اللقطة
 
-```text
-Spoken language: Modern Standard Arabic.
-Exact dialogue at 6s, spoken once with natural pacing: "لنعد إلى المنزل اليوم عبر الطريق الأطول."
-Do not translate, paraphrase, repeat or subtitle it.
+[شاهد المثال الأصلي](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-On-screen language: Modern Standard Arabic.
-Text direction: right-to-left.
-Exact title: "رحلات صغيرة"
-Keep the full phrase connected and right-aligned. No other text.
-```
+صِف حركة الكاميرا التالية مع الحفاظ على العنصر الرئيسي واتجاه الحركة.
+
+استخدم مقطعًا قصيرًا من تصويرك. إذا توفر التمديد، أضف جزءًا متصلًا واحدًا وافحص نقطة الوصل بحثًا عن قفزات في الحركة أو الإضاءة.
+
+### CHRIS FIRST: استبدال الأشخاص بطيور النحام
+
+<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST: استبدال الأشخاص بطيور النحام" width="300"></a>
+
+[شاهد المثال الأصلي](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
+
+غيّر الشخصية مع طلب الإبقاء على الملابس والحركة، وافحص مواضع تلامس الأطراف.
+
+إذا توفر تعديل الفيديو، استبدل شخصية واحدة في مقطع من تصويرك. قارن الملابس والوضعية والتلامس مع الأرض قبل التعديل وبعده.
+
+### Justine Moore: تبديل القبعة مع كل تصفيقة
+
+<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore: تبديل القبعة مع كل تصفيقة" width="300"></a>
+
+[شاهد المثال الأصلي](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
+
+استخدم إيماءة واضحة لتوقيت كل تغيير، مع الحفاظ على الوجه والملابس والكاميرا.
+
+ثبّت الكاميرا وصوّر تصفيقتين واضحتين. إذا توفر تعديل الفيديو، اطلب تغيير القبعة عند كل تصفيقة وافحص التوقيت إطارًا بإطار.
+
+[أمثلة رسمية ومن المجتمع](docs/community-examples.md)
 
 ## للمزيد
 

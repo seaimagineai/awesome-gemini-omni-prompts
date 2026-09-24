@@ -1,58 +1,85 @@
-# Biblioteca de prompts de Gemini Omni
+<div align="center">
 
 ![Biblioteca de prompts de Gemini Omni](assets/seaimagine-omni-hero.png)
 
-[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md) · [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
+# Biblioteca de prompts de Gemini Omni
 
-<a id="video-studies"></a>
+**Explora las 60 recetas completas de la biblioteca original, divididas en siete categorías. Aprende a describir la escena, ordenar las acciones en el tiempo y dirigir la cámara y el sonido; después adapta un ejemplo a tu idea.**
 
-## Qué aprender de los ejemplos oficiales y de la comunidad
+[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md)
 
-Los vídeos oficiales de Google muestran Omni 1.1 Flash. Las publicaciones de la comunidad son de mayo de 2026 y corresponden al Omni / Flash inicial; no se han confirmado como pruebas de 1.1. La evidencia procede del texto y los metadatos del espejo FxTwitter; no se ha verificado la reproducción directa en X. Son ejemplos externos, no resultados de la plataforma que elijas. Consulta las funciones disponibles en tu herramienta.
+[Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
 
-### Google: transición entre el primer y el último fotograma
 
-[Ver el ejemplo original](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-Define por separado la imagen inicial, la final y el movimiento continuo que las une.
+[Los 60 prompts](#prompt-collections) · [Tres prompts para copiar](#source-examples) · [Ejemplos oficiales y de la comunidad](#video-studies) · [Guía multilingüe](docs/multilingual-guide.md)
 
-Prepara dos fotos del mismo objeto desde ángulos compatibles. Si se admiten fotogramas inicial y final, únelas con un movimiento sencillo.
+</div>
 
-### Google: prolongar una toma
+## Qué encontrarás
 
-[Ver el ejemplo original](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
+La lista describe lo que puedes planificar con los prompts. Confirma las entradas, la edición, la extensión, el audio y la resolución disponibles para el modelo seleccionado en tu herramienta. Revisa primero la composición, el diálogo y el texto con una vista previa disponible. La API de Google (interfaz para programas) y la interfaz de tu herramienta son servicios distintos.
 
-Describe el siguiente movimiento de cámara manteniendo el sujeto y la dirección del movimiento.
+- Flujos de texto a video, imagen a video, fotograma inicial/final y referencias de sujetos.
+- Diseño conjunto de imagen y audio: ambiente, foley, música original, silencios y diálogo.
+- Guía de localización para 15 idiomas, con diálogo exacto, texto, RTL, longitud de línea y revisión nativa.
+- Ediciones breves con `Keep everything else the same.` y extensiones coherentes.
 
-Usa un clip propio. Si hay función de extensión, pide una sola continuación y revisa los saltos de movimiento o luz en la unión.
+## Diálogos en español
 
-### CHRIS FIRST: convertir personas en flamencos
+Puedes mantener las instrucciones de escena en inglés y fijar literalmente el diálogo y los textos en español. Revisa pronunciación, ortografía y tiempos.
 
-<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST: convertir personas en flamencos" width="300"></a>
+```text
+Spoken language: Spanish.
+Exact dialogue at 6s, spoken once with natural conversational pacing: "Hoy volvamos por el camino largo."
+Do not translate, paraphrase, repeat or subtitle the dialogue.
 
-[Ver el ejemplo original](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
+Exact on-screen Spanish title, centered from 7s to 10s: "PEQUEÑOS VIAJES"
+Preserve accents and spelling exactly. No other text anywhere in the video.
+```
 
-Cambia el sujeto, pero conserva explícitamente la ropa y la acción; revisa los puntos de contacto de las extremidades.
+## Cambiar solo el texto en pantalla
 
-Si puedes editar vídeo, sustituye un solo sujeto en una grabación propia. Compara la ropa, la postura y el contacto con el suelo.
+Si el modelo seleccionado permite editar video, pide únicamente el cambio necesario sobre la versión terminada. Este ejercicio modifica texto dentro de la imagen, no un archivo de subtítulos.
 
-### Justine Moore: cambiar de sombrero con cada palmada
+```text
+Change only the final on-screen text to Spanish: "CALIDEZ EN CAMINO". Preserve its original position, size, material and timing. Keep everything else the same.
+```
 
-<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore: cambiar de sombrero con cada palmada" width="300"></a>
+<a id="prompt-collections"></a>
 
-[Ver el ejemplo original](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
+## Los 60 prompts
 
-Usa un gesto visible para marcar cada cambio y mantén la cara, la ropa y la cámara.
+Las cinco primeras colecciones tienen explicaciones en chino y las dos últimas en inglés. Todos los prompts de control están en inglés. Las colecciones no están traducidas por completo.
 
-Graba dos palmadas claras con la cámara fija. Si puedes editar vídeo, pide un sombrero nuevo en cada palmada y revisa el momento fotograma a fotograma.
+- [Cine y narrativa: 8 prompts](prompts/cinematic-storytelling.md)
+- [Comercio y redes sociales: 8 prompts](prompts/commerce-social.md)
+- [Documental, viajes y educación: 8 prompts](prompts/documentary-education.md)
+- [Animación, música y entretenimiento: 8 prompts](prompts/stylized-entertainment.md)
+- [Control multimodal, edición y extensión: 10 recetas](prompts/control-editing-extension.md)
+- [Edición avanzada, cámara y transformación visual: 9 prompts](prompts/advanced-editing-camera.md)
+- [Storyboards, pantalla dividida, texto y evaluación: 9 prompts](prompts/storyboard-text-evaluation.md)
 
-[Ejemplos oficiales y de la comunidad](docs/community-examples.md)
+## Plantilla de 10 segundos
 
-## De los ejemplos a tus propios prompts
+```text
+Format: 9:16 vertical, 10 seconds.
+Goal: [audience and intended response]
+Scene: [place, time, weather, layout]
+Subject: [3-5 stable identity anchors]
+Subject motion: [ordered action]
+Camera motion: [height, path, focus]
+Environment motion: [wind, light, water, particles]
+[0-3s] [hook]
+[3-7s] [core action]
+[7-10s] [payoff and final hold]
+Audio: [foley, ambience, music, silence]
+Exact dialogue in Spanish, spoken once: "[diálogo literal]"
+Preserve: [identity, object, layout, audio]
+Do not include: [short concrete list]
+```
 
-Explora las 60 recetas completas de la biblioteca original, divididas en siete categorías. Aprende a describir la escena, ordenar las acciones en el tiempo y dirigir la cámara y el sonido; después adapta un ejemplo a tu idea.
-
-### Prueba tu primer prompt
+## Prueba tu primer prompt
 
 1. Elige un ejemplo completo parecido a la escena que quieres crear y copia todo el prompt.
 2. Descarga su imagen de referencia y asígnala como primer fotograma si tu herramienta ofrece esa opción.
@@ -109,66 +136,49 @@ Keep the clockmaker's face, clothes and goggles consistent. No photorealism, sub
 
 
 
-## Qué encontrarás
+<a id="video-studies"></a>
 
-La lista describe lo que puedes planificar con los prompts. Confirma las entradas, la edición, la extensión, el audio y la resolución disponibles para el modelo seleccionado en tu herramienta. Revisa primero la composición, el diálogo y el texto con una vista previa disponible. La API de Google (interfaz para programas) y la interfaz de tu herramienta son servicios distintos.
+## Qué aprender de los ejemplos oficiales y de la comunidad
 
-- Flujos de texto a video, imagen a video, fotograma inicial/final y referencias de sujetos.
-- Diseño conjunto de imagen y audio: ambiente, foley, música original, silencios y diálogo.
-- Guía de localización para 15 idiomas, con diálogo exacto, texto, RTL, longitud de línea y revisión nativa.
-- Ediciones breves con `Keep everything else the same.` y extensiones coherentes.
+Los vídeos oficiales de Google muestran Omni 1.1 Flash. Las publicaciones de la comunidad son de mayo de 2026 y corresponden al Omni / Flash inicial; no se han confirmado como pruebas de 1.1. La evidencia procede del texto y los metadatos del espejo FxTwitter; no se ha verificado la reproducción directa en X. Son ejemplos externos, no resultados de la plataforma que elijas. Consulta las funciones disponibles en tu herramienta.
 
-## Los 60 prompts
+### Google: transición entre el primer y el último fotograma
 
-Las cinco primeras colecciones tienen explicaciones en chino y las dos últimas en inglés. Todos los prompts de control están en inglés. Las colecciones no están traducidas por completo.
+[Ver el ejemplo original](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-- [Cine y narrativa: 8 prompts](prompts/cinematic-storytelling.md)
-- [Comercio y redes sociales: 8 prompts](prompts/commerce-social.md)
-- [Documental, viajes y educación: 8 prompts](prompts/documentary-education.md)
-- [Animación, música y entretenimiento: 8 prompts](prompts/stylized-entertainment.md)
-- [Control multimodal, edición y extensión: 10 recetas](prompts/control-editing-extension.md)
-- [Edición avanzada, cámara y transformación visual: 9 prompts](prompts/advanced-editing-camera.md)
-- [Storyboards, pantalla dividida, texto y evaluación: 9 prompts](prompts/storyboard-text-evaluation.md)
+Define por separado la imagen inicial, la final y el movimiento continuo que las une.
 
-## Diálogos en español
+Prepara dos fotos del mismo objeto desde ángulos compatibles. Si se admiten fotogramas inicial y final, únelas con un movimiento sencillo.
 
-Puedes mantener las instrucciones de escena en inglés y fijar literalmente el diálogo y los textos en español. Revisa pronunciación, ortografía y tiempos.
+### Google: prolongar una toma
 
-```text
-Spoken language: Spanish.
-Exact dialogue at 6s, spoken once with natural conversational pacing: "Hoy volvamos por el camino largo."
-Do not translate, paraphrase, repeat or subtitle the dialogue.
+[Ver el ejemplo original](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-Exact on-screen Spanish title, centered from 7s to 10s: "PEQUEÑOS VIAJES"
-Preserve accents and spelling exactly. No other text anywhere in the video.
-```
+Describe el siguiente movimiento de cámara manteniendo el sujeto y la dirección del movimiento.
 
-## Cambiar solo el texto en pantalla
+Usa un clip propio. Si hay función de extensión, pide una sola continuación y revisa los saltos de movimiento o luz en la unión.
 
-Si el modelo seleccionado permite editar video, pide únicamente el cambio necesario sobre la versión terminada. Este ejercicio modifica texto dentro de la imagen, no un archivo de subtítulos.
+### CHRIS FIRST: convertir personas en flamencos
 
-```text
-Change only the final on-screen text to Spanish: "CALIDEZ EN CAMINO". Preserve its original position, size, material and timing. Keep everything else the same.
-```
+<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST: convertir personas en flamencos" width="300"></a>
 
-## Plantilla de 10 segundos
+[Ver el ejemplo original](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
 
-```text
-Format: 9:16 vertical, 10 seconds.
-Goal: [audience and intended response]
-Scene: [place, time, weather, layout]
-Subject: [3-5 stable identity anchors]
-Subject motion: [ordered action]
-Camera motion: [height, path, focus]
-Environment motion: [wind, light, water, particles]
-[0-3s] [hook]
-[3-7s] [core action]
-[7-10s] [payoff and final hold]
-Audio: [foley, ambience, music, silence]
-Exact dialogue in Spanish, spoken once: "[diálogo literal]"
-Preserve: [identity, object, layout, audio]
-Do not include: [short concrete list]
-```
+Cambia el sujeto, pero conserva explícitamente la ropa y la acción; revisa los puntos de contacto de las extremidades.
+
+Si puedes editar vídeo, sustituye un solo sujeto en una grabación propia. Compara la ropa, la postura y el contacto con el suelo.
+
+### Justine Moore: cambiar de sombrero con cada palmada
+
+<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore: cambiar de sombrero con cada palmada" width="300"></a>
+
+[Ver el ejemplo original](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
+
+Usa un gesto visible para marcar cada cambio y mantén la cara, la ropa y la cámara.
+
+Graba dos palmadas claras con la cámara fija. Si puedes editar vídeo, pide un sombrero nuevo en cada palmada y revisa el momento fotograma a fotograma.
+
+[Ejemplos oficiales y de la comunidad](docs/community-examples.md)
 
 ## Más información
 

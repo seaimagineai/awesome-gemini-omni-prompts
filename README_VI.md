@@ -1,58 +1,59 @@
-# Thư viện prompt Gemini Omni
+<div align="center">
 
 ![Thư viện prompt Gemini Omni](assets/seaimagine-omni-hero.png)
 
-[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md) · [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
+# Thư viện prompt Gemini Omni
 
-<a id="video-studies"></a>
+**Khám phá 60 công thức đầy đủ từ thư viện gốc, chia thành bảy nhóm. Học cách mô tả cảnh, sắp xếp thời điểm hành động, điều khiển máy quay và âm thanh, rồi chỉnh ví dụ theo ý tưởng của bạn.**
 
-## Học gì từ ví dụ chính thức và cộng đồng
+[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md)
 
-Video chính thức của Google trình diễn Omni 1.1 Flash. Các bài đăng cộng đồng có từ tháng 5 năm 2026 và nói về Omni / Flash đời đầu; chưa được xác nhận là thử nghiệm bản 1.1. Bằng chứng cộng đồng lấy từ văn bản và siêu dữ liệu của tệp phương tiện trên bản sao FxTwitter; chưa xác minh việc phát video trực tiếp trên X. Đây là ví dụ từ nguồn bên ngoài, không phải kết quả của nền tảng bạn sử dụng. Hãy kiểm tra tính năng có trong công cụ của mình.
+[Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
 
-### Google: chuyển từ khung hình đầu đến cuối
 
-[Xem ví dụ gốc](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-Xác định riêng ảnh đầu, ảnh cuối và chuyển động liên tục nối hai ảnh.
+[Toàn bộ 60 prompt](#prompt-collections) · [Ba prompt để sao chép](#source-examples) · [Ví dụ chính thức và cộng đồng](#video-studies) · [Hướng dẫn đa ngôn ngữ](docs/multilingual-guide.md)
 
-Chụp cùng một vật từ hai góc có thể nối với nhau. Nếu hỗ trợ khung hình đầu và cuối, hãy nối bằng một chuyển động đơn giản.
+</div>
 
-### Google: kéo dài cảnh quay
+## Nội dung
 
-[Xem ví dụ gốc](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
+Danh sách này mô tả nội dung có thể lên kế hoạch trong prompt, không bảo đảm tính năng. Hãy kiểm tra đầu vào, chỉnh sửa, kéo dài, âm thanh và độ phân giải mà mô hình đang chọn hỗ trợ trong công cụ của bạn. Trước tiên, kiểm tra bố cục, lời nói và chữ bằng chế độ xem trước hiện có. API Google (giao diện lập trình) và giao diện công cụ của bạn là hai dịch vụ riêng.
 
-Mô tả chuyển động máy quay tiếp theo, đồng thời giữ nguyên chủ thể và hướng chuyển động.
+- Văn bản thành video, hình ảnh thành video, khung đầu/cuối và tham chiếu nhân vật hoặc sản phẩm.
+- Thiết kế đồng thời hình ảnh, âm thanh môi trường, foley, nhạc nguyên bản, khoảng lặng và lời thoại.
+- Quy tắc lời thoại, chữ trên màn hình, xuống dòng và duyệt bởi người bản ngữ cho 15 ngôn ngữ.
 
-Dùng clip ngắn của bạn. Nếu có tính năng kéo dài, chỉ thêm một đoạn tiếp nối và kiểm tra xem chuyển động hoặc ánh sáng có bị nhảy ở điểm nối không.
+## Lời thoại tiếng Việt
 
-### CHRIS FIRST: thay người bằng hồng hạc
+Có thể giữ chỉ dẫn cảnh bằng tiếng Anh và ghi chính xác lời thoại, chữ trên màn hình bằng tiếng Việt. Kiểm tra phát âm, chính tả và thời điểm xuất hiện.
 
-<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST: thay người bằng hồng hạc" width="300"></a>
+```text
+Spoken language: Vietnamese.
+Exact dialogue at 6s, spoken once with natural conversational pacing: "Hôm nay mình đi đường vòng về nhà nhé."
+Do not translate, paraphrase, repeat or subtitle it.
 
-[Xem ví dụ gốc](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
+Exact on-screen Vietnamese title: "NHỮNG CHUYẾN ĐI NHỎ"
+Preserve every Vietnamese tone mark exactly. No other text.
+```
 
-Thay chủ thể nhưng yêu cầu giữ trang phục và hành động; kiểm tra các điểm tiếp xúc của tay chân.
+<a id="prompt-collections"></a>
 
-Nếu có chỉnh sửa video, chỉ thay một chủ thể trong clip của bạn. So sánh trang phục, tư thế và tiếp xúc với mặt đất trước và sau.
+## Toàn bộ 60 prompt
 
-### Justine Moore: đổi mũ sau mỗi tiếng vỗ tay
+Năm nhóm đầu có phần giải thích bằng tiếng Trung, hai nhóm cuối bằng tiếng Anh. Tất cả prompt điều khiển đều bằng tiếng Anh. Nội dung các nhóm chưa được dịch đầy đủ.
 
-<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore: đổi mũ sau mỗi tiếng vỗ tay" width="300"></a>
+- [Điện ảnh và kể chuyện: 8 prompt](prompts/cinematic-storytelling.md)
+- [Quảng cáo và mạng xã hội: 8 prompt](prompts/commerce-social.md)
+- [Tài liệu, du lịch và giáo dục: 8 prompt](prompts/documentary-education.md)
+- [Hoạt hình, âm nhạc và giải trí: 8 prompt](prompts/stylized-entertainment.md)
+- [Điều khiển, chỉnh sửa và mở rộng: 10 công thức](prompts/control-editing-extension.md)
+- [Chỉnh sửa nâng cao, máy quay và biến đổi hình ảnh: 9 prompt](prompts/advanced-editing-camera.md)
+- [Storyboard, chia màn hình, chữ và đánh giá: 9 prompt](prompts/storyboard-text-evaluation.md)
 
-[Xem ví dụ gốc](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
 
-Dùng một cử chỉ rõ ràng để xác định thời điểm đổi, đồng thời giữ nguyên khuôn mặt, trang phục và máy quay.
 
-Cố định máy quay và quay hai lần vỗ tay rõ ràng. Nếu có chỉnh sửa video, yêu cầu đổi mũ mỗi lần vỗ tay rồi kiểm tra thời điểm theo từng khung hình.
-
-[Ví dụ chính thức và cộng đồng](docs/community-examples.md)
-
-## Từ ví dụ đến prompt của riêng bạn
-
-Khám phá 60 công thức đầy đủ từ thư viện gốc, chia thành bảy nhóm. Học cách mô tả cảnh, sắp xếp thời điểm hành động, điều khiển máy quay và âm thanh, rồi chỉnh ví dụ theo ý tưởng của bạn.
-
-### Thử prompt đầu tiên
+## Thử prompt đầu tiên
 
 1. Chọn một ví dụ đầy đủ gần với cảnh bạn muốn tạo và sao chép toàn bộ prompt.
 2. Tải ảnh tham chiếu tương ứng và đặt làm khung hình đầu tiên nếu công cụ bạn dùng hỗ trợ.
@@ -109,38 +110,49 @@ Keep the clockmaker's face, clothes and goggles consistent. No photorealism, sub
 
 
 
-## Nội dung
+<a id="video-studies"></a>
 
-Danh sách này mô tả nội dung có thể lên kế hoạch trong prompt, không bảo đảm tính năng. Hãy kiểm tra đầu vào, chỉnh sửa, kéo dài, âm thanh và độ phân giải mà mô hình đang chọn hỗ trợ trong công cụ của bạn. Trước tiên, kiểm tra bố cục, lời nói và chữ bằng chế độ xem trước hiện có. API Google (giao diện lập trình) và giao diện công cụ của bạn là hai dịch vụ riêng.
+## Học gì từ ví dụ chính thức và cộng đồng
 
-- Văn bản thành video, hình ảnh thành video, khung đầu/cuối và tham chiếu nhân vật hoặc sản phẩm.
-- Thiết kế đồng thời hình ảnh, âm thanh môi trường, foley, nhạc nguyên bản, khoảng lặng và lời thoại.
-- Quy tắc lời thoại, chữ trên màn hình, xuống dòng và duyệt bởi người bản ngữ cho 15 ngôn ngữ.
+Video chính thức của Google trình diễn Omni 1.1 Flash. Các bài đăng cộng đồng có từ tháng 5 năm 2026 và nói về Omni / Flash đời đầu; chưa được xác nhận là thử nghiệm bản 1.1. Bằng chứng cộng đồng lấy từ văn bản và siêu dữ liệu của tệp phương tiện trên bản sao FxTwitter; chưa xác minh việc phát video trực tiếp trên X. Đây là ví dụ từ nguồn bên ngoài, không phải kết quả của nền tảng bạn sử dụng. Hãy kiểm tra tính năng có trong công cụ của mình.
 
-## Toàn bộ 60 prompt
+### Google: chuyển từ khung hình đầu đến cuối
 
-Năm nhóm đầu có phần giải thích bằng tiếng Trung, hai nhóm cuối bằng tiếng Anh. Tất cả prompt điều khiển đều bằng tiếng Anh. Nội dung các nhóm chưa được dịch đầy đủ.
+[Xem ví dụ gốc](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-- [Điện ảnh và kể chuyện: 8 prompt](prompts/cinematic-storytelling.md)
-- [Quảng cáo và mạng xã hội: 8 prompt](prompts/commerce-social.md)
-- [Tài liệu, du lịch và giáo dục: 8 prompt](prompts/documentary-education.md)
-- [Hoạt hình, âm nhạc và giải trí: 8 prompt](prompts/stylized-entertainment.md)
-- [Điều khiển, chỉnh sửa và mở rộng: 10 công thức](prompts/control-editing-extension.md)
-- [Chỉnh sửa nâng cao, máy quay và biến đổi hình ảnh: 9 prompt](prompts/advanced-editing-camera.md)
-- [Storyboard, chia màn hình, chữ và đánh giá: 9 prompt](prompts/storyboard-text-evaluation.md)
+Xác định riêng ảnh đầu, ảnh cuối và chuyển động liên tục nối hai ảnh.
 
-## Lời thoại tiếng Việt
+Chụp cùng một vật từ hai góc có thể nối với nhau. Nếu hỗ trợ khung hình đầu và cuối, hãy nối bằng một chuyển động đơn giản.
 
-Có thể giữ chỉ dẫn cảnh bằng tiếng Anh và ghi chính xác lời thoại, chữ trên màn hình bằng tiếng Việt. Kiểm tra phát âm, chính tả và thời điểm xuất hiện.
+### Google: kéo dài cảnh quay
 
-```text
-Spoken language: Vietnamese.
-Exact dialogue at 6s, spoken once with natural conversational pacing: "Hôm nay mình đi đường vòng về nhà nhé."
-Do not translate, paraphrase, repeat or subtitle it.
+[Xem ví dụ gốc](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-Exact on-screen Vietnamese title: "NHỮNG CHUYẾN ĐI NHỎ"
-Preserve every Vietnamese tone mark exactly. No other text.
-```
+Mô tả chuyển động máy quay tiếp theo, đồng thời giữ nguyên chủ thể và hướng chuyển động.
+
+Dùng clip ngắn của bạn. Nếu có tính năng kéo dài, chỉ thêm một đoạn tiếp nối và kiểm tra xem chuyển động hoặc ánh sáng có bị nhảy ở điểm nối không.
+
+### CHRIS FIRST: thay người bằng hồng hạc
+
+<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST: thay người bằng hồng hạc" width="300"></a>
+
+[Xem ví dụ gốc](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
+
+Thay chủ thể nhưng yêu cầu giữ trang phục và hành động; kiểm tra các điểm tiếp xúc của tay chân.
+
+Nếu có chỉnh sửa video, chỉ thay một chủ thể trong clip của bạn. So sánh trang phục, tư thế và tiếp xúc với mặt đất trước và sau.
+
+### Justine Moore: đổi mũ sau mỗi tiếng vỗ tay
+
+<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore: đổi mũ sau mỗi tiếng vỗ tay" width="300"></a>
+
+[Xem ví dụ gốc](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
+
+Dùng một cử chỉ rõ ràng để xác định thời điểm đổi, đồng thời giữ nguyên khuôn mặt, trang phục và máy quay.
+
+Cố định máy quay và quay hai lần vỗ tay rõ ràng. Nếu có chỉnh sửa video, yêu cầu đổi mũ mỗi lần vỗ tay rồi kiểm tra thời điểm theo từng khung hình.
+
+[Ví dụ chính thức và cộng đồng](docs/community-examples.md)
 
 ## Đọc thêm
 

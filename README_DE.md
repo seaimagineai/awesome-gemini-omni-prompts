@@ -1,58 +1,59 @@
-# Gemini Omni Prompt-Sammlung
+<div align="center">
 
 ![Gemini Omni Prompt-Sammlung](assets/seaimagine-omni-hero.png)
 
-[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md) · [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
+# Gemini Omni Prompt-Sammlung
 
-<a id="video-studies"></a>
+**Entdecke die 60 vollständigen Vorlagen der ursprünglichen Sammlung in sieben Kategorien. Lerne, Szenen zu beschreiben, Aktionen zeitlich zu planen sowie Kamera und Ton zu steuern. Passe anschließend ein Beispiel an deine Idee an.**
 
-## Was du aus offiziellen und Community-Beispielen lernen kannst
+[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md)
 
-Die offiziellen Google-Videos zeigen Omni 1.1 Flash. Die Community-Beiträge stammen vom Mai 2026 und beziehen sich auf das ursprüngliche Omni / Flash; sie sind nicht als Tests von 1.1 bestätigt. Als Belege dienen Text und Medienmetadaten des FxTwitter-Spiegels; die direkte Wiedergabe auf X wurde nicht geprüft. Es sind externe Beispiele, keine Ergebnisse der von dir genutzten Plattform. Prüfe die verfügbaren Funktionen in deinem Werkzeug.
+[Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
 
-### Google: Übergang zwischen Start- und Endbild
 
-[Originalbeispiel ansehen](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-Lege Startbild, Endbild und die durchgehende Bewegung dazwischen getrennt fest.
+[Alle 60 Prompts](#prompt-collections) · [Drei Prompts zum Kopieren](#source-examples) · [Offizielle und Community-Beispiele](#video-studies) · [Mehrsprachiger Leitfaden](docs/multilingual-guide.md)
 
-Fotografiere dasselbe Objekt aus zwei passenden Winkeln. Sind Start- und Endbilder möglich, verbinde sie mit einer einfachen Bewegung.
+</div>
 
-### Google: eine Einstellung verlängern
+## Enthalten
 
-[Originalbeispiel ansehen](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
+Die Liste beschreibt Themen für die Prompt-Planung, keine zugesicherten Funktionen. Prüfe beim gewählten Modell in deinem Werkzeug, welche Eingaben, Bearbeitungsfunktionen, Verlängerungen, Tonoptionen und Auflösungen verfügbar sind. Prüfe zuerst Bildaufbau, Sprache und Text mit einer verfügbaren Vorschau. Googles Programmierschnittstelle (API) und die Oberfläche deines Werkzeugs sind getrennte Angebote.
 
-Beschreibe die nächste Kamerabewegung und behalte Motiv und Bewegungsrichtung bei.
+- Text-zu-Video, Bild-zu-Video, erstes/letztes Bild sowie Personen- und Produktreferenzen.
+- Gemeinsame Planung von Bild, Atmosphäre, Foley, Originalmusik, Stille und Dialog.
+- Dialog-, Bildschirmtext- und Prüfregeln für 15 Sprachen.
 
-Verwende einen eigenen Clip. Falls Verlängern möglich ist, ergänze eine einzige Fortsetzung und prüfe den Übergang auf Sprünge bei Bewegung oder Licht.
+## Deutsche Dialoge
 
-### CHRIS FIRST: Menschen durch Flamingos ersetzen
+Bei Bedarf bleiben Szenenanweisungen englisch; Dialog und sichtbarer Text werden auf Deutsch wortgetreu festgelegt. Prüfe Aussprache, Schreibweise und Timing.
 
-<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST: Menschen durch Flamingos ersetzen" width="300"></a>
+```text
+Spoken language: German.
+Exact dialogue at 6s, spoken once with natural conversational pacing: "Lass uns heute den längeren Weg nach Hause nehmen."
+Do not translate, paraphrase, repeat or subtitle it.
 
-[Originalbeispiel ansehen](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
+Exact on-screen German title: "KLEINE REISEN"
+Allow enough width for German compound words. No other text.
+```
 
-Ersetze das Motiv, lasse aber Kleidung und Handlung erhalten. Prüfe die Berührungspunkte von Armen und Beinen.
+<a id="prompt-collections"></a>
 
-Ersetze bei verfügbarer Videobearbeitung nur ein Motiv in deinem eigenen Clip. Vergleiche Kleidung, Haltung und Bodenkontakt.
+## Alle 60 Prompts
 
-### Justine Moore: bei jedem Klatschen den Hut wechseln
+Die ersten fünf Sammlungen haben chinesische Erläuterungen, die letzten zwei englische. Alle kopierbaren Steuerprompts sind englisch. Die Sammlungen sind nicht vollständig übersetzt.
 
-<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore: bei jedem Klatschen den Hut wechseln" width="300"></a>
+- [Film und Storytelling: 8 Prompts](prompts/cinematic-storytelling.md)
+- [Werbung und Social Media: 8 Prompts](prompts/commerce-social.md)
+- [Dokumentation, Reise und Bildung: 8 Prompts](prompts/documentary-education.md)
+- [Animation, Musik und Unterhaltung: 8 Prompts](prompts/stylized-entertainment.md)
+- [Steuerung, Bearbeitung und Erweiterung: 10 Rezepte](prompts/control-editing-extension.md)
+- [Fortgeschrittene Bearbeitung, Kamera und visuelle Transformation: 9 Prompts](prompts/advanced-editing-camera.md)
+- [Storyboards, Split-Screens, Text und Evaluierung: 9 Prompts](prompts/storyboard-text-evaluation.md)
 
-[Originalbeispiel ansehen](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
 
-Eine sichtbare Geste bestimmt den Zeitpunkt des Wechsels; Gesicht, Kleidung und Kamera bleiben gleich.
 
-Filme zweimal deutliches Klatschen mit feststehender Kamera. Falls Videobearbeitung möglich ist, fordere bei jedem Klatschen einen Hutwechsel an und prüfe den Zeitpunkt Bild für Bild.
-
-[Offizielle und Community-Beispiele](docs/community-examples.md)
-
-## Von Beispielen zu eigenen Prompts
-
-Entdecke die 60 vollständigen Vorlagen der ursprünglichen Sammlung in sieben Kategorien. Lerne, Szenen zu beschreiben, Aktionen zeitlich zu planen sowie Kamera und Ton zu steuern. Passe anschließend ein Beispiel an deine Idee an.
-
-### Den ersten Prompt ausprobieren
+## Den ersten Prompt ausprobieren
 
 1. Wähle ein vollständiges Beispiel für eine ähnliche Szene und kopiere den gesamten Prompt.
 2. Lade das passende Referenzbild herunter und lege es als Startbild fest, sofern dein Werkzeug diese Funktion anbietet.
@@ -109,38 +110,49 @@ Keep the clockmaker's face, clothes and goggles consistent. No photorealism, sub
 
 
 
-## Enthalten
+<a id="video-studies"></a>
 
-Die Liste beschreibt Themen für die Prompt-Planung, keine zugesicherten Funktionen. Prüfe beim gewählten Modell in deinem Werkzeug, welche Eingaben, Bearbeitungsfunktionen, Verlängerungen, Tonoptionen und Auflösungen verfügbar sind. Prüfe zuerst Bildaufbau, Sprache und Text mit einer verfügbaren Vorschau. Googles Programmierschnittstelle (API) und die Oberfläche deines Werkzeugs sind getrennte Angebote.
+## Was du aus offiziellen und Community-Beispielen lernen kannst
 
-- Text-zu-Video, Bild-zu-Video, erstes/letztes Bild sowie Personen- und Produktreferenzen.
-- Gemeinsame Planung von Bild, Atmosphäre, Foley, Originalmusik, Stille und Dialog.
-- Dialog-, Bildschirmtext- und Prüfregeln für 15 Sprachen.
+Die offiziellen Google-Videos zeigen Omni 1.1 Flash. Die Community-Beiträge stammen vom Mai 2026 und beziehen sich auf das ursprüngliche Omni / Flash; sie sind nicht als Tests von 1.1 bestätigt. Als Belege dienen Text und Medienmetadaten des FxTwitter-Spiegels; die direkte Wiedergabe auf X wurde nicht geprüft. Es sind externe Beispiele, keine Ergebnisse der von dir genutzten Plattform. Prüfe die verfügbaren Funktionen in deinem Werkzeug.
 
-## Alle 60 Prompts
+### Google: Übergang zwischen Start- und Endbild
 
-Die ersten fünf Sammlungen haben chinesische Erläuterungen, die letzten zwei englische. Alle kopierbaren Steuerprompts sind englisch. Die Sammlungen sind nicht vollständig übersetzt.
+[Originalbeispiel ansehen](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-- [Film und Storytelling: 8 Prompts](prompts/cinematic-storytelling.md)
-- [Werbung und Social Media: 8 Prompts](prompts/commerce-social.md)
-- [Dokumentation, Reise und Bildung: 8 Prompts](prompts/documentary-education.md)
-- [Animation, Musik und Unterhaltung: 8 Prompts](prompts/stylized-entertainment.md)
-- [Steuerung, Bearbeitung und Erweiterung: 10 Rezepte](prompts/control-editing-extension.md)
-- [Fortgeschrittene Bearbeitung, Kamera und visuelle Transformation: 9 Prompts](prompts/advanced-editing-camera.md)
-- [Storyboards, Split-Screens, Text und Evaluierung: 9 Prompts](prompts/storyboard-text-evaluation.md)
+Lege Startbild, Endbild und die durchgehende Bewegung dazwischen getrennt fest.
 
-## Deutsche Dialoge
+Fotografiere dasselbe Objekt aus zwei passenden Winkeln. Sind Start- und Endbilder möglich, verbinde sie mit einer einfachen Bewegung.
 
-Bei Bedarf bleiben Szenenanweisungen englisch; Dialog und sichtbarer Text werden auf Deutsch wortgetreu festgelegt. Prüfe Aussprache, Schreibweise und Timing.
+### Google: eine Einstellung verlängern
 
-```text
-Spoken language: German.
-Exact dialogue at 6s, spoken once with natural conversational pacing: "Lass uns heute den längeren Weg nach Hause nehmen."
-Do not translate, paraphrase, repeat or subtitle it.
+[Originalbeispiel ansehen](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-Exact on-screen German title: "KLEINE REISEN"
-Allow enough width for German compound words. No other text.
-```
+Beschreibe die nächste Kamerabewegung und behalte Motiv und Bewegungsrichtung bei.
+
+Verwende einen eigenen Clip. Falls Verlängern möglich ist, ergänze eine einzige Fortsetzung und prüfe den Übergang auf Sprünge bei Bewegung oder Licht.
+
+### CHRIS FIRST: Menschen durch Flamingos ersetzen
+
+<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST: Menschen durch Flamingos ersetzen" width="300"></a>
+
+[Originalbeispiel ansehen](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
+
+Ersetze das Motiv, lasse aber Kleidung und Handlung erhalten. Prüfe die Berührungspunkte von Armen und Beinen.
+
+Ersetze bei verfügbarer Videobearbeitung nur ein Motiv in deinem eigenen Clip. Vergleiche Kleidung, Haltung und Bodenkontakt.
+
+### Justine Moore: bei jedem Klatschen den Hut wechseln
+
+<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore: bei jedem Klatschen den Hut wechseln" width="300"></a>
+
+[Originalbeispiel ansehen](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
+
+Eine sichtbare Geste bestimmt den Zeitpunkt des Wechsels; Gesicht, Kleidung und Kamera bleiben gleich.
+
+Filme zweimal deutliches Klatschen mit feststehender Kamera. Falls Videobearbeitung möglich ist, fordere bei jedem Klatschen einen Hutwechsel an und prüfe den Zeitpunkt Bild für Bild.
+
+[Offizielle und Community-Beispiele](docs/community-examples.md)
 
 ## Weiterlesen
 

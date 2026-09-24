@@ -1,58 +1,59 @@
-# Biblioteca de prompts do Gemini Omni
+<div align="center">
 
 ![Biblioteca de prompts do Gemini Omni](assets/seaimagine-omni-hero.png)
 
-[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md) · [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
+# Biblioteca de prompts do Gemini Omni
 
-<a id="video-studies"></a>
+**Explore as 60 receitas completas da biblioteca original, organizadas em sete categorias. Aprenda a descrever a cena, definir o momento de cada ação e orientar a câmera e o som. Depois, adapte um exemplo à sua ideia.**
 
-## O que aprender com os exemplos oficiais e da comunidade
+[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md)
 
-Os vídeos oficiais do Google demonstram o Omni 1.1 Flash. As publicações da comunidade são de maio de 2026 e tratam do Omni / Flash original; não foram confirmadas como testes da versão 1.1. As evidências vêm do texto e dos metadados de mídia do espelho FxTwitter; a reprodução direta no X não foi verificada. São exemplos externos, não resultados da plataforma que você usa. Confira os recursos disponíveis na sua ferramenta.
+[Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
 
-### Google: transição entre o primeiro e o último quadro
 
-[Ver o exemplo original](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-Defina separadamente a imagem inicial, a final e o movimento contínuo entre elas.
+[Todos os 60 prompts](#prompt-collections) · [Três prompts para copiar](#source-examples) · [Exemplos oficiais e da comunidade](#video-studies) · [Guia multilíngue](docs/multilingual-guide.md)
 
-Tire duas fotos do mesmo objeto em ângulos compatíveis. Se houver controles de primeiro e último quadro, conecte as fotos com um movimento simples.
+</div>
 
-### Google: prolongar uma tomada
+## O que está incluído
 
-[Ver o exemplo original](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
+A lista descreve o que planejar nos prompts, sem garantir a disponibilidade dos recursos. Confira entradas, edição, extensão, áudio e resolução do modelo selecionado na ferramenta que você usa. Verifique primeiro composição, fala e texto com uma prévia disponível. A API do Google (interface de programação) e a interface da sua ferramenta são serviços distintos.
 
-Descreva o próximo movimento de câmera mantendo o sujeito e a direção do movimento.
+- Texto para vídeo, imagem para vídeo, primeiro/último quadro e referências de pessoas ou produtos.
+- Planejamento conjunto de imagem, ambiente, efeitos sonoros, música original, silêncio e diálogo.
+- Regras de fala, texto, quebra de linha e revisão para 15 idiomas.
 
-Use um clipe próprio. Se houver extensão, peça uma única continuação e verifique saltos de movimento ou luz na junção.
+## Diálogos em português
 
-### CHRIS FIRST: transformar pessoas em flamingos
+Você pode manter as instruções de cena em inglês e definir literalmente as falas e os textos em português. Confira pronúncia, grafia e tempo.
 
-<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST: transformar pessoas em flamingos" width="300"></a>
+```text
+Spoken language: Brazilian Portuguese.
+Exact dialogue at 6s, spoken once with natural conversational pacing: "Hoje, vamos voltar para casa pelo caminho mais longo."
+Do not translate, paraphrase, repeat or subtitle it.
 
-[Ver o exemplo original](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
+Exact on-screen Brazilian Portuguese title: "PEQUENAS VIAGENS"
+Preserve accents, ç and spelling exactly. No other text.
+```
 
-Troque o sujeito, mas peça para preservar roupa e ação; verifique os pontos de contato dos membros.
+<a id="prompt-collections"></a>
 
-Se a edição de vídeo estiver disponível, substitua apenas um sujeito em uma gravação sua. Compare roupa, postura e contato com o chão.
+## Todos os 60 prompts
 
-### Justine Moore: trocar o chapéu a cada palma
+As cinco primeiras coleções têm explicações em chinês e as duas últimas em inglês. Todos os prompts de controle estão em inglês. As coleções não foram traduzidas integralmente.
 
-<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore: trocar o chapéu a cada palma" width="300"></a>
+- [Cinema e narrativa: 8 prompts](prompts/cinematic-storytelling.md)
+- [Comércio e redes sociais: 8 prompts](prompts/commerce-social.md)
+- [Documentário, viagem e educação: 8 prompts](prompts/documentary-education.md)
+- [Animação, música e entretenimento: 8 prompts](prompts/stylized-entertainment.md)
+- [Controle, edição e extensão: 10 receitas](prompts/control-editing-extension.md)
+- [Edição avançada, câmera e transformação visual: 9 prompts](prompts/advanced-editing-camera.md)
+- [Storyboards, tela dividida, texto e avaliação: 9 prompts](prompts/storyboard-text-evaluation.md)
 
-[Ver o exemplo original](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
 
-Use um gesto visível para marcar cada troca e mantenha rosto, roupa e câmera.
 
-Filme duas palmas claras com a câmera fixa. Se houver edição de vídeo, peça uma troca de chapéu em cada palma e confira o momento quadro a quadro.
-
-[Exemplos oficiais e da comunidade](docs/community-examples.md)
-
-## Dos exemplos aos seus próprios prompts
-
-Explore as 60 receitas completas da biblioteca original, organizadas em sete categorias. Aprenda a descrever a cena, definir o momento de cada ação e orientar a câmera e o som. Depois, adapte um exemplo à sua ideia.
-
-### Experimente seu primeiro prompt
+## Experimente seu primeiro prompt
 
 1. Escolha um exemplo completo parecido com a cena que deseja criar e copie todo o prompt.
 2. Baixe a imagem de referência correspondente e defina-a como primeiro quadro, se a ferramenta oferecer essa opção.
@@ -109,38 +110,49 @@ Keep the clockmaker's face, clothes and goggles consistent. No photorealism, sub
 
 
 
-## O que está incluído
+<a id="video-studies"></a>
 
-A lista descreve o que planejar nos prompts, sem garantir a disponibilidade dos recursos. Confira entradas, edição, extensão, áudio e resolução do modelo selecionado na ferramenta que você usa. Verifique primeiro composição, fala e texto com uma prévia disponível. A API do Google (interface de programação) e a interface da sua ferramenta são serviços distintos.
+## O que aprender com os exemplos oficiais e da comunidade
 
-- Texto para vídeo, imagem para vídeo, primeiro/último quadro e referências de pessoas ou produtos.
-- Planejamento conjunto de imagem, ambiente, efeitos sonoros, música original, silêncio e diálogo.
-- Regras de fala, texto, quebra de linha e revisão para 15 idiomas.
+Os vídeos oficiais do Google demonstram o Omni 1.1 Flash. As publicações da comunidade são de maio de 2026 e tratam do Omni / Flash original; não foram confirmadas como testes da versão 1.1. As evidências vêm do texto e dos metadados de mídia do espelho FxTwitter; a reprodução direta no X não foi verificada. São exemplos externos, não resultados da plataforma que você usa. Confira os recursos disponíveis na sua ferramenta.
 
-## Todos os 60 prompts
+### Google: transição entre o primeiro e o último quadro
 
-As cinco primeiras coleções têm explicações em chinês e as duas últimas em inglês. Todos os prompts de controle estão em inglês. As coleções não foram traduzidas integralmente.
+[Ver o exemplo original](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-- [Cinema e narrativa: 8 prompts](prompts/cinematic-storytelling.md)
-- [Comércio e redes sociais: 8 prompts](prompts/commerce-social.md)
-- [Documentário, viagem e educação: 8 prompts](prompts/documentary-education.md)
-- [Animação, música e entretenimento: 8 prompts](prompts/stylized-entertainment.md)
-- [Controle, edição e extensão: 10 receitas](prompts/control-editing-extension.md)
-- [Edição avançada, câmera e transformação visual: 9 prompts](prompts/advanced-editing-camera.md)
-- [Storyboards, tela dividida, texto e avaliação: 9 prompts](prompts/storyboard-text-evaluation.md)
+Defina separadamente a imagem inicial, a final e o movimento contínuo entre elas.
 
-## Diálogos em português
+Tire duas fotos do mesmo objeto em ângulos compatíveis. Se houver controles de primeiro e último quadro, conecte as fotos com um movimento simples.
 
-Você pode manter as instruções de cena em inglês e definir literalmente as falas e os textos em português. Confira pronúncia, grafia e tempo.
+### Google: prolongar uma tomada
 
-```text
-Spoken language: Brazilian Portuguese.
-Exact dialogue at 6s, spoken once with natural conversational pacing: "Hoje, vamos voltar para casa pelo caminho mais longo."
-Do not translate, paraphrase, repeat or subtitle it.
+[Ver o exemplo original](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-Exact on-screen Brazilian Portuguese title: "PEQUENAS VIAGENS"
-Preserve accents, ç and spelling exactly. No other text.
-```
+Descreva o próximo movimento de câmera mantendo o sujeito e a direção do movimento.
+
+Use um clipe próprio. Se houver extensão, peça uma única continuação e verifique saltos de movimento ou luz na junção.
+
+### CHRIS FIRST: transformar pessoas em flamingos
+
+<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST: transformar pessoas em flamingos" width="300"></a>
+
+[Ver o exemplo original](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
+
+Troque o sujeito, mas peça para preservar roupa e ação; verifique os pontos de contato dos membros.
+
+Se a edição de vídeo estiver disponível, substitua apenas um sujeito em uma gravação sua. Compare roupa, postura e contato com o chão.
+
+### Justine Moore: trocar o chapéu a cada palma
+
+<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore: trocar o chapéu a cada palma" width="300"></a>
+
+[Ver o exemplo original](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
+
+Use um gesto visível para marcar cada troca e mantenha rosto, roupa e câmera.
+
+Filme duas palmas claras com a câmera fixa. Se houver edição de vídeo, peça uma troca de chapéu em cada palma e confira o momento quadro a quadro.
+
+[Exemplos oficiais e da comunidade](docs/community-examples.md)
 
 ## Leia também
 

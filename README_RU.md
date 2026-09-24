@@ -1,58 +1,59 @@
-# Библиотека промптов Gemini Omni
+<div align="center">
 
 ![Библиотека промптов Gemini Omni](assets/seaimagine-omni-hero.png)
 
-[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md) · [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
+# Библиотека промптов Gemini Omni
 
-<a id="video-studies"></a>
+**Здесь собраны все 60 полных рецептов исходной библиотеки в семи категориях. Учитесь описывать сцену, задавать время действий, движение камеры и звук, а затем адаптируйте пример под свою идею.**
 
-## Чему учат официальные примеры и работы сообщества
+[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md)
 
-Официальные видео Google демонстрируют Omni 1.1 Flash. Публикации сообщества относятся к маю 2026 года и первоначальному Omni / Flash; они не подтверждены как тесты версии 1.1. Доступные свидетельства — текст и метаданные медиа из зеркала FxTwitter; воспроизведение непосредственно в X не проверялось. Это внешние примеры, а не результаты платформы, которой вы пользуетесь. Проверяйте доступность функций в своём инструменте.
+[Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
 
-### Google: переход между начальным и конечным кадрами
 
-[Посмотреть исходный пример](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-Отдельно задайте начальный кадр, конечный кадр и непрерывное движение между ними.
+[Все 60 промптов](#prompt-collections) · [Три промпта для копирования](#source-examples) · [Официальные примеры и работы сообщества](#video-studies) · [Многоязычное руководство](docs/multilingual-guide.md)
 
-Сделайте два снимка одного предмета с совместимых ракурсов. Если доступны начальный и конечный кадры, соедините их простым движением.
+</div>
 
-### Google: продление плана
+## Что включено
 
-[Посмотреть исходный пример](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
+Список описывает задачи для промптов, а не гарантирует функции. Проверьте доступные входные данные, редактирование, продление, звук и разрешение для выбранной модели в вашем инструменте. Сначала оцените композицию, речь и текст в доступном режиме предпросмотра. API Google (программный интерфейс) и интерфейс вашего инструмента — разные сервисы.
 
-Опишите следующее движение камеры, сохранив объект и направление движения.
+- Текст-в-видео, изображение-в-видео, первый/последний кадр и референсы персонажей или продуктов.
+- Совместное проектирование изображения, атмосферы, шумов, оригинальной музыки, тишины и реплик.
+- Правила диалога, экранного текста, переноса строк и проверки для 15 языков.
 
-Возьмите свой короткий ролик. Если доступно продление, добавьте одно продолжение и проверьте стык на скачки движения и света.
+## Диалоги на русском
 
-### CHRIS FIRST: люди превращаются во фламинго
+Инструкции для сцены можно оставить на английском, а реплики и надписи задать дословно на русском. Проверьте произношение, написание и время появления.
 
-<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST: люди превращаются во фламинго" width="300"></a>
+```text
+Spoken language: Russian.
+Exact dialogue at 6s, spoken once with natural conversational pacing: "Давай сегодня пойдём домой длинной дорогой."
+Do not translate, paraphrase, repeat or subtitle it.
 
-[Посмотреть исходный пример](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
+Exact on-screen Russian title: "МАЛЕНЬКИЕ ПУТЕШЕСТВИЯ"
+Use Cyrillic characters only and preserve spelling exactly. No other text.
+```
 
-Меняйте персонажа, явно сохраняя одежду и действие; проверяйте точки контакта конечностей.
+<a id="prompt-collections"></a>
 
-Если доступно редактирование видео, замените одного персонажа в своей записи. Сравните одежду, позу и контакт с землёй до и после.
+## Все 60 промптов
 
-### Justine Moore: новая шляпа после каждого хлопка
+Первые пять подборок содержат пояснения на китайском, последние две — на английском. Все управляющие промпты написаны по-английски. Подборки переведены не полностью.
 
-<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore: новая шляпа после каждого хлопка" width="300"></a>
+- [Кино и повествование: 8 промптов](prompts/cinematic-storytelling.md)
+- [Реклама и социальные сети: 8 промптов](prompts/commerce-social.md)
+- [Документалистика, путешествия и образование: 8 промптов](prompts/documentary-education.md)
+- [Анимация, музыка и развлечения: 8 промптов](prompts/stylized-entertainment.md)
+- [Управление, редактирование и продолжение: 10 рецептов](prompts/control-editing-extension.md)
+- [Продвинутое редактирование, камера и визуальные преобразования: 9 промптов](prompts/advanced-editing-camera.md)
+- [Раскадровки, разделённый экран, текст и оценка: 9 промптов](prompts/storyboard-text-evaluation.md)
 
-[Посмотреть исходный пример](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
 
-Используйте видимый жест как сигнал смены, сохраняя лицо, одежду и положение камеры.
 
-Снимите два чётких хлопка неподвижной камерой. Если доступно редактирование видео, попросите менять шляпу при каждом хлопке и проверьте момент смены покадрово.
-
-[Официальные примеры и работы сообщества](docs/community-examples.md)
-
-## От примеров к собственным промптам
-
-Здесь собраны все 60 полных рецептов исходной библиотеки в семи категориях. Учитесь описывать сцену, задавать время действий, движение камеры и звук, а затем адаптируйте пример под свою идею.
-
-### Попробуйте первый промпт
+## Попробуйте первый промпт
 
 1. Выберите полный пример, близкий к задуманной сцене, и скопируйте весь промпт.
 2. Скачайте соответствующее изображение и задайте его как первый кадр, если ваш инструмент поддерживает эту функцию.
@@ -109,38 +110,49 @@ Keep the clockmaker's face, clothes and goggles consistent. No photorealism, sub
 
 
 
-## Что включено
+<a id="video-studies"></a>
 
-Список описывает задачи для промптов, а не гарантирует функции. Проверьте доступные входные данные, редактирование, продление, звук и разрешение для выбранной модели в вашем инструменте. Сначала оцените композицию, речь и текст в доступном режиме предпросмотра. API Google (программный интерфейс) и интерфейс вашего инструмента — разные сервисы.
+## Чему учат официальные примеры и работы сообщества
 
-- Текст-в-видео, изображение-в-видео, первый/последний кадр и референсы персонажей или продуктов.
-- Совместное проектирование изображения, атмосферы, шумов, оригинальной музыки, тишины и реплик.
-- Правила диалога, экранного текста, переноса строк и проверки для 15 языков.
+Официальные видео Google демонстрируют Omni 1.1 Flash. Публикации сообщества относятся к маю 2026 года и первоначальному Omni / Flash; они не подтверждены как тесты версии 1.1. Доступные свидетельства — текст и метаданные медиа из зеркала FxTwitter; воспроизведение непосредственно в X не проверялось. Это внешние примеры, а не результаты платформы, которой вы пользуетесь. Проверяйте доступность функций в своём инструменте.
 
-## Все 60 промптов
+### Google: переход между начальным и конечным кадрами
 
-Первые пять подборок содержат пояснения на китайском, последние две — на английском. Все управляющие промпты написаны по-английски. Подборки переведены не полностью.
+[Посмотреть исходный пример](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-- [Кино и повествование: 8 промптов](prompts/cinematic-storytelling.md)
-- [Реклама и социальные сети: 8 промптов](prompts/commerce-social.md)
-- [Документалистика, путешествия и образование: 8 промптов](prompts/documentary-education.md)
-- [Анимация, музыка и развлечения: 8 промптов](prompts/stylized-entertainment.md)
-- [Управление, редактирование и продолжение: 10 рецептов](prompts/control-editing-extension.md)
-- [Продвинутое редактирование, камера и визуальные преобразования: 9 промптов](prompts/advanced-editing-camera.md)
-- [Раскадровки, разделённый экран, текст и оценка: 9 промптов](prompts/storyboard-text-evaluation.md)
+Отдельно задайте начальный кадр, конечный кадр и непрерывное движение между ними.
 
-## Диалоги на русском
+Сделайте два снимка одного предмета с совместимых ракурсов. Если доступны начальный и конечный кадры, соедините их простым движением.
 
-Инструкции для сцены можно оставить на английском, а реплики и надписи задать дословно на русском. Проверьте произношение, написание и время появления.
+### Google: продление плана
 
-```text
-Spoken language: Russian.
-Exact dialogue at 6s, spoken once with natural conversational pacing: "Давай сегодня пойдём домой длинной дорогой."
-Do not translate, paraphrase, repeat or subtitle it.
+[Посмотреть исходный пример](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-Exact on-screen Russian title: "МАЛЕНЬКИЕ ПУТЕШЕСТВИЯ"
-Use Cyrillic characters only and preserve spelling exactly. No other text.
-```
+Опишите следующее движение камеры, сохранив объект и направление движения.
+
+Возьмите свой короткий ролик. Если доступно продление, добавьте одно продолжение и проверьте стык на скачки движения и света.
+
+### CHRIS FIRST: люди превращаются во фламинго
+
+<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST: люди превращаются во фламинго" width="300"></a>
+
+[Посмотреть исходный пример](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
+
+Меняйте персонажа, явно сохраняя одежду и действие; проверяйте точки контакта конечностей.
+
+Если доступно редактирование видео, замените одного персонажа в своей записи. Сравните одежду, позу и контакт с землёй до и после.
+
+### Justine Moore: новая шляпа после каждого хлопка
+
+<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore: новая шляпа после каждого хлопка" width="300"></a>
+
+[Посмотреть исходный пример](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
+
+Используйте видимый жест как сигнал смены, сохраняя лицо, одежду и положение камеры.
+
+Снимите два чётких хлопка неподвижной камерой. Если доступно редактирование видео, попросите менять шляпу при каждом хлопке и проверьте момент смены покадрово.
+
+[Официальные примеры и работы сообщества](docs/community-examples.md)
 
 ## Дополнительные материалы
 

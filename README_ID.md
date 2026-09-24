@@ -1,58 +1,59 @@
-# Koleksi Prompt Gemini Omni
+<div align="center">
 
 ![Koleksi Prompt Gemini Omni](assets/seaimagine-omni-hero.png)
 
-[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md) · [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
+# Koleksi Prompt Gemini Omni
 
-<a id="video-studies"></a>
+**Jelajahi 60 resep lengkap dari koleksi sumber, yang dibagi menjadi tujuh kategori. Pelajari cara menjelaskan adegan, mengatur waktu aksi, serta mengarahkan kamera dan suara, lalu sesuaikan contoh dengan ide Anda.**
 
-## Pelajaran dari contoh resmi dan komunitas
+[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md)
 
-Video resmi Google menampilkan Omni 1.1 Flash. Unggahan komunitas berasal dari Mei 2026 dan membahas Omni / Flash awal; belum terverifikasi sebagai pengujian versi 1.1. Bukti berasal dari teks dan metadata media di mirror FxTwitter; pemutaran langsung di X belum diverifikasi. Ini adalah contoh dari sumber lain, bukan hasil platform yang Anda gunakan. Periksa fitur yang tersedia pada alat Anda.
+[Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
 
-### Google: transisi bingkai awal ke akhir
 
-[Lihat contoh asli](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-Tentukan gambar awal, gambar akhir, dan gerakan berkesinambungan di antaranya secara terpisah.
+[Semua 60 prompt](#prompt-collections) · [Tiga prompt untuk disalin](#source-examples) · [Contoh resmi dan komunitas](#video-studies) · [Panduan multibahasa](docs/multilingual-guide.md)
 
-Siapkan dua foto objek yang sama dari sudut yang sesuai. Jika bingkai awal dan akhir didukung, hubungkan dengan satu gerakan sederhana.
+</div>
 
-### Google: memperpanjang adegan
+## Isi proyek
 
-[Lihat contoh asli](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
+Daftar ini berisi hal yang dapat direncanakan dalam prompt, bukan jaminan fitur. Periksa dukungan masukan, penyuntingan, perpanjangan, audio, dan resolusi pada model yang dipilih dalam alat Anda. Periksa komposisi, ucapan, dan teks melalui pratinjau yang tersedia terlebih dahulu. API Google (antarmuka pemrograman) berbeda dari antarmuka alat Anda.
 
-Jelaskan gerakan kamera berikutnya dengan mempertahankan subjek dan arah gerak.
+- Teks-ke-video, gambar-ke-video, bingkai pertama/terakhir, serta referensi karakter dan produk.
+- Perencanaan visual, ambience, foley, musik orisinal, keheningan, dan dialog secara terpadu.
+- Aturan dialog, teks layar, tata letak, dan tinjauan penutur asli untuk 15 bahasa.
 
-Gunakan klip milik sendiri. Jika tersedia fitur perpanjangan, minta satu kelanjutan dan periksa perubahan mendadak pada gerak atau cahaya di sambungan.
+## Dialog dalam bahasa Indonesia
 
-### CHRIS FIRST: mengganti orang dengan flamingo
+Jika perlu, pertahankan instruksi adegan dalam bahasa Inggris dan tentukan dialog serta teks layar dalam bahasa Indonesia secara persis. Periksa pelafalan, ejaan, dan waktu.
 
-<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST: mengganti orang dengan flamingo" width="300"></a>
+```text
+Spoken language: Indonesian.
+Exact dialogue at 6s, spoken once with natural conversational pacing: "Hari ini, mari kita pulang lewat jalan yang lebih panjang."
+Do not translate, paraphrase, repeat or subtitle it.
 
-[Lihat contoh asli](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
+Exact on-screen Indonesian title: "PERJALANAN KECIL"
+Preserve spelling exactly. No other text.
+```
 
-Ganti subjek sambil secara tegas mempertahankan pakaian dan aksinya; periksa titik kontak anggota tubuh.
+<a id="prompt-collections"></a>
 
-Jika penyuntingan video tersedia, ganti satu subjek dalam rekaman sendiri. Bandingkan pakaian, pose, dan kontak dengan tanah sebelum dan sesudahnya.
+## Semua 60 prompt
 
-### Justine Moore: mengganti topi setiap tepukan
+Lima koleksi pertama memiliki penjelasan berbahasa Mandarin, dua terakhir berbahasa Inggris. Semua prompt kontrol menggunakan bahasa Inggris. Isi koleksi belum diterjemahkan seluruhnya.
 
-<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore: mengganti topi setiap tepukan" width="300"></a>
+- [Film dan penceritaan: 8 prompt](prompts/cinematic-storytelling.md)
+- [Iklan dan media sosial: 8 prompt](prompts/commerce-social.md)
+- [Dokumenter, perjalanan, dan pendidikan: 8 prompt](prompts/documentary-education.md)
+- [Animasi, musik, dan hiburan: 8 prompt](prompts/stylized-entertainment.md)
+- [Kontrol, penyuntingan, dan perpanjangan: 10 resep](prompts/control-editing-extension.md)
+- [Penyuntingan lanjutan, kamera, dan transformasi visual: 9 prompt](prompts/advanced-editing-camera.md)
+- [Storyboard, layar terbagi, teks, dan evaluasi: 9 prompt](prompts/storyboard-text-evaluation.md)
 
-[Lihat contoh asli](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
 
-Gunakan gerakan yang terlihat sebagai penanda pergantian; pertahankan wajah, pakaian, dan kamera.
 
-Rekam dua tepukan jelas dengan kamera tetap. Jika penyuntingan video tersedia, minta topi berganti setiap tepukan dan periksa waktunya bingkai demi bingkai.
-
-[Contoh resmi dan komunitas](docs/community-examples.md)
-
-## Dari contoh ke prompt buatan sendiri
-
-Jelajahi 60 resep lengkap dari koleksi sumber, yang dibagi menjadi tujuh kategori. Pelajari cara menjelaskan adegan, mengatur waktu aksi, serta mengarahkan kamera dan suara, lalu sesuaikan contoh dengan ide Anda.
-
-### Coba prompt pertama Anda
+## Coba prompt pertama Anda
 
 1. Pilih contoh lengkap yang mendekati adegan yang ingin Anda buat, lalu salin seluruh prompt.
 2. Unduh gambar referensi yang sesuai dan tetapkan sebagai bingkai pertama jika alat yang Anda gunakan mendukungnya.
@@ -109,38 +110,49 @@ Keep the clockmaker's face, clothes and goggles consistent. No photorealism, sub
 
 
 
-## Isi proyek
+<a id="video-studies"></a>
 
-Daftar ini berisi hal yang dapat direncanakan dalam prompt, bukan jaminan fitur. Periksa dukungan masukan, penyuntingan, perpanjangan, audio, dan resolusi pada model yang dipilih dalam alat Anda. Periksa komposisi, ucapan, dan teks melalui pratinjau yang tersedia terlebih dahulu. API Google (antarmuka pemrograman) berbeda dari antarmuka alat Anda.
+## Pelajaran dari contoh resmi dan komunitas
 
-- Teks-ke-video, gambar-ke-video, bingkai pertama/terakhir, serta referensi karakter dan produk.
-- Perencanaan visual, ambience, foley, musik orisinal, keheningan, dan dialog secara terpadu.
-- Aturan dialog, teks layar, tata letak, dan tinjauan penutur asli untuk 15 bahasa.
+Video resmi Google menampilkan Omni 1.1 Flash. Unggahan komunitas berasal dari Mei 2026 dan membahas Omni / Flash awal; belum terverifikasi sebagai pengujian versi 1.1. Bukti berasal dari teks dan metadata media di mirror FxTwitter; pemutaran langsung di X belum diverifikasi. Ini adalah contoh dari sumber lain, bukan hasil platform yang Anda gunakan. Periksa fitur yang tersedia pada alat Anda.
 
-## Semua 60 prompt
+### Google: transisi bingkai awal ke akhir
 
-Lima koleksi pertama memiliki penjelasan berbahasa Mandarin, dua terakhir berbahasa Inggris. Semua prompt kontrol menggunakan bahasa Inggris. Isi koleksi belum diterjemahkan seluruhnya.
+[Lihat contoh asli](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-- [Film dan penceritaan: 8 prompt](prompts/cinematic-storytelling.md)
-- [Iklan dan media sosial: 8 prompt](prompts/commerce-social.md)
-- [Dokumenter, perjalanan, dan pendidikan: 8 prompt](prompts/documentary-education.md)
-- [Animasi, musik, dan hiburan: 8 prompt](prompts/stylized-entertainment.md)
-- [Kontrol, penyuntingan, dan perpanjangan: 10 resep](prompts/control-editing-extension.md)
-- [Penyuntingan lanjutan, kamera, dan transformasi visual: 9 prompt](prompts/advanced-editing-camera.md)
-- [Storyboard, layar terbagi, teks, dan evaluasi: 9 prompt](prompts/storyboard-text-evaluation.md)
+Tentukan gambar awal, gambar akhir, dan gerakan berkesinambungan di antaranya secara terpisah.
 
-## Dialog dalam bahasa Indonesia
+Siapkan dua foto objek yang sama dari sudut yang sesuai. Jika bingkai awal dan akhir didukung, hubungkan dengan satu gerakan sederhana.
 
-Jika perlu, pertahankan instruksi adegan dalam bahasa Inggris dan tentukan dialog serta teks layar dalam bahasa Indonesia secara persis. Periksa pelafalan, ejaan, dan waktu.
+### Google: memperpanjang adegan
 
-```text
-Spoken language: Indonesian.
-Exact dialogue at 6s, spoken once with natural conversational pacing: "Hari ini, mari kita pulang lewat jalan yang lebih panjang."
-Do not translate, paraphrase, repeat or subtitle it.
+[Lihat contoh asli](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-Exact on-screen Indonesian title: "PERJALANAN KECIL"
-Preserve spelling exactly. No other text.
-```
+Jelaskan gerakan kamera berikutnya dengan mempertahankan subjek dan arah gerak.
+
+Gunakan klip milik sendiri. Jika tersedia fitur perpanjangan, minta satu kelanjutan dan periksa perubahan mendadak pada gerak atau cahaya di sambungan.
+
+### CHRIS FIRST: mengganti orang dengan flamingo
+
+<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST: mengganti orang dengan flamingo" width="300"></a>
+
+[Lihat contoh asli](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
+
+Ganti subjek sambil secara tegas mempertahankan pakaian dan aksinya; periksa titik kontak anggota tubuh.
+
+Jika penyuntingan video tersedia, ganti satu subjek dalam rekaman sendiri. Bandingkan pakaian, pose, dan kontak dengan tanah sebelum dan sesudahnya.
+
+### Justine Moore: mengganti topi setiap tepukan
+
+<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore: mengganti topi setiap tepukan" width="300"></a>
+
+[Lihat contoh asli](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
+
+Gunakan gerakan yang terlihat sebagai penanda pergantian; pertahankan wajah, pakaian, dan kamera.
+
+Rekam dua tepukan jelas dengan kamera tetap. Jika penyuntingan video tersedia, minta topi berganti setiap tepukan dan periksa waktunya bingkai demi bingkai.
+
+[Contoh resmi dan komunitas](docs/community-examples.md)
 
 ## Bacaan lanjutan
 

@@ -1,58 +1,61 @@
-# Gemini Omni 提示詞庫
+<div align="center">
 
 ![Gemini Omni 提示詞庫](assets/seaimagine-omni-hero.png)
 
-[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md) · [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
+# Gemini Omni 提示詞庫
 
-<a id="video-studies"></a>
+**本庫收錄原始資料庫的 60 組完整提示詞，分為 7 類。透過範例學習如何描述場景、安排動作時間、控制鏡頭與聲音，再改成自己的創意。**
 
-## 從官方與社群案例學什麼
+[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md)
 
-Google 影片是 Omni 1.1 Flash 官方展示。社群貼文發布於 2026 年 5 月，屬於早期 Omni / Flash 案例，未確認為 1.1 實測。社群證據來自 FxTwitter 鏡像的文字與媒體中繼資料，未驗證 X 原生播放。這些是獨立來源的案例，不代表你使用的平台所生成的結果；實際功能請查看所用工具。
+[Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
 
-### Google：首尾幀轉場
 
-[查看原始案例](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-分別指定起始畫面、結束畫面，以及兩者之間連續的運動。
+[全部 60 則提示詞](#prompt-collections) · [三個可複製的範例](#source-examples) · [官方與社群案例](#video-studies) · [多語言指南](docs/multilingual-guide.md)
 
-為同一物件準備兩張角度相容的照片；若支援首尾幀，以一個簡單動作連接兩張圖。
+</div>
 
-### Google：延長鏡頭
+## 專案內容
 
-[查看原始案例](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
+以下是提示詞可規劃的內容，不代表所選工具的每個模型都提供這些功能。輸入素材、編輯、續寫、聲音與解析度請以所選模型及目前介面為準。先用介面提供的預覽設定檢查構圖、對白與文字，再製作成片。Google API（程式呼叫介面）的規格不等於所選工具的網頁功能。
 
-描述下一段鏡頭運動，同時維持主體與運動方向一致。
+- 文字轉影片、圖片轉影片、首尾幀、角色/商品參考與短影片參考。
+- 將環境聲、擬音、原創音樂、靜默與對白時間一起設計。
+- 15 種語言的對白、螢幕文字、RTL、斷行與母語審核規則。
+- 使用 `<FIRST_FRAME>`、`<LAST_FRAME>`、`<IMAGE_REF_N>`、`<VIDEO_REF_N>` 的完整範例。
 
-使用自己的短片；若支援延長，只接續一段動作，檢查接點的運動與光線是否突然改變。
+## 指定中文對白
 
-### CHRIS FIRST：人物變成紅鶴
+可保留英文鏡頭指令，以中文逐字指定對白與畫面文字。生成後檢查發音、字形及出現時間。
 
-<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST：人物變成紅鶴" width="300"></a>
+```text
+Spoken language: Mandarin Chinese.
+On-screen script: Traditional Chinese used in Taiwan.
+Exact dialogue at 6s, spoken once: "今天，繞遠一點回家吧。"
+Do not translate, paraphrase, repeat or subtitle it.
 
-[查看原始案例](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
+Exact on-screen title: "小小旅程"
+Do not convert any character to Simplified Chinese. No other text.
+```
 
-替換主體時明確保留服裝和動作，並檢查肢體接觸的位置。
+<a id="prompt-collections"></a>
 
-使用自己的影片；若支援影片編輯，只替換一個主體，比較前後的服裝、姿勢與觸地位置。
+## 全部 60 則提示詞
 
-### Justine Moore：每次拍手換一頂帽子
+前 5 個分類的說明為簡體中文，後 2 個為英文；可複製的控制提示詞皆為英文。分類內文尚未完整翻譯成各入口語言。
 
-<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore：每次拍手換一頂帽子" width="300"></a>
+- [電影與敘事：8 條](prompts/cinematic-storytelling.md)
+- [商業廣告與社群媒體：8 條](prompts/commerce-social.md)
+- [紀錄片、旅行與教育：8 條](prompts/documentary-education.md)
+- [動畫、音樂與娛樂：8 條](prompts/stylized-entertainment.md)
+- [多模態控制、編輯與續寫：10 條](prompts/control-editing-extension.md)
+- [進階編輯、鏡頭與視覺變換：9 條](prompts/advanced-editing-camera.md)
+- [故事板、分割畫面、文字與評測：9 條](prompts/storyboard-text-evaluation.md)
 
-[查看原始案例](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
 
-以可見動作決定變化時機，同時維持臉孔、服裝和鏡頭一致。
 
-固定攝影機，拍攝兩次清楚的拍手；若支援影片編輯，要求每次拍手換帽，逐格檢查時間點。
-
-[官方與社群案例](docs/community-examples.md)
-
-## 從看案例，到自己寫提示詞
-
-本庫收錄原始資料庫的 60 組完整提示詞，分為 7 類。透過範例學習如何描述場景、安排動作時間、控制鏡頭與聲音，再改成自己的創意。
-
-### 開始第一次嘗試
+## 開始第一次嘗試
 
 1. 選擇接近你想做的場景的完整範例，複製全部提示詞。
 2. 下載範例對應的參考圖；若使用的工具支援首幀，請將圖片設為首幀。
@@ -109,40 +112,49 @@ Keep the clockmaker's face, clothes and goggles consistent. No photorealism, sub
 
 
 
-## 專案內容
+<a id="video-studies"></a>
 
-以下是提示詞可規劃的內容，不代表所選工具的每個模型都提供這些功能。輸入素材、編輯、續寫、聲音與解析度請以所選模型及目前介面為準。先用介面提供的預覽設定檢查構圖、對白與文字，再製作成片。Google API（程式呼叫介面）的規格不等於所選工具的網頁功能。
+## 從官方與社群案例學什麼
 
-- 文字轉影片、圖片轉影片、首尾幀、角色/商品參考與短影片參考。
-- 將環境聲、擬音、原創音樂、靜默與對白時間一起設計。
-- 15 種語言的對白、螢幕文字、RTL、斷行與母語審核規則。
-- 使用 `<FIRST_FRAME>`、`<LAST_FRAME>`、`<IMAGE_REF_N>`、`<VIDEO_REF_N>` 的完整範例。
+Google 影片是 Omni 1.1 Flash 官方展示。社群貼文發布於 2026 年 5 月，屬於早期 Omni / Flash 案例，未確認為 1.1 實測。社群證據來自 FxTwitter 鏡像的文字與媒體中繼資料，未驗證 X 原生播放。這些是獨立來源的案例，不代表你使用的平台所生成的結果；實際功能請查看所用工具。
 
-## 全部 60 則提示詞
+### Google：首尾幀轉場
 
-前 5 個分類的說明為簡體中文，後 2 個為英文；可複製的控制提示詞皆為英文。分類內文尚未完整翻譯成各入口語言。
+[查看原始案例](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-- [電影與敘事：8 條](prompts/cinematic-storytelling.md)
-- [商業廣告與社群媒體：8 條](prompts/commerce-social.md)
-- [紀錄片、旅行與教育：8 條](prompts/documentary-education.md)
-- [動畫、音樂與娛樂：8 條](prompts/stylized-entertainment.md)
-- [多模態控制、編輯與續寫：10 條](prompts/control-editing-extension.md)
-- [進階編輯、鏡頭與視覺變換：9 條](prompts/advanced-editing-camera.md)
-- [故事板、分割畫面、文字與評測：9 條](prompts/storyboard-text-evaluation.md)
+分別指定起始畫面、結束畫面，以及兩者之間連續的運動。
 
-## 指定中文對白
+為同一物件準備兩張角度相容的照片；若支援首尾幀，以一個簡單動作連接兩張圖。
 
-可保留英文鏡頭指令，以中文逐字指定對白與畫面文字。生成後檢查發音、字形及出現時間。
+### Google：延長鏡頭
 
-```text
-Spoken language: Mandarin Chinese.
-On-screen script: Traditional Chinese used in Taiwan.
-Exact dialogue at 6s, spoken once: "今天，繞遠一點回家吧。"
-Do not translate, paraphrase, repeat or subtitle it.
+[查看原始案例](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-Exact on-screen title: "小小旅程"
-Do not convert any character to Simplified Chinese. No other text.
-```
+描述下一段鏡頭運動，同時維持主體與運動方向一致。
+
+使用自己的短片；若支援延長，只接續一段動作，檢查接點的運動與光線是否突然改變。
+
+### CHRIS FIRST：人物變成紅鶴
+
+<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST：人物變成紅鶴" width="300"></a>
+
+[查看原始案例](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
+
+替換主體時明確保留服裝和動作，並檢查肢體接觸的位置。
+
+使用自己的影片；若支援影片編輯，只替換一個主體，比較前後的服裝、姿勢與觸地位置。
+
+### Justine Moore：每次拍手換一頂帽子
+
+<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore：每次拍手換一頂帽子" width="300"></a>
+
+[查看原始案例](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
+
+以可見動作決定變化時機，同時維持臉孔、服裝和鏡頭一致。
+
+固定攝影機，拍攝兩次清楚的拍手；若支援影片編輯，要求每次拍手換帽，逐格檢查時間點。
+
+[官方與社群案例](docs/community-examples.md)
 
 ## 延伸閱讀
 

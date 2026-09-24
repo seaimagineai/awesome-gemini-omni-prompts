@@ -36,17 +36,40 @@ def build(code, suffix):
     prefix = '' if code=='en' else f'/{code}'
     base = 'https://seaimagine.com' + prefix
     model = f'[Gemini Omni]({base}/model/gemini-omni/) · [Gemini Omni 1.1 Flash]({base}/model/gemini-omni-1-1-flash/)'
-    parts = [f'# {editorial["title"]}', f'![{editorial["title"]}](assets/seaimagine-omni-hero.png)', NAV, studies_section(code), library_intro(code),
-             '<a id="source-examples"></a>', f'## {d["examples"]}', d['image_note']]
-    for i,e in enumerate(EXAMPLES,1):
-        parts += [f'### {i:02d} · {d[f"example{i}"]}',f'![{d[f"example{i}"]}](assets/{e["image"]})',f'```text\n{e["prompt"]}\n```']
-    parts += [neutral(source.get('after_examples','')), neutral(source.get('before_examples',''))]
+    nav_items = NAV.split(' · ')
+    nav = ' · '.join(nav_items[:10]) + '\n\n' + ' · '.join(nav_items[10:])
+    shortcuts = f'[{d["collections"]}](#prompt-collections) · [{d["examples"]}](#source-examples) · [{d["community"]}](#video-studies) · [{d["multilingual"]}](docs/multilingual-guide.md)'
+    badges = '\n'.join(['[![License: MIT](https://img.shields.io/badge/License-MIT-6f42c1.svg)](LICENSE)', '[![Prompt recipes](https://img.shields.io/badge/prompt_recipes-60-00b8d9.svg)](#prompt-collections)', '[![Languages](https://img.shields.io/badge/localization_guides-15-ff8a00.svg)](docs/multilingual-guide.md)', '[![Model](https://img.shields.io/badge/model-gemini--omni--1.1--flash-4285f4.svg)](https://ai.google.dev/gemini-api/docs/omni)']) if code == 'cn' else ''
+    parts = ['<div align="center">', f'![{editorial["title"]}](assets/seaimagine-omni-hero.png)',
+             f'# {editorial["title"]}', f'**{editorial["library_intro"]}**', nav, badges, shortcuts, '</div>',
+             neutral(source.get('before_examples',''))]
     collections = source['collections'] or EN_COLLECTIONS
     assert len(collections)==7, (code,collections)
-    parts += [f'## {d["collections"]}',d['language_note'],source.get('collection_table') or '\n'.join(f'- [{label}]({url})' for label,url in collections),f'## {d["dialogue_title"]}',d['dialogue_note']]
-    dialogue = source['dialogue']
-    if dialogue: parts += [f'```text\n{dialogue}\n```']
-    if source.get('supplemental'): parts += [neutral(source['supplemental'])]
+    collection_section = ['<a id="prompt-collections"></a>', f'## {d["collections"]}', d['language_note'], source.get('collection_table') or '\n'.join(f'- [{label}]({url})' for label,url in collections)]
+    dialogue_section = [f'## {d["dialogue_title"]}', d['dialogue_note']]
+    if source['dialogue']:
+        dialogue_section += [f'```text\n{source["dialogue"]}\n```']
+    supplemental = neutral(source.get('supplemental',''))
+    if code == 'cn':
+        # The Chinese upstream teaches the directing brief before its three examples.
+        split = supplemental.index('## 图生视频检查表')
+        parts += [supplemental[:split].strip(), library_intro(code)]
+        supplemental = supplemental[split:]
+    else:
+        # Shorter upstream locales put local dialogue and the catalogue first.
+        if code in ('ja', 'es'):
+            template_heading = '## 10 秒用テンプレート' if code == 'ja' else '## Plantilla de 10 segundos'
+            split = supplemental.index(template_heading)
+            parts += dialogue_section + [supplemental[:split].strip()] + collection_section + [supplemental[split:], library_intro(code)]
+        else:
+            parts += dialogue_section + collection_section + [supplemental, library_intro(code)]
+    parts += ['<a id="source-examples"></a>', f'## {d["examples"]}', d['image_note']]
+    for i,e in enumerate(EXAMPLES,1):
+        parts += [f'### {i:02d} · {d[f"example{i}"]}',f'![{d[f"example{i}"]}](assets/{e["image"]})',f'```text\n{e["prompt"]}\n```']
+    parts += [neutral(source.get('after_examples',''))]
+    if code == 'cn':
+        parts += collection_section + dialogue_section + [supplemental]
+    parts += [studies_section(code)]
     parts += [f'## {d["reading"]}', '\n'.join(f'- [{d[k]}]({p})' for k,p in [('community','docs/community-examples.md'),('multilingual','docs/multilingual-guide.md'),('prompting','docs/prompting-guide.md'),('reference','docs/reference-videos.md')]),'<a id="brand-tools"></a>', f'## {d["start"]}', additions['intro'], model,
               '\n'.join(f'{i}. {d[f"step{i}"]}' for i in range(1,4)), d['caution'], brand_section(code), f'[{d["workflow"]}](docs/seaimagine-workflow.md)',
               f'## {d["tools"]}',d['tools_note'], '\n'.join(f'- [{d[k]}]({base}/{p}/)' for k,p in [('create','create'),('i2v','image-to-video'),('t2v','text-to-video'),('imagegen','ai-image-generator')]), f'## {d["source_title"]}', d['source'], '[Flaq AI · awesome-gemini-omni-flash](https://github.com/flaqai/awesome-gemini-omni-flash) · [MIT](LICENSE)']

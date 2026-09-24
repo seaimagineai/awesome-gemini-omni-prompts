@@ -1,58 +1,85 @@
-# Gemini Omni プロンプト集
+<div align="center">
 
 ![Gemini Omni プロンプト集](assets/seaimagine-omni-hero.png)
 
-[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md) · [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
+# Gemini Omni プロンプト集
 
-<a id="video-studies"></a>
+**元のライブラリの完全なレシピ60件を、7つのカテゴリで紹介します。場面、動作のタイミング、カメラ、音の指定方法を学び、自分のアイデアに合わせて書き換えてみましょう。**
 
-## 公式・コミュニティ事例から学ぶ
+[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md)
 
-Google の公式動画は Omni 1.1 Flash の紹介です。コミュニティの投稿は2026年5月の初期 Omni / Flash の作例で、1.1の実測とは確認できていません。根拠は FxTwitter ミラーの本文とメディア情報で、X 上での直接再生は未確認です。いずれも外部の作例であり、利用するサービスでの生成結果ではありません。使える機能は各ツールで確認してください。
+[Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
 
-### Google：開始・終了フレームをつなぐ
 
-[元の事例を見る](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-開始画像、終了画像、その間の連続した動きを別々に決めます。
+[60 本のプロンプト一覧](#prompt-collections) · [コピーして試す 3 例](#source-examples) · [公式・コミュニティ事例](#video-studies) · [多言語ガイド](docs/multilingual-guide.md)
 
-同じ物を自然につながる角度で2枚撮影します。開始・終了フレームが使えれば、単純な動きでつなぎます。
+</div>
 
-### Google：ショットを延長する
+## 特長
 
-[元の事例を見る](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
+以下はプロンプトで設計する内容です。利用できる入力、編集、延長、音声、解像度は、使用するツールで選択中のモデルと画面を確認してください。まず利用可能なプレビュー設定で構図・台詞・文字を確認し、その後に仕上げます。Google の API（プログラム用インターフェース）の仕様と、使用するツールの画面上の機能は別です。
 
-被写体と動く方向を保ちながら、続くカメラの動きを指定します。
+- テキスト、開始フレーム、終了フレーム、人物・商品画像、短い動画参照に対応。
+- 映像だけでなく、環境音、効果音、オリジナル音楽、台詞、無音区間まで設計。
+- 日本語を含む15言語の台詞、画面テキスト、RTL、改行、母語話者レビューの方法。
+- `<FIRST_FRAME>`、`<LAST_FRAME>`、`<IMAGE_REF_N>`、`<VIDEO_REF_N>` の具体例。
 
-自分の短い動画を使います。延長機能があれば、一続きの動作を追加し、つなぎ目の動きと光を確認します。
+## 日本語の台詞を指定する
 
-### CHRIS FIRST：人物をフラミンゴに
+必要に応じて演出指示を英語にし、台詞と画面文字は日本語で正確に指定します。結果の発音、表記、タイミングを確認してください。
 
-<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST：人物をフラミンゴに" width="300"></a>
+```text
+Spoken language: Japanese.
+Exact dialogue at 6s, spoken once with natural conversational pacing: "今日は、遠回りして帰ろう。"
+Do not translate, paraphrase, repeat or subtitle the dialogue.
 
-[元の事例を見る](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
+Exact on-screen Japanese text, centered from 7s to 10s: "小さな旅"
+Preserve the characters exactly. No other text anywhere in the video.
+```
 
-被写体だけを変え、服と動作は残すよう指定します。手足の接触部分も確認します。
+## 画面文字だけを変更する
 
-自分の動画を使い、動画編集が可能なら被写体を一つだけ置き換えます。服、姿勢、地面との接触を前後で比較します。
+選択中のモデルが動画編集に対応している場合、完成した母版には変更点だけを短く指示します。これは字幕ファイルの編集ではなく、映像内の文字を変更する練習です。
 
-### Justine Moore：手拍子ごとに帽子を変える
+```text
+Change only the final on-screen text to Japanese: "ぬくもりを、連れて。" Preserve the exact characters, position, size and timing. Keep everything else the same.
+```
 
-<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore：手拍子ごとに帽子を変える" width="300"></a>
+<a id="prompt-collections"></a>
 
-[元の事例を見る](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
+## 60 本のプロンプト一覧
 
-目に見える動作を変化の合図にし、顔、服、カメラを維持します。
+最初の 5 分類の説明は中国語、最後の 2 分類は英語です。コピー用の制御プロンプトはすべて英語で、各分類ページの全文翻訳ではありません。
 
-カメラを固定して2回の明確な手拍子を撮影します。動画編集が可能なら手拍子ごとの帽子変更を指示し、タイミングをコマごとに確認します。
+- [映画・ストーリーテリング：8 例](prompts/cinematic-storytelling.md)
+- [広告・SNS：8 例](prompts/commerce-social.md)
+- [ドキュメンタリー・旅行・教育：8 例](prompts/documentary-education.md)
+- [アニメーション・音楽・エンタメ：8 例](prompts/stylized-entertainment.md)
+- [マルチモーダル制御・編集・延長：10 例](prompts/control-editing-extension.md)
+- [高度な編集・カメラ・視覚変換：9 例](prompts/advanced-editing-camera.md)
+- [ストーリーボード・分割画面・文字・評価：9 例](prompts/storyboard-text-evaluation.md)
 
-[公式・コミュニティ事例](docs/community-examples.md)
+## 10 秒用テンプレート
 
-## 作例を見て、自分のプロンプトへ
+```text
+Format: 9:16 vertical, 10 seconds.
+Goal: [audience and intended response]
+Scene: [place, time, weather, layout]
+Subject: [3-5 stable identity anchors]
+Subject motion: [ordered action]
+Camera motion: [height, path, focus]
+Environment motion: [wind, light, water, particles]
+[0-3s] [hook]
+[3-7s] [core action]
+[7-10s] [payoff and final hold]
+Audio: [foley, ambience, music, silence]
+Exact dialogue in Japanese, spoken once: "[台詞]"
+Preserve: [identity, object, layout, audio]
+Do not include: [short concrete list]
+```
 
-元のライブラリの完全なレシピ60件を、7つのカテゴリで紹介します。場面、動作のタイミング、カメラ、音の指定方法を学び、自分のアイデアに合わせて書き換えてみましょう。
-
-### 最初のプロンプトを試す
+## 最初のプロンプトを試す
 
 1. 作りたい場面に近い作例を選び、プロンプト全文をコピーします。
 2. 対応する参考画像をダウンロードします。使うツールに開始フレームの指定があれば、その画像を設定します。
@@ -109,66 +136,49 @@ Keep the clockmaker's face, clothes and goggles consistent. No photorealism, sub
 
 
 
-## 特長
+<a id="video-studies"></a>
 
-以下はプロンプトで設計する内容です。利用できる入力、編集、延長、音声、解像度は、使用するツールで選択中のモデルと画面を確認してください。まず利用可能なプレビュー設定で構図・台詞・文字を確認し、その後に仕上げます。Google の API（プログラム用インターフェース）の仕様と、使用するツールの画面上の機能は別です。
+## 公式・コミュニティ事例から学ぶ
 
-- テキスト、開始フレーム、終了フレーム、人物・商品画像、短い動画参照に対応。
-- 映像だけでなく、環境音、効果音、オリジナル音楽、台詞、無音区間まで設計。
-- 日本語を含む15言語の台詞、画面テキスト、RTL、改行、母語話者レビューの方法。
-- `<FIRST_FRAME>`、`<LAST_FRAME>`、`<IMAGE_REF_N>`、`<VIDEO_REF_N>` の具体例。
+Google の公式動画は Omni 1.1 Flash の紹介です。コミュニティの投稿は2026年5月の初期 Omni / Flash の作例で、1.1の実測とは確認できていません。根拠は FxTwitter ミラーの本文とメディア情報で、X 上での直接再生は未確認です。いずれも外部の作例であり、利用するサービスでの生成結果ではありません。使える機能は各ツールで確認してください。
 
-## 60 本のプロンプト一覧
+### Google：開始・終了フレームをつなぐ
 
-最初の 5 分類の説明は中国語、最後の 2 分類は英語です。コピー用の制御プロンプトはすべて英語で、各分類ページの全文翻訳ではありません。
+[元の事例を見る](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-- [映画・ストーリーテリング：8 例](prompts/cinematic-storytelling.md)
-- [広告・SNS：8 例](prompts/commerce-social.md)
-- [ドキュメンタリー・旅行・教育：8 例](prompts/documentary-education.md)
-- [アニメーション・音楽・エンタメ：8 例](prompts/stylized-entertainment.md)
-- [マルチモーダル制御・編集・延長：10 例](prompts/control-editing-extension.md)
-- [高度な編集・カメラ・視覚変換：9 例](prompts/advanced-editing-camera.md)
-- [ストーリーボード・分割画面・文字・評価：9 例](prompts/storyboard-text-evaluation.md)
+開始画像、終了画像、その間の連続した動きを別々に決めます。
 
-## 日本語の台詞を指定する
+同じ物を自然につながる角度で2枚撮影します。開始・終了フレームが使えれば、単純な動きでつなぎます。
 
-必要に応じて演出指示を英語にし、台詞と画面文字は日本語で正確に指定します。結果の発音、表記、タイミングを確認してください。
+### Google：ショットを延長する
 
-```text
-Spoken language: Japanese.
-Exact dialogue at 6s, spoken once with natural conversational pacing: "今日は、遠回りして帰ろう。"
-Do not translate, paraphrase, repeat or subtitle the dialogue.
+[元の事例を見る](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-Exact on-screen Japanese text, centered from 7s to 10s: "小さな旅"
-Preserve the characters exactly. No other text anywhere in the video.
-```
+被写体と動く方向を保ちながら、続くカメラの動きを指定します。
 
-## 画面文字だけを変更する
+自分の短い動画を使います。延長機能があれば、一続きの動作を追加し、つなぎ目の動きと光を確認します。
 
-選択中のモデルが動画編集に対応している場合、完成した母版には変更点だけを短く指示します。これは字幕ファイルの編集ではなく、映像内の文字を変更する練習です。
+### CHRIS FIRST：人物をフラミンゴに
 
-```text
-Change only the final on-screen text to Japanese: "ぬくもりを、連れて。" Preserve the exact characters, position, size and timing. Keep everything else the same.
-```
+<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST：人物をフラミンゴに" width="300"></a>
 
-## 10 秒用テンプレート
+[元の事例を見る](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
 
-```text
-Format: 9:16 vertical, 10 seconds.
-Goal: [audience and intended response]
-Scene: [place, time, weather, layout]
-Subject: [3-5 stable identity anchors]
-Subject motion: [ordered action]
-Camera motion: [height, path, focus]
-Environment motion: [wind, light, water, particles]
-[0-3s] [hook]
-[3-7s] [core action]
-[7-10s] [payoff and final hold]
-Audio: [foley, ambience, music, silence]
-Exact dialogue in Japanese, spoken once: "[台詞]"
-Preserve: [identity, object, layout, audio]
-Do not include: [short concrete list]
-```
+被写体だけを変え、服と動作は残すよう指定します。手足の接触部分も確認します。
+
+自分の動画を使い、動画編集が可能なら被写体を一つだけ置き換えます。服、姿勢、地面との接触を前後で比較します。
+
+### Justine Moore：手拍子ごとに帽子を変える
+
+<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore：手拍子ごとに帽子を変える" width="300"></a>
+
+[元の事例を見る](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
+
+目に見える動作を変化の合図にし、顔、服、カメラを維持します。
+
+カメラを固定して2回の明確な手拍子を撮影します。動画編集が可能なら手拍子ごとの帽子変更を指示し、タイミングをコマごとに確認します。
+
+[公式・コミュニティ事例](docs/community-examples.md)
 
 ## 関連ガイド
 

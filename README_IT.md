@@ -1,58 +1,59 @@
-# Raccolta di prompt per Gemini Omni
+<div align="center">
 
 ![Raccolta di prompt per Gemini Omni](assets/seaimagine-omni-hero.png)
 
-[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md) · [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
+# Raccolta di prompt per Gemini Omni
 
-<a id="video-studies"></a>
+**Esplora le 60 ricette complete della raccolta originale, suddivise in sette categorie. Impara a descrivere la scena, scandire le azioni e guidare la camera e il suono, poi adatta un esempio alla tua idea.**
 
-## Cosa imparare dagli esempi ufficiali e della community
+[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md)
 
-I video ufficiali di Google mostrano Omni 1.1 Flash. I post della comunità risalgono a maggio 2026 e riguardano l’Omni / Flash originale; non sono stati confermati come test della versione 1.1. Le prove provengono dal testo e dai metadati multimediali del mirror FxTwitter; la riproduzione diretta su X non è stata verificata. Sono esempi esterni, non risultati della piattaforma che utilizzi. Controlla le funzioni disponibili nel tuo strumento.
+[Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
 
-### Google: transizione tra fotogramma iniziale e finale
 
-[Guarda l’esempio originale](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-Definisci separatamente l’immagine iniziale, quella finale e il movimento continuo che le unisce.
+[Tutti i 60 prompt](#prompt-collections) · [Tre prompt da copiare](#source-examples) · [Esempi ufficiali e della community](#video-studies) · [Guida multilingue](docs/multilingual-guide.md)
 
-Scatta due foto dello stesso oggetto da angoli compatibili. Se sono disponibili i fotogrammi iniziale e finale, collegale con un movimento semplice.
+</div>
 
-### Google: prolungare un’inquadratura
+## Contenuti
 
-[Guarda l’esempio originale](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
+L’elenco descrive cosa pianificare nei prompt, senza garantire la disponibilità delle funzioni. Verifica input, modifica, estensione, audio e risoluzione disponibili per il modello selezionato nello strumento che usi. Controlla prima composizione, dialogo e testo con un’anteprima disponibile. L’API di Google (interfaccia di programmazione) è distinta dall’interfaccia del tuo strumento.
 
-Descrivi il movimento di camera successivo mantenendo il soggetto e la direzione del movimento.
+- Testo-video, immagine-video, primo/ultimo fotogramma e riferimenti per soggetti o prodotti.
+- Progettazione coordinata di immagini, ambiente, effetti, musica originale, silenzio e dialogo.
+- Regole per dialogo, testo sullo schermo e revisione in 15 lingue.
 
-Usa un tuo breve video. Se è disponibile l’estensione, chiedi una sola continuazione e controlla salti di movimento o luce nel raccordo.
+## Dialoghi in italiano
 
-### CHRIS FIRST: persone trasformate in fenicotteri
+Puoi mantenere le istruzioni di scena in inglese e indicare esattamente dialoghi e testi visibili in italiano. Controlla pronuncia, ortografia e tempi.
 
-<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST: persone trasformate in fenicotteri" width="300"></a>
+```text
+Spoken language: Italian.
+Exact dialogue at 6s, spoken once with natural conversational pacing: "Oggi torniamo a casa facendo la strada più lunga."
+Do not translate, paraphrase, repeat or subtitle it.
 
-[Guarda l’esempio originale](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
+Exact on-screen Italian title: "PICCOLI VIAGGI"
+Preserve spelling and punctuation exactly. No other text.
+```
 
-Cambia il soggetto chiedendo di mantenere vestiti e azione; controlla i punti di contatto degli arti.
+<a id="prompt-collections"></a>
 
-Se puoi modificare video, sostituisci un solo soggetto in una tua ripresa. Confronta vestiti, postura e contatto con il suolo.
+## Tutti i 60 prompt
 
-### Justine Moore: un cappello diverso a ogni battito di mani
+Le prime cinque raccolte hanno spiegazioni in cinese, le ultime due in inglese. Tutti i prompt di controllo sono in inglese. Le raccolte non sono tradotte integralmente.
 
-<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore: un cappello diverso a ogni battito di mani" width="300"></a>
+- [Cinema e narrazione: 8 prompt](prompts/cinematic-storytelling.md)
+- [Commercio e social media: 8 prompt](prompts/commerce-social.md)
+- [Documentari, viaggi e formazione: 8 prompt](prompts/documentary-education.md)
+- [Animazione, musica e intrattenimento: 8 prompt](prompts/stylized-entertainment.md)
+- [Controllo, modifica ed estensione: 10 ricette](prompts/control-editing-extension.md)
+- [Montaggio avanzato, camera e trasformazione visiva: 9 prompt](prompts/advanced-editing-camera.md)
+- [Storyboard, schermi divisi, testo e valutazione: 9 prompt](prompts/storyboard-text-evaluation.md)
 
-[Guarda l’esempio originale](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
 
-Usa un gesto visibile per stabilire quando avviene ogni cambio, mantenendo volto, vestiti e camera.
 
-Filma due battiti di mani ben visibili con la camera fissa. Se puoi modificare video, chiedi un cambio di cappello a ogni battito e controlla il momento fotogramma per fotogramma.
-
-[Esempi ufficiali e della community](docs/community-examples.md)
-
-## Dagli esempi ai tuoi prompt
-
-Esplora le 60 ricette complete della raccolta originale, suddivise in sette categorie. Impara a descrivere la scena, scandire le azioni e guidare la camera e il suono, poi adatta un esempio alla tua idea.
-
-### Prova il tuo primo prompt
+## Prova il tuo primo prompt
 
 1. Scegli un esempio completo simile alla scena che vuoi creare e copia tutto il prompt.
 2. Scarica l’immagine di riferimento corrispondente e impostala come primo fotogramma, se lo strumento offre questa opzione.
@@ -109,38 +110,49 @@ Keep the clockmaker's face, clothes and goggles consistent. No photorealism, sub
 
 
 
-## Contenuti
+<a id="video-studies"></a>
 
-L’elenco descrive cosa pianificare nei prompt, senza garantire la disponibilità delle funzioni. Verifica input, modifica, estensione, audio e risoluzione disponibili per il modello selezionato nello strumento che usi. Controlla prima composizione, dialogo e testo con un’anteprima disponibile. L’API di Google (interfaccia di programmazione) è distinta dall’interfaccia del tuo strumento.
+## Cosa imparare dagli esempi ufficiali e della community
 
-- Testo-video, immagine-video, primo/ultimo fotogramma e riferimenti per soggetti o prodotti.
-- Progettazione coordinata di immagini, ambiente, effetti, musica originale, silenzio e dialogo.
-- Regole per dialogo, testo sullo schermo e revisione in 15 lingue.
+I video ufficiali di Google mostrano Omni 1.1 Flash. I post della comunità risalgono a maggio 2026 e riguardano l’Omni / Flash originale; non sono stati confermati come test della versione 1.1. Le prove provengono dal testo e dai metadati multimediali del mirror FxTwitter; la riproduzione diretta su X non è stata verificata. Sono esempi esterni, non risultati della piattaforma che utilizzi. Controlla le funzioni disponibili nel tuo strumento.
 
-## Tutti i 60 prompt
+### Google: transizione tra fotogramma iniziale e finale
 
-Le prime cinque raccolte hanno spiegazioni in cinese, le ultime due in inglese. Tutti i prompt di controllo sono in inglese. Le raccolte non sono tradotte integralmente.
+[Guarda l’esempio originale](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-- [Cinema e narrazione: 8 prompt](prompts/cinematic-storytelling.md)
-- [Commercio e social media: 8 prompt](prompts/commerce-social.md)
-- [Documentari, viaggi e formazione: 8 prompt](prompts/documentary-education.md)
-- [Animazione, musica e intrattenimento: 8 prompt](prompts/stylized-entertainment.md)
-- [Controllo, modifica ed estensione: 10 ricette](prompts/control-editing-extension.md)
-- [Montaggio avanzato, camera e trasformazione visiva: 9 prompt](prompts/advanced-editing-camera.md)
-- [Storyboard, schermi divisi, testo e valutazione: 9 prompt](prompts/storyboard-text-evaluation.md)
+Definisci separatamente l’immagine iniziale, quella finale e il movimento continuo che le unisce.
 
-## Dialoghi in italiano
+Scatta due foto dello stesso oggetto da angoli compatibili. Se sono disponibili i fotogrammi iniziale e finale, collegale con un movimento semplice.
 
-Puoi mantenere le istruzioni di scena in inglese e indicare esattamente dialoghi e testi visibili in italiano. Controlla pronuncia, ortografia e tempi.
+### Google: prolungare un’inquadratura
 
-```text
-Spoken language: Italian.
-Exact dialogue at 6s, spoken once with natural conversational pacing: "Oggi torniamo a casa facendo la strada più lunga."
-Do not translate, paraphrase, repeat or subtitle it.
+[Guarda l’esempio originale](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-Exact on-screen Italian title: "PICCOLI VIAGGI"
-Preserve spelling and punctuation exactly. No other text.
-```
+Descrivi il movimento di camera successivo mantenendo il soggetto e la direzione del movimento.
+
+Usa un tuo breve video. Se è disponibile l’estensione, chiedi una sola continuazione e controlla salti di movimento o luce nel raccordo.
+
+### CHRIS FIRST: persone trasformate in fenicotteri
+
+<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST: persone trasformate in fenicotteri" width="300"></a>
+
+[Guarda l’esempio originale](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
+
+Cambia il soggetto chiedendo di mantenere vestiti e azione; controlla i punti di contatto degli arti.
+
+Se puoi modificare video, sostituisci un solo soggetto in una tua ripresa. Confronta vestiti, postura e contatto con il suolo.
+
+### Justine Moore: un cappello diverso a ogni battito di mani
+
+<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore: un cappello diverso a ogni battito di mani" width="300"></a>
+
+[Guarda l’esempio originale](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
+
+Usa un gesto visibile per stabilire quando avviene ogni cambio, mantenendo volto, vestiti e camera.
+
+Filma due battiti di mani ben visibili con la camera fissa. Se puoi modificare video, chiedi un cambio di cappello a ogni battito e controlla il momento fotogramma per fotogramma.
+
+[Esempi ufficiali e della community](docs/community-examples.md)
 
 ## Approfondimenti
 

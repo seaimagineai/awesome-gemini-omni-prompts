@@ -1,84 +1,29 @@
-# Awesome Gemini Omni Prompts
+<div align="center">
 
 ![Gemini Omni prompt library cover](assets/seaimagine-omni-hero.png)
+
+# Awesome Gemini Omni Prompts
+
+**Explore 60 complete source recipes in seven categories. Learn how to describe a scene, time its actions, direct the camera and shape the sound, then adapt an example to your own idea.**
 
 [English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md)
 
 [العربية](README_AR.md) · [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [All 15 languages](docs/multilingual-guide.md)
-
-<!-- generated:studies:start -->
-<a id="video-studies"></a>
-
-## What to learn from official and community examples
-
-Google’s official videos demonstrate Omni 1.1 Flash. The community posts are from May 2026 and concern the original Omni / Flash; they are not verified 1.1 tests. Community evidence comes from the FxTwitter mirror’s text and media metadata; native playback on X has not been verified. These are external examples, not results from the platform you choose to use. Check which features your tool offers.
-
-### Google: first-to-last-frame transition
-
-[View the source example](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
-
-Set the starting image, ending image and the continuous movement between them separately.
-
-Prepare two photos of the same object from compatible angles. If first/last-frame controls are available, connect them with one simple movement.
-
-### Google: extend a shot
-
-[View the source example](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
-
-Describe the next camera move while preserving the subject and the direction of motion.
-
-Use your own short clip. If extension is available, request one continuation and inspect the join for jumps in motion or lighting.
-
-### CHRIS FIRST: people become flamingos
-
-<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST: people become flamingos" width="300"></a>
-
-[View the source example](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
-
-Change the subject while explicitly preserving clothing and action; inspect limb contacts.
-
-With your own footage and an available video editor, replace one subject. Compare clothing, pose and contact with the ground before and after.
-
-### Justine Moore: change hats on each clap
-
-<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore: change hats on each clap" width="300"></a>
-
-[View the source example](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
-
-Use a visible gesture to time each change while keeping the face, outfit and camera consistent.
-
-Film two clear claps with a fixed camera. If video editing is available, request a hat change at each clap and check the timing frame by frame.
-
-[Official and community examples](docs/community-examples.md)
-<!-- generated:studies:end -->
-
-<!-- generated:library:start -->
-## From examples to prompts you can try
-
-Explore 60 complete source recipes in seven categories. Learn how to describe a scene, time its actions, direct the camera and shape the sound, then adapt an example to your own idea.
-
-### Try your first prompt
-
-1. Choose a complete example that matches your scene and copy the full prompt.
-2. Download its reference image and, in your chosen tool, assign it as the first frame if that option is available.
-3. Adjust the timeline to the available duration and resolution. Make a draft, check the subject, text and sound, then change one thing at a time.
-<!-- generated:library:end -->
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-6f42c1.svg)](LICENSE)
 [![Prompt recipes](https://img.shields.io/badge/prompt_recipes-60-00b8d9.svg)](#complete-prompt-library)
 [![Languages](https://img.shields.io/badge/localization_guides-15-ff8a00.svg)](docs/multilingual-guide.md)
 [![Model](https://img.shields.io/badge/model-gemini--omni--1.1--flash-4285f4.svg)](https://ai.google.dev/gemini-api/docs/omni)
 
-## What is included
+[Browse 60 prompts](#complete-prompt-library) · [Find a prompt in one minute](#find-the-right-prompt-in-one-minute) · [Complete examples](#source-examples) · [Official and community examples](#video-studies) · [Localization guide](docs/multilingual-guide.md)
 
-- **60 complete recipes, not one-line prompt fragments.** Each covers mode, input roles, scene, timing, camera, audio, invariants, exclusions, or evaluation.
-- **3 new illustrated practice briefs.** Ceramic-cup product motion, paper-harbor lighting, and a vertical linen-pouch clip with captions added in editing.
-- **7 practical collections.** Storytelling, commerce, education, entertainment, multimodal control, advanced editing/camera, and storyboards/text/evaluation.
-- **30+ production directions.** Film, action, products, UGC, travel, science, animation, local edits, environment replacement, camera reinterpretation, split screens, storyboards, kinetic type, localization, and controlled benchmarks.
-- **Localization guidance for 15 languages.** Dialogue locking, exact text, RTL direction, line length, native review, and per-locale acceptance tests.
-- **6 ready-to-use reference images:** 3 newly created practice inputs and 3 retained source-library inputs, plus a separate editorial cover. Reference images are inputs, not video outputs.
-- **API and debugging guidance.** From 360p drafts and media-role tags to high-resolution delivery and interaction records.
-- **License-aware video references.** Official demos are separated from public-domain, CC BY, institutional, and owned footage, with a provenance template.
+</div>
+
+## Share your Gemini Omni prompt
+
+Built a shot that another creator or developer can reproduce? Use the [guided submission form](https://github.com/seaimagineai/awesome-gemini-omni-prompts/issues/new?template=prompt-submission.yml) to share one original, tested prompt with its mode, input roles, aspect ratio, resolution, observed result, known problems, and iteration notes.
+
+We especially welcome multilingual dialogue, real business workflows, accessibility-focused content, controlled local edits, first/last-frame experiments, honest failure reports, and original reference media that can legally be redistributed. Do not submit copied collections, unauthorized likenesses, branded media, protected characters, secrets, private data, undisclosed affiliate links, or unsupported capability claims. See [CONTRIBUTING.md](CONTRIBUTING.md) for the full review checklist.
 
 ## Find the right prompt in one minute
 
@@ -96,61 +41,16 @@ Explore 60 complete source recipes in seven categories. Learn how to describe a 
 | Identity drift, broken text, crowded audio, or unstable continuity | [Failure diagnosis](docs/prompting-guide.md#11-失败诊断) |
 | Python or JavaScript integration | [Gemini API quickstart](docs/api-quickstart.md) |
 
-<a id="source-examples"></a>
+## What is included
 
-## Three complete prompts from the source library
-
-### 01 | Unbranded outdoor speaker: water-beat product film
-
-![Original unbranded speaker first frame](assets/product-speaker.png)
-
-```text
-[# Sources <FIRST_FRAME>@Image1]
-Create a 10-second premium product film from Image1. Use Image1 as the exact starting frame.
-
-[0-3s] Make a slow 20-degree clockwise camera orbit. Suspended droplets travel around the speaker in clean concentric paths, aligned to a deep electronic kick. Preserve the speaker's exact coral color, grille weave and proportions.
-[3-7s] A sunrise reflection sweeps across the copper end cap. On the snare, droplets strike the wet stone and rebound as fine mist.
-[7-10s] All droplets collapse into one crisp splash behind the product, then settle on a steady three-quarter hero frame with negative space on the right.
-
-Audio: original minimal electronic rhythm at 96 BPM, water-drop percussion, distant ocean ambience. No vocals.
-No product morphing, added controls, text, logo, watermark, hands, duplicate product or camera shake.
-```
-
-[Browse all 8 commerce and social prompts →](prompts/commerce-social.md)
-
-### 02 | Volcanic ridge: travel-documentary opener
-
-![Original volcanic ridge cyclist first frame](assets/travel-cyclist.png)
-
-```text
-[# Sources <FIRST_FRAME>@Image1]
-Animate Image1 as a single continuous 10-second documentary tracking shot. Use it as the exact first frame.
-
-The cyclist pedals steadily toward the observatory while the camera follows from the same height. Silver grass bends in two wind gusts, loose gravel reacts under the rear tire, and clouds move slowly below the ridge. At 6s, the first warm sunlight reaches the jacket and observatory dome.
-
-Audio: close tire crunch and chain movement, strong ridge wind, one distant bird at 7s. No music or narration.
-No cuts, drone rise, extra cyclists, landmark text, logo or watermark.
-```
-
-[Browse all 8 documentary, travel, and education prompts →](prompts/documentary-education.md)
-
-### 03 | Clock-tower paper birds: illustrated animation
-
-![Original clockmaker animation first frame](assets/clockmaker-story.png)
-
-```text
-[# Sources <FIRST_FRAME>@Image1]
-Bring this original illustration to life in one coherent 10-second animated shot. Use Image1 as the first frame and preserve its watercolor-and-ink direction.
-
-[0-3s] The brass door clicks open and warm light grows inside it. Nearby gears rotate at different believable speeds.
-[3-7s] Paper birds unfold one by one and spiral past the camera with visible paper flex. Tilt upward to follow them through the clock opening.
-[7-10s] The flock crosses the moon; one tiny paper bird lands on the clock hand.
-
-Audio: layered clock ticks, delicate paper folds, wooden gear creaks, then an original celesta motif. No dialogue.
-Keep the clockmaker's face, clothes and goggles consistent. No photorealism, subtitles, logo or watermark.
-```
-
-[Browse all 8 stylized entertainment prompts →](prompts/stylized-entertainment.md)
+- **60 complete recipes, not one-line prompt fragments.** Each covers mode, input roles, scene, timing, camera, audio, invariants, exclusions, or evaluation.
+- **3 new illustrated practice briefs.** Ceramic-cup product motion, paper-harbor lighting, and a vertical linen-pouch clip with captions added in editing.
+- **7 practical collections.** Storytelling, commerce, education, entertainment, multimodal control, advanced editing/camera, and storyboards/text/evaluation.
+- **30+ production directions.** Film, action, products, UGC, travel, science, animation, local edits, environment replacement, camera reinterpretation, split screens, storyboards, kinetic type, localization, and controlled benchmarks.
+- **Localization guidance for 15 languages.** Dialogue locking, exact text, RTL direction, line length, native review, and per-locale acceptance tests.
+- **6 ready-to-use reference images:** 3 newly created practice inputs and 3 retained source-library inputs, plus a separate editorial cover. Reference images are inputs, not video outputs.
+- **API and debugging guidance.** From 360p drafts and media-role tags to high-resolution delivery and interaction records.
+- **License-aware video references.** Official demos are separated from public-domain, CC BY, institutional, and owned footage, with a provenance template.
 
 ## Gemini Omni 1.1 Flash capability map
 
@@ -211,6 +111,70 @@ Do not include: [short concrete list]
 ```
 
 [Read the complete prompt-design method →](docs/prompting-guide.md)
+
+<!-- generated:library:start -->
+## Try your first prompt
+
+1. Choose a complete example that matches your scene and copy the full prompt.
+2. Download its reference image and, in your chosen tool, assign it as the first frame if that option is available.
+3. Adjust the timeline to the available duration and resolution. Make a draft, check the subject, text and sound, then change one thing at a time.
+<!-- generated:library:end -->
+
+<a id="source-examples"></a>
+
+## Three complete prompts from the source library
+
+### 01 | Unbranded outdoor speaker: water-beat product film
+
+![Original unbranded speaker first frame](assets/product-speaker.png)
+
+```text
+[# Sources <FIRST_FRAME>@Image1]
+Create a 10-second premium product film from Image1. Use Image1 as the exact starting frame.
+
+[0-3s] Make a slow 20-degree clockwise camera orbit. Suspended droplets travel around the speaker in clean concentric paths, aligned to a deep electronic kick. Preserve the speaker's exact coral color, grille weave and proportions.
+[3-7s] A sunrise reflection sweeps across the copper end cap. On the snare, droplets strike the wet stone and rebound as fine mist.
+[7-10s] All droplets collapse into one crisp splash behind the product, then settle on a steady three-quarter hero frame with negative space on the right.
+
+Audio: original minimal electronic rhythm at 96 BPM, water-drop percussion, distant ocean ambience. No vocals.
+No product morphing, added controls, text, logo, watermark, hands, duplicate product or camera shake.
+```
+
+[Browse all 8 commerce and social prompts →](prompts/commerce-social.md)
+
+### 02 | Volcanic ridge: travel-documentary opener
+
+![Original volcanic ridge cyclist first frame](assets/travel-cyclist.png)
+
+```text
+[# Sources <FIRST_FRAME>@Image1]
+Animate Image1 as a single continuous 10-second documentary tracking shot. Use it as the exact first frame.
+
+The cyclist pedals steadily toward the observatory while the camera follows from the same height. Silver grass bends in two wind gusts, loose gravel reacts under the rear tire, and clouds move slowly below the ridge. At 6s, the first warm sunlight reaches the jacket and observatory dome.
+
+Audio: close tire crunch and chain movement, strong ridge wind, one distant bird at 7s. No music or narration.
+No cuts, drone rise, extra cyclists, landmark text, logo or watermark.
+```
+
+[Browse all 8 documentary, travel, and education prompts →](prompts/documentary-education.md)
+
+### 03 | Clock-tower paper birds: illustrated animation
+
+![Original clockmaker animation first frame](assets/clockmaker-story.png)
+
+```text
+[# Sources <FIRST_FRAME>@Image1]
+Bring this original illustration to life in one coherent 10-second animated shot. Use Image1 as the first frame and preserve its watercolor-and-ink direction.
+
+[0-3s] The brass door clicks open and warm light grows inside it. Nearby gears rotate at different believable speeds.
+[3-7s] Paper birds unfold one by one and spiral past the camera with visible paper flex. Tilt upward to follow them through the clock opening.
+[7-10s] The flock crosses the moon; one tiny paper bird lands on the clock hand.
+
+Audio: layered clock ticks, delicate paper folds, wooden gear creaks, then an original celesta motif. No dialogue.
+Keep the clockmaker's face, clothes and goggles consistent. No photorealism, subtitles, logo or watermark.
+```
+
+[Browse all 8 stylized entertainment prompts →](prompts/stylized-entertainment.md)
 
 ## Complete prompt library
 
@@ -292,12 +256,6 @@ The repository is released under the [MIT License](LICENSE). Generated output ca
 - Upscaled 1080p and 4K cannot repair bad composition, text, physics, or timing.
 - People, minors, and uploaded-video editing can be restricted by region and safety policy.
 
-## Share your Gemini Omni prompt
-
-Built a shot that another creator or developer can reproduce? Use the [guided submission form](https://github.com/seaimagineai/awesome-gemini-omni-prompts/issues/new?template=prompt-submission.yml) to share one original, tested prompt with its mode, input roles, aspect ratio, resolution, observed result, known problems, and iteration notes.
-
-We especially welcome multilingual dialogue, real business workflows, accessibility-focused content, controlled local edits, first/last-frame experiments, honest failure reports, and original reference media that can legally be redistributed. Do not submit copied collections, unauthorized likenesses, branded media, protected characters, secrets, private data, undisclosed affiliate links, or unsupported capability claims. See [CONTRIBUTING.md](CONTRIBUTING.md) for the full review checklist.
-
 ## Contributing and sources
 
 Original scenarios, careful localizations, accessibility improvements, reproducible media, and honest failure reports are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) or use the [guided prompt-submission form](https://github.com/seaimagineai/awesome-gemini-omni-prompts/issues/new?template=prompt-submission.yml).
@@ -311,6 +269,52 @@ Capability sources:
 For source clips and reuse conditions, use the [reference video and licensing guide](docs/reference-videos.md). It links rather than rehosts third-party media.
 
 Review copyright, likeness, trademark, audio, advertising claims, safety policy, and platform terms before commercial release.
+
+<!-- generated:studies:start -->
+<a id="video-studies"></a>
+
+## What to learn from official and community examples
+
+Google’s official videos demonstrate Omni 1.1 Flash. The community posts are from May 2026 and concern the original Omni / Flash; they are not verified 1.1 tests. Community evidence comes from the FxTwitter mirror’s text and media metadata; native playback on X has not been verified. These are external examples, not results from the platform you choose to use. Check which features your tool offers.
+
+### Google: first-to-last-frame transition
+
+[View the source example](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
+
+Set the starting image, ending image and the continuous movement between them separately.
+
+Prepare two photos of the same object from compatible angles. If first/last-frame controls are available, connect them with one simple movement.
+
+### Google: extend a shot
+
+[View the source example](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
+
+Describe the next camera move while preserving the subject and the direction of motion.
+
+Use your own short clip. If extension is available, request one continuation and inspect the join for jumps in motion or lighting.
+
+### CHRIS FIRST: people become flamingos
+
+<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST: people become flamingos" width="300"></a>
+
+[View the source example](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
+
+Change the subject while explicitly preserving clothing and action; inspect limb contacts.
+
+With your own footage and an available video editor, replace one subject. Compare clothing, pose and contact with the ground before and after.
+
+### Justine Moore: change hats on each clap
+
+<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore: change hats on each clap" width="300"></a>
+
+[View the source example](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
+
+Use a visible gesture to time each change while keeping the face, outfit and camera consistent.
+
+Film two clear claps with a fixed camera. If video editing is available, request a hat change at each clap and check the timing frame by frame.
+
+[Official and community examples](docs/community-examples.md)
+<!-- generated:studies:end -->
 
 <a id="brand-tools"></a>
 
