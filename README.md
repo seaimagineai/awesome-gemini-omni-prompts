@@ -1,5 +1,7 @@
 # Awesome Gemini Omni Prompts
 
+![Gemini Omni prompt library cover](assets/seaimagine-omni-hero.png)
+
 [English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md)
 
 [العربية](README_AR.md) · [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [All 15 languages](docs/multilingual-guide.md)
@@ -328,8 +330,6 @@ Review copyright, likeness, trademark, audio, advertising claims, safety policy,
 These are durable task-based entry points, not a promise of continuous model availability. Public pages were checked on **2026-09-24**; no paid generation, uptime study, or end-to-end output test was performed. Check credits, duration, resolution, and model availability in your account. Google API features described in this guide are not automatically SeaImagine editor features.
 
 [Step-by-step SeaImagine guide and three additional practice briefs →](docs/seaimagine-workflow.md)
-
-![SeaImagine creative practice cover](assets/seaimagine-omni-hero.png)
 
 ## Start in SeaImagine
 

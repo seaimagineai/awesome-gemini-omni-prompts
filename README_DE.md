@@ -1,5 +1,7 @@
 # Gemini Omni Prompt-Sammlung
 
+![Gemini Omni Prompt-Sammlung](assets/seaimagine-omni-hero.png)
+
 [English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md) · [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
 
 <a id="video-studies"></a>
@@ -150,8 +152,6 @@ Allow enough width for German compound words. No other text.
 <a id="brand-tools"></a>
 
 ## Mit SeaImagine beginnen
-
-![Videoprompts für Gemini Omni auf SeaImagine](assets/seaimagine-omni-hero.png)
 
 Diese Sammlung bewahrt die 60 ursprünglichen Rezepte von Flaq AI und ergänzt drei SeaImagine-Übungen mit eigenen Referenzbildern. Auf dieser Seite findest du die neuen Übungen, Beispiele aus der Vorlage und Lernhinweise zu offiziellen und Community-Beispielen.
 

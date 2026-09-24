@@ -1,5 +1,7 @@
 # Biblioteca de prompts do Gemini Omni
 
+![Biblioteca de prompts do Gemini Omni](assets/seaimagine-omni-hero.png)
+
 [English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md) · [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
 
 <a id="video-studies"></a>
@@ -150,8 +152,6 @@ Preserve accents, ç and spelling exactly. No other text.
 <a id="brand-tools"></a>
 
 ## Comece no SeaImagine
-
-![Prompts de vídeo Gemini Omni para SeaImagine](assets/seaimagine-omni-hero.png)
 
 Esta biblioteca preserva as 60 receitas originais da Flaq AI e adiciona três exercícios SeaImagine com imagens próprias. Veja nesta página os novos exercícios, exemplos do repositório original e lições de casos oficiais e da comunidade.
 

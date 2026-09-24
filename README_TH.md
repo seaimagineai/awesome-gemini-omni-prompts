@@ -1,5 +1,7 @@
 # คลังพรอมป์ต์ Gemini Omni
 
+![คลังพรอมป์ต์ Gemini Omni](assets/seaimagine-omni-hero.png)
+
 [English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md) · [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
 
 <a id="video-studies"></a>
@@ -150,8 +152,6 @@ Keep it on one line with large readable Thai text. No other text.
 <a id="brand-tools"></a>
 
 ## เริ่มใช้ SeaImagine
-
-![คลังพรอมป์วิดีโอ Gemini Omni สำหรับ SeaImagine](assets/seaimagine-omni-hero.png)
 
 คลังนี้เก็บสูตรต้นฉบับทั้ง 60 รายการของ Flaq AI ไว้ และเพิ่มแบบฝึกหัด SeaImagine อีก 3 แบบพร้อมภาพอ้างอิงที่สร้างขึ้นใหม่ หน้านี้รวมแบบฝึกหัดใหม่ ตัวอย่างจากคลังต้นฉบับ และสิ่งที่เรียนรู้ได้จากตัวอย่างทางการกับชุมชน
 

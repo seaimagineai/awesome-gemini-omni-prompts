@@ -1,5 +1,7 @@
 # Koleksi Prompt Gemini Omni
 
+![Koleksi Prompt Gemini Omni](assets/seaimagine-omni-hero.png)
+
 [English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md) · [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
 
 <a id="video-studies"></a>
@@ -150,8 +152,6 @@ Preserve spelling exactly. No other text.
 <a id="brand-tools"></a>
 
 ## Mulai dengan SeaImagine
-
-![Kumpulan prompt video Gemini Omni untuk SeaImagine](assets/seaimagine-omni-hero.png)
 
 Pustaka ini mempertahankan 60 resep asli Flaq AI dan menambahkan tiga latihan SeaImagine dengan gambar referensi sendiri. Halaman ini memuat latihan baru, contoh dari repositori asal, serta pelajaran dari contoh resmi dan komunitas.
 

@@ -1,5 +1,7 @@
 # Gemini Omni 프롬프트 모음
 
+![Gemini Omni 프롬프트 모음](assets/seaimagine-omni-hero.png)
+
 [English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md) · [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
 
 <a id="video-studies"></a>
@@ -150,8 +152,6 @@ Use large readable Hangul syllable blocks. No other text.
 <a id="brand-tools"></a>
 
 ## SeaImagine 시작하기
-
-![SeaImagine용 Gemini Omni 영상 프롬프트 모음](assets/seaimagine-omni-hero.png)
 
 Flaq AI의 원본 레시피 60개를 보존하고, 자체 참고 이미지를 활용한 SeaImagine 연습 세 가지를 추가했습니다. 이 페이지에서 새 연습, 원본 예시, 공식·커뮤니티 사례의 학습 내용을 확인하세요.
 

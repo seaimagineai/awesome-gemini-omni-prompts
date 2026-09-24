@@ -1,5 +1,7 @@
 # مكتبة أوامر Gemini Omni
 
+![مكتبة أوامر Gemini Omni](assets/seaimagine-omni-hero.png)
+
 [English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md) · [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
 
 <a id="video-studies"></a>
@@ -152,8 +154,6 @@ Keep the full phrase connected and right-aligned. No other text.
 <a id="brand-tools"></a>
 
 ## ابدأ مع SeaImagine
-
-![مطالبات فيديو Gemini Omni لـ SeaImagine](assets/seaimagine-omni-hero.png)
 
 تحتفظ هذه المكتبة بوصفات Flaq AI الأصلية الستين، وتضيف ثلاثة تمارين SeaImagine بصور مرجعية خاصة. تضم هذه الصفحة التمارين الجديدة وأمثلة المستودع الأصلي ودروسًا من الأمثلة الرسمية وأعمال المجتمع.
 

@@ -1,5 +1,7 @@
 # Raccolta di prompt per Gemini Omni
 
+![Raccolta di prompt per Gemini Omni](assets/seaimagine-omni-hero.png)
+
 [English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md) · [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
 
 <a id="video-studies"></a>
@@ -150,8 +152,6 @@ Preserve spelling and punctuation exactly. No other text.
 <a id="brand-tools"></a>
 
 ## Inizia con SeaImagine
-
-![Prompt video Gemini Omni per SeaImagine](assets/seaimagine-omni-hero.png)
 
 Questa raccolta conserva le 60 ricette originali di Flaq AI e aggiunge tre esercizi SeaImagine con immagini proprie. Qui trovi i nuovi esercizi, gli esempi del repository di origine e le lezioni tratte dai casi ufficiali e della community.
 

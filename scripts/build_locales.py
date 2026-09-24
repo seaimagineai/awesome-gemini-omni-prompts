@@ -36,7 +36,7 @@ def build(code, suffix):
     prefix = '' if code=='en' else f'/{code}'
     base = 'https://seaimagine.com' + prefix
     model = f'[Gemini Omni]({base}/model/gemini-omni/) · [Gemini Omni 1.1 Flash]({base}/model/gemini-omni-1-1-flash/)'
-    parts = [f'# {editorial["title"]}', NAV, studies_section(code), library_intro(code),
+    parts = [f'# {editorial["title"]}', f'![{editorial["title"]}](assets/seaimagine-omni-hero.png)', NAV, studies_section(code), library_intro(code),
              '<a id="source-examples"></a>', f'## {d["examples"]}', d['image_note']]
     for i,e in enumerate(EXAMPLES,1):
         parts += [f'### {i:02d} · {d[f"example{i}"]}',f'![{d[f"example{i}"]}](assets/{e["image"]})',f'```text\n{e["prompt"]}\n```']
@@ -47,7 +47,7 @@ def build(code, suffix):
     dialogue = source['dialogue']
     if dialogue: parts += [f'```text\n{dialogue}\n```']
     if source.get('supplemental'): parts += [neutral(source['supplemental'])]
-    parts += [f'## {d["reading"]}', '\n'.join(f'- [{d[k]}]({p})' for k,p in [('community','docs/community-examples.md'),('multilingual','docs/multilingual-guide.md'),('prompting','docs/prompting-guide.md'),('reference','docs/reference-videos.md')]),'<a id="brand-tools"></a>', f'## {d["start"]}', f'![{d["title"]}](assets/seaimagine-omni-hero.png)', additions['intro'], model,
+    parts += [f'## {d["reading"]}', '\n'.join(f'- [{d[k]}]({p})' for k,p in [('community','docs/community-examples.md'),('multilingual','docs/multilingual-guide.md'),('prompting','docs/prompting-guide.md'),('reference','docs/reference-videos.md')]),'<a id="brand-tools"></a>', f'## {d["start"]}', additions['intro'], model,
               '\n'.join(f'{i}. {d[f"step{i}"]}' for i in range(1,4)), d['caution'], brand_section(code), f'[{d["workflow"]}](docs/seaimagine-workflow.md)',
               f'## {d["tools"]}',d['tools_note'], '\n'.join(f'- [{d[k]}]({base}/{p}/)' for k,p in [('create','create'),('i2v','image-to-video'),('t2v','text-to-video'),('imagegen','ai-image-generator')]), f'## {d["source_title"]}', d['source'], '[Flaq AI · awesome-gemini-omni-flash](https://github.com/flaqai/awesome-gemini-omni-flash) · [MIT](LICENSE)']
     return '\n\n'.join(parts)+'\n'

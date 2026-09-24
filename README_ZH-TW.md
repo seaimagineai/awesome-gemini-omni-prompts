@@ -1,5 +1,7 @@
 # Gemini Omni 提示詞庫
 
+![Gemini Omni 提示詞庫](assets/seaimagine-omni-hero.png)
+
 [English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md) · [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
 
 <a id="video-studies"></a>
@@ -152,8 +154,6 @@ Do not convert any character to Simplified Chinese. No other text.
 <a id="brand-tools"></a>
 
 ## 從 SeaImagine 開始
-
-![SeaImagine Gemini Omni 影片提示詞庫](assets/seaimagine-omni-hero.png)
 
 本庫保留 Flaq AI 的 60 條原始配方，並新增三組附原創參考圖的 SeaImagine 練習。本頁可直接閱讀新練習、來源庫範例，以及官方與社群案例的學習說明。
 
