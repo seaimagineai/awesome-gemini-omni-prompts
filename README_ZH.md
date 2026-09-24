@@ -1,90 +1,60 @@
-# SeaImagine Gemini Omni 视频提示词库
+# Gemini Omni 提示词库
 
 [English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md) · [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
 
-![SeaImagine Gemini Omni 视频提示词库](assets/seaimagine-omni-hero.png)
+<a id="video-studies"></a>
 
-本库保留 Flaq AI 的 60 条源配方，并新增三组带原创参考图的 SeaImagine 练习。本页可直接阅读新练习、源库示例，以及官方与社区案例的学习说明。
+## 从官方与社区案例学什么
 
-[Gemini Omni](https://seaimagine.com/cn/model/gemini-omni/) · [Gemini Omni 1.1 Flash](https://seaimagine.com/cn/model/gemini-omni-1-1-flash/)
+Google 视频是 Omni 1.1 Flash 官方展示。社区帖子发布于 2026 年 5 月，属于早期 Omni / Flash 案例，未核实为 1.1 实测。社区证据来自 FxTwitter 镜像的文字和媒体元数据，未核验 X 原生播放。这些是独立来源的案例，不代表你所用平台的生成结果；具体功能请查看所用工具。
 
-[三个 SeaImagine 原创参考图练习](#sea-practice) · [三个可复制的示例](#source-examples) · [从官方与社区案例学什么](#video-studies)
+### Google：首尾帧转场
 
-## 从 SeaImagine 开始
+[查看原始案例](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-1. 打开模型页，确认当前是否可用、价格以及页面提供的设置。
-2. 需要保留产品或人物外观时，选择图生视频，上传一张参考图并粘贴对应提示词；从零构思场景时，可先尝试文生视频。
-3. 在界面选择时长和画幅，先试一个镜头。检查外观、动作和声音，每次只修改一项指令。
+分别确定起始画面、结束画面和两者之间连续的运动。
 
-这里展示的是提示词设计，未作为 SeaImagine 实际生成结果验收。时长、声音、编辑、续写和参考素材支持以所选模型及当前界面为准，Google API 的能力不等于 SeaImagine 页面已支持。
+为同一物体准备两张角度相容的照片；如果支持首尾帧，用一个简单动作连接两张图。
 
-<a id="sea-practice"></a>
+### Google：延长镜头
 
-## 三个 SeaImagine 原创参考图练习
+[查看原始案例](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
 
-以下参考图由 AI 生成，用于首帧练习，不是 Gemini 视频实测结果。操作时以 SeaImagine 界面实际提供的功能为准。
+续写下一段镜头运动，同时保持主体与运动方向一致。
 
-### SEA-01 · 青绿色陶瓷杯：清晨商品短片
+使用自己的短片；如果支持延长，只增加一段连续动作，检查接缝处的运动和光线是否跳变。
 
-[![青绿色陶瓷杯：清晨商品短片](assets/seaimagine-ceramic-cup.png)](assets/seaimagine-ceramic-cup.png)
+### CHRIS FIRST：人物换成火烈鸟
 
-镜头缓慢推进，保持杯把、杯口和液位不变，结尾留出字幕位置。
+<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST：人物换成火烈鸟" width="300"></a>
 
-上传杯子参考图进行图生视频。先只尝试缓慢推进，检查杯把和液位，再添加字幕。
+[查看原始案例](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
 
-[图生视频](https://seaimagine.com/cn/image-to-video/) · [AI 图片生成](https://seaimagine.com/cn/ai-image-generator/)
+更换主体时明确保留服装和动作，并检查肢体接触位置。
 
-```text
-Use the uploaded ceramic-cup image as the exact first frame. Create a 10-second, 16:9 product shot.
-Preserve the teal glaze, the single handle on the right, the rim shape, the coffee level and the cup's position on the wooden table.
-[0-3s] A thin ribbon of steam rises; the camera begins a very slow forward move.
-[3-7s] Warm morning light grazes the glaze. Keep the table and background still; only steam and gentle reflections move.
-[7-10s] The camera eases to a stop. Hold the same product with clean space above for a caption added later.
-Audio, if supported: quiet room ambience and one distant bird. No speech or music.
-No pouring, added cup, new handle, object morphing, generated text, logo or watermark.
-```
+使用自己的视频；如果支持视频编辑，只替换一个主体，对比前后的服装、姿势及与地面的接触。
 
-### SEA-02 · 纸艺海港：点亮灯塔与窗光
+### Justine Moore：每次拍手换一顶帽子
 
-[![纸艺海港：点亮灯塔与窗光](assets/seaimagine-paper-harbor.png)](assets/seaimagine-paper-harbor.png)
+<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore：每次拍手换一顶帽子" width="300"></a>
 
-用单一镜头让灯塔亮起，再让三幢房屋的窗光依次增强，保持纸张质感与几何结构。
+[查看原始案例](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
 
-上传海港参考图进行图生视频。要求灯塔亮起、窗光依次增强，对比开头与结尾的建筑形状。
+用可见动作决定变化时刻，同时保持人脸、服装和镜头一致。
 
-[图生视频](https://seaimagine.com/cn/image-to-video/) · [AI 图片生成](https://seaimagine.com/cn/ai-image-generator/)
+固定机位拍摄两次清楚的拍手；如果支持视频编辑，要求每次拍手换帽，逐帧检查变化时刻。
 
-```text
-Use the uploaded paper-harbor image as the exact first frame. Animate a single 10-second, 16:9 shot while retaining the handcrafted paper texture, folds and miniature scale.
-Keep the ivory lighthouse with its red roof, the three small houses on the left and the single paper boat in exactly the same positions.
-[0-3s] The lighthouse window slowly glows warm amber. The camera begins a small, straight forward move.
-[3-7s] The already warm house windows brighten gently one house at a time, from nearest to farthest. No building moves or changes shape.
-[7-10s] The camera stops. Hold the warm windows against the blue-hour paper harbor. Keep the boat and miniature water surface still.
-Audio, if supported: a quiet original celesta phrase, no voices.
-No ocean waves, added buildings, extra boats, rotating tower, camera cut, text, logo or watermark.
-```
+[官方与社区案例](docs/community-examples.md)
 
-### SEA-03 · 亚麻收纳袋：多语言竖屏收尾
+## 从看案例，到动手写提示词
 
-<a href="assets/seaimagine-linen-pouch.png"><img src="assets/seaimagine-linen-pouch.png" alt="亚麻收纳袋：多语言竖屏收尾" width="360"></a>
+本库收录源库的 60 条完整配方，分为 7 类。跟着示例学习如何交代场景、安排动作时间、控制镜头和声音，再改成自己的创意。
 
-先制作无文字的干净竖屏商品片，再用常规视频编辑器添加本地语言字幕。
+### 开始你的第一次尝试
 
-上传收纳袋参考图制作竖屏短片，之后添加翻译好的字幕；仅在界面支持视频编辑时使用简短编辑指令。
-
-[图生视频](https://seaimagine.com/cn/image-to-video/) · [AI 图片生成](https://seaimagine.com/cn/ai-image-generator/)
-
-```text
-Use the uploaded linen-pouch photograph as the exact first frame. Create a 10-second, 9:16 vertical ecommerce product shot.
-Keep one natural-linen drawstring pouch upright in the same position. Preserve its seam placement, woven texture, silhouette and teal drawstring.
-[0-3s] Start on the supplied framing. The camera slowly moves forward without orbiting.
-[3-7s] A soft highlight travels gently across the fabric; the pouch and its string do not move.
-[7-10s] Stop the camera and hold the product. Keep the lower quarter of the frame empty, evenly lit and free of objects for a caption added in editing.
-Audio, if supported: soft room tone. No speech or music.
-Do not generate any lettering, subtitles, symbols, price, logo, watermark, extra bag or moving string.
-```
-
-> 让日常更从容
+1. 选择一个接近你想做的场景的完整示例，复制全部提示词。
+2. 下载示例对应的参考图；如果所用工具支持首帧，请将图片设为首帧。
+3. 按工具可用的时长和分辨率调整时间段，先生成草稿，检查主体、文字和声音，每次只改一项。
 
 <a id="source-examples"></a>
 
@@ -137,50 +107,6 @@ Keep the clockmaker's face, clothes and goggles consistent. No photorealism, sub
 
 
 
-<a id="video-studies"></a>
-
-## 从官方与社区案例学什么
-
-Google 视频是 Omni 1.1 Flash 官方展示，不是 SeaImagine 生成结果。社区帖子发布于 2026 年 5 月，属于原始 Omni / Flash 案例，未核实为 1.1 实测。社区证据来自 FxTwitter 的文字和媒体元数据，未核验 X 原生播放。具体功能须以 SeaImagine 界面为准。
-
-### Google：首尾帧转场
-
-[查看原始案例](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4)
-
-分别确定起始画面、结束画面和两者之间连续的运动。
-
-为同一物体准备两张角度相容的照片；如果支持首尾帧，用一个简单动作连接两张图。
-
-### Google：延长镜头
-
-[查看原始案例](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4)
-
-续写下一段镜头运动，同时保持主体与运动方向一致。
-
-使用自己的短片；如果支持延长，只增加一段连续动作，检查接缝处的运动和光线是否跳变。
-
-### CHRIS FIRST：人物换成火烈鸟
-
-<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST：人物换成火烈鸟" width="300"></a>
-
-[查看原始案例](https://x.com/chrisfirst/status/2056797606509158681)
-
-更换主体时明确保留服装和动作，并检查肢体接触位置。
-
-使用自己的视频；如果支持视频编辑，只替换一个主体，对比前后的服装、姿势及与地面的接触。
-
-### Justine Moore：每次拍手换一顶帽子
-
-<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore：每次拍手换一顶帽子" width="300"></a>
-
-[查看原始案例](https://x.com/venturetwins/status/2056793856843366789)
-
-用可见动作决定变化时刻，同时保持人脸、服装和镜头一致。
-
-固定机位拍摄两次清楚的拍手；如果支持视频编辑，要求每次拍手换帽，逐帧检查变化时刻。
-
-[官方与社区案例](docs/community-examples.md)
-
 ## 一分钟找到合适的提示词
 
 | 你的起点或目标 | 从这里开始 |
@@ -195,11 +121,11 @@ Google 视频是 Omni 1.1 Flash 官方展示，不是 SeaImagine 生成结果。
 | 想看官方演示，或寻找授权条件清晰的参考视频 | [参考视频与授权指南](docs/reference-videos.md) |
 | 需要中文、日语、韩语、法语等对白或屏幕文字 | [15 种语言本地化指南](docs/multilingual-guide.md) |
 | 提示词出现角色漂移、文字乱码或声音拥挤 | [失败诊断与提示词设计指南](docs/prompting-guide.md) |
-| 准备用 Python、JavaScript 或 REST 接入 | [Google Gemini API 快速开始（程序调用，与 SeaImagine 网页分开）](docs/api-quickstart.md) |
+| 准备用 Python、JavaScript 或 REST 接入 | [Google Gemini API 快速开始（程序调用，与所选工具网页分开）](docs/api-quickstart.md) |
 
 ## 按创作目标理解提示词
 
-以下对照表帮助你写清素材职责、动作与修改范围，不代表 SeaImagine 当前已开放所有方式。先在所选模型页面确认输入类型、编辑、续写、声音和时长，再复制对应提示词。`<FIRST_FRAME>` 等是素材职责标签；如果网页没有对应输入栏，它们不能开启额外功能。
+以下对照表帮助你写清素材职责、动作与修改范围，不代表所选工具已支持全部方式。先在所选模型页面确认输入类型、编辑、续写、声音和时长，再复制对应提示词。`<FIRST_FRAME>` 等是素材职责标签；如果网页没有对应输入栏，它们不能开启额外功能。
 
 | 创作方式 | 最适合的任务 | 提示词重点 |
 |---|---|---|
@@ -303,7 +229,7 @@ Do not include: [短而具体的排除项]
 
 ### 可以直接用中文或其他语言写完整提示词吗？
 
-可以尝试。此库为方便复用保留英文镜头指令，并用目标语言逐字指定对白与屏幕文字；每个语言版本应单独检查。请以当前界面实际提供的预览分辨率测试，不预设 SeaImagine 提供 360p。
+可以尝试。此库为方便复用保留英文镜头指令，并用目标语言逐字指定对白与屏幕文字；每个语言版本应单独检查。请以当前界面实际提供的预览分辨率测试，不预设所选工具提供 360p。
 
 ### 编辑视频时为什么要写得更短？
 
@@ -330,8 +256,8 @@ Preserve accents and spelling exactly. No other text anywhere.
 ## 已知限制与使用前检查
 
 - 不同语言的发音、字形和口型需要分别验收；英文指令也不能保证生成结果正确。
-- Google Gemini API 与 SeaImagine 网页是不同入口。源库的 API 教程涉及独立音频参考、参考视频音频、上传片长、片尾续写、语音编辑和独立排除参数等限制；使用程序调用前，请核对[当前 Google 官方文档](https://ai.google.dev/gemini-api/docs/omni)。不要把这些参数直接套到 SeaImagine 网页。
-- 在 SeaImagine 先确认所选模型是否支持首尾帧、多个参考素材、视频编辑、续写或声音；不存在的上传栏和参数不会因写入提示词而启用。
+- Google Gemini API 与所选工具网页是不同入口。源库的 API 教程涉及独立音频参考、参考视频音频、上传片长、片尾续写、语音编辑和独立排除参数等限制；使用程序调用前，请核对[当前 Google 官方文档](https://ai.google.dev/gemini-api/docs/omni)。不要把这些参数直接套到所选工具网页。
+- 先在所选工具中确认当前模型是否支持首尾帧、多个参考素材、视频编辑、续写或声音；不存在的上传栏和参数不会因写入提示词而启用。
 - 预览分辨率、成片分辨率、时长、价格及地区支持以当前界面为准。高分辨率或放大不能补救错误构图、乱码、动作穿帮或节奏。
 - 使用人物、声音、音乐、商标和参考视频前，确认你有相应使用权。官方展示和社区视频的链接不等于素材授权。
 
@@ -347,11 +273,96 @@ Preserve accents and spelling exactly. No other text anywhere.
 
 ## 继续阅读
 
-- [SeaImagine 使用流程](docs/seaimagine-workflow.md)
 - [官方与社区案例](docs/community-examples.md)
 - [多语言指南](docs/multilingual-guide.md)
 - [提示词设计](docs/prompting-guide.md)
 - [参考素材与授权](docs/reference-videos.md)
+
+<a id="brand-tools"></a>
+
+## 从 SeaImagine 开始
+
+![SeaImagine Gemini Omni 视频提示词库](assets/seaimagine-omni-hero.png)
+
+本库保留 Flaq AI 的 60 条源配方，并新增三组带原创参考图的 SeaImagine 练习。本页可直接阅读新练习、源库示例，以及官方与社区案例的学习说明。
+
+[Gemini Omni](https://seaimagine.com/cn/model/gemini-omni/) · [Gemini Omni 1.1 Flash](https://seaimagine.com/cn/model/gemini-omni-1-1-flash/)
+
+1. 打开模型页，确认当前是否可用、价格以及页面提供的设置。
+2. 需要保留产品或人物外观时，选择图生视频，上传一张参考图并粘贴对应提示词；从零构思场景时，可先尝试文生视频。
+3. 在界面选择时长和画幅，先试一个镜头。检查外观、动作和声音，每次只修改一项指令。
+
+这里展示的是提示词设计，未作为 SeaImagine 实际生成结果验收。时长、声音、编辑、续写和参考素材支持以所选模型及当前界面为准，Google API 的能力不等于 SeaImagine 页面已支持。
+
+<a id="sea-practice"></a>
+
+## 三个 SeaImagine 原创参考图练习
+
+以下参考图由 AI 生成，用于首帧练习，不是 Gemini 视频实测结果。操作时以 SeaImagine 界面实际提供的功能为准。
+
+### SEA-01 · 青绿色陶瓷杯：清晨商品短片
+
+[![青绿色陶瓷杯：清晨商品短片](assets/seaimagine-ceramic-cup.png)](assets/seaimagine-ceramic-cup.png)
+
+镜头缓慢推进，保持杯把、杯口和液位不变，结尾留出字幕位置。
+
+上传杯子参考图进行图生视频。先只尝试缓慢推进，检查杯把和液位，再添加字幕。
+
+[图生视频](https://seaimagine.com/cn/image-to-video/) · [AI 图片生成](https://seaimagine.com/cn/ai-image-generator/)
+
+```text
+Use the uploaded ceramic-cup image as the exact first frame. Create a 10-second, 16:9 product shot.
+Preserve the teal glaze, the single handle on the right, the rim shape, the coffee level and the cup's position on the wooden table.
+[0-3s] A thin ribbon of steam rises; the camera begins a very slow forward move.
+[3-7s] Warm morning light grazes the glaze. Keep the table and background still; only steam and gentle reflections move.
+[7-10s] The camera eases to a stop. Hold the same product with clean space above for a caption added later.
+Audio, if supported: quiet room ambience and one distant bird. No speech or music.
+No pouring, added cup, new handle, object morphing, generated text, logo or watermark.
+```
+
+### SEA-02 · 纸艺海港：点亮灯塔与窗光
+
+[![纸艺海港：点亮灯塔与窗光](assets/seaimagine-paper-harbor.png)](assets/seaimagine-paper-harbor.png)
+
+用单一镜头让灯塔亮起，再让三幢房屋的窗光依次增强，保持纸张质感与几何结构。
+
+上传海港参考图进行图生视频。要求灯塔亮起、窗光依次增强，对比开头与结尾的建筑形状。
+
+[图生视频](https://seaimagine.com/cn/image-to-video/) · [AI 图片生成](https://seaimagine.com/cn/ai-image-generator/)
+
+```text
+Use the uploaded paper-harbor image as the exact first frame. Animate a single 10-second, 16:9 shot while retaining the handcrafted paper texture, folds and miniature scale.
+Keep the ivory lighthouse with its red roof, the three small houses on the left and the single paper boat in exactly the same positions.
+[0-3s] The lighthouse window slowly glows warm amber. The camera begins a small, straight forward move.
+[3-7s] The already warm house windows brighten gently one house at a time, from nearest to farthest. No building moves or changes shape.
+[7-10s] The camera stops. Hold the warm windows against the blue-hour paper harbor. Keep the boat and miniature water surface still.
+Audio, if supported: a quiet original celesta phrase, no voices.
+No ocean waves, added buildings, extra boats, rotating tower, camera cut, text, logo or watermark.
+```
+
+### SEA-03 · 亚麻收纳袋：多语言竖屏收尾
+
+<a href="assets/seaimagine-linen-pouch.png"><img src="assets/seaimagine-linen-pouch.png" alt="亚麻收纳袋：多语言竖屏收尾" width="360"></a>
+
+先制作无文字的干净竖屏商品片，再用常规视频编辑器添加本地语言字幕。
+
+上传收纳袋参考图制作竖屏短片，之后添加翻译好的字幕；仅在界面支持视频编辑时使用简短编辑指令。
+
+[图生视频](https://seaimagine.com/cn/image-to-video/) · [AI 图片生成](https://seaimagine.com/cn/ai-image-generator/)
+
+```text
+Use the uploaded linen-pouch photograph as the exact first frame. Create a 10-second, 9:16 vertical ecommerce product shot.
+Keep one natural-linen drawstring pouch upright in the same position. Preserve its seam placement, woven texture, silhouette and teal drawstring.
+[0-3s] Start on the supplied framing. The camera slowly moves forward without orbiting.
+[3-7s] A soft highlight travels gently across the fabric; the pouch and its string do not move.
+[7-10s] Stop the camera and hold the product. Keep the lower quarter of the frame empty, evenly lit and free of objects for a caption added in editing.
+Audio, if supported: soft room tone. No speech or music.
+Do not generate any lettering, subtitles, symbols, price, logo, watermark, extra bag or moving string.
+```
+
+> 让日常更从容
+
+[SeaImagine 使用流程](docs/seaimagine-workflow.md)
 
 ## SeaImagine 其它创作入口
 

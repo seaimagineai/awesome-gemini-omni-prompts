@@ -1,108 +1,98 @@
-<div align="center">
-
-![Awesome Gemini Omni 1.1 Flash Prompts](assets/seaimagine-omni-hero.png)
-
-# Awesome Gemini Omni Prompts · SeaImagine
-
-**60 complete source recipes across 7 collections, plus 3 illustrated SeaImagine practice briefs and on-page study notes in all 15 website languages.**
-
-Create video with native audio from text, images, and video references. Explore cinematic storytelling, ads, UGC, travel, education, animation, first/last-frame control, advanced video editing, camera transformations, 3×3 storyboards, split screens, exact multilingual text, evaluation, and extensions up to 40 seconds.
+# Awesome Gemini Omni Prompts
 
 [English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md)
 
 [العربية](README_AR.md) · [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [All 15 languages](docs/multilingual-guide.md)
+
+<!-- generated:studies:start -->
+<a id="video-studies"></a>
+
+## What to learn from official and community examples
+
+Google’s official videos demonstrate Omni 1.1 Flash. The community posts are from May 2026 and concern the original Omni / Flash; they are not verified 1.1 tests. Community evidence comes from the FxTwitter mirror’s text and media metadata; native playback on X has not been verified. These are external examples, not results from the platform you choose to use. Check which features your tool offers.
+
+### Google: first-to-last-frame transition
+
+[View the source example](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
+
+Set the starting image, ending image and the continuous movement between them separately.
+
+Prepare two photos of the same object from compatible angles. If first/last-frame controls are available, connect them with one simple movement.
+
+### Google: extend a shot
+
+[View the source example](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
+
+Describe the next camera move while preserving the subject and the direction of motion.
+
+Use your own short clip. If extension is available, request one continuation and inspect the join for jumps in motion or lighting.
+
+### CHRIS FIRST: people become flamingos
+
+<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST: people become flamingos" width="300"></a>
+
+[View the source example](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
+
+Change the subject while explicitly preserving clothing and action; inspect limb contacts.
+
+With your own footage and an available video editor, replace one subject. Compare clothing, pose and contact with the ground before and after.
+
+### Justine Moore: change hats on each clap
+
+<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore: change hats on each clap" width="300"></a>
+
+[View the source example](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
+
+Use a visible gesture to time each change while keeping the face, outfit and camera consistent.
+
+Film two clear claps with a fixed camera. If video editing is available, request a hat change at each clap and check the timing frame by frame.
+
+[Official and community examples](docs/community-examples.md)
+<!-- generated:studies:end -->
+
+<!-- generated:library:start -->
+## From examples to prompts you can try
+
+Explore 60 complete source recipes in seven categories. Learn how to describe a scene, time its actions, direct the camera and shape the sound, then adapt an example to your own idea.
+
+### Try your first prompt
+
+1. Choose a complete example that matches your scene and copy the full prompt.
+2. Download its reference image and, in your chosen tool, assign it as the first frame if that option is available.
+3. Adjust the timeline to the available duration and resolution. Make a draft, check the subject, text and sound, then change one thing at a time.
+<!-- generated:library:end -->
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-6f42c1.svg)](LICENSE)
 [![Prompt recipes](https://img.shields.io/badge/prompt_recipes-60-00b8d9.svg)](#complete-prompt-library)
 [![Languages](https://img.shields.io/badge/localization_guides-15-ff8a00.svg)](docs/multilingual-guide.md)
 [![Model](https://img.shields.io/badge/model-gemini--omni--1.1--flash-4285f4.svg)](https://ai.google.dev/gemini-api/docs/omni)
 
-[Browse 60 prompts](#complete-prompt-library) · [Find a prompt in one minute](#find-the-right-prompt-in-one-minute) · [Reference videos](docs/reference-videos.md) · [Localization guide](docs/multilingual-guide.md) · [Submit a prompt](https://github.com/seaimagineai/awesome-gemini-omni-prompts/issues/new?template=prompt-submission.yml) · [Create with SeaImagine](#create-with-seaimagine)
+## What is included
 
-</div>
+- **60 complete recipes, not one-line prompt fragments.** Each covers mode, input roles, scene, timing, camera, audio, invariants, exclusions, or evaluation.
+- **3 new illustrated practice briefs.** Ceramic-cup product motion, paper-harbor lighting, and a vertical linen-pouch clip with captions added in editing.
+- **7 practical collections.** Storytelling, commerce, education, entertainment, multimodal control, advanced editing/camera, and storyboards/text/evaluation.
+- **30+ production directions.** Film, action, products, UGC, travel, science, animation, local edits, environment replacement, camera reinterpretation, split screens, storyboards, kinetic type, localization, and controlled benchmarks.
+- **Localization guidance for 15 languages.** Dialogue locking, exact text, RTL direction, line length, native review, and per-locale acceptance tests.
+- **6 ready-to-use reference images:** 3 newly created practice inputs and 3 retained source-library inputs, plus a separate editorial cover. Reference images are inputs, not video outputs.
+- **API and debugging guidance.** From 360p drafts and media-role tags to high-resolution delivery and interaction records.
+- **License-aware video references.** Official demos are separated from public-domain, CC BY, institutional, and owned footage, with a provenance template.
 
-> [!NOTE]
-> Adapted from [Flaq AI’s prompt library](https://github.com/flaqai/awesome-gemini-omni-flash), with attribution and the original MIT notice retained. The reference images are first-frame inputs, not generated-video results. New SeaImagine guidance and a new cover are identified in [Sources & assets](docs/sources.md). Recipes are starting points, not a tested-output guarantee.
+## Find the right prompt in one minute
 
-[SeaImagine practice](#sea-practice) · [Source examples](#source-examples) · [Video studies](#video-studies)
-
-## Start in SeaImagine
-
-1. Pick a prompt below. For image-to-video, open its image and save the original file.
-2. Open [Gemini Omni 1.1 Flash](https://seaimagine.com/model/gemini-omni-1-1-flash/) or the [creation workspace](https://seaimagine.com/create/). Check the selected model and available mode.
-3. Upload the image as the first frame **if the editor provides that control**. Paste the matching prompt. The `<FIRST_FRAME>` notation explains an input role; it does not attach a file by itself.
-4. Select the available duration and aspect ratio in the interface. If 10 seconds is unavailable, shorten the timeline to fit; use the lowest available draft resolution first.
-5. Check subject consistency, motion, text, and sound. Change one instruction at a time. See [troubleshooting and browser/API differences](docs/seaimagine-workflow.md).
-
-<!-- generated:brand:start -->
-<a id="sea-practice"></a>
-
-## Three SeaImagine exercises with original reference images
-
-These AI-generated reference images are starting frames for practice, not tested Gemini video outputs. Use only the controls available in your SeaImagine interface.
-
-### SEA-01 · A quiet morning with a teal ceramic cup
-
-[![A quiet morning with a teal ceramic cup](assets/seaimagine-ceramic-cup.png)](assets/seaimagine-ceramic-cup.png)
-
-Keep the handle, rim and liquid level consistent while the camera slowly moves closer. Leave space for a final caption.
-
-Upload the cup image for image-to-video. Try one slow push-in; check the handle and liquid level before adding your caption.
-
-[Image to video](https://seaimagine.com/image-to-video/) · [AI image generator](https://seaimagine.com/ai-image-generator/)
-
-```text
-Use the uploaded ceramic-cup image as the exact first frame. Create a 10-second, 16:9 product shot.
-Preserve the teal glaze, the single handle on the right, the rim shape, the coffee level and the cup's position on the wooden table.
-[0-3s] A thin ribbon of steam rises; the camera begins a very slow forward move.
-[3-7s] Warm morning light grazes the glaze. Keep the table and background still; only steam and gentle reflections move.
-[7-10s] The camera eases to a stop. Hold the same product with clean space above for a caption added later.
-Audio, if supported: quiet room ambience and one distant bird. No speech or music.
-No pouring, added cup, new handle, object morphing, generated text, logo or watermark.
-```
-
-### SEA-02 · A paper harbor lights up
-
-[![A paper harbor lights up](assets/seaimagine-paper-harbor.png)](assets/seaimagine-paper-harbor.png)
-
-In a single shot, light the lighthouse, then brighten the windows of the three houses one by one. Preserve paper texture and geometry.
-
-Upload the harbor image for image-to-video. Request the lighthouse light and sequentially brighter windows; compare the buildings at the beginning and end.
-
-[Image to video](https://seaimagine.com/image-to-video/) · [AI image generator](https://seaimagine.com/ai-image-generator/)
-
-```text
-Use the uploaded paper-harbor image as the exact first frame. Animate a single 10-second, 16:9 shot while retaining the handcrafted paper texture, folds and miniature scale.
-Keep the ivory lighthouse with its red roof, the three small houses on the left and the single paper boat in exactly the same positions.
-[0-3s] The lighthouse window slowly glows warm amber. The camera begins a small, straight forward move.
-[3-7s] The already warm house windows brighten gently one house at a time, from nearest to farthest. No building moves or changes shape.
-[7-10s] The camera stops. Hold the warm windows against the blue-hour paper harbor. Keep the boat and miniature water surface still.
-Audio, if supported: a quiet original celesta phrase, no voices.
-No ocean waves, added buildings, extra boats, rotating tower, camera cut, text, logo or watermark.
-```
-
-### SEA-03 · A linen pouch for a multilingual shop
-
-<a href="assets/seaimagine-linen-pouch.png"><img src="assets/seaimagine-linen-pouch.png" alt="A linen pouch for a multilingual shop" width="360"></a>
-
-Make a clean vertical product clip without lettering, then add local-language captions in a regular video editor.
-
-Upload the pouch image and request a vertical clip. Add translated captions afterward; use a short video-editing instruction only if that feature is available.
-
-[Image to video](https://seaimagine.com/image-to-video/) · [AI image generator](https://seaimagine.com/ai-image-generator/)
-
-```text
-Use the uploaded linen-pouch photograph as the exact first frame. Create a 10-second, 9:16 vertical ecommerce product shot.
-Keep one natural-linen drawstring pouch upright in the same position. Preserve its seam placement, woven texture, silhouette and teal drawstring.
-[0-3s] Start on the supplied framing. The camera slowly moves forward without orbiting.
-[3-7s] A soft highlight travels gently across the fabric; the pouch and its string do not move.
-[7-10s] Stop the camera and hold the product. Keep the lower quarter of the frame empty, evenly lit and free of objects for a caption added in editing.
-Audio, if supported: soft room tone. No speech or music.
-Do not generate any lettering, subtitles, symbols, price, logo, watermark, extra bag or moving string.
-```
-
-> Everyday, made simple
-<!-- generated:brand:end -->
+| Your starting point or goal | Start here |
+|---|---|
+| A concept, script, atmosphere, or story beat | [Cinematic storytelling](prompts/cinematic-storytelling.md) |
+| A product image, store, outfit, ad, or commercial goal | [Commerce and social media](prompts/commerce-social.md) |
+| Travel, nature, history, science, education, or architecture | [Documentary, travel, and education](prompts/documentary-education.md) |
+| Animation, music, dance, comedy, or a seamless loop | [Stylized entertainment](prompts/stylized-entertainment.md) |
+| A first frame, last frame, character image, short reference clip, or video to edit | [Multimodal control, editing, and extension](prompts/control-editing-extension.md) |
+| Object replacement, environment swap, re-camera, stylization, AR overlays, or effects | [Advanced editing, camera, and visual transformation](prompts/advanced-editing-camera.md) |
+| A 3×3 storyboard, split screen, diagram, kinetic type, multilingual title, or benchmark | [Storyboards, text, and evaluation](prompts/storyboard-text-evaluation.md) |
+| Official demos or reusable, license-aware source clips | [Reference video guide](docs/reference-videos.md) |
+| Chinese, Japanese, Korean, Arabic, French, or another localized version | [15-language localization guide](docs/multilingual-guide.md) |
+| Identity drift, broken text, crowded audio, or unstable continuity | [Failure diagnosis](docs/prompting-guide.md#11-失败诊断) |
+| Python or JavaScript integration | [Gemini API quickstart](docs/api-quickstart.md) |
 
 <a id="source-examples"></a>
 
@@ -160,89 +150,9 @@ Keep the clockmaker's face, clothes and goggles consistent. No photorealism, sub
 
 [Browse all 8 stylized entertainment prompts →](prompts/stylized-entertainment.md)
 
-<!-- generated:studies:start -->
-<a id="video-studies"></a>
-
-## What to learn from official and community examples
-
-Google’s videos demonstrate Omni 1.1 Flash, not SeaImagine outputs. The community posts date from May 2026 and concern the original Omni / Flash; they are not verified 1.1 tests. Community evidence comes from FxTwitter text and media metadata, without native X playback verification. Feature availability must be checked in SeaImagine.
-
-### Google: first-to-last-frame transition
-
-[View the source example](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4)
-
-Set the starting image, ending image and the continuous movement between them separately.
-
-Prepare two photos of the same object from compatible angles. If first/last-frame controls are available, connect them with one simple movement.
-
-### Google: extend a shot
-
-[View the source example](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4)
-
-Describe the next camera move while preserving the subject and the direction of motion.
-
-Use your own short clip. If extension is available, request one continuation and inspect the join for jumps in motion or lighting.
-
-### CHRIS FIRST: people become flamingos
-
-<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST: people become flamingos" width="300"></a>
-
-[View the source example](https://x.com/chrisfirst/status/2056797606509158681)
-
-Change the subject while explicitly preserving clothing and action; inspect limb contacts.
-
-With your own footage and an available video editor, replace one subject. Compare clothing, pose and contact with the ground before and after.
-
-### Justine Moore: change hats on each clap
-
-<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore: change hats on each clap" width="300"></a>
-
-[View the source example](https://x.com/venturetwins/status/2056793856843366789)
-
-Use a visible gesture to time each change while keeping the face, outfit and camera consistent.
-
-Film two clear claps with a fixed camera. If video editing is available, request a hat change at each clap and check the timing frame by frame.
-
-[Official and community examples](docs/community-examples.md)
-<!-- generated:studies:end -->
-
-## Share your Gemini Omni prompt
-
-Built a shot that another creator or developer can reproduce? Use the [guided submission form](https://github.com/seaimagineai/awesome-gemini-omni-prompts/issues/new?template=prompt-submission.yml) to share one original, tested prompt with its mode, input roles, aspect ratio, resolution, observed result, known problems, and iteration notes.
-
-We especially welcome multilingual dialogue, real business workflows, accessibility-focused content, controlled local edits, first/last-frame experiments, honest failure reports, and original reference media that can legally be redistributed. Do not submit copied collections, unauthorized likenesses, branded media, protected characters, secrets, private data, undisclosed affiliate links, or unsupported capability claims. See [CONTRIBUTING.md](CONTRIBUTING.md) for the full review checklist.
-
-## Find the right prompt in one minute
-
-| Your starting point or goal | Start here |
-|---|---|
-| A concept, script, atmosphere, or story beat | [Cinematic storytelling](prompts/cinematic-storytelling.md) |
-| A product image, store, outfit, ad, or commercial goal | [Commerce and social media](prompts/commerce-social.md) |
-| Travel, nature, history, science, education, or architecture | [Documentary, travel, and education](prompts/documentary-education.md) |
-| Animation, music, dance, comedy, or a seamless loop | [Stylized entertainment](prompts/stylized-entertainment.md) |
-| A first frame, last frame, character image, short reference clip, or video to edit | [Multimodal control, editing, and extension](prompts/control-editing-extension.md) |
-| Object replacement, environment swap, re-camera, stylization, AR overlays, or effects | [Advanced editing, camera, and visual transformation](prompts/advanced-editing-camera.md) |
-| A 3×3 storyboard, split screen, diagram, kinetic type, multilingual title, or benchmark | [Storyboards, text, and evaluation](prompts/storyboard-text-evaluation.md) |
-| Official demos or reusable, license-aware source clips | [Reference video guide](docs/reference-videos.md) |
-| Chinese, Japanese, Korean, Arabic, French, or another localized version | [15-language localization guide](docs/multilingual-guide.md) |
-| Identity drift, broken text, crowded audio, or unstable continuity | [Failure diagnosis](docs/prompting-guide.md#11-失败诊断) |
-| Python or JavaScript integration | [Gemini API quickstart](docs/api-quickstart.md) |
-| Create in a browser, prepare a first frame, or choose an available model | [SeaImagine workflow](docs/seaimagine-workflow.md) |
-
-## What is included
-
-- **60 complete recipes, not one-line prompt fragments.** Each covers mode, input roles, scene, timing, camera, audio, invariants, exclusions, or evaluation.
-- **3 new illustrated SeaImagine practice briefs.** Ceramic-cup product motion, paper-harbor lighting, and a vertical linen-pouch clip with captions added in editing.
-- **7 practical collections.** Storytelling, commerce, education, entertainment, multimodal control, advanced editing/camera, and storyboards/text/evaluation.
-- **30+ production directions.** Film, action, products, UGC, travel, science, animation, local edits, environment replacement, camera reinterpretation, split screens, storyboards, kinetic type, localization, and controlled benchmarks.
-- **Localization guidance for 15 languages.** Dialogue locking, exact text, RTL direction, line length, native review, and per-locale acceptance tests.
-- **6 ready-to-use reference images:** 3 new SeaImagine practice inputs and 3 retained source-library inputs, plus a separate SeaImagine editorial cover. Reference images are inputs, not video outputs.
-- **API and debugging guidance.** From 360p drafts and media-role tags to high-resolution delivery and interaction records.
-- **License-aware video references.** Official demos are separated from public-domain, CC BY, institutional, and owned footage, with a provenance template.
-
 ## Gemini Omni 1.1 Flash capability map
 
-This section describes Google’s model/API documentation; confirm each feature in the SeaImagine interface before planning a production workflow.
+This section describes Google’s model/API documentation; confirm each feature in your selected interface before planning a production workflow.
 
 Gemini Omni 1.1 Flash is a high-performance multimodal model for fast video generation, editing, and cinematic control. It can reason over text, image, and video context, generate video with audio, and use the Interactions API for conversational revisions and extensions.
 
@@ -360,7 +270,7 @@ Choose one primary identity or product anchor, list its invariant properties bef
 
 ### Can I write the full prompt in Chinese or another language?
 
-You can experiment, but English is the only officially fully evaluated language. For production, keep shot, movement, and continuity control in English; lock dialogue and on-screen text verbatim in the target language; then review each locale at the lowest suitable resolution offered in your selected interface. Google API examples include 360p; do not assume that SeaImagine exposes it.
+You can experiment, but English is the only officially fully evaluated language. For production, keep shot, movement, and continuity control in English; lock dialogue and on-screen text verbatim in the target language; then review each locale at the lowest suitable resolution offered in your selected interface. Google API examples include 360p; do not assume that the selected tool exposes it.
 
 ### Why should editing prompts be short?
 
@@ -380,6 +290,12 @@ The repository is released under the [MIT License](LICENSE). Generated output ca
 - Upscaled 1080p and 4K cannot repair bad composition, text, physics, or timing.
 - People, minors, and uploaded-video editing can be restricted by region and safety policy.
 
+## Share your Gemini Omni prompt
+
+Built a shot that another creator or developer can reproduce? Use the [guided submission form](https://github.com/seaimagineai/awesome-gemini-omni-prompts/issues/new?template=prompt-submission.yml) to share one original, tested prompt with its mode, input roles, aspect ratio, resolution, observed result, known problems, and iteration notes.
+
+We especially welcome multilingual dialogue, real business workflows, accessibility-focused content, controlled local edits, first/last-frame experiments, honest failure reports, and original reference media that can legally be redistributed. Do not submit copied collections, unauthorized likenesses, branded media, protected characters, secrets, private data, undisclosed affiliate links, or unsupported capability claims. See [CONTRIBUTING.md](CONTRIBUTING.md) for the full review checklist.
+
 ## Contributing and sources
 
 Original scenarios, careful localizations, accessibility improvements, reproducible media, and honest failure reports are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) or use the [guided prompt-submission form](https://github.com/seaimagineai/awesome-gemini-omni-prompts/issues/new?template=prompt-submission.yml).
@@ -393,6 +309,8 @@ Capability sources:
 For source clips and reuse conditions, use the [reference video and licensing guide](docs/reference-videos.md). It links rather than rehosts third-party media.
 
 Review copyright, likeness, trademark, audio, advertising claims, safety policy, and platform terms before commercial release.
+
+<a id="brand-tools"></a>
 
 ## Create with SeaImagine
 
@@ -410,6 +328,89 @@ Review copyright, likeness, trademark, audio, advertising claims, safety policy,
 These are durable task-based entry points, not a promise of continuous model availability. Public pages were checked on **2026-09-24**; no paid generation, uptime study, or end-to-end output test was performed. Check credits, duration, resolution, and model availability in your account. Google API features described in this guide are not automatically SeaImagine editor features.
 
 [Step-by-step SeaImagine guide and three additional practice briefs →](docs/seaimagine-workflow.md)
+
+![SeaImagine creative practice cover](assets/seaimagine-omni-hero.png)
+
+## Start in SeaImagine
+
+1. Pick a prompt below. For image-to-video, open its image and save the original file.
+2. Open [Gemini Omni 1.1 Flash](https://seaimagine.com/model/gemini-omni-1-1-flash/) or the [creation workspace](https://seaimagine.com/create/). Check the selected model and available mode.
+3. Upload the image as the first frame **if the editor provides that control**. Paste the matching prompt. The `<FIRST_FRAME>` notation explains an input role; it does not attach a file by itself.
+4. Select the available duration and aspect ratio in the interface. If 10 seconds is unavailable, shorten the timeline to fit; use the lowest available draft resolution first.
+5. Check subject consistency, motion, text, and sound. Change one instruction at a time. See [troubleshooting and browser/API differences](docs/seaimagine-workflow.md).
+
+<!-- generated:brand:start -->
+<a id="sea-practice"></a>
+
+## Three SeaImagine exercises with original reference images
+
+These AI-generated reference images are starting frames for practice, not tested Gemini video outputs. Use only the controls available in your SeaImagine interface.
+
+### SEA-01 · A quiet morning with a teal ceramic cup
+
+[![A quiet morning with a teal ceramic cup](assets/seaimagine-ceramic-cup.png)](assets/seaimagine-ceramic-cup.png)
+
+Keep the handle, rim and liquid level consistent while the camera slowly moves closer. Leave space for a final caption.
+
+Upload the cup image for image-to-video. Try one slow push-in; check the handle and liquid level before adding your caption.
+
+[Image to video](https://seaimagine.com/image-to-video/) · [AI image generator](https://seaimagine.com/ai-image-generator/)
+
+```text
+Use the uploaded ceramic-cup image as the exact first frame. Create a 10-second, 16:9 product shot.
+Preserve the teal glaze, the single handle on the right, the rim shape, the coffee level and the cup's position on the wooden table.
+[0-3s] A thin ribbon of steam rises; the camera begins a very slow forward move.
+[3-7s] Warm morning light grazes the glaze. Keep the table and background still; only steam and gentle reflections move.
+[7-10s] The camera eases to a stop. Hold the same product with clean space above for a caption added later.
+Audio, if supported: quiet room ambience and one distant bird. No speech or music.
+No pouring, added cup, new handle, object morphing, generated text, logo or watermark.
+```
+
+### SEA-02 · A paper harbor lights up
+
+[![A paper harbor lights up](assets/seaimagine-paper-harbor.png)](assets/seaimagine-paper-harbor.png)
+
+In a single shot, light the lighthouse, then brighten the windows of the three houses one by one. Preserve paper texture and geometry.
+
+Upload the harbor image for image-to-video. Request the lighthouse light and sequentially brighter windows; compare the buildings at the beginning and end.
+
+[Image to video](https://seaimagine.com/image-to-video/) · [AI image generator](https://seaimagine.com/ai-image-generator/)
+
+```text
+Use the uploaded paper-harbor image as the exact first frame. Animate a single 10-second, 16:9 shot while retaining the handcrafted paper texture, folds and miniature scale.
+Keep the ivory lighthouse with its red roof, the three small houses on the left and the single paper boat in exactly the same positions.
+[0-3s] The lighthouse window slowly glows warm amber. The camera begins a small, straight forward move.
+[3-7s] The already warm house windows brighten gently one house at a time, from nearest to farthest. No building moves or changes shape.
+[7-10s] The camera stops. Hold the warm windows against the blue-hour paper harbor. Keep the boat and miniature water surface still.
+Audio, if supported: a quiet original celesta phrase, no voices.
+No ocean waves, added buildings, extra boats, rotating tower, camera cut, text, logo or watermark.
+```
+
+### SEA-03 · A linen pouch for a multilingual shop
+
+<a href="assets/seaimagine-linen-pouch.png"><img src="assets/seaimagine-linen-pouch.png" alt="A linen pouch for a multilingual shop" width="360"></a>
+
+Make a clean vertical product clip without lettering, then add local-language captions in a regular video editor.
+
+Upload the pouch image and request a vertical clip. Add translated captions afterward; use a short video-editing instruction only if that feature is available.
+
+[Image to video](https://seaimagine.com/image-to-video/) · [AI image generator](https://seaimagine.com/ai-image-generator/)
+
+```text
+Use the uploaded linen-pouch photograph as the exact first frame. Create a 10-second, 9:16 vertical ecommerce product shot.
+Keep one natural-linen drawstring pouch upright in the same position. Preserve its seam placement, woven texture, silhouette and teal drawstring.
+[0-3s] Start on the supplied framing. The camera slowly moves forward without orbiting.
+[3-7s] A soft highlight travels gently across the fabric; the pouch and its string do not move.
+[7-10s] Stop the camera and hold the product. Keep the lower quarter of the frame empty, evenly lit and free of objects for a caption added in editing.
+Audio, if supported: soft room tone. No speech or music.
+Do not generate any lettering, subtitles, symbols, price, logo, watermark, extra bag or moving string.
+```
+
+> Everyday, made simple
+<!-- generated:brand:end -->
+
+> [!NOTE]
+> Adapted from [Flaq AI’s prompt library](https://github.com/flaqai/awesome-gemini-omni-flash), with attribution and the original MIT notice retained. The reference images are first-frame inputs, not generated-video results. New SeaImagine guidance and a new cover are identified in [Sources & assets](docs/sources.md). Recipes are starting points, not a tested-output guarantee.
 
 ## License and disclaimer
 

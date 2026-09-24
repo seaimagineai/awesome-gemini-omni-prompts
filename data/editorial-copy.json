@@ -1,0 +1,243 @@
+{
+  "en": {
+    "title": "Gemini Omni Prompt Library",
+    "library_heading": "From examples to prompts you can try",
+    "library_intro": "Explore 60 complete source recipes in seven categories. Learn how to describe a scene, time its actions, direct the camera and shape the sound, then adapt an example to your own idea.",
+    "usage_heading": "Try your first prompt",
+    "usage_steps": [
+      "Choose a complete example that matches your scene and copy the full prompt.",
+      "Download its reference image and, in your chosen tool, assign it as the first frame if that option is available.",
+      "Adjust the timeline to the available duration and resolution. Make a draft, check the subject, text and sound, then change one thing at a time."
+    ],
+    "study_note": "Google’s official videos demonstrate Omni 1.1 Flash. The community posts are from May 2026 and concern the original Omni / Flash; they are not verified 1.1 tests. Community evidence comes from the FxTwitter mirror’s text and media metadata; native playback on X has not been verified. These are external examples, not results from the platform you choose to use. Check which features your tool offers.",
+    "neutral_platform": "your chosen tool",
+    "neutral_replacements": {}
+  },
+  "cn": {
+    "title": "Gemini Omni 提示词库",
+    "library_heading": "从看案例，到动手写提示词",
+    "library_intro": "本库收录源库的 60 条完整配方，分为 7 类。跟着示例学习如何交代场景、安排动作时间、控制镜头和声音，再改成自己的创意。",
+    "usage_heading": "开始你的第一次尝试",
+    "usage_steps": [
+      "选择一个接近你想做的场景的完整示例，复制全部提示词。",
+      "下载示例对应的参考图；如果所用工具支持首帧，请将图片设为首帧。",
+      "按工具可用的时长和分辨率调整时间段，先生成草稿，检查主体、文字和声音，每次只改一项。"
+    ],
+    "study_note": "Google 视频是 Omni 1.1 Flash 官方展示。社区帖子发布于 2026 年 5 月，属于早期 Omni / Flash 案例，未核实为 1.1 实测。社区证据来自 FxTwitter 镜像的文字和媒体元数据，未核验 X 原生播放。这些是独立来源的案例，不代表你所用平台的生成结果；具体功能请查看所用工具。",
+    "neutral_platform": "所选工具",
+    "neutral_replacements": {
+      "可以尝试。此库为方便复用保留英文镜头指令，并用目标语言逐字指定对白与屏幕文字；每个语言版本应单独检查。请以当前界面实际提供的预览分辨率测试，不预设 SeaImagine 提供 360p。": "可以尝试。此库为方便复用保留英文镜头指令，并用目标语言逐字指定对白与屏幕文字；每个语言版本应单独检查。请以当前界面实际提供的预览分辨率测试，不预设所选工具提供 360p。",
+      "- 不同语言的发音、字形和口型需要分别验收；英文指令也不能保证生成结果正确。\n- Google Gemini API 与 SeaImagine 网页是不同入口。源库的 API 教程涉及独立音频参考、参考视频音频、上传片长、片尾续写、语音编辑和独立排除参数等限制；使用程序调用前，请核对[当前 Google 官方文档](https://ai.google.dev/gemini-api/docs/omni)。不要把这些参数直接套到 SeaImagine 网页。\n- 在 SeaImagine 先确认所选模型是否支持首尾帧、多个参考素材、视频编辑、续写或声音；不存在的上传栏和参数不会因写入提示词而启用。\n- 预览分辨率、成片分辨率、时长、价格及地区支持以当前界面为准。高分辨率或放大不能补救错误构图、乱码、动作穿帮或节奏。\n- 使用人物、声音、音乐、商标和参考视频前，确认你有相应使用权。官方展示和社区视频的链接不等于素材授权。": "- 不同语言的发音、字形和口型需要分别验收；英文指令也不能保证生成结果正确。\n- Google Gemini API 与所选工具网页是不同入口。源库的 API 教程涉及独立音频参考、参考视频音频、上传片长、片尾续写、语音编辑和独立排除参数等限制；使用程序调用前，请核对[当前 Google 官方文档](https://ai.google.dev/gemini-api/docs/omni)。不要把这些参数直接套到所选工具网页。\n- 先在所选工具中确认当前模型是否支持首尾帧、多个参考素材、视频编辑、续写或声音；不存在的上传栏和参数不会因写入提示词而启用。\n- 预览分辨率、成片分辨率、时长、价格及地区支持以当前界面为准。高分辨率或放大不能补救错误构图、乱码、动作穿帮或节奏。\n- 使用人物、声音、音乐、商标和参考视频前，确认你有相应使用权。官方展示和社区视频的链接不等于素材授权。",
+      "| 你的起点或目标 | 从这里开始 |\n|---|---|\n| 只有一个概念、剧本或镜头想法 | [电影与叙事](prompts/cinematic-storytelling.md) |\n| 有产品图、店铺、服装或商业目标 | [商业广告与社交媒体](prompts/commerce-social.md) |\n| 需要旅行、自然、历史、科学或建筑内容 | [纪录片、旅行与教育](prompts/documentary-education.md) |\n| 想做动画、音乐、舞蹈、喜剧或无缝循环 | [动画、音乐与娱乐](prompts/stylized-entertainment.md) |\n| 已有首帧、尾帧、角色图、短视频或待编辑视频 | [多模态控制、编辑与续写](prompts/control-editing-extension.md) |\n| 需要对象替换、环境换景、换机位、风格隔离、AR 或特效 | [进阶编辑、镜头与视觉变换](prompts/advanced-editing-camera.md) |\n| 已有九宫格故事板、流程图，或要做分屏、动效文字、多语言标题与评测 | [故事板、文字与评测](prompts/storyboard-text-evaluation.md) |\n| 想看官方演示，或寻找授权条件清晰的参考视频 | [参考视频与授权指南](docs/reference-videos.md) |\n| 需要中文、日语、韩语、法语等对白或屏幕文字 | [15 种语言本地化指南](docs/multilingual-guide.md) |\n| 提示词出现角色漂移、文字乱码或声音拥挤 | [失败诊断与提示词设计指南](docs/prompting-guide.md) |\n| 准备用 Python、JavaScript 或 REST 接入 | [Google Gemini API 快速开始（程序调用，与 SeaImagine 网页分开）](docs/api-quickstart.md) |": "| 你的起点或目标 | 从这里开始 |\n|---|---|\n| 只有一个概念、剧本或镜头想法 | [电影与叙事](prompts/cinematic-storytelling.md) |\n| 有产品图、店铺、服装或商业目标 | [商业广告与社交媒体](prompts/commerce-social.md) |\n| 需要旅行、自然、历史、科学或建筑内容 | [纪录片、旅行与教育](prompts/documentary-education.md) |\n| 想做动画、音乐、舞蹈、喜剧或无缝循环 | [动画、音乐与娱乐](prompts/stylized-entertainment.md) |\n| 已有首帧、尾帧、角色图、短视频或待编辑视频 | [多模态控制、编辑与续写](prompts/control-editing-extension.md) |\n| 需要对象替换、环境换景、换机位、风格隔离、AR 或特效 | [进阶编辑、镜头与视觉变换](prompts/advanced-editing-camera.md) |\n| 已有九宫格故事板、流程图，或要做分屏、动效文字、多语言标题与评测 | [故事板、文字与评测](prompts/storyboard-text-evaluation.md) |\n| 想看官方演示，或寻找授权条件清晰的参考视频 | [参考视频与授权指南](docs/reference-videos.md) |\n| 需要中文、日语、韩语、法语等对白或屏幕文字 | [15 种语言本地化指南](docs/multilingual-guide.md) |\n| 提示词出现角色漂移、文字乱码或声音拥挤 | [失败诊断与提示词设计指南](docs/prompting-guide.md) |\n| 准备用 Python、JavaScript 或 REST 接入 | [Google Gemini API 快速开始（程序调用，与所选工具网页分开）](docs/api-quickstart.md) |",
+      "以下对照表帮助你写清素材职责、动作与修改范围，不代表 SeaImagine 当前已开放所有方式。先在所选模型页面确认输入类型、编辑、续写、声音和时长，再复制对应提示词。`<FIRST_FRAME>` 等是素材职责标签；如果网页没有对应输入栏，它们不能开启额外功能。": "以下对照表帮助你写清素材职责、动作与修改范围，不代表所选工具已支持全部方式。先在所选模型页面确认输入类型、编辑、续写、声音和时长，再复制对应提示词。`<FIRST_FRAME>` 等是素材职责标签；如果网页没有对应输入栏，它们不能开启额外功能。"
+    }
+  },
+  "tw": {
+    "title": "Gemini Omni 提示詞庫",
+    "library_heading": "從看案例，到自己寫提示詞",
+    "library_intro": "本庫收錄原始資料庫的 60 組完整提示詞，分為 7 類。透過範例學習如何描述場景、安排動作時間、控制鏡頭與聲音，再改成自己的創意。",
+    "usage_heading": "開始第一次嘗試",
+    "usage_steps": [
+      "選擇接近你想做的場景的完整範例，複製全部提示詞。",
+      "下載範例對應的參考圖；若使用的工具支援首幀，請將圖片設為首幀。",
+      "依工具可用的片長與解析度調整時間段，先生成草稿，檢查主體、文字與聲音，每次只改一項。"
+    ],
+    "study_note": "Google 影片是 Omni 1.1 Flash 官方展示。社群貼文發布於 2026 年 5 月，屬於早期 Omni / Flash 案例，未確認為 1.1 實測。社群證據來自 FxTwitter 鏡像的文字與媒體中繼資料，未驗證 X 原生播放。這些是獨立來源的案例，不代表你使用的平台所生成的結果；實際功能請查看所用工具。",
+    "neutral_platform": "所選工具",
+    "neutral_replacements": {
+      "以下是提示詞可規劃的內容，不代表 SeaImagine 的每個模型都提供這些功能。輸入素材、編輯、續寫、聲音與解析度請以所選模型及目前介面為準。先用介面提供的預覽設定檢查構圖、對白與文字，再製作成片。Google API（程式呼叫介面）的規格不等於 SeaImagine 的網頁功能。": "以下是提示詞可規劃的內容，不代表所選工具的每個模型都提供這些功能。輸入素材、編輯、續寫、聲音與解析度請以所選模型及目前介面為準。先用介面提供的預覽設定檢查構圖、對白與文字，再製作成片。Google API（程式呼叫介面）的規格不等於所選工具的網頁功能。"
+    }
+  },
+  "ja": {
+    "title": "Gemini Omni プロンプト集",
+    "library_heading": "作例を見て、自分のプロンプトへ",
+    "library_intro": "元のライブラリの完全なレシピ60件を、7つのカテゴリで紹介します。場面、動作のタイミング、カメラ、音の指定方法を学び、自分のアイデアに合わせて書き換えてみましょう。",
+    "usage_heading": "最初のプロンプトを試す",
+    "usage_steps": [
+      "作りたい場面に近い作例を選び、プロンプト全文をコピーします。",
+      "対応する参考画像をダウンロードします。使うツールに開始フレームの指定があれば、その画像を設定します。",
+      "利用できる動画の長さと解像度に合わせて時間指定を調整します。まず試作し、被写体、文字、音を確認してから、一度に一つずつ修正します。"
+    ],
+    "study_note": "Google の公式動画は Omni 1.1 Flash の紹介です。コミュニティの投稿は2026年5月の初期 Omni / Flash の作例で、1.1の実測とは確認できていません。根拠は FxTwitter ミラーの本文とメディア情報で、X 上での直接再生は未確認です。いずれも外部の作例であり、利用するサービスでの生成結果ではありません。使える機能は各ツールで確認してください。",
+    "neutral_platform": "利用中のツール",
+    "neutral_replacements": {
+      "以下はプロンプトで設計する内容です。利用できる入力、編集、延長、音声、解像度は SeaImagine の選択中のモデルと画面で確認してください。まず利用可能なプレビュー設定で構図・台詞・文字を確認し、その後に仕上げます。Google の API（プログラム用インターフェース）の仕様と SeaImagine の画面は別です。": "以下はプロンプトで設計する内容です。利用できる入力、編集、延長、音声、解像度は、使用するツールで選択中のモデルと画面を確認してください。まず利用可能なプレビュー設定で構図・台詞・文字を確認し、その後に仕上げます。Google の API（プログラム用インターフェース）の仕様と、使用するツールの画面上の機能は別です。"
+    }
+  },
+  "ko": {
+    "title": "Gemini Omni 프롬프트 모음",
+    "library_heading": "사례를 보고 내 프롬프트 만들기",
+    "library_intro": "원본 라이브러리의 완전한 레시피 60개를 7개 분류로 모았습니다. 장면, 동작의 시점, 카메라와 소리를 설명하는 법을 배우고 원하는 아이디어에 맞게 바꿔 보세요.",
+    "usage_heading": "첫 프롬프트 사용하기",
+    "usage_steps": [
+      "만들고 싶은 장면과 비슷한 예시를 골라 프롬프트 전체를 복사하세요.",
+      "예시에 맞는 참고 이미지를 내려받으세요. 사용하는 도구가 첫 프레임 설정을 지원하면 해당 이미지를 지정하세요.",
+      "도구가 제공하는 길이와 해상도에 맞춰 시간 구간을 조정하세요. 먼저 초안을 만들고 대상, 글자, 소리를 확인한 뒤 한 번에 한 가지만 수정하세요."
+    ],
+    "study_note": "Google 공식 영상은 Omni 1.1 Flash 시연입니다. 커뮤니티 게시물은 2026년 5월의 초기 Omni / Flash 사례이며 1.1 실측으로 확인되지 않았습니다. 근거는 FxTwitter 미러의 글과 미디어 정보이고, X에서의 원본 재생은 검증하지 않았습니다. 외부 사례이므로 사용 중인 플랫폼의 생성 결과를 뜻하지 않습니다. 지원 기능은 각 도구에서 확인하세요.",
+    "neutral_platform": "사용하는 도구",
+    "neutral_replacements": {
+      "아래 목록은 프롬프트에서 계획할 내용이며 기능 제공을 보장하지 않습니다. 입력 자료, 편집, 연장, 소리, 해상도는 SeaImagine에서 선택한 모델과 현재 화면을 확인하세요. 먼저 제공되는 미리보기 설정으로 구도, 발음, 글자를 확인하세요. Google API(프로그램 호출 인터페이스)와 SeaImagine 웹 화면은 별개입니다.": "아래 목록은 프롬프트에서 계획할 내용이며 기능 제공을 보장하지 않습니다. 사용하는 도구에서 선택한 모델과 현재 화면을 살펴보고 입력 자료, 편집, 연장, 소리, 해상도 지원 여부를 확인하세요. 먼저 제공되는 미리보기 설정으로 구도, 발음, 글자를 확인하세요. Google API(프로그램 호출 인터페이스)와 사용하는 도구의 웹 화면은 별개입니다."
+    }
+  },
+  "es": {
+    "title": "Biblioteca de prompts de Gemini Omni",
+    "library_heading": "De los ejemplos a tus propios prompts",
+    "library_intro": "Explora las 60 recetas completas de la biblioteca original, divididas en siete categorías. Aprende a describir la escena, ordenar las acciones en el tiempo y dirigir la cámara y el sonido; después adapta un ejemplo a tu idea.",
+    "usage_heading": "Prueba tu primer prompt",
+    "usage_steps": [
+      "Elige un ejemplo completo parecido a la escena que quieres crear y copia todo el prompt.",
+      "Descarga su imagen de referencia y asígnala como primer fotograma si tu herramienta ofrece esa opción.",
+      "Ajusta los tiempos a la duración y resolución disponibles. Genera un borrador, revisa el sujeto, el texto y el sonido, y cambia una sola cosa cada vez."
+    ],
+    "study_note": "Los vídeos oficiales de Google muestran Omni 1.1 Flash. Las publicaciones de la comunidad son de mayo de 2026 y corresponden al Omni / Flash inicial; no se han confirmado como pruebas de 1.1. La evidencia procede del texto y los metadatos del espejo FxTwitter; no se ha verificado la reproducción directa en X. Son ejemplos externos, no resultados de la plataforma que elijas. Consulta las funciones disponibles en tu herramienta.",
+    "neutral_platform": "la herramienta que elijas",
+    "neutral_replacements": {
+      "La lista describe lo que puedes planificar con los prompts. Confirma las entradas, la edición, la extensión, el audio y la resolución en el modelo y la pantalla que uses en SeaImagine. Revisa primero la composición, el diálogo y el texto con una vista previa disponible. La API de Google (interfaz para programas) y la interfaz de SeaImagine son servicios distintos.": "La lista describe lo que puedes planificar con los prompts. Confirma las entradas, la edición, la extensión, el audio y la resolución disponibles para el modelo seleccionado en tu herramienta. Revisa primero la composición, el diálogo y el texto con una vista previa disponible. La API de Google (interfaz para programas) y la interfaz de tu herramienta son servicios distintos."
+    }
+  },
+  "fr": {
+    "title": "Bibliothèque de prompts Gemini Omni",
+    "library_heading": "Des exemples aux prompts à essayer",
+    "library_intro": "Retrouvez les 60 recettes complètes de la bibliothèque d’origine, réparties en sept catégories. Apprenez à décrire une scène, à rythmer les actions et à diriger la caméra et le son, puis adaptez un exemple à votre idée.",
+    "usage_heading": "Essayez votre premier prompt",
+    "usage_steps": [
+      "Choisissez un exemple complet proche de la scène souhaitée et copiez tout le prompt.",
+      "Téléchargez l’image de référence correspondante et utilisez-la comme première image si votre outil propose cette option.",
+      "Adaptez les repères temporels à la durée et à la résolution disponibles. Générez un brouillon, vérifiez le sujet, le texte et le son, puis modifiez un seul élément à la fois."
+    ],
+    "study_note": "Les vidéos officielles de Google présentent Omni 1.1 Flash. Les publications de la communauté datent de mai 2026 et concernent les premiers Omni / Flash ; elles ne sont pas confirmées comme des essais de la version 1.1. Les éléments disponibles proviennent du texte et des métadonnées du miroir FxTwitter ; la lecture directe sur X n’a pas été vérifiée. Ce sont des exemples externes, pas des résultats de la plateforme que vous utilisez. Vérifiez les fonctions proposées par votre outil.",
+    "neutral_platform": "votre outil",
+    "neutral_replacements": {
+      "Cette liste décrit des éléments à prévoir dans les prompts, sans garantir leur disponibilité. Vérifiez les entrées, le montage, la prolongation, le son et la résolution dans le modèle choisi sur SeaImagine. Testez d’abord la composition, les paroles et le texte avec un aperçu disponible. L’API de Google (interface de programmation) et l’interface SeaImagine sont distinctes.": "Cette liste décrit des éléments à prévoir dans les prompts, sans garantir leur disponibilité. Vérifiez les entrées, le montage, la prolongation, le son et la résolution disponibles pour le modèle sélectionné dans votre outil. Testez d’abord la composition, les paroles et le texte avec un aperçu disponible. L’API de Google (interface de programmation) et l’interface de votre outil sont distinctes."
+    }
+  },
+  "de": {
+    "title": "Gemini Omni Prompt-Sammlung",
+    "library_heading": "Von Beispielen zu eigenen Prompts",
+    "library_intro": "Entdecke die 60 vollständigen Vorlagen der ursprünglichen Sammlung in sieben Kategorien. Lerne, Szenen zu beschreiben, Aktionen zeitlich zu planen sowie Kamera und Ton zu steuern. Passe anschließend ein Beispiel an deine Idee an.",
+    "usage_heading": "Den ersten Prompt ausprobieren",
+    "usage_steps": [
+      "Wähle ein vollständiges Beispiel für eine ähnliche Szene und kopiere den gesamten Prompt.",
+      "Lade das passende Referenzbild herunter und lege es als Startbild fest, sofern dein Werkzeug diese Funktion anbietet.",
+      "Passe die Zeitangaben an die verfügbare Dauer und Auflösung an. Erstelle einen Entwurf, prüfe Motiv, Text und Ton und ändere danach jeweils nur einen Punkt."
+    ],
+    "study_note": "Die offiziellen Google-Videos zeigen Omni 1.1 Flash. Die Community-Beiträge stammen vom Mai 2026 und beziehen sich auf das ursprüngliche Omni / Flash; sie sind nicht als Tests von 1.1 bestätigt. Als Belege dienen Text und Medienmetadaten des FxTwitter-Spiegels; die direkte Wiedergabe auf X wurde nicht geprüft. Es sind externe Beispiele, keine Ergebnisse der von dir genutzten Plattform. Prüfe die verfügbaren Funktionen in deinem Werkzeug.",
+    "neutral_platform": "dein gewähltes Werkzeug",
+    "neutral_replacements": {
+      "Die Liste beschreibt Themen für die Prompt-Planung, keine zugesicherten Funktionen. Prüfe Eingaben, Bearbeitung, Verlängerung, Ton und Auflösung beim gewählten Modell in SeaImagine. Prüfe zuerst Bildaufbau, Sprache und Text mit einer verfügbaren Vorschau. Googles Programmierschnittstelle (API) und die SeaImagine-Oberfläche sind getrennte Angebote.": "Die Liste beschreibt Themen für die Prompt-Planung, keine zugesicherten Funktionen. Prüfe beim gewählten Modell in deinem Werkzeug, welche Eingaben, Bearbeitungsfunktionen, Verlängerungen, Tonoptionen und Auflösungen verfügbar sind. Prüfe zuerst Bildaufbau, Sprache und Text mit einer verfügbaren Vorschau. Googles Programmierschnittstelle (API) und die Oberfläche deines Werkzeugs sind getrennte Angebote."
+    }
+  },
+  "pt": {
+    "title": "Biblioteca de prompts do Gemini Omni",
+    "library_heading": "Dos exemplos aos seus próprios prompts",
+    "library_intro": "Explore as 60 receitas completas da biblioteca original, organizadas em sete categorias. Aprenda a descrever a cena, definir o momento de cada ação e orientar a câmera e o som. Depois, adapte um exemplo à sua ideia.",
+    "usage_heading": "Experimente seu primeiro prompt",
+    "usage_steps": [
+      "Escolha um exemplo completo parecido com a cena que deseja criar e copie todo o prompt.",
+      "Baixe a imagem de referência correspondente e defina-a como primeiro quadro, se a ferramenta oferecer essa opção.",
+      "Ajuste os tempos à duração e à resolução disponíveis. Gere um rascunho, confira o assunto principal, o texto e o som e altere uma coisa de cada vez."
+    ],
+    "study_note": "Os vídeos oficiais do Google demonstram o Omni 1.1 Flash. As publicações da comunidade são de maio de 2026 e tratam do Omni / Flash original; não foram confirmadas como testes da versão 1.1. As evidências vêm do texto e dos metadados de mídia do espelho FxTwitter; a reprodução direta no X não foi verificada. São exemplos externos, não resultados da plataforma que você usa. Confira os recursos disponíveis na sua ferramenta.",
+    "neutral_platform": "a ferramenta escolhida",
+    "neutral_replacements": {
+      "A lista descreve o que planejar nos prompts, sem garantir a disponibilidade dos recursos. Confira entradas, edição, extensão, áudio e resolução no modelo selecionado no SeaImagine. Verifique primeiro composição, fala e texto com uma prévia disponível. A API do Google (interface de programação) e a interface do SeaImagine são serviços distintos.": "A lista descreve o que planejar nos prompts, sem garantir a disponibilidade dos recursos. Confira entradas, edição, extensão, áudio e resolução do modelo selecionado na ferramenta que você usa. Verifique primeiro composição, fala e texto com uma prévia disponível. A API do Google (interface de programação) e a interface da sua ferramenta são serviços distintos."
+    }
+  },
+  "it": {
+    "title": "Raccolta di prompt per Gemini Omni",
+    "library_heading": "Dagli esempi ai tuoi prompt",
+    "library_intro": "Esplora le 60 ricette complete della raccolta originale, suddivise in sette categorie. Impara a descrivere la scena, scandire le azioni e guidare la camera e il suono, poi adatta un esempio alla tua idea.",
+    "usage_heading": "Prova il tuo primo prompt",
+    "usage_steps": [
+      "Scegli un esempio completo simile alla scena che vuoi creare e copia tutto il prompt.",
+      "Scarica l’immagine di riferimento corrispondente e impostala come primo fotogramma, se lo strumento offre questa opzione.",
+      "Adatta i tempi alla durata e alla risoluzione disponibili. Genera una bozza, controlla il soggetto, il testo e il suono, poi modifica un solo elemento alla volta."
+    ],
+    "study_note": "I video ufficiali di Google mostrano Omni 1.1 Flash. I post della comunità risalgono a maggio 2026 e riguardano l’Omni / Flash originale; non sono stati confermati come test della versione 1.1. Le prove provengono dal testo e dai metadati multimediali del mirror FxTwitter; la riproduzione diretta su X non è stata verificata. Sono esempi esterni, non risultati della piattaforma che utilizzi. Controlla le funzioni disponibili nel tuo strumento.",
+    "neutral_platform": "lo strumento scelto",
+    "neutral_replacements": {
+      "L’elenco descrive cosa pianificare nei prompt, senza garantire la disponibilità delle funzioni. Verifica input, modifica, estensione, audio e risoluzione nel modello scelto su SeaImagine. Controlla prima composizione, dialogo e testo con un’anteprima disponibile. L’API di Google (interfaccia di programmazione) è distinta dall’interfaccia di SeaImagine.": "L’elenco descrive cosa pianificare nei prompt, senza garantire la disponibilità delle funzioni. Verifica input, modifica, estensione, audio e risoluzione disponibili per il modello selezionato nello strumento che usi. Controlla prima composizione, dialogo e testo con un’anteprima disponibile. L’API di Google (interfaccia di programmazione) è distinta dall’interfaccia del tuo strumento."
+    }
+  },
+  "ru": {
+    "title": "Библиотека промптов Gemini Omni",
+    "library_heading": "От примеров к собственным промптам",
+    "library_intro": "Здесь собраны все 60 полных рецептов исходной библиотеки в семи категориях. Учитесь описывать сцену, задавать время действий, движение камеры и звук, а затем адаптируйте пример под свою идею.",
+    "usage_heading": "Попробуйте первый промпт",
+    "usage_steps": [
+      "Выберите полный пример, близкий к задуманной сцене, и скопируйте весь промпт.",
+      "Скачайте соответствующее изображение и задайте его как первый кадр, если ваш инструмент поддерживает эту функцию.",
+      "Настройте временные отрезки с учётом доступной длительности и разрешения. Создайте черновик, проверьте главный объект, текст и звук, затем меняйте по одному элементу."
+    ],
+    "study_note": "Официальные видео Google демонстрируют Omni 1.1 Flash. Публикации сообщества относятся к маю 2026 года и первоначальному Omni / Flash; они не подтверждены как тесты версии 1.1. Доступные свидетельства — текст и метаданные медиа из зеркала FxTwitter; воспроизведение непосредственно в X не проверялось. Это внешние примеры, а не результаты платформы, которой вы пользуетесь. Проверяйте доступность функций в своём инструменте.",
+    "neutral_platform": "выбранный инструмент",
+    "neutral_replacements": {
+      "Список описывает задачи для промптов, а не гарантирует функции. Проверьте ввод, редактирование, продление, звук и разрешение в выбранной модели SeaImagine. Сначала оцените композицию, речь и текст в доступном режиме предпросмотра. API Google (программный интерфейс) и интерфейс SeaImagine — разные сервисы.": "Список описывает задачи для промптов, а не гарантирует функции. Проверьте доступные входные данные, редактирование, продление, звук и разрешение для выбранной модели в вашем инструменте. Сначала оцените композицию, речь и текст в доступном режиме предпросмотра. API Google (программный интерфейс) и интерфейс вашего инструмента — разные сервисы."
+    }
+  },
+  "id": {
+    "title": "Koleksi Prompt Gemini Omni",
+    "library_heading": "Dari contoh ke prompt buatan sendiri",
+    "library_intro": "Jelajahi 60 resep lengkap dari koleksi sumber, yang dibagi menjadi tujuh kategori. Pelajari cara menjelaskan adegan, mengatur waktu aksi, serta mengarahkan kamera dan suara, lalu sesuaikan contoh dengan ide Anda.",
+    "usage_heading": "Coba prompt pertama Anda",
+    "usage_steps": [
+      "Pilih contoh lengkap yang mendekati adegan yang ingin Anda buat, lalu salin seluruh prompt.",
+      "Unduh gambar referensi yang sesuai dan tetapkan sebagai bingkai pertama jika alat yang Anda gunakan mendukungnya.",
+      "Sesuaikan pembagian waktu dengan durasi dan resolusi yang tersedia. Buat draf, periksa subjek, teks, dan suara, lalu ubah satu hal setiap kali mencoba."
+    ],
+    "study_note": "Video resmi Google menampilkan Omni 1.1 Flash. Unggahan komunitas berasal dari Mei 2026 dan membahas Omni / Flash awal; belum terverifikasi sebagai pengujian versi 1.1. Bukti berasal dari teks dan metadata media di mirror FxTwitter; pemutaran langsung di X belum diverifikasi. Ini adalah contoh dari sumber lain, bukan hasil platform yang Anda gunakan. Periksa fitur yang tersedia pada alat Anda.",
+    "neutral_platform": "alat yang Anda pilih",
+    "neutral_replacements": {
+      "Daftar ini berisi hal yang dapat direncanakan dalam prompt, bukan jaminan fitur. Periksa masukan, penyuntingan, perpanjangan, audio, dan resolusi pada model yang dipilih di SeaImagine. Periksa komposisi, ucapan, dan teks melalui pratinjau yang tersedia terlebih dahulu. API Google (antarmuka pemrograman) berbeda dari antarmuka SeaImagine.": "Daftar ini berisi hal yang dapat direncanakan dalam prompt, bukan jaminan fitur. Periksa dukungan masukan, penyuntingan, perpanjangan, audio, dan resolusi pada model yang dipilih dalam alat Anda. Periksa komposisi, ucapan, dan teks melalui pratinjau yang tersedia terlebih dahulu. API Google (antarmuka pemrograman) berbeda dari antarmuka alat Anda."
+    }
+  },
+  "th": {
+    "title": "คลังพรอมป์ต์ Gemini Omni",
+    "library_heading": "จากตัวอย่าง สู่พรอมป์ต์ที่คุณลองใช้ได้",
+    "library_intro": "รวมพรอมป์ต์ฉบับเต็ม 60 สูตรจากคลังต้นฉบับ แบ่งเป็น 7 หมวด เรียนรู้วิธีบรรยายฉาก กำหนดเวลาของแต่ละการกระทำ ควบคุมกล้องและเสียง แล้วปรับตัวอย่างให้เข้ากับไอเดียของคุณ",
+    "usage_heading": "ลองใช้พรอมป์ต์แรก",
+    "usage_steps": [
+      "เลือกตัวอย่างฉบับเต็มที่ใกล้เคียงกับฉากที่อยากสร้าง แล้วคัดลอกพรอมป์ต์ทั้งหมด",
+      "ดาวน์โหลดภาพอ้างอิงที่ตรงกับตัวอย่าง แล้วตั้งเป็นเฟรมแรก หากเครื่องมือที่ใช้รองรับ",
+      "ปรับช่วงเวลาให้ตรงกับความยาวและความละเอียดที่เครื่องมือมีให้ สร้างฉบับร่างก่อน ตรวจสอบตัวแบบ ข้อความ และเสียง แล้วแก้ทีละอย่าง"
+    ],
+    "study_note": "วิดีโออย่างเป็นทางการของ Google สาธิต Omni 1.1 Flash ส่วนโพสต์จากชุมชนเผยแพร่ในเดือนพฤษภาคม 2026 และเป็นตัวอย่างของ Omni / Flash รุ่นแรก ยังไม่ได้ยืนยันว่าเป็นการทดสอบรุ่น 1.1 หลักฐานของชุมชนมาจากข้อความและข้อมูลกำกับสื่อบนเว็บไซต์สำเนา FxTwitter โดยยังไม่ได้ตรวจสอบการเล่นวิดีโอต้นฉบับบน X ตัวอย่างเหล่านี้มาจากแหล่งภายนอก ไม่ใช่ผลลัพธ์จากแพลตฟอร์มที่คุณใช้ โปรดตรวจสอบฟังก์ชันที่มีในเครื่องมือของคุณ",
+    "neutral_platform": "เครื่องมือที่คุณเลือก",
+    "neutral_replacements": {
+      "รายการนี้เป็นสิ่งที่วางแผนในพรอมป์ได้ ไม่ใช่การรับรองว่ามีทุกฟังก์ชัน โปรดตรวจสอบข้อมูลนำเข้า การแก้ไข การต่อวิดีโอ เสียง และความละเอียดในโมเดลและหน้าจอ SeaImagine ที่เลือก เริ่มตรวจองค์ประกอบ คำพูด และข้อความด้วยการตั้งค่าตัวอย่างที่มีให้ API ของ Google (ช่องทางเรียกใช้ด้วยโปรแกรม) เป็นคนละบริการกับหน้าเว็บ SeaImagine": "รายการนี้เป็นสิ่งที่วางแผนในพรอมป์ได้ ไม่ใช่การรับรองว่ามีทุกฟังก์ชัน โปรดตรวจสอบว่าโมเดลที่เลือกในเครื่องมือของคุณรองรับข้อมูลนำเข้า การแก้ไข การต่อวิดีโอ เสียง และความละเอียดใดบ้าง เริ่มตรวจองค์ประกอบ คำพูด และข้อความด้วยการตั้งค่าตัวอย่างที่มีให้ API ของ Google (ช่องทางเรียกใช้ด้วยโปรแกรม) เป็นคนละบริการกับหน้าเว็บของเครื่องมือที่คุณใช้"
+    }
+  },
+  "vi": {
+    "title": "Thư viện prompt Gemini Omni",
+    "library_heading": "Từ ví dụ đến prompt của riêng bạn",
+    "library_intro": "Khám phá 60 công thức đầy đủ từ thư viện gốc, chia thành bảy nhóm. Học cách mô tả cảnh, sắp xếp thời điểm hành động, điều khiển máy quay và âm thanh, rồi chỉnh ví dụ theo ý tưởng của bạn.",
+    "usage_heading": "Thử prompt đầu tiên",
+    "usage_steps": [
+      "Chọn một ví dụ đầy đủ gần với cảnh bạn muốn tạo và sao chép toàn bộ prompt.",
+      "Tải ảnh tham chiếu tương ứng và đặt làm khung hình đầu tiên nếu công cụ bạn dùng hỗ trợ.",
+      "Điều chỉnh các mốc thời gian theo thời lượng và độ phân giải có sẵn. Tạo bản nháp, kiểm tra chủ thể, chữ và âm thanh, rồi chỉ sửa một yếu tố mỗi lần."
+    ],
+    "study_note": "Video chính thức của Google trình diễn Omni 1.1 Flash. Các bài đăng cộng đồng có từ tháng 5 năm 2026 và nói về Omni / Flash đời đầu; chưa được xác nhận là thử nghiệm bản 1.1. Bằng chứng cộng đồng lấy từ văn bản và siêu dữ liệu của tệp phương tiện trên bản sao FxTwitter; chưa xác minh việc phát video trực tiếp trên X. Đây là ví dụ từ nguồn bên ngoài, không phải kết quả của nền tảng bạn sử dụng. Hãy kiểm tra tính năng có trong công cụ của mình.",
+    "neutral_platform": "công cụ bạn chọn",
+    "neutral_replacements": {
+      "Danh sách này mô tả nội dung có thể lên kế hoạch trong prompt, không bảo đảm tính năng. Hãy kiểm tra đầu vào, chỉnh sửa, kéo dài, âm thanh và độ phân giải của mô hình đang chọn trên SeaImagine. Trước tiên, kiểm tra bố cục, lời nói và chữ bằng chế độ xem trước hiện có. API Google (giao diện lập trình) và giao diện SeaImagine là hai dịch vụ riêng.": "Danh sách này mô tả nội dung có thể lên kế hoạch trong prompt, không bảo đảm tính năng. Hãy kiểm tra đầu vào, chỉnh sửa, kéo dài, âm thanh và độ phân giải mà mô hình đang chọn hỗ trợ trong công cụ của bạn. Trước tiên, kiểm tra bố cục, lời nói và chữ bằng chế độ xem trước hiện có. API Google (giao diện lập trình) và giao diện công cụ của bạn là hai dịch vụ riêng."
+    }
+  },
+  "ar": {
+    "title": "مكتبة أوامر Gemini Omni",
+    "library_heading": "من مشاهدة الأمثلة إلى كتابة أوامرك",
+    "library_intro": "استكشف 60 وصفة كاملة من المكتبة الأصلية، موزعة على سبع فئات. تعلّم وصف المشهد وتوقيت الأفعال وتوجيه الكاميرا والصوت، ثم عدّل أحد الأمثلة ليناسب فكرتك.",
+    "usage_heading": "جرّب أمرك الأول",
+    "usage_steps": [
+      "اختر مثالًا كاملًا قريبًا من المشهد الذي تريد إنشاءه وانسخ نص الأمر بالكامل.",
+      "نزّل الصورة المرجعية المطابقة وحددها بوصفها الإطار الأول إذا كانت أداتك تدعم ذلك.",
+      "عدّل توقيت الأفعال وفق المدة والدقة المتاحتين. أنشئ مسودة، وراجع العنصر الرئيسي والنص والصوت، ثم غيّر عنصرًا واحدًا في كل مرة."
+    ],
+    "study_note": "تعرض فيديوهات Google الرسمية نموذج Omni 1.1 Flash. أما منشورات المجتمع فتعود إلى مايو 2026 وتتعلق بالإصدار الأول من Omni / Flash، ولم يُتحقق من كونها اختبارات للإصدار 1.1. تستند أدلة المجتمع إلى النصوص وبيانات الوسائط الوصفية في نسخة FxTwitter، ولم يُتحقق من التشغيل المباشر على X. هذه أمثلة من مصادر خارجية وليست نتائج المنصة التي تستخدمها. راجع الوظائف المتاحة في أداتك.",
+    "neutral_platform": "الأداة التي تختارها",
+    "neutral_replacements": {
+      "تصف القائمة ما يمكن تخطيطه بالمطالبات، ولا تضمن توفر كل ميزة. تحقّق من المدخلات والتحرير والتمديد والصوت والدقة في النموذج المختار داخل SeaImagine. اختبر التكوين والحوار والنص بإعداد المعاينة المتاح أولًا. واجهة Google البرمجية وواجهة SeaImagine خدمتان مختلفتان.": "تصف القائمة ما يمكن تخطيطه بالمطالبات، ولا تضمن توفر كل ميزة. تحقّق من المدخلات والتحرير والتمديد والصوت والدقة المتاحة للنموذج المحدد في أداتك. اختبر التكوين والحوار والنص بإعداد المعاينة المتاح أولًا. واجهة Google البرمجية وواجهة أداتك خدمتان مختلفتان."
+    }
+  }
+}

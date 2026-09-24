@@ -30,19 +30,24 @@ def studies_section(code):
              (official[0]['url'],None,s['official']['url']),
              (s['community'][0]['url'],s['community'][0]['media'][0]['thumbnail_url'],s['community'][0]['evidence_url']),
              (s['community'][1]['url'],s['community'][1]['media'][0]['thumbnail_url'],s['community'][1]['evidence_url'])]
-    rows=['<a id="video-studies"></a>',f'## {a["study_heading"]}',a['study_note']]
+    rows=['<a id="video-studies"></a>',f'## {a["study_heading"]}',read('editorial-copy.json')[code]['study_note']]
     for i,(url,thumb,evidence) in enumerate(studies):
         rows += [f'### {a["study_titles"][i]}']
         if thumb:
             rows += [f'<a href="{url}"><img src="{thumb}" alt="{a["study_titles"][i]}" width="300"></a>']
-        rows += [f'[{a["watch_label"]}]({url})',a['study_lessons'][i],a['study_practice'][i]]
+        citation = f'[Google]({evidence})' if i<2 else f'[FxTwitter]({evidence}) · [Google AI]({s["community"][i-2]["official_quote_url"]})'
+        rows += [f'[{a["watch_label"]}]({url}) · {citation}',a['study_lessons'][i],a['study_practice'][i]]
     d=read('locale-copy.json')[code]
     rows += [f'[{d["community"]}](docs/community-examples.md)']
     return '\n\n'.join(rows)
 
+def library_intro(code):
+    e=read('editorial-copy.json')[code]
+    return '\n\n'.join([f'## {e["library_heading"]}',e['library_intro'],f'### {e["usage_heading"]}', '\n'.join(f'{i}. {v}' for i,v in enumerate(e['usage_steps'],1))])
+
 def update_english():
     p=ROOT/'README.md';s=p.read_text()
-    for label,content in [('brand',brand_section('en')),('studies',studies_section('en'))]:
+    for label,content in [('brand',brand_section('en')),('studies',studies_section('en')),('library',library_intro('en'))]:
         start=f'<!-- generated:{label}:start -->';end=f'<!-- generated:{label}:end -->'
         a=s.index(start)+len(start);b=s.index(end,a)
         s=s[:a]+'\n'+content+'\n'+s[b:]

@@ -1,16 +1,161 @@
-# Prompts vidéo Gemini Omni pour SeaImagine
+# Bibliothèque de prompts Gemini Omni
 
 [English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md) · [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
+
+<a id="video-studies"></a>
+
+## Ce qu’enseignent les exemples officiels et communautaires
+
+Les vidéos officielles de Google présentent Omni 1.1 Flash. Les publications de la communauté datent de mai 2026 et concernent les premiers Omni / Flash ; elles ne sont pas confirmées comme des essais de la version 1.1. Les éléments disponibles proviennent du texte et des métadonnées du miroir FxTwitter ; la lecture directe sur X n’a pas été vérifiée. Ce sont des exemples externes, pas des résultats de la plateforme que vous utilisez. Vérifiez les fonctions proposées par votre outil.
+
+### Google : transition entre deux images clés
+
+[Voir l’exemple original](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
+
+Définissez séparément l’image de départ, celle d’arrivée et le mouvement continu qui les relie.
+
+Prenez deux photos du même objet sous des angles compatibles. Si les images de début et de fin sont acceptées, reliez-les par un mouvement simple.
+
+### Google : prolonger un plan
+
+[Voir l’exemple original](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
+
+Décrivez le mouvement de caméra suivant tout en conservant le sujet et sa direction.
+
+Utilisez votre propre clip. Si la prolongation est disponible, ajoutez une seule suite et recherchez les ruptures de mouvement ou d’éclairage au raccord.
+
+### CHRIS FIRST : transformer les personnes en flamants roses
+
+<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST : transformer les personnes en flamants roses" width="300"></a>
+
+[Voir l’exemple original](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
+
+Remplacez le sujet en demandant de conserver ses vêtements et son action ; vérifiez les points de contact des membres.
+
+Si la retouche vidéo est disponible, remplacez un seul sujet dans votre clip. Comparez les vêtements, la posture et le contact avec le sol.
+
+### Justine Moore : changer de chapeau à chaque claquement de mains
+
+<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore : changer de chapeau à chaque claquement de mains" width="300"></a>
+
+[Voir l’exemple original](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
+
+Utilisez un geste visible pour déclencher chaque changement, sans modifier le visage, la tenue ni la caméra.
+
+Filmez deux claquements de mains nets avec une caméra fixe. Si la retouche vidéo est disponible, demandez un changement de chapeau à chaque geste et vérifiez le moment image par image.
+
+[Exemples officiels et communautaires](docs/community-examples.md)
+
+## Des exemples aux prompts à essayer
+
+Retrouvez les 60 recettes complètes de la bibliothèque d’origine, réparties en sept catégories. Apprenez à décrire une scène, à rythmer les actions et à diriger la caméra et le son, puis adaptez un exemple à votre idée.
+
+### Essayez votre premier prompt
+
+1. Choisissez un exemple complet proche de la scène souhaitée et copiez tout le prompt.
+2. Téléchargez l’image de référence correspondante et utilisez-la comme première image si votre outil propose cette option.
+3. Adaptez les repères temporels à la durée et à la résolution disponibles. Générez un brouillon, vérifiez le sujet, le texte et le son, puis modifiez un seul élément à la fois.
+
+<a id="source-examples"></a>
+
+## Trois prompts à copier
+
+Ces images sont des premières images de référence reprises du dépôt source, pas des résultats vidéo. Importez l’image correspondante comme Image1. Les 10 secondes et le son indiquent le résultat souhaité ; adaptez-les aux réglages disponibles.
+
+### 01 · Enceinte : rythme des gouttes
+
+![Enceinte : rythme des gouttes](assets/product-speaker.png)
+
+```text
+Create a 10-second premium product film from Image1. Use Image1 as the exact starting frame.
+
+[0-3s] Make a slow 20-degree clockwise camera orbit. Suspended droplets travel around the speaker in clean concentric paths, aligned to a deep electronic kick. Preserve the speaker's exact coral color, grille weave and proportions.
+[3-7s] A sunrise reflection sweeps across the copper end cap. On the snare, droplets strike the wet stone and rebound as fine mist.
+[7-10s] All droplets collapse into one crisp splash behind the product, then settle on a steady three-quarter hero frame with negative space on the right.
+
+Audio: original minimal electronic rhythm at 96 BPM, water-drop percussion, distant ocean ambience. No vocals.
+No product morphing, added controls, text, logo, watermark, hands, duplicate product or camera shake.
+```
+
+### 02 · Cyclisme sur une crête : ouverture documentaire
+
+![Cyclisme sur une crête : ouverture documentaire](assets/travel-cyclist.png)
+
+```text
+Animate Image1 as a single continuous 10-second documentary tracking shot. Use it as the exact first frame.
+
+The cyclist pedals steadily toward the observatory while the camera follows from the same height. Silver grass bends in two wind gusts, loose gravel reacts under the rear tire, and clouds move slowly below the ridge. At 6s, the first warm sunlight reaches the jacket and observatory dome.
+
+Audio: close tire crunch and chain movement, strong ridge wind, one distant bird at 7s. No music or narration.
+No cuts, drone rise, extra cyclists, landmark text, logo or watermark.
+```
+
+### 03 · Horloger et oiseaux de papier : récit illustré
+
+![Horloger et oiseaux de papier : récit illustré](assets/clockmaker-story.png)
+
+```text
+Bring this illustration to life in one coherent 10-second animated shot. Use Image1 as the first frame and preserve its watercolor-and-ink direction.
+
+[0-3s] The brass door clicks open and warm light grows inside it. Nearby gears rotate at different believable speeds.
+[3-7s] Paper birds unfold one by one and spiral past the camera with visible paper flex. Tilt upward to follow them through the clock opening.
+[7-10s] The flock crosses the moon; one tiny paper bird lands on the clock hand.
+
+Audio: layered clock ticks, delicate paper folds, wooden gear creaks, then an original celesta motif. No dialogue.
+Keep the clockmaker's face, clothes and goggles consistent. No photorealism, subtitles, logo or watermark.
+```
+
+
+
+## Contenu
+
+Cette liste décrit des éléments à prévoir dans les prompts, sans garantir leur disponibilité. Vérifiez les entrées, le montage, la prolongation, le son et la résolution disponibles pour le modèle sélectionné dans votre outil. Testez d’abord la composition, les paroles et le texte avec un aperçu disponible. L’API de Google (interface de programmation) et l’interface de votre outil sont distinctes.
+
+- Texte-vers-vidéo, image-vers-vidéo, première/dernière image et références de sujets.
+- Conception conjointe de l’image, des ambiances, du bruitage, de la musique originale, du silence et du dialogue.
+- Règles de dialogue et de texte à l’écran pour 15 langues.
+
+## Les 60 prompts
+
+Les cinq premières collections sont expliquées en chinois et les deux dernières en anglais. Tous les prompts à copier sont en anglais. Les collections ne sont pas intégralement traduites.
+
+- [Cinéma et narration : 8 prompts](prompts/cinematic-storytelling.md)
+- [Commerce et réseaux sociaux : 8 prompts](prompts/commerce-social.md)
+- [Documentaire, voyage et éducation : 8 prompts](prompts/documentary-education.md)
+- [Animation, musique et divertissement : 8 prompts](prompts/stylized-entertainment.md)
+- [Contrôle, édition et extension : 10 recettes](prompts/control-editing-extension.md)
+- [Montage avancé, caméra et transformation visuelle : 9 prompts](prompts/advanced-editing-camera.md)
+- [Storyboards, écrans partagés, texte et évaluation : 9 prompts](prompts/storyboard-text-evaluation.md)
+
+## Dialogues en français
+
+Vous pouvez conserver les consignes de mise en scène en anglais et préciser mot pour mot le dialogue et le texte visible en français. Vérifiez prononciation, orthographe et synchronisation.
+
+```text
+Spoken language: French.
+Exact dialogue at 6s, spoken once with natural conversational pacing: "Aujourd'hui, prenons le chemin le plus long pour rentrer."
+Do not translate, paraphrase, repeat or subtitle it.
+
+Exact on-screen French title: "PETITS VOYAGES"
+Preserve accents, apostrophes and spelling exactly. No other text.
+```
+
+## Pour aller plus loin
+
+- [Exemples officiels et communautaires](docs/community-examples.md)
+- [Guide multilingue](docs/multilingual-guide.md)
+- [Conception des prompts](docs/prompting-guide.md)
+- [Références et autorisations](docs/reference-videos.md)
+
+<a id="brand-tools"></a>
+
+## Premiers pas avec SeaImagine
 
 ![Prompts vidéo Gemini Omni pour SeaImagine](assets/seaimagine-omni-hero.png)
 
 Cette bibliothèque conserve les 60 recettes de Flaq AI et ajoute trois exercices SeaImagine avec des images originales. Retrouvez ici ces exercices, les exemples du dépôt source et les enseignements des cas officiels et communautaires.
 
 [Gemini Omni](https://seaimagine.com/fr/model/gemini-omni/) · [Gemini Omni 1.1 Flash](https://seaimagine.com/fr/model/gemini-omni-1-1-flash/)
-
-[Trois exercices SeaImagine avec des images originales](#sea-practice) · [Trois prompts à copier](#source-examples) · [Ce qu’enseignent les exemples officiels et communautaires](#video-studies)
-
-## Premiers pas avec SeaImagine
 
 1. Ouvrez la page du modèle et vérifiez l’accès, le prix et les réglages disponibles.
 2. Pour conserver l’apparence d’un produit ou d’un personnage, choisissez image vers vidéo, importez une image et collez le prompt associé. Pour inventer une scène, essayez texte vers vidéo.
@@ -86,141 +231,7 @@ Do not generate any lettering, subtitles, symbols, price, logo, watermark, extra
 
 > Le quotidien, tout simplement
 
-<a id="source-examples"></a>
-
-## Trois prompts à copier
-
-Ces images sont des premières images de référence reprises du dépôt source, pas des résultats vidéo. Importez l’image correspondante comme Image1. Les 10 secondes et le son indiquent le résultat souhaité ; adaptez-les aux réglages disponibles.
-
-### 01 · Enceinte : rythme des gouttes
-
-![Enceinte : rythme des gouttes](assets/product-speaker.png)
-
-```text
-Create a 10-second premium product film from Image1. Use Image1 as the exact starting frame.
-
-[0-3s] Make a slow 20-degree clockwise camera orbit. Suspended droplets travel around the speaker in clean concentric paths, aligned to a deep electronic kick. Preserve the speaker's exact coral color, grille weave and proportions.
-[3-7s] A sunrise reflection sweeps across the copper end cap. On the snare, droplets strike the wet stone and rebound as fine mist.
-[7-10s] All droplets collapse into one crisp splash behind the product, then settle on a steady three-quarter hero frame with negative space on the right.
-
-Audio: original minimal electronic rhythm at 96 BPM, water-drop percussion, distant ocean ambience. No vocals.
-No product morphing, added controls, text, logo, watermark, hands, duplicate product or camera shake.
-```
-
-### 02 · Cyclisme sur une crête : ouverture documentaire
-
-![Cyclisme sur une crête : ouverture documentaire](assets/travel-cyclist.png)
-
-```text
-Animate Image1 as a single continuous 10-second documentary tracking shot. Use it as the exact first frame.
-
-The cyclist pedals steadily toward the observatory while the camera follows from the same height. Silver grass bends in two wind gusts, loose gravel reacts under the rear tire, and clouds move slowly below the ridge. At 6s, the first warm sunlight reaches the jacket and observatory dome.
-
-Audio: close tire crunch and chain movement, strong ridge wind, one distant bird at 7s. No music or narration.
-No cuts, drone rise, extra cyclists, landmark text, logo or watermark.
-```
-
-### 03 · Horloger et oiseaux de papier : récit illustré
-
-![Horloger et oiseaux de papier : récit illustré](assets/clockmaker-story.png)
-
-```text
-Bring this illustration to life in one coherent 10-second animated shot. Use Image1 as the first frame and preserve its watercolor-and-ink direction.
-
-[0-3s] The brass door clicks open and warm light grows inside it. Nearby gears rotate at different believable speeds.
-[3-7s] Paper birds unfold one by one and spiral past the camera with visible paper flex. Tilt upward to follow them through the clock opening.
-[7-10s] The flock crosses the moon; one tiny paper bird lands on the clock hand.
-
-Audio: layered clock ticks, delicate paper folds, wooden gear creaks, then an original celesta motif. No dialogue.
-Keep the clockmaker's face, clothes and goggles consistent. No photorealism, subtitles, logo or watermark.
-```
-
-
-
-<a id="video-studies"></a>
-
-## Ce qu’enseignent les exemples officiels et communautaires
-
-Les vidéos de Google présentent Omni 1.1 Flash, pas des résultats SeaImagine. Les publications communautaires datent de mai 2026 et concernent la première version d’Omni / Flash ; elles ne constituent pas des tests confirmés de la version 1.1. Les éléments consultés sont le texte et les métadonnées de FxTwitter, sans vérification de la lecture native sur X. Vérifiez les fonctions dans SeaImagine.
-
-### Google : transition entre deux images clés
-
-[Voir l’exemple original](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4)
-
-Définissez séparément l’image de départ, celle d’arrivée et le mouvement continu qui les relie.
-
-Prenez deux photos du même objet sous des angles compatibles. Si les images de début et de fin sont acceptées, reliez-les par un mouvement simple.
-
-### Google : prolonger un plan
-
-[Voir l’exemple original](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4)
-
-Décrivez le mouvement de caméra suivant tout en conservant le sujet et sa direction.
-
-Utilisez votre propre clip. Si la prolongation est disponible, ajoutez une seule suite et recherchez les ruptures de mouvement ou d’éclairage au raccord.
-
-### CHRIS FIRST : transformer les personnes en flamants roses
-
-<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST : transformer les personnes en flamants roses" width="300"></a>
-
-[Voir l’exemple original](https://x.com/chrisfirst/status/2056797606509158681)
-
-Remplacez le sujet en demandant de conserver ses vêtements et son action ; vérifiez les points de contact des membres.
-
-Si la retouche vidéo est disponible, remplacez un seul sujet dans votre clip. Comparez les vêtements, la posture et le contact avec le sol.
-
-### Justine Moore : changer de chapeau à chaque claquement de mains
-
-<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore : changer de chapeau à chaque claquement de mains" width="300"></a>
-
-[Voir l’exemple original](https://x.com/venturetwins/status/2056793856843366789)
-
-Utilisez un geste visible pour déclencher chaque changement, sans modifier le visage, la tenue ni la caméra.
-
-Filmez deux claquements de mains nets avec une caméra fixe. Si la retouche vidéo est disponible, demandez un changement de chapeau à chaque geste et vérifiez le moment image par image.
-
-[Exemples officiels et communautaires](docs/community-examples.md)
-
-## Contenu
-
-Cette liste décrit des éléments à prévoir dans les prompts, sans garantir leur disponibilité. Vérifiez les entrées, le montage, la prolongation, le son et la résolution dans le modèle choisi sur SeaImagine. Testez d’abord la composition, les paroles et le texte avec un aperçu disponible. L’API de Google (interface de programmation) et l’interface SeaImagine sont distinctes.
-
-- Texte-vers-vidéo, image-vers-vidéo, première/dernière image et références de sujets.
-- Conception conjointe de l’image, des ambiances, du bruitage, de la musique originale, du silence et du dialogue.
-- Règles de dialogue et de texte à l’écran pour 15 langues.
-
-## Les 60 prompts
-
-Les cinq premières collections sont expliquées en chinois et les deux dernières en anglais. Tous les prompts à copier sont en anglais. Les collections ne sont pas intégralement traduites.
-
-- [Cinéma et narration : 8 prompts](prompts/cinematic-storytelling.md)
-- [Commerce et réseaux sociaux : 8 prompts](prompts/commerce-social.md)
-- [Documentaire, voyage et éducation : 8 prompts](prompts/documentary-education.md)
-- [Animation, musique et divertissement : 8 prompts](prompts/stylized-entertainment.md)
-- [Contrôle, édition et extension : 10 recettes](prompts/control-editing-extension.md)
-- [Montage avancé, caméra et transformation visuelle : 9 prompts](prompts/advanced-editing-camera.md)
-- [Storyboards, écrans partagés, texte et évaluation : 9 prompts](prompts/storyboard-text-evaluation.md)
-
-## Dialogues en français
-
-Vous pouvez conserver les consignes de mise en scène en anglais et préciser mot pour mot le dialogue et le texte visible en français. Vérifiez prononciation, orthographe et synchronisation.
-
-```text
-Spoken language: French.
-Exact dialogue at 6s, spoken once with natural conversational pacing: "Aujourd'hui, prenons le chemin le plus long pour rentrer."
-Do not translate, paraphrase, repeat or subtitle it.
-
-Exact on-screen French title: "PETITS VOYAGES"
-Preserve accents, apostrophes and spelling exactly. No other text.
-```
-
-## Pour aller plus loin
-
-- [Parcours SeaImagine](docs/seaimagine-workflow.md)
-- [Exemples officiels et communautaires](docs/community-examples.md)
-- [Guide multilingue](docs/multilingual-guide.md)
-- [Conception des prompts](docs/prompting-guide.md)
-- [Références et autorisations](docs/reference-videos.md)
+[Parcours SeaImagine](docs/seaimagine-workflow.md)
 
 ## Autres outils SeaImagine
 

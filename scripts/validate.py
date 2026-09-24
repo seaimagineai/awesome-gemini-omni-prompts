@@ -43,6 +43,9 @@ from build_locales import LOCALES, build
 for code,suffix,_ in LOCALES:
     p=R/('README.md' if code=='en' else f'README_{suffix}.md');t=p.read_text()
     check(brand_section(code) in t,f'Incomplete brand practice: {code}')
+    check(t.index('id="video-studies"')<t.index('id="source-examples"')<t.index('id="brand-tools"')<t.index('id="sea-practice"'),f'Wrong reader journey: {code}')
+    opening=t.split('<a id="brand-tools"></a>')[0]
+    check('SeaImagine' not in opening and 'https://seaimagine.com' not in opening,f'Brand promotion before teaching: {code}')
     check(studies_section(code) in t,f'Incomplete localized studies: {code}')
     for key,size in [('brand_titles',3),('brand_lessons',3),('brand_actions',3),('study_titles',4),('study_lessons',4),('study_practice',4)]:
         check(len(additions[code][key])==size and all(additions[code][key]),f'Missing {key}: {code}')

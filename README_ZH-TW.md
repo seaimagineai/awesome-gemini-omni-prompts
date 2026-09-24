@@ -1,16 +1,163 @@
-# SeaImagine Gemini Omni 影片提示詞庫
+# Gemini Omni 提示詞庫
 
 [English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_ZH-TW.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Português](README_PT.md) · [Italiano](README_IT.md) · [Русский](README_RU.md) · [Bahasa Indonesia](README_ID.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md)
+
+<a id="video-studies"></a>
+
+## 從官方與社群案例學什麼
+
+Google 影片是 Omni 1.1 Flash 官方展示。社群貼文發布於 2026 年 5 月，屬於早期 Omni / Flash 案例，未確認為 1.1 實測。社群證據來自 FxTwitter 鏡像的文字與媒體中繼資料，未驗證 X 原生播放。這些是獨立來源的案例，不代表你使用的平台所生成的結果；實際功能請查看所用工具。
+
+### Google：首尾幀轉場
+
+[查看原始案例](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
+
+分別指定起始畫面、結束畫面，以及兩者之間連續的運動。
+
+為同一物件準備兩張角度相容的照片；若支援首尾幀，以一個簡單動作連接兩張圖。
+
+### Google：延長鏡頭
+
+[查看原始案例](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4) · [Google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)
+
+描述下一段鏡頭運動，同時維持主體與運動方向一致。
+
+使用自己的短片；若支援延長，只接續一段動作，檢查接點的運動與光線是否突然改變。
+
+### CHRIS FIRST：人物變成紅鶴
+
+<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST：人物變成紅鶴" width="300"></a>
+
+[查看原始案例](https://x.com/chrisfirst/status/2056797606509158681) · [FxTwitter](https://api.fxtwitter.com/status/2056797606509158681) · [Google AI](https://x.com/GoogleAI/status/2056829479696400608)
+
+替換主體時明確保留服裝和動作，並檢查肢體接觸的位置。
+
+使用自己的影片；若支援影片編輯，只替換一個主體，比較前後的服裝、姿勢與觸地位置。
+
+### Justine Moore：每次拍手換一頂帽子
+
+<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore：每次拍手換一頂帽子" width="300"></a>
+
+[查看原始案例](https://x.com/venturetwins/status/2056793856843366789) · [FxTwitter](https://api.fxtwitter.com/status/2056793856843366789) · [Google AI](https://x.com/GoogleAI/status/2056829481218949533)
+
+以可見動作決定變化時機，同時維持臉孔、服裝和鏡頭一致。
+
+固定攝影機，拍攝兩次清楚的拍手；若支援影片編輯，要求每次拍手換帽，逐格檢查時間點。
+
+[官方與社群案例](docs/community-examples.md)
+
+## 從看案例，到自己寫提示詞
+
+本庫收錄原始資料庫的 60 組完整提示詞，分為 7 類。透過範例學習如何描述場景、安排動作時間、控制鏡頭與聲音，再改成自己的創意。
+
+### 開始第一次嘗試
+
+1. 選擇接近你想做的場景的完整範例，複製全部提示詞。
+2. 下載範例對應的參考圖；若使用的工具支援首幀，請將圖片設為首幀。
+3. 依工具可用的片長與解析度調整時間段，先生成草稿，檢查主體、文字與聲音，每次只改一項。
+
+<a id="source-examples"></a>
+
+## 三個可複製的範例
+
+圖片沿用原始儲存庫的參考首幀，並非實際影片生成結果。請將對應圖片上傳為 Image1。10 秒及音效是目標要求，請依實際可用設定調整。
+
+### 01 · 商品音箱：水滴節拍
+
+![商品音箱：水滴節拍](assets/product-speaker.png)
+
+```text
+Create a 10-second premium product film from Image1. Use Image1 as the exact starting frame.
+
+[0-3s] Make a slow 20-degree clockwise camera orbit. Suspended droplets travel around the speaker in clean concentric paths, aligned to a deep electronic kick. Preserve the speaker's exact coral color, grille weave and proportions.
+[3-7s] A sunrise reflection sweeps across the copper end cap. On the snare, droplets strike the wet stone and rebound as fine mist.
+[7-10s] All droplets collapse into one crisp splash behind the product, then settle on a steady three-quarter hero frame with negative space on the right.
+
+Audio: original minimal electronic rhythm at 96 BPM, water-drop percussion, distant ocean ambience. No vocals.
+No product morphing, added controls, text, logo, watermark, hands, duplicate product or camera shake.
+```
+
+### 02 · 山稜單車：旅行紀錄片開場
+
+![山稜單車：旅行紀錄片開場](assets/travel-cyclist.png)
+
+```text
+Animate Image1 as a single continuous 10-second documentary tracking shot. Use it as the exact first frame.
+
+The cyclist pedals steadily toward the observatory while the camera follows from the same height. Silver grass bends in two wind gusts, loose gravel reacts under the rear tire, and clouds move slowly below the ridge. At 6s, the first warm sunlight reaches the jacket and observatory dome.
+
+Audio: close tire crunch and chain movement, strong ridge wind, one distant bird at 7s. No music or narration.
+No cuts, drone rise, extra cyclists, landmark text, logo or watermark.
+```
+
+### 03 · 鐘錶匠與紙鳥：手繪動畫故事
+
+![鐘錶匠與紙鳥：手繪動畫故事](assets/clockmaker-story.png)
+
+```text
+Bring this illustration to life in one coherent 10-second animated shot. Use Image1 as the first frame and preserve its watercolor-and-ink direction.
+
+[0-3s] The brass door clicks open and warm light grows inside it. Nearby gears rotate at different believable speeds.
+[3-7s] Paper birds unfold one by one and spiral past the camera with visible paper flex. Tilt upward to follow them through the clock opening.
+[7-10s] The flock crosses the moon; one tiny paper bird lands on the clock hand.
+
+Audio: layered clock ticks, delicate paper folds, wooden gear creaks, then an original celesta motif. No dialogue.
+Keep the clockmaker's face, clothes and goggles consistent. No photorealism, subtitles, logo or watermark.
+```
+
+
+
+## 專案內容
+
+以下是提示詞可規劃的內容，不代表所選工具的每個模型都提供這些功能。輸入素材、編輯、續寫、聲音與解析度請以所選模型及目前介面為準。先用介面提供的預覽設定檢查構圖、對白與文字，再製作成片。Google API（程式呼叫介面）的規格不等於所選工具的網頁功能。
+
+- 文字轉影片、圖片轉影片、首尾幀、角色/商品參考與短影片參考。
+- 將環境聲、擬音、原創音樂、靜默與對白時間一起設計。
+- 15 種語言的對白、螢幕文字、RTL、斷行與母語審核規則。
+- 使用 `<FIRST_FRAME>`、`<LAST_FRAME>`、`<IMAGE_REF_N>`、`<VIDEO_REF_N>` 的完整範例。
+
+## 全部 60 則提示詞
+
+前 5 個分類的說明為簡體中文，後 2 個為英文；可複製的控制提示詞皆為英文。分類內文尚未完整翻譯成各入口語言。
+
+- [電影與敘事：8 條](prompts/cinematic-storytelling.md)
+- [商業廣告與社群媒體：8 條](prompts/commerce-social.md)
+- [紀錄片、旅行與教育：8 條](prompts/documentary-education.md)
+- [動畫、音樂與娛樂：8 條](prompts/stylized-entertainment.md)
+- [多模態控制、編輯與續寫：10 條](prompts/control-editing-extension.md)
+- [進階編輯、鏡頭與視覺變換：9 條](prompts/advanced-editing-camera.md)
+- [故事板、分割畫面、文字與評測：9 條](prompts/storyboard-text-evaluation.md)
+
+## 指定中文對白
+
+可保留英文鏡頭指令，以中文逐字指定對白與畫面文字。生成後檢查發音、字形及出現時間。
+
+```text
+Spoken language: Mandarin Chinese.
+On-screen script: Traditional Chinese used in Taiwan.
+Exact dialogue at 6s, spoken once: "今天，繞遠一點回家吧。"
+Do not translate, paraphrase, repeat or subtitle it.
+
+Exact on-screen title: "小小旅程"
+Do not convert any character to Simplified Chinese. No other text.
+```
+
+## 延伸閱讀
+
+- [官方與社群案例](docs/community-examples.md)
+- [多語言指南](docs/multilingual-guide.md)
+- [提示詞設計](docs/prompting-guide.md)
+- [參考素材與授權](docs/reference-videos.md)
+
+<a id="brand-tools"></a>
+
+## 從 SeaImagine 開始
 
 ![SeaImagine Gemini Omni 影片提示詞庫](assets/seaimagine-omni-hero.png)
 
 本庫保留 Flaq AI 的 60 條原始配方，並新增三組附原創參考圖的 SeaImagine 練習。本頁可直接閱讀新練習、來源庫範例，以及官方與社群案例的學習說明。
 
 [Gemini Omni](https://seaimagine.com/tw/model/gemini-omni/) · [Gemini Omni 1.1 Flash](https://seaimagine.com/tw/model/gemini-omni-1-1-flash/)
-
-[三個 SeaImagine 原創參考圖練習](#sea-practice) · [三個可複製的範例](#source-examples) · [從官方與社群案例學什麼](#video-studies)
-
-## 從 SeaImagine 開始
 
 1. 開啟模型頁，確認目前是否可用、價格及可調整的設定。
 2. 需要保留商品或人物外觀時，選擇圖片轉影片，上傳一張參考圖並貼上對應提示詞；從零構思場景時，可先試文字轉影片。
@@ -86,143 +233,7 @@ Do not generate any lettering, subtitles, symbols, price, logo, watermark, extra
 
 > 讓日常更從容
 
-<a id="source-examples"></a>
-
-## 三個可複製的範例
-
-圖片沿用原始儲存庫的參考首幀，並非實際影片生成結果。請將對應圖片上傳為 Image1。10 秒及音效是目標要求，請依實際可用設定調整。
-
-### 01 · 商品音箱：水滴節拍
-
-![商品音箱：水滴節拍](assets/product-speaker.png)
-
-```text
-Create a 10-second premium product film from Image1. Use Image1 as the exact starting frame.
-
-[0-3s] Make a slow 20-degree clockwise camera orbit. Suspended droplets travel around the speaker in clean concentric paths, aligned to a deep electronic kick. Preserve the speaker's exact coral color, grille weave and proportions.
-[3-7s] A sunrise reflection sweeps across the copper end cap. On the snare, droplets strike the wet stone and rebound as fine mist.
-[7-10s] All droplets collapse into one crisp splash behind the product, then settle on a steady three-quarter hero frame with negative space on the right.
-
-Audio: original minimal electronic rhythm at 96 BPM, water-drop percussion, distant ocean ambience. No vocals.
-No product morphing, added controls, text, logo, watermark, hands, duplicate product or camera shake.
-```
-
-### 02 · 山稜單車：旅行紀錄片開場
-
-![山稜單車：旅行紀錄片開場](assets/travel-cyclist.png)
-
-```text
-Animate Image1 as a single continuous 10-second documentary tracking shot. Use it as the exact first frame.
-
-The cyclist pedals steadily toward the observatory while the camera follows from the same height. Silver grass bends in two wind gusts, loose gravel reacts under the rear tire, and clouds move slowly below the ridge. At 6s, the first warm sunlight reaches the jacket and observatory dome.
-
-Audio: close tire crunch and chain movement, strong ridge wind, one distant bird at 7s. No music or narration.
-No cuts, drone rise, extra cyclists, landmark text, logo or watermark.
-```
-
-### 03 · 鐘錶匠與紙鳥：手繪動畫故事
-
-![鐘錶匠與紙鳥：手繪動畫故事](assets/clockmaker-story.png)
-
-```text
-Bring this illustration to life in one coherent 10-second animated shot. Use Image1 as the first frame and preserve its watercolor-and-ink direction.
-
-[0-3s] The brass door clicks open and warm light grows inside it. Nearby gears rotate at different believable speeds.
-[3-7s] Paper birds unfold one by one and spiral past the camera with visible paper flex. Tilt upward to follow them through the clock opening.
-[7-10s] The flock crosses the moon; one tiny paper bird lands on the clock hand.
-
-Audio: layered clock ticks, delicate paper folds, wooden gear creaks, then an original celesta motif. No dialogue.
-Keep the clockmaker's face, clothes and goggles consistent. No photorealism, subtitles, logo or watermark.
-```
-
-
-
-<a id="video-studies"></a>
-
-## 從官方與社群案例學什麼
-
-Google 影片是 Omni 1.1 Flash 官方展示，並非 SeaImagine 生成結果。社群貼文發布於 2026 年 5 月，屬於原始 Omni / Flash 案例，未確認為 1.1 實測。社群證據來自 FxTwitter 的文字與媒體中繼資料，未驗證 X 原生播放。功能是否可用，請查看 SeaImagine 介面。
-
-### Google：首尾幀轉場
-
-[查看原始案例](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/sm_KW_omni-flash__capability-video__first-last-frame__16x9_1.mp4)
-
-分別指定起始畫面、結束畫面，以及兩者之間連續的運動。
-
-為同一物件準備兩張角度相容的照片；若支援首尾幀，以一個簡單動作連接兩張圖。
-
-### Google：延長鏡頭
-
-[查看原始案例](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/omni-flash__capability-video__extend-multi-cinematography__16x9_25YzzFv.mp4)
-
-描述下一段鏡頭運動，同時維持主體與運動方向一致。
-
-使用自己的短片；若支援延長，只接續一段動作，檢查接點的運動與光線是否突然改變。
-
-### CHRIS FIRST：人物變成紅鶴
-
-<a href="https://x.com/chrisfirst/status/2056797606509158681"><img src="https://pbs.twimg.com/amplify_video_thumb/2056797343085969408/img/o5L2FQvozlZtiFsK.jpg" alt="CHRIS FIRST：人物變成紅鶴" width="300"></a>
-
-[查看原始案例](https://x.com/chrisfirst/status/2056797606509158681)
-
-替換主體時明確保留服裝和動作，並檢查肢體接觸的位置。
-
-使用自己的影片；若支援影片編輯，只替換一個主體，比較前後的服裝、姿勢與觸地位置。
-
-### Justine Moore：每次拍手換一頂帽子
-
-<a href="https://x.com/venturetwins/status/2056793856843366789"><img src="https://pbs.twimg.com/amplify_video_thumb/2056793760273686528/img/tZQnlGWzgr5wOwnM.jpg" alt="Justine Moore：每次拍手換一頂帽子" width="300"></a>
-
-[查看原始案例](https://x.com/venturetwins/status/2056793856843366789)
-
-以可見動作決定變化時機，同時維持臉孔、服裝和鏡頭一致。
-
-固定攝影機，拍攝兩次清楚的拍手；若支援影片編輯，要求每次拍手換帽，逐格檢查時間點。
-
-[官方與社群案例](docs/community-examples.md)
-
-## 專案內容
-
-以下是提示詞可規劃的內容，不代表 SeaImagine 的每個模型都提供這些功能。輸入素材、編輯、續寫、聲音與解析度請以所選模型及目前介面為準。先用介面提供的預覽設定檢查構圖、對白與文字，再製作成片。Google API（程式呼叫介面）的規格不等於 SeaImagine 的網頁功能。
-
-- 文字轉影片、圖片轉影片、首尾幀、角色/商品參考與短影片參考。
-- 將環境聲、擬音、原創音樂、靜默與對白時間一起設計。
-- 15 種語言的對白、螢幕文字、RTL、斷行與母語審核規則。
-- 使用 `<FIRST_FRAME>`、`<LAST_FRAME>`、`<IMAGE_REF_N>`、`<VIDEO_REF_N>` 的完整範例。
-
-## 全部 60 則提示詞
-
-前 5 個分類的說明為簡體中文，後 2 個為英文；可複製的控制提示詞皆為英文。分類內文尚未完整翻譯成各入口語言。
-
-- [電影與敘事：8 條](prompts/cinematic-storytelling.md)
-- [商業廣告與社群媒體：8 條](prompts/commerce-social.md)
-- [紀錄片、旅行與教育：8 條](prompts/documentary-education.md)
-- [動畫、音樂與娛樂：8 條](prompts/stylized-entertainment.md)
-- [多模態控制、編輯與續寫：10 條](prompts/control-editing-extension.md)
-- [進階編輯、鏡頭與視覺變換：9 條](prompts/advanced-editing-camera.md)
-- [故事板、分割畫面、文字與評測：9 條](prompts/storyboard-text-evaluation.md)
-
-## 指定中文對白
-
-可保留英文鏡頭指令，以中文逐字指定對白與畫面文字。生成後檢查發音、字形及出現時間。
-
-```text
-Spoken language: Mandarin Chinese.
-On-screen script: Traditional Chinese used in Taiwan.
-Exact dialogue at 6s, spoken once: "今天，繞遠一點回家吧。"
-Do not translate, paraphrase, repeat or subtitle it.
-
-Exact on-screen title: "小小旅程"
-Do not convert any character to Simplified Chinese. No other text.
-```
-
-## 延伸閱讀
-
-- [SeaImagine 使用流程](docs/seaimagine-workflow.md)
-- [官方與社群案例](docs/community-examples.md)
-- [多語言指南](docs/multilingual-guide.md)
-- [提示詞設計](docs/prompting-guide.md)
-- [參考素材與授權](docs/reference-videos.md)
+[SeaImagine 使用流程](docs/seaimagine-workflow.md)
 
 ## SeaImagine 其他創作入口
 
